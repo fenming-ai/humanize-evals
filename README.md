@@ -49,15 +49,15 @@ python3 evals.py score --ratings runs/smoke/blind/ratings.json --key runs/smoke/
 | 来源 | 实际用途 | 本仓库收录情况 |
 |---|---|---|
 | [Slopkit](https://github.com/ehmo/slopkit/tree/b33718bb9283c11b09567dc714f92d90ffb7bd16/skills/slopbeth/benchmarks) | 改写输入、事实断言和分类 | 复制88例原始语料并生成适配层；MIT许可保留于data/upstream/slopkit/LICENSE |
-| [Humanizer-zh](https://github.com/op7418/Humanizer-zh) | 参赛规则与中文示例参考 | 未复制源码；已知比较版本91f3d394db8419c20d67ebe22a96cf8fee0a404b |
-| [stop-slop](https://github.com/hardikpandya/stop-slop) | 短语、结构、节奏与示例参考 | 未复制源码；已知比较版本8da1f030185bdfe8471220585162991eaeb970e9 |
-| [Tramstop](https://github.com/alchaincyf/tramstop-skill) | 素材与编辑流程参考 | 未复制源码；已知比较版本2f7808859e260ac9eb79bb3836bce1cd3eb2ba2e |
-| [Humanizer](https://github.com/blader/humanizer) | 参赛规则与事实保留机制参考 | 未复制源码；已知比较版本9862685f575c65a8247f90369951df1b3416e3d6 |
-| [kimhons/humanize](https://github.com/kimhons/humanize) | 英文文风规则扫描参考 | 未复制或作为评分依赖；不直接用于中文排名 |
+| [Humanizer-zh](https://github.com/op7418/Humanizer-zh) | 参赛规则与中文示例参考 | 已收录Markdown规则与示例；版本91f3d394db8419c20d67ebe22a96cf8fee0a404b |
+| [stop-slop](https://github.com/hardikpandya/stop-slop) | 短语、结构、节奏与示例参考 | 已收录Markdown规则与示例；版本8da1f030185bdfe8471220585162991eaeb970e9 |
+| [Tramstop](https://github.com/alchaincyf/tramstop-skill) | 素材与编辑流程参考 | 已收录Markdown规则与示例；版本2f7808859e260ac9eb79bb3836bce1cd3eb2ba2e |
+| [Humanizer](https://github.com/blader/humanizer) | 参赛规则与事实保留机制参考 | 已收录Markdown规则与示例；版本9862685f575c65a8247f90369951df1b3416e3d6 |
+| [kimhons/humanize](https://github.com/kimhons/humanize) | 英文文风规则扫描参考 | 已收录Markdown参考与许可，不作为评分依赖，不直接用于中文排名 |
 | [C-ReD](https://github.com/HeraldofLight/C-ReD) | 中文人类/机器来源检测语料参考 | 未下载；来源识别不等于编辑质量 |
 | [Fast-DetectGPT](https://github.com/baoguangsheng/fast-detect-gpt) | 机器文本来源检测方法参考 | 未部署、未复制；不作为唯一质量判据 |
 
-仅Slopkit语料实际复制；其他来源仅链接和方法参考，不暗示其作者认可本仓库。后续复制第三方文件必须逐项核对许可、保留署名与版本。Skill教学例已被规则使用，不能标为未见测试。自有参赛规则由本地private/加载，不上传内部快照。
+初版仅复制Slopkit；本轮进一步复制公开规则与教学示例，最新明细以[data/sources.json](data/sources.json)为准，不暗示其作者认可本仓库。后续复制第三方文件必须逐项核对许可、保留署名与版本。Skill教学例已被规则使用，不能标为未见测试。自有参赛规则由本地private/加载，不上传内部快照。
 
 ## 数据边界与局限
 
@@ -68,3 +68,7 @@ python3 evals.py score --ratings runs/smoke/blind/ratings.json --key runs/smoke/
 ## 多账号Git环境
 
 若全局URL重写影响认证，可对当前命令设置`GIT_CONFIG_GLOBAL=/dev/null`并从环境显式提供目标账号凭证，使用仓库级凭证助手。不要把Token写进remote URL、命令参数或仓库文件；不要打印完整Git配置用于诊断。
+
+## 来源清点
+
+8个仓库的版本、可用数据路径、许可判断和51个实际复制文件见[data/sources.json](data/sources.json)。data/reference/保留上游原始字节与许可证；案例、供应方输出、评分历史不能混算数量。C-ReD缺少明确许可，Fast-DetectGPT第三方数据许可尚未逐项核对，二者仅登记路径未复制正文。

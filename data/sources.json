@@ -1,0 +1,451 @@
+[
+  {
+    "repo": "https://github.com/HeraldofLight/C-ReD",
+    "revision": "b90072cd218b6ebdbd1d1478ce6e439677f18192",
+    "license_api": null,
+    "role": "reference",
+    "decision": "未发现LICENSE文件且README未声明数据复用许可；仅登记50个CSV文件，不复制正文。README自报128610条，尚未读取CSV核实。",
+    "available_data_files": [
+      "benchmark data/composition/CReD_composition_claude-3.5-haiku.csv",
+      "benchmark data/composition/CReD_composition_deepseek-r1.csv",
+      "benchmark data/composition/CReD_composition_deepseek-v3.csv",
+      "benchmark data/composition/CReD_composition_doubao-1.5-pro.csv",
+      "benchmark data/composition/CReD_composition_gemini-2.5-flash.csv",
+      "benchmark data/composition/CReD_composition_gpt-3.5-turbo.csv",
+      "benchmark data/composition/CReD_composition_gpt-4o.csv",
+      "benchmark data/composition/CReD_composition_human.csv",
+      "benchmark data/composition/CReD_composition_qwen-2.5.csv",
+      "benchmark data/composition/CReD_composition_qwen-3.csv",
+      "benchmark data/film review/CReD_film_review_claude-3.5-haiku.csv",
+      "benchmark data/film review/CReD_film_review_deepseek-r1.csv",
+      "benchmark data/film review/CReD_film_review_deepseek-v3.csv",
+      "benchmark data/film review/CReD_film_review_doubao-1.5-pro.csv",
+      "benchmark data/film review/CReD_film_review_gemini-2.5-flash.csv",
+      "benchmark data/film review/CReD_film_review_gpt-3.5-turbo.csv",
+      "benchmark data/film review/CReD_film_review_gpt-4o.csv",
+      "benchmark data/film review/CReD_film_review_human.csv",
+      "benchmark data/film review/CReD_film_review_qwen-2.5.csv",
+      "benchmark data/film review/CReD_film_review_qwen-3.csv",
+      "benchmark data/news/CReD_news_claude-3.5-haiku.csv",
+      "benchmark data/news/CReD_news_deepseek-r1.csv",
+      "benchmark data/news/CReD_news_deepseek-v3.csv",
+      "benchmark data/news/CReD_news_doubao-1.5-pro.csv",
+      "benchmark data/news/CReD_news_gemini-2.5-flash.csv",
+      "benchmark data/news/CReD_news_gpt-3.5-turbo.csv",
+      "benchmark data/news/CReD_news_gpt-4o.csv",
+      "benchmark data/news/CReD_news_human.csv",
+      "benchmark data/news/CReD_news_qwen-2.5.csv",
+      "benchmark data/news/CReD_news_qwen-3.csv",
+      "benchmark data/paper/CReD_paper_claude-3.5-haiku.csv",
+      "benchmark data/paper/CReD_paper_deepseek-r1.csv",
+      "benchmark data/paper/CReD_paper_deepseek-v3.csv",
+      "benchmark data/paper/CReD_paper_doubao-1.5-pro.csv",
+      "benchmark data/paper/CReD_paper_gemini-2.5-flash.csv",
+      "benchmark data/paper/CReD_paper_gpt-3.5-turbo.csv",
+      "benchmark data/paper/CReD_paper_gpt-4o.csv",
+      "benchmark data/paper/CReD_paper_human.csv",
+      "benchmark data/paper/CReD_paper_qwen-2.5.csv",
+      "benchmark data/paper/CReD_paper_qwen-3.csv",
+      "benchmark data/question answer/CReD_question_answer_claude-3.5-haiku.csv",
+      "benchmark data/question answer/CReD_question_answer_deepseek-r1.csv",
+      "benchmark data/question answer/CReD_question_answer_deepseek-v3.csv",
+      "benchmark data/question answer/CReD_question_answer_doubao-1.5-pro.csv",
+      "benchmark data/question answer/CReD_question_answer_gemini-2.5-flash.csv",
+      "benchmark data/question answer/CReD_question_answer_gpt-3.5-turbo.csv",
+      "benchmark data/question answer/CReD_question_answer_gpt-4o.csv",
+      "benchmark data/question answer/CReD_question_answer_human.csv",
+      "benchmark data/question answer/CReD_question_answer_qwen-2.5.csv",
+      "benchmark data/question answer/CReD_question_answer_qwen-3.csv"
+    ],
+    "imported_files": []
+  },
+  {
+    "repo": "https://github.com/alchaincyf/tramstop-skill",
+    "revision": "2f7808859e260ac9eb79bb3836bce1cd3eb2ba2e",
+    "license_api": "MIT",
+    "role": "reference",
+    "decision": "复制全部Markdown写作说明、规则与示例，归类教学参考；不作为未见验收集。",
+    "available_data_files": [],
+    "imported_files": [
+      {
+        "path": "data/reference/tramstop-skill/LICENSE",
+        "sha256": "0d42df9f8e8f49debfe0b33187a2f9d6fe78b6c376a299c1dad681c796e9b202",
+        "bytes": 1076
+      },
+      {
+        "path": "data/reference/tramstop-skill/README.md",
+        "sha256": "c670f6d3430a39e7c357732820e1dfd662bc5f07c1f4b20f1919d5c78ecf7e13",
+        "bytes": 6483
+      },
+      {
+        "path": "data/reference/tramstop-skill/SKILL.md",
+        "sha256": "f26bc10dd19f84853ce53f076d792e411b38ca6ac7578472aa45e69dc78d2c8b",
+        "bytes": 7091
+      },
+      {
+        "path": "data/reference/tramstop-skill/references/checklist.md",
+        "sha256": "38aa9124c543d7a905e14f173f10870654a94e45a5840c942276d55d89a60580",
+        "bytes": 5115
+      },
+      {
+        "path": "data/reference/tramstop-skill/references/evidence.md",
+        "sha256": "b035be808cf87052fd2e105c0b9eca0e696dac6ce7ca08604f5a43893a6a6a4c",
+        "bytes": 4758
+      }
+    ]
+  },
+  {
+    "repo": "https://github.com/baoguangsheng/fast-detect-gpt",
+    "revision": "971b05202bac2bb504d60c0ac0812fea7a8f7c82",
+    "license_api": "MIT",
+    "role": "reference",
+    "decision": "仓库MIT代码许可已识别；原始实验数据来自多个第三方语料，未逐一确认数据再分发许可，仅登记raw_data路径，不复制数据正文。",
+    "available_data_files": [
+      "exp_gpt3to4/data/pubmed_davinci.raw_data.json",
+      "exp_gpt3to4/data/pubmed_gpt-3.5-turbo.raw_data.json",
+      "exp_gpt3to4/data/pubmed_gpt-4.raw_data.json",
+      "exp_gpt3to4/data/writing_davinci.raw_data.json",
+      "exp_gpt3to4/data/writing_gpt-3.5-turbo.raw_data.json",
+      "exp_gpt3to4/data/writing_gpt-4.raw_data.json",
+      "exp_gpt3to4/data/xsum_davinci.raw_data.json",
+      "exp_gpt3to4/data/xsum_gpt-3.5-turbo.raw_data.json",
+      "exp_gpt3to4/data/xsum_gpt-4.raw_data.json",
+      "exp_main/data/squad_gpt-j-6B.raw_data.json",
+      "exp_main/data/squad_gpt-neo-2.7B.raw_data.json",
+      "exp_main/data/squad_gpt-neox-20b.raw_data.json",
+      "exp_main/data/squad_gpt2-xl.raw_data.json",
+      "exp_main/data/squad_opt-2.7b.raw_data.json",
+      "exp_main/data/writing_gpt-j-6B.raw_data.json",
+      "exp_main/data/writing_gpt-neo-2.7B.raw_data.json",
+      "exp_main/data/writing_gpt-neox-20b.raw_data.json",
+      "exp_main/data/writing_gpt2-xl.raw_data.json",
+      "exp_main/data/writing_opt-2.7b.raw_data.json",
+      "exp_main/data/xsum_gpt-j-6B.raw_data.json",
+      "exp_main/data/xsum_gpt-neo-2.7B.raw_data.json",
+      "exp_main/data/xsum_gpt-neox-20b.raw_data.json",
+      "exp_main/data/xsum_gpt2-xl.raw_data.json",
+      "exp_main/data/xsum_opt-2.7b.raw_data.json"
+    ],
+    "imported_files": []
+  },
+  {
+    "repo": "https://github.com/blader/humanizer",
+    "revision": "9862685f575c65a8247f90369951df1b3416e3d6",
+    "license_api": "MIT",
+    "role": "reference",
+    "decision": "复制全部Markdown写作说明、规则与示例，归类教学参考；不作为未见验收集。",
+    "available_data_files": [],
+    "imported_files": [
+      {
+        "path": "data/reference/humanizer/LICENSE",
+        "sha256": "4ac4810254ab36d45419141aeb8e69bf50652cfafe5b2dab947d06d44e5cbf96",
+        "bytes": 1066
+      },
+      {
+        "path": "data/reference/humanizer/README.md",
+        "sha256": "d546538831ce8423587208d4a86dbe2be1f1f63445505d284dc558e6de86dac0",
+        "bytes": 16147
+      },
+      {
+        "path": "data/reference/humanizer/SKILL.md",
+        "sha256": "e8269e236bed06ed0fe4824c274112e54950b0cb46b0bafe5e1576ef7c9f93d5",
+        "bytes": 28728
+      }
+    ]
+  },
+  {
+    "repo": "https://github.com/ehmo/slopkit",
+    "revision": "b33718bb9283c11b09567dc714f92d90ffb7bd16",
+    "license_api": "MIT",
+    "role": "raw_benchmarks",
+    "decision": "完整复制skills目录下两套写作基准的JSONL和说明；plugins镜像不重复复制。供应方评分只作历史参考。",
+    "available_data_files": [
+      "plugins/slopbeth/skills/slopbeth/benchmarks/benchmark-v2.jsonl",
+      "plugins/slopbeth/skills/slopbeth/benchmarks/competitor-agent-runs-v1.jsonl",
+      "plugins/slopbeth/skills/slopbeth/benchmarks/competitor-output-runs-v1.jsonl",
+      "plugins/slopbeth/skills/slopbeth/benchmarks/false-positive-tracker-v1.jsonl",
+      "plugins/slopbeth/skills/slopbeth/benchmarks/independent-judge-rows-v2.jsonl",
+      "plugins/slopbeth/skills/slopbeth/benchmarks/orwell-writing-system-v1.jsonl",
+      "plugins/slopbeth/skills/slopbeth/benchmarks/span-annotations-v1.jsonl",
+      "plugins/slopgent/skills/slopgent/benchmarks/corpus.jsonl",
+      "plugins/slopgent/skills/slopgent/benchmarks/corpus_gates.jsonl",
+      "plugins/slopgent/skills/slopgent/benchmarks/decoys.jsonl",
+      "plugins/slopgent/skills/slopgent/benchmarks/judge/gates/gate_judge_1.jsonl",
+      "plugins/slopgent/skills/slopgent/benchmarks/judge/gates/gate_judge_2.jsonl",
+      "plugins/slopgent/skills/slopgent/benchmarks/judge/gates/gate_judge_3.jsonl",
+      "plugins/slopgent/skills/slopgent/benchmarks/judge/judge_1.jsonl",
+      "plugins/slopgent/skills/slopgent/benchmarks/judge/judge_2.jsonl",
+      "plugins/slopgent/skills/slopgent/benchmarks/judge/judge_3.jsonl",
+      "plugins/slopgent/skills/slopgent/benchmarks/judge/v1_12case/judge_1.jsonl",
+      "plugins/slopgent/skills/slopgent/benchmarks/judge/v1_12case/judge_2.jsonl",
+      "plugins/slopgent/skills/slopgent/benchmarks/judge/v1_12case/judge_3.jsonl",
+      "skills/slopbeth/benchmarks/benchmark-v2.jsonl",
+      "skills/slopbeth/benchmarks/competitor-agent-runs-v1.jsonl",
+      "skills/slopbeth/benchmarks/competitor-output-runs-v1.jsonl",
+      "skills/slopbeth/benchmarks/false-positive-tracker-v1.jsonl",
+      "skills/slopbeth/benchmarks/independent-judge-rows-v2.jsonl",
+      "skills/slopbeth/benchmarks/orwell-writing-system-v1.jsonl",
+      "skills/slopbeth/benchmarks/span-annotations-v1.jsonl",
+      "skills/slopgent/benchmarks/corpus.jsonl",
+      "skills/slopgent/benchmarks/corpus_gates.jsonl",
+      "skills/slopgent/benchmarks/decoys.jsonl",
+      "skills/slopgent/benchmarks/judge/gates/gate_judge_1.jsonl",
+      "skills/slopgent/benchmarks/judge/gates/gate_judge_2.jsonl",
+      "skills/slopgent/benchmarks/judge/gates/gate_judge_3.jsonl",
+      "skills/slopgent/benchmarks/judge/judge_1.jsonl",
+      "skills/slopgent/benchmarks/judge/judge_2.jsonl",
+      "skills/slopgent/benchmarks/judge/judge_3.jsonl",
+      "skills/slopgent/benchmarks/judge/v1_12case/judge_1.jsonl",
+      "skills/slopgent/benchmarks/judge/v1_12case/judge_2.jsonl",
+      "skills/slopgent/benchmarks/judge/v1_12case/judge_3.jsonl"
+    ],
+    "imported_files": [
+      {
+        "path": "data/reference/slopkit/LICENSE",
+        "sha256": "ba584ba2141da725c7d2ad36233763a1b6e859e66cdfc7e7f3c1c93868d95c6b",
+        "bytes": 1061
+      },
+      {
+        "path": "data/reference/slopkit/skills/slopbeth/benchmarks/README.md",
+        "sha256": "248e512e63f5ad54b7c4252d31ed4dc8e3bc68d0a1f703aec5626cc0d9f69293",
+        "bytes": 1720
+      },
+      {
+        "path": "data/reference/slopkit/skills/slopbeth/benchmarks/benchmark-v2.jsonl",
+        "sha256": "24c999aa71a806a860c1279b18bb7460bb7828092a22a1a82969195fdd0355ba",
+        "bytes": 75558
+      },
+      {
+        "path": "data/reference/slopkit/skills/slopbeth/benchmarks/competitor-agent-runs-v1.jsonl",
+        "sha256": "b515fcb534271c39956b3b83ccf9a608283bac04b95f9e1a52b653db8a16df8f",
+        "bytes": 32491
+      },
+      {
+        "path": "data/reference/slopkit/skills/slopbeth/benchmarks/competitor-matrix-v2.md",
+        "sha256": "7cdb61caddf31d0c6ca88427a8d3800f790b627b895943457916d4b9a8fb852a",
+        "bytes": 3864
+      },
+      {
+        "path": "data/reference/slopkit/skills/slopbeth/benchmarks/competitor-output-runs-v1.jsonl",
+        "sha256": "ee3de6e627021e799fc2d679caf5ec2f724bc8c54d76ab74b2d7f3fea954e47e",
+        "bytes": 8511
+      },
+      {
+        "path": "data/reference/slopkit/skills/slopbeth/benchmarks/false-positive-tracker-v1.jsonl",
+        "sha256": "242857a62a08bce88cb05c7989fdc84047593066b70941cbad529c0dcecc34e9",
+        "bytes": 4023
+      },
+      {
+        "path": "data/reference/slopkit/skills/slopbeth/benchmarks/independent-judge-rows-v2.jsonl",
+        "sha256": "3bc05721fd24865ecc55ddb0b1cf37ceab25a1493f59569539282ac3deb1eb41",
+        "bytes": 91712
+      },
+      {
+        "path": "data/reference/slopkit/skills/slopbeth/benchmarks/orwell-writing-system-v1.jsonl",
+        "sha256": "82c7a07e9e1688b82f208eaf3069e27aac19a65f1c45fa1750121634996ae67b",
+        "bytes": 8493
+      },
+      {
+        "path": "data/reference/slopkit/skills/slopbeth/benchmarks/public-detector-panel-v1.md",
+        "sha256": "3d9a5ea4487c48365fb0812a06f524de03e179ba411b464e916367979976e15b",
+        "bytes": 1223
+      },
+      {
+        "path": "data/reference/slopkit/skills/slopbeth/benchmarks/score-snapshot.md",
+        "sha256": "188d19b1096ba4c877ae2e96e52eafbc03ed002cdcb7d0d43cd33d23749cb73f",
+        "bytes": 4242
+      },
+      {
+        "path": "data/reference/slopkit/skills/slopbeth/benchmarks/span-annotations-v1.jsonl",
+        "sha256": "2546c36165e8220e425f77d440cfabe128ef726b804e2f29938475367e56fa71",
+        "bytes": 6454
+      },
+      {
+        "path": "data/reference/slopkit/skills/slopgent/benchmarks/README.md",
+        "sha256": "fbad8ce8c73fef39a0ace4753e590f095617c4ea4dfb2d2207f76159aea7c445",
+        "bytes": 15995
+      },
+      {
+        "path": "data/reference/slopkit/skills/slopgent/benchmarks/corpus.jsonl",
+        "sha256": "550b9eb6eb2048639fed76ce06c89efac7778bbbcc8686a2af15fc45b150cfde",
+        "bytes": 18411
+      },
+      {
+        "path": "data/reference/slopkit/skills/slopgent/benchmarks/corpus_gates.jsonl",
+        "sha256": "be5ad5ab0807681ea46c14b384132ec8dd744452535e968ef1e766490fb01ab7",
+        "bytes": 13344
+      },
+      {
+        "path": "data/reference/slopkit/skills/slopgent/benchmarks/decoys.jsonl",
+        "sha256": "c1bbb130b0f3127cc9d7f041fcaf3d1aa92d24da24891ddb3721391250bba566",
+        "bytes": 4728
+      },
+      {
+        "path": "data/reference/slopkit/skills/slopgent/benchmarks/judge/gates/gate_judge_1.jsonl",
+        "sha256": "a1136baef222b8cc1fbe75e65e1ed5fd517833bb2fc639639d9f8d8ef125b678",
+        "bytes": 4614
+      },
+      {
+        "path": "data/reference/slopkit/skills/slopgent/benchmarks/judge/gates/gate_judge_2.jsonl",
+        "sha256": "9a9ce2f345c83f054621d53c75d07bed5a8dba2d850d3902005b3b61dac640cc",
+        "bytes": 4526
+      },
+      {
+        "path": "data/reference/slopkit/skills/slopgent/benchmarks/judge/gates/gate_judge_3.jsonl",
+        "sha256": "db1f3e2be8161a6e4470439191ddac5399fd1ee4ba8702b899ec1c93464c406b",
+        "bytes": 5438
+      },
+      {
+        "path": "data/reference/slopkit/skills/slopgent/benchmarks/judge/gates/gate_packet.md",
+        "sha256": "977c9fd85847ccfb43d4141edbbe89e2eaba0508fbf6b2d6d2328c649cd7e954",
+        "bytes": 13349
+      },
+      {
+        "path": "data/reference/slopkit/skills/slopgent/benchmarks/judge/judge_1.jsonl",
+        "sha256": "2f8c3f3e6efad84b61e93eb1d09877186f9cbf62049ab55b54547e38f9981350",
+        "bytes": 5189
+      },
+      {
+        "path": "data/reference/slopkit/skills/slopgent/benchmarks/judge/judge_2.jsonl",
+        "sha256": "033860524c454b2c74a02cf7dec79624b75bddc8c32e84db5af53cbf5bda13ea",
+        "bytes": 5583
+      },
+      {
+        "path": "data/reference/slopkit/skills/slopgent/benchmarks/judge/judge_3.jsonl",
+        "sha256": "64e7c3ccf76950047a5c945ad7a9dae1ff2cf6a363d962e2485d55b034164f2f",
+        "bytes": 6144
+      },
+      {
+        "path": "data/reference/slopkit/skills/slopgent/benchmarks/judge/judge_packet.md",
+        "sha256": "8e869f1b1475fa530162fb00cb4d652b97e36b0dc9126ce150e682db732c979d",
+        "bytes": 14061
+      },
+      {
+        "path": "data/reference/slopkit/skills/slopgent/benchmarks/judge/v1_12case/judge_1.jsonl",
+        "sha256": "23590a350516123297124e9bd955f84a2c9067d49c89133025a09ca2876eb2da",
+        "bytes": 4684
+      },
+      {
+        "path": "data/reference/slopkit/skills/slopgent/benchmarks/judge/v1_12case/judge_2.jsonl",
+        "sha256": "ef3a43de76765441280d6d5d82e869b09d4ad1d1a731ce3bbdcd612b493bcd5d",
+        "bytes": 4512
+      },
+      {
+        "path": "data/reference/slopkit/skills/slopgent/benchmarks/judge/v1_12case/judge_3.jsonl",
+        "sha256": "60f862e794846c1ad6ed3cbc2ca3164ae6cfa548ede19d8e50f9eb46863b521b",
+        "bytes": 5176
+      },
+      {
+        "path": "data/reference/slopkit/skills/slopgent/benchmarks/judge/v1_12case/judge_packet.md",
+        "sha256": "d1116580fedcf9b552cc215a1ff2cd48454ae4027f1f2a07457aa3ae4844db20",
+        "bytes": 10165
+      },
+      {
+        "path": "data/reference/slopkit/skills/slopgent/benchmarks/time-estimation-survey.md",
+        "sha256": "c9be7baf6e589de5e9318852da7c7ff07494035a64eb5c556c7263dd20257c99",
+        "bytes": 5734
+      }
+    ]
+  },
+  {
+    "repo": "https://github.com/hardikpandya/stop-slop",
+    "revision": "8da1f030185bdfe8471220585162991eaeb970e9",
+    "license_api": "MIT",
+    "role": "reference",
+    "decision": "复制全部Markdown写作说明、规则与示例，归类教学参考；不作为未见验收集。",
+    "available_data_files": [],
+    "imported_files": [
+      {
+        "path": "data/reference/stop-slop/CHANGELOG.md",
+        "sha256": "fe2f1484ef02abf22efc09def89bac186a2235831fd0da13d4895edb19cc6dd0",
+        "bytes": 895
+      },
+      {
+        "path": "data/reference/stop-slop/LICENSE",
+        "sha256": "2e2b2beaf41cc0ce28485455a62aed81777cdcdf68702e142427aef1cd720f2c",
+        "bytes": 1070
+      },
+      {
+        "path": "data/reference/stop-slop/README.md",
+        "sha256": "d5c699e712e62d286aa4314e6b4ba02cde7a9da36ce56102660f98d1a8ceebba",
+        "bytes": 1894
+      },
+      {
+        "path": "data/reference/stop-slop/SKILL.md",
+        "sha256": "7432a1d9ebdd42b27666da8458af252edf549f723fb14bcd4791425103930310",
+        "bytes": 2629
+      },
+      {
+        "path": "data/reference/stop-slop/references/examples.md",
+        "sha256": "49c592899eb4457f95d0767e15e3143569e2cef50f2927c3174e62432984cd3d",
+        "bytes": 1686
+      },
+      {
+        "path": "data/reference/stop-slop/references/phrases.md",
+        "sha256": "4ca1b7e97123b5c67eff3dc97e5e977332e0b24021265c1553888a93ec33fa93",
+        "bytes": 2915
+      },
+      {
+        "path": "data/reference/stop-slop/references/structures.md",
+        "sha256": "ffbf1316c7fb5aaf552de005609a64a9639b546ecd76bfb0e482864d5bbe6f58",
+        "bytes": 5255
+      }
+    ]
+  },
+  {
+    "repo": "https://github.com/kimhons/humanize",
+    "revision": "6ea4a2aa4b1abc4d62ba9d9bf65a2d408cf57af9",
+    "license_api": "NOASSERTION",
+    "role": "reference",
+    "decision": "已读LICENSE确认MIT及上游CC BY-SA 4.0溯源，保留完整声明；Markdown示例仅作教学参考。",
+    "available_data_files": [],
+    "imported_files": [
+      {
+        "path": "data/reference/humanize/DETECTION_ROBUSTNESS.md",
+        "sha256": "8c53243392e703dbe11676145565ced2b7ceac4e5961198ff25530fa412ecbc7",
+        "bytes": 13933
+      },
+      {
+        "path": "data/reference/humanize/LICENSE",
+        "sha256": "c981eac8a513d3abc0e1d8b043de07b3c089fb6a17345dea269fb80043dd373a",
+        "bytes": 1668
+      },
+      {
+        "path": "data/reference/humanize/README.md",
+        "sha256": "d65589a1704ea4b7092a08a46c0f9132aed513abb35588c9d986f41589e223f9",
+        "bytes": 6401
+      },
+      {
+        "path": "data/reference/humanize/SKILL.md",
+        "sha256": "4f0fcc6e78c95407e8763ab203c04e9c3fabc72d8f633befe52eb57e441c13a5",
+        "bytes": 12747
+      }
+    ],
+    "license_verified": "MIT with upstream CC BY-SA 4.0 attribution notice retained"
+  },
+  {
+    "repo": "https://github.com/op7418/Humanizer-zh",
+    "revision": "91f3d394db8419c20d67ebe22a96cf8fee0a404b",
+    "license_api": "MIT",
+    "role": "reference",
+    "decision": "复制全部Markdown写作说明、规则与示例，归类教学参考；不作为未见验收集。",
+    "available_data_files": [],
+    "imported_files": [
+      {
+        "path": "data/reference/humanizer-zh/LICENSE",
+        "sha256": "aa00e74769e1b9d8e7fa7094dbfcca9b129a0ded6dce1cf4da050b99146d2fa7",
+        "bytes": 1063
+      },
+      {
+        "path": "data/reference/humanizer-zh/README.md",
+        "sha256": "60cd3ed8b4753837ca8f8fcebf6076a38591a269d91ea1791aa7448e5a1b1b58",
+        "bytes": 7799
+      },
+      {
+        "path": "data/reference/humanizer-zh/SKILL.md",
+        "sha256": "e0edbdbc9008644263d5573fb59beac95794e188fd99c35012bfd79e9ae4beeb",
+        "bytes": 18898
+      }
+    ]
+  }
+]
