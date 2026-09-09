@@ -64,3 +64,7 @@ python3 evals.py score --ratings runs/smoke/blind/ratings.json --key runs/smoke/
 原始公开语料SHA256及版本见[data来源记录](data/upstream/slopkit/source.json)。全部案例范围见[data说明](data/README.md)。原始参考答案不是唯一正确答案，供应方字面断言会误报同义改写；禁止拿字串通过率冒充语义准确率。私人会话、真实作者草稿和原始调用日志不在仓库中。
 
 首版不提供训练、在线服务、模型账号配置或检测器概率，不自动修改参赛Skill、不发布文章。尚未运行新的模型PK，也未实现置信区间、跨模型实验和长文专项榜。
+
+## 多账号Git环境
+
+若全局URL重写影响认证，可对当前命令设置`GIT_CONFIG_GLOBAL=/dev/null`并从环境显式提供目标账号凭证，使用仓库级凭证助手。不要把Token写进remote URL、命令参数或仓库文件；不要打印完整Git配置用于诊断。
