@@ -1,0 +1,57 @@
+{
+  "cases": [
+    {
+      "id": "zh2-no_edit-q041",
+      "approve": true,
+      "reason": "原文完整，披露渠道、整改主体及机构数量均忠实。"
+    },
+    {
+      "id": "zh2-no_edit-q042",
+      "approve": true,
+      "reason": "年份、名额和待遇边界保留准确，符合历史消息口径。"
+    },
+    {
+      "id": "zh2-no_edit-q044",
+      "approve": true,
+      "reason": "引语来源与人物立场准确，未将转述升级为事实。"
+    },
+    {
+      "id": "zh2-no_edit-q045",
+      "approve": true,
+      "reason": "政策情态与作者判断区分明确，保留要求合理。"
+    },
+    {
+      "id": "zh2-no_edit-q046",
+      "approve": true,
+      "reason": "短讯完整，活动信息与人物笑谈均有原文依据。"
+    },
+    {
+      "id": "zh2-no_edit-q049",
+      "approve": true,
+      "reason": "风险措施、筹备时间及待上市状态均准确。"
+    },
+    {
+      "id": "zh2-no_edit-q050",
+      "approve": true,
+      "reason": "招生数字、主体及五项要求准确，并列句式无需强改。"
+    }
+  ],
+  "metadata": {
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 28.27,
+    "input_sha256": "2559daebe9f4cbd3cff30b68e345f87f22a583586843794f3ba1a26a3e5489ad",
+    "system_sha256": "0c41b551a96d085bbc3597749915f67732aa702736eddffdb625f85696aded81",
+    "usage": [
+      {
+        "input_tokens": 19115,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 347,
+        "reasoning_output_tokens": 105
+      }
+    ],
+    "review_type": "independent_context_model_review",
+    "human_review": false
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "cases": [
+    {
+      "id": "zh2-voice_emotion-r016",
+      "suitable": true,
+      "reason": "提速叙述与受访者惊讶鲜明",
+      "task": "面向财经读者整理报道，保留提速感与审慎判断；可压缩重复，不删关键条件。",
+      "audience": "财经读者",
+      "must_preserve": [
+        {
+          "quote": "短短3日内，证监会就连批6只基金",
+          "requirement": "保留三日六只及维稳意图属原文判断"
+        },
+        {
+          "quote": "回复速度如此之快，大大出乎我们的意料。",
+          "requirement": "保留受访者惊讶，不改成记者亲历"
+        },
+        {
+          "quote": "更多的是对于市场信心的提振",
+          "requirement": "保留条件性规模估算及实质推动有限"
+        }
+      ],
+      "voice_quote": "监管部门一定是“加班加点”进行回复",
+      "voice": "报道节奏紧迫，引语惊讶而结论克制",
+      "allowed_changes": [
+        "压缩重复的三日获批叙述",
+        "修正局部病句，保留推测归属"
+      ],
+      "failure_conditions": [
+        "把维稳意图写成证监会公开表态",
+        "把20亿到30亿元写成已募集金额"
+      ],
+      "scoring_note": "易把提速感改成政策颂扬，或丢失受访者判断边界。"
+    },
+    {
+      "id": "zh2-voice_emotion-r017",
+      "suitable": true,
+      "reason": "赞许与末段失误的惋惜交织",
+      "task": "面向高尔夫读者精简赛况，保留赞许与惋惜；可删重复成绩，不省略结果及关键转折。",
+      "audience": "高尔夫赛事读者",
+      "must_preserve": [
+        {
+          "quote": "以281杆(-7)的总成绩获得并列第16名",
+          "requirement": "保留梁文冲总成绩及并列名次"
+        },
+        {
+          "quote": "可惜，他在最后时刻没有保住优势",
+          "requirement": "保留16、18洞柏忌及惋惜，不暗示丢冠"
+        },
+        {
+          "quote": "同时也将本赛季的欧巡赛奖金王收入囊中",
+          "requirement": "保留维斯特伍德夺冠兼获奖金王"
+        }
+      ],
+      "voice_quote": "给自己本赛季的欧巡赛画上了一个美好的句号",
+      "voice": "肯定梁文冲表现，夹带适度惋惜",
+      "allowed_changes": [
+        "合并重复成绩与名次",
+        "整理逐洞叙述，删冗余连接词"
+      ],
+      "failure_conditions": [
+        "将梁文冲并列第16名改成独占第16名",
+        "把整体肯定改成对梁文冲失利的嘲讽"
+      ],
+      "scoring_note": "易为客观化删掉赞许，或把局部惋惜扩大成全场失败。"
+    },
+    {
+      "id": "zh2-voice_emotion-r018",
+      "suitable": true,
+      "reason": "风险警示与有限参与形成语气张力",
+      "task": "面向投资读者去重整理历史研判，保留警示及建议限度；可删重复块，不补行情或证据。",
+      "audience": "投资研报读者",
+      "must_preserve": [
+        {
+          "quote": "将有望再超5亿吨并较上年略增",
+          "requirement": "保留2010年粮食预测，不改成已证实"
+        },
+        {
+          "quote": "该速度远超需求增速(2%)的水平",
+          "requirement": "保留委员会预测增产15%对比需求2%"
+        },
+        {
+          "quote": "我们建议投资者继续适度规避农业股",
+          "requirement": "保留十二个月期限、有限主题参与及荐股"
+        }
+      ],
+      "voice_quote": "这意味着棉价已存暴跌风险",
+      "voice": "机构研判口吻，警示强但建议有保留",
+      "allowed_changes": [
+        "删除整块重复及重复导语",
+        "整理标题、署名和建议层级"
+      ],
+      "failure_conditions": [
+        "把棉价暴跌风险改成必然暴跌",
+        "把适度规避改成清仓所有农业股"
+      ],
+      "scoring_note": "易把强烈风险措辞等同确定预测；去重不应抹平判断。"
+    },
+    {
+      "id": "zh2-voice_emotion-r019",
+      "suitable": false,
+      "reason": "以招生统计为主，独特声音不足",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-voice_emotion-r020",
+      "suitable": false,
+      "reason": "核心为种族辱骂教程，不宜强保留",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    }
+  ],
+  "metadata": {
+    "job": "voice_fill-01",
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 49.51,
+    "system_sha256": "2c85943d84beabe7f1c8a64f793323c3fb90f4110f4f66ac756b1b69b3faf06e",
+    "input_sha256": "ced446cd8de4104e069767866bfdce54d2c7685fab8ce11f712f25267987f533",
+    "usage": [
+      {
+        "input_tokens": 18396,
+        "cached_input_tokens": 10368,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1268,
+        "reasoning_output_tokens": 224
+      }
+    ],
+    "review_type": "model_annotation",
+    "human_review": false
+  }
+}

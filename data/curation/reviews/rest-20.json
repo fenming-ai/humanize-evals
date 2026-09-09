@@ -1,0 +1,67 @@
+{
+  "cases": [
+    {
+      "id": "zh2-facts-093",
+      "approve": true,
+      "reason": "引文准确，期限、数据及预测边界忠实原文。"
+    },
+    {
+      "id": "zh2-facts-095",
+      "approve": true,
+      "reason": "审批状态、投资条件与配置比例均有原文依据。"
+    },
+    {
+      "id": "zh2-facts-096",
+      "approve": true,
+      "reason": "历史时间、结束状态及信息效力边界保留恰当。"
+    },
+    {
+      "id": "zh2-facts-097",
+      "approve": true,
+      "reason": "明确区分政府指控、待裁决事项及条件推测。"
+    },
+    {
+      "id": "zh2-facts-098",
+      "approve": true,
+      "reason": "项目差异、消耗范围和风险限制均忠实原文。"
+    },
+    {
+      "id": "zh2-facts-099",
+      "approve": true,
+      "reason": "合约口径、归因主体及预测限定准确。"
+    },
+    {
+      "id": "zh2-facts-100",
+      "approve": true,
+      "reason": "方法、实验指标及适用边界准确，失败条件合理。"
+    },
+    {
+      "id": "zh2-voice_emotion-015",
+      "approve": true,
+      "reason": "观望语气与结尾推测有据，允许修正明显笔误。"
+    },
+    {
+      "id": "zh2-voice_emotion-016",
+      "approve": true,
+      "reason": "正反例与劝勉情绪有据，修辞保留要求符合任务。"
+    }
+  ],
+  "metadata": {
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 33.87,
+    "input_sha256": "2c17b2515d8abcf5d85e82d4ff6a7c63226392ca5b44c94569e17f48021b2773",
+    "system_sha256": "0c41b551a96d085bbc3597749915f67732aa702736eddffdb625f85696aded81",
+    "usage": [
+      {
+        "input_tokens": 22266,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 353,
+        "reasoning_output_tokens": 41
+      }
+    ],
+    "review_type": "independent_context_model_review",
+    "human_review": false
+  }
+}

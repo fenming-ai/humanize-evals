@@ -1,0 +1,42 @@
+{
+  "cases": [
+    {
+      "id": "zh2-voice_emotion-r011",
+      "approve": true,
+      "reason": "引文准确，逆袭脉络与球迷情绪保留要求合理。"
+    },
+    {
+      "id": "zh2-voice_emotion-r012",
+      "approve": true,
+      "reason": "忠实保留自学经历、个人体验与业余边界。"
+    },
+    {
+      "id": "zh2-voice_emotion-r013",
+      "approve": true,
+      "reason": "准确区分第四集偏好与第40话盛赞，限制合理。"
+    },
+    {
+      "id": "zh2-voice_emotion-r015",
+      "approve": true,
+      "reason": "引文准确，保留劝勉主线与价值区分，类别恰当。"
+    }
+  ],
+  "metadata": {
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 16.21,
+    "input_sha256": "735f5b0da558345979bc2546b25b03980c2f897812973f45acfe1347d7782392",
+    "system_sha256": "0c41b551a96d085bbc3597749915f67732aa702736eddffdb625f85696aded81",
+    "usage": [
+      {
+        "input_tokens": 18935,
+        "cached_input_tokens": 9856,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 193,
+        "reasoning_output_tokens": 30
+      }
+    ],
+    "review_type": "independent_context_model_review",
+    "human_review": false
+  }
+}

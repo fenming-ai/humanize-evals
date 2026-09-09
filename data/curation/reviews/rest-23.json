@@ -1,0 +1,67 @@
+{
+  "cases": [
+    {
+      "id": "zh2-voice_emotion-037",
+      "approve": true,
+      "reason": "引文准确，纹理与定制诉求有据，诗化声调值得测试。"
+    },
+    {
+      "id": "zh2-voice_emotion-038",
+      "approve": true,
+      "reason": "保留怨气与亲昵的要求忠实，失败条件合理。"
+    },
+    {
+      "id": "zh2-voice_emotion-039",
+      "approve": true,
+      "reason": "辩护立场与行动例证有据，允许限定无支撑概括。"
+    },
+    {
+      "id": "zh2-voice_emotion-041",
+      "approve": true,
+      "reason": "保留敬仰立场，并明确区分文学想象与史实。"
+    },
+    {
+      "id": "zh2-voice_emotion-042",
+      "approve": true,
+      "reason": "经历、数量及落选缘由有据，未将个人理解升级为规定。"
+    },
+    {
+      "id": "zh2-voice_emotion-043",
+      "approve": true,
+      "reason": "情绪转折与诗意意象有据，失败条件契合散文任务。"
+    },
+    {
+      "id": "zh2-voice_emotion-044",
+      "approve": true,
+      "reason": "保留私人觉察与及时珍惜的主题，未补造变故细节。"
+    },
+    {
+      "id": "zh2-voice_emotion-045",
+      "approve": false,
+      "reason": "原文未明确作者性别，“保留银香囊母女各一”擅自认定作者为女性。"
+    },
+    {
+      "id": "zh2-voice_emotion-046",
+      "approve": true,
+      "reason": "代际立场、自省及高考节点均有据，类别与约束恰当。"
+    }
+  ],
+  "metadata": {
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 32.15,
+    "input_sha256": "34ed19efd1b393417d3776eb1611127ace24fcce725fc8b68e89d6908376e81f",
+    "system_sha256": "0c41b551a96d085bbc3597749915f67732aa702736eddffdb625f85696aded81",
+    "usage": [
+      {
+        "input_tokens": 23758,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 484,
+        "reasoning_output_tokens": 119
+      }
+    ],
+    "review_type": "independent_context_model_review",
+    "human_review": false
+  }
+}

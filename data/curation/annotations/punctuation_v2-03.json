@@ -1,0 +1,334 @@
+{
+  "cases": [
+    {
+      "id": "zh2-punctuation-031-p2",
+      "suitable": true,
+      "reason": "书名号、叹号及间隔号各有功能",
+      "task": "面向娱乐读者只审查符号标点；正文词句、事实与声音不改写，不省略内容。",
+      "audience": "娱乐读者",
+      "must_preserve": [
+        {
+          "quote": "《四个圣诞节》首映",
+          "requirement": "书名号标识电影名"
+        },
+        {
+          "quote": "嘿，各位娱乐小粉丝们！",
+          "requirement": "逗号与叹号保留招呼的热情"
+        },
+        {
+          "quote": "女神瑞茜·威瑟斯彭",
+          "requirement": "间隔号保留译名内部边界"
+        }
+      ],
+      "voice_quote": "一起期待它的热映吧！",
+      "voice": "热闹亲切的娱乐推介口吻",
+      "allowed_changes": [
+        "仅整理确有问题的标点；可原样返回"
+      ],
+      "failure_conditions": [
+        "机械删除书名号或译名间隔号",
+        "改写票房黑马判断或删去影评人表述"
+      ],
+      "scoring_note": "易误伤热情叹号；不能因宣传语气而降调。"
+    },
+    {
+      "id": "zh2-punctuation-032-p2",
+      "suitable": true,
+      "reason": "排比分号、对话引号功能明确",
+      "task": "面向环保作文读者只审查符号标点；不省略内容，不改写正文词句、事实与声音。",
+      "audience": "环保作文读者",
+      "must_preserve": [
+        {
+          "quote": "那里绿树成荫，鸟语花香；",
+          "requirement": "分号区分并列景象层次"
+        },
+        {
+          "quote": "“爷爷，您为什么要做这件事呢？”",
+          "requirement": "引号界定问话，问号保留询问"
+        },
+        {
+          "quote": "污浊的水，浑浊的空气……",
+          "requirement": "省略号延展污染列举与感伤"
+        }
+      ],
+      "voice_quote": "多么渴望那绿色的生活啊！",
+      "voice": "感伤转向行动的热切呼吁",
+      "allowed_changes": [
+        "仅局部整理标点；无必要可原样返回"
+      ],
+      "failure_conditions": [
+        "把分号全换逗号或删除问话引号",
+        "改写老爷爷事例或修订正文用词"
+      ],
+      "scoring_note": "易把省略号当冗余；它承载列举未尽与情绪。"
+    },
+    {
+      "id": "zh2-punctuation-033-p2",
+      "suitable": true,
+      "reason": "作品名、篇名与括注需区分",
+      "task": "面向漫画讨论读者只审查符号标点；正文词句、事实与声音不改写，不删补案例。",
+      "audience": "漫画讨论读者",
+      "must_preserve": [
+        {
+          "quote": "谏山创的《进击的巨人》。",
+          "requirement": "书名号界定作品名称"
+        },
+        {
+          "quote": "在后期如“魔人布欧篇”中",
+          "requirement": "引号标识具体篇章名称"
+        },
+        {
+          "quote": "角色行为偏离本质（OOC）",
+          "requirement": "括号保留术语缩写的解释关系"
+        }
+      ],
+      "voice_quote": "这种现象不仅挑战作者的创作意图",
+      "voice": "分析式评论，兼述挑战与魅力",
+      "allowed_changes": [
+        "仅整理符号标点；可完整原样返回"
+      ],
+      "failure_conditions": [
+        "删除括号使OOC混入正文句法",
+        "改写鸟山明案例或强化读者推测"
+      ],
+      "scoring_note": "易越界核改案例；此例只验标点，不背书事实。"
+    },
+    {
+      "id": "zh2-punctuation-034-p2",
+      "suitable": true,
+      "reason": "简称括注与列举顿号功能明确",
+      "task": "面向财经读者只审查符号标点；不删补内容，不改写正文词句、事实与声音。",
+      "audience": "财经读者",
+      "must_preserve": [
+        {
+          "quote": "中国证券监督管理委员会（证监会）",
+          "requirement": "括号标明机构简称"
+        },
+        {
+          "quote": "钢铁生产企业、贸易商和投资者",
+          "requirement": "顿号区分服务对象"
+        },
+        {
+          "quote": "螺纹钢、热轧卷板等主要品种",
+          "requirement": "顿号保留品种并列与等的边界"
+        }
+      ],
+      "voice_quote": "市场各方将密切关注",
+      "voice": "正式财经报道与展望口吻",
+      "allowed_changes": [
+        "仅整理必要标点；可原样返回"
+      ],
+      "failure_conditions": [
+        "删除简称括号或合并顿号分隔的品种",
+        "更换交易品种或改写股票上涨表述"
+      ],
+      "scoring_note": "易因事实疑点越界改正文；不将原文视为已核实。"
+    },
+    {
+      "id": "zh2-punctuation-035-p2",
+      "suitable": true,
+      "reason": "引语、破折号与问号承载文气",
+      "task": "面向散文读者只审查符号标点；正文词句、事实与声音不改写，不省略抒情段落。",
+      "audience": "散文读者",
+      "must_preserve": [
+        {
+          "quote": "“可远观而不可亵玩焉”，",
+          "requirement": "引号界定引用的古语"
+        },
+        {
+          "quote": "当脚步踏碎野花铺就的锦毯——那一刻",
+          "requirement": "破折号承接铺陈后的转折落点"
+        },
+        {
+          "quote": "何必惊扰她的静谧呢？",
+          "requirement": "问号保留反问与自省"
+        }
+      ],
+      "voice_quote": "把世界还给世界，把美归还给美本身",
+      "voice": "诗性、克制而自省的劝诫",
+      "allowed_changes": [
+        "仅局部整理标点；允许原样返回"
+      ],
+      "failure_conditions": [
+        "机械删去破折号或将反问统一改句号",
+        "删改蝶停肩头意象或改写远观立场"
+      ],
+      "scoring_note": "破折号易因重复被删，却承担不同抒情转接。"
+    },
+    {
+      "id": "zh2-punctuation-036-p2",
+      "suitable": true,
+      "reason": "直接引语与作品名边界清楚",
+      "task": "面向娱乐新闻读者只审查符号标点；正文词句、事实与声音不改写，不删补信息。",
+      "audience": "娱乐新闻读者",
+      "must_preserve": [
+        {
+          "quote": "他写道：“曾几何时，",
+          "requirement": "冒号引出直接引语，引号界定原话"
+        },
+        {
+          "quote": "苏越的代表作《黄河绝恋》",
+          "requirement": "书名号标记原稿所称作品名"
+        },
+        {
+          "quote": "真的令人唏嘘。”",
+          "requirement": "保留完整引语的句末与闭合边界"
+        }
+      ],
+      "voice_quote": "让众多粉丝和业内人士感到惋惜",
+      "voice": "惋惜并带警示意味的报道口吻",
+      "allowed_changes": [
+        "仅整理标点；无必要可原样返回"
+      ],
+      "failure_conditions": [
+        "删去引号将微博引语混为叙述",
+        "改写苏越刑罚或欧阳奋强合作关系"
+      ],
+      "scoring_note": "引语边界最易误伤；保留不等于核实其出处。"
+    },
+    {
+      "id": "zh2-punctuation-037-p2",
+      "suitable": true,
+      "reason": "引号标示口语比喻，顿号列举",
+      "task": "面向普通网友只审查符号标点；正文词句、事实与声音不改写，不省略解释。",
+      "audience": "普通网友",
+      "must_preserve": [
+        {
+          "quote": "关于哈勃望远镜的“高清大片”",
+          "requirement": "引号突出借用的影像比喻"
+        },
+        {
+          "quote": "还得是“近距离接触”才行。",
+          "requirement": "引号保留口语化强调"
+        },
+        {
+          "quote": "那些更远、更大的星系和星云",
+          "requirement": "顿号区分并列的描述维度"
+        }
+      ],
+      "voice_quote": "我个人理解啊",
+      "voice": "网友式试探解释，口语亲近",
+      "allowed_changes": [
+        "仅整理必要标点；允许原样返回"
+      ],
+      "failure_conditions": [
+        "机械删去两处比喻引号",
+        "改写冥王星分类或哈勃设计初衷"
+      ],
+      "scoring_note": "易借科普纠错改正文；本合同不核验科学解释。"
+    },
+    {
+      "id": "zh2-punctuation-038-p2",
+      "suitable": true,
+      "reason": "括注、概念引号与冒号各有用",
+      "task": "面向科普读者只审查符号标点；正文词句、事实与声音不改写，不删补推导或案例。",
+      "audience": "科普读者",
+      "must_preserve": [
+        {
+          "quote": "两个面（正面和反面）和四条边",
+          "requirement": "括号将两面名称作为补充解释"
+        },
+        {
+          "quote": "没有明确的“上”或“下”的区别",
+          "requirement": "引号标记讨论中的方向概念"
+        },
+        {
+          "quote": "逻辑推导过程可以这样理解：假设",
+          "requirement": "冒号引出后续假设推导"
+        }
+      ],
+      "voice_quote": "我们可以通过蚂蚁在莫比乌斯带上的行为",
+      "voice": "引导想象的科普解释口吻",
+      "allowed_changes": [
+        "仅整理标点；可完整原样返回"
+      ],
+      "failure_conditions": [
+        "删除括号或冒号破坏解释层次",
+        "改写180度结论或补造蚂蚁实验来源"
+      ],
+      "scoring_note": "易把标点整理扩展为科学纠错，须守住正文边界。"
+    },
+    {
+      "id": "zh2-punctuation-039-p2",
+      "suitable": true,
+      "reason": "直引号可规范，书名边界需保留",
+      "task": "面向古籍读者只审查符号标点；正文词句、事实与声音不改写，不删补推荐依据。",
+      "audience": "古籍读者",
+      "must_preserve": [
+        {
+          "quote": "王先慎整理的《孙子兵法集解》",
+          "requirement": "书名号标记推荐版本名称"
+        },
+        {
+          "quote": "\"知己知彼，百战不殆\"",
+          "requirement": "引号界定引文，内部逗号保留停顿"
+        },
+        {
+          "quote": "李淳风、杜牧、张预等著名学者",
+          "requirement": "顿号分隔列举的注家"
+        }
+      ],
+      "voice_quote": "这个版本无疑是最佳选择。",
+      "voice": "肯定而推崇的推荐口吻",
+      "allowed_changes": [
+        "可将直引号规范为中文成对引号",
+        "其余无必要可原样保留"
+      ],
+      "failure_conditions": [
+        "删除引号或书名号使引用边界消失",
+        "更换整理者或削弱最佳选择的判断"
+      ],
+      "scoring_note": "易把书目信息核改混入符号规范；不作事实背书。"
+    },
+    {
+      "id": "zh2-punctuation-040-p2",
+      "suitable": true,
+      "reason": "政党简称括注与连字符需保护",
+      "task": "面向时政读者只审查符号标点；正文词句、事实与声音不改写，不省略报道内容。",
+      "audience": "时政读者",
+      "must_preserve": [
+        {
+          "quote": "津巴布韦非洲民族联盟-爱国阵线（ZANU-PF）",
+          "requirement": "保留名称连接及简称括注功能"
+        },
+        {
+          "quote": "争取民主变革运动（MDC）",
+          "requirement": "括号界定另一政党的简称"
+        },
+        {
+          "quote": "国家和平、稳定与繁荣的重要机制",
+          "requirement": "顿号分隔并列目标"
+        }
+      ],
+      "voice_quote": "为国家政治稳定与发展注入了新的希望",
+      "voice": "正式且乐观的时政报道口吻",
+      "allowed_changes": [
+        "仅整理必要标点；可原样返回"
+      ],
+      "failure_conditions": [
+        "机械删除ZANU-PF内连字符或简称括号",
+        "更换总统总理姓名或改写2009年"
+      ],
+      "scoring_note": "连字符不是装饰；不能因统一中文标点而误删。"
+    }
+  ],
+  "metadata": {
+    "job": "punctuation_v2-03",
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 91.03,
+    "system_sha256": "3ae39d4cdd1a190d9634734fff98af6538ba69e53c44419197138e6205d7858a",
+    "input_sha256": "0b422b277774e816c76be5a0c9fe34d5e795ecc6eaa7fc152002a3f98e8f82ec",
+    "usage": [
+      {
+        "input_tokens": 21324,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2696,
+        "reasoning_output_tokens": 49
+      }
+    ],
+    "review_type": "model_annotation",
+    "human_review": false
+  }
+}

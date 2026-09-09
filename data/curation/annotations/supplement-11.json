@@ -1,0 +1,261 @@
+{
+  "cases": [
+    {
+      "id": "zh2-no_edit-r101",
+      "suitable": true,
+      "reason": "议论清楚，口语反复有强调作用",
+      "task": "面向建筑议题读者作强保留验收；可原样输出，不删古今对比及建设主张。",
+      "audience": "建筑议题读者",
+      "must_preserve": [
+        {
+          "quote": "现在的人啊，真是不如古人",
+          "requirement": "保留作者不满，不写成已证实结论"
+        },
+        {
+          "quote": "可人家建的有价值，到后来就成了古迹",
+          "requirement": "保留价值经时间留存的论点"
+        },
+        {
+          "quote": "建出高水平的建筑才是正道",
+          "requirement": "保留提高今人建造水平的主张"
+        }
+      ],
+      "voice_quote": "现在的人啊，真是不如古人。",
+      "voice": "直白褒古贬今，带感叹与劝诫",
+      "allowed_changes": [
+        "可完全不改；仅微调停顿"
+      ],
+      "failure_conditions": [
+        "改成古人一贯重视古迹保护",
+        "删除提高今人建筑水平的主张"
+      ],
+      "scoring_note": "最易误伤立场；不能因观点偏激而改成中性共识。"
+    },
+    {
+      "id": "zh2-no_edit-r102",
+      "suitable": false,
+      "reason": "正文混入报道导航及孤立符号",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-r103",
+      "suitable": false,
+      "reason": "开头重复，末段呼吁归属不清",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-r104",
+      "suitable": false,
+      "reason": "有明显错字，绯闻推断写成确认",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-r105",
+      "suitable": true,
+      "reason": "消息层次清晰，来源及条件明确",
+      "task": "面向国际新闻读者作强保留验收；可原样输出，不省略来源、条件及续谈安排。",
+      "audience": "国际新闻读者",
+      "must_preserve": [
+        {
+          "quote": "以色列不会延长将于9月底到期的西岸定居点限建令",
+          "requirement": "保留官员转述及到期时间"
+        },
+        {
+          "quote": "如果限建令不延长，将会退出新展开的和平会谈",
+          "requirement": "保留巴方退出威胁的前提"
+        },
+        {
+          "quote": "巴以新一轮的和谈周二将在埃及继续举行",
+          "requirement": "保留续谈时间地点"
+        }
+      ],
+      "voice_quote": "不过，记者们说",
+      "voice": "克制转述，区分各方判断",
+      "allowed_changes": [
+        "可完全不改；仅调整停顿"
+      ],
+      "failure_conditions": [
+        "把巴方威胁改为已经退出",
+        "将回旋余地写成双方正式承诺"
+      ],
+      "scoring_note": "最易误伤消息层级；官员转述和记者判断不能合并为定论。"
+    },
+    {
+      "id": "zh2-no_edit-r106",
+      "suitable": false,
+      "reason": "TLR4拼写不一，凋亡表述欠清",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-r107",
+      "suitable": true,
+      "reason": "品牌拟人对照清楚，讽刺风格统一",
+      "task": "面向摄影爱好者作强保留验收；可原样输出，全部品牌与人物比喻须保留。",
+      "audience": "摄影爱好者",
+      "must_preserve": [
+        {
+          "quote": "尼康，赶不上潮流的百岁老头",
+          "requirement": "保留对尼康老迈落后的调侃"
+        },
+        {
+          "quote": "索尼，不修边幅、一意孤行的技术宅",
+          "requirement": "保留索尼技术宅与固执形象"
+        },
+        {
+          "quote": "柯达，已入土但经常被拉出来走两步的干尸",
+          "requirement": "保留柯达反复被唤起的黑色幽默"
+        }
+      ],
+      "voice_quote": "宾得，奇怪的老实人",
+      "voice": "连续拟人，尖刻且戏谑",
+      "allowed_changes": [
+        "可完全不改；可为品牌分行"
+      ],
+      "failure_conditions": [
+        "删品牌或调换品牌与人物的对应",
+        "将拟人评价改成经核实的经营事实"
+      ],
+      "scoring_note": "最易误伤讽刺声音；不应把主观画像改成品牌介绍。"
+    },
+    {
+      "id": "zh2-no_edit-r108",
+      "suitable": true,
+      "reason": "分数、地区与面试人数关系清楚",
+      "task": "面向考生家长作强保留验收；可原样输出，不删年份、地区分数及面试安排。",
+      "audience": "考生及家长",
+      "must_preserve": [
+        {
+          "quote": "上海考生入围面试的分数线为601分",
+          "requirement": "保留上海面试门槛，非录取线"
+        },
+        {
+          "quote": "浙江和江苏则分别为659分和661分",
+          "requirement": "两省分数对应不得互换"
+        },
+        {
+          "quote": "800名上海学生将和约300名直推生",
+          "requirement": "保留两类人数及直推生约数"
+        }
+      ],
+      "voice_quote": "但竞争依然激烈",
+      "voice": "简洁消息体，带轻度竞争判断",
+      "allowed_changes": [
+        "可完全不改；仅统一括号样式"
+      ],
+      "failure_conditions": [
+        "把2011年分数写成当前标准",
+        "漏掉去年607分或25日至27日面试"
+      ],
+      "scoring_note": "最易误伤数字边界；面试资格不能写成录取资格。"
+    },
+    {
+      "id": "zh2-no_edit-r109",
+      "suitable": true,
+      "reason": "政策条件和招生流程说明完整",
+      "task": "面向报考者作强保留验收；可原样输出，不省略比例条件、报考范围及录取前提。",
+      "audience": "高职报考者",
+      "must_preserve": [
+        {
+          "quote": "今年首次申请开展自主招生试点的高职院校",
+          "requirement": "首次申请原则上限年度规模10%"
+        },
+        {
+          "quote": "已经开展自主招生试点的相关院校",
+          "requirement": "已试点原则上限年度规模20%"
+        },
+        {
+          "quote": "考生参加院校自主招生测试合格后",
+          "requirement": "保留合格后可直接录取免高考"
+        }
+      ],
+      "voice_quote": "自主招生计划数原则上控制在",
+      "voice": "正式说明，重条件与限定",
+      "allowed_changes": [
+        "可完全不改；可分段显示政策与释义"
+      ],
+      "failure_conditions": [
+        "把原则上比例写成无例外硬上限",
+        "漏掉中职含应届及复转军人学历条件"
+      ],
+      "scoring_note": "最易误伤限定词；原则上、合格后、可都承载政策边界。"
+    },
+    {
+      "id": "zh2-no_edit-r110",
+      "suitable": true,
+      "reason": "吐槽推进连贯，符号与反讽有功能",
+      "task": "面向阴阳师玩家作强保留验收；可原样输出，不删三角色递进、机制对比与结尾反讽。",
+      "audience": "阴阳师玩家",
+      "must_preserve": [
+        {
+          "quote": "打输出也仅仅需要3个火",
+          "requirement": "保留鬼切低耗与他人4火8火对比"
+        },
+        {
+          "quote": "自身两条命，死一次就开启输出模式AOE",
+          "requirement": "保留不知火辅助转输出的批评"
+        },
+        {
+          "quote": "早日实现斗技带狗粮的壮观景象",
+          "requirement": "保留对强度膨胀的反讽而非期待"
+        }
+      ],
+      "voice_quote": "后来就直接出NB本人了",
+      "voice": "玩家黑话、夸张吐槽与反讽",
+      "allowed_changes": [
+        "可完全不改；可按角色分段"
+      ],
+      "failure_conditions": [
+        "把斗技带狗粮写成已有玩法",
+        "删掉SP鬼吞及魂土、真蛇影响"
+      ],
+      "scoring_note": "最易误伤情绪；NB、公式与结尾祝愿均非正式赞美。"
+    }
+  ],
+  "metadata": {
+    "job": "supplement-11",
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 71.9,
+    "system_sha256": "2c85943d84beabe7f1c8a64f793323c3fb90f4110f4f66ac756b1b69b3faf06e",
+    "input_sha256": "83a85e7f88aa78faf141c61d9ccf2616243fd09cd7769f8576978413964f5222",
+    "usage": [
+      {
+        "input_tokens": 18359,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2067,
+        "reasoning_output_tokens": 224
+      }
+    ],
+    "review_type": "model_annotation",
+    "human_review": false
+  }
+}

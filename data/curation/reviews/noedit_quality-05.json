@@ -1,0 +1,42 @@
+{
+  "cases": [
+    {
+      "id": "zh2-no_edit-q052",
+      "approve": true,
+      "reason": "原稿完整通顺；引文、救援时序及赎金约束均忠实。"
+    },
+    {
+      "id": "zh2-no_edit-q054",
+      "approve": true,
+      "reason": "历史行情表述完整；日期、报价单位及来源约束合理。"
+    },
+    {
+      "id": "zh2-no_edit-q055",
+      "approve": true,
+      "reason": "无明显必改问题；持仓数据及推测边界保留要求准确。"
+    },
+    {
+      "id": "zh2-no_edit-q058",
+      "approve": true,
+      "reason": "行情清单完整清楚；引文准确，涨跌与报价约束合理。"
+    }
+  ],
+  "metadata": {
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 24.3,
+    "input_sha256": "4e84a0a9fb74e4318569efbed45a63b02ad6f1dcaa882cd985f1f4606a084271",
+    "system_sha256": "0c41b551a96d085bbc3597749915f67732aa702736eddffdb625f85696aded81",
+    "usage": [
+      {
+        "input_tokens": 17725,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 219,
+        "reasoning_output_tokens": 61
+      }
+    ],
+    "review_type": "independent_context_model_review",
+    "human_review": false
+  }
+}

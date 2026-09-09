@@ -1,0 +1,343 @@
+{
+  "cases": [
+    {
+      "id": "zh2-long_form-031",
+      "suitable": true,
+      "reason": "叙事完整，后半议论重复",
+      "task": "面向散文读者精简全文，保留母女家书、朋友回信反应及结尾立场，统一温情语气。",
+      "audience": "散文读者",
+      "must_preserve": [
+        {
+          "quote": "母亲被派往外地工作，一去就是三年",
+          "requirement": "保留初中母女分离三年背景"
+        },
+        {
+          "quote": "那封信，我珍藏至今",
+          "requirement": "保留失利获鼓励及珍藏重读"
+        },
+        {
+          "quote": "我并非提倡我们抛弃现代通讯工具",
+          "requirement": "保留便利与手写情感并重立场"
+        }
+      ],
+      "voice_quote": "仿佛能感受到母亲手心的温度",
+      "voice": "细腻怀念，温柔而非排斥科技",
+      "allowed_changes": [
+        "合并温度、连接等重复抒情",
+        "中文化英文词，压缩文化泛论"
+      ],
+      "failure_conditions": [
+        "删掉给朋友写信及其惊喜反应",
+        "把怀念家书改成拒绝现代通讯"
+      ],
+      "scoring_note": "最易误伤全文立场：批评屏幕不能盖过并用主张。"
+    },
+    {
+      "id": "zh2-long_form-032",
+      "suitable": true,
+      "reason": "论述可压缩，需守住预筹边界",
+      "task": "面向青年读者梳理定义、例证、局限与倡议，统一比喻；可缩历史泛论，不增证据。",
+      "audience": "青年读者",
+      "must_preserve": [
+        {
+          "quote": "对可能出现的挑战有所预判",
+          "requirement": "预筹指提前判断并准备"
+        },
+        {
+          "quote": "对薄弱环节的重点攻克",
+          "requirement": "保留高考准备及职业储备两类应用"
+        },
+        {
+          "quote": "我们不能固执于原有的计划",
+          "requirement": "保留预筹有限、仍须灵活应变"
+        }
+      ],
+      "voice_quote": "少几分仓皇，多几分从容",
+      "voice": "劝勉积极，兼有审慎",
+      "allowed_changes": [
+        "合并渡河和成功彼岸的重复比喻",
+        "限定历史归因和必胜式断言"
+      ],
+      "failure_conditions": [
+        "把预筹写成保证高考或职场成功",
+        "删去意外不可控及调整计划的转折"
+      ],
+      "scoring_note": "最易误伤论证平衡：结尾励志不能消除预筹局限。"
+    },
+    {
+      "id": "zh2-long_form-033",
+      "suitable": true,
+      "reason": "书信线索完整，任教时序需整理",
+      "task": "面向收信教师整理回忆至传承的全文线索，统一敬称及时序；可缩比喻，不补任教经历。",
+      "audience": "陈先生及书信读者",
+      "must_preserve": [
+        {
+          "quote": "悄悄递给我一本泛黄的《海子诗选》",
+          "requirement": "保留高二失利后赠书的关怀"
+        },
+        {
+          "quote": "第三年终于被录取，却因家庭变故不得不放弃",
+          "requirement": "保留考研两次落榜后的放弃原因"
+        },
+        {
+          "quote": "我即将走上讲台，成为一名语文教师",
+          "requirement": "保留即将任教与接续师恩的愿望"
+        }
+      ],
+      "voice_quote": "温柔而不妥协，坚定而不偏执",
+      "voice": "学生致恩师，敬重温柔",
+      "allowed_changes": [
+        "压缩雨、微光、火种的重复意象",
+        "整理即将任教与讲台描写的冲突"
+      ],
+      "failure_conditions": [
+        "将写信人改成已任教多年的教师",
+        "删去山村执教或去年返校的整段线索"
+      ],
+      "scoring_note": "最易误伤时序：可消除冲突，不可编造实习经历。"
+    },
+    {
+      "id": "zh2-long_form-034",
+      "suitable": true,
+      "reason": "成长线索明确，励志套语偏多",
+      "task": "面向青年读者精简全文，贯通畏难、求助、调压与公共难题；可缩口号，不删能力边界。",
+      "audience": "青年读者",
+      "must_preserve": [
+        {
+          "quote": "虽然最终我未能完全解答",
+          "requirement": "保留竞赛未解完及赛后请教"
+        },
+        {
+          "quote": "我学会了如何与压力共存",
+          "requirement": "调压结果是共存而非压力消失"
+        },
+        {
+          "quote": "有些难题并非我们个人能力所能解决",
+          "requirement": "保留公共难题需集体努力的限定"
+        }
+      ],
+      "voice_quote": "我恨不得撕掉试卷，放弃比赛",
+      "voice": "从挫败转向积极反思",
+      "allowed_changes": [
+        "合并成长阶梯等重复比喻",
+        "压缩技术罗列和必胜式结尾"
+      ],
+      "failure_conditions": [
+        "把竞赛经历改成现场解题获胜",
+        "把个人减压经历写成普遍治疗保证"
+      ],
+      "scoring_note": "最易误伤成长含义：接纳未解与求助也属于成长。"
+    },
+    {
+      "id": "zh2-long_form-035",
+      "suitable": true,
+      "reason": "事件链完整，可削减渲染",
+      "task": "面向校园读者整理选题、分工、彩排危机至获奖的全文，统一班长视角；可缩渲染，不删转折。",
+      "audience": "校园读者",
+      "must_preserve": [
+        {
+          "quote": "作为高三八班的班长",
+          "requirement": "保留叙述身份及非商业节目竞争"
+        },
+        {
+          "quote": "学习任务重，排练时间少",
+          "requirement": "保留艺术生多与时间紧的矛盾"
+        },
+        {
+          "quote": "获得了“最佳节目奖”",
+          "requirement": "保留原创剧《追光者》最终获奖"
+        }
+      ],
+      "voice_quote": "好！就做原创舞台剧！",
+      "voice": "热血班长口吻，珍惜集体奋斗",
+      "allowed_changes": [
+        "压缩汗水、掌声等重复渲染",
+        "按分工与危机处理整理段落"
+      ],
+      "failure_conditions": [
+        "把节目竞标改成商业合同争夺",
+        "删掉彩排故障、放弃念头及重新调整"
+      ],
+      "scoring_note": "最易误伤叙事重心：奖项之外还须保留集体成长。"
+    },
+    {
+      "id": "zh2-long_form-036",
+      "suitable": true,
+      "reason": "访谈反转鲜明，需保持叙事层次",
+      "task": "面向叙事读者整理访谈、家庭背景、儿子插话与结尾反转，统一镜头视角；可修病句，不添诊断。",
+      "audience": "叙事读者",
+      "must_preserve": [
+        {
+          "quote": "自己的生日加妻子的生日加儿子的生日",
+          "requirement": "保留购彩号码与家庭期待的关联"
+        },
+        {
+          "quote": "据说是一种心理上的疾病，叫作失语症",
+          "requirement": "妻子沉默的诊断仅为转述"
+        },
+        {
+          "quote": "由车间技术人员变成了下岗工人",
+          "requirement": "保留沉迷运气后反向转折的揭示"
+        }
+      ],
+      "voice_quote": "没有转折，这一切都顶个屁用！",
+      "voice": "口语激烈，镜头叙述带讽刺悲凉",
+      "allowed_changes": [
+        "修正问到、既而等局部用字",
+        "压缩重复问答，保留情绪升级"
+      ],
+      "failure_conditions": [
+        "把妻子的失语症写成确诊事实",
+        "删掉儿子量变质变的话或下岗反转"
+      ],
+      "scoring_note": "最易误伤声音：粗口和重复承载男人的失控与执念。"
+    },
+    {
+      "id": "zh2-long_form-037",
+      "suitable": true,
+      "reason": "救助主线明确，感悟反复",
+      "task": "面向散文读者串联救助、探望与天堂观转变，统一第一人称；可并末尾感悟，不补救治细节。",
+      "audience": "散文读者",
+      "must_preserve": [
+        {
+          "quote": "我颤抖着拨打了急救电话",
+          "requirement": "保留学生报警并撑伞的救助行为"
+        },
+        {
+          "quote": "医护人员熟练地为老人做着心肺复苏",
+          "requirement": "心肺复苏的主体是医护人员"
+        },
+        {
+          "quote": "他叫李爷爷，是个退休教师",
+          "requirement": "保留探望交往及老人康复出院"
+        }
+      ],
+      "voice_quote": "天堂不在远方，而在脚下",
+      "voice": "由惊惧转向温暖感悟",
+      "allowed_changes": [
+        "合并末尾善意即天堂的重复议论",
+        "缩减天使、光芒等重复修饰"
+      ],
+      "failure_conditions": [
+        "把学生写成实施心肺复苏的人",
+        "把天堂改为死亡归宿而非当下善意"
+      ],
+      "scoring_note": "最易误伤主体边界：救助参与者不能混成独力救活。"
+    },
+    {
+      "id": "zh2-long_form-038",
+      "suitable": true,
+      "reason": "主题分层清楚，结尾套语重复",
+      "task": "面向散文读者精简童年、青春、亲情、梦想至当下行动的全文，统一感怀语气；可并劝勉，不删转折。",
+      "audience": "散文读者",
+      "must_preserve": [
+        {
+          "quote": "栅栏门变成了教室的木门",
+          "requirement": "保留童年到求学阶段的变化"
+        },
+        {
+          "quote": "与父母相处的时间越来越少",
+          "requirement": "保留父母衰老与珍惜相处的呼吁"
+        },
+        {
+          "quote": "时间并非只会带走，它也会赋予我们沉淀和成长",
+          "requirement": "保留失去之外也有实现与成长"
+        }
+      ],
+      "voice_quote": "温润而珍贵",
+      "voice": "怀旧惋惜，最终转向珍惜当下",
+      "allowed_changes": [
+        "精简各段重复排比和结尾号召",
+        "保留分层节奏，减少同义修饰"
+      ],
+      "failure_conditions": [
+        "删掉梦想消散、实现、收藏的差别",
+        "全文只剩时间无情而无成长与当下选择"
+      ],
+      "scoring_note": "最易误伤结构：重复标题兼有分层作用，不宜全删。"
+    },
+    {
+      "id": "zh2-long_form-039",
+      "suitable": true,
+      "reason": "拟人立场鲜明，主体称谓有冲突",
+      "task": "面向寓言读者整理栖地、污名、共存诉求的书信全文，统一鼠类发信视角；可限夸张，不补科学证据。",
+      "audience": "寓言读者",
+      "must_preserve": [
+        {
+          "quote": "今日提笔，并非乞怜，亦非宣战",
+          "requirement": "保留质问而非求饶或宣战的姿态"
+        },
+        {
+          "quote": "我们世代生存的乐园",
+          "requirement": "保留鼠类对栖地被侵占的控诉"
+        },
+        {
+          "quote": "我们渴望的并非侵占，而是共存",
+          "requirement": "保留容身、理解与共存诉求"
+        }
+      ],
+      "voice_quote": "我们无声的悲歌与沉痛的质问",
+      "voice": "鼠类集体自辩，悲愤而恳切",
+      "allowed_changes": [
+        "压缩连续反问，整理联盟称谓冲突",
+        "将鼠疫归因限定为角色控诉"
+      ],
+      "failure_conditions": [
+        "把发信者改成人类灭鼠组织",
+        "把鼠类替罪羊之说强化成已证实结论"
+      ],
+      "scoring_note": "最易误伤寓言声音：可留控诉，不应背书疾病归因。"
+    },
+    {
+      "id": "zh2-long_form-040",
+      "suitable": true,
+      "reason": "双概念清楚，例证与结语重复",
+      "task": "面向青年读者整理落差、错位、历史例证至倡议的全文，统一劝勉语气；可缩泛例，不补成功案例。",
+      "audience": "青年读者",
+      "must_preserve": [
+        {
+          "quote": "现实与理想之间距离的感受",
+          "requirement": "落差指理想与现实的距离"
+        },
+        {
+          "quote": "我们与周遭环境、人际关系之间的不协调",
+          "requirement": "错位指个体与环境或关系不协调"
+        },
+        {
+          "quote": "努力不一定等同于成功，付出不一定就有回报",
+          "requirement": "保留努力并非必有回报的限定"
+        }
+      ],
+      "voice_quote": "不惧落差，笑对错位",
+      "voice": "积极劝勉，强调调整与坚守",
+      "allowed_changes": [
+        "合并成功彼岸式泛泛结语",
+        "压缩匿名泛例，弱化单因成功归纳"
+      ],
+      "failure_conditions": [
+        "把落差与错位合成同一概念",
+        "把司马迁、苏轼成就归为乐观的必然结果"
+      ],
+      "scoring_note": "最易误伤论点区别：压缩双线不能抹掉两类应对。"
+    }
+  ],
+  "metadata": {
+    "job": "rest-39",
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 96.01,
+    "system_sha256": "2c85943d84beabe7f1c8a64f793323c3fb90f4110f4f66ac756b1b69b3faf06e",
+    "input_sha256": "b377c7f818fa2ab41792ec04aa9738ec7aa3cb4db6218094880994c3cf1ab7ff",
+    "usage": [
+      {
+        "input_tokens": 27723,
+        "cached_input_tokens": 10368,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2931,
+        "reasoning_output_tokens": 51
+      }
+    ],
+    "review_type": "model_annotation",
+    "human_review": false
+  }
+}

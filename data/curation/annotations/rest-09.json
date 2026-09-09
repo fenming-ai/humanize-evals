@@ -1,0 +1,172 @@
+{
+  "cases": [
+    {
+      "id": "zh2-no_edit-043",
+      "suitable": false,
+      "reason": "通知条目与吐槽混排，边界不清",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-044",
+      "suitable": false,
+      "reason": "存在错词，末尾表达残缺",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-045",
+      "suitable": false,
+      "reason": "防守描写主语切换不清，长句堆叠",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-046",
+      "suitable": false,
+      "reason": "颁奖嘉宾信息重复，赞誉套话密集",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-047",
+      "suitable": false,
+      "reason": "有明显误词，人才论断绝对化",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-048",
+      "suitable": false,
+      "reason": "存在“或则”错词及局部语序问题",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-049",
+      "suitable": false,
+      "reason": "技术名词疑似误拼，条目边界混乱",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-050",
+      "suitable": true,
+      "reason": "观演叙事清楚，口语情绪自然",
+      "task": "面向音乐爱好者，强保留观演分享；可原样输出，不删经历、个人判断及合影致谢。",
+      "audience": "音乐爱好者",
+      "must_preserve": [
+        {
+          "quote": "我开始庆幸我没有错过了",
+          "requirement": "保留从想忽略到庆幸听见的转折"
+        },
+        {
+          "quote": "我单曲循环了整整两天",
+          "requirement": "保留《太阳鼓》循环两天且仍在听"
+        },
+        {
+          "quote": "我觉得已过知天命之年的他并不在意吧",
+          "requirement": "淡泊名利仅是作者猜测，不可坐实"
+        }
+      ],
+      "voice_quote": "希望炫哥能这样一直唱下去~",
+      "voice": "热烈亲昵，带粉丝私心与感叹",
+      "allowed_changes": [
+        "允许全文原样输出",
+        "仅微调标点空格，不去除昵称和叠词"
+      ],
+      "failure_conditions": [
+        "把林志炫不在意名利写成确定事实",
+        "删去先想玩手机的转折或末尾合影致谢"
+      ],
+      "scoring_note": "最易误伤粉丝声音；叠词、昵称和波浪号承载喜爱，并非冗余。"
+    },
+    {
+      "id": "zh2-no_edit-051",
+      "suitable": false,
+      "reason": "开头多个评价连写，缺少必要断句",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-052",
+      "suitable": false,
+      "reason": "认证误写为论证，附带频道导流尾巴",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    }
+  ],
+  "metadata": {
+    "job": "rest-09",
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 44.98,
+    "system_sha256": "2c85943d84beabe7f1c8a64f793323c3fb90f4110f4f66ac756b1b69b3faf06e",
+    "input_sha256": "7c49597d697940551c7bfca44ae346f9b3a4edf42f069c1c165fb7fc1e4bca12",
+    "usage": [
+      {
+        "input_tokens": 18133,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1092,
+        "reasoning_output_tokens": 246
+      }
+    ],
+    "review_type": "model_annotation",
+    "human_review": false
+  }
+}

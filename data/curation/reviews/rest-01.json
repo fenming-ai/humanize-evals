@@ -1,0 +1,72 @@
+{
+  "cases": [
+    {
+      "id": "zh2-slop-027",
+      "approve": true,
+      "reason": "引文准确，保留观影体验与批评，精简边界合理。"
+    },
+    {
+      "id": "zh2-slop-028",
+      "approve": true,
+      "reason": "立场、发声原理及技巧论据忠实，类别恰当。"
+    },
+    {
+      "id": "zh2-slop-029",
+      "approve": true,
+      "reason": "保留核心比喻与宽容态度，允许削弱绝对化措辞。"
+    },
+    {
+      "id": "zh2-slop-030",
+      "approve": true,
+      "reason": "年份、范围、时态与评分主体准确，失败条件合理。"
+    },
+    {
+      "id": "zh2-slop-031",
+      "approve": true,
+      "reason": "保留用途与信号限制，允许收敛断言，不强制推测为事实。"
+    },
+    {
+      "id": "zh2-slop-032",
+      "approve": true,
+      "reason": "方法机制、适用限制及审慎结论均忠实原稿。"
+    },
+    {
+      "id": "zh2-slop-033",
+      "approve": true,
+      "reason": "主体、资助条件和费用范围准确，两类担忧保留合理。"
+    },
+    {
+      "id": "zh2-slop-034",
+      "approve": true,
+      "reason": "引文连续准确，保留原稿叙述且禁止扩造史料。"
+    },
+    {
+      "id": "zh2-slop-035",
+      "approve": true,
+      "reason": "庆祝对象、周年数与体验均有依据，精简要求合理。"
+    },
+    {
+      "id": "zh2-slop-036",
+      "approve": true,
+      "reason": "募资数字及风险提示忠实，未将热销强化为收益保证。"
+    }
+  ],
+  "metadata": {
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 24.71,
+    "input_sha256": "79ed2d923342b61d3ab889eb8ff29f5f5c3bbbe49e9da22f3c5f2a671efe9fd1",
+    "system_sha256": "0c41b551a96d085bbc3597749915f67732aa702736eddffdb625f85696aded81",
+    "usage": [
+      {
+        "input_tokens": 23405,
+        "cached_input_tokens": 9856,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 406,
+        "reasoning_output_tokens": 45
+      }
+    ],
+    "review_type": "independent_context_model_review",
+    "human_review": false
+  }
+}

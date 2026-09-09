@@ -1,0 +1,72 @@
+{
+  "cases": [
+    {
+      "id": "zh2-slop-r001",
+      "approve": true,
+      "reason": "引文准确，保留赛况及评价归属，分类恰当。"
+    },
+    {
+      "id": "zh2-slop-r002",
+      "approve": true,
+      "reason": "保留消息限定与不同反应，未强加冲突因果。"
+    },
+    {
+      "id": "zh2-slop-r003",
+      "approve": true,
+      "reason": "忠实保留个人判断、策略与风险，验收合理。"
+    },
+    {
+      "id": "zh2-slop-r004",
+      "approve": true,
+      "reason": "准确区分未入心仪院校与无校可上，边界合理。"
+    },
+    {
+      "id": "zh2-slop-r005",
+      "approve": true,
+      "reason": "人数、安全前提及保障措施准确，未实化改革成效。"
+    },
+    {
+      "id": "zh2-slop-r006",
+      "approve": true,
+      "reason": "保留炎症双向作用及研究限制，适合测试精简。"
+    },
+    {
+      "id": "zh2-slop-r007",
+      "approve": true,
+      "reason": "忠实保留现代改编情节与圆满基调，条件合理。"
+    },
+    {
+      "id": "zh2-slop-r008",
+      "approve": true,
+      "reason": "准确保留示例假设属性，未强制转成真实经历。"
+    },
+    {
+      "id": "zh2-slop-r009",
+      "approve": true,
+      "reason": "事件主体与处置准确，兼顾肯定和管理不足。"
+    },
+    {
+      "id": "zh2-slop-r010",
+      "approve": true,
+      "reason": "条件、参数及否定边界忠实，未要求合规背书。"
+    }
+  ],
+  "metadata": {
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 24.89,
+    "input_sha256": "a3ed0196a19702fb75a4efd8f5c23a25f6440b96a67fdbe05962a50d56d9cd0a",
+    "system_sha256": "0c41b551a96d085bbc3597749915f67732aa702736eddffdb625f85696aded81",
+    "usage": [
+      {
+        "input_tokens": 24218,
+        "cached_input_tokens": 9856,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 378,
+        "reasoning_output_tokens": 31
+      }
+    ],
+    "review_type": "independent_context_model_review",
+    "human_review": false
+  }
+}

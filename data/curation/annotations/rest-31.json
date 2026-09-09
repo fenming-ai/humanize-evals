@@ -1,0 +1,343 @@
+{
+  "cases": [
+    {
+      "id": "zh2-coherence-025",
+      "suitable": true,
+      "reason": "分市场叙述与总论重复交错",
+      "task": "面向财经读者，理顺各市场观察与总体建议；可删重复谨慎表述，不补行情依据。",
+      "audience": "财经读者",
+      "must_preserve": [
+        {
+          "quote": "铜价目前缺乏明确方向性指引",
+          "requirement": "保留铜价方向不明的判断"
+        },
+        {
+          "quote": "连豆期货价格波动幅度不大",
+          "requirement": "保留连豆波幅较小"
+        },
+        {
+          "quote": "近期郑商所主要品种的成交量略有下降",
+          "requirement": "保留主体、近期及小幅下降"
+        }
+      ],
+      "voice_quote": "投资者需要保持冷静和理性",
+      "voice": "审慎、克制的市场综述",
+      "allowed_changes": [
+        "合并重复风险提示",
+        "按铜、豆类、郑商所、总论分段"
+      ],
+      "failure_conditions": [
+        "将铜价观望改成明确涨跌预测",
+        "把郑商所成交量下降写成价格下降"
+      ],
+      "scoring_note": "最易误伤主体边界：各市场指标不能混用。"
+    },
+    {
+      "id": "zh2-coherence-026",
+      "suitable": true,
+      "reason": "赛况推进被赞颂段落反复打断",
+      "task": "面向球迷，理顺出场、赛况与赛后评价；可压缩赞颂，不补对手名称或进球细节。",
+      "audience": "足球爱好者",
+      "must_preserve": [
+        {
+          "quote": "谢菲尔德联与世界最古老的球队",
+          "requirement": "保留对阵关系，不推定对手名称"
+        },
+        {
+          "quote": "孙继海首发登场，出任球队右后卫",
+          "requirement": "保留首发身份和场上位置"
+        },
+        {
+          "quote": "最终，谢联以4球横扫对手",
+          "requirement": "保留四球大胜，不补具体比分"
+        }
+      ],
+      "voice_quote": "取得了一场酣畅淋漓的胜利",
+      "voice": "热情赞赏的赛事叙述",
+      "allowed_changes": [
+        "合并团队精神的重复赞颂",
+        "按比赛进程重分段"
+      ],
+      "failure_conditions": [
+        "将孙继海写成替补或进球者",
+        "擅自增加对手名称或比赛日期"
+      ],
+      "scoring_note": "最易误伤赛况边界：流畅不等于可补比赛细节。"
+    },
+    {
+      "id": "zh2-coherence-027",
+      "suitable": true,
+      "reason": "三只总述与两只细述边界不清",
+      "task": "面向基金资讯读者，理顺获批、募集计划与展望；可删套话，不补第三只资料或时间线。",
+      "audience": "基金资讯读者",
+      "must_preserve": [
+        {
+          "quote": "中国证监会再度批准三只新基金发行",
+          "requirement": "保留获批主体及三只数量"
+        },
+        {
+          "quote": "一只偏股型基金计划募集20亿元",
+          "requirement": "保留类型、金额及计划性质"
+        },
+        {
+          "quote": "另一只债券型基金计划募集15亿元",
+          "requirement": "保留类型、金额及计划性质"
+        }
+      ],
+      "voice_quote": "谨慎做出投资决策",
+      "voice": "资讯口吻，保留审慎提醒",
+      "allowed_changes": [
+        "明确两只基金仅为部分介绍",
+        "区分计划、首日反应和未来判断"
+      ],
+      "failure_conditions": [
+        "把获批总数改成两只",
+        "把20亿或15亿写成已募金额"
+      ],
+      "scoring_note": "最易误伤时态：计划募集不能因衔接变成完成。"
+    },
+    {
+      "id": "zh2-coherence-028",
+      "suitable": true,
+      "reason": "经验积累与转正推论需分清",
+      "task": "面向求职者，理顺合同工定义、利弊及选择条件；可压缩总结，不补政策或转正通道。",
+      "audience": "考虑政府合同岗的求职者",
+      "must_preserve": [
+        {
+          "quote": "不具有正式编制身份但与政府部门签订劳动合同",
+          "requirement": "保留无编制与签合同的区别"
+        },
+        {
+          "quote": "虽然合同性质意味着工作不是永久性的",
+          "requirement": "稳定只属相对，非永久保障"
+        },
+        {
+          "quote": "合同到期后能否继续留在原单位存在不确定性",
+          "requirement": "保留续留不确定性"
+        }
+      ],
+      "voice_quote": "每个人的情况都不尽相同",
+      "voice": "平衡利弊，不替读者拍板",
+      "allowed_changes": [
+        "按定义、利弊、适用条件分段",
+        "弱化无支撑的转正机会概括"
+      ],
+      "failure_conditions": [
+        "把合同工写成已有正式编制",
+        "把积累经验写成保证转为公务员"
+      ],
+      "scoring_note": "最易误伤条件性：短期相对稳定不是长期承诺。"
+    },
+    {
+      "id": "zh2-coherence-029",
+      "suitable": true,
+      "reason": "文化实用与经济条件可更紧密衔接",
+      "task": "面向考虑购鞋的男生，理顺文化、用途与预算权衡；可删重复例说，不补性能或价格。",
+      "audience": "考虑购买AJ或Yeezy的男生",
+      "must_preserve": [
+        {
+          "quote": "AJ系列与篮球巨星迈克尔·乔丹紧密相连",
+          "requirement": "保留AJ的篮球情感关联"
+        },
+        {
+          "quote": "而Yeezy虽然更偏向时尚",
+          "requirement": "保留两品牌侧重点差异"
+        },
+        {
+          "quote": "但如果经济条件不允许，也不必为了跟风而勉强自己",
+          "requirement": "保留预算限制及反盲从立场"
+        }
+      ],
+      "voice_quote": "这不能一概而论",
+      "voice": "理解爱好，强调量力而行",
+      "allowed_changes": [
+        "压缩假设性购鞋例子",
+        "衔接兴趣、用途与预算条件"
+      ],
+      "failure_conditions": [
+        "把购鞋建议改成男生必须拥有",
+        "把Yeezy写成篮球实战首选"
+      ],
+      "scoring_note": "最易误伤立场：压缩后不能只剩品牌赞美。"
+    },
+    {
+      "id": "zh2-coherence-030",
+      "suitable": true,
+      "reason": "多方回应堆叠且指代收束含混",
+      "task": "面向新闻读者，理顺事件指控、各方回应与后续；可删重复谴责，不补调查证据或结论。",
+      "audience": "新闻读者",
+      "must_preserve": [
+        {
+          "quote": "这起事件发生在校外一处私人场所",
+          "requirement": "保留原稿所述校外地点"
+        },
+        {
+          "quote": "有受害者在不省人事的情况下遭到性侵",
+          "requirement": "保留原稿指控，不写成司法定论"
+        },
+        {
+          "quote": "以评估其在防止性侵和保护学生安全方面的措施是否到位",
+          "requirement": "保留教育部门调查针对学校措施"
+        }
+      ],
+      "voice_quote": "以确保新生在迎新期间的安全和尊严",
+      "voice": "严肃关切受害者安全尊严",
+      "allowed_changes": [
+        "按事件、回应、后续分段",
+        "合并监管与改革的重复表述"
+      ],
+      "failure_conditions": [
+        "把校外私人场所改成校内",
+        "将可能受制裁写成已经定罪"
+      ],
+      "scoring_note": "最易误伤证据层级：原稿指控不等于已核实事实。"
+    },
+    {
+      "id": "zh2-coherence-031",
+      "suitable": true,
+      "reason": "背景、合作依据与意义可分层",
+      "task": "面向时政读者，理顺危机背景、相互依存与合作意义；可删重复赞语，不补讲话时间。",
+      "audience": "时政评论读者",
+      "must_preserve": [
+        {
+          "quote": "中美应共同推动世界经济复苏",
+          "requirement": "保留胡锦涛所述核心主张"
+        },
+        {
+          "quote": "2008年国际金融危机的影响仍在持续发酵",
+          "requirement": "保留原稿的危机后背景"
+        },
+        {
+          "quote": "中美两国经济相互依存度极高",
+          "requirement": "保留相互依存作为合作依据"
+        }
+      ],
+      "voice_quote": "具有重要的指导意义",
+      "voice": "正式、肯定合作价值",
+      "allowed_changes": [
+        "合并首尾重复价值评价",
+        "分清经济合作与政治互信两层"
+      ],
+      "failure_conditions": [
+        "把合作主张改成单方承担责任",
+        "把可通过G20合作写成已达成协议"
+      ],
+      "scoring_note": "最易误伤时间与语气：合作设想不能变成既成成果。"
+    },
+    {
+      "id": "zh2-coherence-032",
+      "suitable": true,
+      "reason": "上传步骤夹杂推广论述",
+      "task": "面向苹果端创作者，理顺准备、上传和发布后设置；可删推广空话，不补界面或平台规则。",
+      "audience": "苹果端音频创作者",
+      "must_preserve": [
+        {
+          "quote": "建议使用电脑端网页或网易云音乐Mac客户端",
+          "requirement": "保留推荐入口，非唯一入口"
+        },
+        {
+          "quote": "文件大小通常有限制，一般不超过200MB",
+          "requirement": "保留数值及通常、一般限定"
+        },
+        {
+          "quote": "上传过程中要仔细阅读平台的内容政策",
+          "requirement": "保留上传内容合规提醒"
+        }
+      ],
+      "voice_quote": "音频文件需要提前准备",
+      "voice": "直接、实用的操作说明",
+      "allowed_changes": [
+        "把文件准备前置",
+        "压缩平台传播价值及举例"
+      ],
+      "failure_conditions": [
+        "把移动端受限改成绝对不能上传",
+        "把200MB写成已核实的硬性现行规则"
+      ],
+      "scoring_note": "最易误伤限定词：顺序整理不能替平台规则背书。"
+    },
+    {
+      "id": "zh2-coherence-033",
+      "suitable": true,
+      "reason": "比较句主语错接且场景反复切换",
+      "task": "面向网络生活读者，理顺两类人的比较和改进建议；可合并场景重复，不新增诊断或研究。",
+      "audience": "关注网络生活的读者",
+      "must_preserve": [
+        {
+          "quote": "他们真诚待人，不依赖网络虚拟形象伪装自己",
+          "requirement": "保留作者推崇真实交往的立场"
+        },
+        {
+          "quote": "他们有自己独立的思考和判断",
+          "requirement": "保留独立判断这一核心特质"
+        },
+        {
+          "quote": "要合理安排上网时间，设定上网时长限制",
+          "requirement": "保留限时使用而非禁用网络"
+        }
+      ],
+      "voice_quote": "保持着真实的自我和独立人格",
+      "voice": "倡导真实、自主的劝勉口吻",
+      "allowed_changes": [
+        "修正比较句的主语错接",
+        "合并社交、工作场景的重复对照"
+      ],
+      "failure_conditions": [
+        "把被异化者特征归给未被异化者",
+        "将合理上网改成彻底断网"
+      ],
+      "scoring_note": "最易误伤指代：对照句错接会颠倒作者评价对象。"
+    },
+    {
+      "id": "zh2-coherence-034",
+      "suitable": true,
+      "reason": "日常观察转社会议论较突兀",
+      "task": "面向散文读者，衔接一日观察与城市反思；可压缩宏大套话，不删问题意识或热爱立场。",
+      "audience": "城市生活散文读者",
+      "must_preserve": [
+        {
+          "quote": "我站在这个繁华都市的一隅",
+          "requirement": "保留第一人称城市观察视角"
+        },
+        {
+          "quote": "却承载着几代人的记忆与情感",
+          "requirement": "保留老街小店的人情与记忆"
+        },
+        {
+          "quote": "尽管如此，我依然深爱着这座给予我无限可能的城市",
+          "requirement": "保留正视问题后仍热爱的转折"
+        }
+      ],
+      "voice_quote": "这些角落里散发出的人情味儿",
+      "voice": "温暖抒情，兼有现实忧虑",
+      "allowed_changes": [
+        "保留清晨、午后、夜晚推进并补顺转折",
+        "压缩梦想与未来的重复赞语"
+      ],
+      "failure_conditions": [
+        "删尽污染、拥堵等城市问题",
+        "把结尾热爱改成对城市失望离弃"
+      ],
+      "scoring_note": "最易误伤情绪：理顺议论不能抹掉忧虑中的热爱。"
+    }
+  ],
+  "metadata": {
+    "job": "rest-31",
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 93.95,
+    "system_sha256": "2c85943d84beabe7f1c8a64f793323c3fb90f4110f4f66ac756b1b69b3faf06e",
+    "input_sha256": "0bea31c84a8baaebb5b4dd0820cf9e85cd36d20873372cf6ecf66901263de62b",
+    "usage": [
+      {
+        "input_tokens": 20551,
+        "cached_input_tokens": 10368,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2734,
+        "reasoning_output_tokens": 57
+      }
+    ],
+    "review_type": "model_annotation",
+    "human_review": false
+  }
+}

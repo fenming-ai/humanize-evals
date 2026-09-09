@@ -1,0 +1,32 @@
+{
+  "cases": [
+    {
+      "id": "zh2-no_edit-r083",
+      "approve": true,
+      "reason": "引文准确，调查主体与状态限定忠实，无明显必改问题。"
+    },
+    {
+      "id": "zh2-no_edit-r088",
+      "approve": true,
+      "reason": "个人经验与观察条件保留准确，口语自然，原样保留合理。"
+    }
+  ],
+  "metadata": {
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 19.25,
+    "input_sha256": "38ea8f09249261b8699d85b8df5f6762fbaa10043d44ae7f836fb50d69aeeb05",
+    "system_sha256": "0c41b551a96d085bbc3597749915f67732aa702736eddffdb625f85696aded81",
+    "usage": [
+      {
+        "input_tokens": 16703,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 171,
+        "reasoning_output_tokens": 86
+      }
+    ],
+    "review_type": "independent_context_model_review",
+    "human_review": false
+  }
+}

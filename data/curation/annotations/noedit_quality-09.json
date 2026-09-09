@@ -1,0 +1,229 @@
+{
+  "cases": [
+    {
+      "id": "zh2-no_edit-q091",
+      "suitable": false,
+      "reason": "属地减招与中西部倾斜表述重复",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-q092",
+      "suitable": false,
+      "reason": "“过期不再授理”有明显错字",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-q093",
+      "suitable": false,
+      "reason": "两次重复影后身份及单身声明",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-q094",
+      "suitable": true,
+      "reason": "行情、条件预测与操作建议层次清楚",
+      "task": "面向原油行情读者作强保留验收，可原样输出，不省略行情数字、条件及建议。",
+      "audience": "原油行情读者",
+      "must_preserve": [
+        {
+          "quote": "上方最高升至99.42，下方最低位于96.99",
+          "requirement": "保留高低价及全文价位、时间与单位"
+        },
+        {
+          "quote": "如果风险情绪进一步改善",
+          "requirement": "重返百元是有条件预测，不是结果"
+        },
+        {
+          "quote": "长期趋势：看涨 短期趋势：中性看跌",
+          "requirement": "区分长短期判断，保留短线观望建议"
+        }
+      ],
+      "voice_quote": "操作上建议，短线观望为主。",
+      "voice": "简练行情评论，预测有保留",
+      "allowed_changes": [
+        "允许完整原样输出",
+        "仅整理行情列表空格与换行"
+      ],
+      "failure_conditions": [
+        "将原油重返百元写成已实现",
+        "把短期中性看跌改为看涨"
+      ],
+      "scoring_note": "长短期判断最易被强行统一；不同尺度不等于矛盾。"
+    },
+    {
+      "id": "zh2-no_edit-q095",
+      "suitable": true,
+      "reason": "综述摘要完整，定义与范围清晰",
+      "task": "面向医学综述读者作强保留验收，可原样输出，不删疾病定义、局限及综述范围。",
+      "audience": "医学综述读者",
+      "must_preserve": [
+        {
+          "quote": "骨髓造血功能衰竭、先天发育异常及发展为恶性疾病的风险高",
+          "requirement": "保留三类共同特征及四种疾病例举"
+        },
+        {
+          "quote": "临床表现多样，检测及治疗手段有限",
+          "requirement": "保留诊疗局限及测序有助诊疗的观点"
+        },
+        {
+          "quote": "临床特征、遗传学特征、诊断、治疗及预后",
+          "requirement": "保留综述涵盖的五个方面"
+        }
+      ],
+      "voice_quote": "现就遗传性骨髓衰竭综合征",
+      "voice": "克制、专业的综述摘要语气",
+      "allowed_changes": [
+        "允许完整原样输出",
+        "仅作不改语义的标点整理"
+      ],
+      "failure_conditions": [
+        "将恶性疾病高风险改为必然恶变",
+        "将基因测序作用改为保证治愈"
+      ],
+      "scoring_note": "专业摘要的程式表达有功能，不宜当空话删去。"
+    },
+    {
+      "id": "zh2-no_edit-q096",
+      "suitable": false,
+      "reason": "“孰不知”误用且知情关系不清",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-q097",
+      "suitable": false,
+      "reason": "学位后缺句号，萨科奇译名不一",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-q098",
+      "suitable": true,
+      "reason": "赛况与人物引语衔接清楚",
+      "task": "面向田径读者作强保留验收，可原样输出，不删赛事背景、成绩比较、伤情与人物态度。",
+      "audience": "田径赛事读者",
+      "must_preserve": [
+        {
+          "quote": "盖伊以9秒71的成绩打破了美国全国纪录",
+          "requirement": "保留美国纪录及落后博尔特0.13秒"
+        },
+        {
+          "quote": "毕竟腹股沟的伤势一直影响着他",
+          "requirement": "保留伤势影响与盖伊满意自身表现"
+        },
+        {
+          "quote": "但我依然相信，我早晚有一天能够实现这个目标",
+          "requirement": "保留祝贺对手、不甘与未来信心"
+        }
+      ],
+      "voice_quote": "多么恐怖的差距。",
+      "voice": "惊叹差距，同时赞赏盖伊风度",
+      "allowed_changes": [
+        "允许完整原样输出",
+        "仅整理引语段落"
+      ],
+      "failure_conditions": [
+        "把9秒71写成世界纪录",
+        "将盖伊的祝贺改成嫉妒或认输"
+      ],
+      "scoring_note": "惊叹与陪衬感是体育报道声音，不应机械中性化。"
+    },
+    {
+      "id": "zh2-no_edit-q099",
+      "suitable": false,
+      "reason": "多重逗号长句及双重否定需整理",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-q100",
+      "suitable": true,
+      "reason": "比分推进与单局过程清楚完整",
+      "task": "面向斯诺克读者作强保留验收，可原样输出，不删比分推进及第11局关键过程。",
+      "audience": "斯诺克赛事读者",
+      "must_preserve": [
+        {
+          "quote": "丁俊晖在3-1领先的情况下被亨德利追至4-4",
+          "requirement": "保留首阶段比分及随后战成5-5"
+        },
+        {
+          "quote": "在得到38分后，丁俊晖K红球堆成功",
+          "requirement": "保留亨德利7分失机及丁俊晖解球过程"
+        },
+        {
+          "quote": "轰出单杆130拿下此局，从而以6-5领先",
+          "requirement": "区分单杆得分与第11局后的总比分"
+        }
+      ],
+      "voice_quote": "越打越顺的丁俊晖此后走位十分精确",
+      "voice": "现场感强，赞赏丁俊晖渐入佳境",
+      "allowed_changes": [
+        "允许完整原样输出",
+        "仅整理比分符号与段落"
+      ],
+      "failure_conditions": [
+        "将6-5领先写成整场获胜",
+        "把单杆130归给亨德利"
+      ],
+      "scoring_note": "比分层级最易误伤；单杆、单局与阶段比分不可混同。"
+    }
+  ],
+  "metadata": {
+    "job": "noedit_quality-09",
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 74.53,
+    "system_sha256": "2c85943d84beabe7f1c8a64f793323c3fb90f4110f4f66ac756b1b69b3faf06e",
+    "input_sha256": "a381c112a1b030177ba86fb8469a2b125736b38c7244976ee8493866c915c1e7",
+    "usage": [
+      {
+        "input_tokens": 18678,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1699,
+        "reasoning_output_tokens": 195
+      }
+    ],
+    "review_type": "model_annotation",
+    "human_review": false
+  }
+}

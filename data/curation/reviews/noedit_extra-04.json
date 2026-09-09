@@ -1,0 +1,47 @@
+{
+  "cases": [
+    {
+      "id": "zh2-no_edit-qx041",
+      "approve": true,
+      "reason": "原文完整通顺；合同忠实保留伤情、情绪与父母说法归属。"
+    },
+    {
+      "id": "zh2-no_edit-qx043",
+      "approve": true,
+      "reason": "数字与主体边界准确，未将调查疑点强制认定为事故原因。"
+    },
+    {
+      "id": "zh2-no_edit-qx044",
+      "approve": true,
+      "reason": "时间、撤回范围及分析归属准确，未将预计留驻写成事实。"
+    },
+    {
+      "id": "zh2-no_edit-qx049",
+      "approve": true,
+      "reason": "原文自述完整，合同保留口语特点及个人原则的适用范围。"
+    },
+    {
+      "id": "zh2-no_edit-qx050",
+      "approve": true,
+      "reason": "属中性发行资讯；产品、日期及渠道对应准确，无收益宣传。"
+    }
+  ],
+  "metadata": {
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 25.11,
+    "input_sha256": "dfc37c8094d0b72919f7314de9b6806ba5602dd50b1e95dc2e85814a7aa52b7a",
+    "system_sha256": "0c41b551a96d085bbc3597749915f67732aa702736eddffdb625f85696aded81",
+    "usage": [
+      {
+        "input_tokens": 18105,
+        "cached_input_tokens": 9856,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 242,
+        "reasoning_output_tokens": 39
+      }
+    ],
+    "review_type": "independent_context_model_review",
+    "human_review": false
+  }
+}

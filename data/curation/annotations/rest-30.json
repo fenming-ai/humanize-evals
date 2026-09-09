@@ -1,0 +1,286 @@
+{
+  "cases": [
+    {
+      "id": "zh2-coherence-015",
+      "suitable": true,
+      "reason": "综述与自述实验成果身份混杂",
+      "task": "面向生物制造研究读者，统一综述叙述与论证衔接；可删拔高，不补实验依据。",
+      "audience": "生物制造研究读者",
+      "must_preserve": [
+        {
+          "quote": "微生物发酵法生产cAMP的最新进展",
+          "requirement": "保留发酵生产cAMP的综述主题"
+        },
+        {
+          "quote": "尤其是大肠杆菌和酵母菌",
+          "requirement": "保留两类重点讨论菌株"
+        },
+        {
+          "quote": "关键酶的表达调控和代谢通量的精细调节",
+          "requirement": "保留两项代谢工程调节手段"
+        }
+      ],
+      "voice_quote": "未来的研究应继续致力于优化菌株性能和发酵工艺",
+      "voice": "学术概述，审慎展望",
+      "allowed_changes": [
+        "统一综述主体，弱化无实验支撑的成果自述",
+        "删去产业意义的重复拔高"
+      ],
+      "failure_conditions": [
+        "把综述写成已完成且有数据的实验报告",
+        "新增cAMP增产幅度或菌株实验结果"
+      ],
+      "scoring_note": "主体边界最易误伤：顺句不能把综述变成实验证明。"
+    },
+    {
+      "id": "zh2-coherence-016",
+      "suitable": true,
+      "reason": "原因猜测与建议衔接可收紧",
+      "task": "面向阅读器产品讨论者，理顺需求、原因与建议；可压缩重复，不补产品内幕。",
+      "audience": "阅读器产品讨论者",
+      "must_preserve": [
+        {
+          "quote": "未满足部分用户对笔记、高亮、朗读等功能的需求",
+          "requirement": "保留功能对象及部分用户边界"
+        },
+        {
+          "quote": "豆瓣阅读器可能更侧重于营造文艺、小众的阅读氛围",
+          "requirement": "产品定位解释须保持猜测性质"
+        },
+        {
+          "quote": "如果发现有较大需求，可以逐步引入这些功能",
+          "requirement": "保留调研需求后逐步引入的条件"
+        }
+      ],
+      "voice_quote": "在提升用户体验和保持产品风格间找到平衡",
+      "voice": "兼顾体验与风格，温和建议",
+      "allowed_changes": [
+        "合并功能价值与结尾平衡表述",
+        "将调研、轻量引入、可选开启顺接"
+      ],
+      "failure_conditions": [
+        "断言豆瓣因资源不足而拒绝开发",
+        "把建议改为所有用户强制开启功能"
+      ],
+      "scoring_note": "推测语气最易丢失：原因分析不是内部决策事实。"
+    },
+    {
+      "id": "zh2-coherence-017",
+      "suitable": false,
+      "reason": "递进与结论清楚，衔接修复点不足",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-coherence-018",
+      "suitable": false,
+      "reason": "主要疑点在分类与声线，非衔接",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-coherence-019",
+      "suitable": true,
+      "reason": "决定、引语与评论层次可分明",
+      "task": "面向新闻读者，分清处分事实陈述、报告与评论归属；可删空泛收尾，不补史料。",
+      "audience": "新闻读者",
+      "must_preserve": [
+        {
+          "quote": "停止党员资格六个月的纪律处分",
+          "requirement": "保留处分类型与六个月期限"
+        },
+        {
+          "quote": "尽管未发现小泽本人直接违法",
+          "requirement": "保留报告未发现本人直接违法的限定"
+        },
+        {
+          "quote": "小泽作为国会议员的政治活动不受影响",
+          "requirement": "保留冈田所述不受影响的活动范围"
+        }
+      ],
+      "voice_quote": "政治分析人士认为",
+      "voice": "新闻转述，区分事实与分析",
+      "allowed_changes": [
+        "按决定、纪律报告、冈田表态、分析分层",
+        "压缩泛化舆论收尾"
+      ],
+      "failure_conditions": [
+        "将小泽监督责任改成已被认定直接违法",
+        "将停止党籍改成暂停国会议员活动"
+      ],
+      "scoring_note": "归属最易误伤：党内报告、政治评论不能混成定论。"
+    },
+    {
+      "id": "zh2-coherence-020",
+      "suitable": true,
+      "reason": "限制结论反复出现，层次松散",
+      "task": "面向移动应用开发者，串联Doze机制、推送影响与缓解边界；可去重，不补技术条件。",
+      "audience": "移动应用开发者",
+      "must_preserve": [
+        {
+          "quote": "通过限制后台活动来减少电量消耗",
+          "requirement": "保留省电目的与后台限制的关系"
+        },
+        {
+          "quote": "能够在一定程度上绕过Doze模式的限制",
+          "requirement": "保留原文对FCM例外的程度限定"
+        },
+        {
+          "quote": "并不能完全确保推送服务的可靠性",
+          "requirement": "保留缓解措施不保证可靠性的边界"
+        }
+      ],
+      "voice_quote": "而不特意针对第三方推送服务",
+      "voice": "技术解释，强调设计取舍",
+      "allowed_changes": [
+        "合并多次出现的第三方推送受限结论",
+        "按机制、例外、缓解措施重排"
+      ],
+      "failure_conditions": [
+        "把FCM写成完全不受Doze限制",
+        "声称加入白名单即可保证推送可靠"
+      ],
+      "scoring_note": "条件最易误伤：压缩重复不能删除例外与程度限定。"
+    },
+    {
+      "id": "zh2-coherence-021",
+      "suitable": true,
+      "reason": "板块表现重复，行情与解释交杂",
+      "task": "面向财经新闻读者，分层呈现行情、原因解释与展望；可去重，不补日期或行情证据。",
+      "audience": "财经新闻读者",
+      "must_preserve": [
+        {
+          "quote": "上证基准指数强势上涨2.19%",
+          "requirement": "保留原文指数对象及涨幅"
+        },
+        {
+          "quote": "创业板指数同样表现亮眼，上涨超过2.5%",
+          "requirement": "保留创业板涨幅超过2.5%的边界"
+        },
+        {
+          "quote": "本轮反弹可能是市场企稳的信号",
+          "requirement": "保留分析人士的可能性判断"
+        }
+      ],
+      "voice_quote": "但投资者仍需保持谨慎",
+      "voice": "积极解读中保留谨慎",
+      "allowed_changes": [
+        "合并新能源、半导体等重复板块描述",
+        "分开行情陈述、归因与短期展望"
+      ],
+      "failure_conditions": [
+        "将创业板涨幅写成恰好2.5%",
+        "将可能企稳改成已确定持续上涨"
+      ],
+      "scoring_note": "判断强度最易误伤：衔接顺畅不等于归因已获验证。"
+    },
+    {
+      "id": "zh2-coherence-022",
+      "suitable": true,
+      "reason": "定价因素交叉重复，可归并层次",
+      "task": "面向音乐授权需求者，梳理作品价值与使用条件两层因素；可删重复，不新增报价依据。",
+      "audience": "音乐授权需求者",
+      "must_preserve": [
+        {
+          "quote": "其核心取决于音乐作品的商业价值和使用范围",
+          "requirement": "保留商业价值与使用范围双重核心"
+        },
+        {
+          "quote": "使用时长、使用范围和独家授权与否",
+          "requirement": "保留三项授权条件对价格的影响"
+        },
+        {
+          "quote": "其版权价值往往超出普通商业计算",
+          "requirement": "保留部分作品文化艺术价值的观点"
+        }
+      ],
+      "voice_quote": "音乐版权定价是一个综合性的专业评估过程",
+      "voice": "概括说明，强调多因素评估",
+      "allowed_changes": [
+        "归并知名度、热度与艺术影响力的重复讨论",
+        "删去无展开的未来透明化展望"
+      ],
+      "failure_conditions": [
+        "把知名歌手的可能价格写成统一报价",
+        "将独家与非独家授权写成不影响价格"
+      ],
+      "scoring_note": "因素边界最易误伤：归并不能把文化价值压成热度。"
+    },
+    {
+      "id": "zh2-coherence-023",
+      "suitable": false,
+      "reason": "单品相容性无法支撑叠用安全结论",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-coherence-024",
+      "suitable": true,
+      "reason": "赛况与精神评价重复，转折拖长",
+      "task": "面向围棋赛事读者，理顺首局进程与赛后评价；可删渲染，不补棋谱或现场细节。",
+      "audience": "围棋赛事读者",
+      "must_preserve": [
+        {
+          "quote": "在前期一度占据了一定的优势",
+          "requirement": "保留谢赫前期暂有优势的叙述"
+        },
+        {
+          "quote": "他的落子开始变得急躁，决策也出现了一些失误",
+          "requirement": "保留原文对急躁与失误的归因"
+        },
+        {
+          "quote": "谢赫还有机会在后续的比赛中调整状态",
+          "requirement": "保留首局失利不等于整场落败"
+        }
+      ],
+      "voice_quote": "谢赫的表现令人惋惜",
+      "voice": "惋惜失利，同时肯定坚持",
+      "allowed_changes": [
+        "删去紧张现场与赛事魅力的泛化渲染",
+        "合并不放弃评价及后续期待"
+      ],
+      "failure_conditions": [
+        "把谢赫首局失利改成决赛已全部结束",
+        "新增对手姓名、具体棋步或赛后引语"
+      ],
+      "scoring_note": "情绪最易误伤：去掉励志重复仍须保留惋惜与期待。"
+    }
+  ],
+  "metadata": {
+    "job": "rest-30",
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 88.6,
+    "system_sha256": "2c85943d84beabe7f1c8a64f793323c3fb90f4110f4f66ac756b1b69b3faf06e",
+    "input_sha256": "c04ab76e5fa8ec38023c68de643cc71e11a91c52a67f4bed79c841c490f03eb1",
+    "usage": [
+      {
+        "input_tokens": 19895,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2369,
+        "reasoning_output_tokens": 238
+      }
+    ],
+    "review_type": "model_annotation",
+    "human_review": false
+  }
+}

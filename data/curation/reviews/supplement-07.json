@@ -1,0 +1,37 @@
+{
+  "cases": [
+    {
+      "id": "zh2-no_edit-r063",
+      "approve": true,
+      "reason": "原文完整通顺，数据保留要求忠实，引用与失败条件合理。"
+    },
+    {
+      "id": "zh2-no_edit-r064",
+      "approve": true,
+      "reason": "合约分组与例外保留准确，引用连续原样，适合不改。"
+    },
+    {
+      "id": "zh2-no_edit-r066",
+      "approve": true,
+      "reason": "摘要完整，无明显病句或模板宣传，合同未强加研究结果。"
+    }
+  ],
+  "metadata": {
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 16.6,
+    "input_sha256": "e898966670754bdb10727ab29d22530cdb5fed22c1a430d5fd54d950c8085c12",
+    "system_sha256": "0c41b551a96d085bbc3597749915f67732aa702736eddffdb625f85696aded81",
+    "usage": [
+      {
+        "input_tokens": 17013,
+        "cached_input_tokens": 9856,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 153,
+        "reasoning_output_tokens": 31
+      }
+    ],
+    "review_type": "independent_context_model_review",
+    "human_review": false
+  }
+}

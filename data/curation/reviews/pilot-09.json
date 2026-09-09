@@ -1,0 +1,72 @@
+{
+  "cases": [
+    {
+      "id": "zh2-missing_material-007",
+      "approve": true,
+      "reason": "引文准确，保留个人立场与分歧，未强制将泛化解读当事实。"
+    },
+    {
+      "id": "zh2-missing_material-008",
+      "approve": true,
+      "reason": "技术关系忠实原稿，合理收束准确性承诺及未展开的机制。"
+    },
+    {
+      "id": "zh2-long_form-001",
+      "approve": true,
+      "reason": "结构与情绪保留完整，对首创表述及行动群像保有证据边界。"
+    },
+    {
+      "id": "zh2-long_form-002",
+      "approve": true,
+      "reason": "引文准确，在世情境、高考阶段与职业设想的边界清楚。"
+    },
+    {
+      "id": "zh2-long_form-003",
+      "approve": true,
+      "reason": "保留照料与成长主线，器皿整理合理，未将味觉体验升级为疗效。"
+    },
+    {
+      "id": "zh2-long_form-004",
+      "approve": true,
+      "reason": "概念区分及三条实践路径忠实，允许压缩且不强求原样措辞。"
+    },
+    {
+      "id": "zh2-long_form-005",
+      "approve": true,
+      "reason": "保留勤索辨析与青年倡议，合理限制史料增补及成功保证。"
+    },
+    {
+      "id": "zh2-long_form-006",
+      "approve": true,
+      "reason": "定义、分类和研究范围对应原稿，未将前景或自述强制当作验证结论。"
+    },
+    {
+      "id": "zh2-long_form-007",
+      "approve": true,
+      "reason": "书籍来源、成长时间线和赠书对象准确，保留店主说法的来源限定。"
+    },
+    {
+      "id": "zh2-long_form-008",
+      "approve": true,
+      "reason": "人物身份、病逝时间线与传承主线忠实，合理区分意象和事实。"
+    }
+  ],
+  "metadata": {
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 32.55,
+    "input_sha256": "067414803cbe615d979541f5934b03d4ac942a58a01759dd3b5879bea9395790",
+    "system_sha256": "0c41b551a96d085bbc3597749915f67732aa702736eddffdb625f85696aded81",
+    "usage": [
+      {
+        "input_tokens": 33546,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 469,
+        "reasoning_output_tokens": 60
+      }
+    ],
+    "review_type": "independent_context_model_review",
+    "human_review": false
+  }
+}

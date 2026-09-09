@@ -1,0 +1,72 @@
+{
+  "cases": [
+    {
+      "id": "zh2-slop-047",
+      "approve": true,
+      "reason": "引文准确，保留决策主线并限制因果背书，符合去套话任务。"
+    },
+    {
+      "id": "zh2-slop-048",
+      "approve": true,
+      "reason": "保留多学说与可能性限定，未将争议观点强制定为事实。"
+    },
+    {
+      "id": "zh2-slop-049",
+      "approve": true,
+      "reason": "三维比较有原文依据，假设案例与选择条件的边界合理。"
+    },
+    {
+      "id": "zh2-slop-050",
+      "approve": true,
+      "reason": "保留四阶段流程及假设口吻，删口号不损操作要点。"
+    },
+    {
+      "id": "zh2-slop-051",
+      "approve": true,
+      "reason": "忠实保留原稿公司业绩口径，限制新增来源与核实背书。"
+    },
+    {
+      "id": "zh2-slop-052",
+      "approve": true,
+      "reason": "增量、风险与建议均有依据，允许删例子且禁止补造身份。"
+    },
+    {
+      "id": "zh2-slop-053",
+      "approve": true,
+      "reason": "地点、名次与庆祝角色均忠于原文，赞语值得精简。"
+    },
+    {
+      "id": "zh2-slop-054",
+      "approve": true,
+      "reason": "课程、实践和挑战均有出处，宣传压缩与失败条件一致。"
+    },
+    {
+      "id": "zh2-slop-055",
+      "approve": true,
+      "reason": "保留非唯一路径及具体替代建议，未扭曲竞赛和升学价值。"
+    },
+    {
+      "id": "zh2-slop-056",
+      "approve": true,
+      "reason": "人物、动作与返乡线索有据，允许精简修辞而保留乡愁。"
+    }
+  ],
+  "metadata": {
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 24.38,
+    "input_sha256": "8b908af60393e2b6372e68e3ca46cfe3699120af54f9ab62d7dafe8ca75dd9ef",
+    "system_sha256": "0c41b551a96d085bbc3597749915f67732aa702736eddffdb625f85696aded81",
+    "usage": [
+      {
+        "input_tokens": 23216,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 419,
+        "reasoning_output_tokens": 36
+      }
+    ],
+    "review_type": "independent_context_model_review",
+    "human_review": false
+  }
+}

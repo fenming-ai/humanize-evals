@@ -1,0 +1,72 @@
+{
+  "cases": [
+    {
+      "id": "zh2-punctuation-031-p2",
+      "approve": true,
+      "reason": "引文准确，标点功能与仅审标点的任务一致。"
+    },
+    {
+      "id": "zh2-punctuation-032-p2",
+      "approve": true,
+      "reason": "引文准确，分号、引号及省略号保护要求合理。"
+    },
+    {
+      "id": "zh2-punctuation-033-p2",
+      "approve": true,
+      "reason": "引用边界准确，未将读者推测强制当作事实。"
+    },
+    {
+      "id": "zh2-punctuation-034-p2",
+      "approve": true,
+      "reason": "简称与列举均忠实原文，未要求核实外部事实。"
+    },
+    {
+      "id": "zh2-punctuation-035-p2",
+      "approve": true,
+      "reason": "引文连续准确，标点与抒情声音保护要求合理。"
+    },
+    {
+      "id": "zh2-punctuation-036-p2",
+      "approve": true,
+      "reason": "引语与作品名边界准确，保留要求符合任务范围。"
+    },
+    {
+      "id": "zh2-punctuation-037-p2",
+      "approve": true,
+      "reason": "引号与顿号功能有据，禁止正文纠错符合任务。"
+    },
+    {
+      "id": "zh2-punctuation-038-p2",
+      "approve": true,
+      "reason": "括注与概念引号准确，推导保留未超出原文。"
+    },
+    {
+      "id": "zh2-punctuation-039-p2",
+      "approve": true,
+      "reason": "直引号规范值得测试，保留要求与修改权限一致。"
+    },
+    {
+      "id": "zh2-punctuation-040-p2",
+      "approve": true,
+      "reason": "名称、简称及并列目标均有原文依据，边界合理。"
+    }
+  ],
+  "metadata": {
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 24.85,
+    "input_sha256": "19c89ea9a8d0bdacc7c148a451d12ecd1cc80ac93405f47a3fe546de5f5b67d5",
+    "system_sha256": "0c41b551a96d085bbc3597749915f67732aa702736eddffdb625f85696aded81",
+    "usage": [
+      {
+        "input_tokens": 23654,
+        "cached_input_tokens": 9856,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 411,
+        "reasoning_output_tokens": 47
+      }
+    ],
+    "review_type": "independent_context_model_review",
+    "human_review": false
+  }
+}

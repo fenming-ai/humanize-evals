@@ -1,0 +1,207 @@
+{
+  "cases": [
+    {
+      "id": "zh2-no_edit-r031",
+      "suitable": false,
+      "reason": "两样材料指代反复，结算清单说明含混",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-r032",
+      "suitable": false,
+      "reason": "“空气着弥漫着”有明显语病",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-r033",
+      "suitable": false,
+      "reason": "“大多数认为的”指代不清且句意残缺",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-r034",
+      "suitable": false,
+      "reason": "选名推理跳跃，“故事架设”搭配不当",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-r035",
+      "suitable": false,
+      "reason": "“c9两所中的一所”范围不明",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-r036",
+      "suitable": false,
+      "reason": "未报告疼痛指标却断言可达无痛目的",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-r037",
+      "suitable": true,
+      "reason": "报道层次清楚，引语与评价有区分",
+      "task": "面向足球读者保留赛后报道，允许原样输出；不删人物履历、比赛细节及引语归属。",
+      "audience": "足球读者",
+      "must_preserve": [
+        {
+          "quote": "大头帮助球队拿了两次足协杯冠军",
+          "requirement": "保留两年效力、两冠及两度候选履历"
+        },
+        {
+          "quote": "4个失球中，几乎个个都是低级失误造成的",
+          "requirement": "保留后防批评及“几乎”的限定"
+        },
+        {
+          "quote": "而水原主帅尹成孝赛后更是洋洋自得",
+          "requirement": "保留主帅身份、赛后自得及表态"
+        }
+      ],
+      "voice_quote": "你们最需要有个李玮峰。",
+      "voice": "现场感强，带批评与褒扬",
+      "allowed_changes": [
+        "可全文原样保留，仅微调句读"
+      ],
+      "failure_conditions": [
+        "把水原媒体假设写成比赛事实",
+        "删去李玮峰曾效力申花的关系"
+      ],
+      "scoring_note": "评价语气易被中性化；应保留报道立场而非替作者降温。"
+    },
+    {
+      "id": "zh2-no_edit-r038",
+      "suitable": false,
+      "reason": "哈耶克引语冒号后缺失实际引文",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-r039",
+      "suitable": true,
+      "reason": "比赛进程可读，推测有明确限定",
+      "task": "面向篮球读者保留第三节战报，可原样输出；不删动作、时间和比分，不补未述回合。",
+      "audience": "篮球读者",
+      "must_preserve": [
+        {
+          "quote": "第三节还剩不到两分钟",
+          "requirement": "保留洛瑞首次突破的时间及造奥库犯规"
+        },
+        {
+          "quote": "他造成基里连科犯规并罚球命中",
+          "requirement": "保留再次突破、罚中及分差缩至8分"
+        },
+        {
+          "quote": "火箭队以68比75落后",
+          "requirement": "保留布鲁尔末段得分与第三节终场比分"
+        }
+      ],
+      "voice_quote": "也许正是洛瑞的精神激励了火箭",
+      "voice": "热烈战报口吻，赞赏洛瑞",
+      "allowed_changes": [
+        "可原样输出或拆分长句"
+      ],
+      "failure_conditions": [
+        "将精神激励写成确定因果",
+        "自行改动8分或68比75"
+      ],
+      "scoring_note": "比分衔接易引发擅自补回合；仅保护原文记述，不推算修正。"
+    },
+    {
+      "id": "zh2-no_edit-r040",
+      "suitable": true,
+      "reason": "招生条件与访谈统计表述清晰",
+      "task": "面向考生保留招生资讯，可原样输出；不省略人数、代码、加降分条件和访谈统计。",
+      "audience": "考生及家长",
+      "must_preserve": [
+        {
+          "quote": "今年校本部招生规模控制在2650人左右",
+          "requirement": "保留约数、医学部835及在京377构成"
+        },
+        {
+          "quote": "但不实行加分的累计政策",
+          "requirement": "保留教育部认可、不累计及最高20分"
+        },
+        {
+          "quote": "按照北大在当地录取线下的30分以内录取",
+          "requirement": "保留当地线、四档降分及优秀者放宽"
+        }
+      ],
+      "voice_quote": "据北大招办主任秦春华介绍",
+      "voice": "克制客观，明确消息归属",
+      "allowed_changes": [
+        "可全文保留，仅统一括号样式"
+      ],
+      "failure_conditions": [
+        "将两代码招生合并或删去177与200",
+        "改动9至14时、382问或301答"
+      ],
+      "scoring_note": "数字和例外最易被压缩误删；“今年”不得擅自换成当前年份。"
+    }
+  ],
+  "metadata": {
+    "job": "supplement-04",
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 66.63,
+    "system_sha256": "2c85943d84beabe7f1c8a64f793323c3fb90f4110f4f66ac756b1b69b3faf06e",
+    "input_sha256": "816d20b3eb5f875f0f24fc65df0f71068da211cda84349b8c1c3e0b5f8af4519",
+    "usage": [
+      {
+        "input_tokens": 18419,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1459,
+        "reasoning_output_tokens": 202
+      }
+    ],
+    "review_type": "model_annotation",
+    "human_review": false
+  }
+}

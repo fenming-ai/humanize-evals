@@ -1,0 +1,52 @@
+{
+  "cases": [
+    {
+      "id": "zh2-no_edit-q071",
+      "approve": true,
+      "reason": "数据、时间与各校差异忠实，可能性边界明确。"
+    },
+    {
+      "id": "zh2-no_edit-q073",
+      "approve": true,
+      "reason": "主观反馈与教师提醒归属清楚，保留要求合理。"
+    },
+    {
+      "id": "zh2-no_edit-q077",
+      "approve": true,
+      "reason": "事件与引语对应原文，未将争议强制解释为绝交。"
+    },
+    {
+      "id": "zh2-no_edit-q078",
+      "approve": true,
+      "reason": "区分媒体售价与官方确认，金额及条件均忠实。"
+    },
+    {
+      "id": "zh2-no_edit-q079",
+      "approve": true,
+      "reason": "患者主体、病情及转院顺序准确，类别恰当。"
+    },
+    {
+      "id": "zh2-no_edit-q080",
+      "approve": true,
+      "reason": "创作分工、时长及捐赠边界忠实，验收条件合理。"
+    }
+  ],
+  "metadata": {
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 27.92,
+    "input_sha256": "b2298b2e4d0f8934c8d062cb067d1a80d12fd56f53cadedc96388d3b7b60b524",
+    "system_sha256": "0c41b551a96d085bbc3597749915f67732aa702736eddffdb625f85696aded81",
+    "usage": [
+      {
+        "input_tokens": 19025,
+        "cached_input_tokens": 9856,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 314,
+        "reasoning_output_tokens": 96
+      }
+    ],
+    "review_type": "independent_context_model_review",
+    "human_review": false
+  }
+}

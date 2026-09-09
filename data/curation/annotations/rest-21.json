@@ -1,0 +1,322 @@
+{
+  "cases": [
+    {
+      "id": "zh2-voice_emotion-017",
+      "suitable": true,
+      "reason": "劝勉语气与排比节奏鲜明",
+      "task": "面向困惑中的读者，整理劝勉文的冗句与乱码；可压缩例证，不删自主判断与听取意见的平衡。",
+      "audience": "困惑中的读者",
+      "must_preserve": [
+        {
+          "quote": "不要师心自用，也别全盘吸收",
+          "requirement": "保留拒绝固执与盲从的双重边界"
+        },
+        {
+          "quote": "朋友，别把心灰，别把气丧",
+          "requirement": "保留亲切直接的鼓励"
+        },
+        {
+          "quote": "当你不熟悉情况，多询问询问",
+          "requirement": "保留不明情况时主动求教"
+        }
+      ],
+      "voice_quote": "是的，听从心之召唤。",
+      "voice": "热切劝勉，反复咏叹",
+      "allowed_changes": [
+        "修复乱码与多余空格",
+        "压缩重复比喻及历史例证"
+      ],
+      "failure_conditions": [
+        "把听从内心改成拒绝所有劝告",
+        "删除对读者的呼告，改成冷静说明"
+      ],
+      "scoring_note": "排比易被当套话全删，却承担鼓舞节奏。"
+    },
+    {
+      "id": "zh2-voice_emotion-018",
+      "suitable": true,
+      "reason": "人物对话有鲜明回避与打趣",
+      "task": "面向娱乐新闻读者，压缩重复爆料，保留人物回避、打趣及婚事安排的不确定性。",
+      "audience": "娱乐新闻读者",
+      "must_preserve": [
+        {
+          "quote": "没什么旧情，青梅竹马而已啊",
+          "requirement": "保留陈建州否认旧情的回应"
+        },
+        {
+          "quote": "生小孩可不可以一个、一个来？",
+          "requirement": "保留范范对催生的俏皮招架"
+        },
+        {
+          "quote": "应该是定在秋天或冬天",
+          "requirement": "保留婚期只是倾向而非确定"
+        }
+      ],
+      "voice_quote": "我光想到筹备婚礼，琐事一堆就头大",
+      "voice": "报道轻快，对话口语化",
+      "allowed_changes": [
+        "合并重复恋情爆料",
+        "整理节目对话与报道分隔"
+      ],
+      "failure_conditions": [
+        "将唐志中爆料写成已证实恋情",
+        "把范范的头大改成期待多生孩子"
+      ],
+      "scoring_note": "人物声音易混为记者判断，尤其恋情否认。"
+    },
+    {
+      "id": "zh2-voice_emotion-019",
+      "suitable": true,
+      "reason": "澄清中的歉意与忐忑可保护",
+      "task": "面向关注高考消息的读者，精简报道；保留经纪人的澄清、歉意与等待，不将希望写成录取。",
+      "audience": "关注高考消息的读者",
+      "must_preserve": [
+        {
+          "quote": "不是令人恐怖的154分，是286分",
+          "requirement": "保留经纪人否认与报分的对照"
+        },
+        {
+          "quote": "抱歉给大家的回复有些迟",
+          "requirement": "保留迟复的歉意"
+        },
+        {
+          "quote": "最终要在7月4日才会公布",
+          "requirement": "保留分数线公布日期及尚待确定"
+        }
+      ],
+      "voice_quote": "我们在忐忑等待中……",
+      "voice": "安抚中带歉意与不安",
+      "allowed_changes": [
+        "压缩新闻引入及重复等待表述"
+      ],
+      "failure_conditions": [
+        "将286分写成已达到当年分数线",
+        "删除忐忑，把经纪人写成胜券在握"
+      ],
+      "scoring_note": "安抚不等于确信，情绪与录取边界需共存。"
+    },
+    {
+      "id": "zh2-voice_emotion-020",
+      "suitable": true,
+      "reason": "思辨争辩后转入私人怀念",
+      "task": "面向影评读者，理顺论证、修正错字；可删重复解释，不删核心立场与末尾怀旧。",
+      "audience": "影评读者",
+      "must_preserve": [
+        {
+          "quote": "没有任何人具有全知视角",
+          "requirement": "保留作者关于视角局限的立场"
+        },
+        {
+          "quote": "不是虚伪，是本性",
+          "requirement": "保留对自我建构的理解而非谴责"
+        },
+        {
+          "quote": "写着写着，忽然好怀念上学的时候",
+          "requirement": "保留思辨后的私人怀旧转折"
+        }
+      ],
+      "voice_quote": "充其量只是个你愿意去相信的真实而已",
+      "voice": "直率思辨，收尾感性",
+      "allowed_changes": [
+        "修正错字与引号",
+        "合并视角有限的重复解释"
+      ],
+      "failure_conditions": [
+        "把《罗生门》的意义改成推理出真相",
+        "删掉怀念上学的结尾，改为学术总结"
+      ],
+      "scoring_note": "私人尾声看似离题，却是作者声音的落点。"
+    },
+    {
+      "id": "zh2-voice_emotion-021",
+      "suitable": true,
+      "reason": "愤懑反问与观影快感突出",
+      "task": "面向影迷，轻整口语影评；可调标点，不省略对挑剔者的不满与强烈好评。",
+      "audience": "影迷",
+      "must_preserve": [
+        {
+          "quote": "真搞不懂有些人老是吹毛求疵",
+          "requirement": "保留对挑剔评论者的恼火"
+        },
+        {
+          "quote": "妇联2剧情没啥可说的，文戏是铺垫",
+          "requirement": "保留剧情评价及文戏铺垫作用"
+        },
+        {
+          "quote": "武戏精彩，场面牛逼，看的过瘾，满分！",
+          "requirement": "保留动作场面带来的强烈快感与满分"
+        }
+      ],
+      "voice_quote": "你是要闹哪样？",
+      "voice": "粗粝口语，连珠反问",
+      "allowed_changes": [
+        "调整断句及明显用字问题"
+      ],
+      "failure_conditions": [
+        "改成礼貌客观的优缺点分析",
+        "把妇联2写成剧情精妙的电影"
+      ],
+      "scoring_note": "粗口与反问承载情绪，不能一概文明化。"
+    },
+    {
+      "id": "zh2-voice_emotion-022",
+      "suitable": true,
+      "reason": "怀旧抱怨与重获同玩之乐鲜明",
+      "task": "面向游戏玩家，压缩重复抱怨；保留从无游戏同玩的尴尬到ns带来满足的情绪线。",
+      "audience": "游戏玩家",
+      "must_preserve": [
+        {
+          "quote": "ns让我又找回了玩游戏的方向",
+          "requirement": "保留个人重获游戏乐趣的主旨"
+        },
+        {
+          "quote": "拿着两个手柄发现没什么可玩的时候非常尴尬",
+          "requirement": "保留朋友来访却难以同玩的窘迫"
+        },
+        {
+          "quote": "都能两个人一起玩，特么的爽！",
+          "requirement": "保留本地同玩带来的畅快"
+        }
+      ],
+      "voice_quote": "作为一个现充（划掉）",
+      "voice": "怀旧吐槽，夹自嘲与粗口",
+      "allowed_changes": [
+        "合并朋友来访的重复叙述",
+        "整理长句，不抹去自嘲"
+      ],
+      "failure_conditions": [
+        "把本地多人需求替换为在线联机需求",
+        "将别的主机可能删模式写成已证实事实"
+      ],
+      "scoring_note": "重点是同处一室的快乐，不能泛化成游戏性能。"
+    },
+    {
+      "id": "zh2-voice_emotion-023",
+      "suitable": true,
+      "reason": "亲历自信与不服难的劲头突出",
+      "task": "面向自考及低落中的读者，整理经历与建议；可缩皮鞋故事，不删成长维度及两种应对方法。",
+      "audience": "自考及低落中的读者",
+      "must_preserve": [
+        {
+          "quote": "23岁时开始自考本科英语，2年后考完",
+          "requirement": "保留起考年龄、专业及历时"
+        },
+        {
+          "quote": "自考肯定改变了我的生活",
+          "requirement": "保留自信、外语、自学和收入四面改变"
+        },
+        {
+          "quote": "转移注意力，或者反方向思考",
+          "requirement": "保留两种亲身用过的应对方法"
+        }
+      ],
+      "voice_quote": "那种简单易学的东西，我反正不好意思写在简历上",
+      "voice": "坦诚自励，略带好胜",
+      "allowed_changes": [
+        "整理序号与错字",
+        "压缩皮鞋故事及重复劝告"
+      ],
+      "failure_conditions": [
+        "编造自考后的收入金额或职业",
+        "把个人应对低落经验写成保证治愈"
+      ],
+      "scoring_note": "自信好胜易被磨成泛化鸡汤，须保留亲历感。"
+    },
+    {
+      "id": "zh2-voice_emotion-024",
+      "suitable": true,
+      "reason": "报道中有明确支持与动员立场",
+      "task": "面向关注导演评选的读者，合并重复信息；保留支持李宇春的论证与呼吁，不增补实力证据。",
+      "audience": "关注导演评选的读者",
+      "must_preserve": [
+        {
+          "quote": "赵薇以2万8千余票占据第一",
+          "requirement": "保留票数、领先者及排名"
+        },
+        {
+          "quote": "演唱会的总导演，就是李宇春本人",
+          "requirement": "保留原文支持其执导能力的依据"
+        },
+        {
+          "quote": "李宇春现在更需要的则是粉丝们的支持",
+          "requirement": "保留面向粉丝的支持呼吁"
+        }
+      ],
+      "voice_quote": "万事俱备，只欠东风",
+      "voice": "赞赏鲜明，结尾动员",
+      "allowed_changes": [
+        "合并前两段重复的排名与经验判断",
+        "限定未有支撑的纪录夸赞"
+      ],
+      "failure_conditions": [
+        "把李宇春写成票数第一或已当选",
+        "删去粉丝支持呼吁，改成中立榜单"
+      ],
+      "scoring_note": "宣传式赞赏可限强度，但不能抹去支持立场。"
+    },
+    {
+      "id": "zh2-voice_emotion-025",
+      "suitable": true,
+      "reason": "引语愤怒且回应对象易混淆",
+      "task": "面向娱乐新闻读者，理顺传闻与回应；可压缩中秋旁枝，不把旧博文当作对武汉男友的直接否认。",
+      "audience": "娱乐新闻读者",
+      "must_preserve": [
+        {
+          "quote": "都是传说，我们早已经回应过了",
+          "requirement": "保留经纪人回应及拒绝多谈"
+        },
+        {
+          "quote": "由衷希望不要给我平凡简单的生活，杜撰编造故事",
+          "requirement": "保留本人反感编造、维护生活的诉求"
+        },
+        {
+          "quote": "赵薇本人并未给予回应",
+          "requirement": "保留本人未回应武汉男友一事的边界"
+        }
+      ],
+      "voice_quote": "太无中生有了",
+      "voice": "报道克制，引语愤怒",
+      "allowed_changes": [
+        "压缩中秋博文旁枝",
+        "整理旧传闻与旧回应的衔接"
+      ],
+      "failure_conditions": [
+        "把阿龙是赵薇男友写成确认事实",
+        "将《号外》写成专门否认武汉男友"
+      ],
+      "scoring_note": "愤怒引语对象容易错接，需保留时间与回应边界。"
+    },
+    {
+      "id": "zh2-voice_emotion-026",
+      "suitable": false,
+      "reason": "学术背景说明，缺乏鲜明情绪声音",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    }
+  ],
+  "metadata": {
+    "job": "rest-21",
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 93.2,
+    "system_sha256": "2c85943d84beabe7f1c8a64f793323c3fb90f4110f4f66ac756b1b69b3faf06e",
+    "input_sha256": "06546c09595809cdcfc706e3e772833a1078320063a9acab3b9f6e5b72023572",
+    "usage": [
+      {
+        "input_tokens": 20582,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2622,
+        "reasoning_output_tokens": 64
+      }
+    ],
+    "review_type": "model_annotation",
+    "human_review": false
+  }
+}

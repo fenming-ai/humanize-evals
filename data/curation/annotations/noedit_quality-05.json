@@ -1,0 +1,225 @@
+{
+  "cases": [
+    {
+      "id": "zh2-no_edit-q051",
+      "suitable": false,
+      "reason": "强制随夫姓与允许男性改姓表述冲突",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-q052",
+      "suitable": true,
+      "reason": "救援经过清楚，归因与时间完整",
+      "task": "面向新闻读者保留完整救援报道，可原样输出；不省略时间、伤亡、赎金及绑架背景。",
+      "audience": "新闻读者",
+      "must_preserve": [
+        {
+          "quote": "台商毫发无伤。警方解救人质过程中",
+          "requirement": "保留获救台商毫发无伤及警方消息归属"
+        },
+        {
+          "quote": "其余3名绑匪逃逸，大约半小时后",
+          "requirement": "保留先击毙2人、约半小时后击毙3人"
+        },
+        {
+          "quote": "警方悉数缴获绑匪从遭绑台商家属处勒索的赎金",
+          "requirement": "保留赎金全部缴获及12日厂内遭绑"
+        }
+      ],
+      "voice_quote": "菲律宾警方10月16日说",
+      "voice": "克制、按消息来源叙述",
+      "allowed_changes": [
+        "允许原样输出或微调分句"
+      ],
+      "failure_conditions": [
+        "把5名绑匪写成同时被击毙",
+        "把缴获赎金写成已退还家属"
+      ],
+      "scoring_note": "勿因警方归因重复而删除，归因限定报道责任。"
+    },
+    {
+      "id": "zh2-no_edit-q053",
+      "suitable": false,
+      "reason": "“膜片状装结构”有明显赘字",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-q054",
+      "suitable": true,
+      "reason": "日期、来源与汇率清单清楚",
+      "task": "面向财经读者完整保留历史汇率快讯，可原样输出；不省略日期、单位、计算口径及报价。",
+      "audience": "财经读者",
+      "must_preserve": [
+        {
+          "quote": "2009年8月3日银行间外汇市场",
+          "requirement": "保留日期、市场及央行授权发布关系"
+        },
+        {
+          "quote": "按照汇改时8.11的汇率计算",
+          "requirement": "保留原报8.11口径和15.78%数值"
+        },
+        {
+          "quote": "100日圆兑人民币7.2087元",
+          "requirement": "五种货币报价及各自计价单位均保留"
+        }
+      ],
+      "voice_quote": "中国外汇交易中心的最新数据显示",
+      "voice": "客观简洁的历史行情播报",
+      "allowed_changes": [
+        "允许原样输出或调整清单分隔"
+      ],
+      "failure_conditions": [
+        "把100日圆报价改为1日圆报价",
+        "把2009年报价描述为当前汇率"
+      ],
+      "scoring_note": "计价单位易被统一格式误伤；保留数值不代表核实计算。"
+    },
+    {
+      "id": "zh2-no_edit-q055",
+      "suitable": true,
+      "reason": "持仓对照清楚，推测设有边界",
+      "task": "面向财经读者保留两股持仓与走势分析，可原样输出；不删机构、数字、时序及不确定性。",
+      "audience": "财经读者",
+      "must_preserve": [
+        {
+          "quote": "分别同比增长17.57%、35.26%",
+          "requirement": "保留仙琚营收、净利润增幅对应及持仓数字"
+        },
+        {
+          "quote": "尚无法判断三季度介入的机构是否退出",
+          "requirement": "保留三季度机构是否退出未知"
+        },
+        {
+          "quote": "如果这些机构持有至今，亏损的概率比较大",
+          "requirement": "保留中超持仓、走势及亏损判断的条件"
+        }
+      ],
+      "voice_quote": "不过该股自去年12月以来股价重挫",
+      "voice": "带审慎判断的财经评论",
+      "allowed_changes": [
+        "允许原样输出或微调段落"
+      ],
+      "failure_conditions": [
+        "断言仙琚三季度机构已退出",
+        "断言中超相关机构均已实际亏损"
+      ],
+      "scoring_note": "最易删掉条件句，将持有假设误写为亏损事实。"
+    },
+    {
+      "id": "zh2-no_edit-q056",
+      "suitable": false,
+      "reason": "“执白12目半大韩国”明显缺误字",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-q057",
+      "suitable": false,
+      "reason": "含“自热”错字与“一夜间就”重复",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-q058",
+      "suitable": true,
+      "reason": "行情清单清楚，涨跌方向完整",
+      "task": "面向金属市场读者完整保留行情快讯，可原样输出；不省略日期、期限、报价或涨跌数据。",
+      "audience": "金属市场读者",
+      "must_preserve": [
+        {
+          "quote": "LME基本金属2月11日几乎全线上扬",
+          "requirement": "保留市场、日期及几乎全涨的范围"
+        },
+        {
+          "quote": "期铅、期镍涨幅均超过1%，但期铝下跌1.65%",
+          "requirement": "保留铅镍涨逾1%与铝独跌的对照"
+        },
+        {
+          "quote": "三个月期铜收报9961美元",
+          "requirement": "六品种三个月期限、美元报价及涨跌数全留"
+        }
+      ],
+      "voice_quote": "三个月期铝收报2495美元，下跌42美元",
+      "voice": "无渲染的行情清单体",
+      "allowed_changes": [
+        "允许原样输出或改为等义列表"
+      ],
+      "failure_conditions": [
+        "把几乎全线上扬写成全部上涨",
+        "漏掉期铝下跌或改动六品种报价"
+      ],
+      "scoring_note": "重复句式承担品种对照功能，不应为去重复删数字。"
+    },
+    {
+      "id": "zh2-no_edit-q059",
+      "suitable": false,
+      "reason": "“降级到乙级球队”存在类别搭配错误",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-q060",
+      "suitable": false,
+      "reason": "写真赞词与收视套话明显堆叠",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    }
+  ],
+  "metadata": {
+    "job": "noedit_quality-05",
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 66.98,
+    "system_sha256": "2c85943d84beabe7f1c8a64f793323c3fb90f4110f4f66ac756b1b69b3faf06e",
+    "input_sha256": "cb31529005be4bf438e4c810006ff4609cecd0869a5c41f9dd340cc620c74353",
+    "usage": [
+      {
+        "input_tokens": 18666,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1682,
+        "reasoning_output_tokens": 216
+      }
+    ],
+    "review_type": "model_annotation",
+    "human_review": false
+  }
+}

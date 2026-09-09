@@ -1,0 +1,47 @@
+{
+  "cases": [
+    {
+      "id": "zh2-no_edit-006",
+      "approve": true,
+      "reason": "引文准确，评价层次保留完整，no_edit判断合理。"
+    },
+    {
+      "id": "zh2-no_edit-008",
+      "approve": true,
+      "reason": "清单式口语可成立，人物好恶、猜测和评分疑问均忠实保留。"
+    },
+    {
+      "id": "zh2-no_edit-009",
+      "approve": false,
+      "reason": "“我已经没有觉得了”存在明显成分残缺，合同却确定为失语修辞，不适合作为no_edit。"
+    },
+    {
+      "id": "zh2-no_edit-010",
+      "approve": true,
+      "reason": "原文完整通顺，合同准确保留褒贬及最终推荐，未扩大判断。"
+    },
+    {
+      "id": "zh2-no_edit-014",
+      "approve": false,
+      "reason": "“认为宣称真爱勇敢纯粹伟大这些的”句法混杂，不能仅以挑衅风格认定无需编辑。"
+    }
+  ],
+  "metadata": {
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 29.42,
+    "input_sha256": "12a5b1e750a800a49c3634d4b204d89d6f25116db0696750fdcb85191dd3231c",
+    "system_sha256": "0c41b551a96d085bbc3597749915f67732aa702736eddffdb625f85696aded81",
+    "usage": [
+      {
+        "input_tokens": 19200,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 422,
+        "reasoning_output_tokens": 200
+      }
+    ],
+    "review_type": "independent_context_model_review",
+    "human_review": false
+  }
+}

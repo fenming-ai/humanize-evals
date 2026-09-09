@@ -1,0 +1,225 @@
+{
+  "cases": [
+    {
+      "id": "zh2-no_edit-r011",
+      "suitable": true,
+      "reason": "事件、数字与来源交代清楚",
+      "task": "面向新闻读者作强保留验收，可原样输出；不省略解救经过、数字、国籍及地理背景。",
+      "audience": "新闻读者",
+      "must_preserve": [
+        {
+          "quote": "解救了61名遭“泽塔斯”贩毒集团绑架作苦力的男子",
+          "requirement": "保留解救人数、绑架主体及强迫劳动"
+        },
+        {
+          "quote": "一辆载有6吨大麻的废弃卡车",
+          "requirement": "保留卡车载量及三名看守被捕"
+        },
+        {
+          "quote": "除一人来自洪都拉斯外，其余均为墨西哥人",
+          "requirement": "保留国籍例外及边境冲突背景"
+        }
+      ],
+      "voice_quote": "据美国媒体报道",
+      "voice": "简洁转述，保留消息来源",
+      "allowed_changes": [
+        "可原样输出；仅微调排版"
+      ],
+      "failure_conditions": [
+        "将61名人质写成61名贩毒成员",
+        "删掉10月15日或将报道改为已核实"
+      ],
+      "scoring_note": "数字与主体最易误伤，压缩不可混同人质和看守。"
+    },
+    {
+      "id": "zh2-no_edit-r012",
+      "suitable": true,
+      "reason": "出访行程与陪同名单清晰",
+      "task": "面向时政读者作强保留验收，可原样输出；不省略邀请、行程、会议及陪同人员职务。",
+      "audience": "时政新闻读者",
+      "must_preserve": [
+        {
+          "quote": "应越南总理阮晋勇邀请",
+          "requirement": "保留邀请人及温家宝28日中午离京赴河内"
+        },
+        {
+          "quote": "于10月29日至30日举行",
+          "requirement": "保留三场会议全称、届次及另赴中日韩会议"
+        },
+        {
+          "quote": "陪同温家宝出访的有",
+          "requirement": "完整保留八名陪同者姓名及对应职务"
+        }
+      ],
+      "voice_quote": "28日中午乘专机离开北京",
+      "voice": "正式、客观的行程通报",
+      "allowed_changes": [
+        "可原样输出；仅调整名单排版"
+      ],
+      "failure_conditions": [
+        "混同东盟与中日韩会议和中日韩会议",
+        "删改陪同者姓名或错配其职务"
+      ],
+      "scoring_note": "会议名称最易误伤，相似称谓不代表重复信息。"
+    },
+    {
+      "id": "zh2-no_edit-r013",
+      "suitable": false,
+      "reason": "多处长句缺少标点，衔接需整理",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-r014",
+      "suitable": true,
+      "reason": "短讯事件集中，叙述清楚",
+      "task": "面向娱乐新闻读者作强保留验收，可原样输出；不省略拍摄、合作、拒绝合影及婚讯表述。",
+      "audience": "娱乐新闻读者",
+      "must_preserve": [
+        {
+          "quote": "首部电视剧《莲花》12日在北京怀柔热拍",
+          "requirement": "保留被砍后首部剧及拍摄时间地点"
+        },
+        {
+          "quote": "是二人“情侣档”的首次合作",
+          "requirement": "保留鄢颇导演、李小冉主演及首次合作"
+        },
+        {
+          "quote": "还亲证年内会领证结婚",
+          "requirement": "保留李小冉的婚讯说法，不写成已领证"
+        }
+      ],
+      "voice_quote": "但遗憾的是鄢颇拒绝了与李小冉合影的要求",
+      "voice": "带遗憾评价的娱乐短讯",
+      "allowed_changes": [
+        "可原样输出；仅微调排版"
+      ],
+      "failure_conditions": [
+        "把拒绝合影的主体改为李小冉",
+        "删掉“断臂残肢”称呼或编造拒绝原因"
+      ],
+      "scoring_note": "转述边界最易误伤，婚讯说法不能升级为既成事实。"
+    },
+    {
+      "id": "zh2-no_edit-r015",
+      "suitable": true,
+      "reason": "引语、建议和数据层次清楚",
+      "task": "面向财经读者作强保留验收，可原样输出；不省略发言场合、建议、比例及截至日期。",
+      "audience": "财经新闻读者",
+      "must_preserve": [
+        {
+          "quote": "保监会主席助理袁力表示",
+          "requirement": "保留16日发言人职务及社科院研讨会场合"
+        },
+        {
+          "quote": "多配置固定收益类产品，如国债、金融债等",
+          "requirement": "保留收益受影响背景及鼓励而非强制"
+        },
+        {
+          "quote": "各类债券1.74万亿元，各类基金股票3499亿元",
+          "requirement": "保留截至10月底金额及债券60%、存款25%"
+        }
+      ],
+      "voice_quote": "股指走低对保险公司的投资收益有一定影响",
+      "voice": "克制、带程度限定的财经转述",
+      "allowed_changes": [
+        "可原样输出；仅微调排版"
+      ],
+      "failure_conditions": [
+        "把3499亿元写成债券持有额",
+        "将鼓励配置国债改为监管强制要求"
+      ],
+      "scoring_note": "口径最易误伤，基金股票、债券和存款不可混并。"
+    },
+    {
+      "id": "zh2-no_edit-r016",
+      "suitable": false,
+      "reason": "等线与等细称谓混用，需校理",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-r017",
+      "suitable": false,
+      "reason": "开头断句缺失，层次感原则表述绕口",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-r018",
+      "suitable": false,
+      "reason": "公开时间重复，赞美套话堆叠",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-r019",
+      "suitable": false,
+      "reason": "研究目的反复铺陈，结尾套话冗余",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-r020",
+      "suitable": false,
+      "reason": "全段长句堆叠，疗效优势句式不顺",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    }
+  ],
+  "metadata": {
+    "job": "supplement-02",
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 62.84,
+    "system_sha256": "2c85943d84beabe7f1c8a64f793323c3fb90f4110f4f66ac756b1b69b3faf06e",
+    "input_sha256": "867df0dbf5d1d7c4e6d127aa92ba6ef27cd21e2d50739b102df17c9abe2ae917",
+    "usage": [
+      {
+        "input_tokens": 18128,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1655,
+        "reasoning_output_tokens": 166
+      }
+    ],
+    "review_type": "model_annotation",
+    "human_review": false
+  }
+}

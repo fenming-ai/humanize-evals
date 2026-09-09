@@ -1,0 +1,343 @@
+{
+  "cases": [
+    {
+      "id": "zh2-long_form-021",
+      "suitable": true,
+      "reason": "结构完整，重复拔高可压缩",
+      "task": "面向古文研究者梳理全文背景、方法、结果与意义；可删重复价值宣示，不删研究边界。",
+      "audience": "古文研究者",
+      "must_preserve": [
+        {
+          "quote": "包含81个词类和49136个古文词条",
+          "requirement": "保留词类数、词条数及所属词典"
+        },
+        {
+          "quote": "自动化匹配与人工标注",
+          "requirement": "保留以2015版SC-LIWC及译文映射建库"
+        },
+        {
+          "quote": "《论语（节选）》和《孤愤》",
+          "requirement": "保留两篇初析及中庸、逻辑辩证倾向"
+        }
+      ],
+      "voice_quote": "本研究的动机正是为了填补这一空白",
+      "voice": "学术自述，统一研究者口吻",
+      "allowed_changes": [
+        "分段呈现方法链，统一缩写",
+        "压缩紧迫性与创新性拔高"
+      ],
+      "failure_conditions": [
+        "改动81、49136或SC-LIWC版本",
+        "将初步分析写成普遍有效的定论"
+      ],
+      "scoring_note": "最易将研究自评强化为已核实成果，须保留初步性。"
+    },
+    {
+      "id": "zh2-long_form-022",
+      "suitable": true,
+      "reason": "功能到应用的层次可整理",
+      "task": "面向动物营养研究读者整理全文功能、应用与待研究问题；删套话，不删物种和剂量边界。",
+      "audience": "动物营养研究读者",
+      "must_preserve": [
+        {
+          "quote": "三羧酸循环（TCA cycle）",
+          "requirement": "保留AKG代谢定位及氮代谢作用"
+        },
+        {
+          "quote": "延长模式生物线虫的寿命",
+          "requirement": "延寿对象限定线虫，不外推人类"
+        },
+        {
+          "quote": "作用机制和最佳应用剂量仍需进一步深入研究",
+          "requirement": "保留动物种类、阶段、环境下的未知"
+        }
+      ],
+      "voice_quote": "本综述旨在系统梳理",
+      "voice": "综述语气，前景与证据分开",
+      "allowed_changes": [
+        "合并功能重复铺陈，重排段落",
+        "弱化安全、高效等无支撑概括"
+      ],
+      "failure_conditions": [
+        "把线虫延寿写成人体抗衰疗效",
+        "把饲料应用前景写成确定剂量建议"
+      ],
+      "scoring_note": "最易在压缩中删掉适用条件，使应用展望变成承诺。"
+    },
+    {
+      "id": "zh2-long_form-023",
+      "suitable": true,
+      "reason": "三段回忆支撑情绪转变",
+      "task": "面向妈妈整理女儿书信全文，保留三段回忆到告白的递进；可减比喻，不删冲突与委屈。",
+      "audience": "妈妈",
+      "must_preserve": [
+        {
+          "quote": "您骤然生气，扬手拍落我的手背",
+          "requirement": "保留练琴受责、挨打及受伤感受"
+        },
+        {
+          "quote": "小心翼翼地将那些碎片一点一点拼凑、粘贴",
+          "requirement": "保留物理题受挫撕数学卷及母亲修补"
+        },
+        {
+          "quote": "一遍遍湿润我干裂的嘴唇",
+          "requirement": "保留重病照料引向理解和感谢"
+        }
+      ],
+      "voice_quote": "妈妈，请原谅我这迟来的告白",
+      "voice": "女儿亲昵、愧疚而感激",
+      "allowed_changes": [
+        "压缩重复母爱比喻，分段",
+        "整理称呼祝语落款，保留日期"
+      ],
+      "failure_conditions": [
+        "删去挨打委屈，只剩母爱赞颂",
+        "把女儿的理解改为体罚普遍正确"
+      ],
+      "scoring_note": "最易为顺畅和解抹平旧伤；感激与委屈应共存。"
+    },
+    {
+      "id": "zh2-long_form-024",
+      "suitable": true,
+      "reason": "论点完整，论据强度需节制",
+      "task": "面向议论文读者梳理全文立论、例证、辨析与结论；可减套话、限定论据，不删独立判断。",
+      "audience": "议论文读者",
+      "must_preserve": [
+        {
+          "quote": "坚持自我，并非固执己见",
+          "requirement": "自我坚持指理想信念原则"
+        },
+        {
+          "quote": "它往往带有建设性，以事实为依据",
+          "requirement": "忠言须建设性且以帮助他人为目的"
+        },
+        {
+          "quote": "我们仍需结合自身实际，进行独立的判断和选择",
+          "requirement": "纳谏不等于全盘接受"
+        }
+      ],
+      "voice_quote": "关键在于“明辨”与“审视”",
+      "voice": "劝勉说理，保持辩证立场",
+      "allowed_changes": [
+        "压缩大树、灯塔等重复比喻",
+        "限定梵高、司马迁例证中的无据断言"
+      ],
+      "failure_conditions": [
+        "把坚持自我写成排斥他人意见",
+        "新增司马迁采纳建议的具体史实"
+      ],
+      "scoring_note": "最易把平衡论简化成单向纳谏，损伤论证前后一致。"
+    },
+    {
+      "id": "zh2-long_form-025",
+      "suitable": true,
+      "reason": "主线鲜明，修辞及旁证冗密",
+      "task": "面向文化随笔读者整理全文板桥书法、传统积累、跨域类比与结论；可删旁证，不删扎根与突破。",
+      "audience": "文化随笔读者",
+      "must_preserve": [
+        {
+          "quote": "独树一帜的“六分半书”",
+          "requirement": "保留郑板桥书法为核心论例"
+        },
+        {
+          "quote": "绝非无本之木、无源之水",
+          "requirement": "创新以吸收融合传统为基础"
+        },
+        {
+          "quote": "真正的“破壁”之力，源于“扎根”之深",
+          "requirement": "保留积累与突破相联系的主张"
+        }
+      ],
+      "voice_quote": "这力道，是深潜后的飞跃，是厚积后的薄发",
+      "voice": "昂扬有文气，论旨前后一致",
+      "allowed_changes": [
+        "削减叠加比喻及结尾复述",
+        "删减或限定跨域旁证的绝对因果"
+      ],
+      "failure_conditions": [
+        "将板桥创新写成抛弃传统",
+        "补造临帖经历或强化科学史因果"
+      ],
+      "scoring_note": "最易为去浮夸抹去文气；须区分论旨与史实例证强度。"
+    },
+    {
+      "id": "zh2-long_form-026",
+      "suitable": true,
+      "reason": "共鸣与局限并陈，结构可收束",
+      "task": "面向青年读者整理全文个人经历、同伴归属、价值认同与局限；可减泛论，不删异见提醒。",
+      "audience": "青年读者",
+      "must_preserve": [
+        {
+          "quote": "同声相应，是共鸣，是理解",
+          "requirement": "保留古筝、阅读体现精神共鸣"
+        },
+        {
+          "quote": "义无反顾地选择了航空航天专业",
+          "requirement": "保留朋友因航天志向找到同伴"
+        },
+        {
+          "quote": "可能会导致视野的狭隘，思维的僵化",
+          "requirement": "保留相似圈层风险及倾听异见"
+        }
+      ],
+      "voice_quote": "我合上诗集，心中豁然开朗",
+      "voice": "第一人称抒情思辨，温和向往",
+      "allowed_changes": [
+        "收束雨景首尾，合并共鸣复述",
+        "删减伟大事业的笼统历史概括"
+      ],
+      "failure_conditions": [
+        "把寻找同类写成拒绝不同思想",
+        "将朋友学航天改为已取得科研成果"
+      ],
+      "scoring_note": "最易在收束结尾时丢掉局限段，使开放立场变封闭。"
+    },
+    {
+      "id": "zh2-long_form-027",
+      "suitable": true,
+      "reason": "双意象贯穿，历史联想需区分",
+      "task": "面向散文读者整理全文河畔框架、古今联想与收尾；可减意象复述，不删琴扇双线。",
+      "audience": "散文读者",
+      "must_preserve": [
+        {
+          "quote": "另一白发老翁斜倚长椅",
+          "requirement": "开头抚琴者与摇扇者为两人"
+        },
+        {
+          "quote": "让两颗陌生的心灵在弦音漾开的水波中悄然相遇",
+          "requirement": "保留伯牙子期象征理解相知"
+        },
+        {
+          "quote": "地铁车厢里，我偶遇一个少年",
+          "requirement": "保留听琴少年与水书老人映照古今"
+        }
+      ],
+      "voice_quote": "琴弦震颤的是此际的心绪",
+      "voice": "舒缓古雅，以琴扇联结古今",
+      "allowed_changes": [
+        "压缩风、水波、心魂的重复描写",
+        "将东坡摇扇明确为文学想象"
+      ],
+      "failure_conditions": [
+        "合并河畔两位老人为同一人",
+        "把东坡手持羽扇写成有史料证明"
+      ],
+      "scoring_note": "最易混淆实景、典故与想象，整理须保持叙述层次。"
+    },
+    {
+      "id": "zh2-long_form-028",
+      "suitable": true,
+      "reason": "三次认识递进，结尾过度复述",
+      "task": "面向成长散文读者整理全文三次天堂认识转变及结论；可删复述，不删生活、实践与关爱的层次。",
+      "audience": "成长散文读者",
+      "must_preserve": [
+        {
+          "quote": "爷爷奶奶日出而作，日落而息的勤劳身影",
+          "requirement": "保留返乡经历改变避世仙境想象"
+        },
+        {
+          "quote": "单纯的知识堆砌并不能带来内心的平静",
+          "requirement": "保留从求知到实践助人的转变"
+        },
+        {
+          "quote": "我不慎摔倒，腿部受伤",
+          "requirement": "保留受伤获照顾而领悟真挚情感"
+        }
+      ],
+      "voice_quote": "虽然身体疼痛，但我的内心却被爱所充盈",
+      "voice": "第一人称温暖反思，逐步领悟",
+      "allowed_changes": [
+        "合并末尾天堂定义的重复句",
+        "限定没有痛苦烦恼的绝对化表述"
+      ],
+      "failure_conditions": [
+        "把天堂改成真实存在的彼岸地点",
+        "将腿伤改成重病或补造助人事例"
+      ],
+      "scoring_note": "最易删成抽象鸡汤；三次经历是认识变化的支点。"
+    },
+    {
+      "id": "zh2-long_form-029",
+      "suitable": true,
+      "reason": "反差揭示情感，后段阐释重复",
+      "task": "面向叙事散文读者整理全文疑问、两碗反差、老人讲述与领悟；可减抒情，不删旧碗来历。",
+      "audience": "叙事散文读者",
+      "must_preserve": [
+        {
+          "quote": "青花是好，可它不是我心头最重的那只",
+          "requirement": "最珍重的不是精美青花碗"
+        },
+        {
+          "quote": "从娘家带来的碗，几十年了",
+          "requirement": "保留老伴带来粗碗、摔破后由老人补"
+        },
+        {
+          "quote": "日子有裂痕，怕什么？补好了，一样盛得住热汤热饭",
+          "requirement": "保留修碗寄托共度年月的温柔"
+        }
+      ],
+      "voice_quote": "他补着碗上的缺口，而岁月补着他心里的。",
+      "voice": "由好奇到理解，克制而深情",
+      "allowed_changes": [
+        "压缩金线、裂痕、时光的反复阐释",
+        "整理对话与叙述分段"
+      ],
+      "failure_conditions": [
+        "将老人珍爱对象改成青花碗",
+        "明确补写老伴死亡时间或原因"
+      ],
+      "scoring_note": "最易把离散暗示补成死亡事实，或删掉两碗反差。"
+    },
+    {
+      "id": "zh2-long_form-030",
+      "suitable": true,
+      "reason": "叙事链完整，传说与因果需限定",
+      "task": "面向生态主题散文读者梳理全文见闻、传说、实践、开发争议与离村感悟；可减夸赞，不补外证。",
+      "audience": "生态主题散文读者",
+      "must_preserve": [
+        {
+          "quote": "爷爷曾告诉我一个故事",
+          "requirement": "神农训诫和抗旱往事保留讲述属性"
+        },
+        {
+          "quote": "鸭群嬉戏，吃掉害虫，粪便化作肥料",
+          "requirement": "保留村中具体生态实践"
+        },
+        {
+          "quote": "村里人争吵过——年轻人向往城市繁华",
+          "requirement": "保留度假村开发分歧及最终投票拒绝"
+        }
+      ],
+      "voice_quote": "从一滴水、一棵树做起，守护我们的家园",
+      "voice": "第一人称见闻，珍惜生态家园",
+      "allowed_changes": [
+        "统一村名及叙述视角，压缩景物",
+        "限定古树防灾及自然必回报的因果"
+      ],
+      "failure_conditions": [
+        "将神农传说写成已核实历史",
+        "删去开发争议，改为村民从无分歧"
+      ],
+      "scoring_note": "最易将抒情见闻升级为防灾证明，须保留来源层次。"
+    }
+  ],
+  "metadata": {
+    "job": "rest-38",
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 102.6,
+    "system_sha256": "2c85943d84beabe7f1c8a64f793323c3fb90f4110f4f66ac756b1b69b3faf06e",
+    "input_sha256": "1ea4ba8d6bc784dd7922ab9d16ec314fee65dd772793657a0ad5e236e519fbd2",
+    "usage": [
+      {
+        "input_tokens": 28084,
+        "cached_input_tokens": 6016,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3031,
+        "reasoning_output_tokens": 36
+      }
+    ],
+    "review_type": "model_annotation",
+    "human_review": false
+  }
+}

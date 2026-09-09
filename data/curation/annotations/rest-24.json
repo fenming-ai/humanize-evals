@@ -1,0 +1,315 @@
+{
+  "cases": [
+    {
+      "id": "zh2-voice_emotion-047",
+      "suitable": true,
+      "reason": "戏谑反讽鲜明",
+      "task": "面向问答读者整理罚跪段子，可压缩招式清单，不删反讽转折。",
+      "audience": "问答读者",
+      "must_preserve": [
+        {
+          "quote": "既然题主已经不打算反抗了",
+          "requirement": "保留不反抗这一调侃前提"
+        },
+        {
+          "quote": "个人感觉这个最适合题主了",
+          "requirement": "保留推荐叩首式的揶揄"
+        },
+        {
+          "quote": "从此罚跪半小时变一小时",
+          "requirement": "保留惩罚加码的荒诞反转"
+        }
+      ],
+      "voice_quote": "让我们跪地漂亮！跪地有尊严！跪地健康！",
+      "voice": "夸张热闹，以赞美口吻反讽",
+      "allowed_changes": [
+        "可合并招式列举与重复感叹"
+      ],
+      "failure_conditions": [
+        "把瑜伽罚跪写成严肃健康建议",
+        "删去罚跪加时，改成温顺劝诫"
+      ],
+      "scoring_note": "夸张口号承担笑点，去套话易误删反讽。"
+    },
+    {
+      "id": "zh2-voice_emotion-048",
+      "suitable": false,
+      "reason": "新闻转述为主，作者情绪不足",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-voice_emotion-049",
+      "suitable": true,
+      "reason": "交易观点带鲜明不屑语气",
+      "task": "面向交易问答读者理顺论述，可压缩争论铺陈，不删执行优先立场。",
+      "audience": "交易问答读者",
+      "must_preserve": [
+        {
+          "quote": "系统不关心为什么，系统只关心怎么做",
+          "requirement": "保留应对市场而非解释市场的立场"
+        },
+        {
+          "quote": "使你的盈利期望为正",
+          "requirement": "保留评价系统的盈利期望条件"
+        },
+        {
+          "quote": "执行力最强的人",
+          "requirement": "保留作者对海龟实验结果的归述"
+        }
+      ],
+      "voice_quote": "在别人眼中很可能就是一坨翔",
+      "voice": "直白粗粝，不屑争共识",
+      "allowed_changes": [
+        "可压缩流派列举和操作清单"
+      ],
+      "failure_conditions": [
+        "改成无需检验系统即可盈利",
+        "把海龟实验转述强化为已核实定律"
+      ],
+      "scoring_note": "粗话体现拒绝求认同，过度文雅会抹平声音。"
+    },
+    {
+      "id": "zh2-voice_emotion-050",
+      "suitable": true,
+      "reason": "玩家自嘲与荒诞玩法突出",
+      "task": "面向游戏玩家分层整理玩法，可删口头赘词，不删趣味目标与自嘲。",
+      "audience": "篮球游戏玩家",
+      "must_preserve": [
+        {
+          "quote": "题猪问的是有趣，而不是正规模板",
+          "requirement": "保留追求趣味而非标准攻略"
+        },
+        {
+          "quote": "最差2胜80负，最好5胜",
+          "requirement": "保留低能力阵容的战绩范围"
+        },
+        {
+          "quote": "三十天后，卖掉换选秀权",
+          "requirement": "保留非梦幻玩法的换签时点"
+        }
+      ],
+      "voice_quote": "马丹老的休赛期几乎退役完",
+      "voice": "随口吐槽、玩闹自嘲",
+      "allowed_changes": [
+        "可将选人规则与非梦幻玩法分段"
+      ],
+      "failure_conditions": [
+        "把奇葩选人法包装成必胜攻略",
+        "删掉老将退役或防守阵容仍输的自嘲"
+      ],
+      "scoring_note": "杂乱中有玩家兴奋感，整理不应变成冷静教程。"
+    },
+    {
+      "id": "zh2-voice_emotion-051",
+      "suitable": true,
+      "reason": "强势劝退语气有辨识度",
+      "task": "面向求职问答读者梳理论点，可限定夸大，不删资源论及前后台区别。",
+      "audience": "金融求职问答读者",
+      "must_preserve": [
+        {
+          "quote": "最要命的是，大家不是单方面强",
+          "requirement": "保留竞争者多方面占优的压迫感"
+        },
+        {
+          "quote": "金融行业的关键是资源",
+          "requirement": "保留为作者判断，不当行业定论"
+        },
+        {
+          "quote": "当然了，以上所说的是前台部门",
+          "requirement": "保留前台见客户这一适用边界"
+        }
+      ],
+      "voice_quote": "想想自己得付出多少额外的努力",
+      "voice": "强势直白，带比较压力",
+      "allowed_changes": [
+        "可压缩排比并限定群体概括"
+      ],
+      "failure_conditions": [
+        "把颜值判断写成招聘硬性标准",
+        "把后台难进仅归因于颜值"
+      ],
+      "scoring_note": "保留强硬声音不等于强化未经支持的群体判断。"
+    },
+    {
+      "id": "zh2-voice_emotion-052",
+      "suitable": true,
+      "reason": "亲历与传闻交织，语气克制",
+      "task": "面向人物问答读者厘清亲历与传闻，可删重复，不补身份或离职原因。",
+      "audience": "人物问答读者",
+      "must_preserve": [
+        {
+          "quote": "当时组内确实有同事传言",
+          "requirement": "保留架构师说法的传闻属性"
+        },
+        {
+          "quote": "离职原因不太清楚",
+          "requirement": "保留不知离职原因的边界"
+        },
+        {
+          "quote": "当时我还把这两个人弄混了",
+          "requirement": "保留云风与风云是两人的自纠"
+        }
+      ],
+      "voice_quote": "并不狂傲，人其实挺好的",
+      "voice": "温和辩护，迟疑中带自嘲",
+      "allowed_changes": [
+        "可按接触、传闻、辨人分段"
+      ],
+      "failure_conditions": [
+        "把博眼球炒作猜测写成事实",
+        "将云风和风云合成同一人"
+      ],
+      "scoring_note": "迟疑词划分证据层级，删去会把辩护变成断言。"
+    },
+    {
+      "id": "zh2-voice_emotion-053",
+      "suitable": true,
+      "reason": "呼告中兼有自豪与痛惜",
+      "task": "面向文化议论读者理顺全文，可修乱码压排比，不删批判与坚守的双向立场。",
+      "audience": "文化议论读者",
+      "must_preserve": [
+        {
+          "quote": "我引以为荣的华夏文化",
+          "requirement": "保留以文化为倾诉对象的自豪"
+        },
+        {
+          "quote": "你粗暴地推倒有着百年历史的老屋",
+          "requirement": "保留对破坏传统的痛惜指责"
+        },
+        {
+          "quote": "过分相信自我使你腐朽，盲目追随他人使你迷失",
+          "requirement": "保留反对自闭与盲从的双向判断"
+        }
+      ],
+      "voice_quote": "我深爱的华夏文化",
+      "voice": "第二人称呼告，深爱中痛责",
+      "allowed_changes": [
+        "可修复乱码并压缩同义排比"
+      ],
+      "failure_conditions": [
+        "改成全盘否定传统或拒绝外来文化",
+        "把鲁迅故事等归述标成已核实史实"
+      ],
+      "scoring_note": "激烈批判包在深爱之中，降调易失去情感张力。"
+    },
+    {
+      "id": "zh2-voice_emotion-054",
+      "suitable": true,
+      "reason": "学生分享的青涩感清楚",
+      "task": "面向装帧初学者整理作业流程，可删重复客套，不删试错与未完成状态。",
+      "audience": "装帧初学者",
+      "must_preserve": [
+        {
+          "quote": "因为我们就只是完成作业所以内容我就用了这本书的文字",
+          "requirement": "保留作业复用《时间之书》文字"
+        },
+        {
+          "quote": "让我和日历结合，所以我又加了日历",
+          "requirement": "保留依老师意见加入日历的过程"
+        },
+        {
+          "quote": "准备明天去打印",
+          "requirement": "保留尚待打印的进度"
+        }
+      ],
+      "voice_quote": "来自一个立志成为好设计师的小菜鸟",
+      "voice": "青涩坦诚，热心又自谦",
+      "allowed_changes": [
+        "可规范步骤编号，合并重复祝愿"
+      ],
+      "failure_conditions": [
+        "将文字内容说成作者原创",
+        "写成已完成实体书的专业教程"
+      ],
+      "scoring_note": "承认排版随意与尝试受挫，是学生声音而非赘述。"
+    },
+    {
+      "id": "zh2-voice_emotion-055",
+      "suitable": true,
+      "reason": "愤怒对抗贯穿叙述",
+      "task": "面向校园问答读者理清冲突顺序，可压缩争执，不删愤怒与反击，勿坐实盗窃。",
+      "audience": "校园问答读者",
+      "must_preserve": [
+        {
+          "quote": "中午寝室里四个人都在睡午觉",
+          "requirement": "保留午休被检查者砸门打断"
+        },
+        {
+          "quote": "请先出示你的学生证和相关证明材料",
+          "requirement": "保留核验身份与证明的诉求"
+        },
+        {
+          "quote": "可能是盗窃惯犯来踩点",
+          "requirement": "保留为作者向辅导员提出的猜疑"
+        }
+      ],
+      "voice_quote": "那请你马上处分我。",
+      "voice": "愤怒、讥刺，正面对抗权威",
+      "allowed_changes": [
+        "可合并重复索证对话"
+      ],
+      "failure_conditions": [
+        "将三名检查者写成已证实的盗贼",
+        "改成作者认错或温和配合检查"
+      ],
+      "scoring_note": "攻击性是核心情绪，但反击说辞不能变客观结论。"
+    },
+    {
+      "id": "zh2-voice_emotion-056",
+      "suitable": true,
+      "reason": "专业分享带明显自限语气",
+      "task": "面向汽车问答读者整理开发流程，可删口头赘词，不补残句或扩大专业范围。",
+      "audience": "汽车问答读者",
+      "must_preserve": [
+        {
+          "quote": "根据实际路试调整参数",
+          "requirement": "保留理论参数需经路试调整"
+        },
+        {
+          "quote": "一个好的底盘会兼顾舒适性和操纵性",
+          "requirement": "保留兼顾两种性能的判断"
+        },
+        {
+          "quote": "因为我是做悬架减震件的，了解的只有这些了",
+          "requirement": "保留作者岗位与知识局限"
+        }
+      ],
+      "voice_quote": "有点跑题，反正怎么说呢",
+      "voice": "随口解释，谦逊且不确定",
+      "allowed_changes": [
+        "可整理开发步骤，删悬空收尾"
+      ],
+      "failure_conditions": [
+        "把没听说国内做好改成国内绝无好底盘",
+        "改称作者负责整车底盘或权威定论"
+      ],
+      "scoring_note": "专业词容易掩盖自限，润色不能把有限见闻升级。"
+    }
+  ],
+  "metadata": {
+    "job": "rest-24",
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 83.06,
+    "system_sha256": "2c85943d84beabe7f1c8a64f793323c3fb90f4110f4f66ac756b1b69b3faf06e",
+    "input_sha256": "44677c3f7c83d2b48e4f103d98993baddc5393f9d93c5980f43ee0106ca49648",
+    "usage": [
+      {
+        "input_tokens": 20450,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2440,
+        "reasoning_output_tokens": 40
+      }
+    ],
+    "review_type": "model_annotation",
+    "human_review": false
+  }
+}

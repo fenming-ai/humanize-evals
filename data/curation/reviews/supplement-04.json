@@ -1,0 +1,37 @@
+{
+  "cases": [
+    {
+      "id": "zh2-no_edit-r037",
+      "approve": true,
+      "reason": "引文准确，履历与评价归属忠实，无明显必改问题。"
+    },
+    {
+      "id": "zh2-no_edit-r039",
+      "approve": true,
+      "reason": "时间、比分与动作均有依据，保留推测限定，类别恰当。"
+    },
+    {
+      "id": "zh2-no_edit-r040",
+      "approve": true,
+      "reason": "人数、政策条件及统计忠实，未强加外部事实，类别恰当。"
+    }
+  ],
+  "metadata": {
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 20.67,
+    "input_sha256": "02cf84624f3f241f0b25d12dd13c6c68f84a9f7f6c7d1749290430caabe20d70",
+    "system_sha256": "0c41b551a96d085bbc3597749915f67732aa702736eddffdb625f85696aded81",
+    "usage": [
+      {
+        "input_tokens": 17272,
+        "cached_input_tokens": 9856,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 211,
+        "reasoning_output_tokens": 87
+      }
+    ],
+    "review_type": "independent_context_model_review",
+    "human_review": false
+  }
+}

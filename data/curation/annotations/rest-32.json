@@ -1,0 +1,286 @@
+{
+  "cases": [
+    {
+      "id": "zh2-coherence-035",
+      "suitable": true,
+      "reason": "并列积分时序与重复叙述待理清",
+      "task": "面向赛事读者理顺弃权与积分叙述；可删重复评论，不补第三人身份或赛前积分。",
+      "audience": "赛事读者",
+      "must_preserve": [
+        {
+          "quote": "李康因睡过头未能及时到场",
+          "requirement": "保留迟到原因及李康主体"
+        },
+        {
+          "quote": "邱峻则顺利获得胜利，积分与李康持平",
+          "requirement": "保留获胜及积分持平的关系"
+        },
+        {
+          "quote": "三位棋手在积分榜上并驾齐驱",
+          "requirement": "保留三人领先，不虚构姓名"
+        }
+      ],
+      "voice_quote": "棋迷们正密切关注后续的发展",
+      "voice": "赛事报道式，略带惋惜",
+      "allowed_changes": [
+        "合并重复的迟到弃权说明",
+        "删泛化警示，整理积分叙述位置"
+      ],
+      "failure_conditions": [
+        "补写第三位棋手姓名或赛前分数",
+        "把邱峻获胜写成实战击败李康"
+      ],
+      "scoring_note": "时序最易误伤：可理顺叙述，不可补造赛前榜单。"
+    },
+    {
+      "id": "zh2-coherence-036",
+      "suitable": false,
+      "reason": "回应与后续声明衔接清楚，无明显断裂",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-coherence-037",
+      "suitable": true,
+      "reason": "背景插入生硬，计划与成效混写",
+      "task": "面向高校新闻读者整理访问、议题与计划层次；可删宏观套话，不补合作落实情况。",
+      "audience": "高校新闻读者",
+      "must_preserve": [
+        {
+          "quote": "北京大学校长带领代表团访问了台湾大学",
+          "requirement": "保留访问方向与率团主体"
+        },
+        {
+          "quote": "在为期两天的访问中",
+          "requirement": "保留访问持续两天"
+        },
+        {
+          "quote": "两校计划共同开设双学位项目",
+          "requirement": "保留双学位计划，兼顾教师互访"
+        }
+      ],
+      "voice_quote": "在尊重彼此差异的基础上寻求共识",
+      "voice": "正式、友好的交流报道",
+      "allowed_changes": [
+        "调整背景段位置",
+        "删宏观赞语，区分计划与已发生活动"
+      ],
+      "failure_conditions": [
+        "把双学位计划写成已经开设",
+        "调换北大与台大的访问主客身份"
+      ],
+      "scoring_note": "完成状态最易误伤：未来项目不能被总结成已落实成果。"
+    },
+    {
+      "id": "zh2-coherence-038",
+      "suitable": true,
+      "reason": "结尾此举指向不清，风险衔接可整理",
+      "task": "面向基金资讯读者明确结尾指代并衔接收益风险；可删市场赞语，不补基金细节。",
+      "audience": "基金资讯读者",
+      "must_preserve": [
+        {
+          "quote": "国内首只带杠杆的指数基金今日正式结束募集",
+          "requirement": "保留原稿首只定位及结束募集节点"
+        },
+        {
+          "quote": "募集总额达到50亿元人民币",
+          "requirement": "保留50亿元人民币募集额"
+        },
+        {
+          "quote": "杠杆效应可能导致更大的亏损",
+          "requirement": "保留放大亏损的可能性及风险门槛"
+        }
+      ],
+      "voice_quote": "应充分认识到其潜在风险",
+      "voice": "资讯报道兼风险提醒",
+      "allowed_changes": [
+        "明确或删去结尾含混的此举",
+        "合并重复风险提醒与创新赞语"
+      ],
+      "failure_conditions": [
+        "把50亿元写成基金收益",
+        "将杠杆产品改成适合所有投资者"
+      ],
+      "scoring_note": "结尾指代易误伤：不能自行确定推动作用来自监管还是发行。"
+    },
+    {
+      "id": "zh2-coherence-039",
+      "suitable": false,
+      "reason": "优势、不足与分受众建议衔接清楚",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-coherence-040",
+      "suitable": false,
+      "reason": "观察建议涉及就医风险，非单纯衔接问题",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-coherence-041",
+      "suitable": true,
+      "reason": "开头指代悬空，中英夹杂妨碍衔接",
+      "task": "面向发展议题读者明确被反驳观点并串联论据；可删重复口号，不补国家案例或数据。",
+      "audience": "发展议题读者",
+      "must_preserve": [
+        {
+          "quote": "现代发展模式绝非必然要以牺牲生态环境为代价",
+          "requirement": "保留反对发展必然损害环境的立场"
+        },
+        {
+          "quote": "环境污染会带来巨大的社会和经济成本",
+          "requirement": "保留污染成本这一论据"
+        },
+        {
+          "quote": "中国作为负责任的大国，完全有能力也有必要",
+          "requirement": "保留作者支持中国绿色发展的判断"
+        }
+      ],
+      "voice_quote": "我们必须彻底摒弃",
+      "voice": "鲜明反驳、坚定倡议",
+      "allowed_changes": [
+        "用文内内容补明这种观点指代",
+        "统一英文表达，合并重复倡议"
+      ],
+      "failure_conditions": [
+        "把反驳改成发展必须先污染",
+        "新增国家数据证明绿色转型必然成功"
+      ],
+      "scoring_note": "立场易误伤：应修指代而非把鲜明反驳改成中立综述。"
+    },
+    {
+      "id": "zh2-coherence-042",
+      "suitable": true,
+      "reason": "希望与逼迫范围滑移，稳定性论述重复",
+      "task": "面向职业选择中的年轻人理顺父母动机；可合并稳定性论述，不把希望都写成强迫。",
+      "audience": "面临职业选择的年轻人",
+      "must_preserve": [
+        {
+          "quote": "主要涉及社会经济保障、社会地位以及文化心理",
+          "requirement": "保留三类动机框架"
+        },
+        {
+          "quote": "很多家长会鼓励甚至强迫孩子报考公务员考试",
+          "requirement": "保留鼓励与强迫的程度区别"
+        },
+        {
+          "quote": "找到适合自己的职业发展道路",
+          "requirement": "保留沟通后自主选择的落点"
+        }
+      ],
+      "voice_quote": "理解这些因素可以帮助年轻人更好地与父母沟通",
+      "voice": "解释性、体谅父母而非训诫",
+      "allowed_changes": [
+        "合并稳定收入与长久保障的重复",
+        "限定希望与逼迫的叙述范围"
+      ],
+      "failure_conditions": [
+        "把所有父母的希望写成强迫",
+        "结尾改为年轻人必须服从考公安排"
+      ],
+      "scoring_note": "主体范围易误伤：标题式归纳不能把鼓励一律升级为逼迫。"
+    },
+    {
+      "id": "zh2-coherence-043",
+      "suitable": true,
+      "reason": "间接推测跳到确保权益，论证过强",
+      "task": "面向作家理顺报告、审计与市场反馈的证据层次；可删重复保障语，不补合同权利或案例。",
+      "audience": "关注印数与版税的作家",
+      "must_preserve": [
+        {
+          "quote": "定期提供销售和印刷报告",
+          "requirement": "保留合同约定报告这一直接途径"
+        },
+        {
+          "quote": "要求第三方对出版社的记录进行核实",
+          "requirement": "保留第三方核查的审计途径"
+        },
+        {
+          "quote": "这种方法并不直接，但可以作为一种辅助参考",
+          "requirement": "市场反馈只能作间接辅助"
+        }
+      ],
+      "voice_quote": "当然，这种方法并不直接",
+      "voice": "实用说明，保留限定",
+      "allowed_changes": [
+        "按直接记录与间接线索分层",
+        "弱化确保收益的跳跃性结论"
+      ],
+      "failure_conditions": [
+        "把销售排名等同于实际印刷数量",
+        "宣称任何作家均无条件拥有审计权"
+      ],
+      "scoring_note": "证据强度易误伤：增强衔接不能把市场推测变成印数证明。"
+    },
+    {
+      "id": "zh2-coherence-044",
+      "suitable": true,
+      "reason": "募资到多市场影响的推论跳跃",
+      "task": "面向基金资讯读者分开首募事实、投资目标与市场推测；可删无支撑影响推演，不补数据。",
+      "audience": "基金资讯读者",
+      "must_preserve": [
+        {
+          "quote": "募集规模超过14亿元人民币",
+          "requirement": "保留超过14亿，不能改成恰好14亿"
+        },
+        {
+          "quote": "该基金由兴业基金管理有限公司推出",
+          "requirement": "保留发行管理主体"
+        },
+        {
+          "quote": "灵活的债券投资策略以及适当的权益资产配置",
+          "requirement": "保留债券与适当权益配置的策略"
+        }
+      ],
+      "voice_quote": "力求在风险可控的前提下实现收益最大化",
+      "voice": "财经报道，目标不作承诺",
+      "allowed_changes": [
+        "区分已募金额、经理目标与影响推测",
+        "删减股汇商品市场的无支撑推演"
+      ],
+      "failure_conditions": [
+        "将超过14亿改为恰好14亿",
+        "将基金目标写成保证收益或确定提振股市"
+      ],
+      "scoring_note": "因果强度易误伤：募集完成不等于资金已入市并推动各类资产。"
+    }
+  ],
+  "metadata": {
+    "job": "rest-32",
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 72.74,
+    "system_sha256": "2c85943d84beabe7f1c8a64f793323c3fb90f4110f4f66ac756b1b69b3faf06e",
+    "input_sha256": "802e0833964f4a9cd04afdb1e6ad322558baa97febff1ea567a4bf3a799eb385",
+    "usage": [
+      {
+        "input_tokens": 20066,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2199,
+        "reasoning_output_tokens": 126
+      }
+    ],
+    "review_type": "model_annotation",
+    "human_review": false
+  }
+}

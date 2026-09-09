@@ -1,0 +1,207 @@
+{
+  "cases": [
+    {
+      "id": "zh2-no_edit-qx051",
+      "suitable": false,
+      "reason": "“首次处女秀”赘余，“新发会”误写",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-qx052",
+      "suitable": false,
+      "reason": "“欲够购得”“担会”有明显错漏",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-qx053",
+      "suitable": false,
+      "reason": "人物姓名含问号，存在文本残损",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-qx054",
+      "suitable": false,
+      "reason": "“进展的”用字不当，宣传套话堆叠",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-qx055",
+      "suitable": true,
+      "reason": "比赛进程清楚，口语点评自然",
+      "task": "面向篮球读者保留现场短评，可原样输出；不得删比分、突破转折及投篮结果。",
+      "audience": "篮球赛事读者",
+      "must_preserve": [
+        {
+          "quote": "首节篮网25-29落后",
+          "requirement": "保留首节比分及篮网落后关系"
+        },
+        {
+          "quote": "分别造了格伦-戴维斯和斯卡拉布莱恩犯规",
+          "requirement": "保留前两次突破造犯规获罚球"
+        },
+        {
+          "quote": "随后他两次在外围接球投篮，全都命中",
+          "requirement": "保留第三次撞人后两投皆中"
+        }
+      ],
+      "voice_quote": "常在河边走，哪有不湿鞋",
+      "voice": "口语化赛况叙述，带调侃点评",
+      "allowed_changes": [
+        "允许完整原样输出或微调字词"
+      ],
+      "failure_conditions": [
+        "把CDR第三次突破写成造犯规成功",
+        "删掉失去首发、出场时间减少的背景"
+      ],
+      "scoring_note": "最易误伤口语点评；俗语承担突破受挫的转折。"
+    },
+    {
+      "id": "zh2-no_edit-qx056",
+      "suitable": false,
+      "reason": "83家企业参会信息重复，需压缩",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-qx057",
+      "suitable": false,
+      "reason": "“第三部”连写，筹拍信息大段重复",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-qx058",
+      "suitable": false,
+      "reason": "“解决”直接搭配古寺，缺争端宾语",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-qx059",
+      "suitable": true,
+      "reason": "业务主体、清算方式及信用证信息清楚",
+      "task": "面向财经读者保留业务简讯，可原样输出；不得省略交易主体、清算模式与信用证条件。",
+      "audience": "财经读者",
+      "must_preserve": [
+        {
+          "quote": "采用代理行清算模式进行清算",
+          "requirement": "保留环宇委托交行汇往香港上海汇丰"
+        },
+        {
+          "quote": "首家境外银行",
+          "requirement": "首家仅限在交行开人民币代理行账户"
+        },
+        {
+          "quote": "工银印尼开出的90天远期人民币信用证",
+          "requirement": "保留开证行、期限、币种及双方名称"
+        }
+      ],
+      "voice_quote": "据悉，交行已经收到",
+      "voice": "简洁、正式的财经消息口吻",
+      "allowed_changes": [
+        "允许完整原样输出或微调标点"
+      ],
+      "failure_conditions": [
+        "把汇丰写成国内首家人民币结算银行",
+        "对调三林万业与PT INDOTRUCK UTAMA的角色"
+      ],
+      "scoring_note": "最易误伤主体边界；汇款与信用证涉及不同业务方。"
+    },
+    {
+      "id": "zh2-no_edit-qx060",
+      "suitable": true,
+      "reason": "报告、声称与军方回应区分清楚",
+      "task": "面向新闻读者保留消息及核实状态，可原样输出；不得省略互异说法与沙利特背景。",
+      "audience": "国际新闻读者",
+      "must_preserve": [
+        {
+          "quote": "启动了大规模的安全行动，设置了数十个路障",
+          "requirement": "行动由收到劫持报告触发"
+        },
+        {
+          "quote": "武装组织声称他们劫持了一名以色列士兵",
+          "requirement": "劫持仅为该组织声称，非已证实"
+        },
+        {
+          "quote": "没有记录显示他们有士兵失踪",
+          "requirement": "保留军方否认记录及仍在点名"
+        }
+      ],
+      "voice_quote": "据英国媒体8月14日报道",
+      "voice": "克制转述，多方消息保持归属",
+      "allowed_changes": [
+        "允许完整原样输出或微调标点"
+      ],
+      "failure_conditions": [
+        "把女兵目击报告写成已核实劫持",
+        "把此次士兵与3年前被俘的沙利特混同"
+      ],
+      "scoring_note": "最易误伤确定性；多方说法并列不等于事实获证实。"
+    }
+  ],
+  "metadata": {
+    "job": "noedit_extra-05",
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 59.11,
+    "system_sha256": "2c85943d84beabe7f1c8a64f793323c3fb90f4110f4f66ac756b1b69b3faf06e",
+    "input_sha256": "073c28b6c7a679842d52b46c48d45bf03753da7a407ad7e1d0620549ca2f8b0a",
+    "usage": [
+      {
+        "input_tokens": 18397,
+        "cached_input_tokens": 10368,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1464,
+        "reasoning_output_tokens": 223
+      }
+    ],
+    "review_type": "model_annotation",
+    "human_review": false
+  }
+}

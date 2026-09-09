@@ -1,0 +1,47 @@
+{
+  "cases": [
+    {
+      "id": "zh2-voice_emotion-009",
+      "approve": true,
+      "reason": "引文准确，事件转折、气话与反讽边界保留合理。"
+    },
+    {
+      "id": "zh2-voice_emotion-010",
+      "approve": true,
+      "reason": "忠实保留数字、否定关系及个人判断的不确定性。"
+    },
+    {
+      "id": "zh2-voice_emotion-011",
+      "approve": true,
+      "reason": "个人体验与讽刺界定准确，未扩展为品牌宣传。"
+    },
+    {
+      "id": "zh2-voice_emotion-013",
+      "approve": false,
+      "reason": "“弹琴比较烂”的主语承接“老谢”；合同误作作者自嘲，并禁止正确归属。"
+    },
+    {
+      "id": "zh2-voice_emotion-014",
+      "approve": true,
+      "reason": "类别恰当，兼顾积极观察、悲观态度与判断边界。"
+    }
+  ],
+  "metadata": {
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 28.75,
+    "input_sha256": "e3eb078e15bcda41cb9b96593c26fde4e380499df07d42a0c585162d8f713d65",
+    "system_sha256": "0c41b551a96d085bbc3597749915f67732aa702736eddffdb625f85696aded81",
+    "usage": [
+      {
+        "input_tokens": 20356,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 236,
+        "reasoning_output_tokens": 29
+      }
+    ],
+    "review_type": "independent_context_model_review",
+    "human_review": false
+  }
+}

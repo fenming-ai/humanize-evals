@@ -1,0 +1,267 @@
+{
+  "cases": [
+    {
+      "id": "zh2-no_edit-r051",
+      "suitable": true,
+      "reason": "人事变动与履历时间线清楚",
+      "task": "面向基金资讯读者，保留公告及履历，可原样输出，不省略任免原因或任职节点。",
+      "audience": "基金资讯读者",
+      "must_preserve": [
+        {
+          "quote": "原基金经理江隆隆因内部调动离任",
+          "requirement": "保留钟山增聘及江隆隆离任原因"
+        },
+        {
+          "quote": "2004年3月至2004年5月",
+          "requirement": "各段履历年月、机构、职位均保留"
+        },
+        {
+          "quote": "2011年6月加盟嘉实基金管理有限公司",
+          "requirement": "保留加盟时间及机构"
+        }
+      ],
+      "voice_quote": "嘉实基金今日公告称",
+      "voice": "客观简洁的公告转述",
+      "allowed_changes": [
+        "允许全文原样输出",
+        "仅微调括号或履历分句"
+      ],
+      "failure_conditions": [
+        "将江隆隆离任写成业绩原因",
+        "合并履历导致月份或职位错配"
+      ],
+      "scoring_note": "履历密集不等于冗余，勿以精简删任职节点。"
+    },
+    {
+      "id": "zh2-no_edit-r052",
+      "suitable": true,
+      "reason": "否认与此前报道的层级清楚",
+      "task": "面向新闻读者，保留辟谣报道，可原样输出，不省略否认主体及此前报道条件。",
+      "audience": "新闻读者",
+      "must_preserve": [
+        {
+          "quote": "日本政府否认了日本首相鸠山由纪夫",
+          "requirement": "保留政府否认访问报道的立场"
+        },
+        {
+          "quote": "日本官房长官平野博文18日在记者会上表示",
+          "requirement": "保留发言人、日期和记者会场景"
+        },
+        {
+          "quote": "于下月上旬或中旬对朝鲜进行访问",
+          "requirement": "保留周刊所述考虑、时间和绑架议题"
+        }
+      ],
+      "voice_quote": "据日本时事通信社报道",
+      "voice": "克制且分层归因的新闻语气",
+      "allowed_changes": [
+        "允许全文原样输出",
+        "可统一朝鲜与北韩称谓"
+      ],
+      "failure_conditions": [
+        "将考虑访朝写成已确定行程",
+        "删去周刊消息来源而当作政府计划"
+      ],
+      "scoring_note": "最易误伤报道层级：被否认的消息仍须归因。"
+    },
+    {
+      "id": "zh2-no_edit-r053",
+      "suitable": false,
+      "reason": "节俗现述与缅王每年活动时态混杂",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-r054",
+      "suitable": false,
+      "reason": "错字、断句及学习磨炼表述重复",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-r055",
+      "suitable": true,
+      "reason": "活动时间、名单及预告层次清晰",
+      "task": "面向文娱新闻读者，保留颁奖预告，可原样输出，不省略获奖名单及活动时间。",
+      "audience": "文娱新闻读者",
+      "must_preserve": [
+        {
+          "quote": "11月2日，2010年度中国播音主持",
+          "requirement": "保留发布会日期、奖项年度和北京地点"
+        },
+        {
+          "quote": "央视孙小梅、李小萌、鲁健、芮成钢",
+          "requirement": "完整保留央视及地方台获奖者与奖项"
+        },
+        {
+          "quote": "获奖播音主持人将于10日晚",
+          "requirement": "保留亮相时间、承办录制方及明星预告"
+        }
+      ],
+      "voice_quote": "记者获悉，颁奖典礼还力邀众多演艺明星加盟",
+      "voice": "带活动期待感的新闻预告",
+      "allowed_changes": [
+        "允许全文原样输出",
+        "可微调名单标点"
+      ],
+      "failure_conditions": [
+        "遗漏或错配电视播音主持获奖名单",
+        "把10日晚预告改为已举行"
+      ],
+      "scoring_note": "名单虽长仍是核心信息，不应当套话删减。"
+    },
+    {
+      "id": "zh2-no_edit-r056",
+      "suitable": false,
+      "reason": "质权表述残缺，人质比喻边界不清",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-r057",
+      "suitable": true,
+      "reason": "赛况与误报巧合衔接完整",
+      "task": "面向足球读者，保留赛评及误报趣闻，可原样输出，不删比分、时差或讽刺收尾。",
+      "audience": "足球读者",
+      "must_preserve": [
+        {
+          "quote": "英格兰在小组次战中0比0战平阿尔及利亚",
+          "requirement": "保留6月19日赛果及两轮仅积2分"
+        },
+        {
+          "quote": "而此时是北京时间3点16左右",
+          "requirement": "保留韩国4点16左右误报及当时半场"
+        },
+        {
+          "quote": "把半场平局写成了全场",
+          "requirement": "保留原稿误操作判断及巧合式讽刺"
+        }
+      ],
+      "voice_quote": "向着0比0的结局沉闷挺进",
+      "voice": "讽刺英格兰沉闷表现的赛评",
+      "allowed_changes": [
+        "允许全文原样输出",
+        "仅微调长句停顿"
+      ],
+      "failure_conditions": [
+        "将NEWSIS误报写成真实预测能力",
+        "删去半场节点或改错两地对应时间"
+      ],
+      "scoring_note": "沉闷的反复是讽刺节奏，不宜机械去重。"
+    },
+    {
+      "id": "zh2-no_edit-r058",
+      "suitable": false,
+      "reason": "开头句式拗口且连续重复未私下道歉",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-r059",
+      "suitable": true,
+      "reason": "职务区别与各方不确定性明确",
+      "task": "面向体育新闻读者，保留人事调查报道，可原样输出，不省略职务边界和消息归属。",
+      "audience": "体育新闻读者",
+      "must_preserve": [
+        {
+          "quote": "而不是取代邵文忠担任总经理职务",
+          "requirement": "保留刘卫东任副总负责工作的区别"
+        },
+        {
+          "quote": "在协查两周后回归，但一直未公开露面",
+          "requirement": "保留首次协查、回归及再次失踪时间线"
+        },
+        {
+          "quote": "有消息称他又被专案组叫去沈阳",
+          "requirement": "保留传闻属性及各方未明确回归结论"
+        }
+      ],
+      "voice_quote": "韦迪并未给出明确说法",
+      "voice": "多方转述、保留悬念的新闻口吻",
+      "allowed_changes": [
+        "允许全文原样输出",
+        "仅微调引语衔接"
+      ],
+      "failure_conditions": [
+        "写成刘卫东已正式接任总经理",
+        "将再次赴沈阳或无法回归写成警方确认"
+      ],
+      "scoring_note": "重复回归希望对应不同信源，不宜抹平归属。"
+    },
+    {
+      "id": "zh2-no_edit-r060",
+      "suitable": true,
+      "reason": "发现、处置与背景交代完整",
+      "task": "面向国际新闻读者，保留现场与背景报道，可原样输出，不省略数量、地点及主体边界。",
+      "audience": "国际新闻读者",
+      "must_preserve": [
+        {
+          "quote": "4日在黎南部边界地区发现5枚火箭弹",
+          "requirement": "保留日期、数量及发现方联黎部队"
+        },
+        {
+          "quote": "纳古拉以东约5公里的哈姆尔谷地",
+          "requirement": "保留位置、附属物及包围通报合查顺序"
+        },
+        {
+          "quote": "曾有不明身份的人从黎巴嫩南部",
+          "requirement": "保留此前发射者不明及政府反对立场"
+        }
+      ],
+      "voice_quote": "主要是担心这种做法可能会把黎巴嫩拖入新的争端",
+      "voice": "客观叙事并交代风险顾虑",
+      "allowed_changes": [
+        "允许全文原样输出",
+        "可微调处置过程连接词"
+      ],
+      "failure_conditions": [
+        "把发现5枚写成当日发射5枚",
+        "指定袭击组织或写成黎政府支持发射"
+      ],
+      "scoring_note": "最易混淆本次发现与此前发射，须保留事件边界。"
+    }
+  ],
+  "metadata": {
+    "job": "supplement-06",
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 74.19,
+    "system_sha256": "2c85943d84beabe7f1c8a64f793323c3fb90f4110f4f66ac756b1b69b3faf06e",
+    "input_sha256": "7a210d76e6980a4b2061055c973f5ae6de04ecbc44de9a3520ac7bbcab2cdca6",
+    "usage": [
+      {
+        "input_tokens": 18073,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2074,
+        "reasoning_output_tokens": 191
+      }
+    ],
+    "review_type": "model_annotation",
+    "human_review": false
+  }
+}

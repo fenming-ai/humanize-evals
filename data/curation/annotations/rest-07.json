@@ -1,0 +1,209 @@
+{
+  "cases": [
+    {
+      "id": "zh2-no_edit-023",
+      "suitable": true,
+      "reason": "新闻结构清楚，可原样保留",
+      "task": "面向新闻读者保留报道原貌；无需润色，不省略时间、人物及数字，不补年份。",
+      "audience": "新闻读者",
+      "must_preserve": [
+        {
+          "quote": "在2016年前，巴西将成为世界第五大经济体",
+          "requirement": "保留为卢拉的预测，非已实现事实"
+        },
+        {
+          "quote": "卢拉将于明年1月1日卸任",
+          "requirement": "保留卸任日期及罗塞夫接任、胜选时间"
+        },
+        {
+          "quote": "65岁的卢拉目前在巴西享有80%的支持率",
+          "requirement": "保留年龄、支持率及当时语境"
+        }
+      ],
+      "voice_quote": "据外电报道",
+      "voice": "客观转述的简短新闻口吻",
+      "allowed_changes": [
+        "可完整原样输出"
+      ],
+      "failure_conditions": [
+        "把第五大经济体写成已实现",
+        "擅改明年、去年或补定报道年份"
+      ],
+      "scoring_note": "预测与事实最易混淆；保留报道不等于外部核实。"
+    },
+    {
+      "id": "zh2-no_edit-024",
+      "suitable": false,
+      "reason": "有“突发其想”错字及长句粘连",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-025",
+      "suitable": false,
+      "reason": "CPU排他断言缺少时点与条件",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-026",
+      "suitable": true,
+      "reason": "口语短评清楚，重复具有吐槽节奏",
+      "task": "面向看过影片的读者保留随口影评；可原样输出，不删具体吐槽及记忆限定。",
+      "audience": "看过影片的读者",
+      "must_preserve": [
+        {
+          "quote": "确实只有黎吧啦演的还行",
+          "requirement": "保留对表演的有限肯定"
+        },
+        {
+          "quote": "电影把酒吧老板对吧啦拍成真爱了",
+          "requirement": "保留对爱情改编及吧啦早死的评价"
+        },
+        {
+          "quote": "还有我记得书里小耳朵并没有表哥",
+          "requirement": "保留原著记忆限定与无表哥的判断"
+        }
+      ],
+      "voice_quote": "还有保安大哥你妆太浓了好吗",
+      "voice": "连续吐槽，口语感叹与反问",
+      "allowed_changes": [
+        "可完整原样输出",
+        "仅微调标点，不消除连续“还有”"
+      ],
+      "failure_conditions": [
+        "将“我记得”改成已核实的原著事实",
+        "删掉浓妆或女性比男性饥渴的吐槽"
+      ],
+      "scoring_note": "重复与碎句承载随口吐槽，易被误改成正式影评。"
+    },
+    {
+      "id": "zh2-no_edit-027",
+      "suitable": false,
+      "reason": "“瀑布了形式”有明显错字",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-028",
+      "suitable": false,
+      "reason": "术语写法不一，末段语病明显",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-029",
+      "suitable": true,
+      "reason": "观影短评完整，口语表达自然",
+      "task": "面向电影短评读者保留观影记录；可原样输出，不删喜恶、具体片段及附言。",
+      "audience": "电影短评读者",
+      "must_preserve": [
+        {
+          "quote": "以环保为主题的人鱼爱情喜剧",
+          "requirement": "保留影片主题、类型与搞笑带污的感受"
+        },
+        {
+          "quote": "看不得这种煽情又呼唤人性的场景",
+          "requirement": "保留受美人鱼遇险触动及喜爱刺杀段剪辑"
+        },
+        {
+          "quote": "缺点是剧情的转折太过轻佻",
+          "requirement": "保留转折轻佻、主题与爱情衔接俗气的批评"
+        }
+      ],
+      "voice_quote": "PS：张雨绮挺漂亮",
+      "voice": "随手记录，感性直白，褒贬并存",
+      "allowed_changes": [
+        "可完整原样输出",
+        "可微调断句，保留括注与PS功能"
+      ],
+      "failure_conditions": [
+        "改成全盘赞美并删去两项缺点",
+        "删除年后首部记录或张雨绮附言"
+      ],
+      "scoring_note": "感性与批评并存，易被统一成单一推荐口吻。"
+    },
+    {
+      "id": "zh2-no_edit-030",
+      "suitable": false,
+      "reason": "有“激励”“名中”及缺谓语等错误",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-031",
+      "suitable": false,
+      "reason": "安全比较无条件，部分句子主语不清",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-032",
+      "suitable": false,
+      "reason": "“同时青年”“形形式式”明显失当",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    }
+  ],
+  "metadata": {
+    "job": "rest-07",
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 56.41,
+    "system_sha256": "2c85943d84beabe7f1c8a64f793323c3fb90f4110f4f66ac756b1b69b3faf06e",
+    "input_sha256": "68522caedb008751673bf5b01cbddc3d03a65edd8d67876c4f1aa7187cd82f1a",
+    "usage": [
+      {
+        "input_tokens": 17966,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1542,
+        "reasoning_output_tokens": 290
+      }
+    ],
+    "review_type": "model_annotation",
+    "human_review": false
+  }
+}

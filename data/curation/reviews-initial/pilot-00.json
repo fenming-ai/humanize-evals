@@ -1,0 +1,72 @@
+{
+  "cases": [
+    {
+      "id": "zh2-slop-001",
+      "approve": true,
+      "reason": "保留评价缺口、培养对象与研究阶段，压缩要求合理。"
+    },
+    {
+      "id": "zh2-slop-002",
+      "approve": true,
+      "reason": "三类评价与保留意见忠实，允许删例且防止补造事实。"
+    },
+    {
+      "id": "zh2-slop-003",
+      "approve": true,
+      "reason": "重复现象适合测试，术语及原因推测的边界清楚。"
+    },
+    {
+      "id": "zh2-slop-004",
+      "approve": true,
+      "reason": "四类解释有原文依据，保留可能性且不强制采信例证。"
+    },
+    {
+      "id": "zh2-slop-005",
+      "approve": true,
+      "reason": "支持并引导的立场准确，年龄适配与沟通建议保留合理。"
+    },
+    {
+      "id": "zh2-slop-006",
+      "approve": true,
+      "reason": "类比结构与欲望两面性忠实，失败条件防止泛化。"
+    },
+    {
+      "id": "zh2-slop-007",
+      "approve": true,
+      "reason": "证书价值与地区限制均有依据，政策和就业边界合理。"
+    },
+    {
+      "id": "zh2-slop-008",
+      "approve": true,
+      "reason": "康复状态、新援身份及引语归属准确，禁止过度推断合理。"
+    },
+    {
+      "id": "zh2-slop-009",
+      "approve": true,
+      "reason": "通知主体、考试类型及相对日期忠实，数字口径限制合理。"
+    },
+    {
+      "id": "zh2-slop-010",
+      "approve": true,
+      "reason": "书名作者及推荐用途忠实，区分主观推荐与适配事实。"
+    }
+  ],
+  "metadata": {
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 22.65,
+    "input_sha256": "3fc60ecde6a1093a89a7e9f944684d6a2deb0917a64cc83d774f9367e6271a00",
+    "system_sha256": "0c41b551a96d085bbc3597749915f67732aa702736eddffdb625f85696aded81",
+    "usage": [
+      {
+        "input_tokens": 26750,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 413,
+        "reasoning_output_tokens": 46
+      }
+    ],
+    "review_type": "independent_context_model_review",
+    "human_review": false
+  }
+}

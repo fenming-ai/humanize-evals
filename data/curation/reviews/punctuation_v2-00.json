@@ -1,0 +1,72 @@
+{
+  "cases": [
+    {
+      "id": "zh2-punctuation-001-p2",
+      "approve": true,
+      "reason": "引文准确，标点功能说明合理，任务边界清楚。"
+    },
+    {
+      "id": "zh2-punctuation-002-p2",
+      "approve": true,
+      "reason": "绰号与预测语气保护合理，未强制将推测当事实。"
+    },
+    {
+      "id": "zh2-punctuation-003-p2",
+      "approve": true,
+      "reason": "引文均与原稿一致，允许统一引号，未要求外部核实。"
+    },
+    {
+      "id": "zh2-punctuation-004-p2",
+      "approve": true,
+      "reason": "引语和分号值得测试，用词瑕疵明确排除在任务外。"
+    },
+    {
+      "id": "zh2-punctuation-005-p2",
+      "approve": true,
+      "reason": "片名、原话及预测边界保留要求忠实原稿。"
+    },
+    {
+      "id": "zh2-punctuation-006-p2",
+      "approve": true,
+      "reason": "设问、直接引语及对称分句的标点保护合理。"
+    },
+    {
+      "id": "zh2-punctuation-007-p2",
+      "approve": true,
+      "reason": "列举层级与四项建议均有原文依据，失败条件合理。"
+    },
+    {
+      "id": "zh2-punctuation-008-p2",
+      "approve": true,
+      "reason": "概念引号及解释标点值得测试，允许必要局部整理。"
+    },
+    {
+      "id": "zh2-punctuation-009-p2",
+      "approve": true,
+      "reason": "引用边界准确，允许整理相邻引号间顿号，范围合理。"
+    },
+    {
+      "id": "zh2-punctuation-010-p2",
+      "approve": true,
+      "reason": "概念强调与并列停顿有依据，正文用词不属审查范围。"
+    }
+  ],
+  "metadata": {
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 27.43,
+    "input_sha256": "c164424133bbf5e704dcd31c37a9d9049e9714a19728371ea2c00ec3a883aeb8",
+    "system_sha256": "0c41b551a96d085bbc3597749915f67732aa702736eddffdb625f85696aded81",
+    "usage": [
+      {
+        "input_tokens": 23729,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 438,
+        "reasoning_output_tokens": 59
+      }
+    ],
+    "review_type": "independent_context_model_review",
+    "human_review": false
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "cases": [
+    {
+      "id": "zh2-punctuation-021-p2",
+      "approve": true,
+      "reason": "引文准确，标点功能与保留要求符合原稿。"
+    },
+    {
+      "id": "zh2-punctuation-022-p2",
+      "approve": true,
+      "reason": "负号及括注要求忠实原文，未越界核验金融观点。"
+    },
+    {
+      "id": "zh2-punctuation-023-p2",
+      "approve": true,
+      "reason": "例句边界和停顿要求合理，未强加原文外信息。"
+    },
+    {
+      "id": "zh2-punctuation-024-p2",
+      "approve": true,
+      "reason": "引文连续准确，作品标识及文学创作限定保留合理。"
+    },
+    {
+      "id": "zh2-punctuation-025-p2",
+      "approve": true,
+      "reason": "引语与活动名功能区分合理，约束符合仅整理标点任务。"
+    },
+    {
+      "id": "zh2-punctuation-026-p2",
+      "approve": true,
+      "reason": "书名号与停顿可测试，保留预计口吻符合原文。"
+    },
+    {
+      "id": "zh2-punctuation-027-p2",
+      "approve": true,
+      "reason": "引文准确，保留引述边界未将消息强制视为已核实事实。"
+    },
+    {
+      "id": "zh2-punctuation-028-p2",
+      "approve": true,
+      "reason": "引语、解释与并列层次均有原文依据，失败条件合理。"
+    },
+    {
+      "id": "zh2-punctuation-029-p2",
+      "approve": true,
+      "reason": "引号与顿号功能有据，赛事疑点未越过标点任务边界。"
+    },
+    {
+      "id": "zh2-punctuation-030-p2",
+      "approve": true,
+      "reason": "概念引号及列举要求忠实原文，保留推测限定合理。"
+    }
+  ],
+  "metadata": {
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 25.77,
+    "input_sha256": "d5fdaa1b6a90ba4d71dac3c8b67d999ca3951a226d44c2faf8ebdf47c6ed54ae",
+    "system_sha256": "0c41b551a96d085bbc3597749915f67732aa702736eddffdb625f85696aded81",
+    "usage": [
+      {
+        "input_tokens": 23495,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 420,
+        "reasoning_output_tokens": 35
+      }
+    ],
+    "review_type": "independent_context_model_review",
+    "human_review": false
+  }
+}

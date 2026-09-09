@@ -1,0 +1,229 @@
+{
+  "cases": [
+    {
+      "id": "zh2-no_edit-q061",
+      "suitable": true,
+      "reason": "赛况清楚，播报语气完整",
+      "task": "面向足球读者验收赛况稿，优先原样保留；不得省略时间、对阵、场地及进球过程。",
+      "audience": "足球读者",
+      "must_preserve": [
+        {
+          "quote": "北京时间6月14日凌晨2时30分",
+          "requirement": "保留北京时间及对应南非当地时间"
+        },
+        {
+          "quote": "左脚扣过澳大利亚后卫闪出空挡",
+          "requirement": "保留穆勒左脚摆脱、右脚射门的顺序"
+        },
+        {
+          "quote": "德国队3比0领先！",
+          "requirement": "保留第67分钟进球后的领先比分"
+        }
+      ],
+      "voice_quote": "德国队3比0领先！",
+      "voice": "即时赛况播报，进球处兴奋",
+      "allowed_changes": [
+        "允许完整原样输出",
+        "仅可微调括号及局部语序"
+      ],
+      "failure_conditions": [
+        "把3比0写成最终比分",
+        "颠倒穆勒左右脚动作或漏掉波多尔斯基传球"
+      ],
+      "scoring_note": "最易误伤播报感；感叹号服务进球现场情绪。"
+    },
+    {
+      "id": "zh2-no_edit-q062",
+      "suitable": false,
+      "reason": "疾病列举失配，末句搭配不顺",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-q063",
+      "suitable": false,
+      "reason": "“已被获准”赘误，存在明显修改点",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-q064",
+      "suitable": true,
+      "reason": "人事报道层次清楚，状态边界明确",
+      "task": "面向基金资讯读者保留人事报道；可原样输出，不省略消息归属、审批状态、履历和基金名单。",
+      "audience": "基金资讯读者",
+      "must_preserve": [
+        {
+          "quote": "目前中海基金尚未发布公告",
+          "requirement": "保留未公告与新浪财经称证实的区别"
+        },
+        {
+          "quote": "不过尚未接到中国证监会任职批复",
+          "requirement": "陈浩鸣拟接任，不等于获批任职"
+        },
+        {
+          "quote": "康伟被聘任为总经理。那一年康伟33岁",
+          "requirement": "保留康伟2007年获聘及当时年龄"
+        }
+      ],
+      "voice_quote": "来自中海基金网站的消息",
+      "voice": "克制资讯体，区分消息来源",
+      "allowed_changes": [
+        "允许完整原样输出",
+        "仅可整理日期、名单标点"
+      ],
+      "failure_conditions": [
+        "把陈浩鸣写成已获证监会批准",
+        "删改康伟履历或六只基金名单"
+      ],
+      "scoring_note": "最易误伤状态边界；消息证实不等于任职获批。"
+    },
+    {
+      "id": "zh2-no_edit-q065",
+      "suitable": true,
+      "reason": "事件、归责与背景衔接清楚",
+      "task": "面向国际新闻读者保留袭击简讯；可原样输出，不省略伤亡、归责来源及地区背景。",
+      "audience": "国际新闻读者",
+      "must_preserve": [
+        {
+          "quote": "他本人和司机当场死亡",
+          "requirement": "死者为纳林行政长官及其司机"
+        },
+        {
+          "quote": "官员将该起袭击归咎于塔利班武装分子",
+          "requirement": "保留官员归责，不写成独立核实"
+        },
+        {
+          "quote": "扩大到相对较为和平的北部和西部省份",
+          "requirement": "保留报道所述扩展方向及相对限定"
+        }
+      ],
+      "voice_quote": "据外电报道，阿富汗警方7日表示",
+      "voice": "新闻转述，保留来源层次",
+      "allowed_changes": [
+        "允许完整原样输出",
+        "仅可微调地名括注与语序"
+      ],
+      "failure_conditions": [
+        "把死者改为北约军人或增加伤亡人数",
+        "把北部西部写成绝对和平或删去运输背景"
+      ],
+      "scoring_note": "最易误伤归责强度；警方及官员说法不是外部核实。"
+    },
+    {
+      "id": "zh2-no_edit-q066",
+      "suitable": false,
+      "reason": "存在残句，法律推断与流泪衔接失当",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-q067",
+      "suitable": false,
+      "reason": "基金名称漏字，全体浮亏推断越界",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-q068",
+      "suitable": false,
+      "reason": "目的句悬空，干预意义重复铺陈",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-q069",
+      "suitable": true,
+      "reason": "娱乐报道表意清楚，转述层次可辨",
+      "task": "面向娱乐资讯读者保留原报道；可原样输出，不省略传闻归属、孕产安排及陪月费用条件。",
+      "audience": "娱乐资讯读者",
+      "must_preserve": [
+        {
+          "quote": "上月检查证实所怀的是“龙凤胎”",
+          "requirement": "保留港媒所述胎儿情况及7月预产期"
+        },
+        {
+          "quote": "还找了两个月薪3万港元的星级陪月员",
+          "requirement": "保留两名陪月员及每人月薪"
+        },
+        {
+          "quote": "签了两个月合约，陪月团就豪花20万港元",
+          "requirement": "保留合约两个月、总费用20万港元"
+        }
+      ],
+      "voice_quote": "令老公马廷强终日笑不拢嘴",
+      "voice": "热闹娱乐口吻，带亲昵渲染",
+      "allowed_changes": [
+        "允许完整原样输出",
+        "仅可整理引语标点"
+      ],
+      "failure_conditions": [
+        "把陪月员加工人共5人写成5名陪月员",
+        "把港媒及知情人士说法写成已独立核实"
+      ],
+      "scoring_note": "最易误伤来源边界；可保留娱乐语气但不能强化传闻。"
+    },
+    {
+      "id": "zh2-no_edit-q070",
+      "suitable": false,
+      "reason": "“鲜少路面”误词，约人推测越界",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    }
+  ],
+  "metadata": {
+    "job": "noedit_quality-06",
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 63.4,
+    "system_sha256": "2c85943d84beabe7f1c8a64f793323c3fb90f4110f4f66ac756b1b69b3faf06e",
+    "input_sha256": "600c874ba761ee874b313c907f87ecdcd51e775fcba0a13c7dd57273707bb852",
+    "usage": [
+      {
+        "input_tokens": 18986,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1705,
+        "reasoning_output_tokens": 214
+      }
+    ],
+    "review_type": "model_annotation",
+    "human_review": false
+  }
+}

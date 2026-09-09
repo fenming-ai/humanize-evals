@@ -1,0 +1,47 @@
+{
+  "cases": [
+    {
+      "id": "zh2-no_edit-033",
+      "approve": true,
+      "reason": "统计范围、数据对应及失败条件忠实，类别恰当。"
+    },
+    {
+      "id": "zh2-no_edit-037",
+      "approve": true,
+      "reason": "口语表达可保留，限定与个人感受均有原文依据。"
+    },
+    {
+      "id": "zh2-no_edit-038",
+      "approve": true,
+      "reason": "历史时态、发言主体与媒体说法边界准确。"
+    },
+    {
+      "id": "zh2-no_edit-039",
+      "approve": false,
+      "reason": "原稿含正面收益宣传、购买渠道及模板化适购人群推荐，不适合no_edit。"
+    },
+    {
+      "id": "zh2-no_edit-041",
+      "approve": true,
+      "reason": "引文准确，单调性限定及禁止补造例题的要求合理。"
+    }
+  ],
+  "metadata": {
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 24.11,
+    "input_sha256": "80b3c940beb42e9e7795f8cc0a5cbc69b4f9ccf80bb311e90bcc6705ac23afda",
+    "system_sha256": "0c41b551a96d085bbc3597749915f67732aa702736eddffdb625f85696aded81",
+    "usage": [
+      {
+        "input_tokens": 18108,
+        "cached_input_tokens": 9856,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 456,
+        "reasoning_output_tokens": 268
+      }
+    ],
+    "review_type": "independent_context_model_review",
+    "human_review": false
+  }
+}

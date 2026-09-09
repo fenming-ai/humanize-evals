@@ -1,0 +1,267 @@
+{
+  "cases": [
+    {
+      "id": "zh2-no_edit-qx021",
+      "suitable": false,
+      "reason": "“这些可喜的热”指代生硬不清",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-qx022",
+      "suitable": true,
+      "reason": "消息层次清楚，保留不确定性",
+      "task": "面向新闻读者强保留原报道，可原样输出；不删行动条件及人质背景。",
+      "audience": "国际新闻读者",
+      "must_preserve": [
+        {
+          "quote": "阿尔及利亚、马里、尼日尔和毛里塔尼亚四国",
+          "requirement": "保留联合行动的四国主体"
+        },
+        {
+          "quote": "可能在今年6月份进行",
+          "requirement": "六月仅为可能时间，不是定案"
+        },
+        {
+          "quote": "他们两人以及另外两名西方人质于今年4月获释",
+          "requirement": "保留获释人数构成与时间"
+        }
+      ],
+      "voice_quote": "另据报道，此次联合清剿行动将持续6个月。",
+      "voice": "克制、分层归因的新闻语体",
+      "allowed_changes": [
+        "允许完整原样输出",
+        "仅微调标点，不删来源与援助细节"
+      ],
+      "failure_conditions": [
+        "把六月行动写成已确定或已发生",
+        "把获释人质写成仅福勒及助手"
+      ],
+      "scoring_note": "时间模态易误伤；简化消息可能把推测变成确认。"
+    },
+    {
+      "id": "zh2-no_edit-qx023",
+      "suitable": true,
+      "reason": "简讯清晰，讲话归属明确",
+      "task": "面向时政读者保留简讯，可原样输出；不删会见时间、宣言及访问目的。",
+      "audience": "时政新闻读者",
+      "must_preserve": [
+        {
+          "quote": "昨天(17日)会见了南非总统祖马",
+          "requirement": "保留会见日期与对象"
+        },
+        {
+          "quote": "今年(2010年)8月祖马总统与胡锦涛主席共同签署",
+          "requirement": "保留年份、月份及共同签署主体"
+        },
+        {
+          "quote": "我此次访问主要任务是全面推动落实两国元首共识",
+          "requirement": "保留讲话者所述访问主要任务"
+        }
+      ],
+      "voice_quote": "进一步促进双方各领域合作",
+      "voice": "正式、转述讲话的外交简讯",
+      "allowed_changes": [
+        "允许完整原样输出",
+        "可统一括号样式，不删宣言及关系定位"
+      ],
+      "failure_conditions": [
+        "把2010年改成当前年份",
+        "把访问任务写成已经实现的成果"
+      ],
+      "scoring_note": "讲话套语易被误删，但此处承担访问目的与外交定位。"
+    },
+    {
+      "id": "zh2-no_edit-qx024",
+      "suitable": true,
+      "reason": "概念解释完整，动议状态明确",
+      "task": "面向财经读者强保留说明，可原样输出；不删单位示例、覆盖品种和审批边界。",
+      "audience": "财经新闻读者",
+      "must_preserve": [
+        {
+          "quote": "消息人士称，中国三大期货交易市场将提高",
+          "requirement": "保留消息归因，不写成正式公告"
+        },
+        {
+          "quote": "5000蒲式耳(每蒲式耳小麦约为27.2公斤)",
+          "requirement": "保留示例数量、换算及约数"
+        },
+        {
+          "quote": "尚需中国证监会批准，正式推出还需时日",
+          "requirement": "保留待批准、未正式推出状态"
+        }
+      ],
+      "voice_quote": "扩大交易单位，意味着期货的参与门槛提高。",
+      "voice": "解释性财经报道",
+      "allowed_changes": [
+        "允许完整原样输出",
+        "仅整理标点，不删定义及农产品、金属范围"
+      ],
+      "failure_conditions": [
+        "把提高交易单位写成已获批实施",
+        "将5000蒲式耳误作5000公斤"
+      ],
+      "scoring_note": "政策状态最易误伤；将酝酿写成落地会越过原文边界。"
+    },
+    {
+      "id": "zh2-no_edit-qx025",
+      "suitable": false,
+      "reason": "“出生与”“处女座”有明显错字",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-qx026",
+      "suitable": true,
+      "reason": "统计时点、数值及分类清楚",
+      "task": "面向基金新闻读者强保留统计，可原样输出；不删时点、分类及排名范围。",
+      "audience": "基金新闻读者",
+      "must_preserve": [
+        {
+          "quote": "截至12月17日，在前十大基金公司中",
+          "requirement": "保留统计截止日与公司比较范围"
+        },
+        {
+          "quote": "有5只基金今年以来的净值增长率超过20%",
+          "requirement": "保留五只、年内口径及超过门槛"
+        },
+        {
+          "quote": "3只基金排在前10强，4只基金排在前20强",
+          "requirement": "保留股票型和混合型合并排序口径"
+        }
+      ],
+      "voice_quote": "其中，华夏策略以37.7%的净值增长率",
+      "voice": "偏正面的业绩报道语气",
+      "allowed_changes": [
+        "允许完整原样输出",
+        "仅微调标点，保留基金名称与分类数据"
+      ],
+      "failure_conditions": [
+        "把分类第一写成全市场所有基金第一",
+        "把截至12月17日写成全年最终业绩"
+      ],
+      "scoring_note": "排名范围易误伤；不同基金分类的第一不能合并。"
+    },
+    {
+      "id": "zh2-no_edit-qx027",
+      "suitable": true,
+      "reason": "倡议、期待与会议安排有区分",
+      "task": "面向国际新闻读者强保留报道，可原样输出；不删合作议题与会议时间关系。",
+      "audience": "国际新闻读者",
+      "must_preserve": [
+        {
+          "quote": "邀请俄罗斯参与北约在欧洲建立反导系统的计划",
+          "requirement": "保留邀请参与反导计划的倡议性质"
+        },
+        {
+          "quote": "将在里斯本峰会上得到各国高层的同意",
+          "requirement": "保留这是拉斯穆森的希望"
+        },
+        {
+          "quote": "下周将在纽约举行的俄罗斯-北约理事会外长级会议",
+          "requirement": "保留会议名称、地点及相对时间"
+        }
+      ],
+      "voice_quote": "我认为，我们应在北约峰会上再次向俄罗斯提出明确建议",
+      "voice": "归因明确，保留倡议语气",
+      "allowed_changes": [
+        "允许完整原样输出",
+        "可统一连接号，不删成员数与议题列表"
+      ],
+      "failure_conditions": [
+        "写成俄罗斯已同意参与反导系统",
+        "把纽约外长会与里斯本峰会合并"
+      ],
+      "scoring_note": "希望与事实易混淆；精简不能把待争取的同意写成结果。"
+    },
+    {
+      "id": "zh2-no_edit-qx028",
+      "suitable": false,
+      "reason": "首句与次段大幅重复，需去重",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-qx029",
+      "suitable": false,
+      "reason": "导语“3月2日”与公告“后”不一致",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-qx030",
+      "suitable": true,
+      "reason": "灾情数据与机场主体区分清楚",
+      "task": "面向交通新闻读者强保留报道，可原样输出；不删机场差异、气象数据及警告范围。",
+      "audience": "交通与天气新闻读者",
+      "must_preserve": [
+        {
+          "quote": "截至当地时间19日晚8时30分",
+          "requirement": "保留机场运行统计时点"
+        },
+        {
+          "quote": "平均延误时间达到90分钟，450多个航班被取消",
+          "requirement": "保留奥黑尔延误与取消数据"
+        },
+        {
+          "quote": "中途机场航班平均延误时间达到30分钟以上",
+          "requirement": "保留另一机场及延误下限"
+        }
+      ],
+      "voice_quote": "由于暴风雨19日晚袭击美国芝加哥地区",
+      "voice": "客观、按来源陈述灾情",
+      "allowed_changes": [
+        "允许完整原样输出",
+        "仅微调标点，保留降雨、降雪及洪水警告细节"
+      ],
+      "failure_conditions": [
+        "把450多个取消航班归给中途机场",
+        "把同期降雪纪录写成全年最高纪录"
+      ],
+      "scoring_note": "机场与纪录范围易误伤；同城数据不能混用或扩大。"
+    }
+  ],
+  "metadata": {
+    "job": "noedit_extra-02",
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 74.22,
+    "system_sha256": "2c85943d84beabe7f1c8a64f793323c3fb90f4110f4f66ac756b1b69b3faf06e",
+    "input_sha256": "c4c6fbe58ac96632668b612b2bb1f4bae4937fa38cdcc8d3b7cdc1e626ba24d5",
+    "usage": [
+      {
+        "input_tokens": 18209,
+        "cached_input_tokens": 10368,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2062,
+        "reasoning_output_tokens": 192
+      }
+    ],
+    "review_type": "model_annotation",
+    "human_review": false
+  }
+}

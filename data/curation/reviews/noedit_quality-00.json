@@ -1,0 +1,47 @@
+{
+  "cases": [
+    {
+      "id": "zh2-no_edit-q001",
+      "approve": true,
+      "reason": "摘要完整规范，保留项忠实，未擅改反直觉结果。"
+    },
+    {
+      "id": "zh2-no_edit-q002",
+      "approve": true,
+      "reason": "新闻表述完整，人数口径、限定词与专业层次验收合理。"
+    },
+    {
+      "id": "zh2-no_edit-q006",
+      "approve": true,
+      "reason": "问答完整，传闻与人物表态归属清楚，保留要求合理。"
+    },
+    {
+      "id": "zh2-no_edit-q007",
+      "approve": true,
+      "reason": "冲突说法均有来源，合同保留推测及待核实边界。"
+    },
+    {
+      "id": "zh2-no_edit-q008",
+      "approve": true,
+      "reason": "赛前信息与阵容完整，保留项及失败条件均符合原文。"
+    }
+  ],
+  "metadata": {
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 24.77,
+    "input_sha256": "6d2fd10440175564b7e93be1a02fdba168bf62648090d5b439489f0476a8ee26",
+    "system_sha256": "0c41b551a96d085bbc3597749915f67732aa702736eddffdb625f85696aded81",
+    "usage": [
+      {
+        "input_tokens": 19170,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 246,
+        "reasoning_output_tokens": 52
+      }
+    ],
+    "review_type": "independent_context_model_review",
+    "human_review": false
+  }
+}

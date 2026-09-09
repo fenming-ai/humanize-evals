@@ -1,0 +1,297 @@
+{
+  "cases": [
+    {
+      "id": "zh2-facts-023",
+      "suitable": true,
+      "reason": "数字与预测边界明确可测",
+      "task": "面向财经读者精简行情稿；可删关注度套话，不删关键数字及预测限定。",
+      "audience": "财经读者",
+      "must_preserve": [
+        {
+          "quote": "回落了约1.5%，至每吨4700元人民币左右",
+          "requirement": "保留主力合约跌幅、价格及近似限定"
+        },
+        {
+          "quote": "预计未来几个月内钢铁需求仍有望保持稳定增长态势",
+          "requirement": "保留分析师预测身份，不能写成定局"
+        },
+        {
+          "quote": "多家主营产品为建筑用钢的企业跌幅超过2%",
+          "requirement": "保留昨日收盘、企业范围及跌幅"
+        }
+      ],
+      "voice_quote": "本轮调整或将成为暂时现象",
+      "voice": "审慎预测的财经评论口吻",
+      "allowed_changes": [
+        "删市场关注等套话，合并重复结论"
+      ],
+      "failure_conditions": [
+        "把约4700元写成精确成交价",
+        "把需求增长预测写成已发生事实"
+      ],
+      "scoring_note": "最易误伤预测强度；保留原稿不等于核实行情。"
+    },
+    {
+      "id": "zh2-facts-024",
+      "suitable": false,
+      "reason": "现制与改革科目数及新增说法冲突",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-facts-025",
+      "suitable": true,
+      "reason": "实验条件与推断层级具体",
+      "task": "面向认知研究读者整理摘要；可调整长句，不省实验参数、时序与推测限定。",
+      "audience": "认知研究读者",
+      "must_preserve": [
+        {
+          "quote": "工作记忆负荷分别是3和5个字母",
+          "requirement": "保留21人、两种负荷及19通道条件"
+        },
+        {
+          "quote": "高负荷（3.30±0.76）vs低负荷（2.48±0.30）",
+          "requirement": "保留组别数值对应及原报t、P值"
+        },
+        {
+          "quote": "右腹侧注意网络可能参与防止项目之间混淆",
+          "requirement": "保留超容量前提与可能性，不作因果定论"
+        }
+      ],
+      "voice_quote": "WMC差异有统计学意义",
+      "voice": "紧凑、克制的研究摘要",
+      "allowed_changes": [
+        "整理中英文符号与长句"
+      ],
+      "failure_conditions": [
+        "互换高低负荷的WMC数值",
+        "混同编码期与维持期的网络时序"
+      ],
+      "scoring_note": "最易误伤统计值和时序；语言简化不能简化实验条件。"
+    },
+    {
+      "id": "zh2-facts-026",
+      "suitable": true,
+      "reason": "比较立场与争议限定可保留",
+      "task": "面向游戏读者精简两代比较；可删重复赞语，不删争议，不补评分或更正资料。",
+      "audience": "游戏读者",
+      "must_preserve": [
+        {
+          "quote": "《命运 2》的评价整体上并不低于《命运 1》",
+          "requirement": "保留作者整体比较立场，不当成评分数据"
+        },
+        {
+          "quote": "初期内容匮乏、缺乏明确目标等问题",
+          "requirement": "保留对前作初期问题的限定"
+        },
+        {
+          "quote": "部分内容质量下降或更新节奏不稳定",
+          "requirement": "保留续作运营争议，不能改成全面好评"
+        }
+      ],
+      "voice_quote": "尽管它也经历了一些争议和调整",
+      "voice": "偏肯定但承认争议",
+      "allowed_changes": [
+        "合并首尾比较结论，删重复赞语"
+      ],
+      "failure_conditions": [
+        "将前作初期问题扩大为全周期问题",
+        "新增评分或销量证明续作全面领先"
+      ],
+      "scoring_note": "最易把作者评价升级为事实；资料片说法未外部核实。"
+    },
+    {
+      "id": "zh2-facts-027",
+      "suitable": true,
+      "reason": "专业范围与培养建议清楚",
+      "task": "面向选专业学生整理介绍；可压缩总结，不删运输范围、目标及技能建议。",
+      "audience": "选专业学生",
+      "must_preserve": [
+        {
+          "quote": "包括公路、铁路、航空、水运等",
+          "requirement": "保留多运输方式，不能缩为道路管理"
+        },
+        {
+          "quote": "安全、高效地从一个地方移动到另一个地方",
+          "requirement": "保留人和货物运输及安全效率目标"
+        },
+        {
+          "quote": "物流学、经济学、统计学等方面的知识",
+          "requirement": "保留跨学科知识要求及应用导向"
+        }
+      ],
+      "voice_quote": "对于希望从事这方面工作的同学而言",
+      "voice": "面向学生的通俗说明",
+      "allowed_changes": [
+        "分列知识与技能，删重复总结"
+      ],
+      "failure_conditions": [
+        "将专业等同于物流学或交通工程",
+        "把技能建议写成报考硬性门槛"
+      ],
+      "scoring_note": "最易误伤专业边界；通俗化不能缩减运输对象和方式。"
+    },
+    {
+      "id": "zh2-facts-028",
+      "suitable": true,
+      "reason": "事件主体与观点归属可测",
+      "task": "面向娱乐新闻读者精简报道；可删发酵套话，不删事件坐标、双方意见及回应归属。",
+      "audience": "娱乐新闻读者",
+      "must_preserve": [
+        {
+          "quote": "2015年12月10日，歌手范玮琪在上海",
+          "requirement": "保留活动日期、地点及分享育儿的主体"
+        },
+        {
+          "quote": "由于孩子早产，在保温箱里待了一段时间",
+          "requirement": "保留其自述经历，不补时长或医疗细节"
+        },
+        {
+          "quote": "其经纪人表示，范玮琪只是分享自己的真实感受",
+          "requirement": "保留经纪人解释与本人未进一步回应的区别"
+        }
+      ],
+      "voice_quote": "也有部分网友提出",
+      "voice": "并列呈现支持与质疑",
+      "allowed_changes": [
+        "合并两轮网友意见，删持续发酵套话"
+      ],
+      "failure_conditions": [
+        "把部分网友质疑写成公众一致谴责",
+        "把经纪人解释写成范玮琪亲自回应"
+      ],
+      "scoring_note": "最易误伤回应主体；重复压缩时须保留观点归属。"
+    },
+    {
+      "id": "zh2-facts-029",
+      "suitable": false,
+      "reason": "基金收益与公司股价主体混用",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-facts-030",
+      "suitable": true,
+      "reason": "统计口径与展望限定可测",
+      "task": "面向基金读者压缩市场综述；可删赞语，不省数字口径、时间及来源，不补年月。",
+      "audience": "基金读者",
+      "must_preserve": [
+        {
+          "quote": "截至20日收盘",
+          "requirement": "保留时间边界及超95%基金净值上涨"
+        },
+        {
+          "quote": "上证综指上涨0.58%，深证成指上涨0.72%",
+          "requirement": "保留指数对应数值与Wind归属"
+        },
+        {
+          "quote": "偏股型基金整体规模较上月增长6.3%",
+          "requirement": "保留偏股型、规模及环比口径"
+        }
+      ],
+      "voice_quote": "投资者仍需保持理性",
+      "voice": "乐观但保留风险提醒",
+      "allowed_changes": [
+        "删积极信号等赞语，整理数据层次"
+      ],
+      "failure_conditions": [
+        "把95%写成基金平均收益率",
+        "把主动管理型年内3.7%改为月收益"
+      ],
+      "scoring_note": "最易混淆净值、规模和收益口径；来源归属不是核实背书。"
+    },
+    {
+      "id": "zh2-facts-031",
+      "suitable": true,
+      "reason": "技术建议及极端例子边界鲜明",
+      "task": "面向技术讨论读者整理答复；可顺句，不删距离区别、查询数量及例子的假设性质。",
+      "audience": "技术讨论读者",
+      "must_preserve": [
+        {
+          "quote": "比较适合算曼哈顿距离。欧氏距离也能用。",
+          "requirement": "保留适用性比较，不能排除欧氏距离"
+        },
+        {
+          "quote": "对于找最近的100人这种查询，配合二分就可以了",
+          "requirement": "保留100人目标及配合二分的建议"
+        },
+        {
+          "quote": "周围100w人众星捧月般的呆在离你1km的地方",
+          "requirement": "保留人数距离，明确是极端假设例子"
+        }
+      ],
+      "voice_quote": "用不上Voronoi图这种大招",
+      "voice": "随口建议，带技术调侃",
+      "allowed_changes": [
+        "整理括号与断句，修正局部用词"
+      ],
+      "failure_conditions": [
+        "把极端分布例子写成实际观测",
+        "将不用Voronoi图扩大为其毫无用处"
+      ],
+      "scoring_note": "最易把随口判断写成算法保证；不能新增复杂度结论。"
+    },
+    {
+      "id": "zh2-facts-032",
+      "suitable": true,
+      "reason": "创作者工具及评价边界可测",
+      "task": "面向数学学习者精简频道介绍；可删重复赞语、限定无支撑保证，不补成效数据。",
+      "audience": "数学学习者",
+      "must_preserve": [
+        {
+          "quote": "频道创作者 Grant Sanderson",
+          "requirement": "保留创作者身份及使用Manim制作动画"
+        },
+        {
+          "quote": "线性代数、微积分和数论等主题",
+          "requirement": "保留举例主题，不改成完整课程清单"
+        },
+        {
+          "quote": "也可以为教师提供教学灵感",
+          "requirement": "保留学生辅助学习与教师参考两种用途"
+        }
+      ],
+      "voice_quote": "同时保持内容的深度和学术性",
+      "voice": "欣赏、介绍性的评价口吻",
+      "allowed_changes": [
+        "删重复赞语，限定制作质量保证准确性的断言"
+      ],
+      "failure_conditions": [
+        "把Manim写成频道或创作者名称",
+        "新增研究数据证明教学效果"
+      ],
+      "scoring_note": "最易将赞赏改成效果保证；不可因缺证据抹掉全部评价。"
+    }
+  ],
+  "metadata": {
+    "job": "rest-13",
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 82.63,
+    "system_sha256": "2c85943d84beabe7f1c8a64f793323c3fb90f4110f4f66ac756b1b69b3faf06e",
+    "input_sha256": "b31ec3665eed80cc703866e3396b89b9a96be19a074aba17743f70524fcdb303",
+    "usage": [
+      {
+        "input_tokens": 19824,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2333,
+        "reasoning_output_tokens": 109
+      }
+    ],
+    "review_type": "model_annotation",
+    "human_review": false
+  }
+}

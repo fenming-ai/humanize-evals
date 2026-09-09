@@ -1,0 +1,52 @@
+{
+  "cases": [
+    {
+      "id": "zh2-no_edit-r051",
+      "approve": true,
+      "reason": "原稿完整通顺，任免原因及履历保留要求忠实。"
+    },
+    {
+      "id": "zh2-no_edit-r052",
+      "approve": true,
+      "reason": "否认主体与此前报道层级清楚，合同未将考虑写成事实。"
+    },
+    {
+      "id": "zh2-no_edit-r055",
+      "approve": true,
+      "reason": "活动预告完整，名单及时间要求有据，无模板宣传问题。"
+    },
+    {
+      "id": "zh2-no_edit-r057",
+      "approve": true,
+      "reason": "赛评完整，合同保留原稿判断，未强制认定真实预测能力。"
+    },
+    {
+      "id": "zh2-no_edit-r059",
+      "approve": true,
+      "reason": "职务边界、传闻属性及回归不确定性均保留得当。"
+    },
+    {
+      "id": "zh2-no_edit-r060",
+      "approve": true,
+      "reason": "原稿完整，数量、地点及发现与发射的事件边界要求准确。"
+    }
+  ],
+  "metadata": {
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 24.46,
+    "input_sha256": "8f3550dafe1942b17173701b90c2c5c4b1c7f94d68fa6a6bf449bf8f5e518115",
+    "system_sha256": "0c41b551a96d085bbc3597749915f67732aa702736eddffdb625f85696aded81",
+    "usage": [
+      {
+        "input_tokens": 18714,
+        "cached_input_tokens": 9856,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 309,
+        "reasoning_output_tokens": 84
+      }
+    ],
+    "review_type": "independent_context_model_review",
+    "human_review": false
+  }
+}

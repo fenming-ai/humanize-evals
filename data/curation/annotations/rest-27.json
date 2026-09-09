@@ -1,0 +1,305 @@
+{
+  "cases": [
+    {
+      "id": "zh2-punctuation-015",
+      "suitable": true,
+      "reason": "对话停顿与抒情破折号功能鲜明",
+      "task": "面向记叙文读者整理对话与抒情标点；可压缩重复赞美，不省略赠巾经过。",
+      "audience": "记叙文读者",
+      "must_preserve": [
+        {
+          "quote": "洗得泛白的蓝色围巾",
+          "requirement": "保留老妇赠出自用旧围巾"
+        },
+        {
+          "quote": "阿婆，您自己……",
+          "requirement": "保留少年担忧及话未说完"
+        },
+        {
+          "quote": "我心里涌起一阵酸涩的波澜",
+          "requirement": "保留感动中夹杂酸涩"
+        }
+      ],
+      "voice_quote": "娃儿，快围上吧，天冻着哩！",
+      "voice": "质朴方言与温情抒情交织",
+      "allowed_changes": [
+        "合并结尾重复比喻",
+        "整理对话分段及标点"
+      ],
+      "failure_conditions": [
+        "把少年省略号改成完整断言",
+        "删去老妇受冻仍赠巾的反差"
+      ],
+      "scoring_note": "省略号承载欲言又止，不能按符号频次机械删除。"
+    },
+    {
+      "id": "zh2-punctuation-016",
+      "suitable": true,
+      "reason": "引号与括注涉及归因及术语边界",
+      "task": "面向科普读者整理引号、括注和长句；可删背景套话，不补研究来源或强化结论。",
+      "audience": "科普读者",
+      "must_preserve": [
+        {
+          "quote": "该研究声称证实了男性",
+          "requirement": "保留研究声称的归因距离"
+        },
+        {
+          "quote": "功能性磁共振成像（fMRI）技术",
+          "requirement": "保留技术名称与缩写对应"
+        },
+        {
+          "quote": "生物学本性并非决定性因素",
+          "requirement": "保留非生物决定论的限制"
+        }
+      ],
+      "voice_quote": "避免陷入刻板印象和性别歧视的误区",
+      "voice": "报道式陈述，带审慎提醒",
+      "allowed_changes": [
+        "压缩广泛关注等套话",
+        "整理引号括注及句界"
+      ],
+      "failure_conditions": [
+        "将“好色本性”写成已核实事实",
+        "删除进一步验证及环境影响限制"
+      ],
+      "scoring_note": "引号并非可靠性证明；最易将转述改成编辑背书。"
+    },
+    {
+      "id": "zh2-punctuation-017",
+      "suitable": false,
+      "reason": "身份作品断言混杂，标点功能不足",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-punctuation-018",
+      "suitable": true,
+      "reason": "冒号分号承担条件与建议分层",
+      "task": "面向法律常识读者整理条件和建议层级；可精简引导语，不省略个案限制，不新增法条。",
+      "audience": "法律常识读者",
+      "must_preserve": [
+        {
+          "quote": "误伤无关人员导致第三者死亡",
+          "requirement": "保留讨论对象为无关第三者死亡"
+        },
+        {
+          "quote": "一是防卫行为的合理性",
+          "requirement": "保留合理性、过失及环境三项判断"
+        },
+        {
+          "quote": "实践中是否构成过失犯罪需个案审查",
+          "requirement": "保留个案审查与可能担责的条件性"
+        }
+      ],
+      "voice_quote": "如有过失则可能担责",
+      "voice": "审慎的条件说明与建议",
+      "allowed_changes": [
+        "将分号串列整理为列表",
+        "精简本质与关键等引导语"
+      ],
+      "failure_conditions": [
+        "写成误伤第三者必然构罪",
+        "把报警取证建议混入构罪条件"
+      ],
+      "scoring_note": "层级最易误伤：判断因素与事后建议不是同类条件。"
+    },
+    {
+      "id": "zh2-punctuation-019",
+      "suitable": true,
+      "reason": "括注连接号承载专业名称关系",
+      "task": "面向相关研究读者整理术语符号和句式；可删价值套话，不省略综述范围或新增疗效证据。",
+      "audience": "相关研究读者",
+      "must_preserve": [
+        {
+          "quote": "Toll样受体（TLR）",
+          "requirement": "保留名称与缩写对应"
+        },
+        {
+          "quote": "核转录因子–κB（NF-κB）",
+          "requirement": "保留术语标识及缩写对应"
+        },
+        {
+          "quote": "重点讨论了益生菌在该信号通路中的作用",
+          "requirement": "保留综述以益生菌调节通路为重点"
+        }
+      ],
+      "voice_quote": "本文综述了TLR、NF-κB的结构功能",
+      "voice": "简洁的学术综述摘要体",
+      "allowed_changes": [
+        "统一术语连接号与括注",
+        "压缩提供新思路等评价"
+      ],
+      "failure_conditions": [
+        "删除κB或混淆TLR与NF-κB",
+        "把益生菌调节作用写成临床治愈保证"
+      ],
+      "scoring_note": "连接号属于术语标识，不能当作装饰性标点删除。"
+    },
+    {
+      "id": "zh2-punctuation-020",
+      "suitable": true,
+      "reason": "引号用于概括并对应解释原则",
+      "task": "面向普通账号用户整理原则引号和层次；可删首尾套话，不漏密码要求及安全提醒，不新增建议。",
+      "audience": "普通账号用户",
+      "must_preserve": [
+        {
+          "quote": "应遵循“强”、“长”、“特”三个原则",
+          "requirement": "保留字符组合、长度、独特性的对应"
+        },
+        {
+          "quote": "长度至少为12位以上",
+          "requirement": "保留至少12位的下限"
+        },
+        {
+          "quote": "只需要记住一个主密码即可解锁全部记录",
+          "requirement": "保留主密码解锁记录的作用"
+        }
+      ],
+      "voice_quote": "务必先确认对方身份再做决定",
+      "voice": "直白实用，带提醒语气",
+      "allowed_changes": [
+        "整理原则标签的引号与顿号",
+        "压缩首尾泛化总结"
+      ],
+      "failure_conditions": [
+        "把至少12位改为恰好12位",
+        "删去防可疑请求或双因素认证提醒"
+      ],
+      "scoring_note": "引号用于标签对应；符号简化不能打散三项要求。"
+    },
+    {
+      "id": "zh2-punctuation-021",
+      "suitable": true,
+      "reason": "分号排比与引语共同组织温情叙述",
+      "task": "面向校园作文读者整理排比与引语标点；可压缩重复赞美，不省略三层天使主题，不补事例。",
+      "audience": "校园作文读者",
+      "must_preserve": [
+        {
+          "quote": "天使是那些默默奉献的普通人",
+          "requirement": "保留日常奉献这一层"
+        },
+        {
+          "quote": "天使是那些在危难时刻挺身而出的英雄",
+          "requirement": "保留危难援助及暴雨事例"
+        },
+        {
+          "quote": "天使更是我们每个人内心深处的善良",
+          "requirement": "保留人人可行善及赠气球事例"
+        }
+      ],
+      "voice_quote": "看到它们健康快乐，我就开心。",
+      "voice": "真诚温暖，带校园作文式倡议",
+      "allowed_changes": [
+        "统一中英文引号及引语标点",
+        "压缩末尾重复倡议"
+      ],
+      "failure_conditions": [
+        "合并排比导致不同人物行动错配",
+        "将转述名言写成作者原创话语"
+      ],
+      "scoring_note": "分号承担并列层次；去排比不应抹掉递进主题。"
+    },
+    {
+      "id": "zh2-punctuation-022",
+      "suitable": false,
+      "reason": "论证混合多种价格因素，标点非主问题",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-punctuation-023",
+      "suitable": true,
+      "reason": "引号明确区分举例句与解释",
+      "task": "面向文字赏析读者整理例句引号和句界；可删重复总结，不省略情感类别与情境限制，不新增例句。",
+      "audience": "文字赏析读者",
+      "must_preserve": [
+        {
+          "quote": "这源于它们唤起的强烈情感共鸣",
+          "requirement": "保留共鸣是催泪原因的观点"
+        },
+        {
+          "quote": "感人的爱情宣言在特定情境下会让人泪目",
+          "requirement": "保留爱情句催泪的情境限制"
+        },
+        {
+          "quote": "最后，表达孤独或希望的句子同样有力量",
+          "requirement": "保留孤独与希望两种情感"
+        }
+      ],
+      "voice_quote": "让每个人在阅读中找到自己的影子",
+      "voice": "温和解释，重视情感共鸣",
+      "allowed_changes": [
+        "整理例句引号和分句",
+        "压缩重复的文字力量总结"
+      ],
+      "failure_conditions": [
+        "把例句“爸爸，我好想你”当作者经历",
+        "删去失亲或怀旧类别"
+      ],
+      "scoring_note": "引号界定示例身份，去引号不能让例句变成自述。"
+    },
+    {
+      "id": "zh2-punctuation-024",
+      "suitable": true,
+      "reason": "书名号与分号承担指称和并列功能",
+      "task": "面向文学读者整理书名号、并列句与长句；可精简评价，不省略小说定位及非传记提醒。",
+      "audience": "文学读者",
+      "must_preserve": [
+        {
+          "quote": "太宰治以鲁迅为原型创作的一部小说",
+          "requirement": "保留作者、原型与小说性质"
+        },
+        {
+          "quote": "既有着对国家未来的深切忧虑",
+          "requirement": "保留国家忧虑与日常关切的并存"
+        },
+        {
+          "quote": "这毕竟是文学创作而非历史传记",
+          "requirement": "保留文学形象不等于历史传记的边界"
+        }
+      ],
+      "voice_quote": "也更贴近普通人的情感世界",
+      "voice": "平和赏析，兼有阅读提醒",
+      "allowed_changes": [
+        "拆分末尾长句",
+        "精简立体鲜活等重叠评价"
+      ],
+      "failure_conditions": [
+        "将太宰治笔下形象当成鲁迅史实",
+        "删去温柔与反抗并存的性格对照"
+      ],
+      "scoring_note": "分号连接人物两面；简化不能把复杂形象改成单面赞美。"
+    }
+  ],
+  "metadata": {
+    "job": "rest-27",
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 90.11,
+    "system_sha256": "2c85943d84beabe7f1c8a64f793323c3fb90f4110f4f66ac756b1b69b3faf06e",
+    "input_sha256": "bc17bf1d56ff04bb69d5aca7ab1226c79641eb473bca4230019fac31c70b4c53",
+    "usage": [
+      {
+        "input_tokens": 20239,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2335,
+        "reasoning_output_tokens": 55
+      }
+    ],
+    "review_type": "model_annotation",
+    "human_review": false
+  }
+}

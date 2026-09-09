@@ -1,0 +1,305 @@
+{
+  "cases": [
+    {
+      "id": "zh2-missing_material-033",
+      "suitable": true,
+      "reason": "可保留感想并限定设定断言",
+      "task": "面向龙珠粉丝压缩年龄讨论；可限定无依据设定，不补剧情或精确年表。",
+      "audience": "龙珠粉丝",
+      "must_preserve": [
+        {
+          "quote": "悟空大概已经四五十岁了",
+          "requirement": "仅保留为作者估计，不作定论"
+        },
+        {
+          "quote": "他依然保持着强壮和充满活力的状态",
+          "requirement": "保留对角色活力的印象"
+        },
+        {
+          "quote": "重要的是他永远充满活力和战斗的灵魂",
+          "requirement": "保留精神气质比年龄重要的偏爱"
+        }
+      ],
+      "voice_quote": "我对这个关于悟空年龄的话题真的很有感触",
+      "voice": "热情、偏爱角色的粉丝口吻",
+      "allowed_changes": [
+        "删自我介绍及重复赞美",
+        "限定或删永不衰老、生命层次等断言"
+      ],
+      "failure_conditions": [
+        "将四五十岁写成官方确切年龄",
+        "新增神界训练延寿的剧情证据"
+      ],
+      "scoring_note": "最易误伤估计语气；不能把粉丝感想升级为设定。"
+    },
+    {
+      "id": "zh2-missing_material-034",
+      "suitable": false,
+      "reason": "角色归属与本人偏好均缺支撑材料",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-missing_material-035",
+      "suitable": true,
+      "reason": "个人叙事完整，无须外添材料",
+      "task": "面向日常分享读者精简尴尬经历；可删泛化感悟，不删事件转折或另编经历。",
+      "audience": "日常分享读者",
+      "must_preserve": [
+        {
+          "quote": "却发现U盘里的文件怎么也打不开",
+          "requirement": "保留大学营销展示的故障起因"
+        },
+        {
+          "quote": "然而由于过度依赖PPT，我的思路完全被打乱",
+          "requirement": "保留口述失序及记错数据的难堪"
+        },
+        {
+          "quote": "我养成了提前测试设备、准备纸质讲稿的习惯",
+          "requirement": "保留事后具体准备习惯的变化"
+        }
+      ],
+      "voice_quote": "恨不能找个地缝钻进去",
+      "voice": "坦诚出糗、回望成长",
+      "allowed_changes": [
+        "压缩三条道理和结尾镜子比喻",
+        "整理故障、口述、反思的衔接"
+      ],
+      "failure_conditions": [
+        "把教授建议口述改成公开训斥",
+        "因缺外证将整段自述判作虚构"
+      ],
+      "scoring_note": "最易误伤自述可信边界；缺外部材料不等于经历虚假。"
+    },
+    {
+      "id": "zh2-missing_material-036",
+      "suitable": true,
+      "reason": "三层解释可独立成立",
+      "task": "面向普通读者精简重视游戏的原因；可删重复总结、限定泛化判断，不补研究数据。",
+      "audience": "普通读者",
+      "must_preserve": [
+        {
+          "quote": "能让玩家暂时忘却现实生活中的压力和烦恼",
+          "requirement": "保留娱乐与暂时减压作用"
+        },
+        {
+          "quote": "这种团队合作能增进彼此的友谊和默契",
+          "requirement": "保留协作带来的社交价值"
+        },
+        {
+          "quote": "能获得成就感和自信心",
+          "requirement": "保留练习、成绩与自我实现的联系"
+        }
+      ],
+      "voice_quote": "有人把游戏看得很重要",
+      "voice": "平和解释，不贬低玩家",
+      "allowed_changes": [
+        "合并分层套语及重复结论",
+        "将不可或缺限定于部分玩家"
+      ],
+      "failure_conditions": [
+        "将游戏重要性推广为所有人的需要",
+        "新增研究证明游戏必然提升能力"
+      ],
+      "scoring_note": "最易误伤主体范围；解释部分玩家不能变成普遍定律。"
+    },
+    {
+      "id": "zh2-missing_material-037",
+      "suitable": false,
+      "reason": "缺现场材料及声明，核心辟谣无据",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-missing_material-038",
+      "suitable": true,
+      "reason": "可保留期待并收敛宣传断言",
+      "task": "面向影迷精简回归评论；可删宏大预言，不补合作细节，不把期待写成官宣剧情。",
+      "audience": "超级英雄电影影迷",
+      "must_preserve": [
+        {
+          "quote": "蜘蛛侠再次回归MCU的消息让许多影迷感到振奋",
+          "requirement": "保留围绕回归消息的欣喜"
+        },
+        {
+          "quote": "他如何在失去导师后独立面对挑战",
+          "requirement": "保留对独立成长故事的期待"
+        },
+        {
+          "quote": "蜘蛛侠回归MCU是双赢的选择",
+          "requirement": "保留作者看好双方合作的判断"
+        }
+      ],
+      "voice_quote": "也为全球影迷带来了新的希望和期待",
+      "voice": "乐观期待，不作票房保证",
+      "allowed_changes": [
+        "删无限可能、辉煌篇章等套话",
+        "弱化受众、品牌价值的必然性判断"
+      ],
+      "failure_conditions": [
+        "将复仇者再次联手写成已确认剧情",
+        "新增索尼与漫威的分成或上映日期"
+      ],
+      "scoring_note": "最易误伤情态；期待可保留，不能冒充已确认安排。"
+    },
+    {
+      "id": "zh2-missing_material-039",
+      "suitable": true,
+      "reason": "可区分原因猜测与改进建议",
+      "task": "面向选秀观众梳理Simon淘汰评论；可删无支撑比较，不补内幕，保留建议与猜测边界。",
+      "audience": "音乐选秀观众",
+      "must_preserve": [
+        {
+          "quote": "Simon被淘汰而其他导师未抢人的情况",
+          "requirement": "保留讨论对象与未抢人的问题"
+        },
+        {
+          "quote": "他的音乐路线可能与其他导师现有战队风格不够契合",
+          "requirement": "风格、市场、战队原因仅作可能解释"
+        },
+        {
+          "quote": "三是建立复活赛制，给实力强劲但运气不佳的选手二次机会",
+          "requirement": "保留透明度、名额机制、复活赛建议"
+        }
+      ],
+      "voice_quote": "他的演唱实力毋庸置疑",
+      "voice": "欣赏选手、理性讨论",
+      "allowed_changes": [
+        "删节目比较及产业折射套话",
+        "将制作动机断言降为猜测"
+      ],
+      "failure_conditions": [
+        "断言导师因商业价值低淘汰Simon",
+        "把复活赛建议写成节目已有规则"
+      ],
+      "scoring_note": "最易误伤因果确定度；作者推测不等于制作内幕。"
+    },
+    {
+      "id": "zh2-missing_material-040",
+      "suitable": true,
+      "reason": "评价维度明确但没有实测材料",
+      "task": "面向词汇学习者整理字典评价框架；可删总结套话，不新增功能、测评或效果结论。",
+      "audience": "英语词汇学习者",
+      "must_preserve": [
+        {
+          "quote": "通过掌握英语词汇的词根、前缀和后缀来提高词汇量",
+          "requirement": "保留工具目标，不保证实际效果"
+        },
+        {
+          "quote": "它是否能够有效地辅助用户理解和记忆单词",
+          "requirement": "实用性与覆盖范围仍为待评问题"
+        },
+        {
+          "quote": "了解该产品是否提供个性化设置选项",
+          "requirement": "体验、维护、个性化均非已证实功能"
+        }
+      ],
+      "voice_quote": "评价这款字典时，可以从几个方面入手",
+      "voice": "审慎列标准，不冒充用户",
+      "allowed_changes": [
+        "合并评价维度为清单",
+        "删语言发展常识及重复总结"
+      ],
+      "failure_conditions": [
+        "声称字典已支持自定义学习计划",
+        "编造试用经历或词汇提升比例"
+      ],
+      "scoring_note": "最易误伤问句功能；待核验维度不能改成产品卖点。"
+    },
+    {
+      "id": "zh2-long_form-009",
+      "suitable": true,
+      "reason": "全文论证层次完整，可减修辞",
+      "task": "面向议论散文读者疏通全文；可减重复意象，不删本能、精神、行动、落空转折与收束。",
+      "audience": "议论散文读者",
+      "must_preserve": [
+        {
+          "quote": "这份期待，先是一种生命本能的顽强回响",
+          "requirement": "保留由生存期待上升至精神追求"
+        },
+        {
+          "quote": "真正的期待，必在行动中寻找其重量与光芒",
+          "requirement": "保留行动赋予期待价值的推进"
+        },
+        {
+          "quote": "它并非只属于结果的桂冠",
+          "requirement": "保留未必如愿而追寻仍有意义"
+        }
+      ],
+      "voice_quote": "纵使微弱，亦能穿透暗夜",
+      "voice": "庄重抒情，坚定而不保证成功",
+      "allowed_changes": [
+        "压缩星辰、明灯等重复意象",
+        "整理例证与分论点衔接，统一全文语气"
+      ],
+      "failure_conditions": [
+        "删去期待落空一层，改成坚持必成功",
+        "只润色开头，后文转为口语说教"
+      ],
+      "scoring_note": "最易误伤全文递进；减辞藻不应削掉失败与过程价值。"
+    },
+    {
+      "id": "zh2-long_form-010",
+      "suitable": true,
+      "reason": "结构鲜明，可限定无据夸大",
+      "task": "面向地域文化读者整理全文；保留山水起笔、先贤到今人及代际收束，可删无据排名，不补史实。",
+      "audience": "地域文化读者",
+      "must_preserve": [
+        {
+          "quote": "我爱浙江的春花秋月，更爱浙江人自古传承的浙江精神",
+          "requirement": "保留浙江人自述身份与精神偏爱"
+        },
+        {
+          "quote": "敢于创新、勇于创业、勤于事功的人生态度",
+          "requirement": "保留先贤、文学、古镇、商业的实干主线"
+        },
+        {
+          "quote": "我们这一代以及我们的下一代，也必将追随先贤的身影",
+          "requirement": "保留代际传承的豪情收束"
+        }
+      ],
+      "voice_quote": "作为一个新时代的浙江人，我们满怀豪情",
+      "voice": "地域认同强烈，全文昂扬",
+      "allowed_changes": [
+        "修病句、称谓，压缩赞辞",
+        "限定无据头衔、排名及因果断言"
+      ],
+      "failure_conditions": [
+        "删尽人物实践，只留浙江风景介绍",
+        "擅自把杭州亚运会未来展望改成回顾"
+      ],
+      "scoring_note": "最易误伤时间与立场；不得更新叙述时点或洗掉地域自豪。"
+    }
+  ],
+  "metadata": {
+    "job": "rest-36",
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 87.95,
+    "system_sha256": "2c85943d84beabe7f1c8a64f793323c3fb90f4110f4f66ac756b1b69b3faf06e",
+    "input_sha256": "9becdc2194a27ef2f98f45a076449ef1f9574741aaec1705a686e9230ed48fbe",
+    "usage": [
+      {
+        "input_tokens": 21172,
+        "cached_input_tokens": 10368,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2452,
+        "reasoning_output_tokens": 65
+      }
+    ],
+    "review_type": "model_annotation",
+    "human_review": false
+  }
+}

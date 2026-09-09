@@ -1,0 +1,304 @@
+{
+  "cases": [
+    {
+      "id": "zh2-coherence-r001",
+      "suitable": true,
+      "reason": "多角度分析间转接机械",
+      "task": "面向公关议题读者梳理情感、传播与治理的衔接；可删重复总结，不补事件证据。",
+      "audience": "公关议题读者",
+      "must_preserve": [
+        {
+          "quote": "也可能让外界对企业的专业性产生质疑",
+          "requirement": "保留共情之外的专业性风险"
+        },
+        {
+          "quote": "但缺乏第三方佐证",
+          "requirement": "保留指控的证据边界"
+        },
+        {
+          "quote": "可能是有意为之的差异化策略",
+          "requirement": "策略动机只能作为推测"
+        }
+      ],
+      "voice_quote": "其打破常规的勇气值得肯定",
+      "voice": "审慎分析，肯定与批评并存",
+      "allowed_changes": [
+        "合并重复权衡，整理角度转换"
+      ],
+      "failure_conditions": [
+        "将对苏景锋的指控写成已证实事实",
+        "将差异化动机写成平台明确计划"
+      ],
+      "scoring_note": "最易误伤证据边界：顺畅叙述不能升级指控。"
+    },
+    {
+      "id": "zh2-coherence-r002",
+      "suitable": true,
+      "reason": "原因层级与结论范围需理顺",
+      "task": "面向Web初学者理顺GET使用原因；可删无来源统计与绝对化比较，不补技术材料。",
+      "audience": "Web初学者",
+      "must_preserve": [
+        {
+          "quote": "在浏览器地址栏中输入URL即可发送GET请求",
+          "requirement": "保留地址栏使用的便捷性"
+        },
+        {
+          "quote": "响应内容可以被浏览器、CDN或代理服务器缓存",
+          "requirement": "保留缓存作为原因，不改成必然缓存"
+        },
+        {
+          "quote": "GET在查询和获取资源时仍是标准实践",
+          "requirement": "保留查询获取这一适用范围"
+        }
+      ],
+      "voice_quote": "另一个关键因素是GET请求的缓存性优势",
+      "voice": "分层解释，偏技术说明",
+      "allowed_changes": [
+        "合并原因与总结",
+        "删无来源占比，限定绝对比较"
+      ],
+      "failure_conditions": [
+        "把GET写成所有操作的最优方法",
+        "新增来源为70%占比背书"
+      ],
+      "scoring_note": "最易误伤条件：理顺比较不等于认可技术绝对断言。"
+    },
+    {
+      "id": "zh2-coherence-r003",
+      "suitable": true,
+      "reason": "历史介绍混入方案评审口吻",
+      "task": "面向历史概览读者统一介绍与评价层次；可删错位套话，改革建议须保留为设想，不补史料。",
+      "audience": "历史概览读者",
+      "must_preserve": [
+        {
+          "quote": "波斯尼亚王国的政治体制主要是封建制度",
+          "requirement": "保留原稿封建体制的描述"
+        },
+        {
+          "quote": "波斯尼亚王国以农业为主导产业",
+          "requirement": "保留农业主导的原稿判断"
+        },
+        {
+          "quote": "建议国王适度削减权力",
+          "requirement": "如保留须明确是作者建议而非史实"
+        }
+      ],
+      "voice_quote": "贵族压迫农民问题突出",
+      "voice": "概述中带批评和改革倾向",
+      "allowed_changes": [
+        "删“同类方案”等错位衔接",
+        "区分繁荣描述与发展不足评价"
+      ],
+      "failure_conditions": [
+        "将削减王权写成已经发生的改革",
+        "编造年代解释工商业前后评价"
+      ],
+      "scoring_note": "最易误伤叙述身份：作者设想不能变成历史事实。"
+    },
+    {
+      "id": "zh2-coherence-r004",
+      "suitable": true,
+      "reason": "政策说明与案例建议混接",
+      "task": "面向招生资讯读者整理政策、作用与建议；可删无支撑案例及夸大，不新增填报权限。",
+      "audience": "招生资讯读者",
+      "must_preserve": [
+        {
+          "quote": "每一批次都设置预投档",
+          "requirement": "保留广东2010年各批次这一范围"
+        },
+        {
+          "quote": "高校可根据生源情况合理调整招生计划",
+          "requirement": "保留高校调整计划的原稿主张"
+        },
+        {
+          "quote": "要结合自身兴趣和未来职业规划",
+          "requirement": "保留考生选择的考虑因素"
+        }
+      ],
+      "voice_quote": "不要盲目跟风调整志愿",
+      "voice": "政策解说中带劝告",
+      "allowed_changes": [
+        "删小周案例及影响深远套话",
+        "分开高校操作与考生建议"
+      ],
+      "failure_conditions": [
+        "将每批预投档缩成仅提前批",
+        "把小周经历写成已核实的普遍流程"
+      ],
+      "scoring_note": "最易误伤主体：高校计划调整不能等同考生改志愿。"
+    },
+    {
+      "id": "zh2-coherence-r005",
+      "suitable": false,
+      "reason": "应用与用途对应清楚，衔接问题不足",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-coherence-r006",
+      "suitable": true,
+      "reason": "结尾公平效率与前文争点脱节",
+      "task": "面向教育新闻读者理顺措施、目的与异议；可删脱节总结，不补采访或政策细节。",
+      "audience": "教育新闻读者",
+      "must_preserve": [
+        {
+          "quote": "取消那些参与考研辅导活动的教授的命题资格",
+          "requirement": "保留参与辅导这一限定及取消对象"
+        },
+        {
+          "quote": "避免出现利益冲突",
+          "requirement": "保留学校说明的政策目的"
+        },
+        {
+          "quote": "参与辅导并不一定会影响命题的公正性",
+          "requirement": "保留异议及不一定的判断强度"
+        }
+      ],
+      "voice_quote": "也有一些教授质疑此举可能过于严苛",
+      "voice": "报道式陈述，呈现不同意见",
+      "allowed_changes": [
+        "将结尾接回公平与措施尺度",
+        "删重复目的及泛化参考意义"
+      ],
+      "failure_conditions": [
+        "写成取消所有教授命题资格",
+        "将教授异议写成学校撤回政策"
+      ],
+      "scoring_note": "最易误伤意见归属：支持、质疑不能并成统一态度。"
+    },
+    {
+      "id": "zh2-coherence-r007",
+      "suitable": true,
+      "reason": "抒情层次反复，环保转折突兀",
+      "task": "面向散文读者梳理敬畏、向往、保护与自勉的推进；可删重复排比，不删情绪转折。",
+      "audience": "散文读者",
+      "must_preserve": [
+        {
+          "quote": "总觉得内心也被激荡得不安分起来",
+          "requirement": "保留第一人称受海浪激荡的感受"
+        },
+        {
+          "quote": "让人感受到无穷的温暖和安慰",
+          "requirement": "保留海洋带来抚慰的一面"
+        },
+        {
+          "quote": "我们需要更加珍惜和爱护海洋",
+          "requirement": "保留由破坏转向保护的呼吁"
+        }
+      ],
+      "voice_quote": "愿我们永远怀揣着对大海的热爱和敬畏",
+      "voice": "热烈抒情，兼有敬畏与自勉",
+      "allowed_changes": [
+        "合并重复奔腾与生命感悟",
+        "整理环保段与结尾的转接"
+      ],
+      "failure_conditions": [
+        "删去污染破坏及保护呼吁",
+        "将第一人称感受全改成科普说明"
+      ],
+      "scoring_note": "最易误伤情绪：去重复不应抹掉敬畏与温暖的并存。"
+    },
+    {
+      "id": "zh2-coherence-r008",
+      "suitable": false,
+      "reason": "逐款比较到偏好结论衔接清楚",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-coherence-r009",
+      "suitable": true,
+      "reason": "美元商品因果与预测层次混杂",
+      "task": "面向财经资讯读者分开行情、解释和预测；可删泛化提醒，不补日期数据或强化因果。",
+      "audience": "财经资讯读者",
+      "must_preserve": [
+        {
+          "quote": "美元指数在经历了连续数日的下跌后迎来反弹",
+          "requirement": "保留先跌后反弹的原稿时序"
+        },
+        {
+          "quote": "大宗商品价格则处于高位整理阶段",
+          "requirement": "保留商品高位整理而非同步上涨"
+        },
+        {
+          "quote": "但长期能否持续走高还需观察更多经济基本面信息",
+          "requirement": "保留美元长期走势的不确定性"
+        }
+      ],
+      "voice_quote": "短期内美元或将延续反弹态势",
+      "voice": "审慎的行情分析与预测",
+      "allowed_changes": [
+        "拆分过长因果句",
+        "合并泛化风险提醒"
+      ],
+      "failure_conditions": [
+        "把美元长期上涨写成确定结论",
+        "将商品高位震荡改为价格下跌"
+      ],
+      "scoring_note": "最易误伤预测强度：衔接清晰不能消除或将与待观察。"
+    },
+    {
+      "id": "zh2-coherence-r010",
+      "suitable": true,
+      "reason": "开启日期被转述成单日要求",
+      "task": "面向江西考生理顺安排、目的与挑战；可删乐观收尾，不补年份期限或服务细节。",
+      "audience": "江西考生",
+      "must_preserve": [
+        {
+          "quote": "于14日开启估分填报提前批本科志愿",
+          "requirement": "保留14日开启及提前批本科范围"
+        },
+        {
+          "quote": "根据自己的预估成绩和兴趣爱好",
+          "requirement": "保留成绩公布前估分与兴趣依据"
+        },
+        {
+          "quote": "考生在填报志愿时可能会存在一定的不确定性",
+          "requirement": "保留估分填报的风险"
+        }
+      ],
+      "voice_quote": "然而，估分填报也存在一定的挑战",
+      "voice": "解释政策并提醒考生",
+      "allowed_changes": [
+        "统一开启日期的表述",
+        "压缩政策意义与乐观结尾"
+      ],
+      "failure_conditions": [
+        "将14日开启写成仅14日可填报",
+        "将估分填报写成成绩公布后填报"
+      ],
+      "scoring_note": "最易误伤时间边界：开启不等于单日截止要求。"
+    }
+  ],
+  "metadata": {
+    "job": "supplement-16",
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 80.3,
+    "system_sha256": "2c85943d84beabe7f1c8a64f793323c3fb90f4110f4f66ac756b1b69b3faf06e",
+    "input_sha256": "d11000bec2c0981b9ae52452034273c6b677f369979c34f22a1d63318534159d",
+    "usage": [
+      {
+        "input_tokens": 20467,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2304,
+        "reasoning_output_tokens": 82
+      }
+    ],
+    "review_type": "model_annotation",
+    "human_review": false
+  }
+}

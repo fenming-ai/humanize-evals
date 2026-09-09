@@ -1,0 +1,315 @@
+{
+  "cases": [
+    {
+      "id": "zh2-missing_material-023",
+      "suitable": true,
+      "reason": "传闻与回应边界需收紧",
+      "task": "面向娱乐读者梳理原稿传闻；可删热议套话及无支撑断言，不补婚讯或来源。",
+      "audience": "娱乐读者",
+      "must_preserve": [
+        {
+          "quote": "黄奕和韩雪的工作室暂未做出正面回应",
+          "requirement": "保留原稿所述暂未回应，不当默认承认"
+        },
+        {
+          "quote": "可能只是为了某一影视作品的宣传营销手段",
+          "requirement": "宣传解释仅为可能，不坐实炒作"
+        },
+        {
+          "quote": "希望黄奕和韩雪能尽快就此事做出明确回应",
+          "requirement": "保留期待澄清的立场"
+        }
+      ],
+      "voice_quote": "双方的回应仍然让人困惑",
+      "voice": "好奇、困惑，期待澄清",
+      "allowed_changes": [
+        "合并热议重复；删减无出处背景断言"
+      ],
+      "failure_conditions": [
+        "将黄奕或韩雪写成已结婚",
+        "补造工作室声明或知情人士身份"
+      ],
+      "scoring_note": "最易把猜测改成婚讯；应保护不确定性而非渲染。"
+    },
+    {
+      "id": "zh2-missing_material-024",
+      "suitable": true,
+      "reason": "代理商断言缺少支撑",
+      "task": "面向支付商户整理说明与建议；可限定代理商及市场优势断言，不补政策或数据。",
+      "audience": "支付商户",
+      "must_preserve": [
+        {
+          "quote": "商家可以直接通过微信支付官方渠道",
+          "requirement": "保留原稿所述官方开通路径"
+        },
+        {
+          "quote": "无需通过第三方代理商",
+          "requirement": "保留非必须经代理的意思"
+        },
+        {
+          "quote": "加强安全防护，保障用户资金安全",
+          "requirement": "保留资金安全改进建议"
+        }
+      ],
+      "voice_quote": "可以从以下几个方面入手",
+      "voice": "说明性、建议式",
+      "allowed_changes": [
+        "删除重复总结；限定无代理商及优势断言"
+      ],
+      "failure_conditions": [
+        "把无需代理改成必须找代理",
+        "新增微信支付费率或开通条件"
+      ],
+      "scoring_note": "最易混淆无需代理与没有代理，二者边界须分开。"
+    },
+    {
+      "id": "zh2-missing_material-025",
+      "suitable": true,
+      "reason": "排名与资源评价缺依据",
+      "task": "面向择校考生整理推荐意见；可删限无依据排名与资源夸赞，不补榜单或招生信息。",
+      "audience": "择校考生",
+      "must_preserve": [
+        {
+          "quote": "对于希望从事医疗卫生事业的学生来说",
+          "requirement": "推荐对象限于有医疗卫生志向者"
+        },
+        {
+          "quote": "个人兴趣爱好、职业规划以及地理位置",
+          "requirement": "保留三类择校考量"
+        },
+        {
+          "quote": "建议考生结合自身情况综合考量后再做决定",
+          "requirement": "保留因人而异的决策提醒"
+        }
+      ],
+      "voice_quote": "哈医大无疑是一个值得推荐的选择",
+      "voice": "偏推荐，但提醒综合权衡",
+      "allowed_changes": [
+        "弱化绝对推荐；删限无依据排名及资源断言"
+      ],
+      "failure_conditions": [
+        "新增哈医大全国名次或合作院校",
+        "删去个人适配提醒，改成一律首选"
+      ],
+      "scoring_note": "最易为去夸大抹掉推荐立场；可降强度，不必反转。"
+    },
+    {
+      "id": "zh2-missing_material-026",
+      "suitable": true,
+      "reason": "历史例证与比较缺支撑",
+      "task": "面向历史爱好者整理科普论述；可删限无依据战争与航海比较，不补史料或例证。",
+      "audience": "历史爱好者",
+      "must_preserve": [
+        {
+          "quote": "历史通常被简化为重要事件和人物",
+          "requirement": "保留重视被忽略细节的主旨"
+        },
+        {
+          "quote": "而是由不同朝代修建的多段墙体组成的",
+          "requirement": "保留原稿长城多朝多段的说明"
+        },
+        {
+          "quote": "关注学术讨论和考古发现",
+          "requirement": "保留通过研究与发现深入学习的建议"
+        }
+      ],
+      "voice_quote": "可以帮助更全面地理解历史的复杂性",
+      "voice": "求知、解释性",
+      "allowed_changes": [
+        "删空泛引导；删限骑兵说法及航海优越比较"
+      ],
+      "failure_conditions": [
+        "补造唐朝骑兵数量或史料出处",
+        "把郑和远超欧洲强化成公认定论"
+      ],
+      "scoring_note": "最易把缺来源等同全篇虚假，应区别主旨和具体断言。"
+    },
+    {
+      "id": "zh2-missing_material-027",
+      "suitable": true,
+      "reason": "研究方法与效果无材料支撑",
+      "task": "面向养殖研究读者整理摘要；可限定无材料支撑的方法与效果，不补实验数据或文献。",
+      "audience": "养殖研究读者",
+      "must_preserve": [
+        {
+          "quote": "菊粉作为益生元在畜禽生产中的应用",
+          "requirement": "保留菊粉、益生元及畜禽应用范围"
+        },
+        {
+          "quote": "促进肠道健康、提高营养物质吸收效率",
+          "requirement": "保留原稿关注的两类潜在作用"
+        },
+        {
+          "quote": "在饲料中添加适量菊粉",
+          "requirement": "保留饲料添加及适量条件，不设剂量"
+        }
+      ],
+      "voice_quote": "对于推动绿色养殖业发展具有重要意义",
+      "voice": "学术摘要式，倾向肯定",
+      "allowed_changes": [
+        "将未支撑研究结论降为探讨；压缩意义套话"
+      ],
+      "failure_conditions": [
+        "编造菊粉实验样本量或效果百分比",
+        "将减少抗生素改成可完全替代"
+      ],
+      "scoring_note": "最易把摘要口吻当实验证据；作用方向可留，证实程度须降。"
+    },
+    {
+      "id": "zh2-missing_material-028",
+      "suitable": true,
+      "reason": "并购归因及类比需限定",
+      "task": "面向网约车用户梳理涨价解释；可删限垄断及同业类比断言，不补价格数据或调查。",
+      "audience": "网约车用户",
+      "must_preserve": [
+        {
+          "quote": "投入了大量的资金进行补贴大战",
+          "requirement": "保留原稿以竞争补贴解释低价的思路"
+        },
+        {
+          "quote": "平台也可能会调整定价策略",
+          "requirement": "成本相关定价解释保持可能性"
+        },
+        {
+          "quote": "防止出现过度垄断现象损害消费者利益",
+          "requirement": "保留监管保护消费者的主张"
+        }
+      ],
+      "voice_quote": "合理的定价策略有助于其持续健康发展",
+      "voice": "兼顾平台持续经营与消费者",
+      "allowed_changes": [
+        "限定涨价因果；删无支撑垄断及并购类比"
+      ],
+      "failure_conditions": [
+        "把收购写成涨价的唯一已证实原因",
+        "新增滴滴涨幅或垄断处罚结果"
+      ],
+      "scoring_note": "最易把因果解释升级为定论，也不能删掉消费者立场。"
+    },
+    {
+      "id": "zh2-missing_material-029",
+      "suitable": true,
+      "reason": "照片解读混入无出处声量",
+      "task": "面向娱乐读者整理温馨合影叙述；可删人气夸赞及无出处评论，不补配文或人物关系。",
+      "audience": "娱乐读者",
+      "must_preserve": [
+        {
+          "quote": "杨采妮在社交媒体上晒出了一张令人羡慕的温馨合影",
+          "requirement": "保留原稿所述分享者及温馨基调"
+        },
+        {
+          "quote": "梁咏琪与丈夫亲密依偎",
+          "requirement": "保留原稿中的夫妻合影对象"
+        },
+        {
+          "quote": "三位艺人的友谊，似乎为娱乐圈增添了一抹亮丽的色彩",
+          "requirement": "保留对三人友谊的正面观感，不坐实细节"
+        }
+      ],
+      "voice_quote": "让人看到了爱情的美好",
+      "voice": "温暖、欣赏友情与爱情",
+      "allowed_changes": [
+        "删圈粉、人气套话及无出处网友引语"
+      ],
+      "failure_conditions": [
+        "把杨采妮改成合影中的妻子",
+        "新增三人聚会地点或逐字配文"
+      ],
+      "scoring_note": "最易在删夸张时抹掉温暖观感；主观欣赏不等于假事实。"
+    },
+    {
+      "id": "zh2-missing_material-030",
+      "suitable": false,
+      "reason": "比赛与球员不明，官方回应无出处",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-missing_material-031",
+      "suitable": true,
+      "reason": "口碑断言与员工猜测混杂",
+      "task": "面向求职读者整理员工体验讨论；可删限无支撑口碑结论，保留正反可能，不补访谈。",
+      "audience": "求职读者",
+      "must_preserve": [
+        {
+          "quote": "他们可能会觉得公司重视员工发展",
+          "requirement": "员工发展评价仅为可能感受"
+        },
+        {
+          "quote": "工作压力过大或薪酬待遇不合理",
+          "requirement": "保留压力与薪酬两类潜在不满"
+        },
+        {
+          "quote": "但也不可避免地存在一些改进的空间",
+          "requirement": "保留仍有改进空间的判断，可弱化必然性"
+        }
+      ],
+      "voice_quote": "也有可能存在一些员工对公司管理或制度不满意的情况",
+      "voice": "推测式，正反兼顾",
+      "allowed_changes": [
+        "删限良好口碑断言；合并尊重关爱套话"
+      ],
+      "failure_conditions": [
+        "把可能不满写成员工已集体投诉",
+        "新增速途网薪资或员工访谈来源"
+      ],
+      "scoring_note": "最易把反复的可能删成确定评价；推测身份必须保留。"
+    },
+    {
+      "id": "zh2-missing_material-032",
+      "suitable": true,
+      "reason": "泛化评价可保留但不可补证",
+      "task": "面向综艺观众整理本期评论；可删热度套话和重复赞语，不补节目桥段或观众数据。",
+      "audience": "综艺观众",
+      "must_preserve": [
+        {
+          "quote": "《中餐厅》第三季第三期",
+          "requirement": "评论对象保持第三季第三期"
+        },
+        {
+          "quote": "互动有时过于刻意，缺乏真实性",
+          "requirement": "保留部分互动刻意的批评及范围"
+        },
+        {
+          "quote": "更多地展现出真实的厨房生活和料理技艺",
+          "requirement": "保留减少煽情、增加真实料理的建议"
+        }
+      ],
+      "voice_quote": "在娱乐性和观赏性方面表现出色",
+      "voice": "总体肯定，兼有真实性批评",
+      "allowed_changes": [
+        "合并美食赞语；删限无支撑热度及受众断言"
+      ],
+      "failure_conditions": [
+        "改成对《中餐厅》全三季的评价",
+        "补造嘉宾争执或具体烹饪桥段"
+      ],
+      "scoring_note": "最易误删无例证的主观批评；应保留立场而非补造情节。"
+    }
+  ],
+  "metadata": {
+    "job": "rest-35",
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 90.56,
+    "system_sha256": "2c85943d84beabe7f1c8a64f793323c3fb90f4110f4f66ac756b1b69b3faf06e",
+    "input_sha256": "660c3b1ebdb62a3968a1861811672d7ecc6d3a4d828bd325cf363222f4fb587b",
+    "usage": [
+      {
+        "input_tokens": 19196,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2562,
+        "reasoning_output_tokens": 105
+      }
+    ],
+    "review_type": "model_annotation",
+    "human_review": false
+  }
+}

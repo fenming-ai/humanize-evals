@@ -1,0 +1,243 @@
+{
+  "cases": [
+    {
+      "id": "zh2-no_edit-q021",
+      "suitable": false,
+      "reason": "“一炮打红”“承认于”用词有误",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-q022",
+      "suitable": false,
+      "reason": "“中队后防”明显误写",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-q023",
+      "suitable": true,
+      "reason": "事件、诉求与引语衔接清楚",
+      "task": "面向新闻读者保留报道，可原样输出；仅整理版式，不省略来源、规模、诉求或引语语义。",
+      "audience": "新闻读者",
+      "must_preserve": [
+        {
+          "quote": "农工商各行业201个团体",
+          "requirement": "保留组织组成、201个团体及东京大会"
+        },
+        {
+          "quote": "这场前所未有的核能灾害可能会被人们逐渐淡忘",
+          "requirement": "保留会长担忧及动员索赔的立场"
+        },
+        {
+          "quote": "农作物无法出货和游客因惧怕辐射急剧减少",
+          "requirement": "保留两类损害及向政府、东电索赔"
+        }
+      ],
+      "voice_quote": "大家要全力以赴让要求得以实现。",
+      "voice": "客观报道中嵌入急切动员",
+      "allowed_changes": [
+        "可原样输出或调整段落"
+      ],
+      "failure_conditions": [
+        "把共同社报道写成编辑核实结论",
+        "删去约400人或将索赔写成获赔"
+      ],
+      "scoring_note": "引语情绪易被当套话删去，但它体现索赔动员。"
+    },
+    {
+      "id": "zh2-no_edit-q024",
+      "suitable": true,
+      "reason": "报道层次清楚，条件区分明确",
+      "task": "面向新闻读者保留罢工报道，可原样输出；不省略各地差异、交通条件与政策数字。",
+      "audience": "新闻读者",
+      "must_preserve": [
+        {
+          "quote": "印度反对派5日发起全国大罢工",
+          "requirement": "保留反对派主体、日期及抗议油价目的"
+        },
+        {
+          "quote": "有些航班因旅客人数过少而被取消",
+          "requirement": "保留孟买德里机场开放及取消原因"
+        },
+        {
+          "quote": "将基准利率提高了25个基点",
+          "requirement": "保留加息幅度及财长不撤回油价措施"
+        }
+      ],
+      "voice_quote": "各省罢工规模有所不同",
+      "voice": "克制的新闻转述",
+      "allowed_changes": [
+        "可原样输出或分段"
+      ],
+      "failure_conditions": [
+        "把工会称60多万辆将停驶写成已停驶",
+        "把孟买德里机场写成关闭"
+      ],
+      "scoring_note": "交通状态与将来时易被压缩丢失，不能合并成全国停摆。"
+    },
+    {
+      "id": "zh2-no_edit-q025",
+      "suitable": false,
+      "reason": "“与单独AFB1处理组的相比”语病明显",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-q026",
+      "suitable": true,
+      "reason": "行情与机构观点边界清晰",
+      "task": "面向行情读者保留短评，可原样输出；不省略市场区分、报价、支撑压力或建议限定词。",
+      "audience": "行情读者",
+      "must_preserve": [
+        {
+          "quote": "纽约金价昨日再上1010美元",
+          "requirement": "保留纽约昨日金价及美元走软背景"
+        },
+        {
+          "quote": "兴业期货认为，昨晚伦金重新回到1015附近",
+          "requirement": "保留机构归属、伦金价位及时间"
+        },
+        {
+          "quote": "可考虑适当参与多单",
+          "requirement": "保留试探建议及上下方两组价位"
+        }
+      ],
+      "voice_quote": "钢材期货有向下突破之势",
+      "voice": "简短、带保留判断的行情口吻",
+      "allowed_changes": [
+        "可原样输出或分段"
+      ],
+      "failure_conditions": [
+        "将有望推动金价写成必然上涨",
+        "调换224.00/224.50与支撑价位"
+      ],
+      "scoring_note": "机构建议易被改成直接荐买，应保留归属和不确定性。"
+    },
+    {
+      "id": "zh2-no_edit-q027",
+      "suitable": false,
+      "reason": "功能名重复，营销套话明显",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-q028",
+      "suitable": false,
+      "reason": "“签署了委托政府律师”搭配残缺",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-q029",
+      "suitable": true,
+      "reason": "分类明确，行情数据陈述清楚",
+      "task": "面向基金行情读者保留盘面快报，可原样输出；全部基金名称、指数、价格和跌幅均不省略。",
+      "audience": "基金行情读者",
+      "must_preserve": [
+        {
+          "quote": "收盘于2710.34点，跌3.12%",
+          "requirement": "保留沪深基指各自开收盘点位及跌幅"
+        },
+        {
+          "quote": "开盘交易的32只封闭式基金，全线下跌",
+          "requirement": "保留32只范围及封基、LOF跌幅排名"
+        },
+        {
+          "quote": "ETF基金，全线下跌",
+          "requirement": "保留五只ETF各自名称、跌幅和报价"
+        }
+      ],
+      "voice_quote": "今日全天维持弱市震荡态势。",
+      "voice": "简洁客观的行情播报",
+      "allowed_changes": [
+        "可原样输出或按基金类别分段"
+      ],
+      "failure_conditions": [
+        "把收盘跌幅改成相对开盘计算的跌幅",
+        "混淆封基、LOF、ETF排名或数值"
+      ],
+      "scoring_note": "重复的全线下跌承担分类信息，不应仅因重复删去。"
+    },
+    {
+      "id": "zh2-no_edit-q030",
+      "suitable": true,
+      "reason": "研究方法、比较结果与结论清楚",
+      "task": "面向微生物研究读者保留摘要，可原样输出；不省略方法、比较对象、显著性及结论边界。",
+      "audience": "微生物研究读者",
+      "must_preserve": [
+        {
+          "quote": "小鼠中位生存时间和生存率显著高于野生菌株组",
+          "requirement": "保留敲除组生存改善、血菌量降低"
+        },
+        {
+          "quote": "粘附能力无明显差异，但其侵袭能力显著受损",
+          "requirement": "保留A549粘附无差异与侵袭受损对照"
+        },
+        {
+          "quote": "对全血杀菌作用的抵抗能力亦较野生菌显著减弱",
+          "requirement": "保留抗杀菌减弱及炎性因子降低"
+        }
+      ],
+      "voice_quote": "研究spd1672基因在肺炎链球菌感染过程中的作用。",
+      "voice": "克制严谨的研究摘要",
+      "allowed_changes": [
+        "可原样输出或按方法结果分段"
+      ],
+      "failure_conditions": [
+        "写成敲除后A549粘附能力显著降低",
+        "将小鼠及细胞结果推广成人体疗效"
+      ],
+      "scoring_note": "阴性结果易被概括吞没，粘附与侵袭必须区分。"
+    }
+  ],
+  "metadata": {
+    "job": "noedit_quality-02",
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 75.5,
+    "system_sha256": "2c85943d84beabe7f1c8a64f793323c3fb90f4110f4f66ac756b1b69b3faf06e",
+    "input_sha256": "90d2304ee40059c355aa74a16b431fe0d739e7721932d2cfac552d998f2fedab",
+    "usage": [
+      {
+        "input_tokens": 18677,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1851,
+        "reasoning_output_tokens": 172
+      }
+    ],
+    "review_type": "model_annotation",
+    "human_review": false
+  }
+}

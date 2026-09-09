@@ -1,0 +1,343 @@
+{
+  "cases": [
+    {
+      "id": "zh2-punctuation-021-p2",
+      "suitable": true,
+      "reason": "引语与并列层次可保护",
+      "task": "面向散文读者只审查整理标点；正文词句、事实与声音不改写，不省略内容。",
+      "audience": "散文读者",
+      "must_preserve": [
+        {
+          "quote": "她说：\"看到它们健康快乐，我就开心。\"",
+          "requirement": "冒号引出原话，引号界定完整发言"
+        },
+        {
+          "quote": "给它们搭窝、喂食、治病。",
+          "requirement": "顿号区分三项照料行动"
+        },
+        {
+          "quote": "他们或许没有翅膀，却有着最温暖的心灵；",
+          "requirement": "保留转折停顿及分号并列层次"
+        }
+      ],
+      "voice_quote": "因为天使不在远方，就在我们身边",
+      "voice": "温暖赞颂，亲切劝勉",
+      "allowed_changes": [
+        "可统一直引号为中文引号",
+        "其余正确标点可原样保留"
+      ],
+      "failure_conditions": [
+        "机械删去分号，混淆奉献事例层次",
+        "删改张阿姨照料流浪猫的正文"
+      ],
+      "scoring_note": "引语最易误伤：统一字形不能改变原话边界。"
+    },
+    {
+      "id": "zh2-punctuation-022-p2",
+      "suitable": true,
+      "reason": "括注、负号与引号各有功能",
+      "task": "面向期权知识读者只审查符号标点；正文词句、事实与声音不改写，不删内容。",
+      "audience": "期权知识读者",
+      "must_preserve": [
+        {
+          "quote": "其Delta值接近-1",
+          "requirement": "负号表示负值，不是可删连接号"
+        },
+        {
+          "quote": "市场的波动性（Vega）",
+          "requirement": "括号保留术语对应解释"
+        },
+        {
+          "quote": "其内在价值的“衰减”方式不同。",
+          "requirement": "引号标示衰减的特殊用法"
+        }
+      ],
+      "voice_quote": "这与我们普遍认为的买方期权theta为负的直觉相反。",
+      "voice": "解释性、强调反直觉",
+      "allowed_changes": [
+        "仅整理确有必要的标点",
+        "无明确错误可原样返回"
+      ],
+      "failure_conditions": [
+        "机械删除负号或括号，损坏数值及括注",
+        "擅改正theta成因或补充金融纠错"
+      ],
+      "scoring_note": "负号容易被当标点清理；本例不验金融观点真伪。"
+    },
+    {
+      "id": "zh2-punctuation-023-p2",
+      "suitable": true,
+      "reason": "引号和句内停顿承担明确功能",
+      "task": "面向情感文字读者只审查整理标点；正文词句、事实与声音不改写，不省略例句。",
+      "audience": "情感文字读者",
+      "must_preserve": [
+        {
+          "quote": "比如“爸爸，我好想你”",
+          "requirement": "引号界定例句，逗号保留呼告停顿"
+        },
+        {
+          "quote": "“她离开了，但记忆永存”",
+          "requirement": "引号保留例句边界，逗号承接转折"
+        },
+        {
+          "quote": "勇气与脆弱，让读者在共鸣中",
+          "requirement": "逗号区分情感表述与读者反应"
+        }
+      ],
+      "voice_quote": "让每个人在阅读中找到自己的影子",
+      "voice": "温和分析情感共鸣",
+      "allowed_changes": [
+        "仅调整确需整理的标点",
+        "正确引号和停顿可原样返回"
+      ],
+      "failure_conditions": [
+        "机械删掉例句引号，混同举例与论述",
+        "删改亲情、爱情或怀旧例句正文"
+      ],
+      "scoring_note": "例句引号最易被视为冗余，实则区分引用与分析。"
+    },
+    {
+      "id": "zh2-punctuation-024-p2",
+      "suitable": true,
+      "reason": "书名号与分号应保留",
+      "task": "面向文学读者只审查整理标点；正文词句、事实与声音不改写，不删文学创作限定。",
+      "audience": "文学读者",
+      "must_preserve": [
+        {
+          "quote": "《惜别》是日本作家太宰治",
+          "requirement": "书名号标示小说名称"
+        },
+        {
+          "quote": "也有着对个人生活琐事的关注；",
+          "requirement": "分号划分两组既有也有的描写"
+        },
+        {
+          "quote": "这毕竟是文学创作而非历史传记",
+          "requirement": "保留文学创作与历史传记的区别"
+        }
+      ],
+      "voice_quote": "最好能够结合其他资料进行综合考量",
+      "voice": "介绍中带审慎提醒",
+      "allowed_changes": [
+        "仅整理确有必要的标点",
+        "无明确错误可全文原样返回"
+      ],
+      "failure_conditions": [
+        "机械删书名号或分号，损坏作品标识与层次",
+        "改写鲁迅形象或删除非历史传记限定"
+      ],
+      "scoring_note": "书名号是作品标识，不应因追求简洁而去掉。"
+    },
+    {
+      "id": "zh2-punctuation-025-p2",
+      "suitable": true,
+      "reason": "引语、活动名与列举可保护",
+      "task": "面向考生家长只审查整理标点；正文词句、事实与声音不改写，不删材料或补核实。",
+      "audience": "考生与家长",
+      "must_preserve": [
+        {
+          "quote": "主任表示：“我们希望通过这种方式，",
+          "requirement": "冒号引出发言，引号界定原话"
+        },
+        {
+          "quote": "定期举办“技能节”，",
+          "requirement": "引号标示活动名称而非发言"
+        },
+        {
+          "quote": "推行分层教学、走班制等，",
+          "requirement": "顿号区分教学模式的列举项"
+        }
+      ],
+      "voice_quote": "相关教育专家提醒考生和家长保持理性。",
+      "voice": "资讯说明兼报考提醒",
+      "allowed_changes": [
+        "仅作有依据的局部标点整理",
+        "正确标点允许原样保留"
+      ],
+      "failure_conditions": [
+        "机械统一删引号，混淆主任发言与活动名",
+        "改动8月6日、学校事例或就业率表述"
+      ],
+      "scoring_note": "引号用途不同；来源未核实不授权改正文。"
+    },
+    {
+      "id": "zh2-punctuation-026-p2",
+      "suitable": true,
+      "reason": "书名号与时间停顿可作控制",
+      "task": "面向电影资讯读者只审查整理标点；正文词句、事实与声音不改写，不省略消息。",
+      "audience": "电影资讯读者",
+      "must_preserve": [
+        {
+          "quote": "电影《无价之宝》发布了首款预告片。",
+          "requirement": "书名号界定电影名，句号收束消息"
+        },
+        {
+          "quote": "目前，《无价之宝》已经进入后期制作阶段，",
+          "requirement": "逗号保留时间提示与后续分句层次"
+        },
+        {
+          "quote": "预计将在今年内与广大观众见面。",
+          "requirement": "保留上映时间的预计口吻"
+        }
+      ],
+      "voice_quote": "非常感谢大家的支持",
+      "voice": "平实资讯，积极反馈",
+      "allowed_changes": [
+        "仅整理确有必要的标点",
+        "无需修复可完整原样返回"
+      ],
+      "failure_conditions": [
+        "机械去掉书名号，破坏电影名称标识",
+        "将预计今年内改为确定上映或补年份"
+      ],
+      "scoring_note": "无明显标点错误仍有效，不能为改而改。"
+    },
+    {
+      "id": "zh2-punctuation-027-p2",
+      "suitable": true,
+      "reason": "作品名、引语和特殊称呼并存",
+      "task": "面向娱乐资讯读者只审查整理标点；正文词句、事实与声音不改写，不删引述或补来源。",
+      "audience": "娱乐资讯读者",
+      "must_preserve": [
+        {
+          "quote": "《爱的变奏曲》《野菊花》",
+          "requirement": "相邻书名号分别界定两部作品"
+        },
+        {
+          "quote": "李恩珠表示：“崔真实的离世",
+          "requirement": "冒号引出评论，引号保留发言边界"
+        },
+        {
+          "quote": "被不少网友形容为“迟到的告白”。",
+          "requirement": "引号标示网友的比喻性称呼"
+        }
+      ],
+      "voice_quote": "此类回忆录需在情感表达与事实准确性之间取得平衡",
+      "voice": "热议叙述兼审慎提醒",
+      "allowed_changes": [
+        "仅作必要的局部符号整理",
+        "正确书名号与引号可原样保留"
+      ],
+      "failure_conditions": [
+        "机械删换书名号和引号，混淆作品与评论",
+        "改动崔真实家属出书内容或补发行日期"
+      ],
+      "scoring_note": "各类引号不可一刀切；保留引述不等于核实来源。"
+    },
+    {
+      "id": "zh2-punctuation-028-p2",
+      "suitable": true,
+      "reason": "引语、解释破折号与分号有功能",
+      "task": "面向成长故事读者只审查整理标点；正文词句、事实与声音不改写，不删叙事或感悟。",
+      "audience": "成长故事读者",
+      "must_preserve": [
+        {
+          "quote": "古语所言：“守得云开见月明。”",
+          "requirement": "冒号引出完整引语，保留引语边界"
+        },
+        {
+          "quote": "更是一种人生哲理——只有经历过黑暗的人，",
+          "requirement": "破折号引出哲理的解释"
+        },
+        {
+          "quote": "才能更加珍惜光明；只有勇敢面对挫折的人，",
+          "requirement": "分号区分两项并列感悟"
+        }
+      ],
+      "voice_quote": "所有的汗水与泪水都化作了无比甜蜜的笑容",
+      "voice": "真挚励志，回忆式抒情",
+      "allowed_changes": [
+        "仅整理确需调整的标点",
+        "正确功能符号可原样保留"
+      ],
+      "failure_conditions": [
+        "机械把破折号和分号全换逗号，削弱层次",
+        "删改妈妈鼓励原话或音乐节第一名"
+      ],
+      "scoring_note": "破折号承担解释而非装饰，不能按出现次数删。"
+    },
+    {
+      "id": "zh2-punctuation-029-p2",
+      "suitable": true,
+      "reason": "论断引号、比喻引号与顿号可保护",
+      "task": "面向体育评论读者只审查整理标点；正文词句、事实与声音不改写，不删赛事叙述。",
+      "audience": "体育评论读者",
+      "must_preserve": [
+        {
+          "quote": "“八一中生代当废新生代当立 清除鸡肋方能东山再起”",
+          "requirement": "引号界定被评述的完整论断"
+        },
+        {
+          "quote": "只有清除那些阻碍发展的“鸡肋”，",
+          "requirement": "引号标示鸡肋的比喻用法"
+        },
+        {
+          "quote": "勇于拼搏、敢于挑战的精神。",
+          "requirement": "顿号区分两项并列精神品质"
+        }
+      ],
+      "voice_quote": "他们在赛场上的坚持和拼搏同样值得尊敬",
+      "voice": "激昂评论，兼顾老将尊严",
+      "allowed_changes": [
+        "仅作必要的局部标点整理",
+        "保留正确引号及并列停顿"
+      ],
+      "failure_conditions": [
+        "机械删除鸡肋引号，抹去比喻标记",
+        "改写八一表现或擅自统一赛事项目"
+      ],
+      "scoring_note": "赛事叙述疑点不属标点授权，不能借整理符号纠文。"
+    },
+    {
+      "id": "zh2-punctuation-030-p2",
+      "suitable": true,
+      "reason": "概念引号与列举顿号有明确用途",
+      "task": "面向历史文化读者只审查整理标点；正文词句、事实与声音不改写，不删立场或限定。",
+      "audience": "历史文化读者",
+      "must_preserve": [
+        {
+          "quote": "并没有现代意义上的“民族”概念，",
+          "requirement": "引号标示讨论中的现代概念"
+        },
+        {
+          "quote": "试图将黄帝“归属于”某个特定民族，",
+          "requirement": "引号保留对归属说法的审视意味"
+        },
+        {
+          "quote": "黄河流域、长江流域以及其他地区",
+          "requirement": "顿号区分地域列举，保留其他地区"
+        }
+      ],
+      "voice_quote": "尊重历史的复杂性，避免将历史人物简单化、标签化。",
+      "voice": "理性包容，反对简单归属",
+      "allowed_changes": [
+        "仅整理确有必要的标点",
+        "正确引号与顿号可原样保留"
+      ],
+      "failure_conditions": [
+        "机械删归属于的引号，削弱审视意味",
+        "把黄帝可能代表时代改成确定结论"
+      ],
+      "scoring_note": "引号承载概念距离，去除可能使审慎论述变成断言。"
+    }
+  ],
+  "metadata": {
+    "job": "punctuation_v2-02",
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 105.01,
+    "system_sha256": "3ae39d4cdd1a190d9634734fff98af6538ba69e53c44419197138e6205d7858a",
+    "input_sha256": "a6f013f69a9b9691130eed89c3151f67e754e3be8a95ff5ae2d9e1e48d401a47",
+    "usage": [
+      {
+        "input_tokens": 20988,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2852,
+        "reasoning_output_tokens": 38
+      }
+    ],
+    "review_type": "model_annotation",
+    "human_review": false
+  }
+}

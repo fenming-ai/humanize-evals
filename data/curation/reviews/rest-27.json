@@ -1,0 +1,62 @@
+{
+  "cases": [
+    {
+      "id": "zh2-punctuation-015",
+      "approve": true,
+      "reason": "引文准确，赠巾经过与未尽话语约束合理。"
+    },
+    {
+      "id": "zh2-punctuation-016",
+      "approve": true,
+      "reason": "保留研究归因及验证限制，未强制背书结论。"
+    },
+    {
+      "id": "zh2-punctuation-018",
+      "approve": true,
+      "reason": "判断因素与建议分层清楚，条件性约束忠实。"
+    },
+    {
+      "id": "zh2-punctuation-019",
+      "approve": true,
+      "reason": "术语引文准确，综述范围与疗效边界合理。"
+    },
+    {
+      "id": "zh2-punctuation-020",
+      "approve": true,
+      "reason": "原则对应及数量下限准确，安全提醒约束合理。"
+    },
+    {
+      "id": "zh2-punctuation-021",
+      "approve": true,
+      "reason": "三层主题与事例对应准确，标点测试适当。"
+    },
+    {
+      "id": "zh2-punctuation-023",
+      "approve": true,
+      "reason": "例句身份、情感类别及情境限制均忠实。"
+    },
+    {
+      "id": "zh2-punctuation-024",
+      "approve": true,
+      "reason": "小说定位与人物对照准确，文学史实边界合理。"
+    }
+  ],
+  "metadata": {
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 21.39,
+    "input_sha256": "24b7006c4cb4cc0ba56d22fd2a3c5662d9cf52edcc88763dc0e0ab7589cd3ff2",
+    "system_sha256": "0c41b551a96d085bbc3597749915f67732aa702736eddffdb625f85696aded81",
+    "usage": [
+      {
+        "input_tokens": 21374,
+        "cached_input_tokens": 9856,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 299,
+        "reasoning_output_tokens": 29
+      }
+    ],
+    "review_type": "independent_context_model_review",
+    "human_review": false
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "cases": [
+    {
+      "id": "zh2-no_edit-qx015",
+      "approve": true,
+      "reason": "原文无明显编辑问题；合同忠实保留疑似、确认及推测边界。"
+    },
+    {
+      "id": "zh2-no_edit-qx019",
+      "approve": true,
+      "reason": "原文完整连贯；引文准确，金额、交易主体及两股行情边界合理。"
+    }
+  ],
+  "metadata": {
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 20.9,
+    "input_sha256": "dcdeb518322c5519e94900187038b734d6976a3d4f06bddd8a64965efe4d7fe7",
+    "system_sha256": "0c41b551a96d085bbc3597749915f67732aa702736eddffdb625f85696aded81",
+    "usage": [
+      {
+        "input_tokens": 16660,
+        "cached_input_tokens": 9856,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 176,
+        "reasoning_output_tokens": 81
+      }
+    ],
+    "review_type": "independent_context_model_review",
+    "human_review": false
+  }
+}

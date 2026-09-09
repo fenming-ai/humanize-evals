@@ -1,0 +1,207 @@
+{
+  "cases": [
+    {
+      "id": "zh2-no_edit-r041",
+      "suitable": true,
+      "reason": "交易信息完整，叙述清楚",
+      "task": "面向财经读者作强保留验收，可原样输出；不得省略交易条件、财务归属、主体及数字。",
+      "audience": "财经读者",
+      "must_preserve": [
+        {
+          "quote": "12%股权的申请已获中国证监会核准",
+          "requirement": "保留转让比例及获准状态"
+        },
+        {
+          "quote": "光大证券持有光大保德信55%的股份",
+          "requirement": "保留转让后双方55%与45%持股"
+        },
+        {
+          "quote": "一次性转让收益并不直接进入利润表",
+          "requirement": "保留分析师归因及净利润负面影响"
+        }
+      ],
+      "voice_quote": "但总体影响相对有限",
+      "voice": "克制的财经报道语气",
+      "allowed_changes": [
+        "允许原样输出或统一中英文括号"
+      ],
+      "failure_conditions": [
+        "将3.3亿元转让价写成收益",
+        "漏掉2011年净利润-1.91%影响"
+      ],
+      "scoring_note": "财务边界最易误伤，转让价款不等于利润。"
+    },
+    {
+      "id": "zh2-no_edit-r042",
+      "suitable": true,
+      "reason": "口语论述清楚，分项理由完整",
+      "task": "面向柯南讨论区读者强保留原帖，可原样输出；不得省略人物评价与三项党争理由。",
+      "audience": "柯南讨论区读者",
+      "must_preserve": [
+        {
+          "quote": "本身有钱性格豪爽，完全不摆架子",
+          "requirement": "保留对园子性格与待人的赞赏"
+        },
+        {
+          "quote": "但从来也没碍着别的cp",
+          "requirement": "保留作者认为园子不招党争的理由"
+        },
+        {
+          "quote": "一个搞笑的角色只要不过火大家都不会讨厌",
+          "requirement": "保留搞笑角色受容有不过火的条件"
+        }
+      ],
+      "voice_quote": "这样的朋友哪里找！",
+      "voice": "热情护角色的圈内口语",
+      "allowed_changes": [
+        "允许原样输出或将三项理由分行"
+      ],
+      "failure_conditions": [
+        "删掉京极真人气与官配争议两项理由",
+        "把一般没人讨厌改成所有人都喜欢"
+      ],
+      "scoring_note": "圈内口语易被过度规范，抹去护角色的热情。"
+    },
+    {
+      "id": "zh2-no_edit-r043",
+      "suitable": false,
+      "reason": "频道推广与免责声明需分离整理",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-r044",
+      "suitable": false,
+      "reason": "重复逗号与断裂的技术名影响阅读",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-r045",
+      "suitable": true,
+      "reason": "分项建议清楚，口语无需强改",
+      "task": "面向求职提问者强保留建议，可原样输出；不得省略择业条件、上下限比较与自主选择提醒。",
+      "audience": "求职提问者",
+      "must_preserve": [
+        {
+          "quote": "家里有资源可以去中信营业部",
+          "requirement": "保留资源条件及无资源时的建议"
+        },
+        {
+          "quote": "中后期跑赢80％的人，前期会比较尴尬",
+          "requirement": "作为作者判断保留比例与阶段区别"
+        },
+        {
+          "quote": "同样建议多问从业人员",
+          "requirement": "保留咨询从业者及相信自己的建议"
+        }
+      ],
+      "voice_quote": "不过不觉得亏吗？",
+      "voice": "直白劝告，带反问和鼓励",
+      "allowed_changes": [
+        "允许原样输出或将五项逐行排列"
+      ],
+      "failure_conditions": [
+        "删掉能力强者春招可选更好的建议",
+        "把体制内中后期优势写成全程优势"
+      ],
+      "scoring_note": "80％是原作者判断，保留不等于已核实。"
+    },
+    {
+      "id": "zh2-no_edit-r046",
+      "suitable": false,
+      "reason": "球队称谓不一且比分后的句号误用",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-r047",
+      "suitable": false,
+      "reason": "开头四秒报仇无下文，姓名标点有误",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-r048",
+      "suitable": false,
+      "reason": "解说评价转入假赛回忆，长句需梳理",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-r049",
+      "suitable": false,
+      "reason": "存在重复词、断句及明显残句",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-r050",
+      "suitable": false,
+      "reason": "操作步骤与客服经历混杂，说明重复",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    }
+  ],
+  "metadata": {
+    "job": "supplement-05",
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 51.15,
+    "system_sha256": "2c85943d84beabe7f1c8a64f793323c3fb90f4110f4f66ac756b1b69b3faf06e",
+    "input_sha256": "c6398df58a2f70eafe5951c9fb340b6a1685ac4cc615d8ae71632827f17da21c",
+    "usage": [
+      {
+        "input_tokens": 18529,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1369,
+        "reasoning_output_tokens": 170
+      }
+    ],
+    "review_type": "model_annotation",
+    "human_review": false
+  }
+}

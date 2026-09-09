@@ -1,0 +1,207 @@
+{
+  "cases": [
+    {
+      "id": "zh2-no_edit-063",
+      "suitable": false,
+      "reason": "重复赘述明显，末句主体含混",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-064",
+      "suitable": false,
+      "reason": "杨千姓名出现问号乱码",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-065",
+      "suitable": true,
+      "reason": "口语乐评清楚，强调有表达功能",
+      "task": "面向乐迷保留这段乐评，可原样输出；仅微调排版，不删音乐评价或批评立场。",
+      "audience": "乐迷",
+      "must_preserve": [
+        {
+          "quote": "專輯企劃的超級高手，定位準確到瘋",
+          "requirement": "保留对企划与定位能力的强烈赞赏"
+        },
+        {
+          "quote": "寫的旋律朗朗上口，寫的歌詞平實近人",
+          "requirement": "保留旋律易记、歌词亲近且技巧深藏"
+        },
+        {
+          "quote": "玩真情只是他的能力之一而已",
+          "requirement": "保留反对仅以情感感悟评价李宗盛"
+        }
+      ],
+      "voice_quote": "聊這些真的都是在低估李宗盛，真的。",
+      "voice": "直率、激赏，带不耐烦的辩驳",
+      "allowed_changes": [
+        "可完整原样输出或微调段落"
+      ],
+      "failure_conditions": [
+        "删掉对情绪化乐评的批评",
+        "把李宗盛的长处缩减为真情表达"
+      ],
+      "scoring_note": "重复与夸张承担辩驳力度，易被误删成平淡介绍。"
+    },
+    {
+      "id": "zh2-no_edit-066",
+      "suitable": false,
+      "reason": "含欣宜姓名后的网页残留标记",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-067",
+      "suitable": false,
+      "reason": "链接占位残留，课程介绍衔接缺损",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-068",
+      "suitable": true,
+      "reason": "推测边界明确，个人立场清楚",
+      "task": "面向电商话题读者保留评论，可原样输出；仅整理排版，不删推测限定和个人经历。",
+      "audience": "电商话题读者",
+      "must_preserve": [
+        {
+          "quote": "猜想大概是因为当当自有流量需要一个变现的通道",
+          "requirement": "保留流量变现动机仅为猜想"
+        },
+        {
+          "quote": "应该是收入更高、利润率也更高的一种方式",
+          "requirement": "保留收益比较及后续变现推测，非定论"
+        },
+        {
+          "quote": "因为我从来没在当当买过东西",
+          "requirement": "保留未购买故无忠诚度变化发言权"
+        }
+      ],
+      "voice_quote": "至于说用户忠诚度的问题，我觉得这是见仁见智的问题",
+      "voice": "审慎猜测、口语化自我限定",
+      "allowed_changes": [
+        "可原样输出，或微调分段与句末标点"
+      ],
+      "failure_conditions": [
+        "写成当当已证实广告利润更高",
+        "把作者写成忠诚度下降的当当用户"
+      ],
+      "scoring_note": "推测词不是空话，删去会把商业猜想强化为事实。"
+    },
+    {
+      "id": "zh2-no_edit-069",
+      "suitable": false,
+      "reason": "陈茵姓名多次出现问号乱码",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-070",
+      "suitable": false,
+      "reason": "末句搭配与衔接明显不顺",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-071",
+      "suitable": false,
+      "reason": "恢谐为明显错字，不宜强保留",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-072",
+      "suitable": true,
+      "reason": "摘要目的、方法、结论衔接清楚",
+      "task": "面向评价研究人员保留摘要，可原样输出；仅微调排版，不省略研究范围、方法和结论。",
+      "audience": "评价研究人员",
+      "must_preserve": [
+        {
+          "quote": "主观赋权法、客观赋权法以及主客观综合集成赋权法",
+          "requirement": "保留三类赋权方法的梳理范围"
+        },
+        {
+          "quote": "具体应用案例进行深入调研，分析总结其优缺点以及适用范围",
+          "requirement": "保留原理、案例调研及优缺点适用性分析"
+        },
+        {
+          "quote": "迄今还没有一种完全通用和普适的指标权重确定方法",
+          "requirement": "保留无通用方法及按评估对象选法的结论"
+        }
+      ],
+      "voice_quote": "要依据评估对象的特点合理选择赋权方法",
+      "voice": "客观审慎的学术摘要语气",
+      "allowed_changes": [
+        "可完整原样输出或微调分段"
+      ],
+      "failure_conditions": [
+        "漏掉主客观综合集成赋权法",
+        "改成某种赋权方法可普遍适用"
+      ],
+      "scoring_note": "术语重复服务于对象明确，不宜为去套话删研究边界。"
+    }
+  ],
+  "metadata": {
+    "job": "rest-11",
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 65.83,
+    "system_sha256": "2c85943d84beabe7f1c8a64f793323c3fb90f4110f4f66ac756b1b69b3faf06e",
+    "input_sha256": "6cf98085e6a991c14b410783c5de9a2c6cf644973411dd3d90c0678c3c8adec2",
+    "usage": [
+      {
+        "input_tokens": 17900,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1514,
+        "reasoning_output_tokens": 238
+      }
+    ],
+    "review_type": "model_annotation",
+    "human_review": false
+  }
+}

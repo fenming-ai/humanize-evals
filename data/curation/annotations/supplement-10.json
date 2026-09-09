@@ -1,0 +1,207 @@
+{
+  "cases": [
+    {
+      "id": "zh2-no_edit-r091",
+      "suitable": false,
+      "reason": "首两句重复报道同一爆炸及伤亡",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-r092",
+      "suitable": false,
+      "reason": "有错字、冗长复述及因果跳跃",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-r093",
+      "suitable": false,
+      "reason": "成语错字、语病及附言衔接突兀",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-r094",
+      "suitable": false,
+      "reason": "多处长串句缺断句且存在语病",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-r095",
+      "suitable": true,
+      "reason": "两校招生信息清楚，适合强保留",
+      "task": "面向考生家长保留招生简讯；可原样输出，不省略两校计划、咨询安排及数字归属。",
+      "audience": "考生及家长",
+      "must_preserve": [
+        {
+          "quote": "该校今年拟面向全国招生4400人",
+          "requirement": "保留同济全国及上海各批次人数"
+        },
+        {
+          "quote": "4月30日上午9时至下午3时",
+          "requirement": "保留四平路校区、上海考生及咨询时间"
+        },
+        {
+          "quote": "招收学生3355人，其中本科3030人",
+          "requirement": "保留海洋大学专业数、招生范围及分项人数"
+        }
+      ],
+      "voice_quote": "昨天，同济大学对外公布2011年本科招生计划",
+      "voice": "客观紧凑的招生简讯",
+      "allowed_changes": [
+        "允许全文原样；仅微调分段标点"
+      ],
+      "failure_conditions": [
+        "把同济4400人写成上海招生数",
+        "删改海洋大学上海1465人及本科1320人"
+      ],
+      "scoring_note": "数字归属最易误伤：两校、多批次及地域口径交错。"
+    },
+    {
+      "id": "zh2-no_edit-r096",
+      "suitable": false,
+      "reason": "夹杂网页操作文字且有残缺表述",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-r097",
+      "suitable": true,
+      "reason": "赛前背景与即时战况均清楚",
+      "task": "面向篮球读者保留现场快讯；允许原样，不省略日期、战绩、看点及攻防过程，不补赛果。",
+      "audience": "篮球赛事读者",
+      "must_preserve": [
+        {
+          "quote": "新泽西篮网(11胜8负)主场迎战纽约尼克斯(9胜12负)",
+          "requirement": "保留双方战绩及篮网主场身份"
+        },
+        {
+          "quote": "哈里斯被吹进攻犯规，他个人第4次犯规了",
+          "requirement": "保留挡拆后撞倒哈灵顿及第四犯"
+        },
+        {
+          "quote": "阿联防守谁就传给谁",
+          "requirement": "保留尼克斯针对阿联追分并反超"
+        }
+      ],
+      "voice_quote": "篮网能否迎来三连胜，阿联能否继续上佳的表现",
+      "voice": "带悬念的即时体育播报",
+      "allowed_changes": [
+        "允许原样；可微调标点分段"
+      ],
+      "failure_conditions": [
+        "将篮网三连胜写成已实现",
+        "把哈里斯进攻犯规改成哈灵顿犯规"
+      ],
+      "scoring_note": "时间状态易误伤：赛前悬念与当场进程并存，不能补结局。"
+    },
+    {
+      "id": "zh2-no_edit-r098",
+      "suitable": true,
+      "reason": "机构归属明确，预测限定完整",
+      "task": "面向财经读者保留历史策略报道；可原样，不省略机构归属、数值与预测限定，不改成现时建议。",
+      "audience": "财经读者",
+      "must_preserve": [
+        {
+          "quote": "都建议，可以逐步提高股票资产配置",
+          "requirement": "保留两家建议及关注政策、刺激方案"
+        },
+        {
+          "quote": "因为货币政策时滞在6至12个月",
+          "requirement": "保留友邦华泰各项2009年预期及限定"
+        },
+        {
+          "quote": "4万亿投资计划将对未来两年的经济增长",
+          "requirement": "保留国泰对经济压力及财政推动的预期"
+        }
+      ],
+      "voice_quote": "转变的时点乐观估计是2009年下半年",
+      "voice": "审慎归因的策略报告转述",
+      "allowed_changes": [
+        "允许全文原样；仅微调分段标点"
+      ],
+      "failure_conditions": [
+        "把2009年下半年转变写成已证实",
+        "把友邦华泰流动性预期归给国泰"
+      ],
+      "scoring_note": "预测语气最易误伤：压缩可能抹掉预期、可能和乐观估计。"
+    },
+    {
+      "id": "zh2-no_edit-r099",
+      "suitable": false,
+      "reason": "咨询通知混入频道导航推广文字",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-r100",
+      "suitable": false,
+      "reason": "游戏列举与后句之间缺断句",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    }
+  ],
+  "metadata": {
+    "job": "supplement-10",
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 59.86,
+    "system_sha256": "2c85943d84beabe7f1c8a64f793323c3fb90f4110f4f66ac756b1b69b3faf06e",
+    "input_sha256": "0da131848b161375b372b857ab559731580037f8ba8025a3f3c2aece89349b88",
+    "usage": [
+      {
+        "input_tokens": 18467,
+        "cached_input_tokens": 10368,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1493,
+        "reasoning_output_tokens": 226
+      }
+    ],
+    "review_type": "model_annotation",
+    "human_review": false
+  }
+}

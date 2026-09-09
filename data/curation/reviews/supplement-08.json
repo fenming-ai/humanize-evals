@@ -1,0 +1,37 @@
+{
+  "cases": [
+    {
+      "id": "zh2-no_edit-r076",
+      "approve": true,
+      "reason": "原文完整通顺，合同忠实保留事故信息、来源与未知边界。"
+    },
+    {
+      "id": "zh2-no_edit-r078",
+      "approve": true,
+      "reason": "口语表达完整，合同保留戏谑语气、亲历限定与假设风险。"
+    },
+    {
+      "id": "zh2-no_edit-r079",
+      "approve": true,
+      "reason": "短评完整紧凑，合同准确区分类比、条件判断与既成事实。"
+    }
+  ],
+  "metadata": {
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 15.89,
+    "input_sha256": "5c2f87d8c79df39d178601c9e9f4aa654f817d72e9ace7fcb32873177ab16d4b",
+    "system_sha256": "0c41b551a96d085bbc3597749915f67732aa702736eddffdb625f85696aded81",
+    "usage": [
+      {
+        "input_tokens": 16922,
+        "cached_input_tokens": 9856,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 224,
+        "reasoning_output_tokens": 97
+      }
+    ],
+    "review_type": "independent_context_model_review",
+    "human_review": false
+  }
+}

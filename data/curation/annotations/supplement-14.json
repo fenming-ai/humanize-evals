@@ -1,0 +1,338 @@
+{
+  "cases": [
+    {
+      "id": "zh2-voice_emotion-r001",
+      "suitable": true,
+      "reason": "引语兼具自信、谨慎与眷恋",
+      "task": "面向高尔夫读者整理赛报，保留赛况及宫里蓝情绪；可压缩重复背景，不删夺冠条件。",
+      "audience": "高尔夫赛事读者",
+      "must_preserve": [
+        {
+          "quote": "以两杆优势单独领先",
+          "requirement": "保留宫里蓝领先幅度与独占首位"
+        },
+        {
+          "quote": "所以明天我必须专注自己的比赛",
+          "requirement": "保留领先不等于稳胜的谨慎"
+        },
+        {
+          "quote": "我再这里有很美好的初次夺冠回忆",
+          "requirement": "保留初冠回忆与再次捧杯的期待"
+        }
+      ],
+      "voice_quote": "我不知道明天会怎么样，但是我感觉自己状态很好",
+      "voice": "赛报客观，引语自信而不自满",
+      "allowed_changes": [
+        "修正错字、断词空格，压缩重复背景"
+      ],
+      "failure_conditions": [
+        "将宫里蓝期待夺冠改成稳获冠军",
+        "删去初冠回忆，只留比赛数字"
+      ],
+      "scoring_note": "谨慎最易被压掉，使自信误成夺冠保证。"
+    },
+    {
+      "id": "zh2-voice_emotion-r002",
+      "suitable": true,
+      "reason": "自嘲、愤懑与劝退对象明确",
+      "task": "面向择校者梳理亲历吐槽，保留愤懑及条件性劝退；可删开场闲话，不淡化不满。",
+      "audience": "考虑报考该学院的人",
+      "must_preserve": [
+        {
+          "quote": "当初来这个学院就是冲着本硕连读来的",
+          "requirement": "保留入学动机与实际体验落差"
+        },
+        {
+          "quote": "如果你不想做学术，数学不够好或者不喜欢数学",
+          "requirement": "劝退须保留学术和数学条件"
+        },
+        {
+          "quote": "感谢学院让我体验到了生命的苦难与艰辛",
+          "requirement": "保留反讽而非真诚致谢"
+        }
+      ],
+      "voice_quote": "这里是你命运的屠宰场",
+      "voice": "第一人称自嘲、绝望而尖锐",
+      "allowed_changes": [
+        "删开场热度闲话，整理长句及错字"
+      ],
+      "failure_conditions": [
+        "把对学院的反讽改成正面感恩",
+        "将劝退扩大为任何人都不应报考"
+      ],
+      "scoring_note": "尖锐比喻易被礼貌化，抹去亲历者的愤懑。"
+    },
+    {
+      "id": "zh2-voice_emotion-r003",
+      "suitable": true,
+      "reason": "赞颂文人抉择的立场鲜明",
+      "task": "面向散文读者理顺两位文人的抉择叙述；可收束复沓，不删赞颂立场，不强化史实断言。",
+      "audience": "议论散文读者",
+      "must_preserve": [
+        {
+          "quote": "但从他的每一次选择中我断定：他是个英雄",
+          "requirement": "保留作者对嵇康的英雄判断"
+        },
+        {
+          "quote": "而我却同意余秋雨先生的意见：他是死于一种文化",
+          "requirement": "保留文化解释的认同及归属"
+        },
+        {
+          "quote": "常言道：“百无一用是书生。”我却不以为然",
+          "requirement": "保留反驳书生无用的态度"
+        }
+      ],
+      "voice_quote": "他的心在动，心在痛，屈服吗？不",
+      "voice": "激昂赞叹，以设问铺写内心冲突",
+      "allowed_changes": [
+        "收束重复抒情，整理两人叙述的过渡"
+      ],
+      "failure_conditions": [
+        "把王国维死因的个人解释写成定论",
+        "把嵇康与王国维写成怯懦反例"
+      ],
+      "scoring_note": "戏剧化心理易被当史实，须保留文学表达边界。"
+    },
+    {
+      "id": "zh2-voice_emotion-r004",
+      "suitable": true,
+      "reason": "追梦热情与三组意象贯通",
+      "task": "面向励志散文读者整理层次和病句；可减重复修饰，不删朝阳、流水、风的追梦脉络。",
+      "audience": "励志散文读者",
+      "must_preserve": [
+        {
+          "quote": "人不能只活在过去",
+          "requirement": "保留朝阳引出的告别遗憾"
+        },
+        {
+          "quote": "应该用有限的生命去追寻无限的梦想",
+          "requirement": "保留流水引出的惜时追梦"
+        },
+        {
+          "quote": "我只知道迈开双脚去追寻，做一个追风少年",
+          "requirement": "保留第一人称主动前行的决心"
+        }
+      ],
+      "voice_quote": "朝阳似火，梦想如花",
+      "voice": "青春昂扬，意象铺陈与自我鼓劲",
+      "allowed_changes": [
+        "分开粘连小标题，修正错字病句",
+        "压缩重复修饰，保留有节奏的复沓"
+      ],
+      "failure_conditions": [
+        "删尽朝阳流水风，改成行动清单",
+        "将坚定追梦改成怀疑梦想的价值"
+      ],
+      "scoring_note": "复沓兼具节奏，机械去重易损伤昂扬声音。"
+    },
+    {
+      "id": "zh2-voice_emotion-r005",
+      "suitable": true,
+      "reason": "辩护立场与口语评价清楚",
+      "task": "面向电影讨论读者梳理辩护逻辑；可压缩重复判断，不删商业理解与原创诉求，不补市场数据。",
+      "audience": "电影话题读者",
+      "must_preserve": [
+        {
+          "quote": "卡梅隆没有针对漫威，也不是贬低超级英雄电影",
+          "requirement": "保留作者对卡梅隆发言的解读"
+        },
+        {
+          "quote": "着实是非常保险精明也无可厚非的",
+          "requirement": "保留对片厂系列策略的商业理解"
+        },
+        {
+          "quote": "希望系列风退去，原创电影再次成为市场主流",
+          "requirement": "保留支持原创复兴的核心诉求"
+        }
+      ],
+      "voice_quote": "看上去很唬，看完完整回答",
+      "voice": "口语化澄清，理解而非阵营攻击",
+      "allowed_changes": [
+        "删重复的正常、理解判断，整理病句"
+      ],
+      "failure_conditions": [
+        "改成卡梅隆鄙视漫威及其观众",
+        "新增票房数据证明原创必胜系列"
+      ],
+      "scoring_note": "辩护易被强化为市场定论，原稿未给数据支撑。"
+    },
+    {
+      "id": "zh2-voice_emotion-r006",
+      "suitable": true,
+      "reason": "劝诫口吻与理性主张明确",
+      "task": "面向议论文读者修顺比喻和论证；可删重复说理、限定股票断言，不删亲疏与理性的主线。",
+      "audience": "议论文读者",
+      "must_preserve": [
+        {
+          "quote": "富人觉得儿子很聪明，却怀疑是邻居老人偷的",
+          "requirement": "保留同样提醒遭不同判断的反差"
+        },
+        {
+          "quote": "感情无论亲疏都有其可取和不可取之处",
+          "requirement": "保留对感情作用的双面评价"
+        },
+        {
+          "quote": "我们应有明辨其伪之智，而不为亲疏所左右",
+          "requirement": "保留独立辨别、不受亲疏支配的主张"
+        }
+      ],
+      "voice_quote": "用心聆听，擦亮眼睛。不论亲疏，去伪存真。",
+      "voice": "比喻密集，郑重劝诫",
+      "allowed_changes": [
+        "修正错乱词句，压缩重复比喻",
+        "限定追涨必被套的无支撑断言"
+      ],
+      "failure_conditions": [
+        "将邻居老人的被怀疑写成盗窃坐实",
+        "将理性辨别改成一概拒绝亲友建议"
+      ],
+      "scoring_note": "劝诫力度需保留，但不应升级股票断言。"
+    },
+    {
+      "id": "zh2-voice_emotion-r007",
+      "suitable": true,
+      "reason": "教练自信谨慎，记者略带调侃",
+      "task": "面向足球读者整理采访报道；可压缩履历，不删主客场取舍及球衣号码回应的含蓄态度。",
+      "audience": "足球赛事读者",
+      "must_preserve": [
+        {
+          "quote": "但是三天之后的主场比赛更为重要",
+          "requirement": "保留重视主场、客场留力的取舍"
+        },
+        {
+          "quote": "这位年轻的教练也打起了太极",
+          "requirement": "保留记者对号码回应迂回的观察"
+        },
+        {
+          "quote": "中国队的进攻非常不错",
+          "requirement": "保留对中国进攻及核心球员的重视"
+        }
+      ],
+      "voice_quote": "阿扎尼也颇具信心",
+      "voice": "客观报道中带轻微调侃",
+      "allowed_changes": [
+        "压缩教练履历，统一同一人物称谓"
+      ],
+      "failure_conditions": [
+        "将留力主场改成放弃中国客场比赛",
+        "将号码不重要的回应改成承认作弊"
+      ],
+      "scoring_note": "轻微调侃易被强化为指控，损伤采访边界。"
+    },
+    {
+      "id": "zh2-voice_emotion-r008",
+      "suitable": true,
+      "reason": "两点式讲解带有玩家调侃",
+      "task": "面向体育游戏玩家整理两点解释；可删缺图视频指示，不删年更理由与非画面进化，不补素材。",
+      "audience": "体育游戏玩家",
+      "must_preserve": [
+        {
+          "quote": "职业体育几乎都是以一年作为一个赛季的",
+          "requirement": "保留赛季变化支撑年更的理由"
+        },
+        {
+          "quote": "卖游戏拷贝是唯一的赚钱方法",
+          "requirement": "保留原稿限定于早期环境的营收解释"
+        },
+        {
+          "quote": "但是进化的点绝对不仅仅是画面",
+          "requirement": "保留战术、AI及模式等进化维度"
+        }
+      ],
+      "voice_quote": "我们可以回溯体育游戏的万恶之源",
+      "voice": "条理讲解夹杂玩家式戏谑",
+      "allowed_changes": [
+        "删除缺失截图、视频的指示语",
+        "将非画面进步整理为并列项"
+      ],
+      "failure_conditions": [
+        "将早期卖拷贝解释套用到所有当代游戏",
+        "把万恶之源解读为对EA的实质恶行指控"
+      ],
+      "scoring_note": "万恶之源是戏谑用语，不宜抹平或实义化。"
+    },
+    {
+      "id": "zh2-voice_emotion-r009",
+      "suitable": true,
+      "reason": "合作倡议与欣慰痛心交织",
+      "task": "面向议论文读者收束铺陈；可限定或删无支撑事例，不删双赢倡议及对竞争风度的情绪评价。",
+      "audience": "议论文读者",
+      "must_preserve": [
+        {
+          "quote": "竞争不一定是弱肉强食",
+          "requirement": "保留对零和竞争观的反驳"
+        },
+        {
+          "quote": "在合作中共同进步",
+          "requirement": "保留合作互补、双方受益的诉求"
+        },
+        {
+          "quote": "却打出“庆祝北京申奥成功”的横幅",
+          "requirement": "保留赞赏对手祝贺的情绪，事例可限定"
+        }
+      ],
+      "voice_quote": "微笑竞争，携手同行！",
+      "voice": "热烈倡议，以赞赏和痛心作对照",
+      "allowed_changes": [
+        "压缩重复比喻和口号",
+        "限定或删无支撑事例，保留价值评价"
+      ],
+      "failure_conditions": [
+        "将双赢改成取消竞争或单方取胜",
+        "把女排转播指责扩成日本民族本性"
+      ],
+      "scoring_note": "情绪保留不等于背书事例，更不能扩大群体指责。"
+    },
+    {
+      "id": "zh2-voice_emotion-r010",
+      "suitable": true,
+      "reason": "行业焦虑转向审慎乐观",
+      "task": "面向游戏行业读者整理三项归因及结论；可删名人离世开场，不删版号异议，不补行业证据。",
+      "audience": "游戏行业话题读者",
+      "must_preserve": [
+        {
+          "quote": "玩家已经达到饱和的状态",
+          "requirement": "保留饱和归因，与成本资本并列为作者判断"
+        },
+        {
+          "quote": "有人说了版号的问题，但是对于这个小编到不大认同",
+          "requirement": "保留作者不大认同版号归因的态度"
+        },
+        {
+          "quote": "或许国内游戏能发展的越来越有实力，越来越好",
+          "requirement": "保留对洗牌后改善的可能性期待"
+        }
+      ],
+      "voice_quote": "热门IP、玩情怀，都已经被用烂掉了",
+      "voice": "口语吐槽，从担忧转向有限乐观",
+      "allowed_changes": [
+        "删离世开场，修正错字和编号",
+        "压缩重复归因，保留观点属性"
+      ],
+      "failure_conditions": [
+        "将不大认同版号归因改成版号毫无影响",
+        "将或许发展更好改成裁员必然带来繁荣"
+      ],
+      "scoring_note": "结尾乐观有限，易被润色成确定的行业预测。"
+    }
+  ],
+  "metadata": {
+    "job": "supplement-14",
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 104.13,
+    "system_sha256": "2c85943d84beabe7f1c8a64f793323c3fb90f4110f4f66ac756b1b69b3faf06e",
+    "input_sha256": "1be784b5a1630a70bb35a911920ecbc690f4e546db2de6d59292808aefa75258",
+    "usage": [
+      {
+        "input_tokens": 21464,
+        "cached_input_tokens": 10368,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3001,
+        "reasoning_output_tokens": 91
+      }
+    ],
+    "review_type": "model_annotation",
+    "human_review": false
+  }
+}

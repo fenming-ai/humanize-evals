@@ -1,0 +1,333 @@
+{
+  "cases": [
+    {
+      "id": "zh2-punctuation-011-p2",
+      "suitable": true,
+      "reason": "冒号分号及加号功能明确",
+      "task": "面向畜牧研究读者，只审查符号标点；正文词句、事实与声音不改写，不删内容。",
+      "audience": "畜牧研究读者",
+      "must_preserve": [
+        {
+          "quote": "我们发现：不同饲料类型",
+          "requirement": "冒号引出实验发现"
+        },
+        {
+          "quote": "优势；粗料+精料颗粒料组",
+          "requirement": "分号分列结果，加号连接饲料组成"
+        },
+        {
+          "quote": "饲料能量及粗蛋白质水平相近",
+          "requirement": "保留实验条件限制"
+        }
+      ],
+      "voice_quote": "仍需要进一步深入研究和讨论",
+      "voice": "审慎的研究摘要口吻",
+      "allowed_changes": [
+        "仅整理确需调整的标点，可原样返回"
+      ],
+      "failure_conditions": [
+        "删分号混并结果或删加号损坏组名",
+        "改写湖羊数量、实验条件或结论措辞"
+      ],
+      "scoring_note": "加号容易被当冗余符号删除，实为组名组成。"
+    },
+    {
+      "id": "zh2-punctuation-012-p2",
+      "suitable": true,
+      "reason": "括号释义与顿号列举清楚",
+      "task": "面向遥感学习者，只审查符号标点；正文词句、事实与声音不改写，全文不省略。",
+      "audience": "遥感学习者",
+      "must_preserve": [
+        {
+          "quote": "合成孔径雷达（SAR）、激光雷达（LiDAR）",
+          "requirement": "括号对应缩写，顿号分隔技术项"
+        },
+        {
+          "quote": "农业、林业、水利、城市规划",
+          "requirement": "顿号保留应用领域并列关系"
+        },
+        {
+          "quote": "遥感不能简单地归类为纯粹的科学或纯粹的技术",
+          "requirement": "保留科学与技术融合立场"
+        }
+      ],
+      "voice_quote": "可以发现二者是相辅相成的",
+      "voice": "平实的学科说明口吻",
+      "allowed_changes": [
+        "仅调整必要标点，无错可原样返回"
+      ],
+      "failure_conditions": [
+        "机械删括号使缩写与技术名称混连",
+        "删改遥感科学与技术关系的正文"
+      ],
+      "scoring_note": "列举密集不等于标点冗余，须保护分类层次。"
+    },
+    {
+      "id": "zh2-punctuation-013-p2",
+      "suitable": true,
+      "reason": "简称括注和文件书名号可保护",
+      "task": "面向教育新闻读者，只审查符号标点；正文词句、事实与声音不改写，不删补或修正时间矛盾。",
+      "audience": "教育新闻读者",
+      "must_preserve": [
+        {
+          "quote": "成人高考（以下简称\"成考\"）",
+          "requirement": "括号补充简称，引号标示简称"
+        },
+        {
+          "quote": "《上海市人民政府关于深化考试招生制度改革的实施意见》",
+          "requirement": "书名号界定政策文件全名"
+        },
+        {
+          "quote": "自2009年起，上海市成考报名",
+          "requirement": "保留原稿时间表述"
+        }
+      ],
+      "voice_quote": "推动教育考试招生工作的规范化和智能化进程",
+      "voice": "正面报道式语气",
+      "allowed_changes": [
+        "可规范简称引号样式，其余无错原样保留"
+      ],
+      "failure_conditions": [
+        "删书名号或括号破坏文件及简称边界",
+        "改写首次、2009年或考生数量"
+      ],
+      "scoring_note": "时间冲突容易诱发越界纠错，本例只验标点。"
+    },
+    {
+      "id": "zh2-punctuation-014-p2",
+      "suitable": true,
+      "reason": "作品名和比较停顿可保护",
+      "task": "面向影评读者，只审查符号标点；正文词句、事实与声音不改写，不省略现文或补全残尾。",
+      "audience": "影评读者",
+      "must_preserve": [
+        {
+          "quote": "《冰雪奇缘》与《疯狂原始人》",
+          "requirement": "书名号分别标示两部作品"
+        },
+        {
+          "quote": "相比之下，《疯狂原始人》虽然",
+          "requirement": "逗号标示比较提示后的停顿"
+        },
+        {
+          "quote": "在情感表达上显得相对单薄",
+          "requirement": "保留作者对后者的评价"
+        }
+      ],
+      "voice_quote": "《冰雪奇缘》在细节处理和整体氛围营造上更为出色",
+      "voice": "偏赞前者的比较影评",
+      "allowed_changes": [
+        "仅整理必要标点，残尾维持未完状态"
+      ],
+      "failure_conditions": [
+        "机械删书名号模糊两部电影名称边界",
+        "改写获奖或优劣判断，续写残尾"
+      ],
+      "scoring_note": "截断不能靠补句解决，符号审查仍可独立验收。"
+    },
+    {
+      "id": "zh2-punctuation-015-p2",
+      "suitable": true,
+      "reason": "对话省略与破折号功能鲜明",
+      "task": "面向散文读者，只审查符号标点；正文词句、事实与声音不改写，不删情节、抒情或修辞。",
+      "audience": "散文读者",
+      "must_preserve": [
+        {
+          "quote": "“阿婆，您自己……”",
+          "requirement": "引号标原话，省略号保留欲言又止"
+        },
+        {
+          "quote": "回头再望一眼——那瘦小的身影",
+          "requirement": "破折号引出回望所见"
+        },
+        {
+          "quote": "“没事儿！我这儿还有条旧的！”",
+          "requirement": "叹号保留老妇爽快回应"
+        }
+      ],
+      "voice_quote": "我心里涌起一阵酸涩的波澜",
+      "voice": "温暖感伤、浓烈抒情",
+      "allowed_changes": [
+        "仅整理确有必要的对话标点，可原样返回"
+      ],
+      "failure_conditions": [
+        "将省略号、叹号一律换句号削平对话",
+        "删改蓝围巾情节或结尾抒情正文"
+      ],
+      "scoring_note": "情绪符号不是频次问题，机械降调会伤人物声音。"
+    },
+    {
+      "id": "zh2-punctuation-016-p2",
+      "suitable": true,
+      "reason": "电头破折号与引述括注可保护",
+      "task": "面向新闻读者，只审查符号标点；正文词句、事实与声音不改写，不删补研究说法或核实背书。",
+      "audience": "新闻读者",
+      "must_preserve": [
+        {
+          "quote": "伦敦——近日，英国一项最新研究成果",
+          "requirement": "破折号分隔地点电头与报道"
+        },
+        {
+          "quote": "具有“好色本性”。",
+          "requirement": "引号保留标签式措辞边界"
+        },
+        {
+          "quote": "功能性磁共振成像（fMRI）技术",
+          "requirement": "括号将缩写对应到技术名称"
+        }
+      ],
+      "voice_quote": "这项研究成果如果得到更广泛的验证",
+      "voice": "报道主张并附审慎限制",
+      "allowed_changes": [
+        "仅调整必要标点，无错可原样返回"
+      ],
+      "failure_conditions": [
+        "删引号把标签直接并入无标记断言",
+        "改写研究结论或删除进一步验证条件"
+      ],
+      "scoring_note": "引号与限定语容易被清理掉，导致原稿主张强化。"
+    },
+    {
+      "id": "zh2-punctuation-017-p2",
+      "suitable": true,
+      "reason": "作品与活动名称符号可区分",
+      "task": "面向娱乐新闻读者，只审查符号标点；正文词句、事实与声音不改写，不删补或纠正人物资料。",
+      "audience": "娱乐新闻读者",
+      "must_preserve": [
+        {
+          "quote": "凭借《花样年华》等经典作品",
+          "requirement": "书名号界定作品名称"
+        },
+        {
+          "quote": "著名颁奖典礼“星光盛典”",
+          "requirement": "引号标示典礼名称"
+        },
+        {
+          "quote": "近日却传出或将撤案的消息",
+          "requirement": "保留消息与可能性的措辞"
+        }
+      ],
+      "voice_quote": "期待她在未来的作品中再次展现出色演技",
+      "voice": "娱乐报道中的赞许期待",
+      "allowed_changes": [
+        "仅整理必要标点，正确名称符号原样保留"
+      ],
+      "failure_conditions": [
+        "统一删书名号和引号损坏名称边界",
+        "改写桑兰身份、作品归属或撤案可能性"
+      ],
+      "scoring_note": "疑似事实错配不授权改正文，也不能视作已核实。"
+    },
+    {
+      "id": "zh2-punctuation-018-p2",
+      "suitable": true,
+      "reason": "冒号与分号体现两组列举",
+      "task": "面向法律话题读者，只审查符号标点；正文词句、事实与声音不改写，不删条件或新增法律解释。",
+      "audience": "法律话题读者",
+      "must_preserve": [
+        {
+          "quote": "关键因素包括：一是防卫行为的合理性",
+          "requirement": "冒号引出判断因素列举"
+        },
+        {
+          "quote": "而非无端波及第三方；二是过失程度",
+          "requirement": "分号区分合理性与过失程度"
+        },
+        {
+          "quote": "如有过失则可能担责",
+          "requirement": "保留条件及可能性，不改为必然"
+        }
+      ],
+      "voice_quote": "实践中是否构成过失犯罪需个案审查",
+      "voice": "条件化的简明分析",
+      "allowed_changes": [
+        "仅整理列举标点，无明显错误可原样返回"
+      ],
+      "failure_conditions": [
+        "分号全改顿号混淆因素与建议层级",
+        "改写过失条件或增补法条及责任结论"
+      ],
+      "scoring_note": "列举结构与责任条件相连，机械压缩易损判断边界。"
+    },
+    {
+      "id": "zh2-punctuation-019-p2",
+      "suitable": true,
+      "reason": "缩写括注与通路连接符有实义",
+      "task": "面向生物医学读者，只审查符号标点；正文词句、事实与声音不改写，不删补机制或疗效信息。",
+      "audience": "生物医学读者",
+      "must_preserve": [
+        {
+          "quote": "Toll样受体（TLR）",
+          "requirement": "括号标示受体缩写"
+        },
+        {
+          "quote": "TLR-NF-κB信号通路",
+          "requirement": "保护通路连接符及κ字符"
+        },
+        {
+          "quote": "TLR、NF-κB的结构功能",
+          "requirement": "顿号区分两个综述对象"
+        }
+      ],
+      "voice_quote": "为研究益生菌在调节宿主免疫反应中的应用提供了新思路",
+      "voice": "概述研究意义的综述语气",
+      "allowed_changes": [
+        "仅整理非术语标点，无错可原样返回"
+      ],
+      "failure_conditions": [
+        "机械删换连字符或κ损坏通路名称",
+        "改写益生菌作用或增加临床疗效结论"
+      ],
+      "scoring_note": "连接符兼具术语功能，不能按普通停顿符清理。"
+    },
+    {
+      "id": "zh2-punctuation-020-p2",
+      "suitable": true,
+      "reason": "引号顿号与分号组织原则解释",
+      "task": "面向密码管理读者，只审查符号标点；正文词句、事实与声音不改写，不删补或更新安全建议。",
+      "audience": "密码管理读者",
+      "must_preserve": [
+        {
+          "quote": "“强”、“长”、“特”三个原则",
+          "requirement": "引号标关键词，顿号列举三原则"
+        },
+        {
+          "quote": "“长”意味着长度至少为12位以上；",
+          "requirement": "分号分隔原则解释，保留长度措辞"
+        },
+        {
+          "quote": "只需要记住一个主密码即可解锁全部记录",
+          "requirement": "保留主密码用途陈述"
+        }
+      ],
+      "voice_quote": "最后但同样重要的是，不要轻易将密码告诉他人",
+      "voice": "直接劝告式安全科普",
+      "allowed_changes": [
+        "仅整理必要标点，正确列举可原样返回"
+      ],
+      "failure_conditions": [
+        "删引号或乱换分号破坏三原则解释边界",
+        "改写12位、更换密码或双因素认证建议"
+      ],
+      "scoring_note": "技术建议可能引发内容更新冲动，但本例不授权。"
+    }
+  ],
+  "metadata": {
+    "job": "punctuation_v2-01",
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 95.41,
+    "system_sha256": "3ae39d4cdd1a190d9634734fff98af6538ba69e53c44419197138e6205d7858a",
+    "input_sha256": "3ccc10966996c02989ff2a5a199d7c4830d453ab54243f386cf8575f3d7e25f7",
+    "usage": [
+      {
+        "input_tokens": 20538,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2689,
+        "reasoning_output_tokens": 38
+      }
+    ],
+    "review_type": "model_annotation",
+    "human_review": false
+  }
+}

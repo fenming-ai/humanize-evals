@@ -1,0 +1,67 @@
+{
+  "cases": [
+    {
+      "id": "zh2-facts-083",
+      "approve": true,
+      "reason": "规格、用途及练习重点忠实，删改边界合理。"
+    },
+    {
+      "id": "zh2-facts-084",
+      "approve": true,
+      "reason": "保留数字、消息归属及未定状态，未擅定费用口径。"
+    },
+    {
+      "id": "zh2-facts-085",
+      "approve": true,
+      "reason": "报道归属与疑似性质明确，失败条件合理。"
+    },
+    {
+      "id": "zh2-facts-087",
+      "approve": true,
+      "reason": "条件、比较对象与研究目的忠实，未将目的当结论。"
+    },
+    {
+      "id": "zh2-facts-088",
+      "approve": true,
+      "reason": "准确区分培训接触与任职、转岗建议与保证。"
+    },
+    {
+      "id": "zh2-facts-089",
+      "approve": true,
+      "reason": "时间与用户量对应原文，明确不认证外部史实。"
+    },
+    {
+      "id": "zh2-facts-090",
+      "approve": true,
+      "reason": "起源与典型特征忠实，保留限定且避免价值排序。"
+    },
+    {
+      "id": "zh2-facts-091",
+      "approve": true,
+      "reason": "收益单位、部分范围及条件性风险均忠实。"
+    },
+    {
+      "id": "zh2-facts-092",
+      "approve": true,
+      "reason": "观察时点、涨跌幅与黄金例外准确，验收边界合理。"
+    }
+  ],
+  "metadata": {
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 23.22,
+    "input_sha256": "dd704a78202b867ab3156471e4ba4ce564871e9a68b5bd0643d70a6bcdec5cfc",
+    "system_sha256": "0c41b551a96d085bbc3597749915f67732aa702736eddffdb625f85696aded81",
+    "usage": [
+      {
+        "input_tokens": 21729,
+        "cached_input_tokens": 9856,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 382,
+        "reasoning_output_tokens": 73
+      }
+    ],
+    "review_type": "independent_context_model_review",
+    "human_review": false
+  }
+}

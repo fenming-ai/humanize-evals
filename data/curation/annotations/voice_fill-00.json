@@ -1,0 +1,164 @@
+{
+  "cases": [
+    {
+      "id": "zh2-voice_emotion-r011",
+      "suitable": true,
+      "reason": "逆境叙事承载鲜明球迷情绪",
+      "task": "面向电竞读者理顺WE回顾，保留各阶段逆袭与感动，可删重复感叹，不扩写赛况。",
+      "audience": "电竞读者",
+      "must_preserve": [
+        {
+          "quote": "只在决赛对阵FNC输掉一个小分",
+          "requirement": "保留IPL5征程的原述战绩"
+        },
+        {
+          "quote": "先斩CJ，后杀虎牙",
+          "requirement": "保留垫底且受质疑后的逆袭顺序"
+        },
+        {
+          "quote": "成为了S6门票的有力争夺者",
+          "requirement": "保留争夺资格，不能写成已获门票"
+        }
+      ],
+      "voice_quote": "给了我们这么多惊喜的WE，凭什么不让人感动呢",
+      "voice": "热血球迷口吻，以惊喜累积感动",
+      "allowed_changes": [
+        "按赛季分段，补足句间标点",
+        "压缩重复的逆境描述"
+      ],
+      "failure_conditions": [
+        "将WE的IEM9决赛写成获胜",
+        "删去结尾为WE辩护的反问情绪"
+      ],
+      "scoring_note": "最易误伤热血反复；它承载球迷认同，不全是赘语。"
+    },
+    {
+      "id": "zh2-voice_emotion-r012",
+      "suitable": true,
+      "reason": "业余画者自述有亲切与自谦",
+      "task": "面向水彩爱好者整理自学分享，可删无图指示语，保留经历、个人感受和业余边界。",
+      "audience": "水彩爱好者",
+      "must_preserve": [
+        {
+          "quote": "搬了家，印章已经找不到了～",
+          "requirement": "保留搬家丢印章的生活小遗憾"
+        },
+        {
+          "quote": "我也是大学才接触水彩画的",
+          "requirement": "保留大学开始接触及自行摸索经历"
+        },
+        {
+          "quote": "没有经过专业的培训",
+          "requirement": "保留业余身份及建议能力的自限"
+        }
+      ],
+      "voice_quote": "这就是我用的水彩，看起来脏脏的不要介意",
+      "voice": "随意亲切，带自谦的经验分享",
+      "allowed_changes": [
+        "修正明显错字，按经历与工具分段",
+        "删除缺失配图的指示语"
+      ],
+      "failure_conditions": [
+        "把自学经历改成专业培训背景",
+        "将个人纸笔体验改成普适购买定论"
+      ],
+      "scoring_note": "最易误伤闲聊与自谦；删尽会把业余分享变成教程。"
+    },
+    {
+      "id": "zh2-voice_emotion-r013",
+      "suitable": true,
+      "reason": "强烈赞叹与个人观感明确",
+      "task": "面向动画观众整理观后感，可压缩重复赞词，保留第40话赞叹与第四集偏好，不补剧情。",
+      "audience": "动画观众",
+      "must_preserve": [
+        {
+          "quote": "其中我个人最喜欢的就是刚刚提到的第四集",
+          "requirement": "保留最爱第四集，勿移给第40话"
+        },
+        {
+          "quote": "首先有极度优秀的原作做底子",
+          "requirement": "保留对原作基础和改编贡献的双重赞许"
+        },
+        {
+          "quote": "看见他赢了，我打心底里高兴，甚至流泪",
+          "requirement": "保留因老爷子获胜而高兴落泪"
+        }
+      ],
+      "voice_quote": "新房昭之，伟大",
+      "voice": "激动直白、近乎失语的盛赞",
+      "allowed_changes": [
+        "压缩重复的完美与震撼",
+        "将观众必然反应限定为个人观感"
+      ],
+      "failure_conditions": [
+        "将过渡回稍平淡改成质量差",
+        "把对新房昭之的盛赞改成客观排名"
+      ],
+      "scoring_note": "最易误伤夸张赞叹；应保留激动而非强化普遍结论。"
+    },
+    {
+      "id": "zh2-voice_emotion-r014",
+      "suitable": false,
+      "reason": "财经消息以事实为主，情绪信号不足",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-voice_emotion-r015",
+      "suitable": true,
+      "reason": "青春劝勉与奔跑意象贯穿全文",
+      "task": "面向成长中的青年精简励志议论，可删重复排比，保留轻装起跑主线与价值区分，不补名人事迹。",
+      "audience": "成长中的青年",
+      "must_preserve": [
+        {
+          "quote": "翅膀上挂着沉甸甸的金钱是飞不起来的",
+          "requirement": "保留金钱重负阻碍飞翔的题记意象"
+        },
+        {
+          "quote": "不是世俗中宣扬的急功近利，而是有的放矢",
+          "requirement": "保留追求成功与急功近利的区分"
+        },
+        {
+          "quote": "不是世俗中叫嚣的随波逐流、自我放逐",
+          "requirement": "保留轻松自在不等于放任自流"
+        }
+      ],
+      "voice_quote": "甩开世俗，轻松起跑",
+      "voice": "昂扬劝勉，以奔跑意象抒情",
+      "allowed_changes": [
+        "压缩重复排比及成功承诺",
+        "整理走、跑、飞翔之间的衔接"
+      ],
+      "failure_conditions": [
+        "把放下欲念改为放弃人生目标",
+        "新增居里夫妇等人的具体事迹作证"
+      ],
+      "scoring_note": "最易误伤昂扬抒情；精简套话不能抹去青春劝勉。"
+    }
+  ],
+  "metadata": {
+    "job": "voice_fill-00",
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 51.0,
+    "system_sha256": "2c85943d84beabe7f1c8a64f793323c3fb90f4110f4f66ac756b1b69b3faf06e",
+    "input_sha256": "63bd5388d7ab679f925c8c1012eb168b69b870d83dc00d178aec1ac68cb16df3",
+    "usage": [
+      {
+        "input_tokens": 18630,
+        "cached_input_tokens": 10368,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1320,
+        "reasoning_output_tokens": 55
+      }
+    ],
+    "review_type": "model_annotation",
+    "human_review": false
+  }
+}

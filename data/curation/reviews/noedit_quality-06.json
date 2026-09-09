@@ -1,0 +1,42 @@
+{
+  "cases": [
+    {
+      "id": "zh2-no_edit-q061",
+      "approve": false,
+      "reason": "“闪出空挡”应为“闪出空当”，存在明显错字，不适合no_edit。"
+    },
+    {
+      "id": "zh2-no_edit-q064",
+      "approve": true,
+      "reason": "保留要求忠实，消息来源与审批状态边界清楚，类别恰当。"
+    },
+    {
+      "id": "zh2-no_edit-q065",
+      "approve": true,
+      "reason": "引文准确，伤亡、归责来源及背景限定均忠实，类别恰当。"
+    },
+    {
+      "id": "zh2-no_edit-q069",
+      "approve": true,
+      "reason": "人数、薪酬与合约条件忠实，保留转述边界，类别恰当。"
+    }
+  ],
+  "metadata": {
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 19.9,
+    "input_sha256": "a22d3bec3de55fed444b2f2612449409ea814b0a995c08135e2d8a865bd8a959",
+    "system_sha256": "0c41b551a96d085bbc3597749915f67732aa702736eddffdb625f85696aded81",
+    "usage": [
+      {
+        "input_tokens": 17676,
+        "cached_input_tokens": 9856,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 247,
+        "reasoning_output_tokens": 75
+      }
+    ],
+    "review_type": "independent_context_model_review",
+    "human_review": false
+  }
+}

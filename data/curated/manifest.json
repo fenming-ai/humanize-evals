@@ -1,0 +1,29 @@
+{
+  "version": "1.0.0",
+  "selection_seed": 20260909,
+  "chinese_cases": 500,
+  "english_cases": 88,
+  "development_zh": 300,
+  "holdout_zh": 200,
+  "rubric_version": "1.0.0",
+  "categories": {
+    "slop": 80,
+    "no_edit": 80,
+    "facts": 100,
+    "voice_emotion": 70,
+    "punctuation": 40,
+    "coherence": 50,
+    "missing_material": 40,
+    "long_form": 40
+  },
+  "source_group_count": 500,
+  "review_status": "model-assisted; no human final review",
+  "files": {
+    "data/curated/zh-v1.jsonl": "95d05afb0e6531213ea58da498b7d85af54340078e23f5c2ac8f7395ce9aef9b",
+    "data/curated/development.jsonl": "90f4dafb24f0740d71cc772cf2a052f27c5146ef25068194651107f6cbc49ad1",
+    "data/curated/holdout.jsonl": "dfc830e8f19c69cac4cf36e93115a0005512b8408385fe17b6bf263b684a9870",
+    "data/benchmark-v1.jsonl": "81129637749346181e849f16e090785c4b78c8980a52575ddd27cfc41ac47d48",
+    "rubric/v1.json": "7aa21f75e3013c749a80df01e15fe7776c6cb45eff80cd1c2601ed255b784571",
+    "data/sources.json": "7452ecbbedb8a536eef9d3b52731277f91b4da752cafa40df2db58feb136c8fb"
+  }
+}

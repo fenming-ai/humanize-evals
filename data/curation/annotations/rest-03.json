@@ -1,0 +1,340 @@
+{
+  "cases": [
+    {
+      "id": "zh2-slop-047",
+      "suitable": true,
+      "reason": "成功叙述与总结反复堆叠",
+      "task": "面向社交平台史读者压缩重复赞语，保留决策主线，不补史料或强化因果。",
+      "audience": "社交平台史读者",
+      "must_preserve": [
+        {
+          "quote": "扎克伯格坚持保持用户信息的隐私和安全",
+          "requirement": "保留原稿对隐私决策的归纳"
+        },
+        {
+          "quote": "扎克伯格推动了开放注册政策",
+          "requirement": "保留开放注册与用户增长的联系"
+        },
+        {
+          "quote": "开放式平台、第三方应用程序和广告模式",
+          "requirement": "保留平台开放、应用及广告三个要点"
+        }
+      ],
+      "voice_quote": "被认为对该社交媒体平台的发展产生了深远影响",
+      "voice": "概述式肯定，保持归因边界",
+      "allowed_changes": [
+        "合并三轮总结及奠基套话",
+        "收敛确保成功等绝对措辞"
+      ],
+      "failure_conditions": [
+        "删去开放注册或第三方应用",
+        "把隐私保护写成已核实的成功原因"
+      ],
+      "scoring_note": "最易把去套话变成强化史实；原稿未给证据。"
+    },
+    {
+      "id": "zh2-slop-048",
+      "suitable": true,
+      "reason": "开头方法套话可压缩",
+      "task": "面向象棋起源讨论读者精简铺垫，保留学说限定与本土贡献，不补考据。",
+      "audience": "象棋起源讨论读者",
+      "must_preserve": [
+        {
+          "quote": "象棋的起源存在多种学说",
+          "requirement": "保留起源并非单一无争议结论"
+        },
+        {
+          "quote": "其可能在唐代通过外来文化影响而发展成型",
+          "requirement": "保留中国象棋形成时间的可能性"
+        },
+        {
+          "quote": "这并不否定中国对象棋发展的本土化贡献",
+          "requirement": "保留印度起源说与中国贡献可并存"
+        }
+      ],
+      "voice_quote": "应以开放心态看待学术讨论",
+      "voice": "理性讨论，反对情绪替代考证",
+      "allowed_changes": [
+        "压缩多维分析铺垫及连接词"
+      ],
+      "failure_conditions": [
+        "将唐代形成的可能性改为定论",
+        "把方舟子观点写成否定中国贡献"
+      ],
+      "scoring_note": "最易删掉学说限定，使有争议的溯源变成定论。"
+    },
+    {
+      "id": "zh2-slop-049",
+      "suitable": true,
+      "reason": "比较信息夹杂宣传与重复",
+      "task": "面向在线学习者压缩宣传和重复比较，保留三维差异及选择条件，不补平台资料。",
+      "audience": "在线学习者",
+      "must_preserve": [
+        {
+          "quote": "核心区别主要体现在课程设计、目标受众以及教育模式上",
+          "requirement": "保留课程、受众、模式三维比较"
+        },
+        {
+          "quote": "万门大学主要面向中国市场",
+          "requirement": "保留中文本土与MOOC全球受众对照"
+        },
+        {
+          "quote": "取决于学习者的个人目标、语言能力及学习偏好",
+          "requirement": "保留选择依赖个人条件而非统一排名"
+        }
+      ],
+      "voice_quote": "假设一位软件工程师希望提升自己的专业技能",
+      "voice": "解释性比较，案例是假设",
+      "allowed_changes": [
+        "删质量赞语与重复总结",
+        "压缩假设案例及教学方式罗列"
+      ],
+      "failure_conditions": [
+        "把软件工程师写成真实案例",
+        "将万门或MOOC写成普遍更优"
+      ],
+      "scoring_note": "最易把倾向性比较改成平台硬性边界。"
+    },
+    {
+      "id": "zh2-slop-050",
+      "suitable": true,
+      "reason": "方法步骤清楚但保证性套话多",
+      "task": "面向寻求解题方法的读者精简自述，保留分析到反馈流程，可删口号，不增情境。",
+      "audience": "寻求解题方法的读者",
+      "must_preserve": [
+        {
+          "quote": "我会主动寻求不同利益相关者的看法",
+          "requirement": "保留多方信息与根源分析"
+        },
+        {
+          "quote": "包括成本、可行性、潜在影响等",
+          "requirement": "保留多方案比较及资源时间约束"
+        },
+        {
+          "quote": "系统分析、多方案评估、周密执行和持续反馈",
+          "requirement": "保留四阶段及执行调整、事后回顾"
+        }
+      ],
+      "voice_quote": "如果是我，面对一个复杂的问题或挑战",
+      "voice": "第一人称假设式方法自述",
+      "allowed_changes": [
+        "删成功基石、行稳致远等口号",
+        "合并反复出现的我会"
+      ],
+      "failure_conditions": [
+        "把个人设想写成已经实施的经历",
+        "删去持续反馈或执行中调整"
+      ],
+      "scoring_note": "最易将方法压成空口号，丢失操作条件。"
+    },
+    {
+      "id": "zh2-slop-051",
+      "suitable": true,
+      "reason": "业绩报道夹杂大量宏观赞语",
+      "task": "面向基金行业读者压缩宏观套话，保留原稿业绩口径与公司区别，不补来源或背书。",
+      "audience": "基金行业读者",
+      "must_preserve": [
+        {
+          "quote": "成为本季度最赚钱的基金公司",
+          "requirement": "保留原稿对嘉实的2023年一季度判断"
+        },
+        {
+          "quote": "其一季度的净利润同比增长了15%",
+          "requirement": "保留嘉实净利润同比口径及15%"
+        },
+        {
+          "quote": "易方达基金在消费和医疗健康领域的投资组合",
+          "requirement": "区分易方达消费医疗与华夏固定收益"
+        }
+      ],
+      "voice_quote": "基金行业有望在未来继续保持稳健增长",
+      "voice": "积极展望，不改成确定预测",
+      "allowed_changes": [
+        "删韧性活力等赞语及重复竞争描述",
+        "收敛无证据的保证性因果"
+      ],
+      "failure_conditions": [
+        "把15%改为基金产品收益率",
+        "新增市场数据来源或核实声明"
+      ],
+      "scoring_note": "最易混淆公司净利润与投资者收益，且误作事实背书。"
+    },
+    {
+      "id": "zh2-slop-052",
+      "suitable": true,
+      "reason": "人数信息外包裹价值套话",
+      "task": "面向艺术类考生与家长精简趋势评论，保留人数、风险和建议，不补年份或案例来源。",
+      "audience": "艺术类考生与家长",
+      "must_preserve": [
+        {
+          "quote": "今年不降反增2000余人",
+          "requirement": "保留山西艺术考生增量及今年口径"
+        },
+        {
+          "quote": "避免“速成班”和“功利化”的倾向",
+          "requirement": "保留人数增长伴随质量与跟风风险"
+        },
+        {
+          "quote": "教育部门应加强对艺术类院校和培训机构的监管",
+          "requirement": "保留监管、兴趣引导及就业支持建议"
+        }
+      ],
+      "voice_quote": "如何引导学生理性选择专业，避免盲目跟风？",
+      "voice": "肯定趋势同时关注风险",
+      "allowed_changes": [
+        "删魅力与价值升华套话",
+        "可删小李例子及无支撑权威引述"
+      ],
+      "failure_conditions": [
+        "把2000余人改为报名总人数",
+        "补写小李学校或教育专家姓名"
+      ],
+      "scoring_note": "最易因案例无来源而误删理性择专业等可保留观点。"
+    },
+    {
+      "id": "zh2-slop-053",
+      "suitable": true,
+      "reason": "简短赛讯仍有评价性赘语",
+      "task": "面向F1观众精简赛讯赞语，保留地点、名次和庆祝人物，不补赛季与比分。",
+      "audience": "F1观众",
+      "must_preserve": [
+        {
+          "quote": "在铃鹿赛道上演的F1日本大奖赛",
+          "requirement": "保留铃鹿与日本大奖赛对应"
+        },
+        {
+          "quote": "维斯塔潘主导比赛全程，以绝对优势夺冠",
+          "requirement": "保留维斯塔潘夺冠及佩雷兹第二"
+        },
+        {
+          "quote": "维泰尔用香槟为纽维庆祝",
+          "requirement": "保留庆祝行为及双方人物关系"
+        }
+      ],
+      "voice_quote": "现场气氛欢腾",
+      "voice": "简短、兴奋的赛事报道",
+      "allowed_changes": [
+        "删王者风范、强大实力等重复赞语"
+      ],
+      "failure_conditions": [
+        "把佩雷兹写成冠军",
+        "交换维泰尔与纽维的庆祝角色"
+      ],
+      "scoring_note": "最易以去夸张为由删掉庆祝细节，或擅自纠正人物。"
+    },
+    {
+      "id": "zh2-slop-054",
+      "suitable": true,
+      "reason": "院校介绍多处泛化赞誉",
+      "task": "面向院校了解者压缩宣传套话，保留培养方向、实践与挑战，不补院校背景或合作名单。",
+      "audience": "院校了解者",
+      "must_preserve": [
+        {
+          "quote": "涵盖国际政治、国际经济、外交学等多个方向",
+          "requirement": "保留三个课程方向"
+        },
+        {
+          "quote": "定期为学生提供实习和实践机会",
+          "requirement": "保留原稿对合作实践机会的介绍"
+        },
+        {
+          "quote": "该学院需要不断提升其国际影响力和学术水平",
+          "requirement": "保留竞争挑战及课程教学改进需求"
+        }
+      ],
+      "voice_quote": "然而，国际关系学院也面临一些挑战",
+      "voice": "总体肯定但保留挑战",
+      "allowed_changes": [
+        "删声誉雄厚等重复赞誉",
+        "合并国际化与结尾提升表述"
+      ],
+      "failure_conditions": [
+        "新增合作机构名称或院校排名",
+        "删去挑战并改为纯招生宣传"
+      ],
+      "scoring_note": "最易将泛化院校介绍升级为有证据的实力背书。"
+    },
+    {
+      "id": "zh2-slop-055",
+      "suitable": true,
+      "reason": "择路建议被励志句反复包裹",
+      "task": "面向计算机类大一学生精简励志重复，保留竞赛与升学替代路径，不补就业或保研规则。",
+      "audience": "计算机类大一学生",
+      "must_preserve": [
+        {
+          "quote": "ACM竞赛和保研并不是成功的唯一途径",
+          "requirement": "保留二者有价值但非唯一选择"
+        },
+        {
+          "quote": "参与开源项目、进行实践性项目开发",
+          "requirement": "保留不擅算法竞赛者的实践替代途径"
+        },
+        {
+          "quote": "就业、考研或其他发展道路同样具有价值",
+          "requirement": "保留按兴趣规划选择并重视软实力"
+        }
+      ],
+      "voice_quote": "不要盲目追随所谓的\"标准路径\"",
+      "voice": "宽慰鼓励，不贬低任何路径",
+      "allowed_changes": [
+        "合并持续学习、寻找方向等重复劝勉"
+      ],
+      "failure_conditions": [
+        "把ACM或保研说成无用",
+        "删光开源与实践项目等具体替代建议"
+      ],
+      "scoring_note": "最易将反唯一路径改成反竞赛或反升学。"
+    },
+    {
+      "id": "zh2-slop-056",
+      "suitable": true,
+      "reason": "回忆细节丰富但抒情重复",
+      "task": "面向生活随笔读者精简修辞套话，保留童年、离乡、返乡线索与眷恋，不增人物经历。",
+      "audience": "生活随笔读者",
+      "must_preserve": [
+        {
+          "quote": "拉着奶奶的手，飞奔到小贩跟前",
+          "requirement": "保留童年与奶奶买凉粉的关系"
+        },
+        {
+          "quote": "“唰唰唰”地将凉粉刮成细长的条儿",
+          "requirement": "保留刮凉粉动作及蒜醋辣油等滋味"
+        },
+        {
+          "quote": "去年暑假，我回到了阔别已久的家乡",
+          "requirement": "保留离乡读书后返乡重遇小贩及感动"
+        }
+      ],
+      "voice_quote": "我的眼眶不禁湿润了",
+      "voice": "第一人称馋趣与乡愁",
+      "allowed_changes": [
+        "删重复永恒宣言和泛化比喻",
+        "合并结尾对童年家乡的反复升华"
+      ],
+      "failure_conditions": [
+        "删掉奶奶或返乡重逢线索",
+        "新增奶奶去世或小贩身世"
+      ],
+      "scoring_note": "最易把真切乡愁连同套话一起清除，留下食物介绍。"
+    }
+  ],
+  "metadata": {
+    "job": "rest-03",
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 94.08,
+    "system_sha256": "2c85943d84beabe7f1c8a64f793323c3fb90f4110f4f66ac756b1b69b3faf06e",
+    "input_sha256": "9cad1e986a4a1a535ddb46251438f92414df696693dac92b7671555019aa3dae",
+    "usage": [
+      {
+        "input_tokens": 20640,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2741,
+        "reasoning_output_tokens": 37
+      }
+    ],
+    "review_type": "model_annotation",
+    "human_review": false
+  }
+}

@@ -1,0 +1,207 @@
+{
+  "cases": [
+    {
+      "id": "zh2-no_edit-r071",
+      "suitable": false,
+      "reason": "两次复述13人死亡，明显可精简",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-r072",
+      "suitable": false,
+      "reason": "新旧约与戒指情节的时序衔接不清",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-r073",
+      "suitable": false,
+      "reason": "登记消息重复且“就与”语句不顺",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-r074",
+      "suitable": false,
+      "reason": "“生产线和产房”等表述明显需修整",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-r075",
+      "suitable": false,
+      "reason": "上市日期与交割融资合作重复介绍",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-r076",
+      "suitable": true,
+      "reason": "消息清楚，归因与未知边界完整",
+      "task": "面向新闻读者验收保留型处理；允许原样输出，不删事故要素、来源及未知项。",
+      "audience": "新闻读者",
+      "must_preserve": [
+        {
+          "quote": "当地时间5月18日下午5点25分左右",
+          "requirement": "保留当地日期、约略时间及起飞坠毁"
+        },
+        {
+          "quote": "所幸机上3人及时逃生，仅受轻伤",
+          "requirement": "保留三人逃生且仅轻伤"
+        },
+        {
+          "quote": "目前，还不清楚该飞机当时计划飞往何处",
+          "requirement": "保留目的地未知，不补造航线"
+        }
+      ],
+      "voice_quote": "据美国媒体报道",
+      "voice": "克制报道，区分来源与未知",
+      "allowed_changes": [
+        "可完全原样输出，或仅统一数字括号格式"
+      ],
+      "failure_conditions": [
+        "把波音707改成其他机型或改写伤亡",
+        "删去媒体归因或将目的地写成已知"
+      ],
+      "scoring_note": "最易误伤来源边界；原文转述不等于已核实。"
+    },
+    {
+      "id": "zh2-no_edit-r077",
+      "suitable": false,
+      "reason": "“我对于……非常困难”搭配不顺",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-r078",
+      "suitable": true,
+      "reason": "夸张劝诫与亲历限定均清楚",
+      "task": "面向鼓手及开车听歌者保留原有提醒；允许原样输出，不删停车场限定与风险设问。",
+      "audience": "鼓手及开车听歌者",
+      "must_preserve": [
+        {
+          "quote": "开车不打鼓，打鼓不开车",
+          "requirement": "保留回环警句与行车安全诉求"
+        },
+        {
+          "quote": "好在那是停车场，如果在大马路或高速上就难说了",
+          "requirement": "亲历限于停车场，其他场景是假设"
+        },
+        {
+          "quote": "可如果一脚下去出事了怎么办？",
+          "requirement": "保留脚部反应可能酿祸的担忧"
+        }
+      ],
+      "voice_quote": "右手敲副驾脑门那还算万幸",
+      "voice": "戏谑夸张中带认真担忧",
+      "allowed_changes": [
+        "可原样输出，或仅调整局部断句"
+      ],
+      "failure_conditions": [
+        "把停车场经历改成高速事故",
+        "将鼓手风险概括成已证实的普遍规律"
+      ],
+      "scoring_note": "最易误伤戏谑声音；不宜抹平夸张，也不可强化为事实。"
+    },
+    {
+      "id": "zh2-no_edit-r079",
+      "suitable": true,
+      "reason": "论点紧凑，假设与态度可辨",
+      "task": "面向军事讨论读者保留短评；允许原样输出，不删防御前提、类比和条件判断。",
+      "audience": "军事讨论读者",
+      "must_preserve": [
+        {
+          "quote": "不搞纵深布置，不搞迟滞防御",
+          "requirement": "保留所批评防御缺少纵深与迟滞"
+        },
+        {
+          "quote": "这不是39年波兰与德国的翻版么？",
+          "requirement": "保留作者历史类比，不作核实背书"
+        },
+        {
+          "quote": "真这么做，我方可以毕其功于一役",
+          "requirement": "保留以该部署为前提的胜负判断"
+        }
+      ],
+      "voice_quote": "我军特点完克这种打法",
+      "voice": "强势、自信的军事论坛短评",
+      "allowed_changes": [
+        "可完全原样输出，或仅统一标点"
+      ],
+      "failure_conditions": [
+        "把越方亡国写成已发生或无条件必然",
+        "删去穿插突击、分割包抄及快速运动"
+      ],
+      "scoring_note": "最易误伤条件语气；强硬立场不等于无条件事实。"
+    },
+    {
+      "id": "zh2-no_edit-r080",
+      "suitable": false,
+      "reason": "依赖未提供图表且“发射太阳光”有误",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    }
+  ],
+  "metadata": {
+    "job": "supplement-08",
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 61.28,
+    "system_sha256": "2c85943d84beabe7f1c8a64f793323c3fb90f4110f4f66ac756b1b69b3faf06e",
+    "input_sha256": "c605eded6092a94e7e64d24864bec26981533757319282311d525b112a2ff6b1",
+    "usage": [
+      {
+        "input_tokens": 18092,
+        "cached_input_tokens": 10368,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1478,
+        "reasoning_output_tokens": 237
+      }
+    ],
+    "review_type": "model_annotation",
+    "human_review": false
+  }
+}

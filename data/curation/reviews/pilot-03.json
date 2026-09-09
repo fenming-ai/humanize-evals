@@ -1,0 +1,62 @@
+{
+  "cases": [
+    {
+      "id": "zh2-no_edit-016",
+      "approve": true,
+      "reason": "口语表达完整，无明显必改问题，强保留要求合理。"
+    },
+    {
+      "id": "zh2-facts-001",
+      "approve": true,
+      "reason": "数据归属与差值准确，妥善处理主体含混的评价。"
+    },
+    {
+      "id": "zh2-facts-002",
+      "approve": true,
+      "reason": "引文准确，保留数值限定与推测强度，不擅自核改原稿。"
+    },
+    {
+      "id": "zh2-facts-003",
+      "approve": true,
+      "reason": "监管对象、数字及措施忠实，预测未被强制确定化。"
+    },
+    {
+      "id": "zh2-facts-004",
+      "approve": true,
+      "reason": "忠实保留原稿节点与观点，并明确不认证历史真实性。"
+    },
+    {
+      "id": "zh2-facts-005",
+      "approve": true,
+      "reason": "比例、分母与示例属性准确，合理限制收益保证式改写。"
+    },
+    {
+      "id": "zh2-facts-006",
+      "approve": true,
+      "reason": "伤亡口径、消息归属、事件顺序及无人认领状态均准确。"
+    },
+    {
+      "id": "zh2-facts-007",
+      "approve": false,
+      "reason": "task强制保留“条件式遗憾”，但原文明确未听出后悔，不能将条件式感慨定性为遗憾。"
+    }
+  ],
+  "metadata": {
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 28.67,
+    "input_sha256": "aee64724e817cfc2a0a1e276854e2d4f848282ed1320d2d8219399323b1ceb1e",
+    "system_sha256": "0c41b551a96d085bbc3597749915f67732aa702736eddffdb625f85696aded81",
+    "usage": [
+      {
+        "input_tokens": 24426,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 408,
+        "reasoning_output_tokens": 98
+      }
+    ],
+    "review_type": "independent_context_model_review",
+    "human_review": false
+  }
+}

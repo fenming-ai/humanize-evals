@@ -1,0 +1,67 @@
+{
+  "cases": [
+    {
+      "id": "zh2-slop-057",
+      "approve": true,
+      "reason": "引文准确，保留原稿说法并明确未核实与风险边界。"
+    },
+    {
+      "id": "zh2-slop-058",
+      "approve": true,
+      "reason": "情节、时长与敬佩立场忠实，允许精简重复升华。"
+    },
+    {
+      "id": "zh2-slop-059",
+      "approve": true,
+      "reason": "论据与立场均有原文依据，未扩大授课主体的排他性。"
+    },
+    {
+      "id": "zh2-slop-060",
+      "approve": true,
+      "reason": "三项主题及主体归属准确，删改范围合理。"
+    },
+    {
+      "id": "zh2-slop-061",
+      "approve": true,
+      "reason": "保留助人自得与不求回报，未强制坐实故事真实性。"
+    },
+    {
+      "id": "zh2-slop-062",
+      "approve": true,
+      "reason": "两道菜的象征及包容立场准确，失败条件合理。"
+    },
+    {
+      "id": "zh2-slop-064",
+      "approve": true,
+      "reason": "模型、方法和结果均有依据，明确限制跨物种推广。"
+    },
+    {
+      "id": "zh2-slop-065",
+      "approve": true,
+      "reason": "赛果、逆转链及敬意忠于原稿，未要求补充现场事实。"
+    },
+    {
+      "id": "zh2-slop-066",
+      "approve": true,
+      "reason": "收支与用途保留准确，允许限定收益及有问题的结余推算。"
+    }
+  ],
+  "metadata": {
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 27.47,
+    "input_sha256": "60941be6809881306ed7728ec20132f2ab42b12c2a3c001b2a9913e455a851b8",
+    "system_sha256": "0c41b551a96d085bbc3597749915f67732aa702736eddffdb625f85696aded81",
+    "usage": [
+      {
+        "input_tokens": 23789,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 366,
+        "reasoning_output_tokens": 36
+      }
+    ],
+    "review_type": "independent_context_model_review",
+    "human_review": false
+  }
+}

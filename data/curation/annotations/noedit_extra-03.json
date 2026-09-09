@@ -1,0 +1,267 @@
+{
+  "cases": [
+    {
+      "id": "zh2-no_edit-qx031",
+      "suitable": true,
+      "reason": "叙述清楚，人物与矿种可区分",
+      "task": "面向新闻读者保留矿区旅游报道，可原样输出，不省略矿史、人物和数字。",
+      "audience": "新闻读者",
+      "must_preserve": [
+        {
+          "quote": "智利借此“余温”推出煤矿旅游项目",
+          "requirement": "保留铜矿救援带动煤矿旅游的关系"
+        },
+        {
+          "quote": "1997年因经营不善关闭",
+          "requirement": "保留1884年开挖及关闭时间、原因"
+        },
+        {
+          "quote": "他仍希望煤矿有一天可以重新开放",
+          "requirement": "保留雷耶斯售日历及盼重开的愿望"
+        }
+      ],
+      "voice_quote": "如今，他摇身一变成了导游",
+      "voice": "平实报道中带人物生活感",
+      "allowed_changes": [
+        "允许完整原样输出",
+        "仅微调标点，不删事实"
+      ],
+      "failure_conditions": [
+        "把旅游煤矿写成救援铜矿",
+        "混淆罗哈斯与雷耶斯的现职"
+      ],
+      "scoring_note": "矿种和人物最易误伤，压缩可能合并不同对象。"
+    },
+    {
+      "id": "zh2-no_edit-qx032",
+      "suitable": true,
+      "reason": "事件、伤情与后续安排清楚",
+      "task": "面向新闻读者保留迫降消息，允许原样输出，不省略伤情、航线与后续安排。",
+      "audience": "新闻读者",
+      "must_preserve": [
+        {
+          "quote": "目前已有6人被送往医院",
+          "requirement": "保留已送医6人，不等同全部伤者"
+        },
+        {
+          "quote": "造成1名机组人员和多名乘客受伤",
+          "requirement": "保留伤者主体及强气流原因"
+        },
+        {
+          "quote": "当天下午改乘另一架航班前往洛杉矶",
+          "requirement": "保留美联航声明中的其余乘客安排"
+        }
+      ],
+      "voice_quote": "据加拿大广播公司报道",
+      "voice": "客观转述，明确消息归属",
+      "allowed_changes": [
+        "允许完整原样输出",
+        "仅整理标点与段落"
+      ],
+      "failure_conditions": [
+        "把6人写成全部受伤人数",
+        "把蒙特利尔写成原定目的地"
+      ],
+      "scoring_note": "伤者统计口径最易误伤，送医人数不代表伤者总数。"
+    },
+    {
+      "id": "zh2-no_edit-qx033",
+      "suitable": false,
+      "reason": "开场跳至赛末，“随后”缺少承接",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-qx034",
+      "suitable": true,
+      "reason": "娱乐报道清楚，赞语属原有口吻",
+      "task": "面向娱乐读者保留节目报道，可原样输出，不删获奖经历、婚姻与醉驾话题。",
+      "audience": "娱乐新闻读者",
+      "must_preserve": [
+        {
+          "quote": "由黎燕珊(珊姐)及冯家俊主持",
+          "requirement": "保留两位主持人与叶童嘉宾身份"
+        },
+        {
+          "quote": "两次获得香港电影金像奖“影后”的殊荣",
+          "requirement": "保留两次获奖及对应的两部影片"
+        },
+        {
+          "quote": "丈夫陈国熹于事件发生后对她的支持",
+          "requirement": "保留叶童自述丈夫支持她面对控告"
+        }
+      ],
+      "voice_quote": "其演技实在无可置疑",
+      "voice": "带赞赏的娱乐报道口吻",
+      "allowed_changes": [
+        "允许完整原样输出",
+        "仅统一括号、空格"
+      ],
+      "failure_conditions": [
+        "把醉驾被罚停牌改成无罪",
+        "将丈夫支持写成记者独立核实"
+      ],
+      "scoring_note": "赞赏语气易被过度中和，不应仅因褒扬判为须改。"
+    },
+    {
+      "id": "zh2-no_edit-qx035",
+      "suitable": false,
+      "reason": "“七名局官员”残缺，部长名不一致",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-qx036",
+      "suitable": false,
+      "reason": "开头“报道昨日”存在明显语序问题",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-qx037",
+      "suitable": false,
+      "reason": "“或直接键入”后缺失查询地址",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-qx038",
+      "suitable": true,
+      "reason": "比分进程与胜负叙述完整",
+      "task": "面向篮球读者保留比赛简报，可原样输出，不省略比分、球员数据和伤退情况。",
+      "audience": "篮球读者",
+      "must_preserve": [
+        {
+          "quote": "狂热在主场以73-66击败风暴",
+          "requirement": "保留主客场、最终比分及双方赛季首胜败"
+        },
+        {
+          "quote": "狂热大将格里菲什首节就受伤离场",
+          "requirement": "保留首节伤退且此后未回归"
+        },
+        {
+          "quote": "以66-56取得10分的优势",
+          "requirement": "保留第四节7比2攻势及扩大领先"
+        }
+      ],
+      "voice_quote": "终于取得新赛季首胜",
+      "voice": "简明战报，略带胜利感叹",
+      "allowed_changes": [
+        "允许完整原样输出",
+        "仅整理分节段落"
+      ],
+      "failure_conditions": [
+        "将风暴36-38写成半场领先",
+        "删除或调换球员得分、篮板归属"
+      ],
+      "scoring_note": "比分主体易误伤，半场比分以风暴为先列。"
+    },
+    {
+      "id": "zh2-no_edit-qx039",
+      "suitable": true,
+      "reason": "招生类型与调剂条件交代明确",
+      "task": "面向考研读者保留招生消息，可原样输出，不省略分类、日期及调剂资格。",
+      "audience": "考研读者",
+      "must_preserve": [
+        {
+          "quote": "分学术型和全日制专业学位两个类型",
+          "requirement": "保留两类招生分别确定初试基本要求"
+        },
+        {
+          "quote": "今年分数线整体呈下降趋势",
+          "requirement": "保留考试院人士与去年对比的判断"
+        },
+        {
+          "quote": "有调剂愿望的上线考生",
+          "requirement": "保留上线条件及3月28日至5月5日窗口"
+        }
+      ],
+      "voice_quote": "并按有关要求做好相关申请和确认工作",
+      "voice": "客观消息兼有办事提示",
+      "allowed_changes": [
+        "允许完整原样输出",
+        "仅微调分段与标点"
+      ],
+      "failure_conditions": [
+        "将整体下降改成所有专业均下降",
+        "将调剂对象扩为所有考生"
+      ],
+      "scoring_note": "趋势范围容易被扩大，整体下降不等于每条线下降。"
+    },
+    {
+      "id": "zh2-no_edit-qx040",
+      "suitable": true,
+      "reason": "发行信息及资产比例边界清楚",
+      "task": "面向基金资讯读者保留公告，可原样输出，不省略基金身份、发售期及配置限制。",
+      "audience": "基金资讯读者",
+      "must_preserve": [
+        {
+          "quote": "自8月17日起至9月18日公开发售",
+          "requirement": "保留发售期及更名后首只获批发行身份"
+        },
+        {
+          "quote": "不低于权益类资产的80%",
+          "requirement": "保留权益占60%—95%及精选股票占比下限"
+        },
+        {
+          "quote": "不低于基金资产净值的5%",
+          "requirement": "保留现金或一年内国债下限及固收等5%—40%"
+        }
+      ],
+      "voice_quote": "投资组合的资产配置范围为",
+      "voice": "公告式陈述，比例界限严谨",
+      "allowed_changes": [
+        "允许完整原样输出",
+        "可将配置条款分行，不删条件"
+      ],
+      "failure_conditions": [
+        "将80%的分母改为基金总资产",
+        "将一年内国债改成任意期限债券"
+      ],
+      "scoring_note": "比例分母最易误伤，基金资产、权益资产与净值不可混用。"
+    }
+  ],
+  "metadata": {
+    "job": "noedit_extra-03",
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 72.13,
+    "system_sha256": "2c85943d84beabe7f1c8a64f793323c3fb90f4110f4f66ac756b1b69b3faf06e",
+    "input_sha256": "2dea7d771cdff6fbfb07c6441935a5aeb0f97615e4223d6ae381ffc36b2820b1",
+    "usage": [
+      {
+        "input_tokens": 18253,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2006,
+        "reasoning_output_tokens": 188
+      }
+    ],
+    "review_type": "model_annotation",
+    "human_review": false
+  }
+}

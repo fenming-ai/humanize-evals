@@ -1,0 +1,72 @@
+{
+  "cases": [
+    {
+      "id": "zh2-facts-009",
+      "approve": true,
+      "reason": "涨跌对应、归因主体及干预条件均忠实原稿，验收边界合理。"
+    },
+    {
+      "id": "zh2-facts-010",
+      "approve": true,
+      "reason": "日期与指标对应准确，分红口径和预测均有来源及不确定性限制。"
+    },
+    {
+      "id": "zh2-facts-011",
+      "approve": true,
+      "reason": "准确保留非对抗立场与协商建议，允许删除泛化性能描述。"
+    },
+    {
+      "id": "zh2-facts-012",
+      "approve": true,
+      "reason": "录取范围和统计准确，政策目标、培养建议与未来预测区分合理。"
+    },
+    {
+      "id": "zh2-facts-013",
+      "approve": true,
+      "reason": "忠实保留原稿参数并限定来源，未将资金门槛升级为交易保证。"
+    },
+    {
+      "id": "zh2-facts-014",
+      "approve": true,
+      "reason": "考试层次、科目数量及时间条件准确，完整性要求符合通知任务。"
+    },
+    {
+      "id": "zh2-facts-015",
+      "approve": true,
+      "reason": "规模、收益及同比口径对应正确，未强制保留未经证实的因果。"
+    },
+    {
+      "id": "zh2-facts-016",
+      "approve": true,
+      "reason": "硕博比例、平均津贴及试点计划边界准确，失败条件合理。"
+    },
+    {
+      "id": "zh2-facts-017",
+      "approve": true,
+      "reason": "募资、占比与收益指标区分清楚，来源归属及预测边界合理。"
+    },
+    {
+      "id": "zh2-facts-018",
+      "approve": true,
+      "reason": "人物经历和成绩忠实原稿，明确来源限定，允许删除外围推断。"
+    }
+  ],
+  "metadata": {
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 25.33,
+    "input_sha256": "f5fdf50bf3cc029ee233b9e8577f36422ea01e60c4577b7c564df79a25aeac1f",
+    "system_sha256": "0c41b551a96d085bbc3597749915f67732aa702736eddffdb625f85696aded81",
+    "usage": [
+      {
+        "input_tokens": 26394,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 433,
+        "reasoning_output_tokens": 50
+      }
+    ],
+    "review_type": "independent_context_model_review",
+    "human_review": false
+  }
+}

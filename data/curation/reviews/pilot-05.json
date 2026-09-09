@@ -1,0 +1,67 @@
+{
+  "cases": [
+    {
+      "id": "zh2-facts-019",
+      "approve": true,
+      "reason": "引文准确，配置、反馈主体及评价强度边界合理。"
+    },
+    {
+      "id": "zh2-facts-020",
+      "approve": true,
+      "reason": "忠实保留消息来源、伤亡下限与调查状态，失败条件合理。"
+    },
+    {
+      "id": "zh2-voice_emotion-001",
+      "approve": true,
+      "reason": "隐喻、讥讽及立场限定有原文依据，未将假想强制为事实。"
+    },
+    {
+      "id": "zh2-voice_emotion-002",
+      "approve": true,
+      "reason": "准确保留演唱与创作的分判及褒贬共存的声音。"
+    },
+    {
+      "id": "zh2-voice_emotion-003",
+      "approve": true,
+      "reason": "梦境框架、两场共情与梦醒收尾均有依据，允许合理压缩。"
+    },
+    {
+      "id": "zh2-voice_emotion-004",
+      "approve": true,
+      "reason": "商业判断与讽刺声音提取准确，未强化时效或因果。"
+    },
+    {
+      "id": "zh2-voice_emotion-005",
+      "approve": true,
+      "reason": "正确区分反讽、心理推测与辱骂，保留论战立场的要求合理。"
+    },
+    {
+      "id": "zh2-voice_emotion-006",
+      "approve": true,
+      "reason": "声部、亲情细节及离世暗示均忠实原文，未补具体灾情。"
+    },
+    {
+      "id": "zh2-voice_emotion-007",
+      "approve": true,
+      "reason": "条件划分和转引层级准确，允许修整断句及悬空结尾。"
+    }
+  ],
+  "metadata": {
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 31.06,
+    "input_sha256": "45582d01a77e87e0037e2a18aedd8da6f40aaf18c6d84cc72b163fec5cf41a42",
+    "system_sha256": "0c41b551a96d085bbc3597749915f67732aa702736eddffdb625f85696aded81",
+    "usage": [
+      {
+        "input_tokens": 26781,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 483,
+        "reasoning_output_tokens": 113
+      }
+    ],
+    "review_type": "independent_context_model_review",
+    "human_review": false
+  }
+}

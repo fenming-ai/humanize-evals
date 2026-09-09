@@ -1,0 +1,248 @@
+{
+  "cases": [
+    {
+      "id": "zh2-no_edit-033",
+      "suitable": true,
+      "reason": "新闻导语复述合理，数据层次清楚",
+      "task": "面向财经读者验收保留型稿件，可全文照录，不省略统计范围、盈亏与申赎分化。",
+      "audience": "财经读者",
+      "must_preserve": [
+        {
+          "quote": "25家基金公司旗下212只基金",
+          "requirement": "保留首批统计范围，勿扩至全行业"
+        },
+        {
+          "quote": "已实现收益仍然为正，达到436．47亿元",
+          "requirement": "区分已实现收益与季度亏损"
+        },
+        {
+          "quote": "净赎回比例高达39．99％和20．97％",
+          "requirement": "依次对应货币型、债券型基金"
+        }
+      ],
+      "voice_quote": "从不同基金类别来看，分化较为严重。",
+      "voice": "数据主导的财经报道",
+      "allowed_changes": [
+        "允许原样输出",
+        "仅统一数字符号，不删新闻导语"
+      ],
+      "failure_conditions": [
+        "把233．59亿元写成全年亏损",
+        "把指数型、保本基金写成净赎回"
+      ],
+      "scoring_note": "易误删重复数据；导语与正文复述属新闻结构。"
+    },
+    {
+      "id": "zh2-no_edit-034",
+      "suitable": false,
+      "reason": "断句混乱，末句条件关系不清",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-035",
+      "suitable": false,
+      "reason": "苏卫视与江苏卫视称谓明显不一致",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-036",
+      "suitable": false,
+      "reason": "影票疑为错字，末句语义衔接不畅",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-037",
+      "suitable": true,
+      "reason": "口语自然，建议与亲历边界清楚",
+      "task": "面向证券求职者保留口语答复，可原样输出，不删岗位差异、行情提醒或个人收获。",
+      "audience": "证券行业求职者",
+      "must_preserve": [
+        {
+          "quote": "看你从事哪个岗位啦",
+          "requirement": "保留先看具体岗位的限定"
+        },
+        {
+          "quote": "同时建议结合当前股市的行情",
+          "requirement": "保留行情影响生计的提醒"
+        },
+        {
+          "quote": "会想到找我了解一下（骄傲骄傲）",
+          "requirement": "保留朋友来咨询带来的自豪"
+        }
+      ],
+      "voice_quote": "不然能不能养活自己就两说了",
+      "voice": "直白提醒中带亲历自豪",
+      "allowed_changes": [
+        "允许原样输出",
+        "仅轻调标点，保留口语和括号情绪"
+      ],
+      "failure_conditions": [
+        "把学历优先扩成全行业唯一标准",
+        "删去朋友咨询及骄傲情绪"
+      ],
+      "scoring_note": "易把口语误作瑕疵，抹平求职经验分享的声音。"
+    },
+    {
+      "id": "zh2-no_edit-038",
+      "suitable": true,
+      "reason": "消息背景与发言层次完整清楚",
+      "task": "面向新闻读者保留历史报道，可照录；不删两组问答、选举背景及外交表态边界。",
+      "audience": "新闻读者",
+      "must_preserve": [
+        {
+          "quote": "目前中国与洪都拉斯没有外交关系",
+          "requirement": "保留报道当时状态，不当作现状"
+        },
+        {
+          "quote": "塞拉亚表示不会承认此次选举的合法性",
+          "requirement": "不承认选举的主体是塞拉亚"
+        },
+        {
+          "quote": "在边界问题最终解决之前",
+          "requirement": "保留中印共同维护边境安宁的条件"
+        }
+      ],
+      "voice_quote": "中方希望洪都拉斯国内形势尽快恢复稳定",
+      "voice": "克制正式的外交新闻语气",
+      "allowed_changes": [
+        "允许原样输出",
+        "仅分段区分洪都拉斯与中印话题"
+      ],
+      "failure_conditions": [
+        "把不承认选举写成中方立场",
+        "把印媒阻路说法写成中方承认"
+      ],
+      "scoring_note": "易混淆提问、报道与官方表态的主体及历史时态。"
+    },
+    {
+      "id": "zh2-no_edit-039",
+      "suitable": true,
+      "reason": "收益时点与业务安排表达清楚",
+      "task": "面向基金资讯读者保留报道，可照录；不删收益时点、测算限定、业务渠道及三类对象。",
+      "audience": "基金资讯读者",
+      "must_preserve": [
+        {
+          "quote": "截至10月16日，该基金已取得4.4%的回报",
+          "requirement": "保留回报数值与对应时点"
+        },
+        {
+          "quote": "初步测算，截至20日",
+          "requirement": "超过7%为初测的十交易日增长率"
+        },
+        {
+          "quote": "将于10月23日开放日常申购、赎回",
+          "requirement": "保留开放日期及定投、转换业务"
+        }
+      ],
+      "voice_quote": "该基金适合三类人购买",
+      "voice": "正面介绍型基金资讯",
+      "allowed_changes": [
+        "允许原样输出",
+        "仅调整业务及渠道列表标点"
+      ],
+      "failure_conditions": [
+        "把超过7%写成确定的未来收益",
+        "删去趋势投资或资产配置适用对象"
+      ],
+      "scoring_note": "易将报道的正面语气强化成收益保证或购买指令。"
+    },
+    {
+      "id": "zh2-no_edit-040",
+      "suitable": false,
+      "reason": "目地为明显错字，主语后逗号不当",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-041",
+      "suitable": true,
+      "reason": "概念说明简洁，外部例题仅作指引",
+      "task": "面向算法学习者保留简答，可全文照录；不删网络概念分流与单调性说明，不补外部例题。",
+      "audience": "算法学习者",
+      "must_preserve": [
+        {
+          "quote": "计算机网络中的滑动窗口请参阅相关书籍",
+          "requirement": "保留网络用法另行查阅的边界"
+        },
+        {
+          "quote": "其最优决策的右端点位置单调不减",
+          "requirement": "保留左端点增加时右端点的单调性"
+        },
+        {
+          "quote": "利用决策单调性来实现复杂度优化",
+          "requirement": "保留单调性与复杂度优化的联系"
+        }
+      ],
+      "voice_quote": "一般可以理解为",
+      "voice": "简短技术解释，带理解限定",
+      "allowed_changes": [
+        "允许原样输出",
+        "仅轻调断句，保留引用指引"
+      ],
+      "failure_conditions": [
+        "把右端点单调不减改成严格递增",
+        "补造所引用第二三四题的题目内容"
+      ],
+      "scoring_note": "易把简答扩成教程；外部引用不授权补造例题。"
+    },
+    {
+      "id": "zh2-no_edit-042",
+      "suitable": false,
+      "reason": "姓名含问号，承诺的分组表缺失",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    }
+  ],
+  "metadata": {
+    "job": "rest-08",
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 71.12,
+    "system_sha256": "2c85943d84beabe7f1c8a64f793323c3fb90f4110f4f66ac756b1b69b3faf06e",
+    "input_sha256": "c03398d686deba9b02523ddb0d2d3fb54899c5873a49bbb1f656833e39183714",
+    "usage": [
+      {
+        "input_tokens": 17825,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1752,
+        "reasoning_output_tokens": 133
+      }
+    ],
+    "review_type": "model_annotation",
+    "human_review": false
+  }
+}

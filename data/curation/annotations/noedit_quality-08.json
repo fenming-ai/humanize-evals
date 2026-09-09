@@ -1,0 +1,279 @@
+{
+  "cases": [
+    {
+      "id": "zh2-no_edit-q081",
+      "suitable": true,
+      "reason": "通报信息清楚，分类数字明确",
+      "task": "面向新闻读者保留抽检通报，可全文原样输出；不删各类抽检数字及监管要求。",
+      "audience": "新闻读者",
+      "must_preserve": [
+        {
+          "quote": "抽检产品均符合相应的三聚氰胺临时管理限量值规定",
+          "requirement": "合格限于此次抽检及该限量标准"
+        },
+        {
+          "quote": "13个品牌30批次婴幼儿配方乳粉",
+          "requirement": "四类产品的省份、品牌、批次数均保留"
+        },
+        {
+          "quote": "设置放心乳品柜台，保障市场充足供应优质安全乳品",
+          "requirement": "保留张贴名单、设柜及供应要求"
+        }
+      ],
+      "voice_quote": "质检总局13日通报称",
+      "voice": "客观转述监管通报",
+      "allowed_changes": [
+        "可原样输出，仅作必要排版"
+      ],
+      "failure_conditions": [
+        "把抽检合格扩大为全部乳品安全",
+        "删改四类抽检数字或张贴名单要求"
+      ],
+      "scoring_note": "最易误伤事实边界：限量合格不等于全面安全。"
+    },
+    {
+      "id": "zh2-no_edit-q082",
+      "suitable": true,
+      "reason": "行动范围与后续安排交代完整",
+      "task": "面向新闻读者保留搜救报道，可原样输出；不省略规模、排除区域及伤亡统计时点。",
+      "audience": "新闻读者",
+      "must_preserve": [
+        {
+          "quote": "一共搜寻到77名遇难者遗体",
+          "requirement": "保留三天搜寻结果及飞机舰艇兵力"
+        },
+        {
+          "quote": "不包括福岛第一核电站半径30公里以内的范围",
+          "requirement": "保留搜索区域及核电站排除范围"
+        },
+        {
+          "quote": "已确认造成12087人死亡，目前仍有15552人失踪",
+          "requirement": "保留两项人数及3日20时统计界限"
+        }
+      ],
+      "voice_quote": "但将缩小搜索规模",
+      "voice": "克制客观的灾情报道",
+      "allowed_changes": [
+        "可原样输出，仅整理段落"
+      ],
+      "failure_conditions": [
+        "将大规模行动结束写成停止搜索",
+        "删掉核电站排除范围或统计时点"
+      ],
+      "scoring_note": "最易误伤否定边界：结束本轮不等于终止搜救。"
+    },
+    {
+      "id": "zh2-no_edit-q083",
+      "suitable": true,
+      "reason": "罢工时序及参与边界清楚",
+      "task": "面向新闻读者保留罢工报道，可原样输出；不删时间差、航班影响、诉求及参与例外。",
+      "audience": "新闻读者",
+      "must_preserve": [
+        {
+          "quote": "罗马公交工人从当地时间早上8点30开始罢工",
+          "requirement": "保留罗马时间及米兰晚15分钟"
+        },
+        {
+          "quote": "其雇员从中午开始罢工4个小时",
+          "requirement": "航空雇员罢工四小时、取消六趟国内航班"
+        },
+        {
+          "quote": "该国最主要的公交联合会没有参与这次行动",
+          "requirement": "保留未参与主体及高峰基本服务承诺"
+        }
+      ],
+      "voice_quote": "交通情况受到不同程度影响",
+      "voice": "平实报道，不渲染瘫痪",
+      "allowed_changes": [
+        "可原样输出，仅规范时间排版"
+      ],
+      "failure_conditions": [
+        "将所有城市罢工写成同时开始",
+        "写成主要联合会参加或高峰完全停运"
+      ],
+      "scoring_note": "最易误伤主体边界：公交与航空罢工时长不同。"
+    },
+    {
+      "id": "zh2-no_edit-q084",
+      "suitable": true,
+      "reason": "政策措施与事故背景衔接清楚",
+      "task": "面向新闻读者保留航空安全报道，可原样输出；不删措施条件和三起事故明细。",
+      "audience": "新闻读者",
+      "must_preserve": [
+        {
+          "quote": "中止那些违反航空法的航空公司的经营活动",
+          "requirement": "保留拟立法免法律程序中止经营的条件"
+        },
+        {
+          "quote": "租用性能可靠的飞机的航空公司进行财政补贴",
+          "requirement": "保留补贴对象及淘汰、罚金、培训措施"
+        },
+        {
+          "quote": "一架雅克－42型客机在雅罗斯拉夫尔州坠毁",
+          "requirement": "三起事故日期、机型、地点及死亡数均保留"
+        }
+      ],
+      "voice_quote": "俄总统新闻局11日发布消息说",
+      "voice": "归因明确的新闻转述",
+      "allowed_changes": [
+        "可原样输出，仅整理段落"
+      ],
+      "failure_conditions": [
+        "把总统要求写成措施已全部实施",
+        "将补贴扩大到所有航空公司"
+      ],
+      "scoring_note": "最易误伤政策状态：要求采取措施不是执行结果。"
+    },
+    {
+      "id": "zh2-no_edit-q085",
+      "suitable": true,
+      "reason": "任命与履历简洁清楚",
+      "task": "面向基金信息读者保留任命简讯，可原样输出；不删共同管理关系、资历及履历。",
+      "audience": "基金信息读者",
+      "must_preserve": [
+        {
+          "quote": "与现任基金经理刘杰文先生共同管理该基金",
+          "requirement": "沈洋加入共同管理，并非替换刘杰文"
+        },
+        {
+          "quote": "金融管理硕士，6年证券从业经历",
+          "requirement": "保留学位专业与从业年限"
+        },
+        {
+          "quote": "中欧新蓝筹灵活配置混合型证券投资基金基金经理助理",
+          "requirement": "保留历任研究员、高级研究员及助理经历"
+        }
+      ],
+      "voice_quote": "中欧基金周五公告称",
+      "voice": "简短中性的任命公告转述",
+      "allowed_changes": [
+        "允许完整原样输出"
+      ],
+      "failure_conditions": [
+        "写成刘杰文离任或沈洋独自管理",
+        "将六年证券经历改为六年基金经理经历"
+      ],
+      "scoring_note": "最易误伤履历边界：从业经历不等于任职年限。"
+    },
+    {
+      "id": "zh2-no_edit-q086",
+      "suitable": true,
+      "reason": "新旧办法时间及变化交代明确",
+      "task": "面向政策新闻读者保留办法发布消息，可原样输出；不删新旧时间、令号及制度变化。",
+      "audience": "政策新闻读者",
+      "must_preserve": [
+        {
+          "quote": "决定该办法自2010年3月1日起施行",
+          "requirement": "区分1月4日签发与3月1日施行"
+        },
+        {
+          "quote": "司法部令第36号)同时废止",
+          "requirement": "旧第36号令随新第120号令施行废止"
+        },
+        {
+          "quote": "建立了律师事务所名称预核准制度",
+          "requirement": "保留预核准、分所命名及两类称谓取消"
+        }
+      ],
+      "voice_quote": "据司法部网站消息",
+      "voice": "中性转述制度变化",
+      "allowed_changes": [
+        "可原样输出，仅统一括号样式"
+      ],
+      "failure_conditions": [
+        "把签发日写成施行日",
+        "删掉旧办法废止或名称预核准制度"
+      ],
+      "scoring_note": "最易误伤时间关系：发布与施行并非同一天。"
+    },
+    {
+      "id": "zh2-no_edit-q087",
+      "suitable": false,
+      "reason": "“我省”无明确省名，指代依赖缺失语境",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-q088",
+      "suitable": false,
+      "reason": "首句“在16个哺乳动物的”搭配不清",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-q089",
+      "suitable": false,
+      "reason": "“何鸿?”姓名损坏，明显需要修订",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-q090",
+      "suitable": true,
+      "reason": "峰会目的、承诺及议题层次清楚",
+      "task": "面向国际新闻读者保留峰会预告，可原样输出；不删三大承诺、六大议题及消息来源。",
+      "audience": "国际新闻读者",
+      "must_preserve": [
+        {
+          "quote": "二十国集团领导人2日在英国首都伦敦召开金融峰会",
+          "requirement": "保留会议主体、日期、地点及应对危机目的"
+        },
+        {
+          "quote": "此次峰会将做出三大承诺",
+          "requirement": "保留三项承诺内容及尚待做出的状态"
+        },
+        {
+          "quote": "加强金融监管，反对保护主义，帮助发展中国家",
+          "requirement": "完整保留六项拟讨论议题"
+        }
+      ],
+      "voice_quote": "据伦敦金融峰会官方网站介绍",
+      "voice": "有来源归属的前瞻报道",
+      "allowed_changes": [
+        "可原样输出，亦可分行呈现枚举"
+      ],
+      "failure_conditions": [
+        "把拟作承诺写成已达成成果",
+        "漏掉六大议题中的恢复放贷或增资"
+      ],
+      "scoring_note": "最易误伤时态：峰会预期不应改成会后成果。"
+    }
+  ],
+  "metadata": {
+    "job": "noedit_quality-08",
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 73.69,
+    "system_sha256": "2c85943d84beabe7f1c8a64f793323c3fb90f4110f4f66ac756b1b69b3faf06e",
+    "input_sha256": "00d250495815f40c3fba7c04d25a4ba09e7cc6fb876b3e57adb45446fd5a9ac1",
+    "usage": [
+      {
+        "input_tokens": 18490,
+        "cached_input_tokens": 10368,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2140,
+        "reasoning_output_tokens": 105
+      }
+    ],
+    "review_type": "model_annotation",
+    "human_review": false
+  }
+}

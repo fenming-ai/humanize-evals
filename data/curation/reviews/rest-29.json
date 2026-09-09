@@ -1,0 +1,42 @@
+{
+  "cases": [
+    {
+      "id": "zh2-punctuation-035",
+      "approve": true,
+      "reason": "引文准确，保留反问、停顿与想象的不确定性，合同合理。"
+    },
+    {
+      "id": "zh2-coherence-011",
+      "approve": true,
+      "reason": "三类理由忠实原文，未强制视为已核实依据，衔接测试恰当。"
+    },
+    {
+      "id": "zh2-coherence-013",
+      "approve": true,
+      "reason": "引文准确，区分政府指控与拟起诉进展，未要求外部核实。"
+    },
+    {
+      "id": "zh2-coherence-014",
+      "approve": true,
+      "reason": "双方动机与用户疑虑均有原文依据，视角整理要求合理。"
+    }
+  ],
+  "metadata": {
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 17.47,
+    "input_sha256": "164f948a7b1eb2717d692c6bac8adc1e0242a5e62fa7ce14eaa7ca73c206e7f6",
+    "system_sha256": "0c41b551a96d085bbc3597749915f67732aa702736eddffdb625f85696aded81",
+    "usage": [
+      {
+        "input_tokens": 18505,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 202,
+        "reasoning_output_tokens": 32
+      }
+    ],
+    "review_type": "independent_context_model_review",
+    "human_review": false
+  }
+}

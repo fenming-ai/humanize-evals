@@ -1,0 +1,42 @@
+{
+  "cases": [
+    {
+      "id": "zh2-no_edit-q094",
+      "approve": true,
+      "reason": "原稿完整；价位、条件预测和长短期判断保留要求准确。"
+    },
+    {
+      "id": "zh2-no_edit-q095",
+      "approve": true,
+      "reason": "摘要完整，定义、诊疗局限及综述范围均忠于原文。"
+    },
+    {
+      "id": "zh2-no_edit-q098",
+      "approve": true,
+      "reason": "赛况与引语完整，成绩、伤情及人物态度要求合理。"
+    },
+    {
+      "id": "zh2-no_edit-q100",
+      "approve": false,
+      "reason": "将“K红球堆”解释为“解球过程”不准确；原文描述的是撞开红球堆、打开台面。"
+    }
+  ],
+  "metadata": {
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 17.77,
+    "input_sha256": "9706579c6c822290991e93959a7b8df1d9637b7e51f48698244baccce104e86d",
+    "system_sha256": "0c41b551a96d085bbc3597749915f67732aa702736eddffdb625f85696aded81",
+    "usage": [
+      {
+        "input_tokens": 17889,
+        "cached_input_tokens": 9856,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 269,
+        "reasoning_output_tokens": 100
+      }
+    ],
+    "review_type": "independent_context_model_review",
+    "human_review": false
+  }
+}

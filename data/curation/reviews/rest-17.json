@@ -1,0 +1,67 @@
+{
+  "cases": [
+    {
+      "id": "zh2-facts-063",
+      "approve": true,
+      "reason": "签约主体、奖项及数据口径忠实，未要求外部核实。"
+    },
+    {
+      "id": "zh2-facts-064",
+      "approve": true,
+      "reason": "统计时点、收益类别与净流入口径准确，风险边界合理。"
+    },
+    {
+      "id": "zh2-facts-065",
+      "approve": true,
+      "reason": "邀约时间、方向及拒邀解释忠实，保留消息与引语归属。"
+    },
+    {
+      "id": "zh2-facts-066",
+      "approve": true,
+      "reason": "行情与收益比较符合原文，表态归属和预期边界清楚。"
+    },
+    {
+      "id": "zh2-facts-068",
+      "approve": true,
+      "reason": "申赎范围、净值时点及单周比较准确，经理判断未事实化。"
+    },
+    {
+      "id": "zh2-facts-069",
+      "approve": true,
+      "reason": "价格、数量及材质忠实，妥善保留账目差异与缺图边界。"
+    },
+    {
+      "id": "zh2-facts-070",
+      "approve": true,
+      "reason": "计算输入与估算范围忠实，明确区分假设和安全实装。"
+    },
+    {
+      "id": "zh2-facts-071",
+      "approve": true,
+      "reason": "日期、指数及资金方向准确，建议归属与收益边界合理。"
+    },
+    {
+      "id": "zh2-facts-072",
+      "approve": true,
+      "reason": "品牌车型对应及功率限定忠实，允许压缩泛化赞誉。"
+    }
+  ],
+  "metadata": {
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 23.86,
+    "input_sha256": "d09a7df4f54a3155b1d1dd65aff84f67b56759807f40c67b5594ec40f32584ac",
+    "system_sha256": "0c41b551a96d085bbc3597749915f67732aa702736eddffdb625f85696aded81",
+    "usage": [
+      {
+        "input_tokens": 21971,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 400,
+        "reasoning_output_tokens": 61
+      }
+    ],
+    "review_type": "independent_context_model_review",
+    "human_review": false
+  }
+}

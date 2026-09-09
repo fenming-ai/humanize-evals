@@ -1,0 +1,343 @@
+{
+  "cases": [
+    {
+      "id": "zh2-facts-r001",
+      "suitable": true,
+      "reason": "日期数字与预期状态可检验",
+      "task": "面向高考资讯读者压缩报道，可删成果套话，不省略时间、规模及消息归属。",
+      "audience": "高考资讯读者",
+      "must_preserve": [
+        {
+          "quote": "2023年高考阅卷工作于22日顺利结束",
+          "requirement": "保留新疆、年份及结束日期"
+        },
+        {
+          "quote": "今年共有15.8万名考生参与高考",
+          "requirement": "保留人数、教育厅归属及阅卷耗时7天"
+        },
+        {
+          "quote": "预计25日将统一公布考生成绩",
+          "requirement": "保留预计状态，不写成已公布"
+        }
+      ],
+      "voice_quote": "严格执行\"阅卷回避制度\"",
+      "voice": "克制的教育新闻口吻",
+      "allowed_changes": [
+        "删升学之路等套话",
+        "合并技术评价，保留专家归属"
+      ],
+      "failure_conditions": [
+        "把25日写成已确定或已公布成绩",
+        "改动15.8万人或7天，删回避制度"
+      ],
+      "scoring_note": "易将预测改成确定事实；技术成效也不能脱离专家归属。"
+    },
+    {
+      "id": "zh2-facts-r002",
+      "suitable": true,
+      "reason": "伤亡下限及原因不确定性明确",
+      "task": "面向新闻读者精简事故报道，可删宏观评论，不省略伤亡、地点和调查状态。",
+      "audience": "新闻读者",
+      "must_preserve": [
+        {
+          "quote": "秘鲁当地时间4月4日凌晨",
+          "requirement": "保留当地时间及瓦努科坠湖事件"
+        },
+        {
+          "quote": "至少15人死亡，另有20余人受伤",
+          "requirement": "保留下限、约数及多人重伤"
+        },
+        {
+          "quote": "具体原因尚待进一步调查",
+          "requirement": "候选原因不得改成调查结论"
+        }
+      ],
+      "voice_quote": "对遇难者表示哀悼",
+      "voice": "严肃克制，尊重遇难者",
+      "allowed_changes": [
+        "删事故频发等背景泛论",
+        "合并官员回应与救援叙述"
+      ],
+      "failure_conditions": [
+        "将死亡人数写成恰好15人",
+        "认定驾驶失误或机械故障已获证实"
+      ],
+      "scoring_note": "伤亡数字的限定词最易在压缩时丢失。"
+    },
+    {
+      "id": "zh2-facts-r003",
+      "suitable": true,
+      "reason": "比例近似与调性取舍可保护",
+      "task": "面向音乐入门读者理顺解释，可删重复及泛化例证，不省略比例近似与转调取舍。",
+      "audience": "音乐入门读者",
+      "must_preserve": [
+        {
+          "quote": "一个八度音程被平均分成12个半音",
+          "requirement": "保留八度等分对象与半音数量"
+        },
+        {
+          "quote": "频率比例大约是1.059",
+          "requirement": "保留半音近似值及无理数性质"
+        },
+        {
+          "quote": "非常接近1.5的理想值",
+          "requirement": "保留五度约1.498及非精确比例"
+        }
+      ],
+      "voice_quote": "听觉系统能容忍这些小偏差",
+      "voice": "通俗解释，重在说明取舍",
+      "allowed_changes": [
+        "删逻辑推导等标签",
+        "压缩普遍听感断言与作品举例"
+      ],
+      "failure_conditions": [
+        "把1.059或1.498写成精确有理数比例",
+        "删去平均律转调灵活与纯律精确的对比"
+      ],
+      "scoring_note": "近似值易被写成精确值；听感观点不宜强化为人人如此。"
+    },
+    {
+      "id": "zh2-facts-r004",
+      "suitable": true,
+      "reason": "募集口径与市场判断易混淆",
+      "task": "面向基金资讯读者精简报道，可删行业展望套话，不省略募集口径、数据归属和风险。",
+      "audience": "基金资讯读者",
+      "must_preserve": [
+        {
+          "quote": "六只新基金同时启动发行",
+          "requirement": "保留昨日发行六只、偏股型四只"
+        },
+        {
+          "quote": "合计拟募集规模超过200亿元",
+          "requirement": "区分拟募总额、80亿上限与首日超30亿认购"
+        },
+        {
+          "quote": "占比已连续三个月超过60%",
+          "requirement": "保留Wind归属、上月末及新发基金分母"
+        }
+      ],
+      "voice_quote": "不过，也有业内人士提醒",
+      "voice": "资讯口吻，兼顾机会与风险",
+      "allowed_changes": [
+        "删改革机遇等空泛收尾",
+        "合并板块介绍与渠道反馈"
+      ],
+      "failure_conditions": [
+        "把拟募集超200亿写成已募集",
+        "把偏股基金利好预期写成收益保证"
+      ],
+      "scoring_note": "最易混淆目标、上限和实收；乐观观点仍须保留归属。"
+    },
+    {
+      "id": "zh2-facts-r005",
+      "suitable": true,
+      "reason": "选举主体与结果程序可检验",
+      "task": "面向国际新闻读者压缩选举报道，可删意义拔高，不省略候选人对应关系及结果程序。",
+      "audience": "国际新闻读者",
+      "must_preserve": [
+        {
+          "quote": "10月24日举行总统选举第二轮投票",
+          "requirement": "保留几内亚、日期及第二轮性质"
+        },
+        {
+          "quote": "首轮投票中两人分别获得33.5%和24.6%",
+          "requirement": "两比例依次对应迪亚洛、敦布亚"
+        },
+        {
+          "quote": "最终结果需经宪法法院确认",
+          "requirement": "保留初步结果预计72小时内及终审区别"
+        }
+      ],
+      "voice_quote": "呼吁各方保持克制，确保和平过渡",
+      "voice": "审慎的政治新闻语气",
+      "allowed_changes": [
+        "删关键时刻等意义套话",
+        "合并观察员与国际回应"
+      ],
+      "failure_conditions": [
+        "交换两名候选人的首轮得票率",
+        "把72小时内初步结果写成最终结果"
+      ],
+      "scoring_note": "只验来源忠实，不能将原稿政治叙述视为已获外部核实。"
+    },
+    {
+      "id": "zh2-facts-r006",
+      "suitable": true,
+      "reason": "任命时态和利好限定需保留",
+      "task": "面向基金资讯读者压缩人事报道，可删回报拔高，不省略任职时态、规模口径及风险限定。",
+      "audience": "基金资讯读者",
+      "must_preserve": [
+        {
+          "quote": "吕日将正式出任新任督察长",
+          "requirement": "保留东方基金、原任卸任及将任时态"
+        },
+        {
+          "quote": "东方基金管理资产规模突破2100亿元人民币",
+          "requirement": "保留截至2023年底的公司规模口径"
+        },
+        {
+          "quote": "短期内或增强投资者信心",
+          "requirement": "保留专家推测及过渡期业绩担忧"
+        }
+      ],
+      "voice_quote": "但需警惕潜在的市场波动风险",
+      "voice": "审慎分析，不作收益承诺",
+      "allowed_changes": [
+        "删行业扩张等泛评",
+        "删稳定回报预期的拔高收尾"
+      ],
+      "failure_conditions": [
+        "把吕日将任写成已完成履职",
+        "将可能利好写成必然改善业绩"
+      ],
+      "scoring_note": "人事变动与收益的推测关系易被强化，数字不能充当因果证据。"
+    },
+    {
+      "id": "zh2-facts-r007",
+      "suitable": true,
+      "reason": "球队数据与赛程范围具体",
+      "task": "面向篮球读者精简连败分析，可删灾难修辞，不省略球队数据、赛程范围及疲劳归属。",
+      "audience": "篮球读者",
+      "must_preserve": [
+        {
+          "quote": "遭遇了灾难性的五连败",
+          "requirement": "保留火箭西部客场之旅五连败"
+        },
+        {
+          "quote": "场均得分仅105.8分，远低于赛季平均的112.3分",
+          "requirement": "区分连败期与赛季场均得分"
+        },
+        {
+          "quote": "11天内连续打了7场比赛，其中6个客场",
+          "requirement": "保留赛程窗口，不与五连败场次混同"
+        }
+      ],
+      "voice_quote": "季后赛前景岌岌可危",
+      "voice": "忧虑而急切的赛况分析",
+      "allowed_changes": [
+        "删噩梦、化为泡影等重复渲染",
+        "合并数据段，保留指标主体"
+      ],
+      "failure_conditions": [
+        "将七场赛程写成七连败",
+        "将塞拉斯的疲劳判断写成已证实唯一原因"
+      ],
+      "scoring_note": "多个统计窗口易串位；原稿数据不因具体就视为已核实。"
+    },
+    {
+      "id": "zh2-facts-r008",
+      "suitable": true,
+      "reason": "比赛节点和临时角色明确",
+      "task": "面向体育读者压缩赛场故事，可删精神颂扬，不省略换位缘由、时间及比赛结果。",
+      "audience": "体育读者",
+      "must_preserve": [
+        {
+          "quote": "比赛进行到第88分钟",
+          "requirement": "保留该节点泰达门将因伤倒地"
+        },
+        {
+          "quote": "来自中场的吴伟安主动请缨",
+          "requirement": "保留中场球员主动临时守门，非专业门将"
+        },
+        {
+          "quote": "泰达队在补时阶段完成绝杀，以2比1逆转对手",
+          "requirement": "保留补时、绝杀、比分及逆转性质"
+        }
+      ],
+      "voice_quote": "今天能帮上忙，我很自豪。",
+      "voice": "赞赏担当，带有自豪感",
+      "allowed_changes": [
+        "删超越胜负等泛化赞歌",
+        "合并重复的勇敢与团队评价"
+      ],
+      "failure_conditions": [
+        "把吴伟安写成泰达专业门将",
+        "把2比1逆转写成吴伟安进球绝杀"
+      ],
+      "scoring_note": "赞美易添英雄事迹；守门贡献不能改成进球贡献。"
+    },
+    {
+      "id": "zh2-facts-r009",
+      "suitable": true,
+      "reason": "表演与本人评价边界鲜明",
+      "task": "面向娱乐资讯读者整理时间线，可删发酵套话，不省略回应主体或混同角色与演员本人。",
+      "audience": "娱乐资讯读者",
+      "must_preserve": [
+        {
+          "quote": "孙俪在角色塑造中展现的细腻演技",
+          "requirement": "讨论对象是表演，不是本人心机"
+        },
+        {
+          "quote": "2月20日，孙俪工作室对外回应",
+          "requirement": "保留日期及工作室主体，不改成本人发言"
+        },
+        {
+          "quote": "演员的职责是通过细腻的表演还原角色的内在世界",
+          "requirement": "保留工作室反对简单标签化的立场"
+        }
+      ],
+      "voice_quote": "艺术表演应该被理性看待",
+      "voice": "肯定演技，倡导理性解读",
+      "allowed_changes": [
+        "合并重复发酵及广泛讨论",
+        "压缩专家与网友的相近评价"
+      ],
+      "failure_conditions": [
+        "将角色的心机写成孙俪本人的品行",
+        "新增剧名或把工作室回应移至其他日期"
+      ],
+      "scoring_note": "最易误伤角色与真人边界；不得补造原稿未给出的剧名。"
+    },
+    {
+      "id": "zh2-facts-r010",
+      "suitable": true,
+      "reason": "赛事统计清楚且冗余突出",
+      "task": "面向高尔夫读者压缩首轮报道，可删景物与赞歌，不省略赛事轮次、人数及抓鸟统计。",
+      "audience": "高尔夫读者",
+      "must_preserve": [
+        {
+          "quote": "百龄坛冠军杯首轮赛事激情上演",
+          "requirement": "保留赛事名称及首轮范围"
+        },
+        {
+          "quote": "156人合力狂抓540只小鸟",
+          "requirement": "保留参赛人数与集体抓鸟总数"
+        },
+        {
+          "quote": "平均每人3只多，这样的成绩",
+          "requirement": "保留人均三只多，非每人均超过三只"
+        }
+      ],
+      "voice_quote": "首轮比赛中脱颖而出",
+      "voice": "欣喜赞赏，但不神化表现",
+      "allowed_changes": [
+        "删雄鹰、烟花及天气铺陈",
+        "压缩体育精神赞歌，可删罕见性断言"
+      ],
+      "failure_conditions": [
+        "把540只小鸟写成单人或全赛事成绩",
+        "新增领先选手姓名、排名或夺冠结果"
+      ],
+      "scoring_note": "平均数易变成人人达标；去套话不能删掉首轮统计核心。"
+    }
+  ],
+  "metadata": {
+    "job": "supplement-13",
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 93.41,
+    "system_sha256": "2c85943d84beabe7f1c8a64f793323c3fb90f4110f4f66ac756b1b69b3faf06e",
+    "input_sha256": "aa264574cb1d93851dd8207b4770e480127021b4558cf65772e791027de0d25e",
+    "usage": [
+      {
+        "input_tokens": 20031,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2780,
+        "reasoning_output_tokens": 51
+      }
+    ],
+    "review_type": "model_annotation",
+    "human_review": false
+  }
+}

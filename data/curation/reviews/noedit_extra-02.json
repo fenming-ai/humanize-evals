@@ -1,0 +1,52 @@
+{
+  "cases": [
+    {
+      "id": "zh2-no_edit-qx022",
+      "approve": true,
+      "reason": "原文完整通顺，四国主体、时间推测及人质人数均忠实。"
+    },
+    {
+      "id": "zh2-no_edit-qx023",
+      "approve": true,
+      "reason": "简讯完整，时间、签署主体及访问目的保留要求合理。"
+    },
+    {
+      "id": "zh2-no_edit-qx024",
+      "approve": true,
+      "reason": "引用准确，数量与待审批状态忠实，类别恰当。"
+    },
+    {
+      "id": "zh2-no_edit-qx026",
+      "approve": true,
+      "reason": "统计报道完整，无明显模板宣传问题，排名口径约束合理。"
+    },
+    {
+      "id": "zh2-no_edit-qx027",
+      "approve": true,
+      "reason": "倡议与希望均未强制转为事实，会议区分要求合理。"
+    },
+    {
+      "id": "zh2-no_edit-qx030",
+      "approve": true,
+      "reason": "原文完整，机场主体、数据及时点准确，失败条件合理。"
+    }
+  ],
+  "metadata": {
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 24.16,
+    "input_sha256": "d44e1d27a8ac7cbc79ccd10ad2e03907cf1064dedd976b17c086c5a7c8bcf09a",
+    "system_sha256": "0c41b551a96d085bbc3597749915f67732aa702736eddffdb625f85696aded81",
+    "usage": [
+      {
+        "input_tokens": 18746,
+        "cached_input_tokens": 9856,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 273,
+        "reasoning_output_tokens": 50
+      }
+    ],
+    "review_type": "independent_context_model_review",
+    "human_review": false
+  }
+}

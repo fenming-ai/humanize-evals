@@ -1,0 +1,37 @@
+{
+  "cases": [
+    {
+      "id": "zh2-no_edit-r095",
+      "approve": true,
+      "reason": "引文原样存在，人数与地域归属准确，保留要求合理。"
+    },
+    {
+      "id": "zh2-no_edit-r097",
+      "approve": true,
+      "reason": "原文完整，合同区分赛前悬念与即时战况，未强加赛果。"
+    },
+    {
+      "id": "zh2-no_edit-r098",
+      "approve": true,
+      "reason": "机构归属、历史时点及预测限定均忠实原文，类别恰当。"
+    }
+  ],
+  "metadata": {
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 27.75,
+    "input_sha256": "7f96ef081e82c42770fcc5a1c43877706605d9264fe3993b103c3dd586ac2216",
+    "system_sha256": "0c41b551a96d085bbc3597749915f67732aa702736eddffdb625f85696aded81",
+    "usage": [
+      {
+        "input_tokens": 17167,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 333,
+        "reasoning_output_tokens": 206
+      }
+    ],
+    "review_type": "independent_context_model_review",
+    "human_review": false
+  }
+}

@@ -1,0 +1,305 @@
+{
+  "cases": [
+    {
+      "id": "zh2-voice_emotion-067",
+      "suitable": true,
+      "reason": "引语情绪鲜明，需区分报道与猜测",
+      "task": "面向娱乐新闻读者整理报道，可压缩派送细节，不省祝福、婚期未定及否认息影。",
+      "audience": "娱乐新闻读者",
+      "must_preserve": [
+        {
+          "quote": "但仍表示祝福。喜饼的保鲜期限只有7天",
+          "requirement": "保留蓝正龙惊讶但祝福的态度"
+        },
+        {
+          "quote": "她表示因没时间筹备，所以还没定案",
+          "requirement": "婚期未定，不写成已有日期"
+        },
+        {
+          "quote": "大S经纪人豆豆否认：“绝对不可能！”",
+          "requirement": "保留经纪人强烈否认息影"
+        }
+      ],
+      "voice_quote": "想把舌尖爆炸的幸福感受，传达给每个人。",
+      "voice": "喜悦引语与娱乐报道口吻并存",
+      "allowed_changes": [
+        "压缩价格派送细节及重复问婚期",
+        "亲疏猜测可删或保留推测语气"
+      ],
+      "failure_conditions": [
+        "将前男友亲疏差异写成定论",
+        "把息影传闻写成大S决定"
+      ],
+      "scoring_note": "情绪来自不同说话者，勿把媒体猜测混成当事人态度。"
+    },
+    {
+      "id": "zh2-voice_emotion-068",
+      "suitable": true,
+      "reason": "批评立场明确，存在整段重复",
+      "task": "面向影视资讯读者去除重复、理顺报道，保留评选背景、限产态度和超支信息。",
+      "audience": "影视资讯读者",
+      "must_preserve": [
+        {
+          "quote": "2009年度大会暨新剧推介会在京举行",
+          "requirement": "保留年度会议及新剧推介背景"
+        },
+        {
+          "quote": "我支持国产剧限产，目前电视剧产业制作低下",
+          "requirement": "保留张纪中支持限产及批评缘由"
+        },
+        {
+          "quote": "新版《西游记》开拍才三分之一，预算已严重超支",
+          "requirement": "保留进度三分之一与严重超支"
+        }
+      ],
+      "voice_quote": "工业落后，充斥着不良风气。",
+      "voice": "报道克制，引语批评直接",
+      "allowed_changes": [
+        "删除完整重复段",
+        "整理署名及另讯衔接"
+      ],
+      "failure_conditions": [
+        "把张纪中支持限产改为反对",
+        "把严重超支弱化为可能超支"
+      ],
+      "scoring_note": "去重不能顺带磨平张纪中的强烈批评。"
+    },
+    {
+      "id": "zh2-voice_emotion-069",
+      "suitable": true,
+      "reason": "地域忧患与转型期待贯穿全文",
+      "task": "面向关心山西发展的读者理顺抒情议论，可减重复感叹，不删矿工记忆和转型期待。",
+      "audience": "关心山西发展的读者",
+      "must_preserve": [
+        {
+          "quote": "终于在近几十年来撑起了山西经济的命脉",
+          "requirement": "保留煤炭贡献与开采代价的张力"
+        },
+        {
+          "quote": "却系着全家人的生计，孩子的学费",
+          "requirement": "保留矿工谋生困境与童年目击"
+        },
+        {
+          "quote": "如果我们能营造一个良好的环境",
+          "requirement": "旅游转型期待保留环境条件"
+        }
+      ],
+      "voice_quote": "望山西不再哭泣，望山西重塑辉煌。",
+      "voice": "乡土心痛、追问与期盼交织",
+      "allowed_changes": [
+        "修正局部病句并压缩重复感叹",
+        "整理兔子比喻与转型论述衔接"
+      ],
+      "failure_conditions": [
+        "把矿工写成纯为暴利冒险",
+        "把旅游支柱写成已实现的事实"
+      ],
+      "scoring_note": "易把悲愤改成发展口号，损失矿工记忆与乡土关切。"
+    },
+    {
+      "id": "zh2-voice_emotion-070",
+      "suitable": true,
+      "reason": "反讽强烈且有明确让步边界",
+      "task": "面向讨论购物平台的读者梳理反驳，可减口头重复与群体贬语，不删讽刺、让步及时间限定。",
+      "audience": "购物平台讨论读者",
+      "must_preserve": [
+        {
+          "quote": "你说的故事是真的我愿意相信",
+          "requirement": "保留相信个案但反对美化的让步"
+        },
+        {
+          "quote": "淘宝各种乱象ebay基本都有",
+          "requirement": "保留作者对平台美化的反驳立场"
+        },
+        {
+          "quote": "一小时也有7-8刀了（5年前，现在不清楚）",
+          "requirement": "若留工资例子，须保留历史及不确定限定"
+        }
+      ],
+      "voice_quote": "哥你知道啥是paypal不？？",
+      "voice": "口语反问、恼火与冷嘲",
+      "allowed_changes": [
+        "压缩重复嘲讽，整理长句",
+        "删减阶层概括，不补平台证据"
+      ],
+      "failure_conditions": [
+        "将作者改成认同ebay是购物天堂",
+        "将7-8刀写成美国现行时薪"
+      ],
+      "scoring_note": "保留尖锐声音不等于将平台或阶层评价认证为事实。"
+    },
+    {
+      "id": "zh2-punctuation-009",
+      "suitable": true,
+      "reason": "引号与书名号承担概念及引文功能",
+      "task": "面向传统文化入门读者整理标点，可减总结套话，不混淆字、号及引文归属，不新增考据。",
+      "audience": "传统文化入门读者",
+      "must_preserve": [
+        {
+          "quote": "“字”是个人成年后在社交场合中使用的名字",
+          "requirement": "保留字的成年社交用途"
+        },
+        {
+          "quote": "据《礼记·曲礼》记载：“男子二十冠而字”",
+          "requirement": "保留书篇名层级与引文归属"
+        },
+        {
+          "quote": "“号”则更多地反映了个人的志趣爱好",
+          "requirement": "保留号与志趣的关联，区别于字"
+        }
+      ],
+      "voice_quote": "其实与中国传统文化中的礼仪规范和文化心理密切相关。",
+      "voice": "平实分层的文化解说",
+      "allowed_changes": [
+        "调整引号、冒号及断句",
+        "压缩首尾泛泛总结"
+      ],
+      "failure_conditions": [
+        "将《礼记·曲礼》拆成两本书",
+        "取消引文边界使原话与解说混杂"
+      ],
+      "scoring_note": "概念引号和引文引号功能不同，不能按出现次数统一删除。"
+    },
+    {
+      "id": "zh2-punctuation-010",
+      "suitable": true,
+      "reason": "主题引号与排比标点有明确功能",
+      "task": "面向随笔读者整理引号和排比停顿，可删重复号召，不省真实、待人真诚、自我坦诚三层。",
+      "audience": "随笔读者",
+      "must_preserve": [
+        {
+          "quote": "“真”是一种价值，也是一种态度",
+          "requirement": "保留真作为讨论主题的地位"
+        },
+        {
+          "quote": "为“真”守盼，也是对待他人真诚的体现",
+          "requirement": "保留待人真诚这一层"
+        },
+        {
+          "quote": "为“真”守盼，更是对自我坦诚的要求",
+          "requirement": "保留自我坦诚这一层"
+        }
+      ],
+      "voice_quote": "愿我们都能在追求真实的道路上，坚守初心，守望真诚",
+      "voice": "郑重劝勉，带集体号召感",
+      "allowed_changes": [
+        "合并重复号召及意义宣示",
+        "调整主题引号和排比停顿"
+      ],
+      "failure_conditions": [
+        "把主题“真”误标为他人直接引语",
+        "删去自我坦诚，只剩待人诚实"
+      ],
+      "scoring_note": "反复引号用于强调主题，不应仅因密集便判为赘余。"
+    },
+    {
+      "id": "zh2-punctuation-011",
+      "suitable": true,
+      "reason": "分号组织结果，加号标识饲料组合",
+      "task": "面向畜牧研究读者整理摘要标点，可减背景套话，不省实验条件、样本周期和各组结果归属。",
+      "audience": "畜牧研究读者",
+      "must_preserve": [
+        {
+          "quote": "在饲料能量及粗蛋白质水平相近的条件下",
+          "requirement": "保留能量与粗蛋白相近条件"
+        },
+        {
+          "quote": "对90只同等体重的湖羊进行为期120天",
+          "requirement": "保留90只、同等体重及120天"
+        },
+        {
+          "quote": "粗料+精料颗粒料组在血清生化指标方面",
+          "requirement": "保留组合组名与血清指标归属"
+        }
+      ],
+      "voice_quote": "仍需要进一步深入研究和讨论。",
+      "voice": "研究摘要语气，结论留有余地",
+      "allowed_changes": [
+        "分号可改分句，保留结果对应",
+        "精简背景及结尾套话"
+      ],
+      "failure_conditions": [
+        "把粗料+精料颗粒料拆成两个实验组",
+        "把全混合日粮可能更有效改成最优定论"
+      ],
+      "scoring_note": "加号属于组名，分号划分结果；机械替换会改变实验含义。"
+    },
+    {
+      "id": "zh2-punctuation-012",
+      "suitable": true,
+      "reason": "括注绑定术语，顿号区分并列项目",
+      "task": "面向遥感入门读者整理标点与分段，可减重复总结，不删科学、技术及相互促进三层关系。",
+      "audience": "遥感入门读者",
+      "must_preserve": [
+        {
+          "quote": "遥感既是一门科学，也是一门技术",
+          "requirement": "保留科学与技术双重定位"
+        },
+        {
+          "quote": "合成孔径雷达（SAR）、激光雷达（LiDAR）",
+          "requirement": "保留两术语与缩写的分别对应"
+        },
+        {
+          "quote": "而科学研究又推动遥感技术不断优化与创新",
+          "requirement": "保留技术支持研究、研究反推技术的双向关系"
+        }
+      ],
+      "voice_quote": "可以发现二者是相辅相成的。",
+      "voice": "客观解说，按层次展开",
+      "allowed_changes": [
+        "整理括注、并列停顿及分段",
+        "压缩首尾重复定位"
+      ],
+      "failure_conditions": [
+        "将SAR与LiDAR的中文对应互换",
+        "将科学与技术写成互斥分类"
+      ],
+      "scoring_note": "括号承载缩写释义，不能为减少符号而损害术语对应。"
+    },
+    {
+      "id": "zh2-punctuation-013",
+      "suitable": false,
+      "reason": "首次与2009年启用冲突，非标点问题",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-punctuation-014",
+      "suitable": false,
+      "reason": "结尾截断，标点功能不足以独立验收",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    }
+  ],
+  "metadata": {
+    "job": "rest-26",
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 88.31,
+    "system_sha256": "2c85943d84beabe7f1c8a64f793323c3fb90f4110f4f66ac756b1b69b3faf06e",
+    "input_sha256": "8ca428ecd498347e1d80af3c4c53f7d62dacb14fe868ea18b86dbedad9683b61",
+    "usage": [
+      {
+        "input_tokens": 20943,
+        "cached_input_tokens": 10368,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2538,
+        "reasoning_output_tokens": 95
+      }
+    ],
+    "review_type": "model_annotation",
+    "human_review": false
+  }
+}

@@ -1,0 +1,305 @@
+{
+  "cases": [
+    {
+      "id": "zh2-missing_material-r001",
+      "suitable": true,
+      "reason": "技术比较缺少条件与依据",
+      "task": "面向相关学科学习者梳理技术概述；可限定无依据的优劣比较，不补实验或来源，不删改进方向。",
+      "audience": "相关学科学习者",
+      "must_preserve": [
+        {
+          "quote": "线性代数和概率论构成了这些学科的核心数学基础",
+          "requirement": "保留两类共同数学基础"
+        },
+        {
+          "quote": "但计算复杂度较高",
+          "requirement": "保留贝叶斯网络的计算代价"
+        },
+        {
+          "quote": "加强概率图模型与深度学习的融合",
+          "requirement": "保留融合建议，不写成已实现成果"
+        }
+      ],
+      "voice_quote": "建议从三个层面改进",
+      "voice": "理性概述，建议式表达",
+      "allowed_changes": [
+        "限定SVM、PCA比较的适用范围",
+        "压缩泛化效益措辞"
+      ],
+      "failure_conditions": [
+        "新增实验数据证明SVM更优",
+        "把融合建议写成成熟方案"
+      ],
+      "scoring_note": "技术断言最易误伤：可降低强度，但不能删除全部技术观点。"
+    },
+    {
+      "id": "zh2-missing_material-r002",
+      "suitable": false,
+      "reason": "帖子与时间缺失，新闻主干无支撑",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-missing_material-r003",
+      "suitable": false,
+      "reason": "建党及选举消息均无来源时间",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-missing_material-r004",
+      "suitable": true,
+      "reason": "杀伤力宣传夸大，可保留安全讨论",
+      "task": "面向搏击爱好者整理泰拳特点与安全讨论；可删杀伤力夸饰，不增招式说明，不删训练和保护建议。",
+      "audience": "搏击爱好者",
+      "must_preserve": [
+        {
+          "quote": "泰拳强调攻守结合",
+          "requirement": "保留进攻兼顾防护的特点"
+        },
+        {
+          "quote": "高超的技巧需要长时间的训练才能掌握",
+          "requirement": "保留掌握技巧需长期训练的限制"
+        },
+        {
+          "quote": "在实战训练中注重对手的保护",
+          "requirement": "保留训练中避免过度伤害的建议"
+        }
+      ],
+      "voice_quote": "提高泰拳的实用性和安全性",
+      "voice": "介绍特点，同时关注安全",
+      "allowed_changes": [
+        "删杀伤力夸饰和结尾套话",
+        "限定与其他搏击技术的比较"
+      ],
+      "failure_conditions": [
+        "改成泰拳适合所有自卫场景",
+        "新增攻击部位或伤害操作指导"
+      ],
+      "scoring_note": "安全限制易被当赘述删去，不能只剩威力宣传。"
+    },
+    {
+      "id": "zh2-missing_material-r005",
+      "suitable": true,
+      "reason": "动作鲜明，赛况和权威判断缺支撑",
+      "task": "面向球迷收紧比赛评论；可删无依据的全中、胜利及权威背书，不补赛况，保留两人的动作对照。",
+      "audience": "篮球球迷",
+      "must_preserve": [
+        {
+          "quote": "卡特展现出了他那令人惊叹的漂移拉杆技术",
+          "requirement": "保留卡特与漂移拉杆的对应"
+        },
+        {
+          "quote": "布恩则以其彪悍的补扣动作",
+          "requirement": "保留布恩与力量型补扣的对应"
+        },
+        {
+          "quote": "宛如一位铁汉绣花般精准",
+          "requirement": "保留对卡特动作细腻精准的赞叹"
+        }
+      ],
+      "voice_quote": "让人联想起了金刚的霸气",
+      "voice": "热情赞叹，形象化对照",
+      "allowed_changes": [
+        "删专业分析背书及全中断言",
+        "压缩永远铭记等抒情套话"
+      ],
+      "failure_conditions": [
+        "补造比分、球队或比赛日期",
+        "互换卡特与布恩的动作"
+      ],
+      "scoring_note": "夸饰与事实须区分：动作比喻可留，胜负不可擅自坐实。"
+    },
+    {
+      "id": "zh2-missing_material-r006",
+      "suitable": true,
+      "reason": "观点完整，企业经验可作限定",
+      "task": "面向财会新人压缩重复建议；可限定企业做法和行业概括，不添案例，不删记账基础性与路径多元的平衡。",
+      "audience": "财会新人",
+      "must_preserve": [
+        {
+          "quote": "并不意味着所有新人都必须从最基础的记账开始",
+          "requirement": "保留并非人人必须从记账起步"
+        },
+        {
+          "quote": "如成本核算、报表分析、税务申报或内部控制等",
+          "requirement": "保留这些不同岗位方向"
+        },
+        {
+          "quote": "记账能力确实是职业发展的基础",
+          "requirement": "保留记账能力的基础价值"
+        }
+      ],
+      "voice_quote": "保持学习的积极性、培养职业敏感度",
+      "voice": "务实劝导，不贬低基础工作",
+      "allowed_changes": [
+        "合并记账与现代职责的重复对照",
+        "限定轮岗及信息化的概括"
+      ],
+      "failure_conditions": [
+        "改成新人无需掌握记账",
+        "将部分企业轮岗写成普遍制度"
+      ],
+      "scoring_note": "否定边界易误伤：不必从记账起步不等于记账无用。"
+    },
+    {
+      "id": "zh2-missing_material-r007",
+      "suitable": true,
+      "reason": "球迷评价可保留，绝对判断需收敛",
+      "task": "面向球迷整理巴洛特利特点评论；可弱化顶级、经常等无支撑概括，不补比赛事例，不删欣赏与失望。",
+      "audience": "足球球迷",
+      "must_preserve": [
+        {
+          "quote": "爆发力强，对抗能力也很不错",
+          "requirement": "保留对身体素质的正面评价"
+        },
+        {
+          "quote": "比如在团队配合方面稍显不足",
+          "requirement": "保留对团队配合的批评"
+        },
+        {
+          "quote": "他的天赋让人期待，但缺乏稳定性也让大家对他又爱又恨",
+          "requirement": "保留期待与失望并存的情绪"
+        }
+      ],
+      "voice_quote": "天赋异禀但不够成熟",
+      "voice": "口语化球迷点评，爱惜又惋惜",
+      "allowed_changes": [
+        "弱化顶级、经常等判断",
+        "压缩首先其次等串联词"
+      ],
+      "failure_conditions": [
+        "新增失控比赛或处罚事例",
+        "改成只赞美天赋的单向评价"
+      ],
+      "scoring_note": "情绪评价不是待证谎言；缺材料不应抹去球迷立场。"
+    },
+    {
+      "id": "zh2-missing_material-r008",
+      "suitable": true,
+      "reason": "研究方向明确，效益断言缺引证",
+      "task": "面向青贮研究读者收紧研究背景；可限定无引证的效果断言，不补论文数据，不删问题、方法和应用方向。",
+      "audience": "青贮研究读者",
+      "must_preserve": [
+        {
+          "quote": "这种自发发酵往往存在不可控因素",
+          "requirement": "保留天然发酵品质不稳的问题"
+        },
+        {
+          "quote": "系统筛选和评估青贮有益微生物",
+          "requirement": "保留筛选评估有益微生物的方向"
+        },
+        {
+          "quote": "并开发高效微生物接种剂",
+          "requirement": "保留接种剂开发目标而非既成成果"
+        }
+      ],
+      "voice_quote": "提供理论支撑",
+      "voice": "学术背景式，重研究意义",
+      "allowed_changes": [
+        "弱化决定性、显著等无引证断言",
+        "压缩科学价值与现实意义套话"
+      ],
+      "failure_conditions": [
+        "新增菌株名称、论文或增益数据",
+        "把接种剂写成必然改善所有青贮"
+      ],
+      "scoring_note": "效益强度最易失守：研究目标不能变为已证实的普遍效果。"
+    },
+    {
+      "id": "zh2-missing_material-r009",
+      "suitable": true,
+      "reason": "多因解释可留，史学概括缺材料",
+      "task": "面向历史读者梳理变法评价的多因解释；可限定史家态度概括，不补史料，不删政治、文化与执行层面。",
+      "audience": "历史话题读者",
+      "must_preserve": [
+        {
+          "quote": "新政触动了当时保守派贵族的利益",
+          "requirement": "保留利益冲突这一解释角度"
+        },
+        {
+          "quote": "与传统观念存在一定冲突",
+          "requirement": "保留文化观念冲突的解释"
+        },
+        {
+          "quote": "青苗法等政策在执行过程中被地方官吏扭曲利用",
+          "requirement": "保留政策执行偏差的讨论"
+        }
+      ],
+      "voice_quote": "以更加客观公正的态度去审视历史事件",
+      "voice": "多角度解释，倡导审慎评价",
+      "allowed_changes": [
+        "限定古代史家及后世认识的概括",
+        "压缩结尾劝诫套话"
+      ],
+      "failure_conditions": [
+        "补造史家引文支持否定态度",
+        "把负面评价全归因于保守派"
+      ],
+      "scoring_note": "因果层次易误伤：限定史学概括不能抹平多种解释。"
+    },
+    {
+      "id": "zh2-missing_material-r010",
+      "suitable": true,
+      "reason": "建议可独立成立，轶事不宜补造",
+      "task": "面向李白爱好者精简入门建议；可缩引诗与套话，不补醉酒轶事，不删读作品、懂生平、传播与理性边界。",
+      "audience": "李白爱好者",
+      "must_preserve": [
+        {
+          "quote": "熟读他的作品，这是基础",
+          "requirement": "保留从阅读作品入手"
+        },
+        {
+          "quote": "其次，要了解李白的生平经历",
+          "requirement": "保留以生平帮助理解诗歌"
+        },
+        {
+          "quote": "但也不能盲目吹捧",
+          "requirement": "保留喜爱仍须客观理性的边界"
+        }
+      ],
+      "voice_quote": "合格的“李白吹”",
+      "voice": "轻松亲近，热爱但不盲从",
+      "allowed_changes": [
+        "缩短引诗与重复魅力表述",
+        "将未展开轶事收束为传播建议"
+      ],
+      "failure_conditions": [
+        "编造具体醉酒赋诗故事",
+        "删除理性边界改为无条件吹捧"
+      ],
+      "scoring_note": "趣味称呼易被过度正式化；缺材料不妨碍保留热爱语气。"
+    }
+  ],
+  "metadata": {
+    "job": "supplement-17",
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 88.24,
+    "system_sha256": "2c85943d84beabe7f1c8a64f793323c3fb90f4110f4f66ac756b1b69b3faf06e",
+    "input_sha256": "a3c78b4e0c508245ec57147f497ae9c96aed17a6d78d7b973a9aa65b43745bab",
+    "usage": [
+      {
+        "input_tokens": 19635,
+        "cached_input_tokens": 10368,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2469,
+        "reasoning_output_tokens": 141
+      }
+    ],
+    "review_type": "model_annotation",
+    "human_review": false
+  }
+}

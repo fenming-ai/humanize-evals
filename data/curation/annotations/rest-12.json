@@ -1,0 +1,266 @@
+{
+  "cases": [
+    {
+      "id": "zh2-no_edit-073",
+      "suitable": true,
+      "reason": "口语影评完整，热情表达无需修整",
+      "task": "面向普通影迷保留随口推荐的影评，可完整原样输出，不删具体笑点和观感变化。",
+      "audience": "普通影迷",
+      "must_preserve": [
+        {
+          "quote": "故事讲的好，很扎实",
+          "requirement": "保留对故事扎实、细节到位的赞赏"
+        },
+        {
+          "quote": "现在想来真的很好笑",
+          "requirement": "保留树懒段当时与回想时的反差"
+        },
+        {
+          "quote": "还有对教父的模仿，我靠，简直经典",
+          "requirement": "保留对教父模仿段的强烈喜爱"
+        }
+      ],
+      "voice_quote": "哈哈，力荐力荐",
+      "voice": "兴奋直白，随口聊电影",
+      "allowed_changes": [
+        "允许完整原样输出",
+        "可微调停顿，不清洗口语感"
+      ],
+      "failure_conditions": [
+        "删掉小熊或小狐狸扮小象的笑点",
+        "把树懒段改成当场笑得疯狂"
+      ],
+      "scoring_note": "声音最易误伤：重复和感叹承担推荐热情。"
+    },
+    {
+      "id": "zh2-no_edit-074",
+      "suitable": true,
+      "reason": "论点分层清楚，口语不妨碍理解",
+      "task": "面向港剧观众保留两层解释，可原样输出；不删条件，不按现时身份改写历史称谓。",
+      "audience": "港剧观众",
+      "must_preserve": [
+        {
+          "quote": "TVB劇裡也不是所有警察都住那麼大的房子",
+          "requirement": "保留并非所有剧中警察如此的限定"
+        },
+        {
+          "quote": "結了婚的警察還可以申請警察宿舍",
+          "requirement": "保留已婚条件及申请而非获配"
+        },
+        {
+          "quote": "其實TVB劇很多警察的設定就是家境本身很好的嘛",
+          "requirement": "保留家境设定这一独立解释"
+        }
+      ],
+      "voice_quote": "其實不能一概而論",
+      "voice": "口语辩解，分点说明",
+      "allowed_changes": [
+        "允许完整原样输出",
+        "可整理编号间距"
+      ],
+      "failure_conditions": [
+        "将收入稳定改成人人富裕",
+        "把曾蔭權、梁振英写成本人当过警察"
+      ],
+      "scoring_note": "主体边界易误伤：职业、家境及父辈不可混同。"
+    },
+    {
+      "id": "zh2-no_edit-075",
+      "suitable": false,
+      "reason": "播出安排及记者会信息整段重复",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-076",
+      "suitable": false,
+      "reason": "重复用词、工具混称及推论跳跃明显",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-077",
+      "suitable": false,
+      "reason": "大量残句及缺失停顿影响事件衔接",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-078",
+      "suitable": false,
+      "reason": "观影阶段与偏好更新缺少清楚分界",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-079",
+      "suitable": true,
+      "reason": "通知简洁，比例与期限边界明确",
+      "task": "面向相关合约交易者强保留通知，可原样输出；不得省略合约、比例、生效点或期限。",
+      "audience": "相关合约交易者",
+      "must_preserve": [
+        {
+          "quote": "从今日结算时起",
+          "requirement": "保留结算时生效，不改成开盘时"
+        },
+        {
+          "quote": "WT003、WS003、CF003、SR003、TA003、RO003、ER003",
+          "requirement": "七个合约均对应8%保证金"
+        },
+        {
+          "quote": "今日为TA002合约套期保值建仓或持仓确认的最后期限",
+          "requirement": "保留该截止事项及TA002保证金30%"
+        }
+      ],
+      "voice_quote": "TA002合约的交易保证金调整为30%",
+      "voice": "严谨简短的业务通知",
+      "allowed_changes": [
+        "允许完整原样输出"
+      ],
+      "failure_conditions": [
+        "把TA003保证金写成30%",
+        "把TA002期限改成所有交易截止"
+      ],
+      "scoring_note": "数字对应最易误伤：TA002与TA003仅差一位。"
+    },
+    {
+      "id": "zh2-no_edit-080",
+      "suitable": true,
+      "reason": "回忆与玩法介绍清楚，保留口语即可",
+      "task": "面向休闲游戏玩家保留个人回忆与推荐，可原样输出；不删玩法和不确定措辞。",
+      "audience": "休闲游戏玩家",
+      "must_preserve": [
+        {
+          "quote": "弹弹堂最早应该是第七大道出的",
+          "requirement": "保留最早开发方判断的推测口吻"
+        },
+        {
+          "quote": "通过风力、抛出角度和力度来控制",
+          "requirement": "保留三项玩法因素及攻击目标"
+        },
+        {
+          "quote": "后来腾讯出了手游，反正我很喜欢",
+          "requirement": "保留后来出手游及个人喜爱"
+        }
+      ],
+      "voice_quote": "反正我很喜欢，人物Q萌",
+      "voice": "轻松怀旧，主观推荐",
+      "allowed_changes": [
+        "允许完整原样输出",
+        "可微调分句停顿"
+      ],
+      "failure_conditions": [
+        "将第七大道归属写成确定核实结论",
+        "删掉YY语音游玩经历或换装特点"
+      ],
+      "scoring_note": "确定性易误伤：“应该”不能因润色被抹掉。"
+    },
+    {
+      "id": "zh2-facts-021",
+      "suitable": true,
+      "reason": "数字与推测边界可设来源忠实合同",
+      "task": "面向一般读者压缩事件解释，保留原述关键数字与警示；可删类比，不补证据或坐实推测。",
+      "audience": "一般读者",
+      "must_preserve": [
+        {
+          "quote": "2013年8月16日的光大事件",
+          "requirement": "保留日期及中国光大证券主体"
+        },
+        {
+          "quote": "导致上海股市指数在几分钟内飙升超过5%",
+          "requirement": "保留原述时间尺度及涨幅，不称已核实"
+        },
+        {
+          "quote": "比如一个测试程序意外激活",
+          "requirement": "仅作推测例子，可删但不可坐实"
+        }
+      ],
+      "voice_quote": "提醒公司加强测试和备份",
+      "voice": "通俗解释，强调风险警示",
+      "allowed_changes": [
+        "删生活类比、闪电崩盘旁例及重复推导",
+        "限定无支撑归因，保留风控观点"
+      ],
+      "failure_conditions": [
+        "把上午11点左右改成精确11点",
+        "新增罚款金额或将测试程序说成已查明原因"
+      ],
+      "scoring_note": "事实性最易误伤：原稿混有数字叙述和假设归因。"
+    },
+    {
+      "id": "zh2-facts-022",
+      "suitable": true,
+      "reason": "事件、剧情及捐款主体可明确区分",
+      "task": "面向电影新闻读者精简报道，保留发布会、剧情及公益行动；可删重复落泪描写，不补年份。",
+      "audience": "电影新闻读者",
+      "must_preserve": [
+        {
+          "quote": "电影《唐山大地震》在北京举行首款预告片的新闻发布会",
+          "requirement": "保留4月15日、北京及发布会性质"
+        },
+        {
+          "quote": "母亲选择了救弟弟，这个决定也让一家人经历了32年内心的磨难",
+          "requirement": "保留剧情中的选择及32年磨难"
+        },
+        {
+          "quote": "代表《唐山大地震》剧组向灾区捐款20万元人民币",
+          "requirement": "保留冯小刚与王中磊代表剧组的决定"
+        }
+      ],
+      "voice_quote": "共同关注受灾儿童的心理健康",
+      "voice": "带同情关怀的娱乐报道",
+      "allowed_changes": [
+        "删重复哭泣描写及宣传性赞语",
+        "压缩引语，不混淆演员与角色"
+      ],
+      "failure_conditions": [
+        "把母亲救弟弟写成徐帆真实经历",
+        "把徐帆稍后拟推的儿童关爱计划写成已实施"
+      ],
+      "scoring_note": "主体与时态易误伤：剧情、现场情绪和未来计划交织。"
+    }
+  ],
+  "metadata": {
+    "job": "rest-12",
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 75.13,
+    "system_sha256": "2c85943d84beabe7f1c8a64f793323c3fb90f4110f4f66ac756b1b69b3faf06e",
+    "input_sha256": "9efddd5658ab4a90594b81457a2ad8d8c93fc76f7655a05d681e32c92fc3e00c",
+    "usage": [
+      {
+        "input_tokens": 18626,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2101,
+        "reasoning_output_tokens": 212
+      }
+    ],
+    "review_type": "model_annotation",
+    "human_review": false
+  }
+}

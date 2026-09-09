@@ -1,0 +1,52 @@
+{
+  "cases": [
+    {
+      "id": "zh2-no_edit-qx031",
+      "approve": true,
+      "reason": "原文完整清楚，矿种、人物及时间约束忠实。"
+    },
+    {
+      "id": "zh2-no_edit-qx032",
+      "approve": true,
+      "reason": "送医与受伤人数区分合理，航线和后续安排忠实。"
+    },
+    {
+      "id": "zh2-no_edit-qx034",
+      "approve": false,
+      "reason": "“影后级人物”“其演技实在无可置疑”等堆叠宣传套语，不宜归为no_edit。"
+    },
+    {
+      "id": "zh2-no_edit-qx038",
+      "approve": true,
+      "reason": "战报完整，比分主体、球员数据及伤退约束合理。"
+    },
+    {
+      "id": "zh2-no_edit-qx039",
+      "approve": true,
+      "reason": "招生分类、趋势范围及调剂条件均忠实于原文。"
+    },
+    {
+      "id": "zh2-no_edit-qx040",
+      "approve": true,
+      "reason": "公告表达完整，配置比例、分母和期限约束准确。"
+    }
+  ],
+  "metadata": {
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 34.13,
+    "input_sha256": "0f365dc9e41cada2104f83363460f17b0f5b61da1123b7fe29e0292d7cf53b9b",
+    "system_sha256": "0c41b551a96d085bbc3597749915f67732aa702736eddffdb625f85696aded81",
+    "usage": [
+      {
+        "input_tokens": 18736,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 508,
+        "reasoning_output_tokens": 275
+      }
+    ],
+    "review_type": "independent_context_model_review",
+    "human_review": false
+  }
+}

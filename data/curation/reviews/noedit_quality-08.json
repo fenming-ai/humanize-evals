@@ -1,0 +1,57 @@
+{
+  "cases": [
+    {
+      "id": "zh2-no_edit-q081",
+      "approve": true,
+      "reason": "原稿完整通顺，数字、监管要求及合格边界均忠实。"
+    },
+    {
+      "id": "zh2-no_edit-q082",
+      "approve": true,
+      "reason": "原稿无明显问题，搜索范围、统计时点及后续安排约束合理。"
+    },
+    {
+      "id": "zh2-no_edit-q083",
+      "approve": true,
+      "reason": "时序与参与主体保留准确，未夸大停运范围，分类恰当。"
+    },
+    {
+      "id": "zh2-no_edit-q084",
+      "approve": true,
+      "reason": "措施条件与事故明细忠实，正确区分政策要求和实施结果。"
+    },
+    {
+      "id": "zh2-no_edit-q085",
+      "approve": true,
+      "reason": "任命简讯完整，共同管理关系及履历边界准确。"
+    },
+    {
+      "id": "zh2-no_edit-q086",
+      "approve": true,
+      "reason": "引文准确，新旧办法及时间关系忠实，无明显改写必要。"
+    },
+    {
+      "id": "zh2-no_edit-q090",
+      "approve": true,
+      "reason": "原稿层次清楚，承诺与议题保留准确，时态约束合理。"
+    }
+  ],
+  "metadata": {
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 28.04,
+    "input_sha256": "dc0214aa29d62a5f55a206cfe3f88e6e2653701823cb123c6a0f45ee5a8f9026",
+    "system_sha256": "0c41b551a96d085bbc3597749915f67732aa702736eddffdb625f85696aded81",
+    "usage": [
+      {
+        "input_tokens": 19243,
+        "cached_input_tokens": 9856,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 307,
+        "reasoning_output_tokens": 44
+      }
+    ],
+    "review_type": "independent_context_model_review",
+    "human_review": false
+  }
+}

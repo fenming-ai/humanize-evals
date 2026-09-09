@@ -1,0 +1,52 @@
+{
+  "cases": 500,
+  "categories": {
+    "slop": 80,
+    "no_edit": 80,
+    "facts": 100,
+    "voice_emotion": 70,
+    "punctuation": 40,
+    "coherence": 50,
+    "missing_material": 40,
+    "long_form": 40
+  },
+  "splits": {
+    "development": 300,
+    "holdout": 200
+  },
+  "source_domains": {
+    "paper": 26,
+    "question answer": 175,
+    "composition": 81,
+    "news": 210,
+    "film review": 8
+  },
+  "source_generators": {
+    "deepseek-r1": 39,
+    "doubao-1.5-pro": 33,
+    "gpt-3.5-turbo": 38,
+    "gpt-4o": 34,
+    "qwen-3": 33,
+    "qwen-2.5": 42,
+    "claude-3.5-haiku": 41,
+    "gemini-2.5-flash": 48,
+    "deepseek-v3": 21,
+    "human": 171
+  },
+  "min_characters": 99,
+  "max_characters": 1765,
+  "unique_source_groups": 500,
+  "similar_pairs": [],
+  "review": "模型辅助标注与程序核验；非独立人工金标准，未运行参赛改写排名",
+  "annotation_records": 930,
+  "independently_reviewed_records": 662,
+  "quarantined_records": 271,
+  "punctuation_contract_version": "v2-with-functional-equivalence-guard",
+  "human_reviewed": false,
+  "skill_pk_run": false,
+  "unique_annotated_source_groups": 880,
+  "superseded_contract_records": 50,
+  "eligible_cases": 609,
+  "extra_passed_cases": 109,
+  "unannotated_reserve_candidates": 170
+}

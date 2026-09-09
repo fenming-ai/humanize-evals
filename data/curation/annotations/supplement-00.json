@@ -1,0 +1,343 @@
+{
+  "cases": [
+    {
+      "id": "zh2-slop-r001",
+      "suitable": true,
+      "reason": "赛事叙述混有重复渲染",
+      "task": "面向篮球读者压缩赛事套话；保留赛况与评价归属，不补赛季背景或数据。",
+      "audience": "篮球读者",
+      "must_preserve": [
+        {
+          "quote": "让广东队遭遇了本赛季的首场失利",
+          "requirement": "保留广东本季首败的原稿叙述"
+        },
+        {
+          "quote": "新疆队以一记绝杀三分球锁定胜局",
+          "requirement": "保留新疆以三分绝杀取胜"
+        },
+        {
+          "quote": "主要是由于他们的防守端存在漏洞",
+          "requirement": "保留为专业人士的失利归因"
+        }
+      ],
+      "voice_quote": "他们的实力不容小觑",
+      "voice": "看好新疆、质疑广东状态",
+      "allowed_changes": [
+        "删篮球盛宴等渲染及重复展望",
+        "将英文夹杂改为中文"
+      ],
+      "failure_conditions": [
+        "将广东首败改为连续失利",
+        "把防守归因写成已核实定论"
+      ],
+      "scoring_note": "易把评论改成事实；须保留归因主体而非强化断言。"
+    },
+    {
+      "id": "zh2-slop-r002",
+      "suitable": true,
+      "reason": "冲突报道夹杂夸张收束",
+      "task": "面向体育读者精简风波报道；保留消息限定及回应，不补球队身份或冲突因果。",
+      "audience": "体育读者",
+      "must_preserve": [
+        {
+          "quote": "球队半场以一分落后的情况下",
+          "requirement": "保留半场落后一分"
+        },
+        {
+          "quote": "俱乐部方面尚未公开完整更衣室对话内容",
+          "requirement": "保留对话公开不完整的限制"
+        },
+        {
+          "quote": "但也有人批评其缺乏职业素养",
+          "requirement": "保留球迷理解与批评并存"
+        }
+      ],
+      "voice_quote": "这也被部分球迷戏称为“炸弹真爆了”",
+      "voice": "关注冲突，带评论性比喻",
+      "allowed_changes": [
+        "删敲响警钟等收束套话",
+        "合并重复的内部矛盾描述"
+      ],
+      "failure_conditions": [
+        "将更衣室争执定为惨败原因",
+        "将据称的纳瓦罗回应写成已证实"
+      ],
+      "scoring_note": "易丢消息限定；报道中的转述不等于外部核实。"
+    },
+    {
+      "id": "zh2-slop-r003",
+      "suitable": true,
+      "reason": "技术观点夹杂绝对化赞语",
+      "task": "面向赛车爱好者精简路肩评论；保留利弊与个人判断，不新增技术依据。",
+      "audience": "赛车爱好者",
+      "must_preserve": [
+        {
+          "quote": "巧妙平衡了安全与竞技性",
+          "requirement": "保留作者对路肩价值的判断"
+        },
+        {
+          "quote": "通过精准压上路肩来缩短转弯半径",
+          "requirement": "保留作者所述压路肩策略"
+        },
+        {
+          "quote": "过度使用可能损坏车辆底盘",
+          "requirement": "保留过度使用的潜在损害"
+        }
+      ],
+      "voice_quote": "我认为，这是赛车运动必须接受的折衷",
+      "voice": "第一人称评论，认可但不回避风险",
+      "allowed_changes": [
+        "删精髓、精彩纷呈等赞语",
+        "弱化无可替代等绝对措辞"
+      ],
+      "failure_conditions": [
+        "把路肩描述成没有安全风险",
+        "把智能路肩设想改成现有技术"
+      ],
+      "scoring_note": "易在去套话时抹掉利弊权衡；技术说法不可包装成核实结论。"
+    },
+    {
+      "id": "zh2-slop-r004",
+      "suitable": true,
+      "reason": "录取分析反复拔高",
+      "task": "面向考生与家长精简录取讨论；保留案例边界和建议，不补招生政策或统计。",
+      "audience": "考生与家长",
+      "must_preserve": [
+        {
+          "quote": "但最终未被心仪的院校录取",
+          "requirement": "该案例仅指未入心仪院校"
+        },
+        {
+          "quote": "志愿填报不当或专业选择与实际情况不符",
+          "requirement": "保留为可能影响录取的因素"
+        },
+        {
+          "quote": "倾听考生意见，不要盲目干涉",
+          "requirement": "保留家长尊重考生意见的建议"
+        }
+      ],
+      "voice_quote": "更加理性地看待录取结果",
+      "voice": "理性劝导，重视专业匹配",
+      "allowed_changes": [
+        "删讨论热潮及结尾祝愿",
+        "限定缺少支撑的招生趋势概括"
+      ],
+      "failure_conditions": [
+        "把家长案例写成考生无校可上",
+        "将高分未录取一概归咎志愿填报"
+      ],
+      "scoring_note": "易混淆落榜与未入心仪院校；压缩不能扩大案例范围。"
+    },
+    {
+      "id": "zh2-slop-r005",
+      "suitable": true,
+      "reason": "震后考试被反复拔高",
+      "task": "面向教育新闻读者压缩改革赞语；保留震后考试及保障措施，不补灾情或成效证据。",
+      "audience": "教育新闻读者",
+      "must_preserve": [
+        {
+          "quote": "600余名高三学子",
+          "requirement": "保留人数约数及高三身份"
+        },
+        {
+          "quote": "在确保师生安全的前提下",
+          "requirement": "保留应急组织的安全前提"
+        },
+        {
+          "quote": "搭建临时考点，确保高考如期举行",
+          "requirement": "保留临时考点与如期考试"
+        }
+      ],
+      "voice_quote": "孩子这次能顺利参加考试，我们心里踏实多了",
+      "voice": "肯定保障工作，传达家长安心",
+      "allowed_changes": [
+        "删全国聚焦等夸大渲染",
+        "压缩缺少支撑的改革成果归因"
+      ],
+      "failure_conditions": [
+        "将600余名改成恰好600名",
+        "把震后考试写成教育改革成效的确证"
+      ],
+      "scoring_note": "易因删赞语而抹去安心情绪；情绪与改革成效断言须分开。"
+    },
+    {
+      "id": "zh2-slop-r006",
+      "suitable": true,
+      "reason": "专业引言存在重复意义铺陈",
+      "task": "面向医学研究读者压缩引言套话；保留机制、双向作用及综述范围，不新增疗效信息。",
+      "audience": "医学研究读者",
+      "must_preserve": [
+        {
+          "quote": "适度的炎症反应对心肌修复具有保护作用",
+          "requirement": "保留适度保护与过度损伤的对照"
+        },
+        {
+          "quote": "炎症反应的强度和持续时间",
+          "requirement": "保留抗炎调控的强度、时长难题"
+        },
+        {
+          "quote": "炎症反应的细胞基础和分子机制",
+          "requirement": "保留综述范围及细胞、通路两层"
+        }
+      ],
+      "voice_quote": "目前，针对心梗后心衰的抗炎治疗策略仍面临诸多挑战",
+      "voice": "学术综述，审慎强调研究难题",
+      "allowed_changes": [
+        "合并重复的研究意义表述",
+        "删泛泛的公共卫生背景铺垫"
+      ],
+      "failure_conditions": [
+        "将炎症写成只有损伤作用",
+        "把抗炎研究方向改成已证实有效疗法"
+      ],
+      "scoring_note": "专业术语不等于套话；压缩最易损伤机制层次与限制。"
+    },
+    {
+      "id": "zh2-slop-r007",
+      "suitable": true,
+      "reason": "现代改编夹杂道理化赞语",
+      "task": "面向故事读者精简现代爱情改编；保留相识、阻力与圆满结局，不增添情节。",
+      "audience": "故事读者",
+      "must_preserve": [
+        {
+          "quote": "她是一位拥有独立思想和追求梦想的女性设计师",
+          "requirement": "保留刘兰芝的职业与独立追求"
+        },
+        {
+          "quote": "两人因为共同参与一个公益项目而相遇",
+          "requirement": "保留公益合作相识的起点"
+        },
+        {
+          "quote": "焦仲卿终于说服了家人，并得到了他们的祝福",
+          "requirement": "保留化解家庭阻力后的祝福"
+        }
+      ],
+      "voice_quote": "我愿为这段古老的爱情赋予新的生命",
+      "voice": "温暖理想化，支持平等与独立",
+      "allowed_changes": [
+        "删情侣典范等评判性赞语",
+        "压缩结尾爱情万能的说教"
+      ],
+      "failure_conditions": [
+        "改成焦仲卿与刘兰芝悲剧分离",
+        "让刘兰芝放弃设计事业换取婚姻"
+      ],
+      "scoring_note": "去说教易误伤理想化基调；不能把圆满改编改回原作悲剧。"
+    },
+    {
+      "id": "zh2-slop-r008",
+      "suitable": true,
+      "reason": "假设示例混有答题元话语",
+      "task": "面向校园回忆写作者精简示例框架；保留假设属性及两类例子，不编成真实经历。",
+      "audience": "校园回忆写作者",
+      "must_preserve": [
+        {
+          "quote": "每个人的初中经历都是独一无二的",
+          "requirement": "保留校园轰动事件因校而异"
+        },
+        {
+          "quote": "我们学校的接力队以微弱优势战胜了多年来的冠军队伍",
+          "requirement": "保留接力夺冠为可能的示例"
+        },
+        {
+          "quote": "有位同学发明了一种新型节能灯泡",
+          "requirement": "保留发明获奖为假设示例"
+        }
+      ],
+      "voice_quote": "一种可能的情况是关于体育比赛取得优异成绩的故事",
+      "voice": "提供思路，不是亲历回忆",
+      "allowed_changes": [
+        "删回答问题的元话语",
+        "压缩成长意义与美好回忆套话"
+      ],
+      "failure_conditions": [
+        "将接力夺冠写成作者真实经历",
+        "给节能灯泡示例补具体学校和年份"
+      ],
+      "scoring_note": "最易丢掉假设标记；第一人称示例不能被实化。"
+    },
+    {
+      "id": "zh2-slop-r009",
+      "suitable": true,
+      "reason": "两件突发事件夹杂管理赞语",
+      "task": "面向家长精简报到事件报道；保留发烧处置、冒充教师及改进意见，不补身份动机。",
+      "audience": "学生家长",
+      "must_preserve": [
+        {
+          "quote": "一名体温高达39度的学生被发现",
+          "requirement": "保留学生发烧及39度"
+        },
+        {
+          "quote": "学校安保人员迅速将其控制，并移交警方处理",
+          "requirement": "保留冒充教师男子由安保移警"
+        },
+        {
+          "quote": "此次事件充分暴露了校园安全管理中的一些薄弱环节",
+          "requirement": "保留校长承认安全管理有薄弱处"
+        }
+      ],
+      "voice_quote": "孩子的安全是最重要的",
+      "voice": "重视安全，肯定及时处置",
+      "allowed_changes": [
+        "删现代教育管理等重复赞语",
+        "合并身份核验与安保培训建议"
+      ],
+      "failure_conditions": [
+        "把发烧学生写成冒充教师者",
+        "将男子移交警方改成已被定罪"
+      ],
+      "scoring_note": "易用统一赞语掩盖管理不足；肯定处置与承认薄弱须兼容。"
+    },
+    {
+      "id": "zh2-slop-r010",
+      "suitable": true,
+      "reason": "工程答复首尾重复结论",
+      "task": "面向建筑知识读者压缩重复解释；保留条件和原稿参数，不补规范条款或作合规背书。",
+      "audience": "建筑知识读者",
+      "must_preserve": [
+        {
+          "quote": "并非在所有情况下都必须做散水和排水沟",
+          "requirement": "保留并非一律强制的边界"
+        },
+        {
+          "quote": "当地的气候条件、土壤类型、建筑设计和相关建筑规范",
+          "requirement": "保留设置与否的四类依据"
+        },
+        {
+          "quote": "宽度为600~1000mm的散水",
+          "requirement": "保留建议宽度及向外坡度不小于3%"
+        }
+      ],
+      "voice_quote": "应根据具体条件合理设计和施工",
+      "voice": "条件式说明，偏重基础保护",
+      "allowed_changes": [
+        "合并首尾重复结论",
+        "压缩重复的雨水损害解释"
+      ],
+      "failure_conditions": [
+        "将散水和排水沟写成所有建筑必设",
+        "将坡度不小于3%改为不大于3%"
+      ],
+      "scoring_note": "易将原稿建议升级为强制规范；参数保留不代表已核实出处。"
+    }
+  ],
+  "metadata": {
+    "job": "supplement-00",
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 96.02,
+    "system_sha256": "2c85943d84beabe7f1c8a64f793323c3fb90f4110f4f66ac756b1b69b3faf06e",
+    "input_sha256": "b5190c387160f2cce5183bcd017586c8c421979e5df049568ef009eb3d0d7ade",
+    "usage": [
+      {
+        "input_tokens": 21599,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2800,
+        "reasoning_output_tokens": 58
+      }
+    ],
+    "review_type": "model_annotation",
+    "human_review": false
+  }
+}

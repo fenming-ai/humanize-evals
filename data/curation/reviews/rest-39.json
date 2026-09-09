@@ -1,0 +1,72 @@
+{
+  "cases": [
+    {
+      "id": "zh2-long_form-031",
+      "approve": false,
+      "reason": "任务称“朋友回信反应”，原文是朋友收到信后打电话，并未回信。"
+    },
+    {
+      "id": "zh2-long_form-032",
+      "approve": true,
+      "reason": "保留预筹定义、应用与局限，验收边界合理。"
+    },
+    {
+      "id": "zh2-long_form-033",
+      "approve": true,
+      "reason": "引文准确，时序整理要求合理，未补任教经历。"
+    },
+    {
+      "id": "zh2-long_form-034",
+      "approve": true,
+      "reason": "忠实保留未解、求助及能力边界，分类恰当。"
+    },
+    {
+      "id": "zh2-long_form-035",
+      "approve": true,
+      "reason": "身份、竞争性质及获奖结果准确，转折要求合理。"
+    },
+    {
+      "id": "zh2-long_form-036",
+      "approve": true,
+      "reason": "保留转述性质与下岗反转，未强制背书诊断。"
+    },
+    {
+      "id": "zh2-long_form-037",
+      "approve": false,
+      "reason": "must_preserve将拨打急救电话写成“报警”，改变了原文救助行为。"
+    },
+    {
+      "id": "zh2-long_form-038",
+      "approve": true,
+      "reason": "保留分层结构及失去与成长的转折，要求合理。"
+    },
+    {
+      "id": "zh2-long_form-039",
+      "approve": true,
+      "reason": "忠实保留鼠类视角，并区分角色控诉与事实背书。"
+    },
+    {
+      "id": "zh2-long_form-040",
+      "approve": true,
+      "reason": "两概念及非必然成功的限定准确，验收合理。"
+    }
+  ],
+  "metadata": {
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 24.74,
+    "input_sha256": "3ced6f1aba5ec4c7876def4b52afd1aa05d3cabbbb256ff2bb64b44afdac7c93",
+    "system_sha256": "0c41b551a96d085bbc3597749915f67732aa702736eddffdb625f85696aded81",
+    "usage": [
+      {
+        "input_tokens": 30480,
+        "cached_input_tokens": 9856,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 491,
+        "reasoning_output_tokens": 131
+      }
+    ],
+    "review_type": "independent_context_model_review",
+    "human_review": false
+  }
+}

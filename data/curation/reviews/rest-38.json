@@ -1,0 +1,72 @@
+{
+  "cases": [
+    {
+      "id": "zh2-long_form-021",
+      "approve": true,
+      "reason": "引文准确，建库信息与初步分析边界保留恰当。"
+    },
+    {
+      "id": "zh2-long_form-022",
+      "approve": true,
+      "reason": "忠实保留代谢作用、线虫对象及应用未知边界。"
+    },
+    {
+      "id": "zh2-long_form-023",
+      "approve": true,
+      "reason": "三段回忆与情绪递进准确，未抹去冲突和委屈。"
+    },
+    {
+      "id": "zh2-long_form-024",
+      "approve": true,
+      "reason": "保留辩证论旨与独立判断，论据限制合理。"
+    },
+    {
+      "id": "zh2-long_form-025",
+      "approve": true,
+      "reason": "核心论例及传统与创新关系准确，删改边界合理。"
+    },
+    {
+      "id": "zh2-long_form-026",
+      "approve": true,
+      "reason": "经历与开放立场均有依据，圈层风险保留恰当。"
+    },
+    {
+      "id": "zh2-long_form-027",
+      "approve": true,
+      "reason": "人物数量、古今映照准确，未将文学联想强作史实。"
+    },
+    {
+      "id": "zh2-long_form-028",
+      "approve": true,
+      "reason": "三次认识转变忠实，限制补造经历与绝对化合理。"
+    },
+    {
+      "id": "zh2-long_form-029",
+      "approve": true,
+      "reason": "两碗反差与旧碗来历准确，未强制坐实离散暗示。"
+    },
+    {
+      "id": "zh2-long_form-030",
+      "approve": true,
+      "reason": "保留传说来源、生态实践和开发分歧，因果边界合理。"
+    }
+  ],
+  "metadata": {
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 24.11,
+    "input_sha256": "64bebb7c949a70e83bc6dd4af6969dbc7708ba320d2723e1aefe1e0027912a2f",
+    "system_sha256": "0c41b551a96d085bbc3597749915f67732aa702736eddffdb625f85696aded81",
+    "usage": [
+      {
+        "input_tokens": 30956,
+        "cached_input_tokens": 9856,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 419,
+        "reasoning_output_tokens": 53
+      }
+    ],
+    "review_type": "independent_context_model_review",
+    "human_review": false
+  }
+}

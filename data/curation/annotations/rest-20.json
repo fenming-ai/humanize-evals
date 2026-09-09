@@ -1,0 +1,315 @@
+{
+  "cases": [
+    {
+      "id": "zh2-facts-093",
+      "suitable": true,
+      "reason": "数字与预测边界明确",
+      "task": "面向财经读者压缩研报转述；可删宏观套话，不省期限、价格数据及风险边界。",
+      "audience": "财经读者",
+      "must_preserve": [
+        {
+          "quote": "未来3至6个月内对大宗商品保持相对谨慎",
+          "requirement": "保留高盛建议的期限及相对谨慎程度"
+        },
+        {
+          "quote": "彭博大宗商品指数累计下跌约7.3%",
+          "requirement": "保留指数主体、累计跌幅及约数"
+        },
+        {
+          "quote": "每蒲式耳8.25美元，较去年同期上涨12.6%",
+          "requirement": "保留小麦期货价格、单位及同比涨幅"
+        }
+      ],
+      "voice_quote": "审慎但并非悲观",
+      "voice": "审慎财经转述，非收益承诺",
+      "allowed_changes": [
+        "删市场关注类套话，整理重复风险提示"
+      ],
+      "failure_conditions": [
+        "将农产品机会写成确定收益",
+        "改动小麦价格单位或指数跌幅"
+      ],
+      "scoring_note": "预测语气易误伤；压缩不能把机构判断写成已证实事实。"
+    },
+    {
+      "id": "zh2-facts-094",
+      "suitable": false,
+      "reason": "欧冠八强与十六强出局自相矛盾",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-facts-095",
+      "suitable": true,
+      "reason": "投资范围与比例可明确验收",
+      "task": "面向基金信息读者整理公告；可简化介绍语，不省审批状态、投资条件与比例。",
+      "audience": "基金信息读者",
+      "must_preserve": [
+        {
+          "quote": "国泰区位优势股票基金已正式获批，拟于近期发售",
+          "requirement": "保留基金名称及获批、拟发售的区别"
+        },
+        {
+          "quote": "具有区位优势且受益于区位经济发展优势环境",
+          "requirement": "保留成长型定位及投资对象的双重条件"
+        },
+        {
+          "quote": "股票资产投资比例占基金资产的60%-95%",
+          "requirement": "保留股票比例及其他所列工具5%-40%"
+        }
+      ],
+      "voice_quote": "在有效控制风险的前提下",
+      "voice": "克制、条件明确的公告语气",
+      "allowed_changes": [
+        "简化引介语，分列资产配置"
+      ],
+      "failure_conditions": [
+        "把拟近期发售写成已开始发售",
+        "改动比例或删去风险控制前提"
+      ],
+      "scoring_note": "条件边界最易丢失，投资目标不能写成收益保证。"
+    },
+    {
+      "id": "zh2-facts-096",
+      "suitable": true,
+      "reason": "活动时间与结束状态清晰",
+      "task": "面向高考生整理历史答疑通知；可删导航和重复提问，不省时间、结束状态及免责声明。",
+      "audience": "查阅历史答疑的高考生",
+      "must_preserve": [
+        {
+          "quote": "2008年高考各科考试结束",
+          "requirement": "保留2008年背景，勿当作当前通知"
+        },
+        {
+          "quote": "6月13日10:30-11:15做客嘉宾聊天室",
+          "requirement": "保留郭建民答疑时间及聊天已结束"
+        },
+        {
+          "quote": "敬请考生以权威部门公布的正式信息为准",
+          "requirement": "保留新浪信息仅供参考的效力边界"
+        }
+      ],
+      "voice_quote": "为考生解答志愿填报中的各类疑惑",
+      "voice": "服务考生的通知语气",
+      "allowed_changes": [
+        "删频道导航及重复设问，整理时间信息"
+      ],
+      "failure_conditions": [
+        "将已结束聊天写成报名或直播预告",
+        "删去以权威部门正式信息为准的提醒"
+      ],
+      "scoring_note": "时态最易误伤，历史通知不能改成实时服务承诺。"
+    },
+    {
+      "id": "zh2-facts-097",
+      "suitable": true,
+      "reason": "指控与条件推演须明确区分",
+      "task": "面向时政读者精简裁决前分析；可删意义套话，不省裁决对象、指控归属与条件分支。",
+      "audience": "时政读者",
+      "must_preserve": [
+        {
+          "quote": "政府是否有权充公他信财产",
+          "requirement": "保留待裁决的是政府充公权是否合法"
+        },
+        {
+          "quote": "泰国政府指控他信在担任总理期间",
+          "requirement": "腐败及滥权属于政府指控，不作定罪"
+        },
+        {
+          "quote": "如果证据不足，法院可能会驳回政府的诉求",
+          "requirement": "保留证据充分或不足对应的可能结果"
+        }
+      ],
+      "voice_quote": "这一裁决结果可能会进一步激化",
+      "voice": "分析性语气，保留推测程度",
+      "allowed_changes": [
+        "压缩人物泛评及反复强调意义的句子"
+      ],
+      "failure_conditions": [
+        "把法院即将裁决写成已支持充公",
+        "把支持者可能抗议写成已经发生"
+      ],
+      "scoring_note": "指控归属最易误伤，叙述流畅不能以定罪换取。"
+    },
+    {
+      "id": "zh2-facts-098",
+      "suitable": true,
+      "reason": "项目差异及风险限制可验收",
+      "task": "面向健身选择者整理三项目比较；可删自封专家和宣传语，不省强度差异、估算与风险。",
+      "audience": "健身项目选择者",
+      "must_preserve": [
+        {
+          "quote": "约每小时200-300卡",
+          "requirement": "保留郑多燕低中强度及消耗约数"
+        },
+        {
+          "quote": "每小时燃烧300-500卡",
+          "requirement": "保留Pump It Up消耗范围及关节风险"
+        },
+        {
+          "quote": "不适合新手或有健康隐患人群",
+          "requirement": "保留Insanity高强度及不适用人群"
+        }
+      ],
+      "voice_quote": "选择取决于个人情况",
+      "voice": "比较说明，强调个体适配",
+      "allowed_changes": [
+        "删专家自称和效果宣传，统一比较顺序"
+      ],
+      "failure_conditions": [
+        "将Insanity推荐给无基础新手",
+        "把热量消耗范围写成人人保证达到"
+      ],
+      "scoring_note": "安全边界易被简化；原稿效果判断也不能强化为保证。"
+    },
+    {
+      "id": "zh2-facts-099",
+      "suitable": true,
+      "reason": "合约数据与归因主体具体",
+      "task": "面向商品市场读者压缩糖价分析；可删关注类套话，不省合约数据、归因归属和预测限定。",
+      "audience": "商品市场读者",
+      "must_preserve": [
+        {
+          "quote": "主力合约SR2409报收每吨7050元",
+          "requirement": "保留昨日收盘口径及较高点跌近5%"
+        },
+        {
+          "quote": "累计投放量已达到数十万吨",
+          "requirement": "保留累计概数，不替换为精确投放量"
+        },
+        {
+          "quote": "国储糖的持续抛售是导致糖价下行的主要因素",
+          "requirement": "保留为分析人士归因，非唯一原因"
+        }
+      ],
+      "voice_quote": "短期内大幅反弹的可能性较小",
+      "voice": "审慎市场分析，不确定性明确",
+      "allowed_changes": [
+        "删引人关注等套话，合并供应端重复分析"
+      ],
+      "failure_conditions": [
+        "把SR2409收盘价写成现货报价",
+        "将短期大幅反弹可能性小写成绝不反弹"
+      ],
+      "scoring_note": "数据口径易串位，期货收盘与现货调价必须分清。"
+    },
+    {
+      "id": "zh2-facts-100",
+      "suitable": true,
+      "reason": "方法与检测指标完整具体",
+      "task": "面向食品检测研究者整理摘要；可删应用赞语，不省筛选方法、条件、性能指标及样品边界。",
+      "audience": "食品检测研究者",
+      "must_preserve": [
+        {
+          "quote": "采用非固定靶标法结合SELEX技术",
+          "requirement": "保留FB1适配体筛选及胶体金比色路线"
+        },
+        {
+          "quote": "线性范围为1–100 ng/mL，检出限为0.35 ng/mL",
+          "requirement": "保留优化条件、两项数值及单位"
+        },
+        {
+          "quote": "回收率在85%–108%之间，相对标准偏差小于10%",
+          "requirement": "保留加标实验口径、范围及严格小于"
+        }
+      ],
+      "voice_quote": "具有较高的应用潜力",
+      "voice": "科研摘要式克制陈述",
+      "allowed_changes": [
+        "删新工具等评价，整理方法与结果顺序"
+      ],
+      "failure_conditions": [
+        "把加标回收率写成真实样品检出率",
+        "把常见真菌毒素无交叉反应扩大为所有物质"
+      ],
+      "scoring_note": "实验适用边界最易误伤，应用潜力不等于已普及验证。"
+    },
+    {
+      "id": "zh2-voice_emotion-015",
+      "suitable": true,
+      "reason": "体育报道声音与推测层次鲜明",
+      "task": "面向篮球读者轻整报道；可改错字、删重复过渡，不省引语犹疑、名额限制和结尾推测。",
+      "audience": "篮球新闻读者",
+      "must_preserve": [
+        {
+          "quote": "他们不会“为了交易而交易”",
+          "requirement": "保留篮网不盲目交易、视情况决定"
+        },
+        {
+          "quote": "有合约在身的球员已经达到了15人",
+          "requirement": "保留签自由球员前须交易或裁员腾位"
+        },
+        {
+          "quote": "看来与易建联今夏的迅速成长不无关系",
+          "requirement": "保留成长与退出争夺的推测关联"
+        }
+      ],
+      "voice_quote": "现在我也说不好。",
+      "voice": "体育报道口吻，热闹中带观望",
+      "allowed_changes": [
+        "改新泽西篮、滕出等笔误，压缩重复过渡"
+      ],
+      "failure_conditions": [
+        "把索恩说不好改成确定启动交易",
+        "把易建联成长写成退出争夺的官方原因"
+      ],
+      "scoring_note": "推测口吻最易丢失；不能将报道判断升级为球队确认。"
+    },
+    {
+      "id": "zh2-voice_emotion-016",
+      "suitable": true,
+      "reason": "抒情议论与劝勉情绪鲜明",
+      "task": "面向议论文读者梳理劝勉文章；可减重复排比，不省正反例、痛苦承认与结尾鼓励。",
+      "audience": "议论文读者",
+      "must_preserve": [
+        {
+          "quote": "面对挫折，我们不应放大痛苦",
+          "requirement": "保留不放大痛苦、直面人生的主张"
+        },
+        {
+          "quote": "遭遇仕途不顺的挫折后",
+          "requirement": "保留王勃、李白正例与刘备反例的对照"
+        },
+        {
+          "quote": "拭一拭眼中欲滴的泪，继续前进吧！",
+          "requirement": "保留承认痛苦后仍温暖鼓励前行"
+        }
+      ],
+      "voice_quote": "可悲可悲！",
+      "voice": "激昂抒情，叹惋与劝勉交织",
+      "allowed_changes": [
+        "缩减同义排比，整理引文标点和局部衔接"
+      ],
+      "failure_conditions": [
+        "删尽排比感叹，改成冷静操作指南",
+        "把不放大痛苦改为否认痛苦或禁止流泪"
+      ],
+      "scoring_note": "修辞易被当作冗余全删；需保护昂扬节奏而非只留论点。"
+    }
+  ],
+  "metadata": {
+    "job": "rest-20",
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 88.97,
+    "system_sha256": "2c85943d84beabe7f1c8a64f793323c3fb90f4110f4f66ac756b1b69b3faf06e",
+    "input_sha256": "8c1cf90b528cb9f421496ea3646119e083c202dae2d9b19230661e53febd222d",
+    "usage": [
+      {
+        "input_tokens": 20320,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2613,
+        "reasoning_output_tokens": 83
+      }
+    ],
+    "review_type": "model_annotation",
+    "human_review": false
+  }
+}

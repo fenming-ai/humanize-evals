@@ -1,0 +1,343 @@
+{
+  "cases": [
+    {
+      "id": "zh2-missing_material-013",
+      "suitable": true,
+      "reason": "可区分纪念立场与无据盛赞",
+      "task": "面向普通读者压实纪念短评，可删空泛盛赞，不补作品、公益事例或来源。",
+      "audience": "普通读者",
+      "must_preserve": [
+        {
+          "quote": "在音乐、电影等多个领域",
+          "requirement": "保留音乐与电影两方面贡献"
+        },
+        {
+          "quote": "独特的声线和深情的演绎风格",
+          "requirement": "保留对演唱特色的赞赏"
+        },
+        {
+          "quote": "张国荣都值得被长久地铭记",
+          "requirement": "保留纪念与敬重立场"
+        }
+      ],
+      "voice_quote": "尽管已经离开了我们多年",
+      "voice": "温和怀念，真诚赞赏",
+      "allowed_changes": [
+        "删泛化赞誉与重复抒情",
+        "限定无支撑的公益及影响力表述"
+      ],
+      "failure_conditions": [
+        "补写歌曲、角色或公益事例",
+        "把作者赞赏写成公认排名"
+      ],
+      "scoring_note": "最易误伤纪念情绪；无材料不等于不能表达敬重。"
+    },
+    {
+      "id": "zh2-missing_material-014",
+      "suitable": true,
+      "reason": "研究口吻与材料缺口可分离",
+      "task": "面向伦理研究读者理清摘要，可限定研究完成度及成效，不补文献、案例或数据。",
+      "audience": "伦理研究读者",
+      "must_preserve": [
+        {
+          "quote": "逐渐降低道德底线，最终导致严重道德失范",
+          "requirement": "保留从微小违规到失范的递进"
+        },
+        {
+          "quote": "道德推脱、内隐偏差、自我非人化",
+          "requirement": "保留三种机制及原文作用解释"
+        },
+        {
+          "quote": "强化预防定向、重塑描述性社会规范",
+          "requirement": "连同道德敏感性、批判思维保留四策"
+        }
+      ],
+      "voice_quote": "我们认为，道德推脱为个体提供了",
+      "voice": "审慎的学术论述",
+      "allowed_changes": [
+        "限定文献整合及案例分析的完成声明",
+        "删理论实践意义的泛化夸赞"
+      ],
+      "failure_conditions": [
+        "新增研究样本或文献出处",
+        "把四项预防策略写成已验证有效"
+      ],
+      "scoring_note": "最易误伤证据强度；机制观点不可升级为实证结论。"
+    },
+    {
+      "id": "zh2-missing_material-015",
+      "suitable": true,
+      "reason": "可保留解读并收束无据类比",
+      "task": "面向剧评读者整理第八集评论，可删无材料的历史类比，不补剧情细节或史例。",
+      "audience": "剧评读者",
+      "must_preserve": [
+        {
+          "quote": "女性在父权社会中的挣扎与反抗",
+          "requirement": "保留女性处境与反抗主题"
+        },
+        {
+          "quote": "生存困境、情感纠葛和道德困境",
+          "requirement": "保留三类困境下的选择"
+        },
+        {
+          "quote": "哪怕是微小的反抗，也足以彰显其主体性",
+          "requirement": "保留以反抗解读主体性的观点"
+        }
+      ],
+      "voice_quote": "她们并非被动接受命运",
+      "voice": "支持女性主体性的评论口吻",
+      "allowed_changes": [
+        "删关键事实、逻辑推导等标签",
+        "限定普遍心理断言及历史类比"
+      ],
+      "failure_conditions": [
+        "补写第八集角色行为或对白",
+        "把主动反抗改为被动顺从"
+      ],
+      "scoring_note": "最易误伤观点边界；主题解读可留，不能冒充剧情证据。"
+    },
+    {
+      "id": "zh2-missing_material-016",
+      "suitable": true,
+      "reason": "陪伴叙事可与夸大推断分开",
+      "task": "面向娱乐读者收束亲情报道，可删热度与心理推测，未核实内容须限定，不补来源。",
+      "audience": "娱乐读者",
+      "must_preserve": [
+        {
+          "quote": "为了陪伴妈妈，减少了自己钟爱的火锅次数",
+          "requirement": "保留陪伴动机及减少而非彻底戒除"
+        },
+        {
+          "quote": "在《叶问》系列中饰演的张永成",
+          "requirement": "保留原稿角色归属，不扩写履历"
+        },
+        {
+          "quote": "回归家庭，她却展现出温柔体贴的一面",
+          "requirement": "保留银幕形象与家庭表现的对照"
+        }
+      ],
+      "voice_quote": "这份孝心令人动容",
+      "voice": "温暖赞赏，避免煽情拔高",
+      "allowed_changes": [
+        "删网友关注与粉丝增长的无据概括",
+        "限定产量减少及转述发言"
+      ],
+      "failure_conditions": [
+        "将减少火锅写成永久戒火锅",
+        "补写母亲病情或社交媒体原帖"
+      ],
+      "scoring_note": "最易误伤程度边界；戒火锅的修辞不能覆盖减少次数。"
+    },
+    {
+      "id": "zh2-missing_material-017",
+      "suitable": true,
+      "reason": "告别祝福可保留而不担保复出",
+      "task": "面向音乐读者整理暂别报道，可删现场渲染，限定时效和引语，不补病因或复出日期。",
+      "audience": "音乐读者",
+      "must_preserve": [
+        {
+          "quote": "绚香因健康原因宣布暂停演艺活动",
+          "requirement": "保留原稿健康原因与暂停性质"
+        },
+        {
+          "quote": "丈夫水岛宏给予的支持与鼓励",
+          "requirement": "保留丈夫身份及支持关系"
+        },
+        {
+          "quote": "让我们共同期待那一天的到来吧",
+          "requirement": "保留期待回归的祝愿而非预测"
+        }
+      ],
+      "voice_quote": "一则令人惋惜的消息",
+      "voice": "惋惜、不舍且祝福",
+      "allowed_changes": [
+        "删粉丝落泪等无据现场渲染",
+        "限定近日、最后一场及直接引语"
+      ],
+      "failure_conditions": [
+        "将暂停演艺改成永久退圈",
+        "断言绚香很快康复或确定复出"
+      ],
+      "scoring_note": "最易误伤时间与确定性；原稿期待不能变成健康保证。"
+    },
+    {
+      "id": "zh2-missing_material-018",
+      "suitable": true,
+      "reason": "可把强因果收束为分析观点",
+      "task": "面向足球读者整理第三年困境分析，可弱化无据归因，不补球队战绩、案例或心理诊断。",
+      "audience": "足球读者",
+      "must_preserve": [
+        {
+          "quote": "既有战术层面的原因，也涉及管理与心理因素",
+          "requirement": "保留多因素分析而非单因归咎"
+        },
+        {
+          "quote": "忽视阵容轮换与年轻球员的培养",
+          "requirement": "保留作者对用人与体能风险的关联判断"
+        },
+        {
+          "quote": "缺乏可持续的内部建设机制",
+          "requirement": "保留对长期建设不足的核心批评"
+        }
+      ],
+      "voice_quote": "这种“受害者心态”在逆境中",
+      "voice": "尖锐分析，但归因需有限定",
+      "allowed_changes": [
+        "合并重复的因素总结",
+        "把必然因果及心理标签限定为作者判断"
+      ],
+      "failure_conditions": [
+        "写成所有球队第三年必然崩盘",
+        "新增球员冲突实例或心理诊断"
+      ],
+      "scoring_note": "最易误伤批评力度；应限定依据，不必抹掉负面观点。"
+    },
+    {
+      "id": "zh2-missing_material-019",
+      "suitable": true,
+      "reason": "可压缩赛事渲染且不补赛况",
+      "task": "面向高尔夫读者压缩次轮概述，可删环境与观众渲染，不补选手姓名、成绩或赛况来源。",
+      "audience": "高尔夫读者",
+      "must_preserve": [
+        {
+          "quote": "德意志银行锦标赛次轮",
+          "requirement": "保留赛事名称与轮次"
+        },
+        {
+          "quote": "几位顶尖选手在关键洞次上未能如愿捉住小鸟球",
+          "requirement": "保留部分选手错失小鸟机会的叙述"
+        },
+        {
+          "quote": "更加努力调整自己的节奏，寻找突破的契机",
+          "requirement": "保留失手后调整与坚持的主题"
+        }
+      ],
+      "voice_quote": "更是一场心态和意志的较量",
+      "voice": "带鼓励意味的赛事叙述",
+      "allowed_changes": [
+        "删天气、观众反应等无据细节",
+        "压缩重复体育精神赞语"
+      ],
+      "failure_conditions": [
+        "补造选手排名、杆数或洞号",
+        "把错失小鸟球写成确定吞下柏忌"
+      ],
+      "scoring_note": "最易误伤赛况边界；空泛不授权补造具体成绩。"
+    },
+    {
+      "id": "zh2-missing_material-020",
+      "suitable": true,
+      "reason": "决策框架足够但政策例证泛化",
+      "task": "面向创业者整理注册地决策框架，可限定泛化政策示例，不补地区、税率或办理条件。",
+      "audience": "创业者",
+      "must_preserve": [
+        {
+          "quote": "首先要明确企业的业务性质和发展目标",
+          "requirement": "保留以业务与目标为选择前提"
+        },
+        {
+          "quote": "综合评估税收、成本、资源获取等多重因素",
+          "requirement": "保留多维权衡，兼顾法律与政府服务"
+        },
+        {
+          "quote": "互联网企业可能更看重人才聚集地",
+          "requirement": "保留与制造业重产业配套的差异"
+        }
+      ],
+      "voice_quote": "切忌盲目跟风，而要理性分析、审慎决策",
+      "voice": "务实审慎的建议口吻",
+      "allowed_changes": [
+        "合并首尾重复决策提醒",
+        "删或限定自贸区、高新区税惠概括"
+      ],
+      "failure_conditions": [
+        "宣称所有自贸区初创企业均可减税",
+        "直接指定最佳注册地或新增税率"
+      ],
+      "scoring_note": "最易误伤政策条件；框架建议不能变成优惠承诺。"
+    },
+    {
+      "id": "zh2-missing_material-021",
+      "suitable": true,
+      "reason": "个人解读可与导演意图区分",
+      "task": "面向电影观众压缩捡球情节评论，可限定导演意图和学习过程推断，不补剧情或幕后材料。",
+      "audience": "电影观众",
+      "must_preserve": [
+        {
+          "quote": "我对《忠犬八公的故事》中八公捡球的情节",
+          "requirement": "保留个人影评身份与讨论对象"
+        },
+        {
+          "quote": "捡球象征着八公对主人的依恋和理解",
+          "requirement": "保留依恋与理解的象征解读"
+        },
+        {
+          "quote": "尽管没有具体交代八公是如何学会捡球的",
+          "requirement": "保留学习过程未具体交代的边界"
+        }
+      ],
+      "voice_quote": "作为一个电影爱好者",
+      "voice": "亲近、投入的个人观影口吻",
+      "allowed_changes": [
+        "合并信任、默契与情感连接的重复",
+        "将导演目的及模仿学习限定为解读"
+      ],
+      "failure_conditions": [
+        "补写教授训练八公捡球的过程",
+        "声称导演访谈证实该情节用意"
+      ],
+      "scoring_note": "最易误伤叙事空白；不能把观众理解填成片中事实。"
+    },
+    {
+      "id": "zh2-missing_material-022",
+      "suitable": true,
+      "reason": "可剥离感情猜测与全称赞誉",
+      "task": "面向娱乐读者整理人物短评，可删当前择偶猜测和无据盛赞，不补恋情时间线或来源。",
+      "audience": "娱乐读者",
+      "must_preserve": [
+        {
+          "quote": "最终他们分道扬镳",
+          "requirement": "保留原稿章子怡与Vivi恋情已结束"
+        },
+        {
+          "quote": "《我的父亲母亲》中纯真质朴的招娣",
+          "requirement": "保留作品与角色对应及其评价"
+        },
+        {
+          "quote": "《卧虎藏龙》里灵动狡黠的玉娇龙",
+          "requirement": "保留另一角色对应及演技赞赏"
+        }
+      ],
+      "voice_quote": "让我们一起拭目以待吧",
+      "voice": "欣赏演艺表现并寄予祝福",
+      "allowed_changes": [
+        "删等待伴侣与内心需求的揣测",
+        "限定全部作品皆经典等全称赞誉"
+      ],
+      "failure_conditions": [
+        "将与Vivi的恋情写成仍在持续",
+        "补造现任伴侣或求偶声明"
+      ],
+      "scoring_note": "最易误伤私生活边界；祝福不能变成当前感情事实。"
+    }
+  ],
+  "metadata": {
+    "job": "rest-34",
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 90.31,
+    "system_sha256": "2c85943d84beabe7f1c8a64f793323c3fb90f4110f4f66ac756b1b69b3faf06e",
+    "input_sha256": "f2e03fca863bfee3b9f1870ff6bdd0fa0db34f8bb603a64cb8d51b77ec7c857e",
+    "usage": [
+      {
+        "input_tokens": 19204,
+        "cached_input_tokens": 10368,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2783,
+        "reasoning_output_tokens": 55
+      }
+    ],
+    "review_type": "model_annotation",
+    "human_review": false
+  }
+}

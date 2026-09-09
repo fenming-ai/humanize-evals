@@ -1,0 +1,248 @@
+{
+  "cases": [
+    {
+      "id": "zh2-no_edit-r111",
+      "suitable": true,
+      "reason": "摘要结构完整，专业表述清楚",
+      "task": "面向相关领域研究者保留摘要，可原样输出，不删技术组成、发展节点及综述范围。",
+      "audience": "相关领域研究者",
+      "must_preserve": [
+        {
+          "quote": "主要涵盖1.将光控元件表达在特定细胞或组织",
+          "requirement": "保留表达、递送光刺激、记录分析三环节"
+        },
+        {
+          "quote": "早在1971年，就有研究发现",
+          "requirement": "保留1971年发现与2005年表达激活的区别"
+        },
+        {
+          "quote": "不同遗传学表达策略的优缺点",
+          "requirement": "保留元件优化、表达策略、局限与展望"
+        }
+      ],
+      "voice_quote": "为相关领域的发展研究提供参考",
+      "voice": "客观、专业的综述摘要口吻",
+      "allowed_changes": [
+        "允许全文原样输出",
+        "仅微调列举格式"
+      ],
+      "failure_conditions": [
+        "把1971年发现写成已用于光控",
+        "删除表达策略优缺点或技术局限"
+      ],
+      "scoring_note": "学术惯用语易被误删；摘要目的句具有定位功能。"
+    },
+    {
+      "id": "zh2-no_edit-r112",
+      "suitable": true,
+      "reason": "试验设计与结果交代清楚",
+      "task": "面向动物营养研究者保留试验摘要，可原样输出；不省略设计参数、指标及显著性。",
+      "audience": "动物营养研究者",
+      "must_preserve": [
+        {
+          "quote": "每组4个重复，每个重复3头猪",
+          "requirement": "保留24头随机两组、配比及两阶段时长"
+        },
+        {
+          "quote": "生长性能和胴体性状指标无显著差异",
+          "requirement": "保留无显著差异及P>0.05"
+        },
+        {
+          "quote": "但血清中黄嘌呤、丁子香酚、丙烯酰胺",
+          "requirement": "保留全部肉质、血清指标的方向和显著性"
+        }
+      ],
+      "voice_quote": "本试验旨在研究发酵饲料",
+      "voice": "克制的试验摘要口吻",
+      "allowed_changes": [
+        "允许全文原样输出",
+        "仅统一单位与统计符号格式"
+      ],
+      "failure_conditions": [
+        "宣称发酵饲料显著促进生长",
+        "删改20%配比或代谢物变化方向"
+      ],
+      "scoring_note": "指标密集易被压缩误伤，尤其无显著差异不能变成无影响。"
+    },
+    {
+      "id": "zh2-no_edit-r113",
+      "suitable": false,
+      "reason": "种族概括与生硬措辞需修改",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-r114",
+      "suitable": false,
+      "reason": "正文混入相关阅读及残留符号",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-r115",
+      "suitable": true,
+      "reason": "分红统计与计划层次清楚",
+      "task": "面向基金资讯读者保留简讯，可原样输出；不删统计区间、金额及拟分红条件。",
+      "audience": "基金资讯读者",
+      "must_preserve": [
+        {
+          "quote": "3月1日至3月16日期间",
+          "requirement": "保留区间内24只基金及44.06亿元"
+        },
+        {
+          "quote": "3只基金将于3月25日分红",
+          "requirement": "保留消息归属、三只基金名称及计划日期"
+        },
+        {
+          "quote": "每10份基金份额拟派发现金红利0.9元",
+          "requirement": "收益每10份拟派0.9元，其余两只0.6元"
+        }
+      ],
+      "voice_quote": "基金在3月份迎来分红高潮",
+      "voice": "简洁的财经消息口吻",
+      "allowed_changes": [
+        "允许全文原样输出",
+        "仅微调数字间空格"
+      ],
+      "failure_conditions": [
+        "将3月25日计划写成已完成",
+        "将0.9元写成每份红利"
+      ],
+      "scoring_note": "最易误伤拟与将的时间边界，不能把计划改成实绩。"
+    },
+    {
+      "id": "zh2-no_edit-r116",
+      "suitable": false,
+      "reason": "含“造作”错字及明显病句",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-r117",
+      "suitable": true,
+      "reason": "发言归属与立场边界清楚",
+      "task": "面向国际新闻读者保留会谈报道，可原样输出；不删双方立场及援助限制。",
+      "audience": "国际新闻读者",
+      "must_preserve": [
+        {
+          "quote": "28日上午与到访的欧盟负责外交和安全政策",
+          "requirement": "保留会谈时间、佩雷斯与索拉纳身份"
+        },
+        {
+          "quote": "为重建加沙而非重新武装哈马斯提供帮助",
+          "requirement": "保留佩雷斯援助边界及制约框架要求"
+        },
+        {
+          "quote": "欧盟将积极参与加沙重建事务",
+          "requirement": "归于索拉纳表态，保留推动和平的主张"
+        }
+      ],
+      "voice_quote": "目前和平尚未实现，但局势已经发生了变化",
+      "voice": "中性转述，不替发言者背书",
+      "allowed_changes": [
+        "允许全文原样输出",
+        "仅按发言者分段"
+      ],
+      "failure_conditions": [
+        "把以方援助改成无条件支持",
+        "把欧盟重建表态归给佩雷斯"
+      ],
+      "scoring_note": "归属最易误伤；外交表态不能改成记者确认的事实。"
+    },
+    {
+      "id": "zh2-no_edit-r118",
+      "suitable": false,
+      "reason": "末尾残留“相关回答：”，明显未清理",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-r119",
+      "suitable": true,
+      "reason": "传闻与经纪人否认区分明确",
+      "task": "面向娱乐新闻读者保留辟谣报道，可原样输出；不删消息归属、否认及不再澄清态度。",
+      "audience": "娱乐新闻读者",
+      "must_preserve": [
+        {
+          "quote": "但有香港媒体称王菲到港是以购物为名",
+          "requirement": "求医求子只能作为港媒传闻呈现"
+        },
+        {
+          "quote": "我虽不是医生，但肯定她回香港不是看医生",
+          "requirement": "保留陈家瑛否认及非医生的身份限定"
+        },
+        {
+          "quote": "这些传闻太无聊，今后也不会多作澄清",
+          "requirement": "保留经纪人不满及不再多作澄清的态度"
+        }
+      ],
+      "voice_quote": "生孩子的事情顺其自然，不会刻意做什么",
+      "voice": "报道中保留经纪人的直率口吻",
+      "allowed_changes": [
+        "允许全文原样输出",
+        "仅按报道与引语分段"
+      ],
+      "failure_conditions": [
+        "把子宫治疗传闻写成确诊事实",
+        "把经纪人判断写成医学证明"
+      ],
+      "scoring_note": "否认并非医学核验；不能消除归属，也不能抹平不满。"
+    },
+    {
+      "id": "zh2-no_edit-r120",
+      "suitable": false,
+      "reason": "价格与硬件绝对断言缺少必要限定",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    }
+  ],
+  "metadata": {
+    "job": "supplement-12",
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 67.38,
+    "system_sha256": "2c85943d84beabe7f1c8a64f793323c3fb90f4110f4f66ac756b1b69b3faf06e",
+    "input_sha256": "29a5c19384c118039e1fc7bbfa5abc48f64d0be913396b0f35931927ef8c9371",
+    "usage": [
+      {
+        "input_tokens": 18650,
+        "cached_input_tokens": 6016,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1844,
+        "reasoning_output_tokens": 163
+      }
+    ],
+    "review_type": "model_annotation",
+    "human_review": false
+  }
+}

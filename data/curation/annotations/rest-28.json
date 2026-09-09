@@ -1,0 +1,286 @@
+{
+  "cases": [
+    {
+      "id": "zh2-punctuation-025",
+      "suitable": true,
+      "reason": "引语、列举与活动名符号功能明确",
+      "task": "面向河南考生家长，整理新闻标点与层次；可删改革套话，不增补招生信息。",
+      "audience": "河南考生及家长",
+      "must_preserve": [
+        {
+          "quote": "专科录取工作将于8月6日正式启动",
+          "requirement": "保留专科录取启动日期"
+        },
+        {
+          "quote": "虽然高考分数仍是主要衡量标准",
+          "requirement": "保留分数仍为主要标准的限定"
+        },
+        {
+          "quote": "应充分考虑自身的兴趣特长、职业规划",
+          "requirement": "保留择校建议的并列关系"
+        }
+      ],
+      "voice_quote": "切勿盲目追求学历层次",
+      "voice": "新闻说明兼理性提醒",
+      "allowed_changes": [
+        "压缩改革意义套话",
+        "整理引语与列举标点"
+      ],
+      "failure_conditions": [
+        "将专家引语改成已核实的普遍结论",
+        "改动8月6日或混淆本科与专科"
+      ],
+      "scoring_note": "易误伤引语归属；引号不是装饰，也不证明引语已核实。"
+    },
+    {
+      "id": "zh2-punctuation-026",
+      "suitable": false,
+      "reason": "仅常规书名号，标点考点不足",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-punctuation-027",
+      "suitable": true,
+      "reason": "引号区分转述、引语与比喻",
+      "task": "面向娱乐新闻读者，整理引号与断句；可删热度套话，不补出版或家庭细节。",
+      "audience": "娱乐新闻读者",
+      "must_preserve": [
+        {
+          "quote": "这本尚未公布书名的作品",
+          "requirement": "保留书名尚未公布"
+        },
+        {
+          "quote": "甚至可能涉及她与前夫",
+          "requirement": "保留涉及前夫只是可能"
+        },
+        {
+          "quote": "需在情感表达与事实准确性之间取得平衡",
+          "requirement": "保留匿名经纪人的谨慎意见"
+        }
+      ],
+      "voice_quote": "也像是给公众的一封“迟到的信”",
+      "voice": "带纪念意味的新闻评论",
+      "allowed_changes": [
+        "整理不同层次的引号",
+        "压缩热搜与期待套话"
+      ],
+      "failure_conditions": [
+        "把可能涉及前夫改成确定披露",
+        "将“迟到的信”写成回忆录书名"
+      ],
+      "scoring_note": "最易把引号内容误作书名或事实，须保留归属与不确定性。"
+    },
+    {
+      "id": "zh2-punctuation-028",
+      "suitable": true,
+      "reason": "引语、破折号与分号承担不同功能",
+      "task": "面向成长随笔读者，整理标点与长句；可减重复励志话，不删学琴经历主线。",
+      "audience": "成长随笔读者",
+      "must_preserve": [
+        {
+          "quote": "面对着似乎永远也弹不好的曲子",
+          "requirement": "保留学琴受挫与放弃念头"
+        },
+        {
+          "quote": "正是这句话给了我继续前进的动力",
+          "requirement": "保留母亲鼓励带来的转折"
+        },
+        {
+          "quote": "在学校举办的音乐节上获得了第一名",
+          "requirement": "保留获奖场合与名次"
+        }
+      ],
+      "voice_quote": "所有的汗水与泪水都化作了无比甜蜜的笑容",
+      "voice": "第一人称热切励志",
+      "allowed_changes": [
+        "合并重复励志结语",
+        "整理引语、解释与排比标点"
+      ],
+      "failure_conditions": [
+        "把母亲的话改成作者自言自语",
+        "删除挫折过程，仅留下成功说教"
+      ],
+      "scoring_note": "易误伤热切语气；破折号和分号承担解释、对举功能。"
+    },
+    {
+      "id": "zh2-punctuation-029",
+      "suitable": false,
+      "reason": "赛事身份不明且术语混杂，标点难隔离",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-punctuation-030",
+      "suitable": true,
+      "reason": "概念引号与距离性引号可区分",
+      "task": "面向历史话题读者，整理概念引号与断句；可减重复结论，不补史料或民族归属。",
+      "audience": "历史话题读者",
+      "must_preserve": [
+        {
+          "quote": "当时并没有现代意义上的“民族”概念",
+          "requirement": "保留现代分类不宜套用上古的观点"
+        },
+        {
+          "quote": "其价值在于凝聚共识，而不是制造分歧",
+          "requirement": "保留文化凝聚而非分裂的立场"
+        },
+        {
+          "quote": "黄帝所代表的可能是一个时代",
+          "requirement": "保留可能性，不改成定论"
+        }
+      ],
+      "voice_quote": "秉持理性、包容的态度",
+      "voice": "理性包容的议论",
+      "allowed_changes": [
+        "压缩重复总结",
+        "调整概念引号与长句停顿"
+      ],
+      "failure_conditions": [
+        "把黄帝明确归入某个现代民族",
+        "把可能代表时代改成已证实结论"
+      ],
+      "scoring_note": "易误伤“归属于”的距离感；引号表达对分类方式的保留。"
+    },
+    {
+      "id": "zh2-punctuation-031",
+      "suitable": true,
+      "reason": "感叹号承载招呼与期待语气",
+      "task": "面向娱乐影迷，整理标点和口语节奏；可减宣传套话，不补票房或影评来源。",
+      "audience": "娱乐影迷",
+      "must_preserve": [
+        {
+          "quote": "搞笑又温馨故事，妥妥是年末必看的欢乐大餐",
+          "requirement": "保留对影片欢乐温馨的主观期待"
+        },
+        {
+          "quote": "她一袭时尚礼服，大方秀出香肩",
+          "requirement": "保留首映造型描述"
+        },
+        {
+          "quote": "很可能成为圣诞档票房黑马",
+          "requirement": "保留预测性质，不写成成绩"
+        }
+      ],
+      "voice_quote": "嘿，各位娱乐小粉丝们！",
+      "voice": "亲昵热情的影迷口吻",
+      "allowed_changes": [
+        "压缩视听盛宴等宣传套话",
+        "调整感叹号而保留呼告节奏"
+      ],
+      "failure_conditions": [
+        "把票房黑马预测改成既成事实",
+        "删去招呼和期待，改成冷淡公报"
+      ],
+      "scoring_note": "易误伤口语热情；不能因感叹号或夸张措辞直接判低质。"
+    },
+    {
+      "id": "zh2-punctuation-032",
+      "suitable": true,
+      "reason": "排比、省略号及对话标点功能丰富",
+      "task": "面向环保随笔读者，整理排比和对话标点；可减空泛号召，不删见闻到行动的转折。",
+      "audience": "环保随笔读者",
+      "must_preserve": [
+        {
+          "quote": "可现实却给了我一个灰色的世界",
+          "requirement": "保留绿色梦想与灰色现实的对照"
+        },
+        {
+          "quote": "看到一位老爷爷正弯腰捡拾路边散落的垃圾",
+          "requirement": "保留放学路上见到老人捡垃圾"
+        },
+        {
+          "quote": "每当周末或者假期时，都会参加一些志愿者活动",
+          "requirement": "保留作者随后参与环保行动"
+        }
+      ],
+      "voice_quote": "多么渴望那绿色的生活啊！",
+      "voice": "渴望、忧虑转向行动热情",
+      "allowed_changes": [
+        "整理排比、对话与省略号",
+        "修正明显病词，压缩结尾号召"
+      ],
+      "failure_conditions": [
+        "把老人回答归给作者",
+        "删除现实污染与绿色梦想的反差"
+      ],
+      "scoring_note": "易误伤省略号的延展与感叹号的渴望，不能按频次删符号。"
+    },
+    {
+      "id": "zh2-punctuation-033",
+      "suitable": false,
+      "reason": "案例归因与引述缺支撑，标点考点偏弱",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-punctuation-034",
+      "suitable": true,
+      "reason": "括注明确机构简称，顿号划分主体",
+      "task": "面向财经新闻读者，整理简称括注与列举；可删宏观套话，不补行情或交易细则。",
+      "audience": "财经新闻读者",
+      "must_preserve": [
+        {
+          "quote": "中国证券监督管理委员会（证监会）",
+          "requirement": "保留机构全称与简称对应"
+        },
+        {
+          "quote": "批准上海期货交易所（上期所）开展钢材期货交易",
+          "requirement": "保留批准主体与开展交易主体之别"
+        },
+        {
+          "quote": "钢铁生产企业、贸易商和投资者",
+          "requirement": "保留三类工具使用对象"
+        }
+      ],
+      "voice_quote": "可能对国际市场造成一定影响",
+      "voice": "正式财经报道，预测有保留",
+      "allowed_changes": [
+        "整理首次简称括注和列举",
+        "压缩改革意义与深远影响套话"
+      ],
+      "failure_conditions": [
+        "将证监会写成开展交易的交易所",
+        "把国际市场可能受影响改成确定结果"
+      ],
+      "scoring_note": "易误伤简称与主体边界；保留原稿陈述不等于核实行情。"
+    }
+  ],
+  "metadata": {
+    "job": "rest-28",
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 84.26,
+    "system_sha256": "2c85943d84beabe7f1c8a64f793323c3fb90f4110f4f66ac756b1b69b3faf06e",
+    "input_sha256": "cefa3c1150f38f9090bb3da5c6d307b13d0e889d0fba03d2ee3cd8c358c2b83b",
+    "usage": [
+      {
+        "input_tokens": 21263,
+        "cached_input_tokens": 10368,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2211,
+        "reasoning_output_tokens": 139
+      }
+    ],
+    "review_type": "model_annotation",
+    "human_review": false
+  }
+}

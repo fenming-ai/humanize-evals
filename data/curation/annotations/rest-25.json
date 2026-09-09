@@ -1,0 +1,267 @@
+{
+  "cases": [
+    {
+      "id": "zh2-voice_emotion-057",
+      "suitable": true,
+      "reason": "褒贬并存，吐槽鲜明",
+      "task": "面向影评读者精简短评，保留赞赏、剧情疑问和厌恶；只删重复铺垫。",
+      "audience": "影评读者",
+      "must_preserve": [
+        {
+          "quote": "很喜欢导演的分镜头和场面调度",
+          "requirement": "保留对导演技法的赞赏"
+        },
+        {
+          "quote": "不知道是不是因为审查让编剧背了锅",
+          "requirement": "保留猜测语气及两处剧情疑问"
+        },
+        {
+          "quote": "非常不喜欢商场那段",
+          "requirement": "保留对商场段落的强烈不满"
+        }
+      ],
+      "voice_quote": "办案高科技赞。",
+      "voice": "口语跳跃，直率且褒贬分明",
+      "allowed_changes": [
+        "压缩重复的疑问引导语",
+        "整理局部断句"
+      ],
+      "failure_conditions": [
+        "将审查影响写成确定原因",
+        "把商场段落的不满改成温和建议"
+      ],
+      "scoring_note": "最易误伤褒贬层次，不能把混合评价统一成赞扬或批评。"
+    },
+    {
+      "id": "zh2-voice_emotion-058",
+      "suitable": true,
+      "reason": "亲历抱怨与护楼主态度明确",
+      "task": "面向论坛参与者理顺申诉经历，保留委屈和反驳；可删重复称呼，不删遭遇。",
+      "audience": "论坛参与者",
+      "must_preserve": [
+        {
+          "quote": "在一次财付通里的钱被别人盗取之后",
+          "requirement": "保留钱被盗后的求助背景"
+        },
+        {
+          "quote": "找到的也是机器人，打客服电话没人接",
+          "requirement": "保留两种求助碰壁的经历"
+        },
+        {
+          "quote": "解绑了银行卡，自认倒霉呗",
+          "requirement": "保留解绑及无奈认栽的结果"
+        }
+      ],
+      "voice_quote": "但请楼上的别无脑黑好伐",
+      "voice": "带委屈的口语反驳，维护楼主",
+      "allowed_changes": [
+        "删重复称呼",
+        "理顺长句与标点"
+      ],
+      "failure_conditions": [
+        "把个人经历推广为客服永远无人",
+        "删掉对挤兑楼主者的反驳"
+      ],
+      "scoring_note": "最易把愤懑磨成客服建议；个人了解有限的边界也需保留。"
+    },
+    {
+      "id": "zh2-voice_emotion-059",
+      "suitable": false,
+      "reason": "主体为转会报道，情绪集中于引语",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-voice_emotion-060",
+      "suitable": true,
+      "reason": "采访中的遗憾与克制可辨",
+      "task": "面向篮球读者整理采访，保留问答归属和阿联的克制；可省寒暄，不删关键回应。",
+      "audience": "篮球读者",
+      "must_preserve": [
+        {
+          "quote": "整个第四节都没有上阵",
+          "requirement": "保留第四节未上场的背景"
+        },
+        {
+          "quote": "最后被对方投进了一个球，确实有点可惜",
+          "requirement": "保留惜败的遗憾而非愤怒"
+        },
+        {
+          "quote": "主要全队整体防守做得不错",
+          "requirement": "保留将防守功劳归于全队"
+        }
+      ],
+      "voice_quote": "教练有教练的安排，他有自己用人的一个方法。",
+      "voice": "简短克制，不借提问抱怨教练",
+      "allowed_changes": [
+        "删结尾致谢",
+        "整理问答标点"
+      ],
+      "failure_conditions": [
+        "把记者对保守安排的质疑算给阿联",
+        "把很难评价改成断言球队失误"
+      ],
+      "scoring_note": "最易将记者的追问误作球员立场，制造原文没有的不满。"
+    },
+    {
+      "id": "zh2-voice_emotion-061",
+      "suitable": true,
+      "reason": "专业解释中有明显质疑与保留",
+      "task": "面向担保业务读者整理长句，保留作者质疑及观察范围；可删赘词，不补现行规则。",
+      "audience": "担保业务读者",
+      "must_preserve": [
+        {
+          "quote": "关于净资产（非净资本）10倍的限制",
+          "requirement": "保留原文法定限制与概念区分"
+        },
+        {
+          "quote": "至少我看到的几家很少按规定计提",
+          "requirement": "保留观察样本有限，勿泛化"
+        },
+        {
+          "quote": "但可能担保公司有别的手段追回吧",
+          "requirement": "保留对追回手段的不确定"
+        }
+      ],
+      "voice_quote": "所以担保公司的利润质量可想而知",
+      "voice": "解释中带怀疑，口语直白",
+      "allowed_changes": [
+        "按法定与实操限制分段",
+        "删重复连接词"
+      ],
+      "failure_conditions": [
+        "将作者观察写成全行业定论",
+        "把原文监管说法认证为现行规定"
+      ],
+      "scoring_note": "最易为显专业而删掉保留语，使有限观察变成确定断言。"
+    },
+    {
+      "id": "zh2-voice_emotion-062",
+      "suitable": true,
+      "reason": "从厌倦到珍惜的情绪弧线完整",
+      "task": "面向散文读者修整病句错字，保留枯树贯穿的情绪转折；可压排比，不删转折阶段。",
+      "audience": "散文读者",
+      "must_preserve": [
+        {
+          "quote": "我开始厌恶身边那些一成不变的事物",
+          "requirement": "保留早期厌倦与求新的起点"
+        },
+        {
+          "quote": "每一次的期待总比喜悦多一点",
+          "requirement": "保留旅行仍难满足的失落"
+        },
+        {
+          "quote": "那棵树，它从未逃离",
+          "requirement": "保留由树的坚守转向珍惜拥有"
+        }
+      ],
+      "voice_quote": "想要逃离，却无处可躲。",
+      "voice": "青春式抒情，由浮躁转向沉静",
+      "allowed_changes": [
+        "修明显错字与病句",
+        "压缩重复排比和结尾议论"
+      ],
+      "failure_conditions": [
+        "删去旅行失落直接跳到顿悟",
+        "把珍惜拥有改成鼓励不断远行"
+      ],
+      "scoring_note": "最易把修辞都当赘余，删断枯树与自我成长的情绪联系。"
+    },
+    {
+      "id": "zh2-voice_emotion-063",
+      "suitable": false,
+      "reason": "主体为选帅报道，作者情绪不突出",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-voice_emotion-064",
+      "suitable": false,
+      "reason": "冲突来自新闻人物，作者声音不足",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-voice_emotion-065",
+      "suitable": true,
+      "reason": "自嘲辩护与立场转变鲜明",
+      "task": "面向产品讨论读者精简答辩，保留任职披露、自嘲与个人立场；可删铺垫，不删推测边界。",
+      "audience": "产品讨论读者",
+      "must_preserve": [
+        {
+          "quote": "Drawer 在可见性上有天然的劣势",
+          "requirement": "保留承认缺点及改善功能可见度的动机"
+        },
+        {
+          "quote": "在被普通用户行为分析数据打脸之后",
+          "requirement": "保留从抵触到缓和的自述"
+        },
+        {
+          "quote": "以上发言仅代表个人立场",
+          "requirement": "保留非官方发言边界"
+        }
+      ],
+      "voice_quote": "所以这个回答我尽量洗个地吧",
+      "voice": "工程师式自嘲辩护，坦承取舍",
+      "allowed_changes": [
+        "压缩开头铺垫",
+        "拆分中英混排长句"
+      ],
+      "failure_conditions": [
+        "把可能新增的导航功能写成承诺",
+        "删任职披露或改成公司官方声明"
+      ],
+      "scoring_note": "最易把自嘲改成公关腔，并将个人预测升级为产品承诺。"
+    },
+    {
+      "id": "zh2-voice_emotion-066",
+      "suitable": false,
+      "reason": "主体为考试须知，缺少个性情绪",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    }
+  ],
+  "metadata": {
+    "job": "rest-25",
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 71.7,
+    "system_sha256": "2c85943d84beabe7f1c8a64f793323c3fb90f4110f4f66ac756b1b69b3faf06e",
+    "input_sha256": "c5650dc5139e577a1e898d77d890835e8353051514cf74370dc0416022ffda7d",
+    "usage": [
+      {
+        "input_tokens": 20313,
+        "cached_input_tokens": 10368,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1977,
+        "reasoning_output_tokens": 100
+      }
+    ],
+    "review_type": "model_annotation",
+    "human_review": false
+  }
+}

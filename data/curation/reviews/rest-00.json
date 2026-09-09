@@ -1,0 +1,67 @@
+{
+  "cases": [
+    {
+      "id": "zh2-slop-017",
+      "approve": true,
+      "reason": "保留要求忠实原文，区分人物信心与确定复出。"
+    },
+    {
+      "id": "zh2-slop-018",
+      "approve": true,
+      "reason": "引文准确，保留评价并禁止补造画面细节。"
+    },
+    {
+      "id": "zh2-slop-019",
+      "approve": false,
+      "reason": "voice_quote拼接了两处文字，并非原文连续引文。"
+    },
+    {
+      "id": "zh2-slop-020",
+      "approve": true,
+      "reason": "保留核心意象与选择主张，允许删除名人例。"
+    },
+    {
+      "id": "zh2-slop-021",
+      "approve": true,
+      "reason": "模式及优缺点均有原文依据，失败条件合理。"
+    },
+    {
+      "id": "zh2-slop-022",
+      "approve": true,
+      "reason": "保留多因素分析与风险，允许限定过强判断。"
+    },
+    {
+      "id": "zh2-slop-024",
+      "approve": true,
+      "reason": "总体立场与服务条件忠实，未将用户反馈升级为承诺。"
+    },
+    {
+      "id": "zh2-slop-025",
+      "approve": true,
+      "reason": "准确保留财富定义及价值层次，未误解否定范围。"
+    },
+    {
+      "id": "zh2-slop-026",
+      "approve": true,
+      "reason": "具体回忆及情感转变有据，精简边界合理。"
+    }
+  ],
+  "metadata": {
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 25.34,
+    "input_sha256": "6ce24cd32b76bc3f7a1dbf9d548cbd4e4efdf5022b42e4e87c459cf5081486b8",
+    "system_sha256": "0c41b551a96d085bbc3597749915f67732aa702736eddffdb625f85696aded81",
+    "usage": [
+      {
+        "input_tokens": 22734,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 356,
+        "reasoning_output_tokens": 48
+      }
+    ],
+    "review_type": "independent_context_model_review",
+    "human_review": false
+  }
+}

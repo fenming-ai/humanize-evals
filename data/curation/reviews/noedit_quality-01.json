@@ -1,0 +1,52 @@
+{
+  "cases": [
+    {
+      "id": "zh2-no_edit-q012",
+      "approve": true,
+      "reason": "引文准确，政策诉求与判断归因保留合理。"
+    },
+    {
+      "id": "zh2-no_edit-q016",
+      "approve": true,
+      "reason": "威胁归属、评估状态及应对条件均忠实原文。"
+    },
+    {
+      "id": "zh2-no_edit-q017",
+      "approve": true,
+      "reason": "来源、伤情、听证经过及伤亡数量要求准确。"
+    },
+    {
+      "id": "zh2-no_edit-q018",
+      "approve": true,
+      "reason": "引文准确，拒售态度与未定去向边界合理。"
+    },
+    {
+      "id": "zh2-no_edit-q019",
+      "approve": true,
+      "reason": "招生条件、统计归属及数字口径保护合理。"
+    },
+    {
+      "id": "zh2-no_edit-q020",
+      "approve": false,
+      "reason": "末句“按图索‘基’”结合基金排名构成明显导购宣传，不适合no_edit。"
+    }
+  ],
+  "metadata": {
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 23.61,
+    "input_sha256": "a9aa79d27fa0edd8a5cdc6679d0fc9b76cb171fa1e902d8eefdedda704eb77c7",
+    "system_sha256": "0c41b551a96d085bbc3597749915f67732aa702736eddffdb625f85696aded81",
+    "usage": [
+      {
+        "input_tokens": 18895,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 349,
+        "reasoning_output_tokens": 132
+      }
+    ],
+    "review_type": "independent_context_model_review",
+    "human_review": false
+  }
+}

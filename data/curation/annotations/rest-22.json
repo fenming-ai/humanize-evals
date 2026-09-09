@@ -1,0 +1,315 @@
+{
+  "cases": [
+    {
+      "id": "zh2-voice_emotion-027",
+      "suitable": true,
+      "reason": "自谦与生活化购买动机鲜明",
+      "task": "面向手机讨论读者理顺受众分析，保留个人口吻和购机动机，可删宣传铺陈。",
+      "audience": "手机讨论读者",
+      "must_preserve": [
+        {
+          "quote": "GPS得精准度需求需要因人而异",
+          "requirement": "保留定位需求因人而异的限定"
+        },
+        {
+          "quote": "导航转圈找方向的人",
+          "requirement": "保留作者导航找方向的困扰"
+        },
+        {
+          "quote": "我会给我妈换个小米8的",
+          "requirement": "保留给母亲换机的个人意愿"
+        }
+      ],
+      "voice_quote": "谢邀，非专，个人看法。",
+      "voice": "自谦、口语化，带生活体验",
+      "allowed_changes": [
+        "压缩平台罗列，整理青年与中年分析"
+      ],
+      "failure_conditions": [
+        "把双频GPS写成所有人的必选理由",
+        "将给母亲换机的意愿改成已经购买"
+      ],
+      "scoring_note": "易把个人体验改成广告背书，丢失自谦限定。"
+    },
+    {
+      "id": "zh2-voice_emotion-028",
+      "suitable": true,
+      "reason": "亲历对话与欢快情绪具体",
+      "task": "面向旅行分享读者整理叙事与二更，保留互动温度和俏皮祝福，可减重复夸赞。",
+      "audience": "旅行分享读者",
+      "must_preserve": [
+        {
+          "quote": "我因为身体不适不想进食",
+          "requirement": "保留最初拒食的身体原因"
+        },
+        {
+          "quote": "小姐姐超级开心地递了她的红糖馒头给我",
+          "requirement": "保留空乘递馒头时的开心"
+        },
+        {
+          "quote": "希望努力工作积极向上的人都能被温柔相待",
+          "requirement": "保留对认真工作者的温柔祝愿"
+        }
+      ],
+      "voice_quote": "希望大家好吃好喝好胃口好开心嘻嘻嘻！",
+      "voice": "热情、俏皮，满怀善意",
+      "allowed_changes": [
+        "分隔对话与二更，压缩重复赞美"
+      ],
+      "failure_conditions": [
+        "将空乘劝食改写成作者反感的强迫",
+        "删掉二更中馒头好吃的反馈"
+      ],
+      "scoring_note": "易过度精简笑声与祝福，使暖心分享变成服务评价。"
+    },
+    {
+      "id": "zh2-voice_emotion-029",
+      "suitable": false,
+      "reason": "新闻转述为主，缺少作者情绪声音",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-voice_emotion-030",
+      "suitable": true,
+      "reason": "技术追问与无奈吐槽结合",
+      "task": "面向机械技术讨论读者理顺复制难点，保留递进追问与无奈，可删更新提示。",
+      "audience": "机械技术讨论读者",
+      "must_preserve": [
+        {
+          "quote": "逆向对于公差的100%完全复现，理论上不可能",
+          "requirement": "保留作者对完全复现公差的否定"
+        },
+        {
+          "quote": "假设一千个变量里面",
+          "requirement": "变量数量须保持假设性质"
+        },
+        {
+          "quote": "别的不说你的可靠性就不能保证",
+          "requirement": "保留外观相同不等于可靠的判断"
+        }
+      ],
+      "voice_quote": "我能怎么办，我也很绝望啊！",
+      "voice": "技术口语、连续追问、无奈吐槽",
+      "allowed_changes": [
+        "删更新提示，按公差到热管理分段"
+      ],
+      "failure_conditions": [
+        "把假设变量数写成台架实测结果",
+        "将无奈收尾改成逆向复制成功的赞叹"
+      ],
+      "scoring_note": "易把夸张吐槽当冗余删除，削弱难点叠加的情绪。"
+    },
+    {
+      "id": "zh2-voice_emotion-031",
+      "suitable": true,
+      "reason": "戏谑论辩与自嘲辨识度高",
+      "task": "面向电影讨论读者理顺氛围与蓝本两线，保留戏谑，可删缺图指示，不补图像细节。",
+      "audience": "电影讨论读者",
+      "must_preserve": [
+        {
+          "quote": "从历史去看这个问题根本就是本末倒置的",
+          "requirement": "保留反对仅从历史解释的立场"
+        },
+        {
+          "quote": "文献根本不是问题，剧本才是问题",
+          "requirement": "保留剧本与观众接受度的核心判断"
+        },
+        {
+          "quote": "第三点，没有第三点，凑个数好像好看一点",
+          "requirement": "保留凑第三点的自嘲功能"
+        }
+      ],
+      "voice_quote": "怎么港呢？",
+      "voice": "戏谑、反问，夹杂谐音梗",
+      "allowed_changes": [
+        "删无图对应的指示句，整理两条论证"
+      ],
+      "failure_conditions": [
+        "改成古希腊文献不足导致难拍",
+        "给迈锡尼士兵补造缺失图片细节"
+      ],
+      "scoring_note": "易将谐音梗一律纠正，磨掉作者调侃声音。"
+    },
+    {
+      "id": "zh2-voice_emotion-032",
+      "suitable": true,
+      "reason": "制度批评带有持续反讽",
+      "task": "面向历史讨论读者整理三点批评，保留反讽与引文归属，可压缩重复解释，不补史料。",
+      "audience": "历史讨论读者",
+      "must_preserve": [
+        {
+          "quote": "尽可能把烂摊子留给后来者",
+          "requirement": "保留任期利益导致拖延修补的解释"
+        },
+        {
+          "quote": "功劳的大头也是首倡者的",
+          "requirement": "保留首倡得功、接手担责的不对称"
+        },
+        {
+          "quote": "而做实事则被看作是胥吏的活计",
+          "requirement": "保留对轻视实务的批评"
+        }
+      ],
+      "voice_quote": "不好意思，此非“待遇儒臣”之道也。",
+      "voice": "冷讽、批判，文白夹杂",
+      "allowed_changes": [
+        "压缩重复因果，保留三点结构"
+      ],
+      "failure_conditions": [
+        "把作者反讽改成赞同儒臣不应做事",
+        "把《宋史》引文改成作者亲历"
+      ],
+      "scoring_note": "易将讽刺当作字面赞同，逆转对官僚习气的批评。"
+    },
+    {
+      "id": "zh2-voice_emotion-033",
+      "suitable": true,
+      "reason": "直率劝告与经验限定并存",
+      "task": "面向美国博士申请者整理建议，保留直率提醒与经验边界，可减重复，不补政策或数据。",
+      "audience": "美国博士申请者",
+      "must_preserve": [
+        {
+          "quote": "每个学校看中什么相差很大",
+          "requirement": "保留校际差异与直接询问的建议"
+        },
+        {
+          "quote": "给你一年的contract之后不保证funding",
+          "requirement": "保留资助可能不持续的提醒"
+        },
+        {
+          "quote": "理工科我身边的朋友一般是6-8年毕业",
+          "requirement": "保留年限仅来自身边朋友的范围"
+        }
+      ],
+      "voice_quote": "别找中介，他们不会给你打电话争取的。",
+      "voice": "直率、务实，熟人式提醒",
+      "allowed_changes": [
+        "按申请、资助、去向分段，删重复劝告"
+      ],
+      "failure_conditions": [
+        "把身边朋友毕业年限写成全美统一学制",
+        "把可能无奖改成博士必有全程资助"
+      ],
+      "scoring_note": "易把经验口吻改成权威指南，无依据强化申请及落户断言。"
+    },
+    {
+      "id": "zh2-voice_emotion-034",
+      "suitable": true,
+      "reason": "护新法立场与愤怒表达突出",
+      "task": "面向宋史讨论读者理顺辩护逻辑，保留愤怒立场，可减辱骂重复，不补史实或强化推测。",
+      "audience": "宋史讨论读者",
+      "must_preserve": [
+        {
+          "quote": "你总不能昧良心说他失败吧",
+          "requirement": "保留反对全盘判定变法失败的立场"
+        },
+        {
+          "quote": "新法的缺点更多时急于求成",
+          "requirement": "保留急进与选帅难的归因"
+        },
+        {
+          "quote": "这个不确定是不是偏向新党",
+          "requirement": "保留对王珪党派归属的不确定"
+        }
+      ],
+      "voice_quote": "新法被泼的污水",
+      "voice": "愤怒、护新法，尖锐反驳",
+      "allowed_changes": [
+        "压缩重复辱骂，理顺战败与党争论述"
+      ],
+      "failure_conditions": [
+        "改成作者认可旧党对新法的全面否定",
+        "把神宗多活便中兴写成已证实事实"
+      ],
+      "scoring_note": "易为降火抹平立场，或反向把激烈推测升级为史实。"
+    },
+    {
+      "id": "zh2-voice_emotion-035",
+      "suitable": true,
+      "reason": "抒情意象与昂扬收束明显",
+      "task": "面向散文读者疏理阅读、银幕与历史联想，保留抒情递进，可减叠喻，不补影片来源。",
+      "audience": "散文读者",
+      "must_preserve": [
+        {
+          "quote": "那书的名字却令我赫然：《死亡日记》",
+          "requirement": "保留向日葵生机与书名的反差"
+        },
+        {
+          "quote": "生命的结尾也可以如此动人",
+          "requirement": "保留银幕战士引发的震撼感悟"
+        },
+        {
+          "quote": "它背后的一个民族，正在加速",
+          "requirement": "保留由个体生命转向民族成长的收束"
+        }
+      ],
+      "voice_quote": "奏一曲生命的绝唱。",
+      "voice": "华丽、悲壮，转向希望与昂扬",
+      "allowed_changes": [
+        "压缩重复比喻，理顺三次目光转移"
+      ],
+      "failure_conditions": [
+        "将生命结尾的希望改成虚无绝望",
+        "擅自补出银幕战士所属影片名称"
+      ],
+      "scoring_note": "易把抒情都视为空话删掉，破坏从悲壮到希望的递进。"
+    },
+    {
+      "id": "zh2-voice_emotion-036",
+      "suitable": true,
+      "reason": "粉丝庆幸与护团怒气鲜明",
+      "task": "面向韩团讨论读者整理二代团近况，保留粉丝身份与反嘲讽，可删缺图提示，不更新动态。",
+      "audience": "韩团讨论读者",
+      "must_preserve": [
+        {
+          "quote": "闪闪的话，是我本命",
+          "requirement": "保留作者对闪闪的本命身份"
+        },
+        {
+          "quote": "这期间合体也就很困难",
+          "requirement": "保留陆续服役造成合体困难的判断"
+        },
+        {
+          "quote": "所以也别说什么崛起了",
+          "requirement": "保留重在长期存续而非重新崛起的立场"
+        }
+      ],
+      "voice_quote": "等你家主子十年后还能保持现如今二代的成绩再说吧",
+      "voice": "庆幸、自豪，带护团怒气",
+      "allowed_changes": [
+        "按团分段，删缺失配图和名单提示"
+      ],
+      "failure_conditions": [
+        "改成作者承认二代团已无竞争力",
+        "把十周年可能回归写成确定公告"
+      ],
+      "scoring_note": "易将粉丝反击磨成中立盘点，或把当时期待当成事实。"
+    }
+  ],
+  "metadata": {
+    "job": "rest-22",
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 91.42,
+    "system_sha256": "2c85943d84beabe7f1c8a64f793323c3fb90f4110f4f66ac756b1b69b3faf06e",
+    "input_sha256": "c9a5c2f3784cde9485dbea82f62ecc406def3a7563465a7eafb172a61bcafad8",
+    "usage": [
+      {
+        "input_tokens": 21442,
+        "cached_input_tokens": 10368,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2601,
+        "reasoning_output_tokens": 55
+      }
+    ],
+    "review_type": "model_annotation",
+    "human_review": false
+  }
+}

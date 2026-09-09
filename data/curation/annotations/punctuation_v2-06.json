@@ -1,0 +1,333 @@
+{
+  "cases": [
+    {
+      "id": "zh2-punctuation-r021-p2",
+      "suitable": true,
+      "reason": "引号、括号与冒号功能明确",
+      "task": "面向历史话题读者，只审查整理标点；正文词句、事实与声音不改写，不省略内容。",
+      "audience": "历史话题读者",
+      "must_preserve": [
+        {
+          "quote": "“坐山观虎斗”策略",
+          "requirement": "保留引号标示策略名称的作用"
+        },
+        {
+          "quote": "赤壁之战（公元208年）中",
+          "requirement": "括号须维持年份补注关系"
+        },
+        {
+          "quote": "曹丕延续了这种策略：",
+          "requirement": "冒号须保留引出策略说明的作用"
+        }
+      ],
+      "voice_quote": "总之，曹丕的不干预是明智的平衡之举",
+      "voice": "解释性叙述，肯定战略审慎",
+      "allowed_changes": [
+        "无明确标点错误可原样返回"
+      ],
+      "failure_conditions": [
+        "机械删除括号使赤壁年份补注失界",
+        "擅改曹丕行动、年代或评价措辞"
+      ],
+      "scoring_note": "史实争议易越界；本例只验符号，不作史实订正。"
+    },
+    {
+      "id": "zh2-punctuation-r022-p2",
+      "suitable": true,
+      "reason": "姓名缩写点与栏目冒号需区分",
+      "task": "面向娱乐资讯读者，只审查整理符号标点；正文词句、事实与声音不改写，不删内容。",
+      "audience": "娱乐资讯读者",
+      "must_preserve": [
+        {
+          "quote": "Lisa S.回应：",
+          "requirement": "保留姓名缩写点及回应栏目冒号"
+        },
+        {
+          "quote": "吴彦祖母亲回应：",
+          "requirement": "冒号须标明后文的回应主体"
+        },
+        {
+          "quote": "最新进展更新：此事引发了粉丝们的热议和关注",
+          "requirement": "维持更新栏目与内容的引出关系"
+        }
+      ],
+      "voice_quote": "希望能传递自己的感激之情",
+      "voice": "娱乐报道式，温和正面",
+      "allowed_changes": [
+        "无明确错误可完整原样返回"
+      ],
+      "failure_conditions": [
+        "把Lisa S.的缩写点统一换成句号",
+        "擅改Lisa身份或送礼对象等正文"
+      ],
+      "scoring_note": "缩写点易被误作句末点；身份疑点不属标点修改。"
+    },
+    {
+      "id": "zh2-punctuation-r023-p2",
+      "suitable": true,
+      "reason": "引语、化名补注和分号有功能",
+      "task": "面向招生资讯读者，只审查整理标点；正文词句、事实与声音不改写，不省略内容。",
+      "audience": "招生资讯读者",
+      "must_preserve": [
+        {
+          "quote": "他激动地表示：“虽然不是我最初的目标",
+          "requirement": "冒号与引号须标明考生原话起点"
+        },
+        {
+          "quote": "来自衡水市的考生李明（化名）",
+          "requirement": "括号须保留姓名为化名的补注"
+        },
+        {
+          "quote": "精细化管理和人性化服务；另一方面",
+          "requirement": "分号须维持两方面评价的分层"
+        }
+      ],
+      "voice_quote": "但能有学上已经很知足了。",
+      "voice": "报道式肯定，夹有考生知足情绪",
+      "allowed_changes": [
+        "无明确标点错误可原样返回"
+      ],
+      "failure_conditions": [
+        "删除引语边界使考生原话变成记者叙述",
+        "擅改学校、专业、化名或补录观点"
+      ],
+      "scoring_note": "引语归属最易误伤，不能借规范符号改写发言。"
+    },
+    {
+      "id": "zh2-punctuation-r024-p2",
+      "suitable": true,
+      "reason": "缩写括注及专业符号需保护",
+      "task": "面向医学研究读者，只审查整理符号标点；正文词句、事实与声音不改写，不省略内容。",
+      "audience": "医学研究读者",
+      "must_preserve": [
+        {
+          "quote": "慢性肾脏病（CKD）",
+          "requirement": "括号须维持病名与缩写对应"
+        },
+        {
+          "quote": "5/6肾切除诱导的小鼠",
+          "requirement": "斜线须保留切除比例表达"
+        },
+        {
+          "quote": "α-平滑肌肌动蛋白（α-SMA）",
+          "requirement": "保留连接号及括注的术语识别功能"
+        }
+      ],
+      "voice_quote": "作用机制尚未系统阐明",
+      "voice": "学术审慎，区分潜力与已知机制",
+      "allowed_changes": [
+        "无明确符号错误可原样返回"
+      ],
+      "failure_conditions": [
+        "机械删换5/6斜线或α-SMA连接号",
+        "擅改模型、指标或抗纤灵疗效措辞"
+      ],
+      "scoring_note": "专业符号不是装饰；清理标点易损坏比例及术语。"
+    },
+    {
+      "id": "zh2-punctuation-r025-p2",
+      "suitable": true,
+      "reason": "顿号列举与分号分组清楚",
+      "task": "面向口琴使用者，只审查整理标点；正文词句、事实与声音不改写，不省略建议。",
+      "audience": "口琴使用者",
+      "must_preserve": [
+        {
+          "quote": "温差变化、吹奏力度不当、琴体材质特性",
+          "requirement": "顿号须维持因素的并列关系"
+        },
+        {
+          "quote": "避免骤冷骤热；吹奏时控制气息均匀柔和；",
+          "requirement": "分号须分开温控和气息建议"
+        },
+        {
+          "quote": "每次使用后用软布擦拭内部，定期拆开清洁；",
+          "requirement": "保留组内停顿与组间分隔层级"
+        }
+      ],
+      "voice_quote": "短期解决可轻拍琴体排出水分",
+      "voice": "平实说明，直接给出维护建议",
+      "allowed_changes": [
+        "无明确标点错误可原样返回"
+      ],
+      "failure_conditions": [
+        "分号全换顿号，混淆维护建议的分组",
+        "擅改粘膜成因或增删清洁操作"
+      ],
+      "scoring_note": "分号频繁但承担建议分组功能，不能按频次删减。"
+    },
+    {
+      "id": "zh2-punctuation-r026-p2",
+      "suitable": true,
+      "reason": "电头分隔、人名符号与引号有用",
+      "task": "面向国际新闻读者，只审查整理符号标点；正文词句、事实与声音不改写，不删内容。",
+      "audience": "国际新闻读者",
+      "must_preserve": [
+        {
+          "quote": "德黑兰——伊朗前总统",
+          "requirement": "破折号须维持电头与报道的分隔"
+        },
+        {
+          "quote": "马哈茂德·艾哈迈迪-内贾德",
+          "requirement": "保留人名内部间隔和连接符号"
+        },
+        {
+          "quote": "通过制造“伊朗威胁论”",
+          "requirement": "引号须标明被指称的说法"
+        }
+      ],
+      "voice_quote": "可能在一定程度上反映了",
+      "voice": "新闻转述，保留推测限定",
+      "allowed_changes": [
+        "无明确符号错误可原样返回"
+      ],
+      "failure_conditions": [
+        "统一删除破折号及人名内连接符",
+        "擅改内贾德指控或美方否认的正文"
+      ],
+      "scoring_note": "不同横线承担不同功能，不宜统一清除或替换。"
+    },
+    {
+      "id": "zh2-punctuation-r027-p2",
+      "suitable": true,
+      "reason": "引号与联内逗号承担分析功能",
+      "task": "面向对联赏析读者，只审查整理标点；正文词句、事实与声音不改写，不删联句。",
+      "audience": "对联赏析读者",
+      "must_preserve": [
+        {
+          "quote": "“你见过哪些对得绝妙的对联”",
+          "requirement": "引号须标示所分析的题目"
+        },
+        {
+          "quote": "“青山有幸埋忠骨，白铁无辜铸佞臣”",
+          "requirement": "保留引文边界及上下联间停顿"
+        },
+        {
+          "quote": "“青山”与“白铁”、“有幸”与“无辜”",
+          "requirement": "引号标词项，顿号分开对仗组"
+        }
+      ],
+      "voice_quote": "表达了对忠臣的敬仰和对奸臣的唾弃",
+      "voice": "第一人称赏析，褒贬鲜明",
+      "allowed_changes": [
+        "无明确标点错误可原样返回"
+      ],
+      "failure_conditions": [
+        "删引号或顿号使对仗词组边界混乱",
+        "擅改联句文字或忠奸评价"
+      ],
+      "scoring_note": "引号密集源于逐词赏析，不能据密度认定冗余。"
+    },
+    {
+      "id": "zh2-punctuation-r028-p2",
+      "suitable": true,
+      "reason": "环节名称与配文引语需保护",
+      "task": "面向文娱新闻读者，只审查整理标点；正文词句、事实与声音不改写，不省略内容。",
+      "audience": "文娱新闻读者",
+      "must_preserve": [
+        {
+          "quote": "策划的“传统文化体验”环节",
+          "requirement": "引号须标识活动环节名称"
+        },
+        {
+          "quote": "“致敬国粹，不敢造次，只愿尽绵力”",
+          "requirement": "保留配文引语边界及三段停顿"
+        },
+        {
+          "quote": "他身穿传统戏服，脸谱勾勒细致",
+          "requirement": "逗号须区分服饰与脸谱描述"
+        }
+      ],
+      "voice_quote": "京剧界人士对此反应不一。",
+      "voice": "新闻叙述，并列肯定与保留意见",
+      "allowed_changes": [
+        "无明确标点错误可原样返回"
+      ],
+      "failure_conditions": [
+        "删去配文引号使原话归属不清",
+        "擅改刘德华活动经历或业内评价"
+      ],
+      "scoring_note": "配文引号承载原话归属，不能当作强调符号删除。"
+    },
+    {
+      "id": "zh2-punctuation-r029-p2",
+      "suitable": true,
+      "reason": "分号对照与括号归类层次明确",
+      "task": "面向设计入门读者，只审查整理标点；正文词句、事实与声音不改写，不省略案例。",
+      "audience": "设计入门读者",
+      "must_preserve": [
+        {
+          "quote": "来改进服务系统；体验设计更加关注",
+          "requirement": "分号须维持两种设计的对照"
+        },
+        {
+          "quote": "优质的服务理念（服务设计）",
+          "requirement": "括号须维持理念与类别的对应"
+        },
+        {
+          "quote": "愉悦的消费体验（体验设计）",
+          "requirement": "括号须维持体验与类别的对应"
+        }
+      ],
+      "voice_quote": "两者相辅相成，共同构成了",
+      "voice": "解释性科普，强调互补",
+      "allowed_changes": [
+        "无明确标点错误可原样返回"
+      ],
+      "failure_conditions": [
+        "删除括号使案例说明与设计标签混接",
+        "擅改设计包含关系或星巴克案例"
+      ],
+      "scoring_note": "括注是概念映射而非赘语，标点整理不能删掉归类。"
+    },
+    {
+      "id": "zh2-punctuation-r030-p2",
+      "suitable": true,
+      "reason": "项目名引号与转折停顿可保护",
+      "task": "面向航天话题读者，只审查整理标点；正文词句、事实与声音不改写，不删观点。",
+      "audience": "航天话题读者",
+      "must_preserve": [
+        {
+          "quote": "“火星一号计划”大概率是一场骗局。",
+          "requirement": "引号标项目名，保留概率限定"
+        },
+        {
+          "quote": "送人上火星并定居，但缺乏可行的技术支撑",
+          "requirement": "逗号须维持宣称与质疑的转折"
+        },
+        {
+          "quote": "航天器、生命保障等技术要求极高",
+          "requirement": "顿号须保留技术项目并列"
+        }
+      ],
+      "voice_quote": "极可能是一场打着太空探索旗号的骗局",
+      "voice": "强烈质疑，但未用绝对断言",
+      "allowed_changes": [
+        "无明确标点错误可原样返回"
+      ],
+      "failure_conditions": [
+        "把项目名引号改为书名号误标作品",
+        "擅改2023年或把大概率改成确定断言"
+      ],
+      "scoring_note": "质疑语气易被强化；标点任务不能代做事实裁决。"
+    }
+  ],
+  "metadata": {
+    "job": "punctuation_v2-06",
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 95.45,
+    "system_sha256": "3ae39d4cdd1a190d9634734fff98af6538ba69e53c44419197138e6205d7858a",
+    "input_sha256": "332113c7668f4ed70ec6b41c407e9b7ae0e192b0544420435df04aa1286d4387",
+    "usage": [
+      {
+        "input_tokens": 19810,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2751,
+        "reasoning_output_tokens": 43
+      }
+    ],
+    "review_type": "model_annotation",
+    "human_review": false
+  }
+}

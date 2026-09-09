@@ -1,0 +1,72 @@
+{
+  "cases": [
+    {
+      "id": "zh2-coherence-025",
+      "approve": true,
+      "reason": "保留指标及市场主体准确，衔接任务与失败条件合理。"
+    },
+    {
+      "id": "zh2-coherence-026",
+      "approve": true,
+      "reason": "出场与赛果保留准确，未强制补充比分或对手信息。"
+    },
+    {
+      "id": "zh2-coherence-027",
+      "approve": true,
+      "reason": "区分获批总数与部分介绍，募集计划性质保留准确。"
+    },
+    {
+      "id": "zh2-coherence-028",
+      "approve": true,
+      "reason": "保留无编制及续留不确定性，未将经验积累等同转正保证。"
+    },
+    {
+      "id": "zh2-coherence-029",
+      "approve": true,
+      "reason": "文化、用途与预算权衡忠实原稿，类别及限制合理。"
+    },
+    {
+      "id": "zh2-coherence-030",
+      "approve": true,
+      "reason": "引文准确，区分原稿指控与司法定论，未新增调查结论。"
+    },
+    {
+      "id": "zh2-coherence-031",
+      "approve": true,
+      "reason": "核心主张与背景忠实，明确合作设想不等于既成成果。"
+    },
+    {
+      "id": "zh2-coherence-032",
+      "approve": true,
+      "reason": "入口建议与大小限定保留准确，未强制背书现行规则。"
+    },
+    {
+      "id": "zh2-coherence-033",
+      "approve": true,
+      "reason": "原稿确有比较主语错接，保留立场及合理上网建议准确。"
+    },
+    {
+      "id": "zh2-coherence-034",
+      "approve": true,
+      "reason": "观察转议论值得测试，保留问题意识与热爱立场合理。"
+    }
+  ],
+  "metadata": {
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 22.49,
+    "input_sha256": "ba75187462fac9cc30a19418d6516d46680657c037a5103c67f887e965fb23b1",
+    "system_sha256": "0c41b551a96d085bbc3597749915f67732aa702736eddffdb625f85696aded81",
+    "usage": [
+      {
+        "input_tokens": 23105,
+        "cached_input_tokens": 9856,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 366,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "review_type": "independent_context_model_review",
+    "human_review": false
+  }
+}

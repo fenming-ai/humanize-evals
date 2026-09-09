@@ -1,0 +1,262 @@
+{
+  "cases": [
+    {
+      "id": "zh2-no_edit-q011",
+      "suitable": false,
+      "reason": "去年9名与比例2.983的对应不清",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-q012",
+      "suitable": true,
+      "reason": "归因明确，政策诉求与理由清楚",
+      "task": "面向新闻读者保留报道，可完整原样输出；不删政策诉求、改革内容及归因。",
+      "audience": "新闻读者",
+      "must_preserve": [
+        {
+          "quote": "希望美国出口管制改革能一视同仁",
+          "requirement": "保留不歧视中国的诉求"
+        },
+        {
+          "quote": "提出将减少受管制的清单，简化管制程序",
+          "requirement": "保留今年4月倡议的两项内容"
+        },
+        {
+          "quote": "此举是美国扩大出口、增加就业的必要手段",
+          "requirement": "保留姚坚对美国自身利益的判断"
+        }
+      ],
+      "voice_quote": "姚坚认为，美国放宽出口管制是基于自身利益需要",
+      "voice": "克制、明确归因的新闻口吻",
+      "allowed_changes": [
+        "可原样保留，或微调标点"
+      ],
+      "failure_conditions": [
+        "把姚坚判断写成已核实结论",
+        "删去不对中国采取歧视措施的诉求"
+      ],
+      "scoring_note": "归因最易受损；压缩重复可能把发言变成事实。"
+    },
+    {
+      "id": "zh2-no_edit-q013",
+      "suitable": false,
+      "reason": "“车站里内”存在明显语病",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-q014",
+      "suitable": false,
+      "reason": "“连续第四年内同比缩减”表意不清",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-q015",
+      "suitable": false,
+      "reason": "记者提问句缺少衔接谓语",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-q016",
+      "suitable": true,
+      "reason": "事件、威胁归属及应对条件清楚",
+      "task": "面向新闻读者保留报道，允许原样输出；不删威胁归因、撤军诉求与应对条件。",
+      "audience": "新闻读者",
+      "must_preserve": [
+        {
+          "quote": "这是该国电视台首次收到恐怖袭击威胁",
+          "requirement": "保留两台24日收光碟及首次性质"
+        },
+        {
+          "quote": "由于比利时向阿富汗派出了军队以及F16战斗机",
+          "requirement": "保留威胁者所述理由而非认可理由"
+        },
+        {
+          "quote": "一旦威胁内容被证实",
+          "requirement": "保留证实后才采取措施的条件"
+        }
+      ],
+      "voice_quote": "该机构正在对比利时遭受恐怖袭击的可能性进行评估",
+      "voice": "客观转述，不渲染恐慌",
+      "allowed_changes": [
+        "可原样保留，或整理字母旁空格"
+      ],
+      "failure_conditions": [
+        "将袭击威胁写成已发生袭击",
+        "把评估写成已证实并采取措施"
+      ],
+      "scoring_note": "条件边界易误伤；威胁者预告不是事件事实。"
+    },
+    {
+      "id": "zh2-no_edit-q017",
+      "suitable": true,
+      "reason": "时间线、消息来源及伤亡清楚",
+      "task": "面向新闻读者保留案情报道，可原样输出；不删来源、听证经过及伤亡数字。",
+      "audience": "新闻读者",
+      "must_preserve": [
+        {
+          "quote": "哈桑胸部以下瘫痪，医生认定他终身都无法再站起来",
+          "requirement": "保留律师转述的伤情及医生判断"
+        },
+        {
+          "quote": "21日，哈桑在医院病房里接受了首次听证",
+          "requirement": "保留首次听证日期、地点及睡着经过"
+        },
+        {
+          "quote": "造成13人死亡，30多人受伤",
+          "requirement": "保留本月5日行凶及伤亡数量"
+        }
+      ],
+      "voice_quote": "据美国《华盛顿邮报》报道",
+      "voice": "平实、按来源转述",
+      "allowed_changes": [
+        "可完整原样保留",
+        "可删除不影响指代的“指哈桑”"
+      ],
+      "failure_conditions": [
+        "将终身瘫痪改成暂时无法站立",
+        "把30多人受伤改为30人受伤"
+      ],
+      "scoring_note": "声音易被过度修饰；原稿无需添加谴责或戏剧描写。"
+    },
+    {
+      "id": "zh2-no_edit-q018",
+      "suitable": true,
+      "reason": "兔子特征、店方态度和去向清楚",
+      "task": "面向趣闻读者保留报道，可原样输出；不删兔子状况、店方顾虑及拟议去向。",
+      "audience": "趣闻读者",
+      "must_preserve": [
+        {
+          "quote": "这只兔子目前已有8周大了，还没有名字",
+          "requirement": "保留年龄、未命名及生活习性正常"
+        },
+        {
+          "quote": "我有意让它去一个特别的地方。我不会出售它。",
+          "requirement": "保留老板拒售与特别安置意愿"
+        },
+        {
+          "quote": "他们可能会把这只兔子捐给一个特别场所",
+          "requirement": "保留捐赠未定及两类候选去向"
+        }
+      ],
+      "voice_quote": "我们担心有人会偷走它。",
+      "voice": "趣闻口吻，带店方珍惜与担忧",
+      "allowed_changes": [
+        "可原样保留，或统一英文旁空格"
+      ],
+      "failure_conditions": [
+        "将5000美元报价写成成交价",
+        "把候选名字或捐赠去向写成已定"
+      ],
+      "scoring_note": "情绪与模态易误伤；拒售、怕失窃不等于已捐赠。"
+    },
+    {
+      "id": "zh2-no_edit-q019",
+      "suitable": true,
+      "reason": "招生范围、统计与奖学金层次清楚",
+      "task": "面向招生新闻读者保留全文，可原样输出；不删地区数字、筛选条件及校方归因。",
+      "audience": "招生新闻读者",
+      "must_preserve": [
+        {
+          "quote": "通过自主招生选拔录取695名学生",
+          "requirement": "保留三地范围、增约150人及22%"
+        },
+        {
+          "quote": "高考成绩不低于录取分数线下20分",
+          "requirement": "保留自主招生前提及校方跟踪评价"
+        },
+        {
+          "quote": "新生奖学金总额达300万元",
+          "requirement": "保留首次5万元特别奖及总额增幅"
+        }
+      ],
+      "voice_quote": "该校通过跟踪统计发现",
+      "voice": "校方信息有归属的新闻口吻",
+      "allowed_changes": [
+        "可原样保留，或仅调整分段"
+      ],
+      "failure_conditions": [
+        "把优秀群体扩大为所有自主招生考生",
+        "混淆河南计划人数与各地扩招比例"
+      ],
+      "scoring_note": "条件与口径易误伤；各地计划、实际招生不可混为一谈。"
+    },
+    {
+      "id": "zh2-no_edit-q020",
+      "suitable": true,
+      "reason": "建议主体、适用人群及数据口径明确",
+      "task": "面向基金资讯读者保留短讯，可原样输出；不删建议归属、人群限制及数据口径。",
+      "audience": "基金资讯读者",
+      "must_preserve": [
+        {
+          "quote": "对于投资经验较少，又缺少时间去“操心”资产配置的投资者",
+          "requirement": "保留两项人群条件及基金公司归因"
+        },
+        {
+          "quote": "净值增长率位列可比的40只混合灵活配置型基金前三名",
+          "requirement": "保留截至3月12日口径及三基金顺序"
+        },
+        {
+          "quote": "均超越同期上证综指6%以上",
+          "requirement": "保留相对同期指数表现而非绝对收益"
+        }
+      ],
+      "voice_quote": "投资者也可由此按图索“基”",
+      "voice": "资讯口吻，略带推广与双关",
+      "allowed_changes": [
+        "可完整原样保留"
+      ],
+      "failure_conditions": [
+        "把基金公司建议改成编辑保证获利",
+        "把超越指数6%以上写成收益率6%"
+      ],
+      "scoring_note": "推广语气不应当作失实证据；重点保护归因与比较基准。"
+    }
+  ],
+  "metadata": {
+    "job": "noedit_quality-01",
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 73.05,
+    "system_sha256": "2c85943d84beabe7f1c8a64f793323c3fb90f4110f4f66ac756b1b69b3faf06e",
+    "input_sha256": "84e8ed84a7d94759e32e002f78cfdd747ae01734f8638c691ef6c1ac91710e8f",
+    "usage": [
+      {
+        "input_tokens": 18492,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2086,
+        "reasoning_output_tokens": 199
+      }
+    ],
+    "review_type": "model_annotation",
+    "human_review": false
+  }
+}

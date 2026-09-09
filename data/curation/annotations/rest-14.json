@@ -1,0 +1,339 @@
+{
+  "cases": [
+    {
+      "id": "zh2-facts-033",
+      "suitable": true,
+      "reason": "版本与功能边界可验收",
+      "task": "面向支付产品读者压缩升级介绍；可删重复赞语，不增功能或安全承诺。",
+      "audience": "支付产品读者",
+      "must_preserve": [
+        {
+          "quote": "支付宝钱包9.0版本",
+          "requirement": "对象限于钱包9.0，不泛化到其他版本"
+        },
+        {
+          "quote": "如生活缴费、信用卡还款等功能",
+          "requirement": "保留两类所述便民服务"
+        },
+        {
+          "quote": "在安全性方面也有所加强",
+          "requirement": "保留原稿安全评价，不强化为绝对安全"
+        }
+      ],
+      "voice_quote": "为用户带来更好的移动支付体验",
+      "voice": "正向的产品介绍口吻",
+      "allowed_changes": [
+        "合并体验赞语与总结",
+        "弱化无依据的程度夸张"
+      ],
+      "failure_conditions": [
+        "把信用卡还款改成贷款功能",
+        "声称钱包9.0能保证资金零风险"
+      ],
+      "scoring_note": "安全评价易被强化；忠实原稿不等于核实升级事实。"
+    },
+    {
+      "id": "zh2-facts-034",
+      "suitable": true,
+      "reason": "影片对象与论证边界明确",
+      "task": "面向影评读者理顺两片对比；可删重复判断，不添剧情或把评价写成定论。",
+      "audience": "影评读者",
+      "must_preserve": [
+        {
+          "quote": "人类士兵的枪炮作战只是辅助元素",
+          "requirement": "保留对变形金刚枪战地位的判断"
+        },
+        {
+          "quote": "上海堡垒定位为科幻爱情片",
+          "requirement": "保留作者关于类型与预期错位的解释"
+        },
+        {
+          "quote": "最后需考虑文化语境差异",
+          "requirement": "保留类型、世界观、军事细节和文化四层分析"
+        }
+      ],
+      "voice_quote": "这种差异本质上反映的是",
+      "voice": "立场鲜明的比较评论",
+      "allowed_changes": [
+        "压缩反复褒贬",
+        "限定缺乏支撑的必然性断言"
+      ],
+      "failure_conditions": [
+        "将95式步枪归到变形金刚",
+        "新增票房或观众调查来证实评论"
+      ],
+      "scoring_note": "军事细节易被当成已核实事实；勿借润色增强可信度。"
+    },
+    {
+      "id": "zh2-facts-035",
+      "suitable": true,
+      "reason": "研究对象与表达趋势具体",
+      "task": "面向动物科学读者精简研究简介；可删意义套话，不省对象、日龄、基因及发现边界。",
+      "audience": "动物科学读者",
+      "must_preserve": [
+        {
+          "quote": "1日龄、28日龄和140日龄沙子岭猪",
+          "requirement": "保留猪种、三个日龄及不同组织范围"
+        },
+        {
+          "quote": "脂联素受体（ADIPOR1和ADIPOR2）",
+          "requirement": "基因含ADIPOQ、两受体、TOP2β、TBP"
+        },
+        {
+          "quote": "mRNA表达量随日龄增长而升高",
+          "requirement": "保留mRNA升、蛋白降；机制仅为可能"
+        }
+      ],
+      "voice_quote": "这种差异提示可能存在转录后调控机制",
+      "voice": "审慎的研究概述",
+      "allowed_changes": [
+        "压缩研究背景及价值宣示"
+      ],
+      "failure_conditions": [
+        "把蛋白变化改为随日龄升高",
+        "将转录后调控写成已证实机制"
+      ],
+      "scoring_note": "趋势与机制推测最易误伤，二者证据层级不同。"
+    },
+    {
+      "id": "zh2-facts-036",
+      "suitable": true,
+      "reason": "价格条件与预测窗口明确",
+      "task": "面向油价资讯读者压缩报道；可删背景评论，不省关键数字、预测条件及来源边界。",
+      "audience": "油价资讯读者",
+      "must_preserve": [
+        {
+          "quote": "布伦特原油主力合约收于72.15美元/桶",
+          "requirement": "另保留WTI为68.7及周跌5.8%原有边界"
+        },
+        {
+          "quote": "国内汽柴油调整幅度超过每吨50元时",
+          "requirement": "保留十个工作日及超过50元的所述条件"
+        },
+        {
+          "quote": "预计6月13日24时国内成品油零售限价",
+          "requirement": "金联创报-4.3%；维持现价才预计降约220元/吨"
+        }
+      ],
+      "voice_quote": "但需警惕金融市场波动及地缘政治因素",
+      "voice": "带风险提示的资讯口吻",
+      "allowed_changes": [
+        "压缩宏观背景与收益评论"
+      ],
+      "failure_conditions": [
+        "把预计降价改成已执行降价",
+        "将72美元写为法定调价门槛"
+      ],
+      "scoring_note": "条件预测易被写成公告；所述机制不代表外部核实。"
+    },
+    {
+      "id": "zh2-facts-037",
+      "suitable": true,
+      "reason": "模型与临床目标可区分",
+      "task": "面向心血管科研读者整理研究介绍；可删背景重复，不省实验对象、方法或夸大临床成果。",
+      "audience": "心血管科研读者",
+      "must_preserve": [
+        {
+          "quote": "心肌细胞增大而无细胞分裂",
+          "requirement": "保留细胞增大与无分裂的定义边界"
+        },
+        {
+          "quote": "构建了microRNA-133a腺病毒表达载体",
+          "requirement": "保留133a及腺病毒载体，不换成其他RNA"
+        },
+        {
+          "quote": "利用苯肾上腺素（PE）诱导法",
+          "requirement": "保留体外大鼠心肌细胞及PE诱导模型"
+        }
+      ],
+      "voice_quote": "为临床诊疗提供新的途径",
+      "voice": "研究背景与目的陈述",
+      "allowed_changes": [
+        "合并重复研究背景",
+        "统一同一研究对象的拼写"
+      ],
+      "failure_conditions": [
+        "把体外大鼠实验改成人体试验",
+        "宣称133a已被证实可治疗心肌肥大"
+      ],
+      "scoring_note": "临床愿景易被改成疗效结论；原稿未报告疗效结果。"
+    },
+    {
+      "id": "zh2-facts-038",
+      "suitable": true,
+      "reason": "时间与未披露信息边界清楚",
+      "task": "面向新闻读者整理尸检报道；可删称号和重复，不补年份、延期原因或消解未决条件。",
+      "audience": "新闻读者",
+      "must_preserve": [
+        {
+          "quote": "他们将不会在本周宣布杰克逊的尸检结果",
+          "requirement": "保留当地7月29日宣布再延期的时序"
+        },
+        {
+          "quote": "温特本人并没有给出推迟验尸结果的具体原因",
+          "requirement": "明确延期原因未披露"
+        },
+        {
+          "quote": "表示杰克逊的死因并非是他杀和外伤致死",
+          "requirement": "限于首次尸检官初步说法，非最终结论"
+        }
+      ],
+      "voice_quote": "杰克逊生前所服用的处方药物很可能",
+      "voice": "转述消息并保留不确定性",
+      "allowed_changes": [
+        "压缩重复姓名和头衔",
+        "整理日期与条件句"
+      ],
+      "failure_conditions": [
+        "编造延期原因或处方药名",
+        "把药名可能公开写成确定本周公开"
+      ],
+      "scoring_note": "末段条件与延期消息有张力，不可擅自补事实圆场。"
+    },
+    {
+      "id": "zh2-facts-039",
+      "suitable": true,
+      "reason": "试验设计与结果边界具体",
+      "task": "面向家禽营养读者精简研究概述；可删产业套话，不省试验参数、趋势或显著性限制。",
+      "audience": "家禽营养读者",
+      "must_preserve": [
+        {
+          "quote": "选择了29周龄的临武鸭作为试验对象",
+          "requirement": "保留29周龄、笼养临武鸭、5水平及70天"
+        },
+        {
+          "quote": "平均日采食量呈现明显的线性降低趋势",
+          "requirement": "保留能量升时采食量降，高能组产蛋率及日产蛋重低"
+        },
+        {
+          "quote": "不同代谢能水平对笼养蛋鸭的影响并不显著",
+          "requirement": "保留蛋品质、血清总体不显著与三项含量有变化"
+        }
+      ],
+      "voice_quote": "本研究结果为制定适宜的饲料代谢能水平",
+      "voice": "应用导向的研究概述",
+      "allowed_changes": [
+        "删除重复背景与泛化意义"
+      ],
+      "failure_conditions": [
+        "声称能量越高产蛋率越高",
+        "补造最佳代谢能数值或三项变化方向"
+      ],
+      "scoring_note": "总体不显著与部分指标变化并存，不宜粗暴统一。"
+    },
+    {
+      "id": "zh2-facts-040",
+      "suitable": true,
+      "reason": "归因来源与诉讼阶段明确",
+      "task": "面向社会新闻读者压缩案情；可删重复转述，不省伤损、人物分工及指控来源，不推断身份。",
+      "audience": "社会新闻读者",
+      "must_preserve": [
+        {
+          "quote": "妻子与导演的婚外情是其找人殴打导演的原因",
+          "requirement": "婚外情及动机限于付某陈述"
+        },
+        {
+          "quote": "受害人所受损伤为轻微伤",
+          "requirement": "保留轻微伤及车辆损失人民币6000多元"
+        },
+        {
+          "quote": "付某、孙某涉嫌故意毁坏财物一案",
+          "requirement": "付某指使、孙某纠集；检方提起公诉，非判决"
+        }
+      ],
+      "voice_quote": "据付某交代",
+      "voice": "区分消息来源的案情报道",
+      "allowed_changes": [
+        "合并重复案情与转述引导"
+      ],
+      "failure_conditions": [
+        "将导演婚外情写成查明事实",
+        "把涉嫌毁坏财物被诉写成已判故意伤害"
+      ],
+      "scoring_note": "最易混淆嫌疑人供述、检方意见与法院认定。"
+    },
+    {
+      "id": "zh2-facts-041",
+      "suitable": true,
+      "reason": "引语解读与个人观点可分",
+      "task": "面向随笔读者压缩歌词解读；可删套话和泛例，不省自由与责任的张力，不补引语出处。",
+      "audience": "随笔读者",
+      "must_preserve": [
+        {
+          "quote": "从广阔自由的外部世界（山川湖海）",
+          "requirement": "保留由广阔世界转向日常生活的个人解读"
+        },
+        {
+          "quote": "这并不是简单的褒贬",
+          "requirement": "保留无奈与爱、责任并存，不改为单向批判"
+        },
+        {
+          "quote": "将“囿于”视为一种选择而非牺牲",
+          "requirement": "保留重释选择、精神拓展、沟通与认可价值四类建议"
+        }
+      ],
+      "voice_quote": "在我看来",
+      "voice": "带无奈而寻求调和的随笔",
+      "allowed_changes": [
+        "删泛例与宏大收尾",
+        "限定未经支撑的出处断言"
+      ],
+      "failure_conditions": [
+        "把职场精英等泛例写成真实采访",
+        "将个人解读说成歌词作者明确本意"
+      ],
+      "scoring_note": "观点不是待证谎言；出处断言与主观解读须分开。"
+    },
+    {
+      "id": "zh2-facts-042",
+      "suitable": true,
+      "reason": "音乐对象与例证关系可约束",
+      "task": "面向音乐文化读者精简J-POP介绍；可删重复赞语、限定无支撑断言，不添年代或产业数据。",
+      "audience": "音乐文化读者",
+      "must_preserve": [
+        {
+          "quote": "融合了西方流行音乐的影响与日本本土文化元素",
+          "requirement": "保留跨风格吸收与本土化的中心观点"
+        },
+        {
+          "quote": "通过“可以见面的偶像”模式拉近与粉丝的距离",
+          "requirement": "该模式仍归于AKB48等偶像团体"
+        },
+        {
+          "quote": "如青春的迷茫、爱情的甜蜜与苦涩",
+          "requirement": "保留细腻情感、自然季节及动漫游戏灵感"
+        }
+      ],
+      "voice_quote": "不仅在于其音乐形式的多样性",
+      "voice": "概括性的音乐文化介绍",
+      "allowed_changes": [
+        "合并融合能力的重复赞语",
+        "限定或删无支撑年代及地位断言"
+      ],
+      "failure_conditions": [
+        "把AKB48模式归为所有J-POP的共同模式",
+        "新增销量排名证明全球地位"
+      ],
+      "scoring_note": "例证易被泛化为全体特征；原稿年代不视为已核实。"
+    }
+  ],
+  "metadata": {
+    "job": "rest-14",
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 93.29,
+    "system_sha256": "2c85943d84beabe7f1c8a64f793323c3fb90f4110f4f66ac756b1b69b3faf06e",
+    "input_sha256": "37fbed8a90d5c51250261b3d3954e4ab7ead9f2b8c675de24fa029ea420e4926",
+    "usage": [
+      {
+        "input_tokens": 20456,
+        "cached_input_tokens": 10368,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2878,
+        "reasoning_output_tokens": 125
+      }
+    ],
+    "review_type": "model_annotation",
+    "human_review": false
+  }
+}

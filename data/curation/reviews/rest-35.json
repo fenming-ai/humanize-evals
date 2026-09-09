@@ -1,0 +1,67 @@
+{
+  "cases": [
+    {
+      "id": "zh2-missing_material-023",
+      "approve": true,
+      "reason": "引文准确，保留未回应与传闻的不确定性。"
+    },
+    {
+      "id": "zh2-missing_material-024",
+      "approve": true,
+      "reason": "区分无需代理与没有代理，保留要求忠实原稿。"
+    },
+    {
+      "id": "zh2-missing_material-025",
+      "approve": true,
+      "reason": "推荐对象与择校考量准确，允许限定无依据夸赞。"
+    },
+    {
+      "id": "zh2-missing_material-026",
+      "approve": true,
+      "reason": "主旨与引文忠实，允许删限缺乏支撑的历史比较。"
+    },
+    {
+      "id": "zh2-missing_material-027",
+      "approve": true,
+      "reason": "应用范围与适量条件准确，未强制将效果当作实证。"
+    },
+    {
+      "id": "zh2-missing_material-028",
+      "approve": true,
+      "reason": "保留解释思路与监管主张，合理限制因果升级。"
+    },
+    {
+      "id": "zh2-missing_material-029",
+      "approve": true,
+      "reason": "人物主体准确，区分温暖观感与无出处事实。"
+    },
+    {
+      "id": "zh2-missing_material-031",
+      "approve": true,
+      "reason": "保留正反推测及其不确定性，未坐实员工评价。"
+    },
+    {
+      "id": "zh2-missing_material-032",
+      "approve": true,
+      "reason": "评论对象与批评范围准确，允许保留主观立场。"
+    }
+  ],
+  "metadata": {
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 19.84,
+    "input_sha256": "a505638b9a3d6a430afc72ec67c59d7dc6290bbd058ab1fb846014d11b720eb8",
+    "system_sha256": "0c41b551a96d085bbc3597749915f67732aa702736eddffdb625f85696aded81",
+    "usage": [
+      {
+        "input_tokens": 20968,
+        "cached_input_tokens": 9856,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 361,
+        "reasoning_output_tokens": 40
+      }
+    ],
+    "review_type": "independent_context_model_review",
+    "human_review": false
+  }
+}

@@ -1,0 +1,324 @@
+{
+  "cases": [
+    {
+      "id": "zh2-slop-017",
+      "suitable": true,
+      "reason": "比喻与励志收束重复",
+      "task": "面向足球读者压缩人物介绍套话；保留经历与自信，不补比赛背景或核实结论。",
+      "audience": "足球读者",
+      "must_preserve": [
+        {
+          "quote": "在比赛的第 78 分钟",
+          "requirement": "保留原述进球时间及左脚逆转情节"
+        },
+        {
+          "quote": "邵佳一积极参与青训工作",
+          "requirement": "保留向年轻球员传授经验的内容"
+        },
+        {
+          "quote": "有信心在合适的机会下",
+          "requirement": "保留再展实力的信心及机会条件"
+        }
+      ],
+      "voice_quote": "那一夜一定会重演。",
+      "voice": "赞赏、期待，带人物自信",
+      "allowed_changes": [
+        "删流星、火焰等重复赞美",
+        "压缩结尾励志口号"
+      ],
+      "failure_conditions": [
+        "把邵佳一的信心写成已确定复出",
+        "新增比赛日期、对手或比分"
+      ],
+      "scoring_note": "去夸饰易抹去人物自信；原述比赛不能冒充核实事实。"
+    },
+    {
+      "id": "zh2-slop-018",
+      "suitable": true,
+      "reason": "审美赞语密集且重复",
+      "task": "面向设计读者精简海报评论；保留评价与改进方向，不补未提供的画面细节。",
+      "audience": "设计读者",
+      "must_preserve": [
+        {
+          "quote": "2014年本科生毕业设计展海报",
+          "requirement": "保留年份、展览类型及所属学院"
+        },
+        {
+          "quote": "有效传递展览信息，同时保持高度的艺术性",
+          "requirement": "保留信息传递与艺术性兼顾的评价"
+        },
+        {
+          "quote": "增加更多展览背景和学生个人故事的元素",
+          "requirement": "保留强化叙事及实验语言的建议"
+        }
+      ],
+      "voice_quote": "对于未来的改进，可以考虑",
+      "voice": "肯定为主，温和建议",
+      "allowed_changes": [
+        "合并创新与专业水平的重复赞语",
+        "替换生硬英文夹杂"
+      ],
+      "failure_conditions": [
+        "虚构海报配色、字体或图形",
+        "把改进建议写成海报现有元素"
+      ],
+      "scoring_note": "视觉评价缺少图像支撑，只能保留为原文判断。"
+    },
+    {
+      "id": "zh2-slop-019",
+      "suitable": true,
+      "reason": "报道后半段泛化赞美",
+      "task": "面向娱乐新闻读者压缩婚姻报道；保留回应与删文线索，可删赞颂，不补传言细节。",
+      "audience": "娱乐新闻读者",
+      "must_preserve": [
+        {
+          "quote": "否认了夫妻感情破裂的传言",
+          "requirement": "保留张铎否认及媒体采访语境"
+        },
+        {
+          "quote": "一篇颇具争议的文章已于5月悄然删除",
+          "requirement": "保留陈松伶博客删文的月份与对象"
+        },
+        {
+          "quote": "他强调夫妻关系一直保持良好",
+          "requirement": "归于张铎表态，不作客观证明"
+        }
+      ],
+      "voice_quote": "面对外界猜测，张铎对此保持冷静",
+      "voice": "",
+      "allowed_changes": [
+        "删模范夫妻、舆论范例等赞语",
+        "删未来感情必经考验的祝愿"
+      ],
+      "failure_conditions": [
+        "把删博客文章写成婚变实锤",
+        "把张铎否认写成婚姻已获独立证实"
+      ],
+      "scoring_note": "最易混淆当事人表态与事实认定，应保留归属。"
+    },
+    {
+      "id": "zh2-slop-020",
+      "suitable": true,
+      "reason": "人生比喻及劝勉反复",
+      "task": "面向面临选择的读者精简议论；保留乌鹊意象与自主选择观点，可删名人例，不补史料。",
+      "audience": "面临选择的读者",
+      "must_preserve": [
+        {
+          "quote": "绕树三匝，何枝可依？",
+          "requirement": "保留寻枝意象与人生选择的关联"
+        },
+        {
+          "quote": "忽略了自己的兴趣和特长",
+          "requirement": "保留批评盲从热门专业、高薪行业"
+        },
+        {
+          "quote": "他们会根据自己的实际情况，做出明智的选择",
+          "requirement": "保留了解自身条件再选择的主张"
+        }
+      ],
+      "voice_quote": "苦苦寻觅着可以栖息的枝头",
+      "voice": "由迷茫转向坚定的劝勉",
+      "allowed_changes": [
+        "合并旅程、枝丫的重复阐释",
+        "可删村上春树例及绝对化结论"
+      ],
+      "failure_conditions": [
+        "把坚守自我改成追随热门选择",
+        "新增村上春树生平为原例作证"
+      ],
+      "scoring_note": "删套话时易连同寻枝主意象删除，使议论失去线索。"
+    },
+    {
+      "id": "zh2-slop-021",
+      "suitable": true,
+      "reason": "评价框架与结尾空话偏多",
+      "task": "面向知识咨询用户精简在行评价；保留模式、优缺点，可删前景赞语，不增平台资料。",
+      "audience": "知识咨询用户",
+      "must_preserve": [
+        {
+          "quote": "一对一的见面交流形式",
+          "requirement": "保留果壳网推出及专家面对面模式"
+        },
+        {
+          "quote": "平台还设有严格的审核机制",
+          "requirement": "保留原文审核及个性化服务的优点评价"
+        },
+        {
+          "quote": "在时间和空间上存在一定限制",
+          "requirement": "保留会面限制、费用与评价不公问题"
+        }
+      ],
+      "voice_quote": "然而，“在行”也存在一些问题",
+      "voice": "总体肯定，兼顾局限",
+      "allowed_changes": [
+        "删评价步骤提示与桥梁比喻",
+        "压缩未来用户增长的展望"
+      ],
+      "failure_conditions": [
+        "把在行写成纯线上课程平台",
+        "删去费用较高及线下会面限制"
+      ],
+      "scoring_note": "精简易只剩推荐结论；平台优点评价不可升级为保证。"
+    },
+    {
+      "id": "zh2-slop-022",
+      "suitable": true,
+      "reason": "分项清楚但泛化结论冗余",
+      "task": "面向吉他初学者精简自学原因分析；保留成本、便利与风险，可删泛化判断，不补调查数据。",
+      "audience": "吉他初学者",
+      "must_preserve": [
+        {
+          "quote": "这笔开支可能超出他们的预算",
+          "requirement": "保留学生及低收入群体的课程成本顾虑"
+        },
+        {
+          "quote": "根据自己的节奏和空闲时间随时进行",
+          "requirement": "保留时间灵活、网络资源及心理压力因素"
+        },
+        {
+          "quote": "容易养成错误的演奏习惯",
+          "requirement": "保留缺指导、纠错及遇瓶颈放弃风险"
+        }
+      ],
+      "voice_quote": "当然，自学也存在一些弊端",
+      "voice": "解释性、平实且有保留",
+      "allowed_changes": [
+        "删现代生活等泛化铺垫",
+        "限定成本几乎为零等过强措辞"
+      ],
+      "failure_conditions": [
+        "把自学写成无需买琴且没有成本",
+        "删去错误习惯与缺乏纠正的风险"
+      ],
+      "scoring_note": "降套话易把多因素分析压成自学更好，丢失风险边界。"
+    },
+    {
+      "id": "zh2-slop-023",
+      "suitable": false,
+      "reason": "八场总量与五队主客场双循环矛盾",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-slop-024",
+      "suitable": true,
+      "reason": "正反评价有料但收束重复",
+      "task": "面向售后咨询者精简评价；保留总体立场与服务差异，可限定无来源概括，不补条款或案例。",
+      "audience": "售后咨询者",
+      "must_preserve": [
+        {
+          "quote": "总体而言外星人售后可靠，但存在一定变数",
+          "requirement": "保留总体肯定而非完美的立场"
+        },
+        {
+          "quote": "取决于用户所在地区、问题类型以及个人期望值",
+          "requirement": "保留体验的地区、问题及预期边界"
+        },
+        {
+          "quote": "部分服务计划如Premium Support Plus",
+          "requirement": "意外损坏保障仅归部分计划，不扩大"
+        }
+      ],
+      "voice_quote": "需理性看待而非盲目推崇",
+      "voice": "审慎肯定，反对神化",
+      "allowed_changes": [
+        "合并首尾理性看待的重复表态",
+        "可限定无来源时效及口碑概括"
+      ],
+      "failure_conditions": [
+        "称所有外星人服务均保意外损坏",
+        "把24-48小时写成官方保证时限"
+      ],
+      "scoring_note": "具体时效和保障易被改成承诺，须守住归属与条件。"
+    },
+    {
+      "id": "zh2-slop-025",
+      "suitable": true,
+      "reason": "中心论点重复收束多次",
+      "task": "面向普通读者精简财富观议论；保留物质、精神与道德层次，可删重复总结，不添理财建议。",
+      "audience": "普通读者",
+      "must_preserve": [
+        {
+          "quote": "金钱本身并不能使人真正致富",
+          "requirement": "保留金钱非充分条件，而非否认金钱作用"
+        },
+        {
+          "quote": "综合物质和精神层面的富足",
+          "requirement": "保留富有不限于金钱的双重标准"
+        },
+        {
+          "quote": "在商业活动中，诚信和责任感同样重要",
+          "requirement": "保留道德、信任与尊重的重要性"
+        }
+      ],
+      "voice_quote": "而不是唯一的追求目标",
+      "voice": "价值劝诫，强调全面富足",
+      "allowed_changes": [
+        "合并多次因此与综上总结",
+        "压缩富人空虚等泛化断言"
+      ],
+      "failure_conditions": [
+        "改成金钱毫无价值或必然致贫",
+        "删除精神富足和商业诚信层次"
+      ],
+      "scoring_note": "去说教易改掉作者的财富定义，应压表达而非换立场。"
+    },
+    {
+      "id": "zh2-slop-026",
+      "suitable": true,
+      "reason": "具体回忆被温情套话包裹",
+      "task": "面向散文读者精简目送叙事；保留母亲、朋友及回馈关爱的转折，可删抒情套语，不造回忆。",
+      "audience": "散文读者",
+      "must_preserve": [
+        {
+          "quote": "母亲依然站在那里，静静地注视着我的背影",
+          "requirement": "保留上学回望发现母亲仍目送的领悟"
+        },
+        {
+          "quote": "最好的朋友因为家庭原因要搬到另一个城市生活",
+          "requirement": "保留搬家缘由、惜别及朋友带来的力量"
+        },
+        {
+          "quote": "用同样的方式去关爱身边每一个人",
+          "requirement": "保留从被目送到愿意关爱他人的转变"
+        }
+      ],
+      "voice_quote": "你要好好照顾自己哦！",
+      "voice": "第一人称温柔追忆，含惜别",
+      "allowed_changes": [
+        "删阳光、清泉等叠加比喻",
+        "压缩普遍关爱与共同成长套语"
+      ],
+      "failure_conditions": [
+        "把朋友搬家改成死亡或决裂",
+        "删去母亲目送或第一人称惜别感受"
+      ],
+      "scoring_note": "温情是原稿核心，去煽情不能把具体回忆改成冷说明。"
+    }
+  ],
+  "metadata": {
+    "job": "rest-00",
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 86.38,
+    "system_sha256": "2c85943d84beabe7f1c8a64f793323c3fb90f4110f4f66ac756b1b69b3faf06e",
+    "input_sha256": "6b1acce1e8a75ed10fd4fc87a9304ba6d9d9243f87e5b35e13d0a14df698fab2",
+    "usage": [
+      {
+        "input_tokens": 20816,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2568,
+        "reasoning_output_tokens": 44
+      }
+    ],
+    "review_type": "model_annotation",
+    "human_review": false
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "cases": [
+    {
+      "id": "zh2-no_edit-065",
+      "approve": true,
+      "reason": "引文准确，保留要求忠实；口语强调有功能，无明显须修问题。"
+    },
+    {
+      "id": "zh2-no_edit-068",
+      "approve": true,
+      "reason": "推测限定与个人经历保留准确，失败条件合理，类别恰当。"
+    },
+    {
+      "id": "zh2-no_edit-072",
+      "approve": true,
+      "reason": "摘要完整，研究范围与结论保留准确，无明显须修问题。"
+    }
+  ],
+  "metadata": {
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 24.14,
+    "input_sha256": "219174d3adde81d5298e5a8244cfac7ad795605cf9e7d800668b6bb4fee97176",
+    "system_sha256": "0c41b551a96d085bbc3597749915f67732aa702736eddffdb625f85696aded81",
+    "usage": [
+      {
+        "input_tokens": 17037,
+        "cached_input_tokens": 9856,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 187,
+        "reasoning_output_tokens": 65
+      }
+    ],
+    "review_type": "independent_context_model_review",
+    "human_review": false
+  }
+}

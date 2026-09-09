@@ -1,0 +1,72 @@
+{
+  "cases": [
+    {
+      "id": "zh2-long_form-011",
+      "approve": true,
+      "reason": "三层论证与反理想化边界忠实，删改范围合理。"
+    },
+    {
+      "id": "zh2-long_form-012",
+      "approve": true,
+      "reason": "保留负担转移、活动价值及可能性，未扩大主体。"
+    },
+    {
+      "id": "zh2-long_form-013",
+      "approve": true,
+      "reason": "人物行为、女儿身份及高考时点均与原文一致。"
+    },
+    {
+      "id": "zh2-long_form-014",
+      "approve": true,
+      "reason": "保留文学解读与地理区分，未要求补证史述。"
+    },
+    {
+      "id": "zh2-long_form-015",
+      "approve": true,
+      "reason": "三层论证与不朽的比喻含义准确，失败条件合理。"
+    },
+    {
+      "id": "zh2-long_form-016",
+      "approve": true,
+      "reason": "核心观点忠实，允许弱化无来源研究且禁止补造。"
+    },
+    {
+      "id": "zh2-long_form-017",
+      "approve": true,
+      "reason": "开放立场、文艺例证及创新条件均有原文依据。"
+    },
+    {
+      "id": "zh2-long_form-018",
+      "approve": true,
+      "reason": "学生身份、糖画主体及情绪转折准确，分类适当。"
+    },
+    {
+      "id": "zh2-long_form-019",
+      "approve": true,
+      "reason": "成长时间线与父母态度准确，区分向往和他人经历。"
+    },
+    {
+      "id": "zh2-long_form-020",
+      "approve": true,
+      "reason": "纪念时点、参观转变及四项倡议忠实，删改边界合理。"
+    }
+  ],
+  "metadata": {
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 23.8,
+    "input_sha256": "b98b7261ee37a550c1272cbe9ffa23890295b35b34e58eff6b163ad2e73e21ee",
+    "system_sha256": "0c41b551a96d085bbc3597749915f67732aa702736eddffdb625f85696aded81",
+    "usage": [
+      {
+        "input_tokens": 30879,
+        "cached_input_tokens": 9856,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 392,
+        "reasoning_output_tokens": 32
+      }
+    ],
+    "review_type": "independent_context_model_review",
+    "human_review": false
+  }
+}

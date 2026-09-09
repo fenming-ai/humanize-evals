@@ -187,7 +187,7 @@ def main():
     sub = parser.add_subparsers(dest='action', required=True)
     sub.add_parser('validate')
     p = sub.add_parser('run')
-    p.add_argument('--cases', default=str(ROOT / 'data/cases.jsonl'))
+    p.add_argument('--cases', default=str(ROOT / 'data/benchmark-v1.jsonl'))
     p.add_argument('--split', choices=['development', 'holdout'], default='development')
     p.add_argument('--language', choices=['zh', 'en'])
     p.add_argument('--category')
@@ -210,7 +210,7 @@ def main():
     args = parser.parse_args()
     try:
         if args.action == 'validate':
-            data = rows(ROOT / 'data/cases.jsonl')
+            data = rows(ROOT / 'data/benchmark-v1.jsonl')
             validate(data)
             source = read(ROOT / 'data/upstream/slopkit/source.json')
             assert digest((ROOT / source['path']).read_bytes()) == source['corpus_sha256'], '来源SHA256不匹配'

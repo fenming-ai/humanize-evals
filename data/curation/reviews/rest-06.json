@@ -1,0 +1,47 @@
+{
+  "cases": [
+    {
+      "id": "zh2-slop-077",
+      "approve": true,
+      "reason": "引文准确，保留事例转折，允许收敛必然成功论。"
+    },
+    {
+      "id": "zh2-slop-078",
+      "approve": true,
+      "reason": "合作主旨与转变过程忠实，删改边界合理。"
+    },
+    {
+      "id": "zh2-slop-079",
+      "approve": true,
+      "reason": "合作身份与自我定位有据，明确区分引述评价与事实认证。"
+    },
+    {
+      "id": "zh2-slop-080",
+      "approve": true,
+      "reason": "妥善处理候选数量矛盾，保留疑问且禁止补造球队。"
+    },
+    {
+      "id": "zh2-no_edit-019",
+      "approve": false,
+      "reason": "“清晰的认知自己”“多维度的认知世界”中“的”应为“地”，不宜归为no_edit。"
+    }
+  ],
+  "metadata": {
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 20.92,
+    "input_sha256": "7bc624b3935f73e6a925624ec099f0558f74dd7f4713a213d1d56cccc5cbb098",
+    "system_sha256": "0c41b551a96d085bbc3597749915f67732aa702736eddffdb625f85696aded81",
+    "usage": [
+      {
+        "input_tokens": 19739,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 269,
+        "reasoning_output_tokens": 64
+      }
+    ],
+    "review_type": "independent_context_model_review",
+    "human_review": false
+  }
+}

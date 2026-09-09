@@ -1,0 +1,72 @@
+{
+  "cases": [
+    {
+      "id": "zh2-facts-r001",
+      "approve": true,
+      "reason": "引文准确，日期、人数、消息归属及预计状态保护合理。"
+    },
+    {
+      "id": "zh2-facts-r002",
+      "approve": true,
+      "reason": "伤亡限定、地点与调查状态忠实，未将候选原因定论化。"
+    },
+    {
+      "id": "zh2-facts-r003",
+      "approve": true,
+      "reason": "比例近似、等分数量及转调取舍均有原文依据。"
+    },
+    {
+      "id": "zh2-facts-r004",
+      "approve": true,
+      "reason": "募集目标、上限和认购口径区分合理，风险约束一致。"
+    },
+    {
+      "id": "zh2-facts-r005",
+      "approve": true,
+      "reason": "候选人与比例对应准确，初步及最终结果程序忠实。"
+    },
+    {
+      "id": "zh2-facts-r006",
+      "approve": true,
+      "reason": "任职时态、规模口径及专家推测均忠实于来源。"
+    },
+    {
+      "id": "zh2-facts-r007",
+      "approve": true,
+      "reason": "统计窗口区分准确，疲劳判断未被强制作为唯一原因。"
+    },
+    {
+      "id": "zh2-facts-r008",
+      "approve": true,
+      "reason": "临时守门身份、比赛节点及结果准确，未增添进球事迹。"
+    },
+    {
+      "id": "zh2-facts-r009",
+      "approve": true,
+      "reason": "表演与本人边界清楚，回应日期、主体及立场准确。"
+    },
+    {
+      "id": "zh2-facts-r010",
+      "approve": true,
+      "reason": "首轮集体统计及平均数解释准确，删减边界合理。"
+    }
+  ],
+  "metadata": {
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 25.98,
+    "input_sha256": "f284adaad900e01546b9d357913b4f41c422fe5cf992db56cecaadeb4322ce20",
+    "system_sha256": "0c41b551a96d085bbc3597749915f67732aa702736eddffdb625f85696aded81",
+    "usage": [
+      {
+        "input_tokens": 22634,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 402,
+        "reasoning_output_tokens": 45
+      }
+    ],
+    "review_type": "independent_context_model_review",
+    "human_review": false
+  }
+}

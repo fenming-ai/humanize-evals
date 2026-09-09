@@ -1,0 +1,67 @@
+{
+  "cases": [
+    {
+      "id": "zh2-voice_emotion-017",
+      "approve": true,
+      "reason": "引文准确，保留劝勉语气及自主判断与听取意见的平衡。"
+    },
+    {
+      "id": "zh2-voice_emotion-018",
+      "approve": true,
+      "reason": "人物语气与回应归属准确，保留传闻及婚期的不确定性。"
+    },
+    {
+      "id": "zh2-voice_emotion-019",
+      "approve": true,
+      "reason": "报分、歉意与等待均有依据，未将录取希望强作事实。"
+    },
+    {
+      "id": "zh2-voice_emotion-020",
+      "approve": true,
+      "reason": "忠实保留作者立场及怀旧转折，类别与失败条件合理。"
+    },
+    {
+      "id": "zh2-voice_emotion-021",
+      "approve": true,
+      "reason": "恼火与强烈好评有明确依据，未强迫逐字保留粗口。"
+    },
+    {
+      "id": "zh2-voice_emotion-022",
+      "approve": true,
+      "reason": "保留本地同玩的情绪主线，并明确限制推测事实化。"
+    },
+    {
+      "id": "zh2-voice_emotion-023",
+      "approve": true,
+      "reason": "经历、成长维度及应对方法均有依据，验收边界合理。"
+    },
+    {
+      "id": "zh2-voice_emotion-024",
+      "approve": true,
+      "reason": "票数与主体准确，支持立场有据，未要求夸赞升级为事实。"
+    },
+    {
+      "id": "zh2-voice_emotion-025",
+      "approve": true,
+      "reason": "准确区分旧博文与当前传闻，保留愤怒语气及回应边界。"
+    }
+  ],
+  "metadata": {
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 24.18,
+    "input_sha256": "f6d569b75bdf7d633125cd1eb6778deed124e5cc3c94c2cde8e9d806dc540668",
+    "system_sha256": "0c41b551a96d085bbc3597749915f67732aa702736eddffdb625f85696aded81",
+    "usage": [
+      {
+        "input_tokens": 22311,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 402,
+        "reasoning_output_tokens": 38
+      }
+    ],
+    "review_type": "independent_context_model_review",
+    "human_review": false
+  }
+}

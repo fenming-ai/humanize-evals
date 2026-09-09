@@ -1,0 +1,62 @@
+{
+  "cases": [
+    {
+      "id": "zh2-coherence-r001",
+      "approve": true,
+      "reason": "引文准确，保留证据边界与动机推测，衔接任务合理。"
+    },
+    {
+      "id": "zh2-coherence-r002",
+      "approve": true,
+      "reason": "保留项忠实原文，允许删无来源统计，未强制认可绝对断言。"
+    },
+    {
+      "id": "zh2-coherence-r003",
+      "approve": true,
+      "reason": "类别恰当，区分历史描述与改革设想，未要求补造史料。"
+    },
+    {
+      "id": "zh2-coherence-r004",
+      "approve": true,
+      "reason": "保留政策范围与主体，允许删无支撑案例，失败条件合理。"
+    },
+    {
+      "id": "zh2-coherence-r006",
+      "approve": true,
+      "reason": "准确保留措施对象、政策目的及异议强度，任务一致。"
+    },
+    {
+      "id": "zh2-coherence-r007",
+      "approve": true,
+      "reason": "抒情推进值得测试，保留情绪层次与保护呼吁，约束合理。"
+    },
+    {
+      "id": "zh2-coherence-r009",
+      "approve": true,
+      "reason": "行情时序与预测边界忠实原文，未将不确定判断事实化。"
+    },
+    {
+      "id": "zh2-coherence-r010",
+      "approve": true,
+      "reason": "准确区分开启日期与单日要求，保留估分条件及不确定性。"
+    }
+  ],
+  "metadata": {
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 21.42,
+    "input_sha256": "292f1de8de025a59df1c2f99cad8519d8734a5802ed4b8ca6049914a7e02fd61",
+    "system_sha256": "0c41b551a96d085bbc3597749915f67732aa702736eddffdb625f85696aded81",
+    "usage": [
+      {
+        "input_tokens": 21735,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 368,
+        "reasoning_output_tokens": 59
+      }
+    ],
+    "review_type": "independent_context_model_review",
+    "human_review": false
+  }
+}

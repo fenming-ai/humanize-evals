@@ -1,0 +1,57 @@
+{
+  "cases": [
+    {
+      "id": "zh2-coherence-015",
+      "approve": true,
+      "reason": "综述主体调整合理，保留项有据，未强制实验成果为事实。"
+    },
+    {
+      "id": "zh2-coherence-016",
+      "approve": true,
+      "reason": "保留需求边界及推测语气，条件与失败标准合理。"
+    },
+    {
+      "id": "zh2-coherence-019",
+      "approve": true,
+      "reason": "引文准确，处分范围、否定限定和转述归属均忠实原稿。"
+    },
+    {
+      "id": "zh2-coherence-020",
+      "approve": true,
+      "reason": "机制去重适切，保留例外程度及可靠性边界。"
+    },
+    {
+      "id": "zh2-coherence-021",
+      "approve": true,
+      "reason": "行情分层适切，涨幅边界和可能性判断保留准确。"
+    },
+    {
+      "id": "zh2-coherence-022",
+      "approve": true,
+      "reason": "因素归并合理，保留项有据，未将可能价格固定化。"
+    },
+    {
+      "id": "zh2-coherence-024",
+      "approve": true,
+      "reason": "赛况与评价梳理合理，保留原文归因及首局范围。"
+    }
+  ],
+  "metadata": {
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 19.94,
+    "input_sha256": "fd5986c8f129bc2f09ad9f24f6c02db6bdb1d7f9e485670131d9c88458f255db",
+    "system_sha256": "0c41b551a96d085bbc3597749915f67732aa702736eddffdb625f85696aded81",
+    "usage": [
+      {
+        "input_tokens": 20637,
+        "cached_input_tokens": 9856,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 258,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "review_type": "independent_context_model_review",
+    "human_review": false
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "cases": [
+    {
+      "id": "zh2-voice_emotion-057",
+      "approve": true,
+      "reason": "引文准确，保留褒贬层次与猜测边界，失败条件合理。"
+    },
+    {
+      "id": "zh2-voice_emotion-058",
+      "approve": true,
+      "reason": "忠实保留求助经历、无奈与反驳，未泛化个人遭遇。"
+    },
+    {
+      "id": "zh2-voice_emotion-060",
+      "approve": true,
+      "reason": "问答主体区分准确，遗憾与克制有据，限制合理。"
+    },
+    {
+      "id": "zh2-voice_emotion-061",
+      "approve": true,
+      "reason": "引文准确，保留有限观察与不确定性，不认证现行规则。"
+    },
+    {
+      "id": "zh2-voice_emotion-062",
+      "approve": true,
+      "reason": "情绪转折有原文依据，允许修正错字病句，保留要求合理。"
+    },
+    {
+      "id": "zh2-voice_emotion-065",
+      "approve": true,
+      "reason": "自嘲与立场转变明确，任职披露、个人立场及预测边界均合理。"
+    }
+  ],
+  "metadata": {
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 17.19,
+    "input_sha256": "c68cc1ee4a4bc0277e324c57b9073a15a357be4e982513b16aca876f15af2ec8",
+    "system_sha256": "0c41b551a96d085bbc3597749915f67732aa702736eddffdb625f85696aded81",
+    "usage": [
+      {
+        "input_tokens": 19638,
+        "cached_input_tokens": 9856,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 290,
+        "reasoning_output_tokens": 37
+      }
+    ],
+    "review_type": "independent_context_model_review",
+    "human_review": false
+  }
+}

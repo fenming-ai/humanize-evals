@@ -1,0 +1,62 @@
+{
+  "cases": [
+    {
+      "id": "zh2-punctuation-006",
+      "approve": true,
+      "reason": "引文均有原文依据，三条主线及引用边界保留要求合理。"
+    },
+    {
+      "id": "zh2-punctuation-007",
+      "approve": true,
+      "reason": "枚举层级适合测试，挑战与建议完整，未强化比较性断言。"
+    },
+    {
+      "id": "zh2-punctuation-008",
+      "approve": true,
+      "reason": "概念引号值得测试，情感否定与能力限制准确，未强制自动学习为事实。"
+    },
+    {
+      "id": "zh2-coherence-001",
+      "approve": true,
+      "reason": "衔接问题明确，保留可能性与多因素立场，未引入决定论。"
+    },
+    {
+      "id": "zh2-coherence-002",
+      "approve": true,
+      "reason": "结构整理目标合理，兼顾突破、踏实与坚持，允许压缩泛例。"
+    },
+    {
+      "id": "zh2-coherence-003",
+      "approve": true,
+      "reason": "回忆与呼告的衔接值得测试，保留亲情表达且禁止补造细节。"
+    },
+    {
+      "id": "zh2-coherence-004",
+      "approve": true,
+      "reason": "主体与时间范围依据原文，妥善约束宽窄表述并保留双方意见。"
+    },
+    {
+      "id": "zh2-coherence-006",
+      "approve": true,
+      "reason": "四类难点均有依据，允许非穷尽总述，未强制补造对策或法规。"
+    }
+  ],
+  "metadata": {
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 27.58,
+    "input_sha256": "b164ca55bf9c8ea94647d047d7f4a341753b2c82c3e0271bf26b9b6d9acaf66a",
+    "system_sha256": "0c41b551a96d085bbc3597749915f67732aa702736eddffdb625f85696aded81",
+    "usage": [
+      {
+        "input_tokens": 24522,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 378,
+        "reasoning_output_tokens": 52
+      }
+    ],
+    "review_type": "independent_context_model_review",
+    "human_review": false
+  }
+}

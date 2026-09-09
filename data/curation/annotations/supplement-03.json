@@ -1,0 +1,189 @@
+{
+  "cases": [
+    {
+      "id": "zh2-no_edit-r021",
+      "suitable": false,
+      "reason": "单手戴与一般不戴的关系未讲清",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-r022",
+      "suitable": false,
+      "reason": "食品总价与涨幅混用，比较口径不清",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-r023",
+      "suitable": false,
+      "reason": "编号粘连且多项缺少句末标点",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-r024",
+      "suitable": false,
+      "reason": "末尾辱骂偏离字形字音论证",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-r025",
+      "suitable": false,
+      "reason": "央企与权贵资金的全称断言缺支撑",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-r026",
+      "suitable": false,
+      "reason": "列举顿号误用，保养叙述重复",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-r027",
+      "suitable": false,
+      "reason": "开头休假消息整段连续重复",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-r028",
+      "suitable": false,
+      "reason": "正式工段长句堆叠，缺少句末标点",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-r029",
+      "suitable": true,
+      "reason": "消息结构清楚，数据与发言归属明确",
+      "task": "面向财经读者作强保留验收，可原样输出；不删配额、执行情况及双方表态。",
+      "audience": "财经新闻读者",
+      "must_preserve": [
+        {
+          "quote": "原油日产量配额2484.5万桶不变",
+          "requirement": "保留17日决定及日产配额，不当实际产量"
+        },
+        {
+          "quote": "各成员国执行率为53%",
+          "requirement": "保留上次减产执行率及11国超标判断"
+        },
+        {
+          "quote": "每桶70-80美元是合理的波动范围",
+          "requirement": "保留纳伊米判断及平托对2010年预期"
+        }
+      ],
+      "voice_quote": "但成员国必须遵守已达成的减产协议",
+      "voice": "客观转述，区分决定与人物判断",
+      "allowed_changes": [
+        "允许全文原样输出或仅统一符号"
+      ],
+      "failure_conditions": [
+        "把53%写成减产幅度",
+        "把2010年油价预期写成既成事实"
+      ],
+      "scoring_note": "数字边界最易误伤：配额不是实际产量，预期不是结果。"
+    },
+    {
+      "id": "zh2-no_edit-r030",
+      "suitable": true,
+      "reason": "消息与专家解读层次清楚",
+      "task": "面向留学资讯读者作强保留验收，可原样输出；不删课程范围、专家解读及招生背景。",
+      "audience": "留学资讯读者",
+      "must_preserve": [
+        {
+          "quote": "该校音乐系预备课程首次录取演奏中国民族乐器学生",
+          "requirement": "首次录取限UBC音乐系预备课程"
+        },
+        {
+          "quote": "本次UBC扩大录取范围表明加拿大名校",
+          "requirement": "招揽态度须归于留学专家解读"
+        },
+        {
+          "quote": "旨在增加新兴大学和学院招生数量的SPP",
+          "requirement": "保留计划名称、目的及将在中国实行"
+        }
+      ],
+      "voice_quote": "留学专家指出",
+      "voice": "资讯报道语气，解读有归属",
+      "allowed_changes": [
+        "允许完整原样输出或仅统一括号"
+      ],
+      "failure_conditions": [
+        "把预备课程扩大为UBC全部专业",
+        "把SPP将在中国实行写成已实行"
+      ],
+      "scoring_note": "主体范围最易误伤：课程录取不等于全校政策，专家解读不等于校方声明。"
+    }
+  ],
+  "metadata": {
+    "job": "supplement-03",
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 63.82,
+    "system_sha256": "2c85943d84beabe7f1c8a64f793323c3fb90f4110f4f66ac756b1b69b3faf06e",
+    "input_sha256": "8df18d77d30e583d2709355c0e0da0c9ed40a9de909a6fb081541877dca50001",
+    "usage": [
+      {
+        "input_tokens": 18153,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1290,
+        "reasoning_output_tokens": 264
+      }
+    ],
+    "review_type": "model_annotation",
+    "human_review": false
+  }
+}

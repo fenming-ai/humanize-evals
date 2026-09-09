@@ -1,0 +1,57 @@
+{
+  "cases": [
+    {
+      "id": "zh2-punctuation-025",
+      "approve": true,
+      "reason": "引文准确，日期、主体及引语归属约束合理。"
+    },
+    {
+      "id": "zh2-punctuation-027",
+      "approve": true,
+      "reason": "引文准确，保留可能性并防止比喻误作书名。"
+    },
+    {
+      "id": "zh2-punctuation-028",
+      "approve": true,
+      "reason": "引文准确，经历主线与人物归属忠实原稿。"
+    },
+    {
+      "id": "zh2-punctuation-030",
+      "approve": true,
+      "reason": "引文准确，观点与可能性限定保留得当。"
+    },
+    {
+      "id": "zh2-punctuation-031",
+      "approve": true,
+      "reason": "标点类别适当，主观期待与票房预测边界清楚。"
+    },
+    {
+      "id": "zh2-punctuation-032",
+      "approve": true,
+      "reason": "引文准确，允许修正病词，保留对照与行动转折。"
+    },
+    {
+      "id": "zh2-punctuation-034",
+      "approve": true,
+      "reason": "简称、主体与列举约束准确，未强制核实原稿事实。"
+    }
+  ],
+  "metadata": {
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 21.71,
+    "input_sha256": "e56c33a498d46a061015d273eea07553d27d7f6138ca9dcbca24a95a332f409a",
+    "system_sha256": "0c41b551a96d085bbc3597749915f67732aa702736eddffdb625f85696aded81",
+    "usage": [
+      {
+        "input_tokens": 21348,
+        "cached_input_tokens": 9856,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 273,
+        "reasoning_output_tokens": 23
+      }
+    ],
+    "review_type": "independent_context_model_review",
+    "human_review": false
+  }
+}

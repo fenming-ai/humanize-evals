@@ -1,0 +1,57 @@
+{
+  "cases": [
+    {
+      "id": "zh2-slop-011",
+      "approve": true,
+      "reason": "减冗对象明确，保留要求忠实，未将资源优势升级为结果保证。"
+    },
+    {
+      "id": "zh2-slop-012",
+      "approve": true,
+      "reason": "四类决策均有原文依据，允许削弱赞誉，历史事实边界合理。"
+    },
+    {
+      "id": "zh2-slop-013",
+      "approve": true,
+      "reason": "能力框架与具体职责保留完整，减冗要求及失败条件一致。"
+    },
+    {
+      "id": "zh2-slop-014",
+      "approve": true,
+      "reason": "兼顾删减夸张与粉丝情绪，保留个人判断及商业归因边界。"
+    },
+    {
+      "id": "zh2-slop-015",
+      "approve": true,
+      "reason": "保留合作立场和强弱变化限定，允许降低泛化与因果断言。"
+    },
+    {
+      "id": "zh2-slop-016",
+      "approve": true,
+      "reason": "目标、机制、风险与建议均忠实，明确保护推测及未来行动边界。"
+    },
+    {
+      "id": "zh2-no_edit-004",
+      "approve": true,
+      "reason": "无明显错字、断句或未完句，强保留合理，未把评论观点当事实。"
+    }
+  ],
+  "metadata": {
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 37.03,
+    "input_sha256": "edabb43a4afd274a6e4e4542634e0627ef900650cc50cb01458477da126fd197",
+    "system_sha256": "0c41b551a96d085bbc3597749915f67732aa702736eddffdb625f85696aded81",
+    "usage": [
+      {
+        "input_tokens": 23320,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 436,
+        "reasoning_output_tokens": 155
+      }
+    ],
+    "review_type": "independent_context_model_review",
+    "human_review": false
+  }
+}

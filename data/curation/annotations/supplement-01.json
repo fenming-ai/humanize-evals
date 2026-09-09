@@ -1,0 +1,229 @@
+{
+  "cases": [
+    {
+      "id": "zh2-no_edit-r001",
+      "suitable": false,
+      "reason": "“重立体”“坐拥2200人”表述不清",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-r002",
+      "suitable": true,
+      "reason": "两组统计及比较基准清楚",
+      "task": "面向财经读者保留统计短讯，可原样输出；不省略数字、比较基准及发布主体。",
+      "audience": "财经读者",
+      "must_preserve": [
+        {
+          "quote": "30亿美元，比去年同期下降61%",
+          "requirement": "保留规模、同比降幅及1997年低点基准"
+        },
+        {
+          "quote": "当季美国共有549家公司接受风险资本注入",
+          "requirement": "保留549对997家及1995年低点基准"
+        },
+        {
+          "quote": "美国全国风险资本协会、汤姆森－路透集团",
+          "requirement": "保留这两家与普华永道联合发布"
+        }
+      ],
+      "voice_quote": "行业权威机构18日公布的最新统计数据显示",
+      "voice": "简洁客观的统计报道",
+      "allowed_changes": [
+        "可完整原样输出",
+        "仅微调标点，不删统计信息"
+      ],
+      "failure_conditions": [
+        "混淆投资规模与受资公司数的低点年份",
+        "遗漏普华永道或改变同比61%"
+      ],
+      "scoring_note": "数字对应关系最易误伤，两项最低值起点不同。"
+    },
+    {
+      "id": "zh2-no_edit-r003",
+      "suitable": false,
+      "reason": "“人声为演讲”等衔接生硬，需整理",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-r004",
+      "suitable": false,
+      "reason": "赵旭日伤情判断重复，需压缩",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-r005",
+      "suitable": true,
+      "reason": "车主分项体验清楚，口语自然",
+      "task": "面向购车读者保留车主体验，可原样输出；八项感受及用车条件均不省略。",
+      "audience": "购车读者",
+      "must_preserve": [
+        {
+          "quote": "1.5T动力还是缺了点，建议上2.0T",
+          "requirement": "保留动力不足感受和升级建议"
+        },
+        {
+          "quote": "目前2.2万公里，综合油耗7.7",
+          "requirement": "保留里程油耗及高速较多条件"
+        },
+        {
+          "quote": "后悔当时没买坦桑蓝",
+          "requirement": "保留买珍珠白及不知蓝色配色的遗憾"
+        }
+      ],
+      "voice_quote": "底盘平稳，开起来很舒服",
+      "voice": "直白、有褒有贬的车主口吻",
+      "allowed_changes": [
+        "可完整原样输出",
+        "可将编号分行，不删体验"
+      ],
+      "failure_conditions": [
+        "把油耗7.7写成所有车主的表现",
+        "删去开窗异味或改成无异味"
+      ],
+      "scoring_note": "主观声音易被误伤，性价比和动力是车主感受。"
+    },
+    {
+      "id": "zh2-no_edit-r006",
+      "suitable": false,
+      "reason": "全国征税概述与分区税率边界不清",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-r007",
+      "suitable": true,
+      "reason": "实验方法、结果与结论层次清楚",
+      "task": "面向生医读者保留研究摘要，可原样输出；不删实验条件、检测方法及显著性。",
+      "audience": "生医读者",
+      "must_preserve": [
+        {
+          "quote": "0、25、50、100和200μmol/L",
+          "requirement": "保留五档浓度、体外HUVECs及24h"
+        },
+        {
+          "quote": "浓度依赖和时间依赖的方式显著降低",
+          "requirement": "保留β3表达下降的双重依赖及P<0.05"
+        },
+        {
+          "quote": "β3的特异性抗体LM609显著抑制",
+          "requirement": "保留抗体抑制迁移结果及原文机制结论"
+        }
+      ],
+      "voice_quote": "探讨丙酮醛对内皮细胞迁移的影响。",
+      "voice": "克制、术语密集的科研摘要",
+      "allowed_changes": [
+        "可完整原样输出",
+        "仅整理标点与单位间距"
+      ],
+      "failure_conditions": [
+        "把体外细胞结果扩展为人体疗效",
+        "将迁移受抑改成细胞死亡"
+      ],
+      "scoring_note": "机制结论易被扩张；保留原文但不新增验证强度。"
+    },
+    {
+      "id": "zh2-no_edit-r008",
+      "suitable": false,
+      "reason": "“实际上是买”句式卡顿，需局部修整",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-r009",
+      "suitable": false,
+      "reason": "引流话术与榜单堆叠明显需删减",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-r010",
+      "suitable": true,
+      "reason": "活动背景、票选对象及方式明确",
+      "task": "面向大学生投票者保留活动说明，可原样输出；不删时间地点、票选规则及查阅入口。",
+      "audience": "大学生投票者",
+      "must_preserve": [
+        {
+          "quote": "2009年4月6日在北京师范大学邱季端体育馆开幕",
+          "requirement": "保留第16届电影节开幕时间地点"
+        },
+        {
+          "quote": "最终有30部国产影片入围",
+          "requirement": "保留报名超100部、入围30部及参照作用"
+        },
+        {
+          "quote": "最受大学生欢迎男演员票选，投票方式为单选",
+          "requirement": "保留本调查奖项对象及单选规则"
+        }
+      ],
+      "voice_quote": "期待您的参与！",
+      "voice": "正式说明中带简短邀请",
+      "allowed_changes": [
+        "可完整原样输出",
+        "仅局部分段，不删活动信息"
+      ],
+      "failure_conditions": [
+        "将票选结果改成直接决定最终奖项",
+        "把男演员单选改成影片多选"
+      ],
+      "scoring_note": "票选层级易混淆，整体活动与本调查对象不同。"
+    }
+  ],
+  "metadata": {
+    "job": "supplement-01",
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 65.98,
+    "system_sha256": "2c85943d84beabe7f1c8a64f793323c3fb90f4110f4f66ac756b1b69b3faf06e",
+    "input_sha256": "91119b8967266ded5bb0191a8740e19d4089f7ebbc242d919386a5051ba5cbc5",
+    "usage": [
+      {
+        "input_tokens": 18164,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1619,
+        "reasoning_output_tokens": 160
+      }
+    ],
+    "review_type": "model_annotation",
+    "human_review": false
+  }
+}

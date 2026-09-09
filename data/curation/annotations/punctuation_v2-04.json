@@ -1,0 +1,336 @@
+{
+  "cases": [
+    {
+      "id": "zh2-punctuation-r001-p2",
+      "suitable": true,
+      "reason": "引号与顿号功能明确",
+      "task": "面向新闻读者，仅审查整理标点；不删正文，不改词句、事实与声音，可原样返回。",
+      "audience": "新闻读者",
+      "must_preserve": [
+        {
+          "quote": "并称已掌握“确凿证据”",
+          "requirement": "引号标出美方声称，非作者认证"
+        },
+        {
+          "quote": "以客观、公正的态度",
+          "requirement": "顿号保留两项态度的并列"
+        },
+        {
+          "quote": "此次指控可能进一步影响",
+          "requirement": "保留可能性，不强化为确定影响"
+        }
+      ],
+      "voice_quote": "各方应保持克制",
+      "voice": "新闻转述中的克制语气",
+      "allowed_changes": [
+        "仅整理确有必要的标点；可不改"
+      ],
+      "failure_conditions": [
+        "删引号使“确凿证据”失去引述边界",
+        "改写伊朗否认或谈判影响的正文"
+      ],
+      "scoring_note": "引述边界易误伤，标点整理不能替美方背书。"
+    },
+    {
+      "id": "zh2-punctuation-r002-p2",
+      "suitable": true,
+      "reason": "作品名与并列符号可保护",
+      "task": "面向动画评论读者，仅审查整理符号标点；正文词句、事实与声音不改写，不删内容。",
+      "audience": "动画评论读者",
+      "must_preserve": [
+        {
+          "quote": "《魁拔》第一部未能进入电影院",
+          "requirement": "书名号界定作品名，保留原断言"
+        },
+        {
+          "quote": "市场推广、受众定位和影片质量",
+          "requirement": "顿号区分并列的市场因素"
+        },
+        {
+          "quote": "可行建议如下。在市场推广上",
+          "requirement": "保留由分析转入建议的衔接"
+        }
+      ],
+      "voice_quote": "关键因素之一是市场推广。",
+      "voice": "解释性、建议式评论",
+      "allowed_changes": [
+        "可整理“如下”后的提示标点",
+        "无必要处原样保留"
+      ],
+      "failure_conditions": [
+        "删除两部动画的书名号",
+        "改写《魁拔》的上映或质量断言"
+      ],
+      "scoring_note": "易越界纠正文中断言；本例只验标点忠实性。"
+    },
+    {
+      "id": "zh2-punctuation-r003-p2",
+      "suitable": true,
+      "reason": "书名号及直接引语层次清楚",
+      "task": "面向文艺新闻读者，只审查整理标点；不省略正文，不改词句、事实及报道声音。",
+      "audience": "文艺新闻读者",
+      "must_preserve": [
+        {
+          "quote": "个人新书《梅飞色舞》",
+          "requirement": "书名号界定新书名称"
+        },
+        {
+          "quote": "动情表示：\"这本书是我对京剧艺术",
+          "requirement": "冒号提示原话，引号界定发言"
+        },
+        {
+          "quote": "跨越电影、戏曲与文学",
+          "requirement": "顿号保留艺术门类并列"
+        }
+      ],
+      "voice_quote": "也是对传统文化传承的思考。",
+      "voice": "文艺报道的赞赏语调",
+      "allowed_changes": [
+        "可将半角引号成对规范为中文引号"
+      ],
+      "failure_conditions": [
+        "删冒号或引号使陈凯歌原话边界消失",
+        "改动书名、合作对象或榜单名次正文"
+      ],
+      "scoring_note": "规范引号易牵连正文；不借机核改报道内容。"
+    },
+    {
+      "id": "zh2-punctuation-r004-p2",
+      "suitable": true,
+      "reason": "称呼冒号与问答引语有功能",
+      "task": "面向信中孩子，仅整理符号标点；不删正文，不改词句、事实设定及抚慰声音。",
+      "audience": "信中孩子",
+      "must_preserve": [
+        {
+          "quote": "亲爱的孩子：当你读到这封信时",
+          "requirement": "冒号标明书信称呼与正文界面"
+        },
+        {
+          "quote": "\"天堂是什么样子的？\"",
+          "requirement": "引号保留原话，问号保留孩子提问"
+        },
+        {
+          "quote": "最后，请答应我一件事：好好活着",
+          "requirement": "冒号引出具体嘱托，保留恳切停顿"
+        }
+      ],
+      "voice_quote": "我的爱会化作春风，化作细雨",
+      "voice": "亲昵、牵挂而温柔抚慰",
+      "allowed_changes": [
+        "可成对规范半角引号",
+        "无明确标点问题可原样返回"
+      ],
+      "failure_conditions": [
+        "机械删引号或问号抹平童年问答",
+        "改写天堂设定或补造落款身份"
+      ],
+      "scoring_note": "情绪停顿易被压平，不能借标点整理重写信。"
+    },
+    {
+      "id": "zh2-punctuation-r005-p2",
+      "suitable": true,
+      "reason": "括注与列举层级明确",
+      "task": "面向金融技术读者，仅审查整理标点；不删内容，不改正文词句、事实与说明声音。",
+      "audience": "金融技术读者",
+      "must_preserve": [
+        {
+          "quote": "金融数据（如银行流水、征信报告）",
+          "requirement": "括号承载举例，顿号分列例项"
+        },
+        {
+          "quote": "如逻辑回归、随机森林或深度学习",
+          "requirement": "顿号保留算法列举关系"
+        },
+        {
+          "quote": "将其坏账率降低了数个百分点",
+          "requirement": "保留原有模糊幅度，不补精确数字"
+        }
+      ],
+      "voice_quote": "核心在于构建多维度、动态化的用户风险画像。",
+      "voice": "技术说明式陈述",
+      "allowed_changes": [
+        "仅整理不损害括注层级的标点；可不改"
+      ],
+      "failure_conditions": [
+        "删括号使例项混成独立数据类别",
+        "改写互金平台案例或补入平台名称"
+      ],
+      "scoring_note": "括注层级易丢失，案例缺来源也不授权改正文。"
+    },
+    {
+      "id": "zh2-punctuation-r006-p2",
+      "suitable": true,
+      "reason": "比喻引号与术语括注有功能",
+      "task": "面向酒类科普读者，只审查整理标点；不省略正文，不改词句、事实或通俗声音。",
+      "audience": "酒类科普读者",
+      "must_preserve": [
+        {
+          "quote": "它是一个活的“加工厂”。",
+          "requirement": "引号标出橡木桶的比喻用法"
+        },
+        {
+          "quote": "新酒（new make spirit）",
+          "requirement": "括号保留英文术语对应关系"
+        },
+        {
+          "quote": "如香草醛、丁香酚、单宁等",
+          "requirement": "顿号分隔风味物质例项"
+        }
+      ],
+      "voice_quote": "这就像烹饪一道菜",
+      "voice": "通俗比喻式科普",
+      "allowed_changes": [
+        "仅作必要标点规范；允许全文原样返回"
+      ],
+      "failure_conditions": [
+        "删比喻引号或术语括号抹平功能",
+        "改写未经陈化酒的口感与用途断言"
+      ],
+      "scoring_note": "符号兼顾比喻与术语，不能按频次机械删减。"
+    },
+    {
+      "id": "zh2-punctuation-r007-p2",
+      "suitable": true,
+      "reason": "分号破折号及引号功能丰富",
+      "task": "面向议论文读者，仅审查整理符号标点；全文不省略，正文词句、事实与激昂声音不改写。",
+      "audience": "议论文读者",
+      "must_preserve": [
+        {
+          "quote": "双眼；如果说骏马奔腾于旷野",
+          "requirement": "分号分隔开篇排比层次"
+        },
+        {
+          "quote": "——舍我其谁的意气，是人们腾飞的起点。",
+          "requirement": "破折号突出阶段性总结"
+        },
+        {
+          "quote": "“男儿何不带吴钩，收取关山五十州”",
+          "requirement": "引号界定诗句引用范围"
+        }
+      ],
+      "voice_quote": "向着成功的彼岸远航！",
+      "voice": "排比铺陈、昂扬号召",
+      "allowed_changes": [
+        "可整理局部停顿；保留排比及收束功能"
+      ],
+      "failure_conditions": [
+        "机械删分号、破折号导致排比总结混层",
+        "改写人物事例或擅改“浆”等正文用字"
+      ],
+      "scoring_note": "激昂节奏依赖符号，不应按符号密度判错。"
+    },
+    {
+      "id": "zh2-punctuation-r008-p2",
+      "suitable": true,
+      "reason": "诗句引号与问号需功能保护",
+      "task": "面向文学随笔读者，只审查整理标点；不删正文，不改词句、事实及抒情声音。",
+      "audience": "文学随笔读者",
+      "must_preserve": [
+        {
+          "quote": "“一蓑烟草任江平”",
+          "requirement": "保留引号所界定的反复题眼"
+        },
+        {
+          "quote": "谁怕？一蓑烟雨任平生。",
+          "requirement": "问号保留词句反问与后续停顿"
+        },
+        {
+          "quote": "找一片属于自己的“江边”",
+          "requirement": "引号标明江边的借喻用法"
+        }
+      ],
+      "voice_quote": "坚守内心的宁静与自由",
+      "voice": "抒情劝勉、向往淡泊",
+      "allowed_changes": [
+        "仅整理必要标点；无错误处原样保留"
+      ],
+      "failure_conditions": [
+        "删问号或“江边”引号抹去反问借喻",
+        "擅改“一蓑烟草任江平”等正文引文"
+      ],
+      "scoring_note": "易借校对纠正引文文字，但此任务仅限标点。"
+    },
+    {
+      "id": "zh2-punctuation-r009-p2",
+      "suitable": true,
+      "reason": "电头分隔及报刊名边界明确",
+      "task": "面向国际新闻读者，仅审查整理符号标点；不删正文，不改词句、事实及审慎声音。",
+      "audience": "国际新闻读者",
+      "must_preserve": [
+        {
+          "quote": "平壤 —朝鲜劳动党机关报",
+          "requirement": "分隔符区分地点电头与报道正文"
+        },
+        {
+          "quote": "《劳动新闻》、朝鲜人民军报",
+          "requirement": "书名号标报刊名，顿号分列主体"
+        },
+        {
+          "quote": "并未提及具体的对话条件或方案",
+          "requirement": "保留未提条件方案的否定边界"
+        }
+      ],
+      "voice_quote": "保持审慎观察",
+      "voice": "新闻转述、推测审慎",
+      "allowed_changes": [
+        "可规范电头分隔符及相邻空格",
+        "其余正确标点可原样保留"
+      ],
+      "failure_conditions": [
+        "删电头分隔符或报刊书名号破坏边界",
+        "改写2024年时间或补入对话条件"
+      ],
+      "scoring_note": "电头可规范但不可抹除，正文史实不在修订范围。"
+    },
+    {
+      "id": "zh2-punctuation-r010-p2",
+      "suitable": true,
+      "reason": "书名号与顿号构成保护控制",
+      "task": "面向漫画评论读者，仅审查整理标点；不删正文，不改词句、事实与支持作者的声音。",
+      "audience": "漫画评论读者",
+      "must_preserve": [
+        {
+          "quote": "《名侦探柯南》这部作品",
+          "requirement": "书名号界定作品全名"
+        },
+        {
+          "quote": "《柯南》动画、电影、周边产品",
+          "requirement": "书名号保留简称，顿号分列产品"
+        },
+        {
+          "quote": "虽然连载节奏有所放缓，但每一话",
+          "requirement": "逗号承接节奏与质量之间的转折"
+        }
+      ],
+      "voice_quote": "青山刚昌并未江郎才尽",
+      "voice": "肯定、辩护式评论",
+      "allowed_changes": [
+        "仅整理必要标点；允许完整原样返回"
+      ],
+      "failure_conditions": [
+        "机械删书名号或顿号混淆作品与产品",
+        "改写青山刚昌创作能力或市场表现判断"
+      ],
+      "scoring_note": "正确标点本身是控制点，不必为显示修改而改。"
+    }
+  ],
+  "metadata": {
+    "job": "punctuation_v2-04",
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 93.88,
+    "system_sha256": "3ae39d4cdd1a190d9634734fff98af6538ba69e53c44419197138e6205d7858a",
+    "input_sha256": "d9257ed80b5591bc77be59a8a9e1739694d65b87c6a4caa9fbfdc701d899eb28",
+    "usage": [
+      {
+        "input_tokens": 21189,
+        "cached_input_tokens": 6016,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2675,
+        "reasoning_output_tokens": 32
+      }
+    ],
+    "review_type": "model_annotation",
+    "human_review": false
+  }
+}

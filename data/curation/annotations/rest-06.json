@@ -1,0 +1,248 @@
+{
+  "cases": [
+    {
+      "id": "zh2-slop-077",
+      "suitable": true,
+      "reason": "励志套话重复，事例脉络可留",
+      "task": "面向一般读者压缩励志议论；可删重复赞叹，不删学习经历的转折，不补史实。",
+      "audience": "一般读者",
+      "must_preserve": [
+        {
+          "quote": "或许只需再坚持一下",
+          "requirement": "保留坚持可能带来转机的观点"
+        },
+        {
+          "quote": "而是发愤著书，终于完成了",
+          "requirement": "保留司马迁受挫后著书的事例"
+        },
+        {
+          "quote": "我调整了学习策略，重新找到了学习的动力",
+          "requirement": "保留良师帮助后调整策略的转折"
+        }
+      ],
+      "voice_quote": "我感到非常沮丧和迷茫",
+      "voice": "真诚、乐观的励志自述",
+      "allowed_changes": [
+        "删旅程、光彩等重复比喻",
+        "压缩创业赞语，限定必然成功论"
+      ],
+      "failure_conditions": [
+        "把坚持写成必然成功的保证",
+        "删去良师帮助，只写独自逆袭"
+      ],
+      "scoring_note": "最易误删个人转折；调整方法不等于盲目坚持。"
+    },
+    {
+      "id": "zh2-slop-078",
+      "suitable": true,
+      "reason": "合作主旨清楚，口号明显冗余",
+      "task": "面向学生读者精简合作议论；保留模拟联合国的转变过程，可删宏大口号，不增案例。",
+      "audience": "学生读者",
+      "must_preserve": [
+        {
+          "quote": "还能让他人受益，实现双方共赢的局面",
+          "requirement": "双赢须含自己与他人受益"
+        },
+        {
+          "quote": "在准备阶段互不相让",
+          "requirement": "保留各组最初竞争冲突"
+        },
+        {
+          "quote": "在老师的引导下，各个小组开始尝试着进行沟通交流",
+          "requirement": "保留老师引导及交流分享的转折"
+        }
+      ],
+      "voice_quote": "我们应该学会换位思考",
+      "voice": "温和劝导、肯定合作",
+      "allowed_changes": [
+        "删携手并进等结尾口号",
+        "压缩商业与国际关系的泛例"
+      ],
+      "failure_conditions": [
+        "将小组合作改成某队单独夺冠",
+        "删去双赢中他人受益的含义"
+      ],
+      "scoring_note": "最易把套话清理变成事例清空，损失转变依据。"
+    },
+    {
+      "id": "zh2-slop-079",
+      "suitable": true,
+      "reason": "跨界叙事具体，溢美语言密集",
+      "task": "面向体育读者压缩跨界报道的赞语；保留合作与MV内容，不新增背书或视作已核实。",
+      "audience": "体育读者",
+      "must_preserve": [
+        {
+          "quote": "是孙悦与中央戏剧学院表演系学生王茜的合作成果",
+          "requirement": "保留合作双方及原文身份"
+        },
+        {
+          "quote": "MV中穿插了孙悦篮球生涯的经典画面",
+          "requirement": "保留篮球影像与演唱交织"
+        },
+        {
+          "quote": "视为退役后人生新阶段的探索和表达",
+          "requirement": "保留孙悦对尝试的自我定位"
+        }
+      ],
+      "voice_quote": "勇于突破自我、不断追寻生活热情",
+      "voice": "欣赏跨界探索，不升级吹捧",
+      "allowed_changes": [
+        "删独树一帜等溢美评价",
+        "压缩引语，保留评价主体"
+      ],
+      "failure_conditions": [
+        "把录音师评价写成专业能力定论",
+        "把王茜改成职业歌手或删去合作关系"
+      ],
+      "scoring_note": "最易把引述赞誉改成客观认证；原稿未获外部核实。"
+    },
+    {
+      "id": "zh2-slop-080",
+      "suitable": true,
+      "reason": "传奇赞语重复，候选数量矛盾",
+      "task": "面向篮球读者精简回归评论；保留三队讨论和去向悬念，可删数量矛盾及夸赞，不补第四队。",
+      "audience": "篮球读者",
+      "must_preserve": [
+        {
+          "quote": "公牛、湖人、热火三支豪强球队",
+          "requirement": "保留实际列出的三支候选队"
+        },
+        {
+          "quote": "但他对篮球的热爱始终未减",
+          "requirement": "保留作者对麦蒂热爱的肯定"
+        },
+        {
+          "quote": "他是否还有能力在顶级联赛中立足",
+          "requirement": "保留竞技能力尚待判断的疑问"
+        }
+      ],
+      "voice_quote": "愿麦蒂的归来，成为篮球世界中最美的传说",
+      "voice": "怀旧期待，兼有疑问",
+      "allowed_changes": [
+        "删传奇、梦想等重复赞叹",
+        "删四大数量表述，收敛必然热潮论"
+      ],
+      "failure_conditions": [
+        "补造第四支候选球队",
+        "将麦蒂加盟任一队写成已确定"
+      ],
+      "scoring_note": "最易为补齐四大而造队名；原稿只列三队。"
+    },
+    {
+      "id": "zh2-no_edit-017",
+      "suitable": false,
+      "reason": "逗号混用且诊断长句需切分",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-018",
+      "suitable": false,
+      "reason": "“反应出”用词错误需改",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-019",
+      "suitable": true,
+      "reason": "个人观点连贯，口语表达自然",
+      "task": "面向自我探索读者保留这段随感；允许全文原样输出，不删主张、个人限定或认识边界。",
+      "audience": "自我探索读者",
+      "must_preserve": [
+        {
+          "quote": "多接触人，多了解世界",
+          "requirement": "保留向外接触与了解的建议"
+        },
+        {
+          "quote": "一个人评价世界的标准，也同样是评价自己的标准",
+          "requirement": "保留评价世界与自我的关联"
+        },
+        {
+          "quote": "而清晰和不偏不倚，也只能是相对的",
+          "requirement": "保留自我认知并非绝对客观的限定"
+        }
+      ],
+      "voice_quote": "就特别受触动",
+      "voice": "个人化、平实而有所触动",
+      "allowed_changes": [
+        "可完整原样输出",
+        "仅微调停顿，不必消除口语"
+      ],
+      "failure_conditions": [
+        "删去“在我看来”并写成普遍定律",
+        "将认识世界写成获得绝对客观视角"
+      ],
+      "scoring_note": "最易误伤口语与主观限定；它们承载随感而非定论。"
+    },
+    {
+      "id": "zh2-no_edit-020",
+      "suitable": false,
+      "reason": "多句逗号串联，末句衔接突兀",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-021",
+      "suitable": false,
+      "reason": "“通过将整理分析”句式杂糅",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-022",
+      "suitable": false,
+      "reason": "“真正的会学习的人”等语病明显",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    }
+  ],
+  "metadata": {
+    "job": "rest-06",
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 67.8,
+    "system_sha256": "2c85943d84beabe7f1c8a64f793323c3fb90f4110f4f66ac756b1b69b3faf06e",
+    "input_sha256": "fdd2bf4c0121662e7098b6b9d4a1a88a8c95aecf75473ee2d3d31470e0ae2d4d",
+    "usage": [
+      {
+        "input_tokens": 19653,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1854,
+        "reasoning_output_tokens": 185
+      }
+    ],
+    "review_type": "model_annotation",
+    "human_review": false
+  }
+}

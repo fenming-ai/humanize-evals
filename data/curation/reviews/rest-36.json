@@ -1,0 +1,62 @@
+{
+  "cases": [
+    {
+      "id": "zh2-missing_material-033",
+      "approve": true,
+      "reason": "引文准确，保留粉丝偏爱并明确年龄估计与设定边界。"
+    },
+    {
+      "id": "zh2-missing_material-035",
+      "approve": true,
+      "reason": "忠实保留叙事转折，合理测试不因缺外证否定自述。"
+    },
+    {
+      "id": "zh2-missing_material-036",
+      "approve": true,
+      "reason": "保留三层解释，限制主体泛化与无据补充，要求合理。"
+    },
+    {
+      "id": "zh2-missing_material-038",
+      "approve": true,
+      "reason": "引文准确，区分乐观期待与已确认剧情，边界清楚。"
+    },
+    {
+      "id": "zh2-missing_material-039",
+      "approve": true,
+      "reason": "保留讨论对象与建议，未将原因猜测强制当作事实。"
+    },
+    {
+      "id": "zh2-missing_material-040",
+      "approve": true,
+      "reason": "准确保留评价框架，防止将待核验问题改为功能事实。"
+    },
+    {
+      "id": "zh2-long_form-009",
+      "approve": true,
+      "reason": "长文类别恰当，保留论证递进及落空转折，允许精简修辞。"
+    },
+    {
+      "id": "zh2-long_form-010",
+      "approve": true,
+      "reason": "保留全文结构、地域立场与叙述时点，允许修正和限定。"
+    }
+  ],
+  "metadata": {
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 24.85,
+    "input_sha256": "b810304a5097a9d5fec1171598532c8082a7aba4d9530e7bba44fe2603bfa3fc",
+    "system_sha256": "0c41b551a96d085bbc3597749915f67732aa702736eddffdb625f85696aded81",
+    "usage": [
+      {
+        "input_tokens": 22575,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 384,
+        "reasoning_output_tokens": 69
+      }
+    ],
+    "review_type": "independent_context_model_review",
+    "human_review": false
+  }
+}

@@ -1,0 +1,343 @@
+{
+  "cases": [
+    {
+      "id": "zh2-long_form-r001",
+      "suitable": true,
+      "reason": "论证层次完整，套话可压缩",
+      "task": "面向青年读者梳理全文论证，保留历史、科学、平凡岗位及青年层次，可删重复劝勉。",
+      "audience": "青年读者",
+      "must_preserve": [
+        {
+          "quote": "真正的信念经得起任何考验",
+          "requirement": "保留赞许信念抗压的立场，不强化"
+        },
+        {
+          "quote": "普通人的信念同样能创造不平凡的价值",
+          "requirement": "保留平凡岗位的价值及对应事例"
+        },
+        {
+          "quote": "它需要在实践中不断磨砺",
+          "requirement": "保留信念靠实践培养的结论"
+        }
+      ],
+      "voice_quote": "让我们以坚定的信念为帆",
+      "voice": "热切劝勉，集体号召",
+      "allowed_changes": [
+        "压缩灯塔等重复比喻",
+        "整理段落，弱化无支撑的绝对断言"
+      ],
+      "failure_conditions": [
+        "只留名人事例，删去平凡岗位层次",
+        "将人物引语包装为已核实史料"
+      ],
+      "scoring_note": "最易只顾去套话，削掉论证层次及结尾实践落点。"
+    },
+    {
+      "id": "zh2-long_form-r002",
+      "suitable": true,
+      "reason": "递进明确，修辞堆叠可整理",
+      "task": "面向普通读者精简全文，保留历史贡献、日常守护、责任态度的递进，可删重复赞颂。",
+      "audience": "普通读者",
+      "must_preserve": [
+        {
+          "quote": "这份源于平凡的集体伟力与无声奉献",
+          "requirement": "保留长城、敦煌无名劳动者的贡献"
+        },
+        {
+          "quote": "守护着生活的秩序与温情",
+          "requirement": "保留清洁工、医护、教师的日常价值"
+        },
+        {
+          "quote": "它并非对平庸的默许",
+          "requirement": "保留平凡与平庸的区分及责任意识"
+        }
+      ],
+      "voice_quote": "我亦如那泥土中一粒微尘",
+      "voice": "自谦而自豪，庄重抒情",
+      "allowed_changes": [
+        "合并重复的泥土、星河比喻",
+        "压缩首尾同义赞颂"
+      ],
+      "failure_conditions": [
+        "把安守本分改成接受平庸",
+        "改为旁观者口吻，丢失自我认同"
+      ],
+      "scoring_note": "最易把自豪误作浮夸全删，损伤第一人称认同。"
+    },
+    {
+      "id": "zh2-long_form-r003",
+      "suitable": true,
+      "reason": "立场转折可辨，衔接需修整",
+      "task": "面向同龄读者理顺比赛比喻到人生意义的转折，保留自省和阿甘例证，可删重复类比。",
+      "audience": "同龄读者",
+      "must_preserve": [
+        {
+          "quote": "忽视了在完成目标的过程中自己实实在在的有多少本事",
+          "requirement": "保留求捷径却忽视能力的自省"
+        },
+        {
+          "quote": "至于人生比赛的输赢对阿甘或许都不重要了吧",
+          "requirement": "保留借阿甘转向不重输赢的思路"
+        },
+        {
+          "quote": "在于你的每个脚印是否踏实",
+          "requirement": "保留充实、踏实胜过速度的落点"
+        }
+      ],
+      "voice_quote": "然后每隔一段时间以后回顾之前的我都觉得自己好幼稚",
+      "voice": "口语自省，犹疑中劝勉",
+      "allowed_changes": [
+        "修正病句并补顺段间转折",
+        "压缩龟兔等重复类比，不补事实"
+      ],
+      "failure_conditions": [
+        "结论变成人生必须争第一",
+        "把刘翔成绩另改成未经提供的数字"
+      ],
+      "scoring_note": "最易将前后重心变化抹平，应保留反思后的转向。"
+    },
+    {
+      "id": "zh2-long_form-r004",
+      "suitable": true,
+      "reason": "书信完整，尾部混入服务话术",
+      "task": "面向2035年的自己整理书信，统一时空与称谓，保留梦想、社会展望及忧虑，删末尾服务话术。",
+      "audience": "2035年的自己",
+      "must_preserve": [
+        {
+          "quote": "2018年，我还是一名高中生",
+          "requirement": "保留写信年份及高中生身份"
+        },
+        {
+          "quote": "又或许你成为了一名教师",
+          "requirement": "科学家、教师、创业均为设想"
+        },
+        {
+          "quote": "人工智能的滥用、隐私泄露等",
+          "requirement": "保留科技风险及分配不均的忧虑"
+        }
+      ],
+      "voice_quote": "依然保持着对生活的热爱和对梦想的执着",
+      "voice": "亲切憧憬，兼有责任感",
+      "allowed_changes": [
+        "压缩职业描写和口号",
+        "将未来断言限定为期待，删续写邀约"
+      ],
+      "failure_conditions": [
+        "将2035年设想写成已发生事实",
+        "删尽风险段，只留发展赞歌"
+      ],
+      "scoring_note": "最易混淆未来愿景与事实，且误留信外续写话术。"
+    },
+    {
+      "id": "zh2-long_form-r005",
+      "suitable": true,
+      "reason": "四味结构清楚，重复议论较多",
+      "task": "面向学生读者精简读书感悟，保持甜苦酸辣全文结构及第一人称，可删重复比喻和号召。",
+      "audience": "学生读者",
+      "must_preserve": [
+        {
+          "quote": "读书之甜，还甜在与作者心灵的共鸣",
+          "requirement": "甜兼含知识收获与《背影》亲情共鸣"
+        },
+        {
+          "quote": "读书之苦，还苦在时间和精力的付出",
+          "requirement": "苦兼含思考艰辛、投入及熬夜代价"
+        },
+        {
+          "quote": "读书之辣，辣在对错误观念的批判",
+          "requirement": "酸保留无奈与自省，辣保留批判与挑战"
+        }
+      ],
+      "voice_quote": "泪水不由自主地模糊了双眼",
+      "voice": "真切感受与劝学热情并存",
+      "allowed_changes": [
+        "压缩各段同义总结",
+        "删去吃辣使身体健康的无支撑类比"
+      ],
+      "failure_conditions": [
+        "删去酸辣两层，只谈读书快乐",
+        "把熬夜影响学习改成值得提倡"
+      ],
+      "scoring_note": "最易压缩掉负面体验，破坏四味并存的整体立意。"
+    },
+    {
+      "id": "zh2-long_form-r006",
+      "suitable": true,
+      "reason": "镜子线索完整，可整理转折",
+      "task": "面向成长散文读者整理全文镜子线索，保留童年、中学、人镜及当下呼应，可减抽象说理。",
+      "audience": "成长散文读者",
+      "must_preserve": [
+        {
+          "quote": "镜子成了审判官，我不断在它面前审视、挑剔、否定",
+          "requirement": "保留童年被爱到中学自我苛责的变化"
+        },
+        {
+          "quote": "照片中的我正踮着脚尖，笑容明亮",
+          "requirement": "保留镜背旧照触发重新理解的事件"
+        },
+        {
+          "quote": "朋友指出我总在讨论中打断别人",
+          "requirement": "保留朋友反馈促自省及如今温柔自视"
+        }
+      ],
+      "voice_quote": "那目光不再逃避，也不再苛责",
+      "voice": "细腻内省，渐趋温柔",
+      "allowed_changes": [
+        "精简镜子象征的重复解释",
+        "可删无支撑的朝代归属，不补史料"
+      ],
+      "failure_conditions": [
+        "删掉旧照发现，割裂认知转折",
+        "把结尾改成继续严厉否定自己"
+      ],
+      "scoring_note": "最易只留抽象人镜道理，损失叙事转折和首尾照应。"
+    },
+    {
+      "id": "zh2-long_form-r007",
+      "suitable": true,
+      "reason": "活动叙事完整，尾部拔高重复",
+      "task": "面向校园读者整理植树经历，保留出发、协作受挫、种成及环保感悟，可压缩风景和号召。",
+      "audience": "校园读者",
+      "must_preserve": [
+        {
+          "quote": "学校组织了一次植树活动",
+          "requirement": "保留周末学校组织赴郊外的背景"
+        },
+        {
+          "quote": "不小心将树苗弄歪了",
+          "requirement": "保留硬土难挖、扶正重填及互助"
+        },
+        {
+          "quote": "上面写着我们的名字和对树苗的祝福",
+          "requirement": "保留种成一棵后立牌祝福及责任感"
+        }
+      ],
+      "voice_quote": "小树苗，你一定要快快长大",
+      "voice": "兴奋真诚，劳动后自豪",
+      "allowed_changes": [
+        "压缩沿途风景和重复环保口号",
+        "弱化树苗必成大树等无支撑断言"
+      ],
+      "failure_conditions": [
+        "将小组协作改成我独立完成",
+        "虚构浇水步骤或后续成活记录"
+      ],
+      "scoring_note": "最易用通用环保议论替代具体劳动过程与情绪变化。"
+    },
+    {
+      "id": "zh2-long_form-r008",
+      "suitable": true,
+      "reason": "情绪转折充分，意象前后呼应",
+      "task": "面向亲情散文读者精简全文，保留扫墓、打翻花盆、母亲揭示及养菊收束，可减重复抒情。",
+      "audience": "亲情散文读者",
+      "must_preserve": [
+        {
+          "quote": "竟与悲伤和永别的怅惘缠绕难分",
+          "requirement": "保留起初菊香唤起丧亲悲痛"
+        },
+        {
+          "quote": "这是她老人家去年亲手播下的种子",
+          "requirement": "保留母亲揭示幼苗来自奶奶的转折"
+        },
+        {
+          "quote": "奶奶亲手种下的菊花，年年都在阳台绽放",
+          "requirement": "保留结尾养菊延续爱与记忆的呼应"
+        }
+      ],
+      "voice_quote": "心却像被一只无形的手紧紧攥住",
+      "voice": "哀伤细腻，转向温暖怀念",
+      "allowed_changes": [
+        "压缩冰墙、温度等重复意象",
+        "合并爱与生命传承的同义议论"
+      ],
+      "failure_conditions": [
+        "把失手打翻改成故意毁花",
+        "将释怀写成不再思念奶奶"
+      ],
+      "scoring_note": "最易把温暖收束写成悲伤消失，丢失伤逝与传承并存。"
+    },
+    {
+      "id": "zh2-long_form-r009",
+      "suitable": true,
+      "reason": "正文与推荐语边界明确",
+      "task": "面向议论文读者整理全文问与听的递进，区分作者与推荐者，可整删推荐语及重复排比。",
+      "audience": "议论文读者",
+      "must_preserve": [
+        {
+          "quote": "问，是一门学问，一门艺术",
+          "requirement": "保留问有方法及认知价值的主张"
+        },
+        {
+          "quote": "三思而问者，是问题的发现者",
+          "requirement": "保留思考后提问与随口问的区别"
+        },
+        {
+          "quote": "还应该学会倾听，善于倾听",
+          "requirement": "保留由善问递进至倾听、辨别、行动"
+        }
+      ],
+      "voice_quote": "手举一串问号，叩问生活、追问良知",
+      "voice": "昂扬思辨，面向读者号召",
+      "allowed_changes": [
+        "压缩开篇问句及绝对化表述",
+        "整删推荐语，或明确分隔其声音"
+      ],
+      "failure_conditions": [
+        "删掉倾听段，使主张止于提问",
+        "把名师赞评并入作者自我评价"
+      ],
+      "scoring_note": "最易将推荐语当正文，或压缩掉问到听的关键递进。"
+    },
+    {
+      "id": "zh2-long_form-r010",
+      "suitable": true,
+      "reason": "论证可整理，附评须分离",
+      "task": "面向议论文读者梳理问与探索的全文论证，区分正文及附评，可删推荐语和重复赞颂。",
+      "audience": "议论文读者",
+      "must_preserve": [
+        {
+          "quote": "问，始终与探索同行",
+          "requirement": "保留提问推动探索的中心立场"
+        },
+        {
+          "quote": "从自己和他人的经验中深入探索",
+          "requirement": "保留向万象及自身、他人发问两层"
+        },
+        {
+          "quote": "问，引发了思考；问，牵引着思考",
+          "requirement": "保留事例论证与只重复实验的对照"
+        }
+      ],
+      "voice_quote": "让我们带着问，上下而求索",
+      "voice": "坚定劝勉，倡导主动质疑",
+      "allowed_changes": [
+        "压缩绿洲等比喻及绝对断言",
+        "附评可整删；无支撑史事可限定"
+      ],
+      "failure_conditions": [
+        "将卢瑟福预言中子改成发现中子",
+        "用名师赞评证明全部史事实证可靠"
+      ],
+      "scoring_note": "最易把附评的言之有据当核实证据，强化原文史事。"
+    }
+  ],
+  "metadata": {
+    "job": "supplement-18",
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 101.81,
+    "system_sha256": "2c85943d84beabe7f1c8a64f793323c3fb90f4110f4f66ac756b1b69b3faf06e",
+    "input_sha256": "f028455b0e275586736c4cd43df5dc53decb23b45d29338fbddd09716182181a",
+    "usage": [
+      {
+        "input_tokens": 27767,
+        "cached_input_tokens": 6016,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2976,
+        "reasoning_output_tokens": 40
+      }
+    ],
+    "review_type": "model_annotation",
+    "human_review": false
+  }
+}

@@ -1,0 +1,324 @@
+{
+  "cases": [
+    {
+      "id": "zh2-facts-083",
+      "suitable": true,
+      "reason": "装备规格与适用场景可验收",
+      "task": "面向摄影初学者精简装备建议；保留规格、场景及练习重点，可删逸事与祝愿。",
+      "audience": "摄影初学者",
+      "must_preserve": [
+        {
+          "quote": "比如18-55mm的套头镜头",
+          "requirement": "保留焦段及风景、人像用途"
+        },
+        {
+          "quote": "此外，50mm的定焦镜头",
+          "requirement": "保留定焦规格及人像用途"
+        },
+        {
+          "quote": "尤其在夜间拍摄或长曝光拍摄时",
+          "requirement": "保留三脚架的重点使用场景"
+        }
+      ],
+      "voice_quote": "但更重要的是熟练掌握这些装备的使用方法",
+      "voice": "友善建议，重视练习",
+      "allowed_changes": [
+        "删两则无来源逸事及祝愿",
+        "压缩重要性套话，限定绝对推荐"
+      ],
+      "failure_conditions": [
+        "把50mm写成变焦镜头",
+        "删去白天也可用闪光灯补光的说明"
+      ],
+      "scoring_note": "易把建议强化成通用购买结论；规格保留不等于推荐已核实。"
+    },
+    {
+      "id": "zh2-facts-084",
+      "suitable": true,
+      "reason": "引援数字与推测边界密集",
+      "task": "面向足球读者压缩转会报道；保留引援数字、筛选条件与未定状态，可删期待套话。",
+      "audience": "足球读者",
+      "must_preserve": [
+        {
+          "quote": "两名球员年龄均在26-28岁之间",
+          "requirement": "保留两名意甲边路目标及年龄"
+        },
+        {
+          "quote": "转会费预计在800万至1200万欧元之间",
+          "requirement": "保留预计金额，不擅定单人或总额"
+        },
+        {
+          "quote": "场均出场时间低于30%、关键传球成功率不足60%",
+          "requirement": "保留两项门槛及或涉及4—5人"
+        }
+      ],
+      "voice_quote": "老将们可能面临被清洗的命运",
+      "voice": "新闻式关注，含推测",
+      "allowed_changes": [
+        "删重拾荣光等渲染",
+        "压缩消息引语但保留归属"
+      ],
+      "failure_conditions": [
+        "写成陕西队已签下两名球员",
+        "将低于30%改成低于30分钟"
+      ],
+      "scoring_note": "百分比口径虽不清楚，也不能自行修成分钟；消息未核实。"
+    },
+    {
+      "id": "zh2-facts-085",
+      "suitable": true,
+      "reason": "报道归属与疑似限定关键",
+      "task": "面向新闻读者精简安全报道；保留报道归属、疑似性质及合作主张，可删泛化背景。",
+      "audience": "新闻读者",
+      "must_preserve": [
+        {
+          "quote": "有媒体报道称多名英国籍人士前往巴基斯坦",
+          "requirement": "保留媒体归属、国籍与目的地"
+        },
+        {
+          "quote": "疑似为策划针对伦敦的袭击活动",
+          "requirement": "保留疑似，不认定袭击已策划"
+        },
+        {
+          "quote": "除了强化执法手段外，还需注重预防性工作",
+          "requirement": "保留执法与社会预防并重"
+        }
+      ],
+      "voice_quote": "然而，要想彻底根除恐怖主义威胁并非易事",
+      "voice": "严肃警惕，承认治理难度",
+      "allowed_changes": [
+        "压缩历史背景及结尾口号",
+        "整理政府措施与合作段落"
+      ],
+      "failure_conditions": [
+        "把疑似人员统称为已定罪恐怖分子",
+        "把英巴沟通写成已切断资金链"
+      ],
+      "scoring_note": "易将报道中的嫌疑改成定罪；法律判断亦不能冒充核实结论。"
+    },
+    {
+      "id": "zh2-facts-086",
+      "suitable": false,
+      "reason": "65杆并列第11与64杆单独第二冲突",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-facts-087",
+      "suitable": true,
+      "reason": "手术条件与研究目的可保护",
+      "task": "面向医学论文读者整理研究背景；保留适用条件、比较对象及研究目的，可删成熟度夸饰。",
+      "audience": "医学论文读者",
+      "must_preserve": [
+        {
+          "quote": "①不能自然排石；②持续肾绞痛发作",
+          "requirement": "四项取石条件均保留，不改成须全满足"
+        },
+        {
+          "quote": "国内尚未对3D与2D腹腔镜的优劣势",
+          "requirement": "保留国内范围与系统比较缺口表述"
+        },
+        {
+          "quote": "以探讨3D后腹腔镜的安全性、可行性及优势",
+          "requirement": "保留上段结石及3D对2D研究目的"
+        }
+      ],
+      "voice_quote": "进行手术效果的比较与分析",
+      "voice": "学术背景与研究目的语气",
+      "allowed_changes": [
+        "整理病句和条件编号",
+        "删成熟度夸饰，不补手术结论"
+      ],
+      "failure_conditions": [
+        "将国内尚未比较扩大为全球没有研究",
+        "写成研究已证实3D优于2D"
+      ],
+      "scoring_note": "最易把研究目的写成结果；疑似术语问题不能凭空修正。"
+    },
+    {
+      "id": "zh2-facts-088",
+      "suitable": true,
+      "reason": "经验主体与建议边界明确",
+      "task": "面向客服从业者与求职者梳理经验分享；保留经历、反馈价值与转岗建议，可删残缺引文。",
+      "audience": "客服从业者与求职者",
+      "must_preserve": [
+        {
+          "quote": "接触过HP、联想体系中的售后培训",
+          "requirement": "仅为接触培训，不升级为任职经历"
+        },
+        {
+          "quote": "是进行下一步行动的重要参照依据之一",
+          "requirement": "客服反馈是参考之一，非唯一依据"
+        },
+        {
+          "quote": "先去做上几个月相关方向的客服",
+          "requirement": "保留先做客服再面试产品经理的建议"
+        }
+      ],
+      "voice_quote": "而不是靠汇报上的PPT",
+      "voice": "直率的从业经验分享",
+      "allowed_changes": [
+        "删残缺文章引用",
+        "拆分长句并理顺三点编号"
+      ],
+      "failure_conditions": [
+        "写成作者曾任职HP和联想",
+        "声称做几个月客服就能当产品经理"
+      ],
+      "scoring_note": "易把个人经验改为职业保证，或将培训接触误写成履历。"
+    },
+    {
+      "id": "zh2-facts-089",
+      "suitable": true,
+      "reason": "时间与用户量需忠实对应",
+      "task": "面向产品增长读者精简案例；保留平台、时间与用户量对应，可弱化无来源证据口吻。",
+      "audience": "产品增长读者",
+      "must_preserve": [
+        {
+          "quote": "整合Twitter和Facebook分享功能",
+          "requirement": "保留两平台分享及App Store发布"
+        },
+        {
+          "quote": "上线第一天用户数达25,000",
+          "requirement": "保留首日25000、一周突破100000"
+        },
+        {
+          "quote": "于2011年12月累积超过100万用户",
+          "requirement": "保留原述年月与超过100万，不自行纠正"
+        }
+      ],
+      "voice_quote": "社区驱动的口碑营销",
+      "voice": "简洁的增长归因分析",
+      "allowed_changes": [
+        "删理由是、总之等框架词",
+        "将证据显示限定为原文所述"
+      ],
+      "failure_conditions": [
+        "把2011年12月改成2010年12月",
+        "把一周突破100000写成首日突破"
+      ],
+      "scoring_note": "时间可能引发纠错冲动；此处只验来源忠实，不认证史实。"
+    },
+    {
+      "id": "zh2-facts-090",
+      "suitable": true,
+      "reason": "流派差异及限定词可验收",
+      "task": "面向音乐入门读者压缩流派比较；保留起源、典型特征及共同影响，可删重复比喻。",
+      "audience": "音乐入门读者",
+      "must_preserve": [
+        {
+          "quote": "Blues 起源于19世纪末的美国南部",
+          "requirement": "保留蓝调起源时地及情感侧重"
+        },
+        {
+          "quote": "Jazz 则在20世纪初形成于新奥尔良",
+          "requirement": "保留爵士起源时地及即兴和声侧重"
+        },
+        {
+          "quote": "通常采用12小节结构和特定的蓝调音阶",
+          "requirement": "保留通常限定，兼顾两者共有蓝调音阶"
+        }
+      ],
+      "voice_quote": "但各自具有鲜明的特点",
+      "voice": "通俗对比式讲解",
+      "allowed_changes": [
+        "合并重复的情感与即兴比较",
+        "删艺术化比喻，不删共同影响"
+      ],
+      "failure_conditions": [
+        "写成所有Blues都必须采用12小节",
+        "把Jazz更复杂改成艺术价值更高"
+      ],
+      "scoring_note": "典型特征容易被写成排他定义，比较也容易滑向价值高低。"
+    },
+    {
+      "id": "zh2-facts-091",
+      "suitable": true,
+      "reason": "收益口径与风险条件需保护",
+      "task": "面向基金资讯读者压缩行情分析；保留收益口径与风险条件，可删宏观套话，不补年份来源。",
+      "audience": "基金资讯读者",
+      "must_preserve": [
+        {
+          "quote": "整体收益率平均提升了约0.3个百分点",
+          "requirement": "保留5月较4月、平均约及百分点"
+        },
+        {
+          "quote": "部分表现优异的产品更是实现了超过0.5%的增长率",
+          "requirement": "仅部分产品超过0.5%，非整体"
+        },
+        {
+          "quote": "如果政策支持力度减弱",
+          "requirement": "保留条件性风险及长期谨慎立场"
+        }
+      ],
+      "voice_quote": "避免盲目追涨杀跌",
+      "voice": "行情解读中保留谨慎",
+      "allowed_changes": [
+        "压缩重复回暖描写",
+        "删管理人服务口号，保留风险分析"
+      ],
+      "failure_conditions": [
+        "将0.3个百分点改成0.3%",
+        "把政策支持减弱写成已发生事实"
+      ],
+      "scoring_note": "百分点与百分比最易混淆；原文行情及归因不能冒充已核实。"
+    },
+    {
+      "id": "zh2-facts-092",
+      "suitable": true,
+      "reason": "普跌中的黄金例外必须保留",
+      "task": "面向市场资讯读者整理行情简报；保留时点、涨跌方向及幅度，可删重复悲观渲染。",
+      "audience": "市场资讯读者",
+      "must_preserve": [
+        {
+          "quote": "截至北京时间周二深夜",
+          "requirement": "保留观察时点，不补具体日期"
+        },
+        {
+          "quote": "道琼斯工业指数期货下跌0.45%",
+          "requirement": "保留道指跌0.45%、纳指跌0.68%"
+        },
+        {
+          "quote": "黄金期货则小幅上涨0.3%",
+          "requirement": "保留黄金上涨例外及原油跌1.2%"
+        }
+      ],
+      "voice_quote": "市场可能继续保持谨慎和波动的态势",
+      "voice": "谨慎分析，预测不确定",
+      "allowed_changes": [
+        "删重复经济担忧表述",
+        "限定普跌概括，整理资产分类"
+      ],
+      "failure_conditions": [
+        "把黄金期货写成下跌0.3%",
+        "将美元指数上涨0.2%写成人民币涨幅"
+      ],
+      "scoring_note": "最易为统一普跌叙述抹去黄金上涨；未注明日期不能自行补齐。"
+    }
+  ],
+  "metadata": {
+    "job": "rest-19",
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 96.14,
+    "system_sha256": "2c85943d84beabe7f1c8a64f793323c3fb90f4110f4f66ac756b1b69b3faf06e",
+    "input_sha256": "e5f0b2c55cd3c37df4a7de6037cdc706a021a274467dfd5fc04201300eee5e6f",
+    "usage": [
+      {
+        "input_tokens": 19740,
+        "cached_input_tokens": 6016,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2621,
+        "reasoning_output_tokens": 107
+      }
+    ],
+    "review_type": "model_annotation",
+    "human_review": false
+  }
+}

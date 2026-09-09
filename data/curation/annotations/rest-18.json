@@ -1,0 +1,335 @@
+{
+  "cases": [
+    {
+      "id": "zh2-facts-073",
+      "suitable": true,
+      "reason": "数字与适用范围密集",
+      "task": "面向深圳新居民精简生活指南；可删结尾空话，不删优惠条件与时间，不新增核实结论。",
+      "audience": "深圳新居民",
+      "must_preserve": [
+        {
+          "quote": "10分钟内出站不收费",
+          "requirement": "保留同站进出的时间条件"
+        },
+        {
+          "quote": "房租比市区便宜30%以上",
+          "requirement": "保留比较基准及幅度下限"
+        },
+        {
+          "quote": "社康中心看小病更方便",
+          "requirement": "报销说法主体限于社康，不扩至所有医疗"
+        }
+      ],
+      "voice_quote": "希望能帮到新来深圳的朋友",
+      "voice": "热心分享个人生活经验",
+      "allowed_changes": [
+        "删城市魅力等泛化结尾",
+        "按交通、租住等主题整理"
+      ],
+      "failure_conditions": [
+        "把9.5折写成所有乘车方式通用",
+        "把40分钟通勤强化为任意目的地保证"
+      ],
+      "scoring_note": "易把个人经验改成官方承诺；保留数字不等于核实政策。"
+    },
+    {
+      "id": "zh2-facts-074",
+      "suitable": true,
+      "reason": "盘中走势与归因需区分",
+      "task": "面向财经读者压缩行情快讯；可删重复评价，不删价格、涨跌方向及风险限定，不补日期。",
+      "audience": "财经读者",
+      "must_preserve": [
+        {
+          "quote": "沪铝主力合约早盘一度跌至每吨18300元",
+          "requirement": "保留合约主体、时段及低点"
+        },
+        {
+          "quote": "迅速回升至18550元，跌幅收窄至0.3%",
+          "requirement": "回升后仍下跌，不改成收涨"
+        },
+        {
+          "quote": "全球供应过剩风险犹存",
+          "requirement": "保留风险与需求支撑的并存关系"
+        }
+      ],
+      "voice_quote": "刚性需求或支撑铝价区间震荡",
+      "voice": "行情报道中保留预测谨慎性",
+      "allowed_changes": [
+        "压缩需求支撑的重复解释"
+      ],
+      "failure_conditions": [
+        "把中国铝业上涨2.8%写成期铝涨幅",
+        "把专家的或支撑写成必然上涨"
+      ],
+      "scoring_note": "反弹不等于上涨，盘中价格也不能改作收盘价。"
+    },
+    {
+      "id": "zh2-facts-075",
+      "suitable": true,
+      "reason": "赛事信息与热烈语气并存",
+      "task": "面向球迷整理赛况短评；可删重复赞誉，保留比分、人物身份与事件数字，不补对手或核实背书。",
+      "audience": "足球球迷",
+      "must_preserve": [
+        {
+          "quote": "杰拉德以教练身份重返欧战舞台",
+          "requirement": "保留原稿执教身份，不改为参赛球员"
+        },
+        {
+          "quote": "2000万英镑新援索博斯洛伊",
+          "requirement": "保留金额、币种及新援主体"
+        },
+        {
+          "quote": "萨拉赫第67分钟精妙挑射破门",
+          "requirement": "保留进球者、分钟及方式"
+        }
+      ],
+      "voice_quote": "安菲尔德球场今夜沸腾！",
+      "voice": "兴奋、支持红军的球迷口吻",
+      "allowed_changes": [
+        "合并传奇与期待的重复赞语"
+      ],
+      "failure_conditions": [
+        "把最终1-1战平改成利物浦获胜",
+        "将索博斯洛伊欧战处子秀写成职业首秀"
+      ],
+      "scoring_note": "来源忠实与事实核验不同，不能无材料擅改身份或金额。"
+    },
+    {
+      "id": "zh2-facts-076",
+      "suitable": true,
+      "reason": "上市阶段及合约参数明确",
+      "task": "面向期货资讯读者精简报道；可删宏观赞语，保留上市阶段、参数与市场反应，不补外部依据。",
+      "audience": "期货资讯读者",
+      "must_preserve": [
+        {
+          "quote": "预计将于今年第三季度正式挂牌交易",
+          "requirement": "保留预计与时间，不写成已挂牌"
+        },
+        {
+          "quote": "每手10吨，最低交易保证金为合约价值的5%",
+          "requirement": "保留交易单位及最低保证金口径"
+        },
+        {
+          "quote": "A股农业板块整体上涨1.2%",
+          "requirement": "限于消息后首个交易日的板块表现"
+        }
+      ],
+      "voice_quote": "市场分析人士指出",
+      "voice": "资讯报道，区分披露与分析",
+      "allowed_changes": [
+        "压缩服务乡村振兴等重复展望"
+      ],
+      "failure_conditions": [
+        "将郑州商品交易所写成批准机关",
+        "将人民币走强的市场解读写成证实的因果"
+      ],
+      "scoring_note": "最易混淆批准与挂牌，以及最低保证金和固定保证金。"
+    },
+    {
+      "id": "zh2-facts-077",
+      "suitable": true,
+      "reason": "多类数字与归因层次交织",
+      "task": "面向收藏资讯读者压缩报道；可删宏观套话，保留估价、波动与价值判断，不新增来源背书。",
+      "audience": "收藏资讯读者",
+      "must_preserve": [
+        {
+          "quote": "盘中一度下跌3.2%，最终收于18.45元",
+          "requirement": "区分盘中跌幅、收盘价与收跌1.9%"
+        },
+        {
+          "quote": "不应仅以发色作为唯一标准",
+          "requirement": "保留文物价值不能只看发色的观点"
+        },
+        {
+          "quote": "估价仍维持在1.2亿至1.5亿元人民币区间",
+          "requirement": "保留估价范围与币种，不作成交价"
+        }
+      ],
+      "voice_quote": "该表态被业内解读为对市场情绪的稳定信号",
+      "voice": "报道口吻，保留解读归属",
+      "allowed_changes": [
+        "删全球经济背景的泛化总结"
+      ],
+      "failure_conditions": [
+        "把预计竞拍写成已经成交",
+        "把市场分析人士判断写成价值保值保证"
+      ],
+      "scoring_note": "数字可保留为原稿说法，不能借润色强化市场因果。"
+    },
+    {
+      "id": "zh2-facts-078",
+      "suitable": true,
+      "reason": "启用数量与配备规模易混",
+      "task": "面向杭州考生家长精简保障报道；可删重复赞语，保留启动原因、数量及全市规模，不补年份。",
+      "audience": "杭州考生家长",
+      "must_preserve": [
+        {
+          "quote": "当天共启用一个备用考场",
+          "requirement": "保留实际启用数，不作备用总数"
+        },
+        {
+          "quote": "一名考生突发身体不适",
+          "requirement": "保留原因与人数，不推断病情"
+        },
+        {
+          "quote": "58个常规考点、近2000个考场",
+          "requirement": "区分考点与考场，保留近的约数"
+        }
+      ],
+      "voice_quote": "首日整体平稳有序",
+      "voice": "平稳、克制的公共服务报道",
+      "allowed_changes": [
+        "合并应急能力与人性化管理的重复评价"
+      ],
+      "failure_conditions": [
+        "把备用考场启用原因写成确诊传染病",
+        "把家长所述考生断定为通报中的同一人"
+      ],
+      "scoring_note": "启用数不等于设置数，家长引语也不能补成身份对应证据。"
+    },
+    {
+      "id": "zh2-facts-079",
+      "suitable": true,
+      "reason": "假设算例与准则边界可检验",
+      "task": "面向会计初学者整理方法对比；可删重复优劣评价，保留假设、计算及准则差别，不新增规则。",
+      "audience": "会计初学者",
+      "must_preserve": [
+        {
+          "quote": "美国准则（US GAAP）虽允许LIFO",
+          "requirement": "与IFRS禁止LIFO区分，不作全球禁用"
+        },
+        {
+          "quote": "销售成本为100*10 + 50*15 = 1750元",
+          "requirement": "保留FIFO成本及期末存货750元"
+        },
+        {
+          "quote": "销售成本100*15 + 50*10 = 2000元",
+          "requirement": "保留LIFO成本及期末存货500元"
+        }
+      ],
+      "voice_quote": "举一个典型案例说明：假设一家服装零售商",
+      "voice": "面向外行的算例讲解",
+      "allowed_changes": [
+        "合并首尾重复的FIFO优先评价",
+        "将计算步骤分项展示"
+      ],
+      "failure_conditions": [
+        "把假设服装零售商改成真实企业案例",
+        "把成本流动假设写成实物必须如此出库"
+      ],
+      "scoring_note": "易丢失假设与适用准则，不能把作者偏好升级为统一规定。"
+    },
+    {
+      "id": "zh2-facts-080",
+      "suitable": true,
+      "reason": "政策条件与统计口径密集",
+      "task": "面向辽宁升学家庭精简政策报道；可删口号，保留转学条件、统计主体与时间，不补政策保证。",
+      "audience": "辽宁升学家庭",
+      "must_preserve": [
+        {
+          "quote": "根据学业成绩和意愿申请转入对口合作的普通高中",
+          "requirement": "限第一学年结束后申请，非自动转学"
+        },
+        {
+          "quote": "其中37%学生通过转学机制进入普高",
+          "requirement": "比例限首批2.1万名跟踪学生"
+        },
+        {
+          "quote": "较改革前增长9.2个百分点",
+          "requirement": "对应本科录取率41.7%，不作百分比增幅"
+        }
+      ],
+      "voice_quote": "'职普融通'并非降格以求",
+      "voice": "肯定多元升学路径",
+      "allowed_changes": [
+        "压缩人才立交桥等口号式阐释"
+      ],
+      "failure_conditions": [
+        "把12.3万名学生写成未达普高线",
+        "把2025年前覆盖计划写成已全省覆盖"
+      ],
+      "scoring_note": "申请资格最易改成录取保证，分母与百分点也需保护。"
+    },
+    {
+      "id": "zh2-facts-081",
+      "suitable": true,
+      "reason": "年度计划与累计人次需区分",
+      "task": "面向留学资讯读者压缩报道；可删竞争背景套话，保留年份、人数口径与归国挑战，不补申报条件。",
+      "audience": "留学资讯读者",
+      "must_preserve": [
+        {
+          "quote": "在2024年选派1.2万名留学生",
+          "requirement": "保留年度计划，不作已派出人数"
+        },
+        {
+          "quote": "截至2022年底，我国通过公派方式共选派了30余万人次",
+          "requirement": "保留累计截止时间与人次口径"
+        },
+        {
+          "quote": "如何确保归国服务成为一大挑战",
+          "requirement": "保留挑战，不写成归国服务已有保障"
+        }
+      ],
+      "voice_quote": "专家预测，未来的选派计划将更加注重",
+      "voice": "政策介绍中区分现状与预测",
+      "allowed_changes": [
+        "压缩政策重要性与全球竞争的重复阐述"
+      ],
+      "failure_conditions": [
+        "把30余万人次写成2024年招生人数",
+        "把专家预测领域写成已公布的招生目录"
+      ],
+      "scoring_note": "易把计划、预测改成实施结果，或混淆人数与累计人次。"
+    },
+    {
+      "id": "zh2-facts-082",
+      "suitable": true,
+      "reason": "诉求判决与执行款界限清楚",
+      "task": "面向社会新闻读者精简案件报道；可删法官工作赞语，保留双方主张、裁判及执行时序，不补年份。",
+      "audience": "社会新闻读者",
+      "must_preserve": [
+        {
+          "quote": "劳务报酬及合同损失共210万元及利息",
+          "requirement": "标明郝蕾诉求，不作获赔金额"
+        },
+        {
+          "quote": "驳回郝蕾的其他诉求及江苏广电总台的反诉",
+          "requirement": "保留双方未获支持范围及二审维持"
+        },
+        {
+          "quote": "领取了执行款30余万元",
+          "requirement": "区别判决劳务报酬30万元，不补差额原因"
+        }
+      ],
+      "voice_quote": "江苏广电总台提起反诉称",
+      "voice": "中性叙事，区分指控与裁判",
+      "allowed_changes": [
+        "合并多次沟通及当面感谢的重复叙述"
+      ],
+      "failure_conditions": [
+        "把迟到罢演等反诉指控写成法院认定",
+        "把4月交款写成判决生效后主动履行"
+      ],
+      "scoring_note": "最易把当事人指控事实化，或将诉求金额混作执行金额。"
+    }
+  ],
+  "metadata": {
+    "job": "rest-18",
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 93.37,
+    "system_sha256": "2c85943d84beabe7f1c8a64f793323c3fb90f4110f4f66ac756b1b69b3faf06e",
+    "input_sha256": "25e6db9fbaa918d4fb5ba63903fcd49ecde43fd41ef3831ee8a7d300d2fd8c7e",
+    "usage": [
+      {
+        "input_tokens": 20900,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2787,
+        "reasoning_output_tokens": 55
+      }
+    ],
+    "review_type": "model_annotation",
+    "human_review": false
+  }
+}

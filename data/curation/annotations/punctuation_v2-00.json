@@ -1,0 +1,343 @@
+{
+  "cases": [
+    {
+      "id": "zh2-punctuation-001-p2",
+      "suitable": true,
+      "reason": "功能名引号与列举顿号可保护",
+      "task": "面向修图应用读者，只审查符号标点；不省略正文，不改写词句、事实与声音。",
+      "audience": "修图应用读者",
+      "must_preserve": [
+        {
+          "quote": "比如“戏剧效果”功能可一键增强画面层次感",
+          "requirement": "引号界定功能名称，不作直接引语"
+        },
+        {
+          "quote": "色相、饱和度与明度",
+          "requirement": "顿号分隔并列调色维度"
+        },
+        {
+          "quote": "虽然主打人像修图，但其肤色修饰",
+          "requirement": "逗号保留让步转折停顿"
+        }
+      ],
+      "voice_quote": "这些应用各有所长",
+      "voice": "推荐式、说明性口吻",
+      "allowed_changes": [
+        "无明确错误可原样返回",
+        "仅整理必要标点，不删推荐套话"
+      ],
+      "failure_conditions": [
+        "机械删除功能名引号或列举顿号",
+        "改写Facetune用途或推荐评价"
+      ],
+      "scoring_note": "易将推荐夸饰当作删改目标；本例仅评标点。"
+    },
+    {
+      "id": "zh2-punctuation-002-p2",
+      "suitable": true,
+      "reason": "绰号引号与转折停顿有功能",
+      "task": "面向篮球资讯读者，只审查符号标点；正文不省略，词句、事实与声音不改写。",
+      "audience": "篮球资讯读者",
+      "must_preserve": [
+        {
+          "quote": "传奇球星“鲨鱼”奥尼尔",
+          "requirement": "引号标识奥尼尔绰号"
+        },
+        {
+          "quote": "不过在进攻端，他的脚步移动",
+          "requirement": "逗号隔开转折后的观察范围"
+        },
+        {
+          "quote": "球队在本赛季有望取得更好的成绩",
+          "requirement": "保留有望的预测边界"
+        }
+      ],
+      "voice_quote": "给球迷们带来更多的惊喜",
+      "voice": "乐观的赛事报道口吻",
+      "allowed_changes": [
+        "无明确错误可原样返回",
+        "仅整理必要停顿，不删乐观结语"
+      ],
+      "failure_conditions": [
+        "删除绰号引号或给间接转述加引号",
+        "改写太阳队赛果或新秀能力"
+      ],
+      "scoring_note": "易把间接转述改成直接引语，改变话语归属。"
+    },
+    {
+      "id": "zh2-punctuation-003-p2",
+      "suitable": true,
+      "reason": "引号书名号及破折号功能明确",
+      "task": "面向娱乐资讯读者，只整理符号标点；不删正文，不改写词句、事实与声音。",
+      "audience": "娱乐资讯读者",
+      "must_preserve": [
+        {
+          "quote": "现场连发\"三枪\"——不仅带来全新单曲首唱",
+          "requirement": "引号标比喻，破折号引出解释"
+        },
+        {
+          "quote": "新歌《向阳而生》歌词中",
+          "requirement": "书名号界定歌曲名称"
+        },
+        {
+          "quote": "她坦然表示：\"每个人都会遇到低谷",
+          "requirement": "冒号与引号引出人物原话"
+        }
+      ],
+      "voice_quote": "可谓强势回归",
+      "voice": "热烈、宣传性报道口吻",
+      "allowed_changes": [
+        "可统一中英文引号形态",
+        "仅改必要标点，不删夸饰句"
+      ],
+      "failure_conditions": [
+        "机械删掉歌曲书名号或解释破折号",
+        "改写于文华病情、复出活动或原话"
+      ],
+      "scoring_note": "易把标点整理变成事实核查；保留不等于核实。"
+    },
+    {
+      "id": "zh2-punctuation-004-p2",
+      "suitable": true,
+      "reason": "引语与分号承担清晰结构功能",
+      "task": "面向励志文章读者，只审查符号标点；全文不省略，词句、事实与声音不改写。",
+      "audience": "励志文章读者",
+      "must_preserve": [
+        {
+          "quote": "“仰望星空，脚踏实地”",
+          "requirement": "引号框定说法，逗号分隔两面"
+        },
+        {
+          "quote": "正如古人云：“千里之行，始于足下。”",
+          "requirement": "冒号引出完整引语，保留句界"
+        },
+        {
+          "quote": "心怀信念和憧憬；同时，也要脚踏实地",
+          "requirement": "分号分隔理想与行动两个层次"
+        }
+      ],
+      "voice_quote": "愿我们都能在仰望星空与脚踏实地的过程中",
+      "voice": "反复劝勉、祝愿式口吻",
+      "allowed_changes": [
+        "无明确错误可原样返回",
+        "仅整理必要标点，不删重复论述"
+      ],
+      "failure_conditions": [
+        "机械将全部分号换顿号或删除引号",
+        "改写梦想论述或纠正正文用词"
+      ],
+      "scoring_note": "重复和用词瑕疵易诱发越界；不属于标点任务。"
+    },
+    {
+      "id": "zh2-punctuation-005-p2",
+      "suitable": true,
+      "reason": "片名与人物原话边界可保护",
+      "task": "面向电影资讯读者，只审查符号标点；不省略正文，不改写词句、事实与声音。",
+      "audience": "电影资讯读者",
+      "must_preserve": [
+        {
+          "quote": "为宣传新片《爱与背叛》现身东京首映礼",
+          "requirement": "书名号界定影片名称"
+        },
+        {
+          "quote": "直言“吓了一跳”。",
+          "requirement": "引号标出所述人物原话"
+        },
+        {
+          "quote": "或将角逐下届奥斯卡最佳外语片",
+          "requirement": "保留或将的非确定语气"
+        }
+      ],
+      "voice_quote": "低胸造型抢镜，成为全场焦点。",
+      "voice": "娱乐报道的吸睛口吻",
+      "allowed_changes": [
+        "无明确错误可原样返回",
+        "仅调整必要标点，不删吸睛描述"
+      ],
+      "failure_conditions": [
+        "删除片名书名号或人物原话引号",
+        "改写美穗经历、合作对象或奖项预测"
+      ],
+      "scoring_note": "奖项预测易被强化为确定事实，须锁定正文。"
+    },
+    {
+      "id": "zh2-punctuation-006-p2",
+      "suitable": true,
+      "reason": "设问引语及分号均有实际功能",
+      "task": "面向人生议论读者，只审查符号标点；全文不省略，词句、事实与声音不改写。",
+      "audience": "人生议论读者",
+      "must_preserve": [
+        {
+          "quote": "问题：什么才是人生真正值得坚守的东西？",
+          "requirement": "冒号引出设问，问号保留问句"
+        },
+        {
+          "quote": "他说：“我活着只有一个信念",
+          "requirement": "冒号与引号标识人物直接引语"
+        },
+        {
+          "quote": "不必苛求完美，但求无愧于心；",
+          "requirement": "逗号标转折，分号分隔对称分句"
+        }
+      ],
+      "voice_quote": "不求光芒万丈，但求此生无悔。",
+      "voice": "庄重抒情、劝勉式议论",
+      "allowed_changes": [
+        "无明确错误可原样返回",
+        "仅整理必要标点，不删排比抒情"
+      ],
+      "failure_conditions": [
+        "把设问问号改句号或拆散引语边界",
+        "改写常书鸿事例或真诚担当热爱主张"
+      ],
+      "scoring_note": "易为降抒情强度改词删句，超出符号审查范围。"
+    },
+    {
+      "id": "zh2-punctuation-007-p2",
+      "suitable": true,
+      "reason": "顿号列举及冒号分号层级明确",
+      "task": "面向企业创新话题读者，只整理符号标点；不省略正文，不改写词句、事实与声音。",
+      "audience": "企业创新话题读者",
+      "must_preserve": [
+        {
+          "quote": "在5G、芯片等关键领域取得突破",
+          "requirement": "顿号分隔技术领域"
+        },
+        {
+          "quote": "针对这些问题，我建议：第一，",
+          "requirement": "冒号统领建议，逗号隔开序次"
+        },
+        {
+          "quote": "鼓励员工进行底层技术研究；第二，",
+          "requirement": "分号隔开第一与第二项建议"
+        }
+      ],
+      "voice_quote": "展现出巨大的潜力和活力",
+      "voice": "肯定进步并提出建议",
+      "allowed_changes": [
+        "无明确错误可原样返回",
+        "仅整理列举标点，不删总结套话"
+      ],
+      "failure_conditions": [
+        "将建议分号全换顿号而混淆层级",
+        "改写企业突破断言或增删四项建议"
+      ],
+      "scoring_note": "列举层级最易被统一标点破坏，不以密度判错。"
+    },
+    {
+      "id": "zh2-punctuation-008-p2",
+      "suitable": true,
+      "reason": "概念引号与解释符号值得保护",
+      "task": "面向人工智能话题读者，只审查符号标点；不省略正文，不改写词句、事实与声音。",
+      "audience": "人工智能话题读者",
+      "must_preserve": [
+        {
+          "quote": "生物意义上的“生活”体验",
+          "requirement": "引号标出借用的人类概念"
+        },
+        {
+          "quote": "我的“理想状态”可以被定义为：",
+          "requirement": "引号标概念，冒号引出定义"
+        },
+        {
+          "quote": "我的每一次“决策”——例如选择某个算法路径",
+          "requirement": "破折号引出决策的举例解释"
+        }
+      ],
+      "voice_quote": "我没有情感，因此不会产生“后悔”",
+      "voice": "第一人称、理性解释口吻",
+      "allowed_changes": [
+        "仅在必要时整理解释部分标点",
+        "无明确错误可原样返回，不删术语重复"
+      ],
+      "failure_conditions": [
+        "机械清除概念引号或解释破折号",
+        "改写第一人称身份或反馈学习机制"
+      ],
+      "scoring_note": "概念引号频繁但有区分作用，不能按频次清除。"
+    },
+    {
+      "id": "zh2-punctuation-009-p2",
+      "suitable": true,
+      "reason": "篇名引语及并列符号功能清楚",
+      "task": "面向传统文化读者，只审查符号标点；不省略正文，不改写词句、事实与声音。",
+      "audience": "传统文化读者",
+      "must_preserve": [
+        {
+          "quote": "据《礼记·曲礼》记载：",
+          "requirement": "书名号与间隔号标篇名层次，冒号引文"
+        },
+        {
+          "quote": "“男子二十冠而字”，女子则是“十五笄而字”",
+          "requirement": "引号分别界定男女取字引文"
+        },
+        {
+          "quote": "比如“思齐”、“念祖”之类的词语",
+          "requirement": "引号界定举例词，保留并列关系"
+        }
+      ],
+      "voice_quote": "与中国传统文化中的礼仪规范和文化心理密切相关",
+      "voice": "文化解释、分层论述口吻",
+      "allowed_changes": [
+        "可审慎整理相邻引号间的顿号",
+        "其余无明确错误可原样返回"
+      ],
+      "failure_conditions": [
+        "删除篇名间隔号或合并两段引文边界",
+        "改写取字年龄、人物别号或习俗解释"
+      ],
+      "scoring_note": "引号间顿号可局部整理，不能连带清除引用边界。"
+    },
+    {
+      "id": "zh2-punctuation-010-p2",
+      "suitable": true,
+      "reason": "概念引号与并列停顿可保护",
+      "task": "面向人生随笔读者，只审查符号标点；全文不省略，词句、事实与声音不改写。",
+      "audience": "人生随笔读者",
+      "must_preserve": [
+        {
+          "quote": "“真”是一种价值，也是一种态度。",
+          "requirement": "引号突出讨论概念，逗号连接并列判断"
+        },
+        {
+          "quote": "坚守真实、珍惜真诚。",
+          "requirement": "顿号标识两项并列行为"
+        },
+        {
+          "quote": "面对自己，与他人，与这个世界。",
+          "requirement": "停顿保留三个对象的递进节奏"
+        }
+      ],
+      "voice_quote": "一种永不妥协的精神",
+      "voice": "坚定、反复呼吁的抒情议论",
+      "allowed_changes": [
+        "无明确错误可原样返回",
+        "仅整理必要停顿，不删反复呼吁"
+      ],
+      "failure_conditions": [
+        "机械删掉全部“真”的引号或并列停顿",
+        "改写守盼、座标等正文词或删劝勉句"
+      ],
+      "scoring_note": "高频引号承载主题强调，不能因重复而判错。"
+    }
+  ],
+  "metadata": {
+    "job": "punctuation_v2-00",
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 94.95,
+    "system_sha256": "3ae39d4cdd1a190d9634734fff98af6538ba69e53c44419197138e6205d7858a",
+    "input_sha256": "2852c6a1f75f490060a613fcaa68eb52caea4f07cc51887427849429487a02ab",
+    "usage": [
+      {
+        "input_tokens": 21281,
+        "cached_input_tokens": 6016,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2782,
+        "reasoning_output_tokens": 28
+      }
+    ],
+    "review_type": "model_annotation",
+    "human_review": false
+  }
+}

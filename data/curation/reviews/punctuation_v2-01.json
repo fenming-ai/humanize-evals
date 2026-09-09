@@ -1,0 +1,72 @@
+{
+  "cases": [
+    {
+      "id": "zh2-punctuation-011-p2",
+      "approve": true,
+      "reason": "引文准确，组名与实验条件保护合理，符合标点任务。"
+    },
+    {
+      "id": "zh2-punctuation-012-p2",
+      "approve": true,
+      "reason": "括注及列举关系准确，验收边界符合标点任务。"
+    },
+    {
+      "id": "zh2-punctuation-013-p2",
+      "approve": true,
+      "reason": "引文准确，明确不处理时间矛盾，任务边界合理。"
+    },
+    {
+      "id": "zh2-punctuation-014-p2",
+      "approve": true,
+      "reason": "作品名与评价忠实原稿，保留残尾符合限定任务。"
+    },
+    {
+      "id": "zh2-punctuation-015-p2",
+      "approve": true,
+      "reason": "对话及抒情标点值得测试，保留要求与原文一致。"
+    },
+    {
+      "id": "zh2-punctuation-016-p2",
+      "approve": true,
+      "reason": "引文准确，保留研究归因及验证限制，未强制背书。"
+    },
+    {
+      "id": "zh2-punctuation-017-p2",
+      "approve": true,
+      "reason": "名称标点与可能性保护合理，未将人物资料视为已核实。"
+    },
+    {
+      "id": "zh2-punctuation-018-p2",
+      "approve": true,
+      "reason": "列举层次及责任条件忠实原文，不要求新增法律判断。"
+    },
+    {
+      "id": "zh2-punctuation-019-p2",
+      "approve": true,
+      "reason": "术语符号与综述对象保护准确，未增补疗效结论。"
+    },
+    {
+      "id": "zh2-punctuation-020-p2",
+      "approve": true,
+      "reason": "三原则及解释边界对应原文，限定标点审查合理。"
+    }
+  ],
+  "metadata": {
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 25.26,
+    "input_sha256": "2d5b200ef2b547e560ebc2236d12f5261c14fa62463761881885cfe6b8b933f6",
+    "system_sha256": "0c41b551a96d085bbc3597749915f67732aa702736eddffdb625f85696aded81",
+    "usage": [
+      {
+        "input_tokens": 22873,
+        "cached_input_tokens": 9856,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 404,
+        "reasoning_output_tokens": 29
+      }
+    ],
+    "review_type": "independent_context_model_review",
+    "human_review": false
+  }
+}

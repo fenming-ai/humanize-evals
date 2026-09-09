@@ -1,0 +1,57 @@
+{
+  "cases": [
+    {
+      "id": "zh2-punctuation-r001",
+      "approve": true,
+      "reason": "引文准确，保留双方立场及推测边界，分类恰当。"
+    },
+    {
+      "id": "zh2-punctuation-r003",
+      "approve": true,
+      "reason": "作品名、发言归属与排名口径忠实，验收合理。"
+    },
+    {
+      "id": "zh2-punctuation-r004",
+      "approve": true,
+      "reason": "保留想象书信视角、问答归属和生命嘱托，要求合理。"
+    },
+    {
+      "id": "zh2-punctuation-r005",
+      "approve": true,
+      "reason": "授权限定、建模流程及用途均有原文依据。"
+    },
+    {
+      "id": "zh2-punctuation-r006",
+      "approve": true,
+      "reason": "比喻、机制与术语限定均忠实，失败条件合理。"
+    },
+    {
+      "id": "zh2-punctuation-r007",
+      "approve": true,
+      "reason": "三层论证及鼓动语气有据，排比断句值得测试。"
+    },
+    {
+      "id": "zh2-punctuation-r009",
+      "approve": true,
+      "reason": "主体、日期及否定边界准确，未将政策推测事实化。"
+    }
+  ],
+  "metadata": {
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 21.25,
+    "input_sha256": "f9077b9169afbaa08e29316ef73ab5e2a22bed3c16f670c68ae9e7faa9b2c95f",
+    "system_sha256": "0c41b551a96d085bbc3597749915f67732aa702736eddffdb625f85696aded81",
+    "usage": [
+      {
+        "input_tokens": 21135,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 255,
+        "reasoning_output_tokens": 0
+      }
+    ],
+    "review_type": "independent_context_model_review",
+    "human_review": false
+  }
+}

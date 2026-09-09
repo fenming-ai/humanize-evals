@@ -1,0 +1,67 @@
+{
+  "cases": [
+    {
+      "id": "zh2-voice_emotion-027",
+      "approve": true,
+      "reason": "引文准确，个人意愿与需求限定忠实，类别恰当。"
+    },
+    {
+      "id": "zh2-voice_emotion-028",
+      "approve": true,
+      "reason": "保留互动情绪与二更反馈，失败条件符合原意。"
+    },
+    {
+      "id": "zh2-voice_emotion-030",
+      "approve": true,
+      "reason": "技术判断与假设边界忠实，无奈口吻值得测试。"
+    },
+    {
+      "id": "zh2-voice_emotion-031",
+      "approve": true,
+      "reason": "核心论点与自嘲功能准确，未要求补造缺图内容。"
+    },
+    {
+      "id": "zh2-voice_emotion-032",
+      "approve": true,
+      "reason": "三点批评及反讽方向准确，引文归属约束合理。"
+    },
+    {
+      "id": "zh2-voice_emotion-033",
+      "approve": true,
+      "reason": "忠实保留经验范围与资助不确定性，未新增事实。"
+    },
+    {
+      "id": "zh2-voice_emotion-034",
+      "approve": true,
+      "reason": "辩护立场与归因准确，保留不确定性且防止推测升级。"
+    },
+    {
+      "id": "zh2-voice_emotion-035",
+      "approve": true,
+      "reason": "意象反差与抒情递进忠实，禁止补影片来源合理。"
+    },
+    {
+      "id": "zh2-voice_emotion-036",
+      "approve": true,
+      "reason": "粉丝身份与护团立场准确，明确区分期待和公告。"
+    }
+  ],
+  "metadata": {
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 31.23,
+    "input_sha256": "081179f2da59d0ff8fb40af34b92e70e1ed813a58975af10c003f115057c570c",
+    "system_sha256": "0c41b551a96d085bbc3597749915f67732aa702736eddffdb625f85696aded81",
+    "usage": [
+      {
+        "input_tokens": 23236,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 363,
+        "reasoning_output_tokens": 23
+      }
+    ],
+    "review_type": "independent_context_model_review",
+    "human_review": false
+  }
+}

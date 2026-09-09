@@ -1,0 +1,286 @@
+{
+  "cases": [
+    {
+      "id": "zh2-punctuation-r001",
+      "suitable": true,
+      "reason": "引号区分指控与回应立场",
+      "task": "面向新闻读者整理断句与引语标点；可删关注类套话，不省略指控、否认及推测边界。",
+      "audience": "新闻读者",
+      "must_preserve": [
+        {
+          "quote": "并称已掌握“确凿证据”",
+          "requirement": "保留为美方声称，非已证实事实"
+        },
+        {
+          "quote": "称美方指控是“毫无新意的指控”",
+          "requirement": "保留伊方否认及引语归属"
+        },
+        {
+          "quote": "此次指控可能进一步影响两国",
+          "requirement": "保留谈判影响的不确定性"
+        }
+      ],
+      "voice_quote": "在一份官方声明中予以坚决否认",
+      "voice": "新闻转述，双方立场分明",
+      "allowed_changes": [
+        "可分段并规范引语标点",
+        "可删国际关注类空话"
+      ],
+      "failure_conditions": [
+        "把美方所谓证据写成已获证实",
+        "删除伊方否认或将谈判影响写成定论"
+      ],
+      "scoring_note": "引号承担立场隔离功能，不能因删符号而变成作者背书。"
+    },
+    {
+      "id": "zh2-punctuation-r002",
+      "suitable": false,
+      "reason": "主要是比较论证，标点考点不足",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-punctuation-r003",
+      "suitable": true,
+      "reason": "书名号和引号区分作品与发言",
+      "task": "面向文艺资讯读者规范作品名、引语标点；可删宣传套话，不增补来源或销售数据。",
+      "audience": "文艺资讯读者",
+      "must_preserve": [
+        {
+          "quote": "个人新书《梅飞色舞》",
+          "requirement": "保留陈凯歌新书名称及作品属性"
+        },
+        {
+          "quote": "这本书是我对京剧艺术的一次深情告白",
+          "requirement": "保留为陈凯歌发布会发言"
+        },
+        {
+          "quote": "预售首日便登上畅销榜前三名",
+          "requirement": "保留原稿排名口径，不扩成销量冠军"
+        }
+      ],
+      "voice_quote": "又饱含文人的细腻笔触",
+      "voice": "文艺资讯式赞赏转述",
+      "allowed_changes": [
+        "统一中英文引号，整理分段",
+        "可删广泛关注等宣传套话"
+      ],
+      "failure_conditions": [
+        "把《梅兰芳》误作本次新书名",
+        "将业内评价改作陈凯歌自述"
+      ],
+      "scoring_note": "符号关联作品身份与发言主体；原稿信息不等于外部核实。"
+    },
+    {
+      "id": "zh2-punctuation-r004",
+      "suitable": true,
+      "reason": "问答引号与书信冒号各有功能",
+      "task": "面向信中的孩子整理书信标点与段落；可压缩天堂景物，不删亲情、回忆及活下去的嘱托。",
+      "audience": "信中的孩子",
+      "must_preserve": [
+        {
+          "quote": "当你读到这封信时，我已经在天堂安息",
+          "requirement": "保留逝者致孩子的想象书信视角"
+        },
+        {
+          "quote": "记得你小时候总爱问我",
+          "requirement": "保留童年问答及双方说话归属"
+        },
+        {
+          "quote": "好好活着，活出生命的精彩",
+          "requirement": "保留珍惜生命的核心嘱托"
+        }
+      ],
+      "voice_quote": "但最让我牵挂的，还是人间的你。",
+      "voice": "温柔牵挂，以亲情安慰悲伤",
+      "allowed_changes": [
+        "规范问答引号与称呼、落款分行",
+        "可压缩重复的天堂景物描写"
+      ],
+      "failure_conditions": [
+        "将童年提问归给写信者",
+        "改成第三人称说教或删去生活嘱托"
+      ],
+      "scoring_note": "易误伤亲密问答节奏；天堂意象不应被当作待核实新闻。"
+    },
+    {
+      "id": "zh2-punctuation-r005",
+      "suitable": true,
+      "reason": "括号承担数据分类与举例功能",
+      "task": "面向风控入门读者整理括注和长句；可删效果夸饰，不丢数据类别、建模流程及用途。",
+      "audience": "风控入门读者",
+      "must_preserve": [
+        {
+          "quote": "用户授权的金融数据（如银行流水、征信报告）",
+          "requirement": "保留金融数据的授权限定及例项"
+        },
+        {
+          "quote": "进行特征工程和模型训练",
+          "requirement": "保留数据经加工建模的流程"
+        },
+        {
+          "quote": "指导产品进行差异化授信、利率定价和贷后管理",
+          "requirement": "保留模型输出的三项应用"
+        }
+      ],
+      "voice_quote": "核心在于构建多维度、动态化的用户风险画像",
+      "voice": "技术入门式解释",
+      "allowed_changes": [
+        "可将括注转为正文或列表",
+        "可删匿名平台效果例，不补造来源"
+      ],
+      "failure_conditions": [
+        "把金融数据的授权限定删掉",
+        "把退货率例写成必然降低坏账的保证"
+      ],
+      "scoring_note": "括号内是分类实例而非赘语，清理符号不能连带删除类别。"
+    },
+    {
+      "id": "zh2-punctuation-r006",
+      "suitable": true,
+      "reason": "引号标示比喻，括号说明术语",
+      "task": "面向酒类入门读者整理引号、括注与断句；可删营销结尾，不省略陈化机制和新酒说明。",
+      "audience": "酒类入门读者",
+      "must_preserve": [
+        {
+          "quote": "它是一个活的“加工厂”",
+          "requirement": "保留橡木桶参与陈化的比喻性质"
+        },
+        {
+          "quote": "促进酒液的氧化反应",
+          "requirement": "保留微孔进气与氧化的解释关系"
+        },
+        {
+          "quote": "通常被称为“新酒”或“原酒”",
+          "requirement": "保留未经陈化酒的称谓及通常限定"
+        }
+      ],
+      "voice_quote": "这就像烹饪一道菜",
+      "voice": "用生活比喻讲解风味",
+      "allowed_changes": [
+        "括号英文可移入术语说明",
+        "可删生命灵魂等营销抒情"
+      ],
+      "failure_conditions": [
+        "把橡木桶的加工厂比喻写成实体工厂",
+        "将通常用于陈化改为禁止直接饮用"
+      ],
+      "scoring_note": "引号不只装饰，去除时须保住比喻与术语的不同身份。"
+    },
+    {
+      "id": "zh2-punctuation-r007",
+      "suitable": true,
+      "reason": "分号、破折号组织排比与总结",
+      "task": "面向励志议论文读者理顺排比断句；可删重复修饰，不删三层意气论证及收束号召。",
+      "audience": "励志议论文读者",
+      "must_preserve": [
+        {
+          "quote": "舍我其谁的意气，是人们腾飞的起点",
+          "requirement": "保留自信促人奋起的第一层"
+        },
+        {
+          "quote": "献身理想的意气，是成功的精神动力",
+          "requirement": "保留理想促人勇敢的第二层"
+        },
+        {
+          "quote": "勇于探索的意气，是成功之眼",
+          "requirement": "保留探索激发潜能的第三层"
+        }
+      ],
+      "voice_quote": "向着成功的彼岸远航！",
+      "voice": "昂扬排比，强烈鼓动",
+      "allowed_changes": [
+        "调整分号、破折号与段落边界",
+        "可删重复引导语，保留例证对应"
+      ],
+      "failure_conditions": [
+        "合并三层意气为无区分的努力论",
+        "删除排比号召，改成冷静说明文"
+      ],
+      "scoring_note": "破折号和感叹号承担论证收束与鼓动，不能按频次判冗余。"
+    },
+    {
+      "id": "zh2-punctuation-r008",
+      "suitable": false,
+      "reason": "核心引文前后不一致，标点考点弱",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-punctuation-r009",
+      "suitable": true,
+      "reason": "电头分隔与报刊名符号有功能",
+      "task": "面向新闻读者规范电头、报刊名和断句；可删关注套话，不省略社论主体、日期及政策推测限定。",
+      "audience": "新闻读者",
+      "must_preserve": [
+        {
+          "quote": "于2024年元旦联合发表社论",
+          "requirement": "保留三报联合发表及日期"
+        },
+        {
+          "quote": "这可能表明朝鲜正在调整其对外政策",
+          "requirement": "保留为分析推测，非政策确认"
+        },
+        {
+          "quote": "社论中并未提及具体的对话条件或方案",
+          "requirement": "保留未给条件或方案的否定边界"
+        }
+      ],
+      "voice_quote": "平壤 —朝鲜劳动党机关报《劳动新闻》",
+      "voice": "新闻报道，审慎转述",
+      "allowed_changes": [
+        "规范电头分隔及三报并列标点",
+        "可删引发广泛关注等套话"
+      ],
+      "failure_conditions": [
+        "将三报社论改成两国共同声明",
+        "称朝鲜已提出具体对话方案"
+      ],
+      "scoring_note": "电头符号可规范；报刊主体及推测限定比符号样式更重要。"
+    },
+    {
+      "id": "zh2-punctuation-r010",
+      "suitable": false,
+      "reason": "重复评价为主，标点考点不足",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    }
+  ],
+  "metadata": {
+    "job": "supplement-15",
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 84.6,
+    "system_sha256": "2c85943d84beabe7f1c8a64f793323c3fb90f4110f4f66ac756b1b69b3faf06e",
+    "input_sha256": "356490a2a9115e1eca2bd824e4e66352590e83f2b74895f8305610de24e58a40",
+    "usage": [
+      {
+        "input_tokens": 20986,
+        "cached_input_tokens": 10368,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2332,
+        "reasoning_output_tokens": 191
+      }
+    ],
+    "review_type": "model_annotation",
+    "human_review": false
+  }
+}

@@ -1,0 +1,248 @@
+{
+  "cases": [
+    {
+      "id": "zh2-no_edit-qx041",
+      "suitable": true,
+      "reason": "叙事清楚，情绪与消息归属明确",
+      "task": "面向娱乐新闻读者作强保留验收，可原样输出；不省略伤情、心态转变及家人支持。",
+      "audience": "娱乐新闻读者",
+      "must_preserve": [
+        {
+          "quote": "导致双腿和手紧绷又痒",
+          "requirement": "保留疤痕增生的不适及流泪反应"
+        },
+        {
+          "quote": "明白保住生命最重要",
+          "requirement": "保留珍惜生命、不介意伤口外观的态度"
+        },
+        {
+          "quote": "这两个月是疤增生的高峰期",
+          "requirement": "保留父母支持及其忍耐劝告的归属"
+        }
+      ],
+      "voice_quote": "庆幸乐观的她再度重拾斗志",
+      "voice": "同情伤痛，肯定重拾斗志",
+      "allowed_changes": [
+        "允许完整原样输出",
+        "仅微调标点，不删事件信息"
+      ],
+      "failure_conditions": [
+        "把任家萱写成不曾崩溃或流泪",
+        "把父母的高峰期说法改成医学定论"
+      ],
+      "scoring_note": "情绪易被压平；乐观不能抹去痛苦。"
+    },
+    {
+      "id": "zh2-no_edit-qx042",
+      "suitable": false,
+      "reason": "“暂定接受”使申购限制含义存疑",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-qx043",
+      "suitable": true,
+      "reason": "事故经过与调查边界清楚",
+      "task": "面向社会新闻读者作强保留验收，可原样输出；不删事故数字、调查疑点及慰问。",
+      "audience": "社会新闻读者",
+      "must_preserve": [
+        {
+          "quote": "导致14名学生和校车司机当场死亡",
+          "requirement": "保留死亡人数与司机另计的边界"
+        },
+        {
+          "quote": "车上的学生在7岁到14岁之间",
+          "requirement": "保留年龄范围及伤者送医、主要伤处"
+        },
+        {
+          "quote": "尚不清楚为什么学校用32座的车辆来运送58名学生",
+          "requirement": "保留座位与载员差异，原因尚待调查"
+        }
+      ],
+      "voice_quote": "西开普省教育部门表示将对这起事故立即展开调查",
+      "voice": "克制报道，明确消息主体",
+      "allowed_changes": [
+        "允许完整原样输出",
+        "仅微调标点与分段"
+      ],
+      "failure_conditions": [
+        "将死亡总人数写成14人",
+        "断言超载已被认定为翻车原因"
+      ],
+      "scoring_note": "数字边界易误伤；14名学生不含司机。"
+    },
+    {
+      "id": "zh2-no_edit-qx044",
+      "suitable": true,
+      "reason": "撤回范围与各方表态交代清楚",
+      "task": "面向国际新闻读者作强保留验收，可原样输出；不删撤回范围、留驻安排及双方立场。",
+      "audience": "国际新闻读者",
+      "must_preserve": [
+        {
+          "quote": "11月28日下午他们将越过军事分界线回到韩国",
+          "requirement": "保留韩方返程时间，区别朝方12月1日安排"
+        },
+        {
+          "quote": "这6名政府官员是驻于朝鲜开城的约1600名韩国人的一小部分",
+          "requirement": "保留六名官员范围及许多经理人预计留驻"
+        },
+        {
+          "quote": "分析人士指出，朝鲜全面“封冻”南北关系",
+          "requirement": "施压动机须归属分析，保留韩方冷静呼吁"
+        }
+      ],
+      "voice_quote": "并呼吁双方避免采取进一步刺激对方的行动",
+      "voice": "新闻转述，区分事实与分析",
+      "allowed_changes": [
+        "允许完整原样输出",
+        "仅整理引号和分段"
+      ],
+      "failure_conditions": [
+        "写成约1600名韩国人全部撤离",
+        "把分析人士的动机判断写成朝方声明"
+      ],
+      "scoring_note": "主体范围最易误伤；召回并非全员撤出。"
+    },
+    {
+      "id": "zh2-no_edit-qx045",
+      "suitable": false,
+      "reason": "“据荷兰合作银行近日表示”句式杂糅",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-qx046",
+      "suitable": false,
+      "reason": "“与当地时间昨晚”存在明显误字",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-qx047",
+      "suitable": false,
+      "reason": "“日元高攀”用词及协商句语序不当",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-qx048",
+      "suitable": false,
+      "reason": "日期缺“日”，图注缺配图支撑",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-qx049",
+      "suitable": true,
+      "reason": "简短清楚，自述语气鲜明",
+      "task": "面向娱乐新闻读者作强保留验收，可原样输出；不删校园交流、自省习惯和穿衣原则。",
+      "audience": "娱乐新闻读者",
+      "must_preserve": [
+        {
+          "quote": "刘烨到北京语言大学，与学生们交流曾经的校园时光",
+          "requirement": "保留交流地点、对象与主题"
+        },
+        {
+          "quote": "我以前是挺闷、挺轴、挺较劲的一个人",
+          "requirement": "保留自我评价及记录有用建议的习惯"
+        },
+        {
+          "quote": "比如拍照决不穿女性化衣服",
+          "requirement": "保留个人拍照原则及不想模糊的理由"
+        }
+      ],
+      "voice_quote": "挺闷、挺轴、挺较劲",
+      "voice": "口语自省，个人原则直白",
+      "allowed_changes": [
+        "允许完整原样输出",
+        "仅微调引号与段落"
+      ],
+      "failure_conditions": [
+        "把刘烨自述改成记者对其性格的定论",
+        "把拍照穿衣原则扩大为对他人的要求"
+      ],
+      "scoring_note": "声音易被改平；口语重复承载自我评价。"
+    },
+    {
+      "id": "zh2-no_edit-qx050",
+      "suitable": true,
+      "reason": "发行日期、产品与渠道对应清楚",
+      "task": "面向基金发行资讯读者作强保留验收，可原样输出；不省略产品、募集期和认购渠道。",
+      "audience": "基金发行资讯读者",
+      "must_preserve": [
+        {
+          "quote": "嘉实信用债券基金于8月8日到9月9日公开发行",
+          "requirement": "保留信用债定位、发行期及所列渠道"
+        },
+        {
+          "quote": "建信深证基本面60ETF及其联接基金募集时间为8月8日至9月2日",
+          "requirement": "保留两类产品、募集期和券商银行渠道"
+        },
+        {
+          "quote": "农银汇理策略精选股票型基金发行至9月2日结束",
+          "requirement": "保留同日开募、截止日及所列认购渠道"
+        }
+      ],
+      "voice_quote": "投资者可到代销券商或银行渠道认购",
+      "voice": "中性发行资讯，不作收益推介",
+      "allowed_changes": [
+        "允许完整原样输出",
+        "可分段展示各产品，不删渠道"
+      ],
+      "failure_conditions": [
+        "把嘉实截止日改成9月2日",
+        "混淆三组基金渠道或新增收益承诺"
+      ],
+      "scoring_note": "日期对应易误伤；同日开始不等于同日结束。"
+    }
+  ],
+  "metadata": {
+    "job": "noedit_extra-04",
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 65.66,
+    "system_sha256": "2c85943d84beabe7f1c8a64f793323c3fb90f4110f4f66ac756b1b69b3faf06e",
+    "input_sha256": "930b2bd0f41b541f99db83ad671e8b78890f03737128c5bc0b3d6959838e0fe0",
+    "usage": [
+      {
+        "input_tokens": 18265,
+        "cached_input_tokens": 10368,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1882,
+        "reasoning_output_tokens": 153
+      }
+    ],
+    "review_type": "model_annotation",
+    "human_review": false
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "cases": [
+    {
+      "id": "zh2-no_edit-050",
+      "approve": false,
+      "reason": "“（虽然人家可能不care这些）从他”两句间缺少句末标点，有明显断句问题，不宜归为no_edit。"
+    }
+  ],
+  "metadata": {
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 18.06,
+    "input_sha256": "68910230a0a006b6af4a5e1065677aab6af9ba8b96f59d1ca35ed1af88b155ff",
+    "system_sha256": "0c41b551a96d085bbc3597749915f67732aa702736eddffdb625f85696aded81",
+    "usage": [
+      {
+        "input_tokens": 16161,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 126,
+        "reasoning_output_tokens": 59
+      }
+    ],
+    "review_type": "independent_context_model_review",
+    "human_review": false
+  }
+}

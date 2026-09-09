@@ -1,0 +1,52 @@
+{
+  "cases": [
+    {
+      "id": "zh2-no_edit-073",
+      "approve": false,
+      "reason": "“故事讲的好”“设计的很萌”“笑的很疯狂”存在的得误用，不适合no_edit。"
+    },
+    {
+      "id": "zh2-no_edit-074",
+      "approve": true,
+      "reason": "原文完整，条件、主体与历史称谓边界保留合理。"
+    },
+    {
+      "id": "zh2-no_edit-079",
+      "approve": true,
+      "reason": "通知清楚完整，合约、比例和期限对应准确。"
+    },
+    {
+      "id": "zh2-no_edit-080",
+      "approve": false,
+      "reason": "“我那时候玩的挺多的”中“玩的”应为“玩得”，不符合no_edit要求。"
+    },
+    {
+      "id": "zh2-facts-021",
+      "approve": true,
+      "reason": "引文准确，保留来源数字且未强制坐实推测，失败条件合理。"
+    },
+    {
+      "id": "zh2-facts-022",
+      "approve": true,
+      "reason": "引文准确，剧情、捐款主体及未来计划边界清楚。"
+    }
+  ],
+  "metadata": {
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 27.52,
+    "input_sha256": "ff77c030fc6dcf6149c92049ca4dc013bf857575fcf9f5565101199251f52b05",
+    "system_sha256": "0c41b551a96d085bbc3597749915f67732aa702736eddffdb625f85696aded81",
+    "usage": [
+      {
+        "input_tokens": 19026,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 354,
+        "reasoning_output_tokens": 119
+      }
+    ],
+    "review_type": "independent_context_model_review",
+    "human_review": false
+  }
+}

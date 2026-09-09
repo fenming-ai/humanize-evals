@@ -1,0 +1,72 @@
+{
+  "cases": [
+    {
+      "id": "zh2-slop-037",
+      "approve": true,
+      "reason": "引文准确，保留指控边界与处置，删减要求合理。"
+    },
+    {
+      "id": "zh2-slop-038",
+      "approve": true,
+      "reason": "忠实保留提议状态、适用条件与双方理由。"
+    },
+    {
+      "id": "zh2-slop-039",
+      "approve": true,
+      "reason": "排名对应准确，未强制核实无源信息，类别恰当。"
+    },
+    {
+      "id": "zh2-slop-040",
+      "approve": true,
+      "reason": "保留个人经验与求助边界，未强化为医疗保证。"
+    },
+    {
+      "id": "zh2-slop-041",
+      "approve": true,
+      "reason": "保留可能性、条件与平台双面作用，限制合理。"
+    },
+    {
+      "id": "zh2-slop-042",
+      "approve": true,
+      "reason": "概念关系忠实，允许删减套话而不损害原意。"
+    },
+    {
+      "id": "zh2-slop-043",
+      "approve": true,
+      "reason": "事件与行为主体准确，禁止补写细节合理。"
+    },
+    {
+      "id": "zh2-slop-044",
+      "approve": true,
+      "reason": "办学特点有原文依据，防止伪造亲历的要求合理。"
+    },
+    {
+      "id": "zh2-slop-045",
+      "approve": true,
+      "reason": "产品、技术投入主体及风险边界均忠实原文。"
+    },
+    {
+      "id": "zh2-slop-046",
+      "approve": true,
+      "reason": "引文与原述一致，兼顾口语热情和来源边界。"
+    }
+  ],
+  "metadata": {
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 26.71,
+    "input_sha256": "c53610f78cd583d40041e65554df76d1abb4244aeb994495420c81fb1617230e",
+    "system_sha256": "0c41b551a96d085bbc3597749915f67732aa702736eddffdb625f85696aded81",
+    "usage": [
+      {
+        "input_tokens": 24189,
+        "cached_input_tokens": 9856,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 382,
+        "reasoning_output_tokens": 39
+      }
+    ],
+    "review_type": "independent_context_model_review",
+    "human_review": false
+  }
+}

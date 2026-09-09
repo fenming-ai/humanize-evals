@@ -1,0 +1,27 @@
+{
+  "cases": [
+    {
+      "id": "zh2-no_edit-059",
+      "approve": false,
+      "reason": "“犀利地多”应为“犀利得多”，存在明显助词误用，不适合no_edit。"
+    }
+  ],
+  "metadata": {
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 13.9,
+    "input_sha256": "44e892750ab6dfa836ae0c03a83f027c9caa6dacee08f74f4415da0825e169b3",
+    "system_sha256": "0c41b551a96d085bbc3597749915f67732aa702736eddffdb625f85696aded81",
+    "usage": [
+      {
+        "input_tokens": 15993,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 109,
+        "reasoning_output_tokens": 48
+      }
+    ],
+    "review_type": "independent_context_model_review",
+    "human_review": false
+  }
+}

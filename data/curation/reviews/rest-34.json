@@ -1,0 +1,72 @@
+{
+  "cases": [
+    {
+      "id": "zh2-missing_material-013",
+      "approve": true,
+      "reason": "保留纪念立场，允许删空泛赞誉，边界合理。"
+    },
+    {
+      "id": "zh2-missing_material-014",
+      "approve": true,
+      "reason": "机制与四策均有原文依据，未强制升级为实证结论。"
+    },
+    {
+      "id": "zh2-missing_material-015",
+      "approve": true,
+      "reason": "主题与困境忠实原文，区分评论解读与剧情证据。"
+    },
+    {
+      "id": "zh2-missing_material-016",
+      "approve": true,
+      "reason": "保留项有据，明确减少不等于戒除，允许限定未核实内容。"
+    },
+    {
+      "id": "zh2-missing_material-017",
+      "approve": true,
+      "reason": "暂停性质与支持关系有据，祝愿和复出预测区分合理。"
+    },
+    {
+      "id": "zh2-missing_material-018",
+      "approve": true,
+      "reason": "保留多因素批评，允许限定归因，未强制推测为事实。"
+    },
+    {
+      "id": "zh2-missing_material-019",
+      "approve": true,
+      "reason": "赛事及失手机会忠实原文，禁止补造具体赛况合理。"
+    },
+    {
+      "id": "zh2-missing_material-020",
+      "approve": true,
+      "reason": "保留多维决策框架，政策示例可限定，失败条件合理。"
+    },
+    {
+      "id": "zh2-missing_material-021",
+      "approve": true,
+      "reason": "保留个人解读及叙事空白，未将导演意图强制当事实。"
+    },
+    {
+      "id": "zh2-missing_material-022",
+      "approve": true,
+      "reason": "恋情与角色对应有原文依据，允许删除当前感情猜测。"
+    }
+  ],
+  "metadata": {
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 21.89,
+    "input_sha256": "aabf91c4719d5c71d164f560550347d65a63c4df9092d7ec853440a67da2a84d",
+    "system_sha256": "0c41b551a96d085bbc3597749915f67732aa702736eddffdb625f85696aded81",
+    "usage": [
+      {
+        "input_tokens": 21808,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 433,
+        "reasoning_output_tokens": 53
+      }
+    ],
+    "review_type": "independent_context_model_review",
+    "human_review": false
+  }
+}

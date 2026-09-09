@@ -1,0 +1,191 @@
+{
+  "cases": [
+    {
+      "id": "zh2-no_edit-r081",
+      "suitable": false,
+      "reason": "耗油与客舱设计表述有明显语病",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-r082",
+      "suitable": false,
+      "reason": "开头语病明显，方法论套话重复",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-r083",
+      "suitable": true,
+      "reason": "报道层次清楚，归属与不确定性明确",
+      "task": "面向财经读者保留新闻原貌，可全文原样输出；不得省略调查主体、事项及状态限定。",
+      "audience": "财经新闻读者",
+      "must_preserve": [
+        {
+          "quote": "有意对该部门为上述经纪交易商提供的清算服务提出指控",
+          "requirement": "保留拟指控状态，不写成已经定罪"
+        },
+        {
+          "quote": "高盛可能明知或应该知道",
+          "requirement": "保留认知责任的可能性与客户账户边界"
+        },
+        {
+          "quote": "美国司法部也在对高盛进行审查",
+          "requirement": "区分司法部审查与欧盟调查及其事项"
+        }
+      ],
+      "voice_quote": "文件称，高盛目前正在配合CFTC的调查。",
+      "voice": "克制、注明消息归属的新闻体",
+      "allowed_changes": [
+        "允许完整原样输出",
+        "仅微调排版，不删来源与限定"
+      ],
+      "failure_conditions": [
+        "将CFTC拟指控写成已认定欺诈",
+        "将欧盟CDS调查归为美国司法部已证实结论"
+      ],
+      "scoring_note": "最易误伤事实状态：压缩新闻会抹去可能性与机构边界。"
+    },
+    {
+      "id": "zh2-no_edit-r084",
+      "suitable": false,
+      "reason": "存在明显错字及末尾宣传语重复",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-r085",
+      "suitable": false,
+      "reason": "师生关系定义与意义多处重复",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-r086",
+      "suitable": false,
+      "reason": "批评对象句残缺，后段指代不清",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-r087",
+      "suitable": false,
+      "reason": "销量与付费论证衔接含混",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-r088",
+      "suitable": true,
+      "reason": "经验叙述清楚，口语自然且条件具体",
+      "task": "面向多肉爱好者保留个人经验分享，可原样输出；不得删去判断方法、环境差异及异常观察。",
+      "audience": "多肉爱好者",
+      "must_preserve": [
+        {
+          "quote": "经过两年的养肉，现在自己浇水的最靠谱的方法",
+          "requirement": "保留两年个人经验，不升级为普适定律"
+        },
+        {
+          "quote": "捏捏最下层的叶子，如果软了，就果断浇透",
+          "requirement": "保留底层叶片软浇硬不浇及需水差异"
+        },
+        {
+          "quote": "如果不见好转，说明根系有问题",
+          "requirement": "保留正常情况下给水后一两天的观察判断"
+        }
+      ],
+      "voice_quote": "所以三百多棵肉肉都还好啦",
+      "voice": "亲切口语，带摸索后的自信",
+      "allowed_changes": [
+        "允许完整原样输出",
+        "仅整理标点或分段"
+      ],
+      "failure_conditions": [
+        "把捏最下层叶子改成固定周期浇水",
+        "删去老桩、小苗及室内外、南北差异"
+      ],
+      "scoring_note": "最易误伤声音：肉肉、好啦和经验复述并非必删赘语。"
+    },
+    {
+      "id": "zh2-no_edit-r089",
+      "suitable": false,
+      "reason": "微博入口残留正文，需局部清理",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-r090",
+      "suitable": false,
+      "reason": "定义句叠套，研究目的表述重复",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    }
+  ],
+  "metadata": {
+    "job": "supplement-09",
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 51.48,
+    "system_sha256": "2c85943d84beabe7f1c8a64f793323c3fb90f4110f4f66ac756b1b69b3faf06e",
+    "input_sha256": "c02e0a2bf502631f4d43c77169b08d50f51a9572246414664e334d379d2505c6",
+    "usage": [
+      {
+        "input_tokens": 18565,
+        "cached_input_tokens": 10368,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1269,
+        "reasoning_output_tokens": 213
+      }
+    ],
+    "review_type": "model_annotation",
+    "human_review": false
+  }
+}

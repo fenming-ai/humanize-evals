@@ -1,0 +1,171 @@
+{
+  "cases": [
+    {
+      "id": "zh2-no_edit-053",
+      "suitable": false,
+      "reason": "疗伤比喻与配置建议重复，夸大避险",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-054",
+      "suitable": false,
+      "reason": "今晚投档与已有结果衔接不清，夹推广",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-055",
+      "suitable": false,
+      "reason": "观察研究作用的末句缺少中心语",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-056",
+      "suitable": false,
+      "reason": "有明显错字，亏损与不盈利叙述重复",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-057",
+      "suitable": false,
+      "reason": "长句缺乏分层，解放军例证指代不清",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-058",
+      "suitable": false,
+      "reason": "末句主要构成与科技行业句法粘连",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-059",
+      "suitable": true,
+      "reason": "短评褒贬清楚，口语节奏自足",
+      "task": "面向电影短评读者，强保留原评判断与语气；可原样输出，不删褒贬、比较及末尾设问。",
+      "audience": "电影短评读者",
+      "must_preserve": [
+        {
+          "quote": "好在创造性地加入风水八卦等本土元素",
+          "requirement": "保留本土元素和场景设计的肯定"
+        },
+        {
+          "quote": "故事是硬伤，没悬念没真正反派没升华",
+          "requirement": "保留故事三项缺陷，不淡化批评"
+        },
+        {
+          "quote": "但对比妖塔，本片简直摸金范儿爆棚",
+          "requirement": "保留相对妖塔的优势及人物评价"
+        }
+      ],
+      "voice_quote": "少女打手颜卓灵会不会成为下个栗山千明？",
+      "voice": "爽利、有梗，褒贬并置且带期待",
+      "allowed_changes": [
+        "可完整原样输出；至多局部规范标点或助词"
+      ],
+      "failure_conditions": [
+        "删去故事缺陷，改成全盘赞美",
+        "把颜卓灵的设问改成确定预言"
+      ],
+      "scoring_note": "口语声音最易误伤：三连否定与摸金范儿不是冗词。"
+    },
+    {
+      "id": "zh2-no_edit-060",
+      "suitable": false,
+      "reason": "问题编号依赖缺失上文，段落边界混乱",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-061",
+      "suitable": false,
+      "reason": "目的状语独立成句，筹资句重复用共",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-062",
+      "suitable": false,
+      "reason": "重复逗号且末尾推荐文章无明确所指",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    }
+  ],
+  "metadata": {
+    "job": "rest-10",
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 44.64,
+    "system_sha256": "2c85943d84beabe7f1c8a64f793323c3fb90f4110f4f66ac756b1b69b3faf06e",
+    "input_sha256": "168ca432a51db21a44f09abac56c819aa9eed0be55a3ce900bcf883b7a683b51",
+    "usage": [
+      {
+        "input_tokens": 18434,
+        "cached_input_tokens": 6016,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1079,
+        "reasoning_output_tokens": 219
+      }
+    ],
+    "review_type": "model_annotation",
+    "human_review": false
+  }
+}

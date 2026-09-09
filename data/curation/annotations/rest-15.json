@@ -1,0 +1,343 @@
+{
+  "cases": [
+    {
+      "id": "zh2-facts-043",
+      "suitable": true,
+      "reason": "研究对象明确，需控制结论强度",
+      "task": "面向医学读者精简研究介绍；可删背景套话，不省研究对象、方法与机制不确定性。",
+      "audience": "医学研究读者",
+      "must_preserve": [
+        {
+          "quote": "具体机制尚未完全阐明",
+          "requirement": "保留机制未明的限定"
+        },
+        {
+          "quote": "Jagged1和Jagged2",
+          "requirement": "保留两种配体及布地奈德干预目的"
+        },
+        {
+          "quote": "通过构建小鼠哮喘气道重塑模型",
+          "requirement": "限定为小鼠模型，保留检测方法"
+        }
+      ],
+      "voice_quote": "布地奈德的潜在干预作用",
+      "voice": "审慎的学术介绍",
+      "allowed_changes": [
+        "删宏大意义套话",
+        "弱化无支撑的首次与成果断言"
+      ],
+      "failure_conditions": [
+        "将小鼠研究写成临床疗效已证实",
+        "补造配体升降方向或实验数字"
+      ],
+      "scoring_note": "最易误伤证据强度：原文未列具体结果。"
+    },
+    {
+      "id": "zh2-facts-044",
+      "suitable": true,
+      "reason": "人物经历与金额构成清晰保护点",
+      "task": "面向赛车读者整理人物回顾；可压缩赞美，不省时间线、父亲陪伴与车队选择。",
+      "audience": "赛车读者",
+      "must_preserve": [
+        {
+          "quote": "和巴顿第一次见面是在1998年",
+          "requirement": "保留初见年份、18岁及寻赞助参赛"
+        },
+        {
+          "quote": "陪伴在他左右的不过是年迈的父亲约翰",
+          "requirement": "保留父亲陪伴及父子承认走弯路"
+        },
+        {
+          "quote": "接受一张2400万英镑的支票",
+          "requirement": "保留金额与舍弃大半加盟布朗的选择"
+        }
+      ],
+      "voice_quote": "那永远不曾改变过的灿烂微笑",
+      "voice": "亲历口吻，赞赏且感慨",
+      "allowed_changes": [
+        "压缩重复赞美",
+        "理顺车队经历与转折"
+      ],
+      "failure_conditions": [
+        "把2400万英镑写成加盟布朗所得",
+        "改成巴顿一路顺遂或父亲是老板"
+      ],
+      "scoring_note": "最易误伤选择关系：支票与加盟是两条路。"
+    },
+    {
+      "id": "zh2-facts-045",
+      "suitable": true,
+      "reason": "行动阶段与引述主体需区分",
+      "task": "面向新闻读者精简报道；可删评价套话，不省行动阶段、机构归属及统计口径。",
+      "audience": "新闻读者",
+      "must_preserve": [
+        {
+          "quote": "建议动用快速反应部队参与缉毒行动",
+          "requirement": "保留建议性质，不写成已投入行动"
+        },
+        {
+          "quote": "在三个月内制定具体行动方案",
+          "requirement": "保留总统责成相关部门及期限"
+        },
+        {
+          "quote": "2023年该国缉获毒品总量同比上升17%",
+          "requirement": "保留原文统计归属及跨境案件占63%"
+        }
+      ],
+      "voice_quote": "但也可能引发与邻国的外交协调问题",
+      "voice": "新闻转述，保留风险限定",
+      "allowed_changes": [
+        "删重要讲话等空泛修饰",
+        "合并重复威胁描述"
+      ],
+      "failure_conditions": [
+        "将初步联合缉毒计划写成已执行",
+        "把63%改为跨境毒品重量占比"
+      ],
+      "scoring_note": "最易误伤来源边界：转述不等于外部核实。"
+    },
+    {
+      "id": "zh2-facts-046",
+      "suitable": true,
+      "reason": "涨幅口径与市场预测可以验收",
+      "task": "面向财经读者压缩行情稿；可合并重复建议，不省指数、基金数据及预测归属。",
+      "audience": "财经读者",
+      "must_preserve": [
+        {
+          "quote": "上证指数上涨0.68%",
+          "requirement": "保留深成0.92%、创业板0.75%"
+        },
+        {
+          "quote": "股票型基金平均净值涨幅为0.73%",
+          "requirement": "保留Wind归属、截至28日及平均口径"
+        },
+        {
+          "quote": "跌幅不超过0.2%",
+          "requirement": "保留仅一只基金下跌及跌幅上限"
+        }
+      ],
+      "voice_quote": "但仍需密切关注宏观经济和政策变化",
+      "voice": "谨慎乐观的市场转述",
+      "allowed_changes": [
+        "合并基金下跌的重复描述",
+        "压缩重复投资建议"
+      ],
+      "failure_conditions": [
+        "将基金普遍涨幅改为所有基金上涨",
+        "将机构触底判断写成确定事实"
+      ],
+      "scoring_note": "最易误伤统计口径：平均涨幅不同于普遍区间。"
+    },
+    {
+      "id": "zh2-facts-047",
+      "suitable": true,
+      "reason": "实验条件与显著性边界充分",
+      "task": "面向动物营养研究者精简摘要；可删意义套话，不省试验条件、基因方向与阴性结果。",
+      "audience": "动物营养研究者",
+      "must_preserve": [
+        {
+          "quote": "饲喂量为对照组的70%",
+          "requirement": "保留40日龄40只、分组单笼及5天"
+        },
+        {
+          "quote": "减少总脂肪沉积的趋势",
+          "requirement": "区别趋势、日增重显著与局部不显著"
+        },
+        {
+          "quote": "AMPK磷酸化水平未发生显著变化",
+          "requirement": "保留阴性结果，不等同通路无作用"
+        }
+      ],
+      "voice_quote": "可能未激活AMPK核心能量感应通路",
+      "voice": "学术陈述，保留推断限定",
+      "allowed_changes": [
+        "删精准营养意义的重复拔高",
+        "合并同向基因，保留名称与显著性"
+      ],
+      "failure_conditions": [
+        "将总脂肪下降趋势写成显著下降",
+        "颠倒FAS等下调与PPAR等上调方向"
+      ],
+      "scoring_note": "最易误伤阴性结果：不显著不能写成无作用。"
+    },
+    {
+      "id": "zh2-facts-048",
+      "suitable": true,
+      "reason": "价格比较与景气指标边界明确",
+      "task": "面向经济读者理顺市场分析；可删空泛展望，不省比较口径、政策因素与预测限定。",
+      "audience": "经济读者",
+      "must_preserve": [
+        {
+          "quote": "较去年同期增长近15%",
+          "requirement": "保留小麦玉米等期货同比近似涨幅"
+        },
+        {
+          "quote": "工业原材料价格涨幅仅为3%左右",
+          "requirement": "保留钢铁有色等仍上涨而增速回落"
+        },
+        {
+          "quote": "制造业采购经理人指数(PMI)仅为49.8",
+          "requirement": "保留发布主体及连续多月低于荣枯线"
+        }
+      ],
+      "voice_quote": "多位分析师持谨慎乐观态度",
+      "voice": "分析转述，审慎展望",
+      "allowed_changes": [
+        "修正发方向与中英混杂",
+        "压缩结构调整的重复概括"
+      ],
+      "failure_conditions": [
+        "将工业品涨幅放缓改为价格下跌",
+        "将农业有望强势写成必然持续上涨"
+      ],
+      "scoring_note": "最易误伤比较方向：工业低迷不等于价格下跌。"
+    },
+    {
+      "id": "zh2-facts-049",
+      "suitable": true,
+      "reason": "人物评价与统计可作忠实性约束",
+      "task": "面向体育读者精简赛后报道；可删重复励志解读，不省批评内容、数据与回应归属。",
+      "audience": "体育读者",
+      "must_preserve": [
+        {
+          "quote": "与世青赛时相比，他的进步并不明显。",
+          "requirement": "保留克劳琛对谭望嵩进步的评价"
+        },
+        {
+          "quote": "射门命中率仅为28%",
+          "requirement": "保留小组赛和淘汰赛范围及比较对象"
+        },
+        {
+          "quote": "感谢教练的批评，这正是我成长的动力。",
+          "requirement": "保留原文归于谭望嵩的社媒回应"
+        }
+      ],
+      "voice_quote": "克劳琛的批评可能会成为",
+      "voice": "批评中带期待，解读不绝对化",
+      "allowed_changes": [
+        "合并重复成长期待",
+        "精简转折点等推测性铺陈"
+      ],
+      "failure_conditions": [
+        "把28%写成进球转化率",
+        "将批评可能激励写成已带来成绩提升"
+      ],
+      "scoring_note": "最易误伤归属：人物引语不代表已核实言论。"
+    },
+    {
+      "id": "zh2-facts-050",
+      "suitable": true,
+      "reason": "两种动力版本及优缺点清楚",
+      "task": "面向汽车读者压缩车型介绍；可删赞美套话，不省版本参数、工程特点及交互短板。",
+      "audience": "汽车读者",
+      "must_preserve": [
+        {
+          "quote": "4.0升双涡轮增压发动机，输出503马力",
+          "requirement": "对应V8及梅赛德斯-AMG来源"
+        },
+        {
+          "quote": "5.2升双涡轮增压发动机，输出600马力",
+          "requirement": "对应自主研发V12，不混淆版本"
+        },
+        {
+          "quote": "通过隐藏式进气口将气流导向尾部",
+          "requirement": "保留Aeroblade设计与高速稳定性联系"
+        }
+      ],
+      "voice_quote": "与德系竞争对手相比仍有提升空间",
+      "voice": "欣赏为主，保留具体批评",
+      "allowed_changes": [
+        "压缩英式豪华的重复赞美",
+        "合并内饰材质描述"
+      ],
+      "failure_conditions": [
+        "互换V8与V12排量、马力或来源",
+        "删除信息娱乐流畅性与界面短板"
+      ],
+      "scoring_note": "最易误伤版本对应：参数不能跨版本拼接。"
+    },
+    {
+      "id": "zh2-facts-051",
+      "suitable": true,
+      "reason": "活动细节与生育表态边界明确",
+      "task": "面向娱乐读者清理报道冗余；可删网页残留，不省活动信息、婚后关系与生育表态。",
+      "audience": "娱乐读者",
+      "must_preserve": [
+        {
+          "quote": "10月8日以一身高贵打扮现身台湾101大楼",
+          "requirement": "保留日期地点及过千万港币腕表"
+        },
+        {
+          "quote": "自己和老公财政独立",
+          "requirement": "保留财政独立及否认接工作须问丈夫"
+        },
+        {
+          "quote": "而如果怀孕则一定会公告天下",
+          "requirement": "保留条件承诺，不写成已经怀孕"
+        }
+      ],
+      "voice_quote": "只要他做一点点事我已经好满足",
+      "voice": "喜悦亲昵，保留口语温度",
+      "allowed_changes": [
+        "删听歌等网页残留",
+        "压缩重复喜悦描写"
+      ],
+      "failure_conditions": [
+        "将脱婚戒写成婚姻不和",
+        "将生育随缘写成已怀孕或确定备孕"
+      ],
+      "scoring_note": "最易误伤条件句：公告承诺不是怀孕消息。"
+    },
+    {
+      "id": "zh2-facts-052",
+      "suitable": true,
+      "reason": "预警数字与行动状态界限清晰",
+      "task": "面向新闻读者整理风暴快讯；可压缩重复警告，不省预报条件、响应规模及援助状态。",
+      "audience": "新闻读者",
+      "must_preserve": [
+        {
+          "quote": "正以每小时25公里的速度向吕宋岛东部沿海逼近",
+          "requirement": "保留移动速度与预计48小时内登陆"
+        },
+        {
+          "quote": "要求沿海12个省份做好人员撤离准备",
+          "requirement": "保留三级响应与准备状态"
+        },
+        {
+          "quote": "已调拨3.2亿比索应急资金",
+          "requirement": "保留社会福利部归属及87个避难所"
+        }
+      ],
+      "voice_quote": "愿根据菲方需求提供必要援助",
+      "voice": "紧迫克制，区分预测与行动",
+      "allowed_changes": [
+        "压缩重复风险提示",
+        "按预警、响应、风险重排"
+      ],
+      "failure_conditions": [
+        "把25公里每小时写成最大风速",
+        "将中方援助意愿写成援助已到位"
+      ],
+      "scoring_note": "最易误伤行动状态：撤离准备不等于已经撤离。"
+    }
+  ],
+  "metadata": {
+    "job": "rest-15",
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 97.14,
+    "system_sha256": "2c85943d84beabe7f1c8a64f793323c3fb90f4110f4f66ac756b1b69b3faf06e",
+    "input_sha256": "f32099e3093df55d0c06e9d4dcfc66298d2d5ea4e840c7d92bc234fbb6b1cf8c",
+    "usage": [
+      {
+        "input_tokens": 20503,
+        "cached_input_tokens": 10368,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2753,
+        "reasoning_output_tokens": 63
+      }
+    ],
+    "review_type": "model_annotation",
+    "human_review": false
+  }
+}

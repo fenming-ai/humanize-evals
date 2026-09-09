@@ -1,0 +1,72 @@
+{
+  "cases": [
+    {
+      "id": "zh2-punctuation-r021-p2",
+      "approve": true,
+      "reason": "引文准确，标点功能与原文一致，未越界裁定史实。"
+    },
+    {
+      "id": "zh2-punctuation-r022-p2",
+      "approve": true,
+      "reason": "缩写点与栏目冒号区分合理，保留要求忠实原文。"
+    },
+    {
+      "id": "zh2-punctuation-r023-p2",
+      "approve": true,
+      "reason": "引语、化名补注及分号功能准确，失败条件合理。"
+    },
+    {
+      "id": "zh2-punctuation-r024-p2",
+      "approve": true,
+      "reason": "术语、比例与括注保护合理，未强化疗效判断。"
+    },
+    {
+      "id": "zh2-punctuation-r025-p2",
+      "approve": true,
+      "reason": "并列因素与建议分组对应原文，任务边界清楚。"
+    },
+    {
+      "id": "zh2-punctuation-r026-p2",
+      "approve": true,
+      "reason": "各类符号功能判断合理，保留转述与推测限定。"
+    },
+    {
+      "id": "zh2-punctuation-r027-p2",
+      "approve": true,
+      "reason": "引文连续准确，对联及对仗词组边界保护合理。"
+    },
+    {
+      "id": "zh2-punctuation-r028-p2",
+      "approve": true,
+      "reason": "环节名称和配文引语准确，未改变评价主体。"
+    },
+    {
+      "id": "zh2-punctuation-r029-p2",
+      "approve": true,
+      "reason": "分号对照和括注归类忠实原文，失败条件一致。"
+    },
+    {
+      "id": "zh2-punctuation-r030-p2",
+      "approve": true,
+      "reason": "保留项目名及概率限定，未将质疑强制为事实。"
+    }
+  ],
+  "metadata": {
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 24.78,
+    "input_sha256": "68cdb1306a04523d247c8f1eb3737560a82de3c135dfac937651e24510353ba2",
+    "system_sha256": "0c41b551a96d085bbc3597749915f67732aa702736eddffdb625f85696aded81",
+    "usage": [
+      {
+        "input_tokens": 22202,
+        "cached_input_tokens": 9856,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 404,
+        "reasoning_output_tokens": 34
+      }
+    ],
+    "review_type": "independent_context_model_review",
+    "human_review": false
+  }
+}

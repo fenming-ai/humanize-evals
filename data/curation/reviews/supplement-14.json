@@ -1,0 +1,72 @@
+{
+  "cases": [
+    {
+      "id": "zh2-voice_emotion-r001",
+      "approve": true,
+      "reason": "引文准确，兼顾自信、谨慎与夺冠期待。"
+    },
+    {
+      "id": "zh2-voice_emotion-r002",
+      "approve": true,
+      "reason": "保留反讽与条件性劝退，未扩大批评范围。"
+    },
+    {
+      "id": "zh2-voice_emotion-r003",
+      "approve": true,
+      "reason": "立场忠实，明确区分个人解释与史实定论。"
+    },
+    {
+      "id": "zh2-voice_emotion-r004",
+      "approve": true,
+      "reason": "意象与追梦情绪有据，允许合理修正病句。"
+    },
+    {
+      "id": "zh2-voice_emotion-r005",
+      "approve": true,
+      "reason": "忠实保留辩护立场、商业理解与原创诉求。"
+    },
+    {
+      "id": "zh2-voice_emotion-r006",
+      "approve": true,
+      "reason": "保留理性劝诫，未将怀疑升级为盗窃事实。"
+    },
+    {
+      "id": "zh2-voice_emotion-r007",
+      "approve": true,
+      "reason": "采访态度与主客场取舍准确，失败条件合理。"
+    },
+    {
+      "id": "zh2-voice_emotion-r008",
+      "approve": true,
+      "reason": "保留两点解释与戏谑语气，营收判断限定明确。"
+    },
+    {
+      "id": "zh2-voice_emotion-r009",
+      "approve": true,
+      "reason": "保留双赢倡议与情绪，允许限定事例而不扩大指责。"
+    },
+    {
+      "id": "zh2-voice_emotion-r010",
+      "approve": true,
+      "reason": "归因保留观点属性，异议与乐观程度均忠实。"
+    }
+  ],
+  "metadata": {
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 30.29,
+    "input_sha256": "7cf4830d9a9267d4f80348a75eb6f2a53c82b7c6024ff548dd72ee063659569d",
+    "system_sha256": "0c41b551a96d085bbc3597749915f67732aa702736eddffdb625f85696aded81",
+    "usage": [
+      {
+        "input_tokens": 24246,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 407,
+        "reasoning_output_tokens": 36
+      }
+    ],
+    "review_type": "independent_context_model_review",
+    "human_review": false
+  }
+}

@@ -1,0 +1,333 @@
+{
+  "cases": [
+    {
+      "id": "zh2-punctuation-r011-p2",
+      "suitable": true,
+      "reason": "作品名与人名符号功能明确",
+      "task": "面向影评读者只审查标点，保护名称边界；正文词句、事实与声音不改写，不省略。",
+      "audience": "影评读者",
+      "must_preserve": [
+        {
+          "quote": "《爱乐之城》被误报获奖后又更正为《月光男孩》",
+          "requirement": "书名号区分两部影片，保留更正关系"
+        },
+        {
+          "quote": "主持人吉米·坎摩尔的幽默表现",
+          "requirement": "间隔号保留译名内部边界"
+        },
+        {
+          "quote": "既保持了专业水准又不失轻松氛围",
+          "requirement": "保留对主持表现的双重肯定"
+        }
+      ],
+      "voice_quote": "堪称一场戏剧性与惊喜并存的盛会",
+      "voice": "肯定中带惊叹的评论口吻",
+      "allowed_changes": [
+        "无明确标点错误可原样返回"
+      ],
+      "failure_conditions": [
+        "机械删除书名号或译名间隔号",
+        "改写乌龙结果或社会议题评价"
+      ],
+      "scoring_note": "名称符号易被当装饰删去，应按指称功能验收。"
+    },
+    {
+      "id": "zh2-punctuation-r012-p2",
+      "suitable": true,
+      "reason": "节目名称及条件停顿可保护",
+      "task": "面向综艺读者只审查标点，保护名称及假设层次；正文词句、事实与声音不改写，不省略。",
+      "audience": "综艺读者",
+      "must_preserve": [
+        {
+          "quote": "《我是歌手》和《中国最强音》等",
+          "requirement": "书名号标识各个节目名称"
+        },
+        {
+          "quote": "不过假设按此话题逻辑探讨，",
+          "requirement": "逗号承接假设前提，不割裂限定"
+        },
+        {
+          "quote": "很可能对《中国好声音》品牌价值造成不良影响",
+          "requirement": "保留可能性及品牌影响对象"
+        }
+      ],
+      "voice_quote": "观众会质疑节目评判标准的公正性和专业性",
+      "voice": "从观众立场分析并质疑",
+      "allowed_changes": [
+        "无必要可保留全部标点"
+      ],
+      "failure_conditions": [
+        "删书名号或用句号割裂假设条件",
+        "擅改姚贝娜参赛断言或节目名称"
+      ],
+      "scoring_note": "正文断言问题不属标点权限，不能借机纠错或背书。"
+    },
+    {
+      "id": "zh2-punctuation-r013-p2",
+      "suitable": true,
+      "reason": "括注与并列符号各有功能",
+      "task": "面向奶牛研究读者只审查标点，保护缩写和列举层级；正文词句、事实与声音不改写，不省略。",
+      "audience": "奶牛研究读者",
+      "must_preserve": [
+        {
+          "quote": "奶牛体况评分（BCS）",
+          "requirement": "括号标明中文术语对应缩写"
+        },
+        {
+          "quote": "代谢健康（如酮病、脂肪肝）",
+          "requirement": "括号限定举例，顿号区分疾病"
+        },
+        {
+          "quote": "存在主观性强、效率低的问题",
+          "requirement": "保留传统评估的两项局限"
+        }
+      ],
+      "voice_quote": "为精准畜牧业的发展提供了重要的技术支撑",
+      "voice": "正式综述与积极评价",
+      "allowed_changes": [
+        "可核查括号配对，无误原样保留"
+      ],
+      "failure_conditions": [
+        "删括号使疾病举例变成独立指标",
+        "改写BCS效果强度或补研究来源"
+      ],
+      "scoring_note": "括注层级易误伤；研究效果仅作来源保留，不核实。"
+    },
+    {
+      "id": "zh2-punctuation-r014-p2",
+      "suitable": true,
+      "reason": "分号列项与引号修辞可辨",
+      "task": "面向科普读者只审查标点，保护列项与修辞；正文词句、事实与声音不改写，不省略。",
+      "audience": "科普读者",
+      "must_preserve": [
+        {
+          "quote": "即事件超出常见认知范畴；二是启发性",
+          "requirement": "分号划分新奇性与启发性两项"
+        },
+        {
+          "quote": "灯塔水母具有“返老还童”的能力",
+          "requirement": "引号标示借用的形象说法"
+        },
+        {
+          "quote": "理论上可以无限循环这一过程",
+          "requirement": "保留理论上这一限定"
+        }
+      ],
+      "voice_quote": "我虽没有像人类一样的实际经历",
+      "voice": "自我限定的好奇与感悟",
+      "allowed_changes": [
+        "无明确修复必要可原样返回"
+      ],
+      "failure_conditions": [
+        "删修辞引号或混并分号两侧列项",
+        "改写水母能力或增添亲身经历"
+      ],
+      "scoring_note": "修辞引号不是赘余，删除会弱化借喻边界。"
+    },
+    {
+      "id": "zh2-punctuation-r015-p2",
+      "suitable": true,
+      "reason": "引号和分号具有清晰作用",
+      "task": "面向市场评论读者只审查标点，保护修辞和并列论述；正文词句、事实与声音不改写，不省略。",
+      "audience": "市场评论读者",
+      "must_preserve": [
+        {
+          "quote": "流动性“源源不断”是多重因素共同作用的结果",
+          "requirement": "引号标示流动性的形象化说法"
+        },
+        {
+          "quote": "政策刺激市场流动性释放；另一方面，",
+          "requirement": "分号分开两方面原因"
+        },
+        {
+          "quote": "但也需警惕市场波动风险",
+          "requirement": "保留对乐观论述的风险转折"
+        }
+      ],
+      "voice_quote": "建议投资者保持理性，谨慎操作",
+      "voice": "乐观预测兼有谨慎提醒",
+      "allowed_changes": [
+        "可审查首句逗号，不强制修改"
+      ],
+      "failure_conditions": [
+        "机械删引号或分号，抹平修辞与层次",
+        "改写央行政策或补造专家数据"
+      ],
+      "scoring_note": "不能用标点整理替代事实核查，也不能强化预测。"
+    },
+    {
+      "id": "zh2-punctuation-r016-p2",
+      "suitable": true,
+      "reason": "书名号与直接引语边界明确",
+      "task": "面向娱乐读者只整理标点，统一引号形制并保护引语；正文词句、事实与声音不改写，不省略。",
+      "audience": "娱乐读者",
+      "must_preserve": [
+        {
+          "quote": "以《满城尽带黄金甲》出道的演员",
+          "requirement": "书名号保留作品名称边界"
+        },
+        {
+          "quote": "她在采访中分享：\"演员需要保持开放心态，",
+          "requirement": "冒号引出直接引语，引号界定原话"
+        },
+        {
+          "quote": "评论区瞬间被\"姐姐好辣\"刷屏",
+          "requirement": "引号区分评论内容与叙述"
+        }
+      ],
+      "voice_quote": "李曼的每一次亮相都带来惊喜",
+      "voice": "赞赏热情的娱乐报道口吻",
+      "allowed_changes": [
+        "可将半角双引号成对统一为中文引号"
+      ],
+      "failure_conditions": [
+        "删冒号引号使采访原话混入叙述",
+        "改写李曼履历、拍摄地点或引语"
+      ],
+      "scoring_note": "引号形制可统一，但原话边界和正文不可顺带改动。"
+    },
+    {
+      "id": "zh2-punctuation-r017-p2",
+      "suitable": true,
+      "reason": "歌名与歌词片段标识可保护",
+      "task": "面向乐评读者只审查标点，保护歌名与歌词引用；正文词句、事实与声音不改写，不省略。",
+      "audience": "乐评读者",
+      "must_preserve": [
+        {
+          "quote": "张楚的《上苍保佑吃完了饭的人民》",
+          "requirement": "书名号界定完整歌名"
+        },
+        {
+          "quote": "歌词中的“吃完了饭”象征着",
+          "requirement": "引号标明歌词片段而非作者原话"
+        },
+        {
+          "quote": "然而，在表面喜悦之下，",
+          "requirement": "停顿保留从喜悦到批判的转折"
+        }
+      ],
+      "voice_quote": "希望这首歌曲能够唤起更多人的关注",
+      "voice": "同情弱者并热切呼吁",
+      "allowed_changes": [
+        "无明确错误可原样保留"
+      ],
+      "failure_conditions": [
+        "机械删书名号和引号混淆歌名与歌词",
+        "改写张楚歌曲解读或删结尾致谢"
+      ],
+      "scoring_note": "重复引号仍承担引用功能，不按频次判为冗余。"
+    },
+    {
+      "id": "zh2-punctuation-r018-p2",
+      "suitable": true,
+      "reason": "列举与总统引语层次明确",
+      "task": "面向新闻读者只审查标点，保护因素列举及引语；正文词句、事实与声音不改写，不省略。",
+      "audience": "新闻读者",
+      "must_preserve": [
+        {
+          "quote": "主要受到两大因素制约：一是",
+          "requirement": "冒号引出两项制约因素"
+        },
+        {
+          "quote": "对外贸易环境恶化；二是随着技术进步",
+          "requirement": "分号分隔两项原因而非因果递进"
+        },
+        {
+          "quote": "美国总统强调：“我们将继续采取措施",
+          "requirement": "冒号及引号标明总统直接发言"
+        }
+      ],
+      "voice_quote": "社会各界应保持信心，共同应对挑战",
+      "voice": "正式报道兼有鼓励语气",
+      "allowed_changes": [
+        "可核查引号配对，无误原样保留"
+      ],
+      "failure_conditions": [
+        "删列举分号或引语引号造成层次混淆",
+        "改写就业预测、政策或总统发言"
+      ],
+      "scoring_note": "引语是原稿归属，不意味着其真实性已获核实。"
+    },
+    {
+      "id": "zh2-punctuation-r019-p2",
+      "suitable": true,
+      "reason": "多层引用及并列停顿功能丰富",
+      "task": "面向散文读者只审查全文标点，保护引用与节奏；正文词句、事实与声音不改写，不省略。",
+      "audience": "散文读者",
+      "must_preserve": [
+        {
+          "quote": "我在图书馆翻开一本《瓦尔登湖》",
+          "requirement": "书名号界定阅读对象"
+        },
+        {
+          "quote": "他记录湖面泛起的涟漪；午后，",
+          "requirement": "分号保留清晨与午后的并列节奏"
+        },
+        {
+          "quote": "他却说：\"我在用一生的时间，",
+          "requirement": "冒号引号标明老教师直接发言"
+        }
+      ],
+      "voice_quote": "或许，最好的远行就是学会用心灵去看见",
+      "voice": "温柔内省、富有感悟",
+      "allowed_changes": [
+        "可成对统一全文半角引号为中文引号"
+      ],
+      "failure_conditions": [
+        "机械删书名号、引号或时段分号",
+        "改写梭罗经历、教师事例或作者感悟"
+      ],
+      "scoring_note": "全文引语与修辞引号用途不同，统一形制不能抹平功能。"
+    },
+    {
+      "id": "zh2-punctuation-r020-p2",
+      "suitable": true,
+      "reason": "简称括注与争议措辞界限明确",
+      "task": "面向新闻读者只审查标点，保护简称与争议措辞边界；正文词句、事实与声音不改写，不省略。",
+      "audience": "新闻读者",
+      "must_preserve": [
+        {
+          "quote": "美国有线电视新闻网（CNN）",
+          "requirement": "括号标示机构简称"
+        },
+        {
+          "quote": "将中国皮蛋列为“全球最恶心食物”的旧文",
+          "requirement": "引号标明旧文措辞而非作者判断"
+        },
+        {
+          "quote": "认为媒体应对其不当言论负责；也有声音指出",
+          "requirement": "分号区分两类评论声音"
+        }
+      ],
+      "voice_quote": "理应得到尊重和理解",
+      "voice": "正式叙述并强调文化尊重",
+      "allowed_changes": [
+        "无明确标点错误可原样返回"
+      ],
+      "failure_conditions": [
+        "删争议措辞引号或分号混淆立场归属",
+        "改写CNN道歉或外交部回应内容"
+      ],
+      "scoring_note": "争议措辞引号关乎立场归属，保护不等于核实报道。"
+    }
+  ],
+  "metadata": {
+    "job": "punctuation_v2-05",
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 94.79,
+    "system_sha256": "3ae39d4cdd1a190d9634734fff98af6538ba69e53c44419197138e6205d7858a",
+    "input_sha256": "be6adc9e426b923212a05e7e856918ea96ae3c09488c917298b0950f0d604316",
+    "usage": [
+      {
+        "input_tokens": 19988,
+        "cached_input_tokens": 6016,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2728,
+        "reasoning_output_tokens": 33
+      }
+    ],
+    "review_type": "model_annotation",
+    "human_review": false
+  }
+}

@@ -1,0 +1,261 @@
+{
+  "cases": [
+    {
+      "id": "zh2-no_edit-q071",
+      "suitable": true,
+      "reason": "招生信息清楚，校际差异明确",
+      "task": "面向中考家庭验收保留型稿件；允许原样输出，不省略招生数据及各校考察差异。",
+      "audience": "中考学生及家长",
+      "must_preserve": [
+        {
+          "quote": "今年54所上海市实验性示范性高中",
+          "requirement": "保留54所、1963人及浦东498人"
+        },
+        {
+          "quote": "5月下旬，各高中将陆续进行自主招生测试",
+          "requirement": "保留测试时间与陆续开展的安排"
+        },
+        {
+          "quote": "复兴高中则在面谈时可能会组织一些游戏",
+          "requirement": "保留可能性，不改成确定安排"
+        }
+      ],
+      "voice_quote": "据介绍，不少市实验性示范性高中",
+      "voice": "客观介绍，保留消息归属",
+      "allowed_changes": [
+        "可原样输出；仅微调断句"
+      ],
+      "failure_conditions": [
+        "混同复旦分组讨论与交大独立能力考察",
+        "删除复兴游戏中关注的三类能力"
+      ],
+      "scoring_note": "最易误伤事实边界：各校考察方式不能合并。"
+    },
+    {
+      "id": "zh2-no_edit-q072",
+      "suitable": false,
+      "reason": "多处微博标记属明显网页残留",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-q073",
+      "suitable": true,
+      "reason": "考后反馈与提醒衔接清楚",
+      "task": "面向考生家长验收保留型报道；可原样输出，不删考生反馈、教师提醒及作文要求。",
+      "audience": "中考考生及家长",
+      "must_preserve": [
+        {
+          "quote": "13日上午11：30，烟台中考物理科目考试结束",
+          "requirement": "保留日期、时间、地点及科目"
+        },
+        {
+          "quote": "许多考生认为试题不算难",
+          "requirement": "保留考生主观感受及范围"
+        },
+        {
+          "quote": "今年中考作文题目为“敬畏生命”，要求600字以上",
+          "requirement": "保留题目与字数下限"
+        }
+      ],
+      "voice_quote": "我感觉还行，这试题不是很难。",
+      "voice": "平实报道中保留考生口语",
+      "allowed_changes": [
+        "可原样输出；仅微调分段"
+      ],
+      "failure_conditions": [
+        "把考生感觉改成试题客观难度结论",
+        "删去张老师不宜考后讨论试题的提醒"
+      ],
+      "scoring_note": "最易误伤声音：考生口语不是待清除的赘语。"
+    },
+    {
+      "id": "zh2-no_edit-q074",
+      "suitable": false,
+      "reason": "快艇获救报道整段重复",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-q075",
+      "suitable": false,
+      "reason": "不同宗教间的事务表述明显生硬",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-q076",
+      "suitable": false,
+      "reason": "死亡人数口径及会议时态未衔接",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-q077",
+      "suitable": true,
+      "reason": "事件与双方回应完整连贯",
+      "task": "面向娱乐新闻读者验收保留稿；可原样输出，不删友情争议经过、母亲安慰及双方回应。",
+      "audience": "娱乐新闻读者",
+      "must_preserve": [
+        {
+          "quote": "两人半年没联络、之后在节目中几乎零互动",
+          "requirement": "保留两项事件及几乎的程度"
+        },
+        {
+          "quote": "很多事不说被误会、说了被误解，完全不知所措",
+          "requirement": "保留潘裕文被误解的委屈"
+        },
+        {
+          "quote": "纯粹的友谊经得起考验",
+          "requirement": "保留这是杨宗纬的回应"
+        }
+      ],
+      "voice_quote": "虽然不知道怎么帮助你，但我会一直支持你，加油",
+      "voice": "报道中保留委屈与亲情安慰",
+      "allowed_changes": [
+        "可原样输出；可按事件分段"
+      ],
+      "failure_conditions": [
+        "把半年没联络写成双方正式绝交",
+        "把潘裕文大哭原因改成遭母亲责备"
+      ],
+      "scoring_note": "最易误伤情绪：压缩引语会抹去委屈与支持。"
+    },
+    {
+      "id": "zh2-no_edit-q078",
+      "suitable": true,
+      "reason": "礼物处置报道层次清晰",
+      "task": "面向国际新闻读者验收保留稿；可原样输出，不省略礼物来历、售价归属及购买规则。",
+      "audience": "国际新闻读者",
+      "must_preserve": [
+        {
+          "quote": "骆驼座鞍已于今年夏季卖掉，售价仅20英镑",
+          "requirement": "保留售价为英国传媒披露"
+        },
+        {
+          "quote": "在7月8日拍卖，但拒绝谈论成交价",
+          "requirement": "保留首相府仅确认拍卖"
+        },
+        {
+          "quote": "只要首相支付同等价值的金钱就可以将礼物据为己有",
+          "requirement": "保留同等价值支付条件"
+        }
+      ],
+      "voice_quote": "但据英国传媒披露",
+      "voice": "新闻叙述，区分不同信源",
+      "allowed_changes": [
+        "可原样输出；仅整理分段"
+      ],
+      "failure_conditions": [
+        "称首相府证实20英镑成交价",
+        "把500英镑购笔写成购买骆驼座鞍"
+      ],
+      "scoring_note": "最易误伤归属：媒体售价与官方确认范围不同。"
+    },
+    {
+      "id": "zh2-no_edit-q079",
+      "suitable": true,
+      "reason": "病情、转院及背景交代清楚",
+      "task": "面向新闻读者验收保留稿；可原样输出，不删病情、转院顺序及留任背景。",
+      "audience": "一般新闻读者",
+      "must_preserve": [
+        {
+          "quote": "波伊.拜登当天罹患轻度中风",
+          "requirement": "保留患者身份及轻度程度"
+        },
+        {
+          "quote": "情况稳定，意识清醒，维持完全讲话功能",
+          "requirement": "保留白宫说明的三项状态"
+        },
+        {
+          "quote": "后来决定留任德拉瓦州司法厅长",
+          "requirement": "保留曾拟争取参议员而后留任"
+        }
+      ],
+      "voice_quote": "据“中央社”消息，白宫11日宣布",
+      "voice": "简洁消息体，注明信息归属",
+      "allowed_changes": [
+        "可原样输出；可规范姓名间隔符"
+      ],
+      "failure_conditions": [
+        "把中风患者写成副总统拜登",
+        "颠倒纽瓦克与费城两次就医顺序"
+      ],
+      "scoring_note": "最易误伤主体：拜登父子身份不能混淆。"
+    },
+    {
+      "id": "zh2-no_edit-q080",
+      "suitable": true,
+      "reason": "创作缘由、过程与收益安排清楚",
+      "task": "面向影视读者验收保留稿；可原样输出，不删反捕鲸主题、合作分工及捐赠期限。",
+      "audience": "影视及音乐新闻读者",
+      "must_preserve": [
+        {
+          "quote": "他给MV设计了一个反捕鲸的概念",
+          "requirement": "保留莱杰的创作主题及立场"
+        },
+        {
+          "quote": "他跟莱杰两人花了三个星期时间来制作这部MV",
+          "requirement": "保留奥博与莱杰合作及三周时长"
+        },
+        {
+          "quote": "第一个月的下载收益将捐赠给社会公益事业",
+          "requirement": "保留iTunes首月收益及计划语气"
+        }
+      ],
+      "voice_quote": "我们采用了一些比较惊悚的元素",
+      "voice": "平实报道，保留创作者解释",
+      "allowed_changes": [
+        "可原样输出；仅规范中英文括号"
+      ],
+      "failure_conditions": [
+        "将首月下载收益扩大为全部收益",
+        "把公益捐赠对象具体化为某捕鲸组织"
+      ],
+      "scoring_note": "最易误伤条件：捐赠有平台、期限及未来时态。"
+    }
+  ],
+  "metadata": {
+    "job": "noedit_quality-07",
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 69.66,
+    "system_sha256": "2c85943d84beabe7f1c8a64f793323c3fb90f4110f4f66ac756b1b69b3faf06e",
+    "input_sha256": "8ea638ce9bd54e204210b70e317a0f9c074592f1d534c19dc7e22cb8ab108941",
+    "usage": [
+      {
+        "input_tokens": 19011,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1965,
+        "reasoning_output_tokens": 128
+      }
+    ],
+    "review_type": "model_annotation",
+    "human_review": false
+  }
+}

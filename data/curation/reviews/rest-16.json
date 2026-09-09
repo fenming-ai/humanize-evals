@@ -1,0 +1,72 @@
+{
+  "cases": [
+    {
+      "id": "zh2-facts-053",
+      "approve": true,
+      "reason": "伤情、数据及待检查状态忠实，未强化医疗安全结论。"
+    },
+    {
+      "id": "zh2-facts-054",
+      "approve": true,
+      "reason": "任职、收益口径与预测边界准确，失败条件合理。"
+    },
+    {
+      "id": "zh2-facts-055",
+      "approve": true,
+      "reason": "条件与统计口径有据，未将移民路径等同入学保证。"
+    },
+    {
+      "id": "zh2-facts-056",
+      "approve": true,
+      "reason": "报名时间、专业数量及办理步骤均忠实原稿。"
+    },
+    {
+      "id": "zh2-facts-057",
+      "approve": true,
+      "reason": "球队归属、阶段比分与进球统计边界准确。"
+    },
+    {
+      "id": "zh2-facts-058",
+      "approve": true,
+      "reason": "准确区分招生计划、实际录取与未来预测。"
+    },
+    {
+      "id": "zh2-facts-059",
+      "approve": true,
+      "reason": "考试阶段、未延期及调查状态准确，举报要求有据。"
+    },
+    {
+      "id": "zh2-facts-060",
+      "approve": true,
+      "reason": "保留传闻未证实状态及替代解释，未强制猜测为事实。"
+    },
+    {
+      "id": "zh2-facts-061",
+      "approve": true,
+      "reason": "金额币种、比较基期与业绩预期忠实原稿。"
+    },
+    {
+      "id": "zh2-facts-062",
+      "approve": true,
+      "reason": "篮板与个人数据归属准确，调整建议未写成既成事实。"
+    }
+  ],
+  "metadata": {
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 23.27,
+    "input_sha256": "dc9141d4dfcae3a874a83226f62c1cfdb35f4f34b24d1c6d6608fbed7a79a8c4",
+    "system_sha256": "0c41b551a96d085bbc3597749915f67732aa702736eddffdb625f85696aded81",
+    "usage": [
+      {
+        "input_tokens": 21800,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 392,
+        "reasoning_output_tokens": 50
+      }
+    ],
+    "review_type": "independent_context_model_review",
+    "human_review": false
+  }
+}

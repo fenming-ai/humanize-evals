@@ -1,0 +1,72 @@
+{
+  "cases": [
+    {
+      "id": "zh2-long_form-r001",
+      "approve": true,
+      "reason": "引文准确，保留论证层次且避免强化史料可信度。"
+    },
+    {
+      "id": "zh2-long_form-r002",
+      "approve": true,
+      "reason": "忠实保留递进结构、责任意识与自我认同。"
+    },
+    {
+      "id": "zh2-long_form-r003",
+      "approve": true,
+      "reason": "准确保留自省及重心转向，失败条件合理。"
+    },
+    {
+      "id": "zh2-long_form-r004",
+      "approve": true,
+      "reason": "身份时空准确，区分未来设想与事实，删话术合理。"
+    },
+    {
+      "id": "zh2-long_form-r005",
+      "approve": true,
+      "reason": "四味结构及正负体验均有依据，未强化健康断言。"
+    },
+    {
+      "id": "zh2-long_form-r006",
+      "approve": true,
+      "reason": "叙事转折与情绪变化忠实，允许精简史事归属。"
+    },
+    {
+      "id": "zh2-long_form-r007",
+      "approve": true,
+      "reason": "背景、协作困难及数量准确，禁止补写事件合理。"
+    },
+    {
+      "id": "zh2-long_form-r008",
+      "approve": true,
+      "reason": "引文准确，保留丧亲悲痛到温暖传承的转折。"
+    },
+    {
+      "id": "zh2-long_form-r009",
+      "approve": true,
+      "reason": "问与听的递进准确，正文与推荐语边界合理。"
+    },
+    {
+      "id": "zh2-long_form-r010",
+      "approve": true,
+      "reason": "中心及论证层次忠实，未将附评视作史实核验。"
+    }
+  ],
+  "metadata": {
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 21.33,
+    "input_sha256": "c3099ec605fc5c2ea2a6a85eaf86146c2fb7a4bb20635102633e569264f4f55d",
+    "system_sha256": "0c41b551a96d085bbc3597749915f67732aa702736eddffdb625f85696aded81",
+    "usage": [
+      {
+        "input_tokens": 30580,
+        "cached_input_tokens": 9856,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 394,
+        "reasoning_output_tokens": 42
+      }
+    ],
+    "review_type": "independent_context_model_review",
+    "human_review": false
+  }
+}

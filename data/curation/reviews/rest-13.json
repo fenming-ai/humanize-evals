@@ -1,0 +1,62 @@
+{
+  "cases": [
+    {
+      "id": "zh2-facts-023",
+      "approve": true,
+      "reason": "数字、范围与预测限定忠实，失败条件合理。"
+    },
+    {
+      "id": "zh2-facts-025",
+      "approve": true,
+      "reason": "实验参数、统计对应与推测层级均有原文依据。"
+    },
+    {
+      "id": "zh2-facts-026",
+      "approve": true,
+      "reason": "区分作者评价与客观数据，保留争议及时间限定。"
+    },
+    {
+      "id": "zh2-facts-027",
+      "approve": true,
+      "reason": "专业范围、运输对象与建议性质均忠实原稿。"
+    },
+    {
+      "id": "zh2-facts-028",
+      "approve": true,
+      "reason": "事件坐标、自述经历与回应归属有依据，验收合理。"
+    },
+    {
+      "id": "zh2-facts-030",
+      "approve": true,
+      "reason": "时间、来源与统计口径明确，未要求外部背书。"
+    },
+    {
+      "id": "zh2-facts-031",
+      "approve": true,
+      "reason": "技术建议与假设例子界限清楚，未强加算法保证。"
+    },
+    {
+      "id": "zh2-facts-032",
+      "approve": true,
+      "reason": "人物、工具及用途忠实，允许限定无支撑保证。"
+    }
+  ],
+  "metadata": {
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 21.08,
+    "input_sha256": "4be752c9f190d4d0576fa5097e7737dc8f8be4310444406b56928cba1abb06da",
+    "system_sha256": "0c41b551a96d085bbc3597749915f67732aa702736eddffdb625f85696aded81",
+    "usage": [
+      {
+        "input_tokens": 20966,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 354,
+        "reasoning_output_tokens": 83
+      }
+    ],
+    "review_type": "independent_context_model_review",
+    "human_review": false
+  }
+}

@@ -1,0 +1,1 @@
+{"type": "object", "properties": {"cases": {"type": "array", "items": {"type": "object", "properties": {"id": {"type": "string"}, "approve": {"type": "boolean"}, "reason": {"type": "string"}}, "required": ["id", "approve", "reason"], "additionalProperties": false}}}, "required": ["cases"], "additionalProperties": false}

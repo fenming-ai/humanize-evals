@@ -1,0 +1,72 @@
+{
+  "cases": [
+    {
+      "id": "zh2-facts-043",
+      "approve": true,
+      "reason": "保护点忠实，保留小鼠模型与机制不确定性。"
+    },
+    {
+      "id": "zh2-facts-044",
+      "approve": true,
+      "reason": "时间线、父亲角色及金额选择关系均符合原文。"
+    },
+    {
+      "id": "zh2-facts-045",
+      "approve": true,
+      "reason": "准确区分建议、计划与执行，统计口径合理。"
+    },
+    {
+      "id": "zh2-facts-046",
+      "approve": true,
+      "reason": "数据口径与预测归属清楚，失败条件合理。"
+    },
+    {
+      "id": "zh2-facts-047",
+      "approve": true,
+      "reason": "试验条件忠实，正确保护显著性与阴性结果边界。"
+    },
+    {
+      "id": "zh2-facts-048",
+      "approve": true,
+      "reason": "保留涨幅方向、指标归属及预测限定，符合原文。"
+    },
+    {
+      "id": "zh2-facts-049",
+      "approve": true,
+      "reason": "评价、统计与回应归属忠实，未强制推测为事实。"
+    },
+    {
+      "id": "zh2-facts-050",
+      "approve": true,
+      "reason": "参数版本对应准确，工程特点与具体短板均有依据。"
+    },
+    {
+      "id": "zh2-facts-051",
+      "approve": true,
+      "reason": "活动与婚后表态忠实，正确区分怀孕条件与事实。"
+    },
+    {
+      "id": "zh2-facts-052",
+      "approve": true,
+      "reason": "移动速度、响应规模及援助状态均忠于原文。"
+    }
+  ],
+  "metadata": {
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 22.76,
+    "input_sha256": "5e0883a0e6b3eb5d2ce737f09bd40cb28927ef954ee97d0480f4a69ef281793d",
+    "system_sha256": "0c41b551a96d085bbc3597749915f67732aa702736eddffdb625f85696aded81",
+    "usage": [
+      {
+        "input_tokens": 23064,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 367,
+        "reasoning_output_tokens": 30
+      }
+    ],
+    "review_type": "independent_context_model_review",
+    "human_review": false
+  }
+}

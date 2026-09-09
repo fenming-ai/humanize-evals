@@ -1,0 +1,323 @@
+{
+  "cases": [
+    {
+      "id": "zh2-voice_emotion-037",
+      "suitable": true,
+      "reason": "拟人与谐音构成鲜明推介口吻",
+      "task": "面向家具消费者整理推介文，可删重复赞词与导流，不删纹理、定制及审美意象。",
+      "audience": "家具消费者",
+      "must_preserve": [
+        {
+          "quote": "黑胡桃的外在美，表现在黑胡桃的六大纹理",
+          "requirement": "保留六类纹理的原文描述"
+        },
+        {
+          "quote": "定制让您的家独一无二",
+          "requirement": "保留定制满足差异需求的诉求"
+        },
+        {
+          "quote": "她依旧是那么“桃”人喜欢",
+          "requirement": "保留亲昵拟人及谐音趣味"
+        }
+      ],
+      "voice_quote": "黑胡桃家具，就像一首古诗",
+      "voice": "华丽、诗化、亲昵的推介",
+      "allowed_changes": [
+        "合并重复纹路赞词，删除末尾导流",
+        "修正病句，限定无支撑的历史断言"
+      ],
+      "failure_conditions": [
+        "把六类纹理改成六种木材拼接",
+        "删尽女子、古诗等拟人比喻"
+      ],
+      "scoring_note": "最易误伤华丽声调；不能将全部修辞视为空话。"
+    },
+    {
+      "id": "zh2-voice_emotion-038",
+      "suitable": true,
+      "reason": "球迷以嗔骂表达深厚眷恋",
+      "task": "面向球迷理顺致鲁尼的回忆，可调断句，不删怨气、珍藏细节及致谢。",
+      "audience": "球迷",
+      "must_preserve": [
+        {
+          "quote": "因为当时你用要挟离队来涨薪",
+          "requirement": "保留作者曾因此愤怒开骂"
+        },
+        {
+          "quote": "你加盟曼联的那张体坛周报，我现在还留着",
+          "requirement": "保留珍藏加盟报纸的细节"
+        },
+        {
+          "quote": "你就是只想用力射门的那个傻子",
+          "requirement": "保留嗔骂中的亲昵并以感谢收束"
+        }
+      ],
+      "voice_quote": "逼都不会装，看看你当时激动的像个傻子一样",
+      "voice": "粗口调侃中夹着怨气与深情",
+      "allowed_changes": [
+        "整理长句、标点及局部回忆衔接"
+      ],
+      "failure_conditions": [
+        "把鲁尼写成作者眼中完美忠诚的偶像",
+        "将“傻子”等嗔骂全改成庄重赞辞"
+      ],
+      "scoring_note": "最易误伤亲昵粗口；表面贬词并非单纯敌意。"
+    },
+    {
+      "id": "zh2-voice_emotion-039",
+      "suitable": true,
+      "reason": "为沉默青年辩护的情绪明确",
+      "task": "面向青年读者理顺沉默辩护，可删重复论证与乱码，不删行动例证和良心宣言。",
+      "audience": "青年读者",
+      "must_preserve": [
+        {
+          "quote": "沉默往往伴随着力量的积聚",
+          "requirement": "保留沉默可孕育行动的观点"
+        },
+        {
+          "quote": "看看那些任劳任怨的志愿者",
+          "requirement": "保留震后青年行动的例证"
+        },
+        {
+          "quote": "我的沉默对得起我的良心",
+          "requirement": "保留第一人称坚定自辩"
+        }
+      ],
+      "voice_quote": "沉默的一代人绝不会是垮掉的一代人",
+      "voice": "警惕而自信，激昂地为同代辩护",
+      "allowed_changes": [
+        "清理乱码问号，合并重复反问",
+        "限定未获支撑的引语和群体概括"
+      ],
+      "failure_conditions": [
+        "把沉默解释成漠视道德、逃避行动",
+        "替鲁迅引语或调查补造权威出处"
+      ],
+      "scoring_note": "最易误伤辩护力度；限定概括不等于撤回立场。"
+    },
+    {
+      "id": "zh2-voice_emotion-040",
+      "suitable": false,
+      "reason": "以赛况数据为主，声音情绪不足",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-voice_emotion-041",
+      "suitable": true,
+      "reason": "悼念敬仰与悲愤形成鲜明声调",
+      "task": "面向纪念散文读者梳理叙述，可修符号、限定未证细节，不删荷花框架和敬仰立场。",
+      "audience": "纪念散文读者",
+      "must_preserve": [
+        {
+          "quote": "更为的是纪念一个“死囚”的无悔抉择",
+          "requirement": "保留赏荷与纪念无悔选择的关联"
+        },
+        {
+          "quote": "是跟别人一起疯狂，还是勇敢地站起来",
+          "requirement": "保留作者笔下拒绝随众的抉择"
+        },
+        {
+          "quote": "而是怀着敬仰的心称她为：张志新烈士",
+          "requirement": "保留称谓转变及敬仰的落点"
+        }
+      ],
+      "voice_quote": "但子弹能结束她的思想，却不能结束真理",
+      "voice": "庄严悲愤，以层递表达敬仰",
+      "allowed_changes": [
+        "修正引号乱码，整理层递段落",
+        "将内心对白等限定为文学想象"
+      ],
+      "failure_conditions": [
+        "将张志新的选择改成悔恨退缩",
+        "把临刑对白宣称为已核实史料"
+      ],
+      "scoring_note": "最易混淆悲壮修辞与史证；保留情感不替细节背书。"
+    },
+    {
+      "id": "zh2-voice_emotion-042",
+      "suitable": true,
+      "reason": "自嘲经历与同辈鼓励可辨",
+      "task": "面向有意招飞的高中生整理个人经历，可删跑题重复，不删落选缘由；勿改成现行指南。",
+      "audience": "有意招飞的高中生",
+      "must_preserve": [
+        {
+          "quote": "但是最后没有考上飞行学院",
+          "requirement": "保留因高考分低未录取的结局"
+        },
+        {
+          "quote": "报名参加招飞的人一共有1100多人",
+          "requirement": "保留自述天津报名及剩百余人的数量"
+        },
+        {
+          "quote": "但是也没有什么遗憾的，努力过了就行",
+          "requirement": "保留释然及鼓励同学的态度"
+        }
+      ],
+      "voice_quote": "因为分低哈哈哈",
+      "voice": "口语自嘲、热心叮嘱、坦然鼓励",
+      "allowed_changes": [
+        "清理重复、错字与流程衔接",
+        "将政审等绝对说法限定为个人理解"
+      ],
+      "failure_conditions": [
+        "把作者写成已考入飞行学院",
+        "将家人进派出所即淘汰写成官方规定"
+      ],
+      "scoring_note": "最易将亲历口吻升级为权威；需区分经历与规则。"
+    },
+    {
+      "id": "zh2-voice_emotion-043",
+      "suitable": true,
+      "reason": "分节节奏与诗意陶醉鲜明",
+      "task": "面向散文读者梳理雨中登山，可减重复意象，不删怅然到陶醉的转折和诗意生活落点。",
+      "audience": "散文读者",
+      "must_preserve": [
+        {
+          "quote": "醉得没有了前行的路",
+          "requirement": "保留泥路难行带来的怅然"
+        },
+        {
+          "quote": "越过草丛，越过荆棘",
+          "requirement": "保留弃路攀登的行动转折"
+        },
+        {
+          "quote": "那是我们心中的海，比真正的海更加波涛汹涌",
+          "requirement": "保留心中之海而非实际海景"
+        }
+      ],
+      "voice_quote": "因为这是我们自己的歌啊，我们自己的诗",
+      "voice": "感官丰沛、陶醉热烈、诗化咏叹",
+      "allowed_changes": [
+        "压缩重复醉态描写，理顺局部衔接",
+        "整理雨、路、山、水的短句分节"
+      ],
+      "failure_conditions": [
+        "把掌中雨水与心中之海写成真实海域",
+        "改成只记路线难度的登山攻略"
+      ],
+      "scoring_note": "最易误伤短句与拟人；它们承担游踪节奏和情感。"
+    },
+    {
+      "id": "zh2-voice_emotion-044",
+      "suitable": true,
+      "reason": "具体母女经验支撑温柔愧疚",
+      "task": "面向亲情散文读者收紧抒情，可缩引诗与泛论，不删母亲隐忍、作者察觉及及时珍惜。",
+      "audience": "亲情散文读者",
+      "must_preserve": [
+        {
+          "quote": "因为不愿影响我的学习，母亲依然故作坚强",
+          "requirement": "保留母亲遭变故仍顾及孩子的隐忍"
+        },
+        {
+          "quote": "我开始习惯在吃饭时抬头看着她的眼睛",
+          "requirement": "保留从凝视中发现母亲脆弱的转变"
+        },
+        {
+          "quote": "是不是不该再错过了呢",
+          "requirement": "保留不要等以后才珍惜的自省"
+        }
+      ],
+      "voice_quote": "抬头看看妈妈，看看她那深情的眼眸",
+      "voice": "温柔心疼，带愧疚的劝慰",
+      "allowed_changes": [
+        "缩短长篇引诗和重复母爱泛论",
+        "理顺文学引入与个人经历的过渡"
+      ],
+      "failure_conditions": [
+        "编造母亲遭遇的疾病或家庭事故",
+        "删掉吃饭时观察母亲眼睛的细节"
+      ],
+      "scoring_note": "最易把私人觉察改成母爱口号，削弱情感依据。"
+    },
+    {
+      "id": "zh2-voice_emotion-045",
+      "suitable": true,
+      "reason": "晒物口吻与自嘲表情鲜明",
+      "task": "面向饰品交流读者整理晒物口述，可补标点，不删物件经历与自嘲；不补图中信息。",
+      "audience": "饰品交流读者",
+      "must_preserve": [
+        {
+          "quote": "妈妈当成生日礼物送给我的",
+          "requirement": "保留六年前手链来自妈妈及佩戴习惯"
+        },
+        {
+          "quote": "有两个，我一个妈妈一个",
+          "requirement": "保留银香囊母女各一、因重当手链"
+        },
+        {
+          "quote": "不过只是收藏，不能戴哈哈哈也不知道丢哪了",
+          "requirement": "保留纪念钞仅收藏及遗忘去向的自嘲"
+        }
+      ],
+      "voice_quote": "感觉像广告.....要接着实习了，溜了溜了",
+      "voice": "随意晒物、俏皮自嘲、聊天式收尾",
+      "allowed_changes": [
+        "按物件分段，补标点",
+        "可精简语气重复，保留代表性表情"
+      ],
+      "failure_conditions": [
+        "替银钥匙识别具体银行或补造图片细节",
+        "把个人晒物改成银行官方促销"
+      ],
+      "scoring_note": "最易误删表情与跑题自嘲，它们构成非广告的亲近感。"
+    },
+    {
+      "id": "zh2-voice_emotion-046",
+      "suitable": true,
+      "reason": "代际自辩兼有成长留恋",
+      "task": "面向同龄人与长辈整理成长自述，可删评分和重复比喻，不删缺点自省、代际立场与高考节点。",
+      "audience": "同龄人与长辈",
+      "must_preserve": [
+        {
+          "quote": "90后与80后、70后没什么两样",
+          "requirement": "保留各代都经历成长的立场"
+        },
+        {
+          "quote": "但也不愿依偎在父母的臂湾下没有尽头",
+          "requirement": "保留承认懒惰又渴望独立的矛盾"
+        },
+        {
+          "quote": "高考过后，我们这些90后的老大",
+          "requirement": "保留首批90后临近人生转段的视角"
+        }
+      ],
+      "voice_quote": "我们总想跑，却常常在平坦的道路上跌倒",
+      "voice": "青春自辩、坦诚自省、留恋向往并存",
+      "allowed_changes": [
+        "删末尾评分，修正错字",
+        "合并重复风景比喻，理顺成长层次"
+      ],
+      "failure_conditions": [
+        "把90后改成比其他世代优越的一代",
+        "删尽懒惰叛逆，只留下励志赞美"
+      ],
+      "scoring_note": "最易误伤自辩中的自省；缺点与向往共同塑造声音。"
+    }
+  ],
+  "metadata": {
+    "job": "rest-23",
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 100.36,
+    "system_sha256": "2c85943d84beabe7f1c8a64f793323c3fb90f4110f4f66ac756b1b69b3faf06e",
+    "input_sha256": "d18791170da517f11e0084539e0716042ea1c3a54d804164df2c16f377eb7cc9",
+    "usage": [
+      {
+        "input_tokens": 21841,
+        "cached_input_tokens": 10368,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2823,
+        "reasoning_output_tokens": 65
+      }
+    ],
+    "review_type": "model_annotation",
+    "human_review": false
+  }
+}

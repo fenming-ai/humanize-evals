@@ -5,7 +5,7 @@
 ## 当前内容
 
 - 10维100分标准，最终均值保留两位小数，严重事实错误单列。
-- 94个开发案例：88个外部英文案例、6个合成中文案例。已完整收录，不代表已全部运行。
+- 当前主集合588条：中文500（开发300／验收200）＋英文88；逐例合同与模型辅助复核已完成，不代表已运行Skill PK。
 - Python标准库CLI：数据校验、逐例适配器调用、匿名评审包、分语言评分汇总。
 - 单元与端到端自检；测试适配器只回传原文，不能用其结果证明任何Skill效果。
 
@@ -42,7 +42,7 @@ python3 evals.py score --ratings runs/smoke/blind/ratings.json --key runs/smoke/
 | 信息清晰与密度 | 5 |
 | 修改克制与任务遵循 | 5 |
 
-每维0—4等级附证据，加权后按语言显示100分成绩。详细边界见[评分标准](docs/SCORING.md)，运行约定见[实验流程](docs/PROTOCOL.md)。两位小数只表示显示精度，微小分差不能直接宣布胜负。教学、开发、留出必须分开；当前没有独立留出集。
+每维0—4等级附证据，加权后按语言显示100分成绩。详细边界见[评分标准](docs/SCORING.md)，运行约定见[实验流程](docs/PROTOCOL.md)。两位小数只表示显示精度，微小分差不能直接宣布胜负。教学、开发、留出必须分开；当前已冻结200条中文验收案例；留出仅指未参与Skill调优，不保证预训练未见。
 
 ## 借鉴与开源来源
 
@@ -71,4 +71,19 @@ python3 evals.py score --ratings runs/smoke/blind/ratings.json --key runs/smoke/
 
 ## 来源清点
 
-8个仓库的版本、可用数据路径、许可判断和51个实际复制文件见[data/sources.json](data/sources.json)。data/reference/保留上游原始字节与许可证；案例、供应方输出、评分历史不能混算数量。C-ReD缺少明确许可，Fast-DetectGPT第三方数据许可尚未逐项核对；用户明确要求复制后，已私有归档两者数据，权利状态继续保留标记。实际条数见[data/raw-inventory.json](data/raw-inventory.json)。
+8个仓库的版本、可用数据路径、许可判断和152个实际复制文件见[data/sources.json](data/sources.json)。data/reference/保留上游原始字节与许可证；案例、供应方输出、评分历史不能混算数量。C-ReD缺少明确许可，Fast-DetectGPT第三方数据许可尚未逐项核对；用户明确要求复制后，已私有归档两者数据，权利状态继续保留标记。实际条数见[data/raw-inventory.json](data/raw-inventory.json)。
+
+## 当前数据规模与使用
+
+原始C-ReD实际109204条，Fast-DetectGPT含重复的文本条目15700个；这些是原始资料量，不能直接当作改写测试量。正式中文500条均来自原始CSV，经过初标、独立上下文模型复核和程序核验，尚非人工金标准。详见[建设报告](docs/DATA_BUILD.md)、[审核统计](data/curated/audit.json)、[冻结清单](data/curated/manifest.json)。
+
+默认run只选择development。中文开发300条，验收200条必须显式选择；英文另行比较。以下仍是离线链路自检，不是模型质量成绩：
+
+```bash
+python3 evals.py validate
+python3 tools/curation_audit.py data/curated/zh-v1.jsonl
+python3 evals.py run --language zh --split development --arm baseline --model smoke-echo --limit 5 --repeats 1 --out runs/zh-smoke.jsonl --command python3 tests/echo_adapter.py
+# 正式验收时显式使用 --split holdout，并接入真实模型适配器。
+```
+
+完整候选及淘汰记录都保留；超出配额的通过案例作为备用资料，未混进当前500条。旧94条集合保留作历史档案，不与新集合重复计数。

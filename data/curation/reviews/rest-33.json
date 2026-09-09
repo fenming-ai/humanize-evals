@@ -1,0 +1,72 @@
+{
+  "cases": [
+    {
+      "id": "zh2-coherence-045",
+      "approve": true,
+      "reason": "因果链与限定均忠实，分层整理要求合理。"
+    },
+    {
+      "id": "zh2-coherence-046",
+      "approve": true,
+      "reason": "保留新闻要素及未来时态，删减边界合理。"
+    },
+    {
+      "id": "zh2-coherence-047",
+      "approve": true,
+      "reason": "保留撤离信息，不擅定人数口径，区分预测合理。"
+    },
+    {
+      "id": "zh2-coherence-048",
+      "approve": true,
+      "reason": "保留亲历与核心感悟，衔接及语气要求适当。"
+    },
+    {
+      "id": "zh2-coherence-049",
+      "approve": true,
+      "reason": "四类障碍均有原文依据，人群与程度限定合理。"
+    },
+    {
+      "id": "zh2-coherence-050",
+      "approve": true,
+      "reason": "忠于原文背景，保留退役与规划的时态边界。"
+    },
+    {
+      "id": "zh2-missing_material-009",
+      "approve": true,
+      "reason": "支撑不足值得测试，允许降调且不反转尊重立场。"
+    },
+    {
+      "id": "zh2-missing_material-010",
+      "approve": true,
+      "reason": "区分音乐特色与影响评价，允许限定未证实影响。"
+    },
+    {
+      "id": "zh2-missing_material-011",
+      "approve": true,
+      "reason": "保留试验条件与探索性质，禁止补造数据合理。"
+    },
+    {
+      "id": "zh2-missing_material-012",
+      "approve": true,
+      "reason": "销量作为文中前提，归因保留推测性，边界合理。"
+    }
+  ],
+  "metadata": {
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 24.08,
+    "input_sha256": "96f21fc562ad5a1a519f9aa3504710a2570afe525775c5655d6d1f5b7bc84b11",
+    "system_sha256": "0c41b551a96d085bbc3597749915f67732aa702736eddffdb625f85696aded81",
+    "usage": [
+      {
+        "input_tokens": 22750,
+        "cached_input_tokens": 9856,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 408,
+        "reasoning_output_tokens": 58
+      }
+    ],
+    "review_type": "independent_context_model_review",
+    "human_review": false
+  }
+}

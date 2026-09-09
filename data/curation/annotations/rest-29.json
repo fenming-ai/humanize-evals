@@ -1,0 +1,229 @@
+{
+  "cases": [
+    {
+      "id": "zh2-punctuation-035",
+      "suitable": true,
+      "reason": "反问、破折号与引号各有功能",
+      "task": "面向散文读者整理标点节奏，可压缩重复劝说，不删惊扰美的经历与反思。",
+      "audience": "散文读者",
+      "must_preserve": [
+        {
+          "quote": "究竟是美本身，还是我们急于占有",
+          "requirement": "保留对拍摄与占有的反问"
+        },
+        {
+          "quote": "当脚步踏碎野花铺就的锦毯——那一刻",
+          "requirement": "保留铺陈转向后果的停顿"
+        },
+        {
+          "quote": "你或许会蓦然发觉",
+          "requirement": "保留结尾想象的不确定性"
+        }
+      ],
+      "voice_quote": "把世界还给世界，把美归还给美本身",
+      "voice": "抒情、惋惜而带劝诫",
+      "allowed_changes": [
+        "合并重复劝说",
+        "按转折和解释功能调整标点"
+      ],
+      "failure_conditions": [
+        "将蝴蝶停肩写成必然结果",
+        "机械删去全部反问与转折停顿"
+      ],
+      "scoring_note": "标点最易误伤；破折号承接铺陈，不能按频次定罪。"
+    },
+    {
+      "id": "zh2-punctuation-036",
+      "suitable": false,
+      "reason": "引语书名标示清楚，缺少标点编辑点",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-punctuation-037",
+      "suitable": false,
+      "reason": "引号功能清楚，主要问题非标点",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-punctuation-038",
+      "suitable": false,
+      "reason": "主要难点是推导与支撑，非标点",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-punctuation-039",
+      "suitable": false,
+      "reason": "仅引号样式差异，标点验收信号弱",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-punctuation-040",
+      "suitable": false,
+      "reason": "括号标示缩写清楚，缺少标点难点",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-coherence-011",
+      "suitable": true,
+      "reason": "三类理由与结论可整理衔接",
+      "task": "面向职场读者理顺配机理由，可删重复总括，不删三类考虑，不补决策证据。",
+      "audience": "职场读者",
+      "must_preserve": [
+        {
+          "quote": "点点网曾给每位员工配备MacBook办公",
+          "requirement": "保留原述主体、全员范围和设备"
+        },
+        {
+          "quote": "提升工作效率、塑造品牌形象和增强生态兼容性",
+          "requirement": "保留三类理由及其区分"
+        },
+        {
+          "quote": "这在一定程度上助力了公司的发展",
+          "requirement": "不强化发展作用的有限表述"
+        }
+      ],
+      "voice_quote": "主要基于多方面考虑",
+      "voice": "平实的分项解释口吻",
+      "allowed_changes": [
+        "合并首尾重复总括",
+        "按三类理由重排例子"
+      ],
+      "failure_conditions": [
+        "把苹果设备同步归为品牌形象理由",
+        "新增配机导致业绩增长的数据"
+      ],
+      "scoring_note": "因果强度易误伤；原稿解释不能升级为已核实的决策依据。"
+    },
+    {
+      "id": "zh2-coherence-012",
+      "suitable": false,
+      "reason": "关键规模与增幅均缺数，衔接非主问题",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-coherence-013",
+      "suitable": true,
+      "reason": "双方立场重复，归属与进展需分清",
+      "task": "面向新闻读者合并重复叙述，理顺双方立场；可删热议套话，不补事件证据或结果。",
+      "audience": "新闻读者",
+      "must_preserve": [
+        {
+          "quote": "库珀本人对此表示极度震惊和愤怒",
+          "requirement": "保留原述库珀的强烈反应"
+        },
+        {
+          "quote": "在英国政府看来，安德森·库珀的言论",
+          "requirement": "负面指控须归于英国政府"
+        },
+        {
+          "quote": "拟控告英国内政大臣帕特里克·巴特",
+          "requirement": "保留拟起诉而非已起诉"
+        }
+      ],
+      "voice_quote": "还有待进一步观察和分析",
+      "voice": "报道式叙述，结局未定",
+      "allowed_changes": [
+        "合并两次拟起诉叙述",
+        "删除热议与发酵套话"
+      ],
+      "failure_conditions": [
+        "将政府指控写成作者确认的事实",
+        "将库珀拟控告改成已经胜诉"
+      ],
+      "scoring_note": "归属最易误伤；理顺叙述不等于核实事件或认可指控。"
+    },
+    {
+      "id": "zh2-coherence-014",
+      "suitable": true,
+      "reason": "企业战略与用户视角切换不清",
+      "task": "面向商业读者区分战略收益和用户影响，可调段序删泛评，不删双方动机与用户疑虑。",
+      "audience": "商业读者",
+      "must_preserve": [
+        {
+          "quote": "转向高利润的云计算和软件服务",
+          "requirement": "保留原述IBM转型动机"
+        },
+        {
+          "quote": "联想则看中了X86服务器在中小企业市场的广泛适用性",
+          "requirement": "保留联想动机与市场范围"
+        },
+        {
+          "quote": "联想能否保持IBM原有的技术水准和服务质量",
+          "requirement": "保留用户疑虑而非失败定论"
+        }
+      ],
+      "voice_quote": "是一个具有战略眼光的商业决策",
+      "voice": "总体肯定，兼顾用户顾虑",
+      "allowed_changes": [
+        "将企业收益移入战略段",
+        "删减重复的正面总评"
+      ],
+      "failure_conditions": [
+        "把IBM转型动机归给联想",
+        "删去技术和服务质量的用户疑虑"
+      ],
+      "scoring_note": "视角最易误伤；企业排名并非用户收益，调序不能强化价格承诺。"
+    }
+  ],
+  "metadata": {
+    "job": "rest-29",
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 58.41,
+    "system_sha256": "2c85943d84beabe7f1c8a64f793323c3fb90f4110f4f66ac756b1b69b3faf06e",
+    "input_sha256": "6d0b9ac40779595aeeda27cbbd5773f46e69f4cd0c4c8cf723c9c0ffb6bc9595",
+    "usage": [
+      {
+        "input_tokens": 20235,
+        "cached_input_tokens": 10368,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1648,
+        "reasoning_output_tokens": 199
+      }
+    ],
+    "review_type": "model_annotation",
+    "human_review": false
+  }
+}

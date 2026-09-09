@@ -1,0 +1,189 @@
+{
+  "cases": [
+    {
+      "id": "zh2-no_edit-qx011",
+      "suitable": false,
+      "reason": "停诉期限重复，首句时间结构拗口",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-qx012",
+      "suitable": false,
+      "reason": "有重复措辞及未整理的栏目符号",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-qx013",
+      "suitable": false,
+      "reason": "“借助”“真正的披上”明显误用",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-qx014",
+      "suitable": false,
+      "reason": "夹杂听歌及博客入口残留",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-qx015",
+      "suitable": true,
+      "reason": "报道清楚，疑似与确认边界明确",
+      "task": "面向新闻读者作强保留验收；可原样输出，不删病例、接触者及检查人数和防范措施。",
+      "audience": "新闻读者",
+      "must_preserve": [
+        {
+          "quote": "疑似病例增至17人",
+          "requirement": "新增11人、累计17人均为疑似"
+        },
+        {
+          "quote": "他们在机内的直线距离超过2米",
+          "requirement": "保留距离及非机内感染的推测性"
+        },
+        {
+          "quote": "已被确认携带Ａ型流感病毒",
+          "requirement": "女病人仅确认携带Ａ型流感病毒"
+        }
+      ],
+      "voice_quote": "韩国政府正在考虑大量增购",
+      "voice": "审慎、归属清晰的新闻口吻",
+      "allowed_changes": [
+        "可全文不改；仅微调分段"
+      ],
+      "failure_conditions": [
+        "把17名疑似者写成确诊猪流感",
+        "将考虑增购写成已采购"
+      ],
+      "scoring_note": "最易误伤确诊边界：Ａ型流感不能改成猪流感确诊。"
+    },
+    {
+      "id": "zh2-no_edit-qx016",
+      "suitable": false,
+      "reason": "来源标记与另一则消息粘连",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-qx017",
+      "suitable": false,
+      "reason": "首句获准募集与发售之间缺少断句",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-qx018",
+      "suitable": false,
+      "reason": "“来个好学不倦”搭配生硬",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-qx019",
+      "suitable": true,
+      "reason": "行情叙述连贯，评论与数字并存",
+      "task": "面向财经读者作强保留验收；可原样输出，不省略行情数字、交易主体及持仓时点。",
+      "audience": "财经读者",
+      "must_preserve": [
+        {
+          "quote": "换手率急剧放大至21.28%",
+          "requirement": "保留七日跌停后打开及换手率"
+        },
+        {
+          "quote": "合计买入金额1.87亿元",
+          "requirement": "前四机构席位买1.87亿、卖2.51亿"
+        },
+        {
+          "quote": "ST盐湖继续跌停，报20.57元",
+          "requirement": "区分ST盐湖与盐湖钾肥行情"
+        }
+      ],
+      "voice_quote": "看好与看空的基金阵营展开一番厮杀",
+      "voice": "带市场评论色彩的行情报道",
+      "allowed_changes": [
+        "可全文不改；仅调整分段"
+      ],
+      "failure_conditions": [
+        "将机构买卖金额对调",
+        "把盐湖钾肥写成继续封死跌停"
+      ],
+      "scoring_note": "最易误伤主体边界：两只股票行情不同，机构不宜统称基金。"
+    },
+    {
+      "id": "zh2-no_edit-qx020",
+      "suitable": false,
+      "reason": "多处搭配不当，创意评价空泛",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    }
+  ],
+  "metadata": {
+    "job": "noedit_extra-01",
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 56.9,
+    "system_sha256": "2c85943d84beabe7f1c8a64f793323c3fb90f4110f4f66ac756b1b69b3faf06e",
+    "input_sha256": "dd53df4a9423581ffee7175d16602fcea10db6ef94677539db181c69b4f19738",
+    "usage": [
+      {
+        "input_tokens": 18254,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1350,
+        "reasoning_output_tokens": 345
+      }
+    ],
+    "review_type": "model_annotation",
+    "human_review": false
+  }
+}

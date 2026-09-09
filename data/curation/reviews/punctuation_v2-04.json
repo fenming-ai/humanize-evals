@@ -1,0 +1,72 @@
+{
+  "cases": [
+    {
+      "id": "zh2-punctuation-r001-p2",
+      "approve": true,
+      "reason": "引文忠实，保留归因与可能性，标点任务边界合理。"
+    },
+    {
+      "id": "zh2-punctuation-r002-p2",
+      "approve": true,
+      "reason": "引文均存在，限定标点整理，不越界核改原文断言。"
+    },
+    {
+      "id": "zh2-punctuation-r003-p2",
+      "approve": true,
+      "reason": "引文准确，引语及书名边界保护合理，类别恰当。"
+    },
+    {
+      "id": "zh2-punctuation-r004-p2",
+      "approve": true,
+      "reason": "称呼、问答与嘱托标点值得测试，未补造落款身份。"
+    },
+    {
+      "id": "zh2-punctuation-r005-p2",
+      "approve": true,
+      "reason": "括注及列举关系准确，未增加平台身份或精确数值。"
+    },
+    {
+      "id": "zh2-punctuation-r006-p2",
+      "approve": true,
+      "reason": "比喻引号和术语括注功能准确，修改范围清楚。"
+    },
+    {
+      "id": "zh2-punctuation-r007-p2",
+      "approve": true,
+      "reason": "引文准确，排比与总结层次值得测试，未越界改字。"
+    },
+    {
+      "id": "zh2-punctuation-r008-p2",
+      "approve": true,
+      "reason": "引文原样存在，反问与借喻保护合理，仅限标点。"
+    },
+    {
+      "id": "zh2-punctuation-r009-p2",
+      "approve": true,
+      "reason": "电头及报刊边界合理，保留否定信息，不补造条件。"
+    },
+    {
+      "id": "zh2-punctuation-r010-p2",
+      "approve": true,
+      "reason": "作品名和产品列举保护合理，允许不改，符合任务。"
+    }
+  ],
+  "metadata": {
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 26.41,
+    "input_sha256": "7afad5d9c81063ee1fab1098068537957541071ce2c9f2cd53cd25c32c5bacbb",
+    "system_sha256": "0c41b551a96d085bbc3597749915f67732aa702736eddffdb625f85696aded81",
+    "usage": [
+      {
+        "input_tokens": 23517,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 425,
+        "reasoning_output_tokens": 41
+      }
+    ],
+    "review_type": "independent_context_model_review",
+    "human_review": false
+  }
+}

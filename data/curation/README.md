@@ -1,5 +1,5 @@
-# 数据标注与校准记录
+# 案例合同与校准
 
-pilot-v1.json保存首批100条候选的合同、独立上下文模型复核和淘汰情况。此处的通过不是参赛改稿效果评分，也不是人工金标准。标点类首版已整体退出，按保护/修复双场景重建v2；未为任何参赛者调整题目或权重。
+pilot-v1.json记录首批100条候选。annotations/为初标输出，reviews/为独立上下文模型复核，reviews-initial/保留早期重复复核的初次记录。prompts/冻结提示与结构；rejections.json保存淘汰理由。initial-candidates.json与reserve-candidates.json记录来源、分组和初始状态，候选不能直接计入正式榜。
 
-模型请求名称为gpt-6-astra，medium；生成模型与复核模型相同，分开上下文。尚未进行人工逐例复核。
+均为模型辅助审核，human_reviewed=false。同一请求模型gpt-6-astra、medium，分开上下文；没有人工逐例终审。最终500名单见../curated/zh-v1.jsonl；筛选、标点合同升级与功能等效解释见../../docs/DATA_BUILD.md。

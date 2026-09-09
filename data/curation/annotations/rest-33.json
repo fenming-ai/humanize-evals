@@ -1,0 +1,343 @@
+{
+  "cases": [
+    {
+      "id": "zh2-coherence-045",
+      "suitable": true,
+      "reason": "成因与生活影响需分层衔接",
+      "task": "面向经济话题读者，理顺成因、生活影响与应对；可删重复评价，不删主要因果链。",
+      "audience": "经济话题读者",
+      "must_preserve": [
+        {
+          "quote": "粮食短缺和出口收入的减少",
+          "requirement": "保留农业衰退的两类后果"
+        },
+        {
+          "quote": "选择大量印钞以维持运作",
+          "requirement": "保留印钞动机及加剧通胀的关系"
+        },
+        {
+          "quote": "尤其在农村地区",
+          "requirement": "保留物物交换的地域侧重"
+        }
+      ],
+      "voice_quote": "尽管面临重重困难",
+      "voice": "解释性叙述，兼顾民生关切",
+      "allowed_changes": [
+        "按成因、影响、应对分段",
+        "合并经济困境的重复表述"
+      ],
+      "failure_conditions": [
+        "把制裁写成通胀唯一原因",
+        "把部分居民返乡写成全体返乡"
+      ],
+      "scoring_note": "因果衔接易被强化；整理不等于核实原文归因。"
+    },
+    {
+      "id": "zh2-coherence-046",
+      "suitable": true,
+      "reason": "抵京消息被重复赞誉打断",
+      "task": "面向娱乐新闻读者，突出抵京及录制安排；可删重复赞誉，不补节目细节。",
+      "audience": "娱乐新闻读者",
+      "must_preserve": [
+        {
+          "quote": "知名台湾艺人吴宗宪日前抵达北京",
+          "requirement": "保留人物、抵京事件与相对时间"
+        },
+        {
+          "quote": "新浪娱乐亲临机场",
+          "requirement": "保留原文报道主体及地点"
+        },
+        {
+          "quote": "将会参加一档新的综艺节目的录制",
+          "requirement": "保留录制安排尚未完成"
+        }
+      ],
+      "voice_quote": "让我们一起期待",
+      "voice": "热情、期待，非冷淡公告",
+      "allowed_changes": [
+        "合并履历及幽默风格介绍",
+        "删重复清风比喻与成功赞誉"
+      ],
+      "failure_conditions": [
+        "把拟录制写成已完成录制",
+        "新增节目名称或具体播出日期"
+      ],
+      "scoring_note": "压缩赞誉易连带抹去期待语气，需保留适度热情。"
+    },
+    {
+      "id": "zh2-coherence-047",
+      "suitable": true,
+      "reason": "撤离流程与评论层次混杂",
+      "task": "面向新闻读者，分清通报、撤离流程和评论；可删重复评价，不推断人数口径。",
+      "audience": "新闻读者",
+      "must_preserve": [
+        {
+          "quote": "俄罗斯政府已成功从也门撤离119名公民",
+          "requirement": "保留通报中的人数与撤离方向"
+        },
+        {
+          "quote": "还包括一些持有俄罗斯永久居留权的外籍人士",
+          "requirement": "保留涉及外籍人士，不断定计数归属"
+        },
+        {
+          "quote": "通过海路和空路相结合的方式实施",
+          "requirement": "保留两类运输方式"
+        }
+      ],
+      "voice_quote": "分析人士指出",
+      "voice": "报道语气，区分通报与分析",
+      "allowed_changes": [
+        "按背景、行动、回应分段",
+        "删重复国际影响评价"
+      ],
+      "failure_conditions": [
+        "断言119人全部为俄罗斯籍",
+        "将示范效应预测写成既成事实"
+      ],
+      "scoring_note": "人数与国籍边界最易被顺句时擅自统一。"
+    },
+    {
+      "id": "zh2-coherence-048",
+      "suitable": true,
+      "reason": "路的多层隐喻转接较密",
+      "task": "面向散文读者，串联行路经历与人生感悟；可减重复劝勉，不删亲历支点。",
+      "audience": "散文读者",
+      "must_preserve": [
+        {
+          "quote": "我沿着山间小道缓慢前行",
+          "requirement": "保留第一人称旅行经历"
+        },
+        {
+          "quote": "学会在不确定中保持从容",
+          "requirement": "保留接纳曲折的态度"
+        },
+        {
+          "quote": "路塑造了我们的品格",
+          "requirement": "保留路与行者相互塑造的观点"
+        }
+      ],
+      "voice_quote": "请相信：脚下的路，终将通向诗和远方",
+      "voice": "抒情、温暖，带鼓励口吻",
+      "allowed_changes": [
+        "合并勇气与梦想的重复劝勉",
+        "整理外在道路到内心感悟的过渡"
+      ],
+      "failure_conditions": [
+        "删光山间旅行改成纯说教",
+        "把接纳曲折改成只走平坦大道"
+      ],
+      "scoring_note": "衔接优化易抹平抒情节奏，隐喻不宜全换成论点。"
+    },
+    {
+      "id": "zh2-coherence-049",
+      "suitable": true,
+      "reason": "多因素论证可收紧层次",
+      "task": "面向服饰文化读者，理顺汉服推广的四类障碍；可缩例证，不删因素或扩大适用范围。",
+      "audience": "服饰文化读者",
+      "must_preserve": [
+        {
+          "quote": "其穿着礼仪、文化内涵等知识在大众中普及度低",
+          "requirement": "保留文化知识普及不足的判断"
+        },
+        {
+          "quote": "尤其是对于学生和低收入人群来说",
+          "requirement": "保留价格压力的重点人群"
+        },
+        {
+          "quote": "实用性不足也是关键问题",
+          "requirement": "保留活动不便及社会误解两类障碍"
+        }
+      ],
+      "voice_quote": "汉服难以流行受多种因素制约",
+      "voice": "分析性、持批评立场",
+      "allowed_changes": [
+        "缩短节日和工作场景举例",
+        "收紧四类因素间的过渡"
+      ],
+      "failure_conditions": [
+        "把多因素改成单由价格导致",
+        "把部分人的误解写成全民排斥"
+      ],
+      "scoring_note": "压缩易丢失程度与人群限定，使批评变成绝对否定。"
+    },
+    {
+      "id": "zh2-coherence-050",
+      "suitable": true,
+      "reason": "职业态度重复且层次游移",
+      "task": "面向足球新闻读者，串联采访与职业规划；可删空泛赞誉，不擅改年龄、球队或赛事背景。",
+      "audience": "足球新闻读者",
+      "must_preserve": [
+        {
+          "quote": "33岁的克里斯蒂亚诺·罗纳尔多",
+          "requirement": "保留原文年龄与人物，不作外部纠正"
+        },
+        {
+          "quote": "但他仍未考虑退役",
+          "requirement": "保留当前未考虑退役而非永久承诺"
+        },
+        {
+          "quote": "并不排除继续征战更高水平的联赛",
+          "requirement": "保留未来规划的可能性口径"
+        }
+      ],
+      "voice_quote": "但我依然充满激情和能量",
+      "voice": "正面报道，突出球员热情",
+      "allowed_changes": [
+        "合并年龄与激情的重复论述",
+        "删缺少具体数值的成绩赞语"
+      ],
+      "failure_conditions": [
+        "补入原文没有的进球统计",
+        "把不排除征战写成确定转会"
+      ],
+      "scoring_note": "背景表述存疑；连贯性编辑不可冒充事实纠错。"
+    },
+    {
+      "id": "zh2-missing_material-009",
+      "suitable": true,
+      "reason": "强断言缺少具体支撑",
+      "task": "面向武术文化读者，收敛无支撑的实力及历史功绩断言；可删功绩概括，不补人物事迹。",
+      "audience": "武术文化读者",
+      "must_preserve": [
+        {
+          "quote": "并非完全是传言夸大",
+          "requirement": "保留不全盘否定宗师实力的立场"
+        },
+        {
+          "quote": "虽然部分传说可能存在夸张成分",
+          "requirement": "保留对部分传说的保留态度"
+        },
+        {
+          "quote": "他们不仅是武术技艺的传承者",
+          "requirement": "保留对传承价值的尊重"
+        }
+      ],
+      "voice_quote": "真实水平绝对值得尊敬",
+      "voice": "尊敬宗师，但可降低绝对语气",
+      "allowed_changes": [
+        "限定非凡实力等强断言",
+        "删无事例支撑的抗侵略功绩"
+      ],
+      "failure_conditions": [
+        "补造孙禄堂比武战绩",
+        "把部分传说夸张改成宗师全是骗局"
+      ],
+      "scoring_note": "证据不足不等于观点虚假，尊敬立场不应被反转。"
+    },
+    {
+      "id": "zh2-missing_material-010",
+      "suitable": true,
+      "reason": "行业影响评价缺乏实例支撑",
+      "task": "面向摇滚乐读者，区分音乐特色与影响评价；可弱化行业赞誉，不补履历或作品证据。",
+      "audience": "摇滚乐读者",
+      "must_preserve": [
+        {
+          "quote": "尽管他的影响力可能不像一些更著名的摇滚乐队或音乐人那么广泛",
+          "requirement": "保留影响范围的比较及不确定性"
+        },
+        {
+          "quote": "他将西北民间音乐的元素融入摇滚乐中",
+          "requirement": "保留传统元素融合这一特色"
+        },
+        {
+          "quote": "对后续音乐人的启发",
+          "requirement": "保留启发后来者的评价，可限定强度"
+        }
+      ],
+      "voice_quote": "独特而重要的角色",
+      "voice": "欣赏、肯定但非封神",
+      "allowed_changes": [
+        "删重复行业推动赞誉",
+        "限定缺乏实例的广泛影响"
+      ],
+      "failure_conditions": [
+        "补造专辑、获奖或合作经历",
+        "把非标志性人物改成中国摇滚奠基人"
+      ],
+      "scoring_note": "影响评价容易被改成已证实因果，亦不应全盘否定。"
+    },
+    {
+      "id": "zh2-missing_material-011",
+      "suitable": true,
+      "reason": "研究结论缺少数据及条件",
+      "task": "面向养殖研究读者，区分试验描述、结果与机制解释；可降断言强度，不补数据或配方。",
+      "audience": "养殖研究读者",
+      "must_preserve": [
+        {
+          "quote": "对断奶仔猪进行饲养试验",
+          "requirement": "保留试验对象及不同纤维水平设计"
+        },
+        {
+          "quote": "适量的日粮纤维显著改善了猪的肠道形态",
+          "requirement": "保留适量条件与改善方向，可弱化显著性"
+        },
+        {
+          "quote": "肠道微生物与肠道屏障功能之间的潜在联系",
+          "requirement": "保留微生物关联的探索性质"
+        }
+      ],
+      "voice_quote": "本研究旨在探讨",
+      "voice": "学术、审慎，非推广承诺",
+      "allowed_changes": [
+        "压缩背景套话",
+        "限定缺数据支撑的效果与应用断言"
+      ],
+      "failure_conditions": [
+        "新增纤维添加比例或样本量",
+        "把适量有效改成纤维越多越好"
+      ],
+      "scoring_note": "机制与显著性最易被强化；无数据不能补成验证结论。"
+    },
+    {
+      "id": "zh2-missing_material-012",
+      "suitable": true,
+      "reason": "销量归因与粉丝判断缺依据",
+      "task": "面向动漫评论读者，保留销量归因讨论并明确推测性；可删夸大推断，不补销量或调查。",
+      "audience": "动漫评论读者",
+      "must_preserve": [
+        {
+          "quote": "漫画和动画销量走低的现象可能与多方面因素有关",
+          "requirement": "将销量走低作为文中前提，归因为可能"
+        },
+        {
+          "quote": "剧情变得更为复杂且充满争议",
+          "requirement": "保留后期剧情可能影响购买的解释"
+        },
+        {
+          "quote": "互联网上存在大量免费资源",
+          "requirement": "保留免费资源与竞争分流两种解释"
+        }
+      ],
+      "voice_quote": "只是消费模式或许有所变化而已",
+      "voice": "解释性、带保留的维护态度",
+      "allowed_changes": [
+        "限定讨论度能证明粉丝规模的推断",
+        "收紧各因素的重复表述"
+      ],
+      "failure_conditions": [
+        "新增销量降幅或平台统计",
+        "把免费资源写成销量下降唯一原因"
+      ],
+      "scoring_note": "可能性最易丢失；不能把讨论度直接当购买力证据。"
+    }
+  ],
+  "metadata": {
+    "job": "rest-33",
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 89.85,
+    "system_sha256": "2c85943d84beabe7f1c8a64f793323c3fb90f4110f4f66ac756b1b69b3faf06e",
+    "input_sha256": "e82ea9901df9a1bf907cbe1b0e7725ee834ef864f1843b82929b97c1e14e54ca",
+    "usage": [
+      {
+        "input_tokens": 20229,
+        "cached_input_tokens": 10368,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2716,
+        "reasoning_output_tokens": 72
+      }
+    ],
+    "review_type": "model_annotation",
+    "human_review": false
+  }
+}

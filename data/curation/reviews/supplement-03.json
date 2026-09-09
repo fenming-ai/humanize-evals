@@ -1,0 +1,32 @@
+{
+  "cases": [
+    {
+      "id": "zh2-no_edit-r029",
+      "approve": true,
+      "reason": "原稿完整通顺，合同忠实保留数据、主体及预期边界。"
+    },
+    {
+      "id": "zh2-no_edit-r030",
+      "approve": false,
+      "reason": "“首次录取演奏中国民族乐器学生”明显漏“的”，不宜作为可原样输出的no_edit案例。"
+    }
+  ],
+  "metadata": {
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 26.23,
+    "input_sha256": "54cd74db6934440440a89e24aa4780776a92024f26aecf9bb111572caec6098f",
+    "system_sha256": "0c41b551a96d085bbc3597749915f67732aa702736eddffdb625f85696aded81",
+    "usage": [
+      {
+        "input_tokens": 16518,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 277,
+        "reasoning_output_tokens": 179
+      }
+    ],
+    "review_type": "independent_context_model_review",
+    "human_review": false
+  }
+}

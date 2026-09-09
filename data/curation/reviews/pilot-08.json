@@ -1,0 +1,67 @@
+{
+  "cases": [
+    {
+      "id": "zh2-coherence-007",
+      "approve": true,
+      "reason": "引文准确，保留条件、分摊机制与保险边界，衔接测试合理。"
+    },
+    {
+      "id": "zh2-coherence-008",
+      "approve": true,
+      "reason": "角色与任务归属准确，区分建议和实绩，类别恰当。"
+    },
+    {
+      "id": "zh2-coherence-009",
+      "approve": true,
+      "reason": "引文准确，明确怀疑、认定和表态层级，未强加因果。"
+    },
+    {
+      "id": "zh2-coherence-010",
+      "approve": true,
+      "reason": "保留赞赏立场，允许弱化绝对表述，未强制排名事实化。"
+    },
+    {
+      "id": "zh2-missing_material-001",
+      "approve": true,
+      "reason": "信用评估与额度管理均有原文依据，效果边界合理。"
+    },
+    {
+      "id": "zh2-missing_material-002",
+      "approve": true,
+      "reason": "保留医生指导及风险提醒，允许限定效果，不要求补医学材料。"
+    },
+    {
+      "id": "zh2-missing_material-003",
+      "approve": true,
+      "reason": "盈利机制与经营条件忠实，合规及前景断言边界合理。"
+    },
+    {
+      "id": "zh2-missing_material-004",
+      "approve": true,
+      "reason": "允许删减无来源细节，保留观点与可能性，未强制推测事实化。"
+    },
+    {
+      "id": "zh2-missing_material-005",
+      "approve": true,
+      "reason": "核心介绍均有依据，允许删减拔高，未要求补充结构知识。"
+    }
+  ],
+  "metadata": {
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 27.24,
+    "input_sha256": "52e4d2006b8937e1eb6ffe99bba05df26bd4b0f28e42079037169005df540fee",
+    "system_sha256": "0c41b551a96d085bbc3597749915f67732aa702736eddffdb625f85696aded81",
+    "usage": [
+      {
+        "input_tokens": 23573,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 379,
+        "reasoning_output_tokens": 32
+      }
+    ],
+    "review_type": "independent_context_model_review",
+    "human_review": false
+  }
+}

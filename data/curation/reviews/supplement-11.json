@@ -1,0 +1,52 @@
+{
+  "cases": [
+    {
+      "id": "zh2-no_edit-r101",
+      "approve": true,
+      "reason": "口语议论完整，合同保留立场且未将观点强制事实化。"
+    },
+    {
+      "id": "zh2-no_edit-r105",
+      "approve": true,
+      "reason": "来源、条件与判断层级保留准确，类别恰当。"
+    },
+    {
+      "id": "zh2-no_edit-r107",
+      "approve": true,
+      "reason": "拟人对应准确，保留讽刺且区分主观评价与事实。"
+    },
+    {
+      "id": "zh2-no_edit-r108",
+      "approve": true,
+      "reason": "地区、分数及人数对应准确，面试资格边界清楚。"
+    },
+    {
+      "id": "zh2-no_edit-r109",
+      "approve": true,
+      "reason": "比例、报考条件及录取前提忠实，限定词保护合理。"
+    },
+    {
+      "id": "zh2-no_edit-r110",
+      "approve": false,
+      "reason": "开头“开始了吧 鬼切的技能描述”缺少句间标点，有明显断句问题，不宜归为no_edit。"
+    }
+  ],
+  "metadata": {
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 24.57,
+    "input_sha256": "097bc181c79c562145cc81c807ac4278607c63af73675484dbc148c0530cb670",
+    "system_sha256": "0c41b551a96d085bbc3597749915f67732aa702736eddffdb625f85696aded81",
+    "usage": [
+      {
+        "input_tokens": 18562,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 332,
+        "reasoning_output_tokens": 97
+      }
+    ],
+    "review_type": "independent_context_model_review",
+    "human_review": false
+  }
+}

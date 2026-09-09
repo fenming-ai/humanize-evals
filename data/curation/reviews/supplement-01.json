@@ -1,0 +1,42 @@
+{
+  "cases": [
+    {
+      "id": "zh2-no_edit-r002",
+      "approve": true,
+      "reason": "引文准确，数字、比较基准及发布主体均忠实于原文。"
+    },
+    {
+      "id": "zh2-no_edit-r005",
+      "approve": false,
+      "reason": "原文“高速开的比较多”中“的”应为“得”，不符合no_edit无明显错字要求。"
+    },
+    {
+      "id": "zh2-no_edit-r007",
+      "approve": true,
+      "reason": "实验条件与结论保留准确，未扩大为人体疗效。"
+    },
+    {
+      "id": "zh2-no_edit-r010",
+      "approve": true,
+      "reason": "活动说明完整，简短邀请符合场景，票选规则及结果作用界定准确。"
+    }
+  ],
+  "metadata": {
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 28.95,
+    "input_sha256": "d83d7dbdb537bfa221cb93c356e7f33787a5173cebce634d39b6e438f032102b",
+    "system_sha256": "0c41b551a96d085bbc3597749915f67732aa702736eddffdb625f85696aded81",
+    "usage": [
+      {
+        "input_tokens": 17462,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 269,
+        "reasoning_output_tokens": 105
+      }
+    ],
+    "review_type": "independent_context_model_review",
+    "human_review": false
+  }
+}

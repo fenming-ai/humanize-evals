@@ -1,0 +1,47 @@
+{
+  "cases": [
+    {
+      "id": "zh2-no_edit-r111",
+      "approve": true,
+      "reason": "摘要完整，保留项忠实，技术节点与综述范围清楚。"
+    },
+    {
+      "id": "zh2-no_edit-r112",
+      "approve": true,
+      "reason": "设计参数及指标方向忠实，无显著差异边界准确。"
+    },
+    {
+      "id": "zh2-no_edit-r115",
+      "approve": true,
+      "reason": "统计与分红计划区分准确，金额单位约束合理。"
+    },
+    {
+      "id": "zh2-no_edit-r117",
+      "approve": true,
+      "reason": "发言归属、援助限制忠实，原文适合保留。"
+    },
+    {
+      "id": "zh2-no_edit-r119",
+      "approve": true,
+      "reason": "传闻与否认区分清楚，未将经纪人判断当医学事实。"
+    }
+  ],
+  "metadata": {
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 25.9,
+    "input_sha256": "c26842bd2ec31f7c7e966d67d6f6eb50cab6eabe2364e2576a79b8f90a6ab97a",
+    "system_sha256": "0c41b551a96d085bbc3597749915f67732aa702736eddffdb625f85696aded81",
+    "usage": [
+      {
+        "input_tokens": 18494,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 410,
+        "reasoning_output_tokens": 226
+      }
+    ],
+    "review_type": "independent_context_model_review",
+    "human_review": false
+  }
+}

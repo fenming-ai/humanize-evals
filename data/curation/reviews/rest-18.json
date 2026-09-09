@@ -1,0 +1,72 @@
+{
+  "cases": [
+    {
+      "id": "zh2-facts-073",
+      "approve": true,
+      "reason": "引文准确，优惠条件、数字口径及经验边界合理。"
+    },
+    {
+      "id": "zh2-facts-074",
+      "approve": true,
+      "reason": "准确区分盘中反弹、仍然下跌及预测风险。"
+    },
+    {
+      "id": "zh2-facts-075",
+      "approve": true,
+      "reason": "忠实保留原稿赛事信息，未要求外部核实背书。"
+    },
+    {
+      "id": "zh2-facts-076",
+      "approve": true,
+      "reason": "上市阶段、合约参数与市场解读边界准确。"
+    },
+    {
+      "id": "zh2-facts-077",
+      "approve": true,
+      "reason": "准确区分盘中与收盘、估价与成交及观点归属。"
+    },
+    {
+      "id": "zh2-facts-078",
+      "approve": true,
+      "reason": "启用数量、考场规模及病情推断限制合理。"
+    },
+    {
+      "id": "zh2-facts-079",
+      "approve": true,
+      "reason": "算例数字忠实，保留假设性质及准则适用差异。"
+    },
+    {
+      "id": "zh2-facts-080",
+      "approve": true,
+      "reason": "转学条件、统计分母及百分点口径均有原文依据。"
+    },
+    {
+      "id": "zh2-facts-081",
+      "approve": true,
+      "reason": "年度计划、累计人次及未来预测区分准确。"
+    },
+    {
+      "id": "zh2-facts-082",
+      "approve": true,
+      "reason": "诉求、裁判与执行款区分准确，未将指控事实化。"
+    }
+  ],
+  "metadata": {
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 23.03,
+    "input_sha256": "e26a5a6ada6c4864739b2b3c74409fafc0f33cc6030f9f8200330bdab99ae019",
+    "system_sha256": "0c41b551a96d085bbc3597749915f67732aa702736eddffdb625f85696aded81",
+    "usage": [
+      {
+        "input_tokens": 23498,
+        "cached_input_tokens": 9856,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 385,
+        "reasoning_output_tokens": 43
+      }
+    ],
+    "review_type": "independent_context_model_review",
+    "human_review": false
+  }
+}

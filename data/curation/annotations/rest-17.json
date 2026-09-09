@@ -1,0 +1,320 @@
+{
+  "cases": [
+    {
+      "id": "zh2-facts-063",
+      "suitable": true,
+      "reason": "签约主体与赛场数据可检验",
+      "task": "面向篮球读者压缩签约报道；可删励志套话，不省略两队签约区别，不补球员身份。",
+      "audience": "篮球读者",
+      "must_preserve": [
+        {
+          "quote": "森林狼队宣布签下四强赛MOP",
+          "requirement": "保留森林狼签约对象及奖项"
+        },
+        {
+          "quote": "场均22.3分、6.8篮板和5.1助攻",
+          "requirement": "场均数据不得混作单场表现"
+        },
+        {
+          "quote": "多次拒绝NBA邀约的传奇球员",
+          "requirement": "保留国王新援的以色列背景与邀约经历"
+        }
+      ],
+      "voice_quote": "他的突破犀利如刀",
+      "voice": "热情赞赏的体育报道口吻",
+      "allowed_changes": [
+        "删梦想、传奇等重复拔高",
+        "整理赛程与签约段落"
+      ],
+      "failure_conditions": [
+        "给两位未具名球员补姓名或合同金额",
+        "把31分写成场均或把MOP写成MVP"
+      ],
+      "scoring_note": "奖项和数据口径最易混淆；原稿陈述不等于外部核实。"
+    },
+    {
+      "id": "zh2-facts-064",
+      "suitable": true,
+      "reason": "收益比较与资金口径明确",
+      "task": "面向基金读者精简市场介绍；可删展望套话，保留数字口径及风险提醒，不补来源。",
+      "audience": "基金读者",
+      "must_preserve": [
+        {
+          "quote": "截至2023年第三季度末",
+          "requirement": "保留统计时点及8.6%、7.2%、5.3%对应类别"
+        },
+        {
+          "quote": "超过2000亿元人民币的净流入",
+          "requirement": "保留今年以来、超过及净流入口径"
+        },
+        {
+          "quote": "适合自身风险承受能力的投资组合",
+          "requirement": "保留按个人风险能力选产品的提醒"
+        }
+      ],
+      "voice_quote": "然而，尽管混合型基金展现出较强的适应能力",
+      "voice": "偏乐观但保留风险提示",
+      "allowed_changes": [
+        "压缩市场背景与重复优势描述"
+      ],
+      "failure_conditions": [
+        "把净流入改成规模或唯一最多类别",
+        "把稳健回报改成保本或保证未来收益"
+      ],
+      "scoring_note": "乐观措辞易被强化为收益承诺，须保留原有风险边界。"
+    },
+    {
+      "id": "zh2-facts-065",
+      "suitable": true,
+      "reason": "邀请条件与拒绝理由具体",
+      "task": "面向国足球迷理顺邀请报道；可删重复转折，不省略时间、地点和拒邀理由，不补年份。",
+      "audience": "国足球迷",
+      "must_preserve": [
+        {
+          "quote": "有意在9月到11月邀请国足打比赛的国家球队超过四支",
+          "requirement": "保留据悉、时间范围及超过四支"
+        },
+        {
+          "quote": "10月11日或12日前往德黑兰",
+          "requirement": "保留伊朗邀约日期择一及赴客场方向"
+        },
+        {
+          "quote": "二是目前国足也没有主帅",
+          "requirement": "保留征调困难、无主帅及临时带队顾虑"
+        }
+      ],
+      "voice_quote": "所以，与其被骂，不如索性就彻底安排完中超联赛",
+      "voice": "批评性叙述夹工作人员解释",
+      "allowed_changes": [
+        "合并重复拒邀表述",
+        "分清南美客场与巴拿马来华邀请"
+      ],
+      "failure_conditions": [
+        "把伊朗邀约日期改为10月15日",
+        "把工作人员的解释改成已证实的唯一动机"
+      ],
+      "scoring_note": "邀约与已赛事实、叙述判断与引语归属最易误伤。"
+    },
+    {
+      "id": "zh2-facts-066",
+      "suitable": true,
+      "reason": "指数与基金比较口径可标注",
+      "task": "面向财经读者压缩行情稿；可删振奋套话，保留行情、收益比较及表态归属，不补交易日期。",
+      "audience": "财经读者",
+      "must_preserve": [
+        {
+          "quote": "沪指报收于3015.83点，涨幅1.92%",
+          "requirement": "保留沪指点位及三大指数对应涨幅"
+        },
+        {
+          "quote": "次新基金平均收益率达到了15%",
+          "requirement": "保留过去一年成立口径及大盘8%对比"
+        },
+        {
+          "quote": "证监会相关负责人表示",
+          "requirement": "监管表态须保留原稿归属，不强化为核实"
+        }
+      ],
+      "voice_quote": "今日股市传来振奋消息",
+      "voice": "明显乐观的财经报道口吻",
+      "allowed_changes": [
+        "删除重复信心描述及宣传式回报修饰"
+      ],
+      "failure_conditions": [
+        "把多只收益超30%改为全部次新基金",
+        "把震荡上行预期改成确定上涨承诺"
+      ],
+      "scoring_note": "历史收益、未来预期和监管表态不能合并成投资保证。"
+    },
+    {
+      "id": "zh2-facts-067",
+      "suitable": false,
+      "reason": "回报率仍为XX占位，材料不完整",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-facts-068",
+      "suitable": true,
+      "reason": "开放业务与收益时段清楚",
+      "task": "面向基金投资者精简申赎报道；可删业绩赞语，保留业务范围、两个观察时段和经理判断。",
+      "audience": "基金投资者",
+      "must_preserve": [
+        {
+          "quote": "今日全面开放申购和赎回",
+          "requirement": "保留华商盛世成长开放申购及赎回"
+        },
+        {
+          "quote": "截至11月21日，该基金净值为1.0004元",
+          "requirement": "保留净值时点及9月23日成立日期"
+        },
+        {
+          "quote": "上证综指大涨5.95%",
+          "requirement": "保留11月10日至14日指数与基金2.11%比较"
+        }
+      ],
+      "voice_quote": "中期来看仍会维持震荡格局",
+      "voice": "肯定业绩但审慎看待后市",
+      "allowed_changes": [
+        "压缩建仓优势的重复说明"
+      ],
+      "failure_conditions": [
+        "把2.11%写成基金成立以来收益",
+        "删去经理的中期震荡判断或谨慎策略"
+      ],
+      "scoring_note": "成立以来与单周表现最易混用；经理判断不能变成预测事实。"
+    },
+    {
+      "id": "zh2-facts-069",
+      "suitable": true,
+      "reason": "价格清单与砍价经历具体",
+      "task": "面向家具采购读者整理账单和经验；可删无图指示，不补图片内容，不擅自消解金额差异。",
+      "audience": "家具采购读者",
+      "must_preserve": [
+        {
+          "quote": "三室两厅花费17830元买齐",
+          "requirement": "保留作者自报总额，不重算覆盖"
+        },
+        {
+          "quote": "沙发3500元，商家出价4500",
+          "requirement": "保留报价、成交价及2600元砍价参照"
+        },
+        {
+          "quote": "不是实木的，这是铁仿的",
+          "requirement": "保留凳子材质、每张140元及6张数量"
+        }
+      ],
+      "voice_quote": "我就弱弱的报了个中间价3500",
+      "voice": "随口分享、疑惑买贵又热心支招",
+      "allowed_changes": [
+        "清单分项，保留床具8800元及餐桌2888元",
+        "删除依赖缺失图片的指示"
+      ],
+      "failure_conditions": [
+        "把铁仿凳写成实木或改动单项价格",
+        "虚构床款外观或擅改17830元使账目相符"
+      ],
+      "scoring_note": "账单数额未完全相合，应保留来源边界而非静默修账。"
+    },
+    {
+      "id": "zh2-facts-070",
+      "suitable": true,
+      "reason": "估算假设与现实限制可区分",
+      "task": "面向科普读者压缩装球估算；可删科学赞语，保留计算输入、假设与限制，不新增参数。",
+      "audience": "科普读者",
+      "must_preserve": [
+        {
+          "quote": "主货舱体积约为160立方米",
+          "requirement": "保留747-400型及球直径约4.27厘米"
+        },
+        {
+          "quote": "按照80%的装载效率进行计算",
+          "requirement": "80%须呈现为计算假设而非实测"
+        },
+        {
+          "quote": "约300万到350万个高尔夫球",
+          "requirement": "保留估算范围与结构、固定、重量等限制"
+        }
+      ],
+      "voice_quote": "通过体积换算,我们可以得出一个相对精确的估算",
+      "voice": "讲解式科普，带赞叹倾向",
+      "allowed_changes": [
+        "删航空卓越与计算魅力的重复拔高",
+        "弱化严谨、精确等无支撑评价"
+      ],
+      "failure_conditions": [
+        "把货舱估算扩展为整架飞机可用空间",
+        "把理论装载量写成安全实装数量"
+      ],
+      "scoring_note": "理论体积估算最易变成工程结论；保留假设不等于验证其正确。"
+    },
+    {
+      "id": "zh2-facts-071",
+      "suitable": true,
+      "reason": "盘前时点及资金方向明确",
+      "task": "面向A股读者整理盘前提示；可删关键日等铺垫，保留时点、数据及建议归属，不补年份。",
+      "audience": "A股读者",
+      "must_preserve": [
+        {
+          "quote": "截至4月19日收盘",
+          "requirement": "保留上证3372.04点、跌0.09%及创业板数据"
+        },
+        {
+          "quote": "北向资金当日净流出12.56亿元",
+          "requirement": "保留净流出及此前连续三日净买入"
+        },
+        {
+          "quote": "建议投资者关注三大主线",
+          "requirement": "保留消费、新能源、金融及合理仓位提醒"
+        }
+      ],
+      "voice_quote": "建议投资者保持合理仓位，避免追涨杀跌",
+      "voice": "克制的市场提示口吻",
+      "allowed_changes": [
+        "合并背景铺陈与重复提示"
+      ],
+      "failure_conditions": [
+        "把4月19日收盘数据归到4月20日",
+        "把机构建议改成板块必涨或确定收益"
+      ],
+      "scoring_note": "无年份日期不能自行补齐；盘前报道与前日数据须分清。"
+    },
+    {
+      "id": "zh2-facts-072",
+      "suitable": true,
+      "reason": "品牌车型与性能归属明确",
+      "task": "面向摩托车入门读者精简品牌介绍；可删泛化赞誉，保留品牌、车型和性能归属，不增参数。",
+      "audience": "摩托车入门读者",
+      "must_preserve": [
+        {
+          "quote": "分别为本田、雅马哈、铃木和川崎",
+          "requirement": "保留四个品牌，不增删或混同"
+        },
+        {
+          "quote": "其CB系列街车及CRF系列越野车型",
+          "requirement": "保留本田车型分类及雅马哈R1归属"
+        },
+        {
+          "quote": "拥有超过300马力的最大功率输出",
+          "requirement": "归于川崎Ninja H2R，并保留超过限定"
+        }
+      ],
+      "voice_quote": "吸引着众多追求速度与激情的骑士",
+      "voice": "热情的品牌概览口吻",
+      "allowed_changes": [
+        "压缩全球喜爱、极高声誉等泛赞",
+        "整理品牌并列，保留铃木GSX-R归属"
+      ],
+      "failure_conditions": [
+        "将GSX-R归于雅马哈或R1归于铃木",
+        "将H2R功率改成恰好300马力或全系参数"
+      ],
+      "scoring_note": "宣传赞誉可压缩，品牌车型对应与超过限定不可随之丢失。"
+    }
+  ],
+  "metadata": {
+    "job": "rest-17",
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 91.61,
+    "system_sha256": "2c85943d84beabe7f1c8a64f793323c3fb90f4110f4f66ac756b1b69b3faf06e",
+    "input_sha256": "e73f5716c5cba2f9267aaec4b8c217d4400d72b06fa64e626842bf1740df034b",
+    "usage": [
+      {
+        "input_tokens": 20012,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2724,
+        "reasoning_output_tokens": 132
+      }
+    ],
+    "review_type": "model_annotation",
+    "human_review": false
+  }
+}

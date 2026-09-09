@@ -1,0 +1,248 @@
+{
+  "cases": [
+    {
+      "id": "zh2-no_edit-q001",
+      "suitable": true,
+      "reason": "试验设计与结果表述清楚",
+      "task": "面向青贮研究读者作强保留验收，可原样输出；不省略分组、剂量、测定条件及结果。",
+      "audience": "青贮研究读者",
+      "must_preserve": [
+        {
+          "quote": "每组3个重复。青贮45 d后",
+          "requirement": "保留重复数与测定时间"
+        },
+        {
+          "quote": "粗蛋白质含量均显著高于对照组",
+          "requirement": "限定为纤维素酶组和联合组"
+        },
+        {
+          "quote": "乳酸菌、酵母菌和需氧菌的数量",
+          "requirement": "保留联合组使三者显著降低"
+        }
+      ],
+      "voice_quote": "本试验旨在研究",
+      "voice": "客观、规范的研究摘要",
+      "allowed_changes": [
+        "可完整原样输出",
+        "仅统一单位及标点格式"
+      ],
+      "failure_conditions": [
+        "把乳酸菌数量降低改成升高",
+        "丢失对照关系或P＜0.05条件"
+      ],
+      "scoring_note": "反直觉结果最易被擅改；验收忠实性而非代做科学纠错。"
+    },
+    {
+      "id": "zh2-no_edit-q002",
+      "suitable": true,
+      "reason": "招生数字与层次交代清楚",
+      "task": "面向成考资讯读者作强保留验收，可原样输出；保留招生数字、专业与层次，不作摘要。",
+      "audience": "成考资讯读者",
+      "must_preserve": [
+        {
+          "quote": "60余个招生专业共录取新生4293人",
+          "requirement": "保留专业数约数与录取总数"
+        },
+        {
+          "quote": "各专业基本都在一志愿录满",
+          "requirement": "保留基本这一限定"
+        },
+        {
+          "quote": "高起专层次新增了商务日语专业",
+          "requirement": "保留新增专业及所属层次"
+        }
+      ],
+      "voice_quote": "首师大继教院相关负责人介绍",
+      "voice": "有来源归属的招生新闻",
+      "allowed_changes": [
+        "可完整原样输出",
+        "仅整理段落与标点"
+      ],
+      "failure_conditions": [
+        "把6000余名报考者写成录取者",
+        "把电子政务恢复招生写成新增"
+      ],
+      "scoring_note": "报考、达线、录取三种人数口径最易混淆。"
+    },
+    {
+      "id": "zh2-no_edit-q003",
+      "suitable": false,
+      "reason": "KN93剂量前后相差千倍",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-q004",
+      "suitable": false,
+      "reason": "存在“及ENC值”等明显语病",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-q005",
+      "suitable": false,
+      "reason": "饭叙回应与复拍感受明显重复",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-q006",
+      "suitable": true,
+      "reason": "现场问答清楚且口语有辨识度",
+      "task": "面向娱乐新闻读者作强保留验收，可原样输出；保留活动、问答及传闻边界，不删人物回应。",
+      "audience": "娱乐新闻读者",
+      "must_preserve": [
+        {
+          "quote": "近日有传郭富城可能将与前绯闻女友藤原纪香",
+          "requirement": "合作仅为传闻，保留可能性"
+        },
+        {
+          "quote": "我明天回南京，想到时跟家人一起看",
+          "requirement": "保留尚未观影及观影打算"
+        },
+        {
+          "quote": "同场的汪圆圆强调现在仍是单身",
+          "requirement": "单身表态归属汪圆圆"
+        }
+      ],
+      "voice_quote": "我不想冷到自己呀。",
+      "voice": "轻松俏皮的现场口语",
+      "allowed_changes": [
+        "可完整原样输出",
+        "仅统一括号及中英文间距"
+      ],
+      "failure_conditions": [
+        "把郭富城写成已确认男友",
+        "将记者提问改为熊黛林自述"
+      ],
+      "scoring_note": "括号承担问答角色切换，不能因符号密集而删除。"
+    },
+    {
+      "id": "zh2-no_edit-q007",
+      "suitable": true,
+      "reason": "冲突说法均有归属和核实边界",
+      "task": "面向时事读者作强保留验收，可原样输出；不省略军方、媒体的分歧及待核实状态。",
+      "audience": "时事新闻读者",
+      "must_preserve": [
+        {
+          "quote": "大概是追捕叛逃士兵。",
+          "requirement": "保留军方推测而非定论"
+        },
+        {
+          "quote": "这几名朝鲜士兵也是试图叛逃到韩国",
+          "requirement": "明确是当地媒体的不同说法"
+        },
+        {
+          "quote": "韩国国家情报机构称正在核实这篇报道",
+          "requirement": "保留报道尚待核实的状态"
+        }
+      ],
+      "voice_quote": "当地报纸媒体的报道则与军方的说法不同",
+      "voice": "并列呈现分歧的新闻语气",
+      "allowed_changes": [
+        "可完整原样输出",
+        "仅整理引语与段落格式"
+      ],
+      "failure_conditions": [
+        "将士兵被射杀写成已核实事实",
+        "合并追捕与叛逃为军方同一结论"
+      ],
+      "scoring_note": "来源边界最易受损；相互冲突不等于文本衔接错误。"
+    },
+    {
+      "id": "zh2-no_edit-q008",
+      "suitable": true,
+      "reason": "赛前背景与阵容结构清晰",
+      "task": "面向意甲球迷作强保留验收，可原样输出；保留时间、赛程、伤停、轮换及完整阵容。",
+      "audience": "意甲球迷",
+      "must_preserve": [
+        {
+          "quote": "AC米兰最近3场连续逆转取胜",
+          "requirement": "保留三场连续逆转的赛前状态"
+        },
+        {
+          "quote": "伤势初愈的加图索没有进入大名单",
+          "requirement": "保留初愈但未入名单的区别"
+        },
+        {
+          "quote": "那不勒斯(3-4-2-1)",
+          "requirement": "保留阵型及对应球员位置分组"
+        }
+      ],
+      "voice_quote": "老龄阵容将迎来魔鬼赛程",
+      "voice": "带竞技张力的赛前报道",
+      "allowed_changes": [
+        "可完整原样输出",
+        "可将阵容分行，不改对应关系"
+      ],
+      "failure_conditions": [
+        "把米兰客场挑战改成主场",
+        "删改球员号码或混淆双方阵容"
+      ],
+      "scoring_note": "斜线、连字符承担阵容编码功能，不宜按频次清理。"
+    },
+    {
+      "id": "zh2-no_edit-q009",
+      "suitable": false,
+      "reason": "“既把握”句式杂糅需修改",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-q010",
+      "suitable": false,
+      "reason": "首句“按照…乐观”明显不通",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    }
+  ],
+  "metadata": {
+    "job": "noedit_quality-00",
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 68.04,
+    "system_sha256": "2c85943d84beabe7f1c8a64f793323c3fb90f4110f4f66ac756b1b69b3faf06e",
+    "input_sha256": "e69476bb32ef69a44fb157831c607f4a2c48ff151972e1d3589c3a8d9812b404",
+    "usage": [
+      {
+        "input_tokens": 19767,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1710,
+        "reasoning_output_tokens": 81
+      }
+    ],
+    "review_type": "model_annotation",
+    "human_review": false
+  }
+}

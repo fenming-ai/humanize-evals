@@ -1,0 +1,210 @@
+{
+  "cases": [
+    {
+      "id": "zh2-no_edit-r061",
+      "suitable": false,
+      "reason": "含rtransformer疑似笔误及结构混指",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-r062",
+      "suitable": false,
+      "reason": "“亲睐”错字明显且宣传套话密集",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-r063",
+      "suitable": true,
+      "reason": "赛果和双方数据清楚，适合原样保留",
+      "task": "面向篮球读者保留完整战报；可原样输出，不省略赛果、战绩及任何球员数据。",
+      "audience": "篮球赛事读者",
+      "must_preserve": [
+        {
+          "quote": "火箭在主场以111-101击败勇士",
+          "requirement": "保留主客场、胜负及比分"
+        },
+        {
+          "quote": "火箭全场三分球20投10中",
+          "requirement": "保留球队投篮数据及双方连胜败记录"
+        },
+        {
+          "quote": "华裔球员林书豪5投4中，得8分",
+          "requirement": "保留球员身份及全部个人数据对应关系"
+        }
+      ],
+      "voice_quote": "火箭(4-10)止住颓势",
+      "voice": "简洁客观的体育快讯",
+      "allowed_changes": [
+        "允许完整原样输出",
+        "仅统一数字间隔与标点"
+      ],
+      "failure_conditions": [
+        "漏掉斯科拉篮板或洛里助攻数据",
+        "将火箭四连败写成五连败"
+      ],
+      "scoring_note": "数据密集易被摘要化；简洁不应牺牲任何球员统计。"
+    },
+    {
+      "id": "zh2-no_edit-r064",
+      "suitable": true,
+      "reason": "合约分组、日期及例外条件明确",
+      "task": "面向期货公告读者保留完整规则信息；可原样输出，不省略合约、日期、比例及例外。",
+      "audience": "期货公告读者",
+      "must_preserve": [
+        {
+          "quote": "决定于12月8日结算时",
+          "requirement": "保留两合约强减时间、依据及次日恢复"
+        },
+        {
+          "quote": "其中AL0901交易保证金为10%",
+          "requirement": "保留各组4%、5%及此10%例外"
+        },
+        {
+          "quote": "沪铜0911合约出现第3个跌停板",
+          "requirement": "保留沪铜触发条件与次日停牌一天"
+        }
+      ],
+      "voice_quote": "对上述合约实行强制减仓措施",
+      "voice": "严谨的交易所公告语气",
+      "allowed_changes": [
+        "允许完整原样输出",
+        "仅统一合约间隔及标点"
+      ],
+      "failure_conditions": [
+        "把AL0901保证金改为5%",
+        "把沪铜0911写成12月9日恢复交易"
+      ],
+      "scoring_note": "分组合约与保证金例外最易合并错；不代表核实规则。"
+    },
+    {
+      "id": "zh2-no_edit-r065",
+      "suitable": false,
+      "reason": "多处错字及步骤粘连明显需要修改",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-r066",
+      "suitable": true,
+      "reason": "研究背景与综述范围衔接清楚",
+      "task": "面向畜牧研究读者保留摘要；可原样输出，不省略环境问题与综述范围，不补研究结果。",
+      "audience": "畜牧研究读者",
+      "must_preserve": [
+        {
+          "quote": "磷是参与动物机体多种生物学反应的必需元素之一",
+          "requirement": "保留磷的必需性及生物学作用"
+        },
+        {
+          "quote": "尤其是反刍动物养殖过程中磷排泄带来的水体污染",
+          "requirement": "保留反刍养殖重点及污染问题"
+        },
+        {
+          "quote": "并结合其代谢特点归纳了提高磷利用率的措施",
+          "requirement": "保留研究综述、措施归纳与后续方向"
+        }
+      ],
+      "voice_quote": "提出了下一步研究的方向",
+      "voice": "克制的学术摘要语气",
+      "allowed_changes": [
+        "允许完整原样输出",
+        "仅微调长句停顿"
+      ],
+      "failure_conditions": [
+        "改成磷是动物唯一必需元素",
+        "增添具体措施或量化减排成果"
+      ],
+      "scoring_note": "摘要概括不等于空话；不能为具体化补造研究结论。"
+    },
+    {
+      "id": "zh2-no_edit-r067",
+      "suitable": false,
+      "reason": "“语言确实是是工具”有明显重字",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-r068",
+      "suitable": false,
+      "reason": "“法院说改判”主体及情境衔接不清",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-r069",
+      "suitable": false,
+      "reason": "导语整段重复且缺所指转播表",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-r070",
+      "suitable": false,
+      "reason": "“尤其齐柏林（仅指我）”指代含混",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    }
+  ],
+  "metadata": {
+    "job": "supplement-07",
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 54.59,
+    "system_sha256": "2c85943d84beabe7f1c8a64f793323c3fb90f4110f4f66ac756b1b69b3faf06e",
+    "input_sha256": "0b00bc3ceddf964f5f491da4ca3b8fb916524e023109ce4e999b164fe9d7a38b",
+    "usage": [
+      {
+        "input_tokens": 18114,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1354,
+        "reasoning_output_tokens": 104
+      }
+    ],
+    "review_type": "model_annotation",
+    "human_review": false
+  }
+}

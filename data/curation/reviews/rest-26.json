@@ -1,0 +1,62 @@
+{
+  "cases": [
+    {
+      "id": "zh2-voice_emotion-067",
+      "approve": true,
+      "reason": "引文准确，保留祝福与否认，明确区分传闻和事实。"
+    },
+    {
+      "id": "zh2-voice_emotion-068",
+      "approve": true,
+      "reason": "去重要求合理，批评立场及进度、超支信息忠实原稿。"
+    },
+    {
+      "id": "zh2-voice_emotion-069",
+      "approve": true,
+      "reason": "保留矿工记忆与乡土情绪，旅游期待的条件边界准确。"
+    },
+    {
+      "id": "zh2-voice_emotion-070",
+      "approve": true,
+      "reason": "反讽类别恰当，让步及历史时薪的不确定限定准确。"
+    },
+    {
+      "id": "zh2-punctuation-009",
+      "approve": true,
+      "reason": "引文原样存在，概念引号及书篇名层级值得测试。"
+    },
+    {
+      "id": "zh2-punctuation-010",
+      "approve": true,
+      "reason": "主题引号与排比停顿适合测试，三层含义保留合理。"
+    },
+    {
+      "id": "zh2-punctuation-011",
+      "approve": true,
+      "reason": "实验条件、数量及组名忠实，符号与结果归属要求合理。"
+    },
+    {
+      "id": "zh2-punctuation-012",
+      "approve": true,
+      "reason": "术语括注对应准确，双重定位及双向关系忠实原稿。"
+    }
+  ],
+  "metadata": {
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 23.16,
+    "input_sha256": "6ee94aa10bb14a3c211ed36332b9e1208af6b67445b41ec2e603000879737400",
+    "system_sha256": "0c41b551a96d085bbc3597749915f67732aa702736eddffdb625f85696aded81",
+    "usage": [
+      {
+        "input_tokens": 22138,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 345,
+        "reasoning_output_tokens": 36
+      }
+    ],
+    "review_type": "independent_context_model_review",
+    "human_review": false
+  }
+}

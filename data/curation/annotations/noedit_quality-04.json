@@ -1,0 +1,279 @@
+{
+  "cases": [
+    {
+      "id": "zh2-no_edit-q041",
+      "suitable": true,
+      "reason": "披露义务与机构名单交代清楚",
+      "task": "面向基金业务读者作强保留验收，可原样输出；不得省略披露渠道、整改要求及机构名单。",
+      "audience": "基金业务读者",
+      "must_preserve": [
+        {
+          "quote": "本机构网站及至少一家中国证监会指定信息披露媒体",
+          "requirement": "保留双渠道披露及协会公示格式"
+        },
+        {
+          "quote": "名单公布之日起一个月以内",
+          "requirement": "保留两类执行主体、期限及撤换停印要求"
+        },
+        {
+          "quote": "证券投资咨询机构及独立基金评价机构3家",
+          "requirement": "保留十家全名及3、4、3分类"
+        }
+      ],
+      "voice_quote": "中国证券业协会17日表示",
+      "voice": "客观、正式的消息体",
+      "allowed_changes": [
+        "可原样输出；仅微调分段"
+      ],
+      "failure_conditions": [
+        "把披露渠道改为任选其一",
+        "删改十家机构名单或一个月期限"
+      ],
+      "scoring_note": "名单与渠道最易被压缩误删；篇幅密集不等于需改。"
+    },
+    {
+      "id": "zh2-no_edit-q042",
+      "suitable": true,
+      "reason": "申请条件和待遇层次清楚",
+      "task": "面向留学读者强保留奖学金消息，可原样输出；不得省略年份、申请限制及家属待遇。",
+      "audience": "留学读者",
+      "must_preserve": [
+        {
+          "quote": "2011年新西兰国际博士奖学金",
+          "requirement": "保留2011年及5月申请、7月截止"
+        },
+        {
+          "quote": "仅限于研究课程。每个大学不超过10个名额",
+          "requirement": "保留政府出资、八校及课程名额限制"
+        },
+        {
+          "quote": "即使没有获得国际博士奖学金",
+          "requirement": "保留学费数字、家属政策及博士后待遇"
+        }
+      ],
+      "voice_quote": "记者从新西兰大使馆了解到",
+      "voice": "平实的留学资讯口吻",
+      "allowed_changes": [
+        "可原样输出；仅调整段落"
+      ],
+      "failure_conditions": [
+        "把每校十名改成全国十名",
+        "把同等学费限定为奖学金获得者"
+      ],
+      "scoring_note": "政策适用边界易误伤；只能忠实保留历史报道口径。"
+    },
+    {
+      "id": "zh2-no_edit-q043",
+      "suitable": false,
+      "reason": "医学来源含糊且将关联写成延寿因果",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-q044",
+      "suitable": true,
+      "reason": "叙事与转述来源清楚",
+      "task": "面向娱乐新闻读者强保留人物报道，可原样输出；不得省略长发缘由、儿子转述及母亲立场。",
+      "audience": "娱乐新闻读者",
+      "must_preserve": [
+        {
+          "quote": "表示因尊敬母亲，所以喜欢长发女生",
+          "requirement": "保留宣传《新宿事件》的采访语境与缘由"
+        },
+        {
+          "quote": "若发现我剪了短发就跟她离婚",
+          "requirement": "保留为房祖名转述父亲的话"
+        },
+        {
+          "quote": "不顾成龙的意愿，力挺儿子把头发剪了",
+          "requirement": "保留林凤娇主张短发并支持儿子"
+        }
+      ],
+      "voice_quote": "也是“长发为父留”",
+      "voice": "轻松娱乐叙述，保留引语趣味",
+      "allowed_changes": [
+        "可原样输出；仅微调分段"
+      ],
+      "failure_conditions": [
+        "将离婚话语改为记者亲闻或已发生",
+        "把林凤娇写成支持儿子留长发"
+      ],
+      "scoring_note": "引语层级最易误伤；耸动话语仍须归于儿子转述。"
+    },
+    {
+      "id": "zh2-no_edit-q045",
+      "suitable": true,
+      "reason": "政策转述与作者观察可区分",
+      "task": "面向财经读者强保留政策解读，可原样输出；不省略试点主体、政策条件或风险防范。",
+      "audience": "财经读者",
+      "must_preserve": [
+        {
+          "quote": "证券公司、基金公司香港子公司",
+          "requirement": "保留境外募资、境内证券投资方向"
+        },
+        {
+          "quote": "由“稳步”变为“加快”",
+          "requirement": "保留至“深入”的变化及作者临近判断"
+        },
+        {
+          "quote": "在有效防范风险前提下",
+          "requirement": "保留上市与外汇探索、分步开放及监测"
+        }
+      ],
+      "voice_quote": "“深入”一词值得玩味",
+      "voice": "消息转述中带审慎政策解读",
+      "allowed_changes": [
+        "可原样输出；仅整理段落与符号"
+      ],
+      "failure_conditions": [
+        "把小QFII临近判断写成已经启动",
+        "把境外企业上市探索写成已定制度"
+      ],
+      "scoring_note": "政策情态最易误伤；“可以考虑”不可升级为承诺。"
+    },
+    {
+      "id": "zh2-no_edit-q046",
+      "suitable": true,
+      "reason": "短讯完整且人物语气鲜明",
+      "task": "面向娱乐读者强保留活动短讯，可原样输出；不得省略活动、服饰信息及人物玩笑。",
+      "audience": "娱乐读者",
+      "must_preserve": [
+        {
+          "quote": "到东京出席时装品牌的开幕酒会",
+          "requirement": "保留阿Sa的地点与活动性质"
+        },
+        {
+          "quote": "而且是2011年最新早秋系列",
+          "requirement": "保留裙子来自米兰总部及系列年份"
+        },
+        {
+          "quote": "同场还有09年日本小姐Emiri",
+          "requirement": "保留同场人物及向日本女生偷师的玩笑"
+        }
+      ],
+      "voice_quote": "我当然要趁机偷师啦！哈哈！",
+      "voice": "活泼娱乐口吻与笑谈",
+      "allowed_changes": [
+        "可完整原样输出"
+      ],
+      "failure_conditions": [
+        "把东京酒会写成米兰活动",
+        "删除笑谈或改为严肃学习宣言"
+      ],
+      "scoring_note": "感叹号承载人物兴奋；不能因符号密集机械删改。"
+    },
+    {
+      "id": "zh2-no_edit-q047",
+      "suitable": false,
+      "reason": "“可能意味着支撑市场”搭配不通",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-q048",
+      "suitable": false,
+      "reason": "德甲第一站未限定执教，与球员经历混淆",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-q049",
+      "suitable": true,
+      "reason": "工作重点与筹备背景衔接清楚",
+      "task": "面向期货市场读者强保留历史消息，可原样输出；不得省略风险措施、筹备时间及上市状态。",
+      "audience": "期货市场读者",
+      "must_preserve": [
+        {
+          "quote": "市场风险控制和钢材期货上市两大重点工作",
+          "requirement": "保留2009年重点及系统网络安全"
+        },
+        {
+          "quote": "上调了假期涨跌停板幅度和保证金比例",
+          "requirement": "保留提前执行长假安排及两项上调"
+        },
+        {
+          "quote": "从2001年起，上期所开始",
+          "requirement": "保留螺纹钢线材调研、合约设计及待上市"
+        }
+      ],
+      "voice_quote": "记者20日从上海期货交易所获悉",
+      "voice": "正式、平实的财经消息体",
+      "allowed_changes": [
+        "可原样输出；仅调整分段"
+      ],
+      "failure_conditions": [
+        "将钢材期货写成已经上市",
+        "把保证金比例上调写成下调"
+      ],
+      "scoring_note": "筹备与落地最易混淆；“尽快上市”不是完成公告。"
+    },
+    {
+      "id": "zh2-no_edit-q050",
+      "suitable": true,
+      "reason": "招生数字明确，措施并列清楚",
+      "task": "面向教育新闻读者强保留招生消息，可原样输出；不得省略招生比较及五项配套要求。",
+      "audience": "教育新闻读者",
+      "must_preserve": [
+        {
+          "quote": "比去年增加50万人，达到860万人",
+          "requirement": "保留中职增量与总量的区别"
+        },
+        {
+          "quote": "普高计划招生840万人",
+          "requirement": "保留普高主体及计划口径"
+        },
+        {
+          "quote": "通过各种政策措施提高中等职业教育的吸引力",
+          "requirement": "保留基础建设、降成本、质量、就业创业及继续学习"
+        }
+      ],
+      "voice_quote": "要加强中等职业学校的基础能力建设",
+      "voice": "正式消息体，要求并列呈现",
+      "allowed_changes": [
+        "可原样输出；可将五项要求分行"
+      ],
+      "failure_conditions": [
+        "将860万人归为普高招生计划",
+        "删除降学习成本或继续学习体系要求"
+      ],
+      "scoring_note": "重复“要”承担并列功能，不应作为套话删去措施。"
+    }
+  ],
+  "metadata": {
+    "job": "noedit_quality-04",
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 80.64,
+    "system_sha256": "2c85943d84beabe7f1c8a64f793323c3fb90f4110f4f66ac756b1b69b3faf06e",
+    "input_sha256": "5e7468aaa34ac899165d2a25415840f224890b6c62774ff918c9731bcddec93e",
+    "usage": [
+      {
+        "input_tokens": 18570,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2125,
+        "reasoning_output_tokens": 134
+      }
+    ],
+    "review_type": "model_annotation",
+    "human_review": false
+  }
+}

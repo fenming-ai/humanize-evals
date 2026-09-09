@@ -1,0 +1,267 @@
+{
+  "cases": [
+    {
+      "id": "zh2-no_edit-q031",
+      "suitable": false,
+      "reason": "有“85折”及成分残缺等明显问题",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-q032",
+      "suitable": true,
+      "reason": "事件脉络清楚，传闻标记明确",
+      "task": "面向娱乐新闻读者验收强保留稿，允许原样输出，不删事件细节或传闻限定。",
+      "audience": "娱乐新闻读者",
+      "must_preserve": [
+        {
+          "quote": "传出与节目组因为沟通问题发生激烈争执",
+          "requirement": "争执须保留传闻性质"
+        },
+        {
+          "quote": "由于担心不能成功挑战5000人",
+          "requirement": "保留调低自定目标的动机与人数"
+        },
+        {
+          "quote": "暴晒等待王蓉长达3个多小时",
+          "requirement": "保留主持人等待环境与时长"
+        }
+      ],
+      "voice_quote": "据称正式开录时",
+      "voice": "娱乐报道口吻，带消息限定",
+      "allowed_changes": [
+        "允许全文原样输出",
+        "仅作不影响语义的排版整理"
+      ],
+      "failure_conditions": [
+        "把王蓉争执写成已证实事实",
+        "删去失联或录制暂停的经过"
+      ],
+      "scoring_note": "传闻边界最易误伤，精简可能抹去“传出”“据称”。"
+    },
+    {
+      "id": "zh2-no_edit-q033",
+      "suitable": false,
+      "reason": "“分别下降了和”存在明显赘字",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-q034",
+      "suitable": true,
+      "reason": "叙述完整，调侃与笑点清晰",
+      "task": "面向生活随笔读者强保留叙述与调侃，允许原样输出，不删税费说明及漫画笑点。",
+      "audience": "生活随笔读者",
+      "must_preserve": [
+        {
+          "quote": "每年110新币(不是有线电视的费用)",
+          "requirement": "保留税额及与有线电视费的区别"
+        },
+        {
+          "quote": "如果没有电视，可以通知他们，免缴此税",
+          "requirement": "保留通知无电视可免税的条件"
+        },
+        {
+          "quote": "不是，我是想帮你支付每年110块的电视税。",
+          "requirement": "保留送电视期待落空的漫画笑点"
+        }
+      ],
+      "voice_quote": "这种解释和没解释差不多",
+      "voice": "第一人称闲谈，略带讽刺",
+      "allowed_changes": [
+        "允许全文原样输出",
+        "仅整理段落与符号样式"
+      ],
+      "failure_conditions": [
+        "删掉对法令解释的吐槽",
+        "把老爸的礼物改成3999块电视"
+      ],
+      "scoring_note": "反讽最易被当赘话删去，会抹平作者态度。"
+    },
+    {
+      "id": "zh2-no_edit-q035",
+      "suitable": false,
+      "reason": "“关门旅客”不通，发电量单位混用",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-q036",
+      "suitable": true,
+      "reason": "资格规则与政策意向区分清楚",
+      "task": "面向篮球新闻读者强保留报道，允许原样输出，不删资格条件、解约结果及政策意向。",
+      "audience": "篮球新闻读者",
+      "must_preserve": [
+        {
+          "quote": "因此无法参加CBA联赛，目前佛山俱乐部已与其解约",
+          "requirement": "保留丹尼尔资格审查结果及解约"
+        },
+        {
+          "quote": "第13名以后(包括第13名)的球队",
+          "requirement": "保留第三外援球队排名门槛"
+        },
+        {
+          "quote": "只能算作普通外援",
+          "requirement": "保留双重国籍球员的分类边界"
+        }
+      ],
+      "voice_quote": "有望在下赛季寿终正寝",
+      "voice": "体育报道，带政策评论色彩",
+      "allowed_changes": [
+        "允许全文原样输出",
+        "仅作段落排版整理"
+      ],
+      "failure_conditions": [
+        "把下赛季取消政策写成已决定",
+        "删去第三外援必须来自亚洲的条件"
+      ],
+      "scoring_note": "资格否定最易扩大，不能改成双国籍球员一律禁赛。"
+    },
+    {
+      "id": "zh2-no_edit-q037",
+      "suitable": true,
+      "reason": "报道连贯，猜测与本人回应有区分",
+      "task": "面向娱乐新闻读者强保留报道，允许原样输出，不删待产安排、消息限定与父亲心情。",
+      "audience": "娱乐新闻读者",
+      "must_preserve": [
+        {
+          "quote": "将回京专心陪老婆袁泉待产",
+          "requirement": "保留活动结束后的陪伴安排"
+        },
+        {
+          "quote": "不禁让人猜想夏雨、袁泉将添置新房",
+          "requirement": "添置新房仅为猜测"
+        },
+        {
+          "quote": "其实不管是男是女，我都很期待",
+          "requirement": "保留未知性别且重健康的期待"
+        }
+      ],
+      "voice_quote": "毕竟是第一次(做爸爸)，什么都不懂",
+      "voice": "新闻叙述穿插坦诚的准父亲自述",
+      "allowed_changes": [
+        "允许全文原样输出",
+        "仅作段落排版整理"
+      ],
+      "failure_conditions": [
+        "把“奉子成婚”消息写成定论",
+        "删去初为人父的忐忑与读书准备"
+      ],
+      "scoring_note": "情绪层次易被压平，忐忑与期待同时存在。"
+    },
+    {
+      "id": "zh2-no_edit-q038",
+      "suitable": true,
+      "reason": "时间线与修复状态清楚",
+      "task": "面向一般新闻读者强保留报道，允许原样输出，不删开放时间、受损修复状态及防雷进展。",
+      "audience": "一般新闻读者",
+      "must_preserve": [
+        {
+          "quote": "18日中午，新加坡的标志性景观鱼尾狮雕塑重新向公众开放",
+          "requirement": "保留重新开放的时间和对象"
+        },
+        {
+          "quote": "波浪状底座将在本月底完成修复工作",
+          "requirement": "保留头部已修好、底座尚待完成"
+        },
+        {
+          "quote": "自1972年建成以来第一次遭到雷击",
+          "requirement": "保留首次雷击的时间范围"
+        }
+      ],
+      "voice_quote": "给当时在鱼尾狮公园里游览、拍照的游客一个意外惊喜",
+      "voice": "客观报道中带轻微欣喜",
+      "allowed_changes": [
+        "允许全文原样输出",
+        "仅整理段落"
+      ],
+      "failure_conditions": [
+        "把重新开放写成整体修复完成",
+        "把研究防雷措施写成已经安装"
+      ],
+      "scoring_note": "完成状态最易误伤，开放不等于底座修复完成。"
+    },
+    {
+      "id": "zh2-no_edit-q039",
+      "suitable": false,
+      "reason": "有“精湛纯属”“生命里”等错词",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-q040",
+      "suitable": true,
+      "reason": "报告数据与市场分类脉络完整",
+      "task": "面向财经新闻读者强保留报告转述，允许原样输出，不删数据口径、负面背景与发行差异。",
+      "audience": "财经新闻读者",
+      "must_preserve": [
+        {
+          "quote": "到期的2773款产品平均收益率为4.52%",
+          "requirement": "平均收益仅对应到期产品"
+        },
+        {
+          "quote": "全国56家商业银行共发行银行理财产品4456款",
+          "requirement": "保留2008年发行主体与总量"
+        },
+        {
+          "quote": "结构类理财产品的市场份额不足10%",
+          "requirement": "保留结构类占比及与普通类的区别"
+        }
+      ],
+      "voice_quote": "但2008年银行理财产品总体表现优良",
+      "voice": "报告转述，保留先抑后扬",
+      "allowed_changes": [
+        "允许全文原样输出",
+        "仅作段落排版整理"
+      ],
+      "failure_conditions": [
+        "将4.52%套用于全部4456款产品",
+        "删去中外资银行前后期发行差异"
+      ],
+      "scoring_note": "统计口径最易误伤，总体评价也不能变成收益保证。"
+    }
+  ],
+  "metadata": {
+    "job": "noedit_quality-03",
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 77.02,
+    "system_sha256": "2c85943d84beabe7f1c8a64f793323c3fb90f4110f4f66ac756b1b69b3faf06e",
+    "input_sha256": "5b441f9e59d8d5c8b4eeee9a65b444cb2c3ce9797786cb71a5f7b80a25ef19c7",
+    "usage": [
+      {
+        "input_tokens": 18805,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1991,
+        "reasoning_output_tokens": 152
+      }
+    ],
+    "review_type": "model_annotation",
+    "human_review": false
+  }
+}

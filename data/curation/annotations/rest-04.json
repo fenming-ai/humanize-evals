@@ -1,0 +1,324 @@
+{
+  "cases": [
+    {
+      "id": "zh2-slop-057",
+      "suitable": true,
+      "reason": "发行信息被宣传套话遮蔽",
+      "task": "面向普通投资者压缩财经稿套话；保留首发信息与风险边界，不补来源或收益承诺。",
+      "audience": "普通投资者",
+      "must_preserve": [
+        {
+          "quote": "募集规模突破了100亿元人民币大关",
+          "requirement": "保留首日募集超百亿元的原稿说法"
+        },
+        {
+          "quote": "“封闭运作+定期开放”相结合",
+          "requirement": "保留原稿运作方式，不冒充核实"
+        },
+        {
+          "quote": "仍需时间检验",
+          "requirement": "保留持续吸引资金尚不确定"
+        }
+      ],
+      "voice_quote": "做出理性判断",
+      "voice": "克制的财经说明与风险提醒",
+      "allowed_changes": [
+        "删强心针、暖意等宣传比喻",
+        "合并重复追捧描述，弱化无支撑预测"
+      ],
+      "failure_conditions": [
+        "将长期稳定收益写成保证",
+        "为官方数据或专家补造出处"
+      ],
+      "scoring_note": "最易误伤事实边界：去宣传不能把原稿说法升级为已核实事实。"
+    },
+    {
+      "id": "zh2-slop-058",
+      "suitable": true,
+      "reason": "情节明确但升华反复",
+      "task": "面向文学读者精简读后感；保留情节支点和尊严主题，可删重复励志升华，不补原著细节。",
+      "audience": "文学读者",
+      "must_preserve": [
+        {
+          "quote": "连续八十四天没有捕到鱼",
+          "requirement": "保留困境持续八十四天"
+        },
+        {
+          "quote": "鲨鱼接连不断地啃食他辛苦捕获的鱼",
+          "requirement": "保留捕获后遭鲨鱼啃食的转折"
+        },
+        {
+          "quote": "尊严、勇气和对生活的执着",
+          "requirement": "保留作者看重的精神收获"
+        }
+      ],
+      "voice_quote": "即便遍体鳞伤，也要昂首向前",
+      "voice": "敬佩老渔夫的热切励志口吻",
+      "allowed_changes": [
+        "合并反复的人性与生命意义升华",
+        "分开粘连的标题和正文"
+      ],
+      "failure_conditions": [
+        "将八十四天改为搏斗时长",
+        "把尊严解读改成对执着的嘲讽"
+      ],
+      "scoring_note": "最易误伤情绪：压缩励志套话不等于抹去作者的敬佩。"
+    },
+    {
+      "id": "zh2-slop-059",
+      "suitable": true,
+      "reason": "理由与结论多次重复",
+      "task": "面向课程讨论读者压缩授课理由；保留化学视角及应用例子，可删重复结论，不新增学科比较证据。",
+      "audience": "课程讨论读者",
+      "must_preserve": [
+        {
+          "quote": "但由化学家授课有其必要性",
+          "requirement": "保留支持化学家授课的立场"
+        },
+        {
+          "quote": "解释反应速率与反应条件的关系",
+          "requirement": "保留动力学应用这一论据"
+        },
+        {
+          "quote": "光谱学、热力学等知识",
+          "requirement": "保留材料表征所用知识举例"
+        }
+      ],
+      "voice_quote": "将物理学原理与化学实验相结合",
+      "voice": "解释性、支持跨学科结合",
+      "allowed_changes": [
+        "合并首尾重复的授课优势",
+        "压缩推动发展等宽泛效果描述"
+      ],
+      "failure_conditions": [
+        "改成只有化学家能教授物理化学",
+        "删尽动力学和材料表征例子"
+      ],
+      "scoring_note": "最易误伤立场边界：支持化学家授课不等于否定物理学家。"
+    },
+    {
+      "id": "zh2-slop-060",
+      "suitable": true,
+      "reason": "三段主题清楚但排比空泛",
+      "task": "面向随笔读者精简三间小屋议论；保留作者自己的三项安排，可删重复比喻，不补名言来源。",
+      "audience": "随笔读者",
+      "must_preserve": [
+        {
+          "quote": "第一间，盛放我们的梦想",
+          "requirement": "保留梦想作为第一间的内容"
+        },
+        {
+          "quote": "第二间，盛放我们的亲情",
+          "requirement": "保留亲情的支持与安慰作用"
+        },
+        {
+          "quote": "第三间，则用来储存友情",
+          "requirement": "保留友情及理解包容的意义"
+        }
+      ],
+      "voice_quote": "而我却认为",
+      "voice": "个人主张明确、温暖劝勉",
+      "allowed_changes": [
+        "压缩有了梦想等同义排比",
+        "删灯塔、财富等重复比喻"
+      ],
+      "failure_conditions": [
+        "将梦想亲情友情归为毕淑敏原文安排",
+        "删除任一间小屋的主题"
+      ],
+      "scoring_note": "最易误伤主体：三间内容是作者安排，不能转嫁给引用作家。"
+    },
+    {
+      "id": "zh2-slop-061",
+      "suitable": true,
+      "reason": "善举主题被反复抒情包裹",
+      "task": "面向随笔读者减少助人议论套话；保留善举与自得联系，可删无来源故事或引语，不补真实性证明。",
+      "audience": "随笔读者",
+      "must_preserve": [
+        {
+          "quote": "助人，从来不是单向的付出",
+          "requirement": "保留助人也使自己获益的观点"
+        },
+        {
+          "quote": "在同学困惑时耐心讲解一道题目",
+          "requirement": "保留日常小善举的具体落点"
+        },
+        {
+          "quote": "赠人玫瑰，不求回报，但芬芳自来",
+          "requirement": "保留不以索取回报为动机"
+        }
+      ],
+      "voice_quote": "愿我们都能成为那个赠出玫瑰的人",
+      "voice": "温柔真诚的劝善口吻",
+      "allowed_changes": [
+        "删重复花香、江河等升华",
+        "删或限定未交代来源的故事与引语"
+      ],
+      "failure_conditions": [
+        "把助人改成换取回报的交易",
+        "给退休教师补造姓名或新闻出处"
+      ],
+      "scoring_note": "最易误伤动机：精神满足不能被改成算计回报。"
+    },
+    {
+      "id": "zh2-slop-062",
+      "suitable": true,
+      "reason": "菜肴比喻被人生套话反复扩展",
+      "task": "面向生活随笔读者压缩重复哲理；保留两道菜的象征与不分高下立场，不补营养或人群数据。",
+      "audience": "生活随笔读者",
+      "must_preserve": [
+        {
+          "quote": "返璞归真、回归自然",
+          "requirement": "保留萝卜烧萝卜象征简朴淡泊"
+        },
+        {
+          "quote": "现代人对多彩生活的向往",
+          "requirement": "保留萝卜烧肉象征丰富探索"
+        },
+        {
+          "quote": "并没有绝对的好坏之分",
+          "requirement": "保留因人选择、不判高下的立场"
+        }
+      ],
+      "voice_quote": "重要的是找到属于自己的生活方式",
+      "voice": "包容不同选择的平和劝说",
+      "allowed_changes": [
+        "合并前后重复的两种生活态度",
+        "删时代背景与精彩人生等泛化收尾"
+      ],
+      "failure_conditions": [
+        "将萝卜烧肉写成优于素淡生活",
+        "删去两道菜与生活态度的对应"
+      ],
+      "scoring_note": "最易误伤价值立场：精简对照不能把包容改成二选一倡导。"
+    },
+    {
+      "id": "zh2-slop-063",
+      "suitable": false,
+      "reason": "具体练习建议密集，套话不足",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-slop-064",
+      "suitable": true,
+      "reason": "研究要点具体但铺垫拔高冗余",
+      "task": "面向研究读者压缩背景设问与拔高；保留模型、检测方法和结果链，不补数据或外部验证。",
+      "audience": "代谢研究读者",
+      "must_preserve": [
+        {
+          "quote": "基于过度喂养的斑马鱼幼鱼肥胖模型",
+          "requirement": "保留诱导方式、物种与幼鱼阶段"
+        },
+        {
+          "quote": "尼罗红染色结合活体成像技术",
+          "requirement": "保留动态监测及定量、病理验证方法"
+        },
+        {
+          "quote": "脂肪动员与重建的可逆过程",
+          "requirement": "保留积脂、肝变性及饥饿再喂养结果"
+        }
+      ],
+      "voice_quote": "本研究聚焦于建立一种",
+      "voice": "审慎、清楚的研究摘要语气",
+      "allowed_changes": [
+        "合并连续设问与背景铺垫",
+        "删高效、独特等无量化支撑评价"
+      ],
+      "failure_conditions": [
+        "把斑马鱼结果直接推广为人体结论",
+        "删去饥饿与再喂养的可逆性发现"
+      ],
+      "scoring_note": "最易误伤信息密度：技术方法不是套话，不能随背景一起删。"
+    },
+    {
+      "id": "zh2-slop-065",
+      "suitable": true,
+      "reason": "赛事逆转被英雄化套话包裹",
+      "task": "面向赛车读者精简赛事叙述；保留冠军归属、末段逆转与遗憾敬意，可删渲染，不补现场细节。",
+      "audience": "赛车读者",
+      "must_preserve": [
+        {
+          "quote": "率先冲过终点线，赢得了分站冠军",
+          "requirement": "保留马萨赢得分站而非年度冠军"
+        },
+        {
+          "quote": "汉密尔顿奇迹般地超越了丰田车队的格洛克",
+          "requirement": "保留超格洛克回第五及一分夺冠链"
+        },
+        {
+          "quote": "为团队的胜利而自豪",
+          "requirement": "保留马萨失冠后的尊严与团队荣誉"
+        }
+      ],
+      "voice_quote": "马萨虽然憾失车手总冠军，但他依然是英雄",
+      "voice": "遗憾中敬佩马萨",
+      "allowed_changes": [
+        "删红色战马、精准弧线等渲染",
+        "压缩载入史册等空泛评价"
+      ],
+      "failure_conditions": [
+        "把马萨写成年度车手冠军",
+        "把汉密尔顿最终名次改为第六"
+      ],
+      "scoring_note": "最易误伤情绪与赛果：去英雄化修辞仍须保留敬意及冠军区别。"
+    },
+    {
+      "id": "zh2-slop-066",
+      "suitable": true,
+      "reason": "具体示例夹杂重复劝说与强断言",
+      "task": "面向职场新人精简理财说明；保留收支示例和风险差异，可限定无时点收益说法，不新增行情。",
+      "audience": "职场新人",
+      "must_preserve": [
+        {
+          "quote": "月薪5000元，房租1500元",
+          "requirement": "保留另支出2000、结余1500的示例"
+        },
+        {
+          "quote": "股票投资潜在收益高，但风险也极大",
+          "requirement": "保留股票收益伴随本金损失风险"
+        },
+        {
+          "quote": "一部分资金存入货币基金作为应急资金",
+          "requirement": "保留应急资金与长期定投用途区分"
+        }
+      ],
+      "voice_quote": "职场小白理财要从实际出发",
+      "voice": "面向新人的务实说明",
+      "allowed_changes": [
+        "删重要性与财富积累的重复劝说",
+        "限定利率、定投收益及多结余推算"
+      ],
+      "failure_conditions": [
+        "把定投改成保证稳定收益",
+        "把示例利率写成当前核实行情"
+      ],
+      "scoring_note": "最易误伤数字边界：餐饮不等于吃饭交通合计，不能坐实多余500元。"
+    }
+  ],
+  "metadata": {
+    "job": "rest-04",
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 90.82,
+    "system_sha256": "2c85943d84beabe7f1c8a64f793323c3fb90f4110f4f66ac756b1b69b3faf06e",
+    "input_sha256": "1226ee96ecbfc9345521f5f2bfd4a182e55d27bbe39b3135c3c28e906d18192a",
+    "usage": [
+      {
+        "input_tokens": 21719,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2648,
+        "reasoning_output_tokens": 75
+      }
+    ],
+    "review_type": "model_annotation",
+    "human_review": false
+  }
+}

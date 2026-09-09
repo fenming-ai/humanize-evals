@@ -1,0 +1,229 @@
+{
+  "cases": [
+    {
+      "id": "zh2-no_edit-qx001",
+      "suitable": false,
+      "reason": "电头与正文粘连，需补分隔",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-qx002",
+      "suitable": false,
+      "reason": "日期范围连接符混乱，需规范",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-qx003",
+      "suitable": false,
+      "reason": "“遗憾的说到”有明显用字错误",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-qx004",
+      "suitable": false,
+      "reason": "报名事项挤连，日期符号需整理",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-qx005",
+      "suitable": false,
+      "reason": "“这就造成”与“主要原因”句式杂糅",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    },
+    {
+      "id": "zh2-no_edit-qx006",
+      "suitable": true,
+      "reason": "消息归属明确，分歧呈现清楚",
+      "task": "面向体育新闻读者作强保留验收，可原样输出，不省略各方说法及时间层次。",
+      "audience": "体育新闻读者",
+      "must_preserve": [
+        {
+          "quote": "他是要求转业，而不是我们所说的退役",
+          "requirement": "保留内部人士区分转业与退役的说法"
+        },
+        {
+          "quote": "不知道，我没要求转业。",
+          "requirement": "保留肖钦本人的明确否认"
+        },
+        {
+          "quote": "肖钦最近将正式递交转业申请",
+          "requirement": "保留记者所称将递交，勿写成已递交"
+        }
+      ],
+      "voice_quote": "他应该还会继续练下去。",
+      "voice": "新闻转述，保留推测与否认",
+      "allowed_changes": [
+        "允许完整原样输出",
+        "仅作不影响引语的版式整理"
+      ],
+      "failure_conditions": [
+        "将离开八一队写成确定退役",
+        "删去肖钦否认，统一成单方结论"
+      ],
+      "scoring_note": "最易误伤归属边界：说法冲突不能由编辑裁决。"
+    },
+    {
+      "id": "zh2-no_edit-qx007",
+      "suitable": true,
+      "reason": "调查目的与证人反应交代清楚",
+      "task": "面向社会新闻读者保留报道，可原样输出，不省略调查疑点、消息归属及对质结果。",
+      "audience": "社会新闻读者",
+      "must_preserve": [
+        {
+          "quote": "首度前往板桥地检署应讯",
+          "requirement": "保留首次应讯及律师陪同背景"
+        },
+        {
+          "quote": "究竟是不是误杀",
+          "requirement": "保留误杀尚待厘清，非调查定论"
+        },
+        {
+          "quote": "不过陈明雄拒绝对质",
+          "requirement": "保留拒绝者为陈明雄，勿扩大到全部证人"
+        }
+      ],
+      "voice_quote": "连胜文对于案发当时仍然相当恐惧",
+      "voice": "克制转述，保留恐惧状态",
+      "allowed_changes": [
+        "允许完整原样输出",
+        "仅整理段落和空白"
+      ],
+      "failure_conditions": [
+        "将误杀疑点改为已证实误杀",
+        "将金钱纠纷写成已查明事实"
+      ],
+      "scoring_note": "最易误伤疑问语气：调查方向不等于案件结论。"
+    },
+    {
+      "id": "zh2-no_edit-qx008",
+      "suitable": true,
+      "reason": "伤情确认与缺赛推断有区分",
+      "task": "面向足球读者强保留伤情短讯，可原样输出，不省略比分、换人时间及不确定性。",
+      "audience": "足球新闻读者",
+      "must_preserve": [
+        {
+          "quote": "摩德里奇右腿腓骨骨裂",
+          "requirement": "保留官方声明中的部位与伤情"
+        },
+        {
+          "quote": "该队并未透露克罗地亚人需要休养多久",
+          "requirement": "保留俱乐部未披露休养时长"
+        },
+        {
+          "quote": "基本将缺席9月20日英超第6轮",
+          "requirement": "保留对切尔西缺赛判断及其推测性质"
+        }
+      ],
+      "voice_quote": "不过，从目前情况看",
+      "voice": "简洁新闻体，推测有限定",
+      "allowed_changes": [
+        "允许完整原样输出",
+        "仅作段落整理"
+      ],
+      "failure_conditions": [
+        "把缺席切尔西比赛写成官方确认",
+        "新增具体复出日期或休养周数"
+      ],
+      "scoring_note": "最易误伤确定性：官方伤情不能扩展为官方赛程判断。"
+    },
+    {
+      "id": "zh2-no_edit-qx009",
+      "suitable": true,
+      "reason": "各方立场及时间信息清楚",
+      "task": "面向国际新闻读者强保留报道，可原样输出，不省略各方立场、选举日期与地区。",
+      "audience": "国际新闻读者",
+      "must_preserve": [
+        {
+          "quote": "无论阿巴斯作出怎样的决定",
+          "requirement": "保留美国继续合作不以参选为条件"
+        },
+        {
+          "quote": "参加下届大选的唯一候选人",
+          "requirement": "保留巴解组织推举及拉布表态归属"
+        },
+        {
+          "quote": "他不参加明年初举行的大选",
+          "requirement": "保留阿巴斯重申不参选，与推举相区别"
+        }
+      ],
+      "voice_quote": "但阿巴斯随即在拉姆安拉重申",
+      "voice": "客观转述，以转折呈现分歧",
+      "allowed_changes": [
+        "允许完整原样输出",
+        "仅整理段落和空白"
+      ],
+      "failure_conditions": [
+        "把获推举改成阿巴斯已同意参选",
+        "删改1月24日或三个投票地区"
+      ],
+      "scoring_note": "最易误伤立场衔接：被推举与拒绝参选可以并存。"
+    },
+    {
+      "id": "zh2-no_edit-qx010",
+      "suitable": false,
+      "reason": "带球表述重复，局部明显需精简",
+      "task": "",
+      "audience": "",
+      "must_preserve": [],
+      "voice_quote": "",
+      "voice": "",
+      "allowed_changes": [],
+      "failure_conditions": [],
+      "scoring_note": ""
+    }
+  ],
+  "metadata": {
+    "job": "noedit_extra-00",
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 59.98,
+    "system_sha256": "2c85943d84beabe7f1c8a64f793323c3fb90f4110f4f66ac756b1b69b3faf06e",
+    "input_sha256": "de9f9dbcb24a3c034251f2ed816033f792f1b02d5f5ed932f622d61bcb6d7897",
+    "usage": [
+      {
+        "input_tokens": 18022,
+        "cached_input_tokens": 10368,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1652,
+        "reasoning_output_tokens": 223
+      }
+    ],
+    "review_type": "model_annotation",
+    "human_review": false
+  }
+}

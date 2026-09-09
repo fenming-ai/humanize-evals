@@ -1,0 +1,72 @@
+{
+  "cases": [
+    {
+      "id": "zh2-punctuation-r011-p2",
+      "approve": true,
+      "reason": "引文准确，名称边界及更正关系保护合理。"
+    },
+    {
+      "id": "zh2-punctuation-r012-p2",
+      "approve": true,
+      "reason": "引文准确，保留假设限定，未越权核实参赛断言。"
+    },
+    {
+      "id": "zh2-punctuation-r013-p2",
+      "approve": true,
+      "reason": "括注与列举层级判断合理，保留要求忠实原文。"
+    },
+    {
+      "id": "zh2-punctuation-r014-p2",
+      "approve": true,
+      "reason": "列项及修辞引号功能明确，理论限定保留恰当。"
+    },
+    {
+      "id": "zh2-punctuation-r015-p2",
+      "approve": true,
+      "reason": "引文准确，修辞、并列原因与风险转折保护合理。"
+    },
+    {
+      "id": "zh2-punctuation-r016-p2",
+      "approve": true,
+      "reason": "引语边界明确，允许统一引号且不改正文，范围合理。"
+    },
+    {
+      "id": "zh2-punctuation-r017-p2",
+      "approve": true,
+      "reason": "歌名及歌词引用保护合理，验收符合仅审标点任务。"
+    },
+    {
+      "id": "zh2-punctuation-r018-p2",
+      "approve": true,
+      "reason": "列举与发言归属忠实原稿，未将引语视为已核实事实。"
+    },
+    {
+      "id": "zh2-punctuation-r019-p2",
+      "approve": true,
+      "reason": "引文准确，引用边界与并列节奏值得测试。"
+    },
+    {
+      "id": "zh2-punctuation-r020-p2",
+      "approve": true,
+      "reason": "简称、争议措辞及评论归属保护合理，未越权核实。"
+    }
+  ],
+  "metadata": {
+    "model_requested": "gpt-6-astra",
+    "effort": "medium",
+    "seconds": 25.53,
+    "input_sha256": "09a2a87715900cd9c64b49ff0d2675798a63064cc29ed485a847178b0fb9a597",
+    "system_sha256": "0c41b551a96d085bbc3597749915f67732aa702736eddffdb625f85696aded81",
+    "usage": [
+      {
+        "input_tokens": 22366,
+        "cached_input_tokens": 9856,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 413,
+        "reasoning_output_tokens": 37
+      }
+    ],
+    "review_type": "independent_context_model_review",
+    "human_review": false
+  }
+}
