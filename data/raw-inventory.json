@@ -1,0 +1,36 @@
+{
+  "C-ReD": {
+    "rows": 109204,
+    "unique_normalized_texts": 109192,
+    "by_generator": {
+      "claude-3.5-haiku": 10994,
+      "deepseek-r1": 10878,
+      "deepseek-v3": 10982,
+      "doubao-1.5-pro": 10942,
+      "gemini-2.5-flash": 10601,
+      "gpt-3.5-turbo": 10959,
+      "gpt-4o": 10885,
+      "human": 10997,
+      "qwen-2.5": 10988,
+      "qwen-3": 10978
+    },
+    "by_domain": {
+      "composition": 10789,
+      "film review": 29599,
+      "news": 29758,
+      "paper": 9987,
+      "question answer": 29071
+    },
+    "csv_files": 50,
+    "license_status": "未声明；仅按用户明确授权存入私有仓库"
+  },
+  "Fast-DetectGPT": {
+    "raw_files": 24,
+    "text_entries_by_role": {
+      "original": 7850,
+      "sampled": 7850
+    },
+    "unique_normalized_texts": 15124,
+    "license_status": "代码MIT；第三方语料许可未逐一核实，私有归档"
+  }
+}

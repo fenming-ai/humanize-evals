@@ -4,7 +4,7 @@
     "revision": "b90072cd218b6ebdbd1d1478ce6e439677f18192",
     "license_api": null,
     "role": "reference",
-    "decision": "未发现LICENSE文件且README未声明数据复用许可；仅登记50个CSV文件，不复制正文。README自报128610条，尚未读取CSV核实。",
+    "decision": "用户明确授权复制到私有仓库；复用许可未声明，不推断公开再分发授权；50个CSV仅为来源检测原始数据，不计入正式改写集。",
     "available_data_files": [
       "benchmark data/composition/CReD_composition_claude-3.5-haiku.csv",
       "benchmark data/composition/CReD_composition_deepseek-r1.csv",
@@ -57,7 +57,897 @@
       "benchmark data/question answer/CReD_question_answer_qwen-2.5.csv",
       "benchmark data/question answer/CReD_question_answer_qwen-3.csv"
     ],
-    "imported_files": []
+    "imported_files": [
+      {
+        "path": "data/reference/c-red/README.md",
+        "sha256": "14ab31a34b0c2ccfe59ccddc51faa5f952d8571fa825715f00f1801991f8d211",
+        "bytes": 3163,
+        "rows": null,
+        "columns": null
+      },
+      {
+        "path": "data/reference/c-red/benchmark data/composition/CReD_composition_claude-3.5-haiku.csv",
+        "sha256": "e8b767a27efe0c81b085ac1c3707f0426090017686dc12de8442f2d5cbf6fda7",
+        "bytes": 2419408,
+        "rows": 1081,
+        "columns": [
+          "id",
+          "text",
+          "label",
+          "type",
+          "length",
+          "attribution",
+          "composition_title",
+          "original_id",
+          "prompt"
+        ]
+      },
+      {
+        "path": "data/reference/c-red/benchmark data/composition/CReD_composition_deepseek-r1.csv",
+        "sha256": "cb977c507be5f6eb45cc44ed633d40995e3e577dc6c90cb6a080531b5a94a9ac",
+        "bytes": 3396434,
+        "rows": 1081,
+        "columns": [
+          "id",
+          "text",
+          "label",
+          "type",
+          "length",
+          "attribution",
+          "composition_title",
+          "original_id",
+          "prompt"
+        ]
+      },
+      {
+        "path": "data/reference/c-red/benchmark data/composition/CReD_composition_deepseek-v3.csv",
+        "sha256": "7f4bc0f34c1c6d42cd0ba9e5b626d95f4a1ba1eb8a57cd24e028feae78e5d08f",
+        "bytes": 3128460,
+        "rows": 1080,
+        "columns": [
+          "id",
+          "text",
+          "label",
+          "type",
+          "length",
+          "attribution",
+          "composition_title",
+          "original_id",
+          "prompt"
+        ]
+      },
+      {
+        "path": "data/reference/c-red/benchmark data/composition/CReD_composition_doubao-1.5-pro.csv",
+        "sha256": "6fcc5f1f57e5859d93aeb71f8497e6b7c3dd71130123c8ea8e1b8ace8ead7f58",
+        "bytes": 3225792,
+        "rows": 1078,
+        "columns": [
+          "id",
+          "text",
+          "label",
+          "type",
+          "length",
+          "attribution",
+          "composition_title",
+          "original_id",
+          "prompt"
+        ]
+      },
+      {
+        "path": "data/reference/c-red/benchmark data/composition/CReD_composition_gemini-2.5-flash.csv",
+        "sha256": "c6dd271e5dcbac76f034ffaa93b7952cd61f865f138a2c011561798b4c2a97ca",
+        "bytes": 4044254,
+        "rows": 1078,
+        "columns": [
+          "id",
+          "text",
+          "label",
+          "type",
+          "length",
+          "attribution",
+          "composition_title",
+          "original_id",
+          "prompt"
+        ]
+      },
+      {
+        "path": "data/reference/c-red/benchmark data/composition/CReD_composition_gpt-3.5-turbo.csv",
+        "sha256": "828b7f77fc786bec8f29c6ae812e9954a03c455b0a76b768df275fdf8b7871e2",
+        "bytes": 2638208,
+        "rows": 1079,
+        "columns": [
+          "id",
+          "text",
+          "label",
+          "type",
+          "length",
+          "attribution",
+          "composition_title",
+          "original_id",
+          "prompt"
+        ]
+      },
+      {
+        "path": "data/reference/c-red/benchmark data/composition/CReD_composition_gpt-4o.csv",
+        "sha256": "0a884e3c1aac117b2034cb55b29246bc024f68d2d62eecfd23bfeb2b39975e73",
+        "bytes": 3500544,
+        "rows": 1073,
+        "columns": [
+          "id",
+          "text",
+          "label",
+          "type",
+          "length",
+          "attribution",
+          "composition_title",
+          "original_id",
+          "prompt"
+        ]
+      },
+      {
+        "path": "data/reference/c-red/benchmark data/composition/CReD_composition_human.csv",
+        "sha256": "7a22c744dac5bdd3ff4391e71f0351c384f24f7030b554dac48dfb8a185b394e",
+        "bytes": 2943201,
+        "rows": 1081,
+        "columns": [
+          "id",
+          "text",
+          "label",
+          "type",
+          "length",
+          "attribution",
+          "composition_title",
+          "year"
+        ]
+      },
+      {
+        "path": "data/reference/c-red/benchmark data/composition/CReD_composition_qwen-2.5.csv",
+        "sha256": "565d13d79162dce7ced318638e02dbff41b076aaed05f07f4f2bd05a2a7832e5",
+        "bytes": 2722316,
+        "rows": 1081,
+        "columns": [
+          "id",
+          "text",
+          "label",
+          "type",
+          "length",
+          "attribution",
+          "composition_title",
+          "original_id",
+          "prompt"
+        ]
+      },
+      {
+        "path": "data/reference/c-red/benchmark data/composition/CReD_composition_qwen-3.csv",
+        "sha256": "d554af0ae846e1bf7196dd7251c6ae6cc6ff8921dec3751185612c7f05eca7e3",
+        "bytes": 3364431,
+        "rows": 1077,
+        "columns": [
+          "id",
+          "text",
+          "label",
+          "type",
+          "length",
+          "attribution",
+          "composition_title",
+          "original_id",
+          "prompt"
+        ]
+      },
+      {
+        "path": "data/reference/c-red/benchmark data/film review/CReD_film_review_claude-3.5-haiku.csv",
+        "sha256": "517c28351661b8316d95f1d62df94949f6b7847595c00afc4386ad60feff2e2a",
+        "bytes": 2038872,
+        "rows": 2960,
+        "columns": [
+          "id",
+          "text",
+          "label",
+          "type",
+          "length",
+          "attribution",
+          "film_title",
+          "original_id",
+          "prompt"
+        ]
+      },
+      {
+        "path": "data/reference/c-red/benchmark data/film review/CReD_film_review_deepseek-r1.csv",
+        "sha256": "98b5486929211acef4125b5871a37dfb3c6c6b4762b2df359dc523c5a1d92f2c",
+        "bytes": 2295822,
+        "rows": 2960,
+        "columns": [
+          "id",
+          "text",
+          "label",
+          "type",
+          "length",
+          "attribution",
+          "film_title",
+          "original_id",
+          "prompt"
+        ]
+      },
+      {
+        "path": "data/reference/c-red/benchmark data/film review/CReD_film_review_deepseek-v3.csv",
+        "sha256": "8b1cbd49188fdbd770ed190abf9b23f812db78371d472b3acb873619b5acfb86",
+        "bytes": 2265031,
+        "rows": 2960,
+        "columns": [
+          "id",
+          "text",
+          "label",
+          "type",
+          "length",
+          "attribution",
+          "film_title",
+          "original_id",
+          "prompt"
+        ]
+      },
+      {
+        "path": "data/reference/c-red/benchmark data/film review/CReD_film_review_doubao-1.5-pro.csv",
+        "sha256": "00f4b701a011ad6da6eb027850ccf04f31bc80ba9952521545735de38160e30c",
+        "bytes": 1895272,
+        "rows": 2960,
+        "columns": [
+          "id",
+          "text",
+          "label",
+          "type",
+          "length",
+          "attribution",
+          "film_title",
+          "original_id",
+          "prompt"
+        ]
+      },
+      {
+        "path": "data/reference/c-red/benchmark data/film review/CReD_film_review_gemini-2.5-flash.csv",
+        "sha256": "4a81ad82f4e48949d765e4498e31819d7026eed6d2a48cf240ad05fbf93cec54",
+        "bytes": 2391187,
+        "rows": 2960,
+        "columns": [
+          "id",
+          "text",
+          "label",
+          "type",
+          "length",
+          "attribution",
+          "film_title",
+          "original_id",
+          "prompt"
+        ]
+      },
+      {
+        "path": "data/reference/c-red/benchmark data/film review/CReD_film_review_gpt-3.5-turbo.csv",
+        "sha256": "a6974972d668b6ee6d15f1c25942da401403006da64da4b246e948567d93a4e3",
+        "bytes": 2029160,
+        "rows": 2959,
+        "columns": [
+          "id",
+          "text",
+          "label",
+          "type",
+          "length",
+          "attribution",
+          "film_title",
+          "original_id",
+          "prompt"
+        ]
+      },
+      {
+        "path": "data/reference/c-red/benchmark data/film review/CReD_film_review_gpt-4o.csv",
+        "sha256": "b613dca493682bf39af15b64317b57eae61af6ac50e01be5f788454e78a67a56",
+        "bytes": 2231084,
+        "rows": 2960,
+        "columns": [
+          "id",
+          "text",
+          "label",
+          "type",
+          "length",
+          "attribution",
+          "film_title",
+          "original_id",
+          "prompt"
+        ]
+      },
+      {
+        "path": "data/reference/c-red/benchmark data/film review/CReD_film_review_human.csv",
+        "sha256": "74c735b8ec4686fd555bb91898d1b4594f1f28b9b347fc97bae0db8f14316d75",
+        "bytes": 1187422,
+        "rows": 2960,
+        "columns": [
+          "id",
+          "text",
+          "label",
+          "type",
+          "length",
+          "attribution",
+          "film_title"
+        ]
+      },
+      {
+        "path": "data/reference/c-red/benchmark data/film review/CReD_film_review_qwen-2.5.csv",
+        "sha256": "77d4dae3541c6306012b6d3aeaa3f45f0e8f213ea54e6f2bb077bb333b19a3b7",
+        "bytes": 2252431,
+        "rows": 2960,
+        "columns": [
+          "id",
+          "text",
+          "label",
+          "type",
+          "length",
+          "attribution",
+          "film_title",
+          "original_id",
+          "prompt"
+        ]
+      },
+      {
+        "path": "data/reference/c-red/benchmark data/film review/CReD_film_review_qwen-3.csv",
+        "sha256": "7ccf4059fd8ca9503e6bac92539792ca92df5391594df988ad2dffe99eb02486",
+        "bytes": 1940263,
+        "rows": 2960,
+        "columns": [
+          "id",
+          "text",
+          "label",
+          "type",
+          "length",
+          "attribution",
+          "film_title",
+          "original_id",
+          "prompt"
+        ]
+      },
+      {
+        "path": "data/reference/c-red/benchmark data/news/CReD_news_claude-3.5-haiku.csv",
+        "sha256": "b4d98fcfc5ac5ceab261e5a4e155ea2fef5c03429dbc80d21f4cbae05ca55345",
+        "bytes": 4988075,
+        "rows": 2999,
+        "columns": [
+          "id",
+          "text",
+          "label",
+          "type",
+          "length",
+          "attribution",
+          "news_title",
+          "news_category",
+          "original_id",
+          "prompt"
+        ]
+      },
+      {
+        "path": "data/reference/c-red/benchmark data/news/CReD_news_deepseek-r1.csv",
+        "sha256": "33d0075747245f5bff3b3acdf3c402e3d0210e81f9696f02e06e7bb2fc6b3bf5",
+        "bytes": 5399644,
+        "rows": 2969,
+        "columns": [
+          "id",
+          "text",
+          "label",
+          "type",
+          "length",
+          "attribution",
+          "news_title",
+          "news_category",
+          "original_id",
+          "prompt"
+        ]
+      },
+      {
+        "path": "data/reference/c-red/benchmark data/news/CReD_news_deepseek-v3.csv",
+        "sha256": "4028167e37acb5379a476ecc78a5c65e19578e5ab5673a47ebf5b19e48bd7607",
+        "bytes": 5012182,
+        "rows": 2999,
+        "columns": [
+          "id",
+          "text",
+          "label",
+          "type",
+          "length",
+          "attribution",
+          "news_title",
+          "news_category",
+          "original_id",
+          "prompt"
+        ]
+      },
+      {
+        "path": "data/reference/c-red/benchmark data/news/CReD_news_doubao-1.5-pro.csv",
+        "sha256": "8a6640f830356b382e9b0afb5e7d9d61ae7c3e9a8857a68b5fa42f3b30e831c3",
+        "bytes": 4980963,
+        "rows": 2966,
+        "columns": [
+          "id",
+          "text",
+          "label",
+          "type",
+          "length",
+          "attribution",
+          "news_title",
+          "news_category",
+          "original_id",
+          "prompt"
+        ]
+      },
+      {
+        "path": "data/reference/c-red/benchmark data/news/CReD_news_gemini-2.5-flash.csv",
+        "sha256": "5ba96ee5bc80179f0728977f4d9eb42c37f038acf9c950cd88b97f43c602aa76",
+        "bytes": 6175029,
+        "rows": 2846,
+        "columns": [
+          "id",
+          "text",
+          "label",
+          "type",
+          "length",
+          "attribution",
+          "news_title",
+          "news_category",
+          "original_id",
+          "prompt"
+        ]
+      },
+      {
+        "path": "data/reference/c-red/benchmark data/news/CReD_news_gpt-3.5-turbo.csv",
+        "sha256": "33a8a4653505864d25c0346873f91c3ad32348dd6d1b2efa9d68e0efbc74a60e",
+        "bytes": 5241518,
+        "rows": 2997,
+        "columns": [
+          "id",
+          "text",
+          "label",
+          "type",
+          "length",
+          "attribution",
+          "news_title",
+          "news_category",
+          "original_id",
+          "prompt"
+        ]
+      },
+      {
+        "path": "data/reference/c-red/benchmark data/news/CReD_news_gpt-4o.csv",
+        "sha256": "00ca9625b5f57f3aa1ce235375661b21fcc0aecf318d99208c43f70d4293bc0c",
+        "bytes": 6575977,
+        "rows": 2988,
+        "columns": [
+          "id",
+          "text",
+          "label",
+          "type",
+          "length",
+          "attribution",
+          "news_title",
+          "news_category",
+          "original_id",
+          "prompt"
+        ]
+      },
+      {
+        "path": "data/reference/c-red/benchmark data/news/CReD_news_human.csv",
+        "sha256": "30aec5cadcc4bb8b28cf267bf1cc23f1f763fa1083bc0c80f6d2d65af147e3be",
+        "bytes": 3791165,
+        "rows": 3000,
+        "columns": [
+          "id",
+          "text",
+          "label",
+          "type",
+          "length",
+          "attribution",
+          "news_title",
+          "news_category"
+        ]
+      },
+      {
+        "path": "data/reference/c-red/benchmark data/news/CReD_news_qwen-2.5.csv",
+        "sha256": "5bcc3c3eadc532ea7d4bb8583d94dfd91b59f249c38a3936f89afc48ade54436",
+        "bytes": 5233962,
+        "rows": 2995,
+        "columns": [
+          "id",
+          "text",
+          "label",
+          "type",
+          "length",
+          "attribution",
+          "news_title",
+          "news_category",
+          "original_id",
+          "prompt"
+        ]
+      },
+      {
+        "path": "data/reference/c-red/benchmark data/news/CReD_news_qwen-3.csv",
+        "sha256": "9d59244e12cb486793134391572a9bfb7117e9ed199669a7e64dcc2bd7da93aa",
+        "bytes": 5375114,
+        "rows": 2999,
+        "columns": [
+          "id",
+          "text",
+          "label",
+          "type",
+          "length",
+          "attribution",
+          "news_title",
+          "news_category",
+          "original_id",
+          "prompt"
+        ]
+      },
+      {
+        "path": "data/reference/c-red/benchmark data/paper/CReD_paper_claude-3.5-haiku.csv",
+        "sha256": "d5759379b1db4ac674a14ef61ebc255f9e5b973abcfa838000c92fc0e2198122",
+        "bytes": 2532886,
+        "rows": 1000,
+        "columns": [
+          "id",
+          "text",
+          "label",
+          "type",
+          "length",
+          "attribution",
+          "extra_text",
+          "paper_title",
+          "keyword",
+          "category",
+          "original_id",
+          "prompt"
+        ]
+      },
+      {
+        "path": "data/reference/c-red/benchmark data/paper/CReD_paper_deepseek-r1.csv",
+        "sha256": "4685da4d97caad4487b3ff5a751d4e081988bd47eef99562f80f539b1ff45fb5",
+        "bytes": 3073358,
+        "rows": 999,
+        "columns": [
+          "id",
+          "text",
+          "label",
+          "type",
+          "length",
+          "attribution",
+          "extra_text",
+          "paper_title",
+          "keyword",
+          "category",
+          "original_id",
+          "prompt"
+        ]
+      },
+      {
+        "path": "data/reference/c-red/benchmark data/paper/CReD_paper_deepseek-v3.csv",
+        "sha256": "3803f676cf28ea718347fb55de13bbbf570225384b40bf50e7cb326e7dd3f89d",
+        "bytes": 2855065,
+        "rows": 1000,
+        "columns": [
+          "id",
+          "text",
+          "label",
+          "type",
+          "length",
+          "attribution",
+          "extra_text",
+          "paper_title",
+          "keyword",
+          "category",
+          "original_id",
+          "prompt"
+        ]
+      },
+      {
+        "path": "data/reference/c-red/benchmark data/paper/CReD_paper_doubao-1.5-pro.csv",
+        "sha256": "24316dcecb70f737c12efd306231b088d262e86c895c352d33e30fb9681db371",
+        "bytes": 2852460,
+        "rows": 999,
+        "columns": [
+          "id",
+          "text",
+          "label",
+          "type",
+          "length",
+          "attribution",
+          "extra_text",
+          "paper_title",
+          "keyword",
+          "category",
+          "original_id",
+          "prompt"
+        ]
+      },
+      {
+        "path": "data/reference/c-red/benchmark data/paper/CReD_paper_gemini-2.5-flash.csv",
+        "sha256": "d78f000b78cc94e31f2c2615246a7933b4c78a2ae90b3ded84a01780522e3d05",
+        "bytes": 3634800,
+        "rows": 998,
+        "columns": [
+          "id",
+          "text",
+          "label",
+          "type",
+          "length",
+          "attribution",
+          "extra_text",
+          "paper_title",
+          "keyword",
+          "category",
+          "original_id",
+          "prompt"
+        ]
+      },
+      {
+        "path": "data/reference/c-red/benchmark data/paper/CReD_paper_gpt-3.5-turbo.csv",
+        "sha256": "3acf6f2ee28ba6b26bd97ec1dccec91f3d0eafc54e5bfc93ec43cccfb8b5fc61",
+        "bytes": 2462513,
+        "rows": 991,
+        "columns": [
+          "id",
+          "text",
+          "label",
+          "type",
+          "length",
+          "attribution",
+          "extra_text",
+          "paper_title",
+          "keyword",
+          "category",
+          "original_id",
+          "prompt"
+        ]
+      },
+      {
+        "path": "data/reference/c-red/benchmark data/paper/CReD_paper_gpt-4o.csv",
+        "sha256": "7e32e1c3c2f2ea8a2d83fcbe4952d2b72a4d2b7bd6dc9b24e65e64196679363e",
+        "bytes": 3019964,
+        "rows": 1000,
+        "columns": [
+          "id",
+          "text",
+          "label",
+          "type",
+          "length",
+          "attribution",
+          "extra_text",
+          "paper_title",
+          "keyword",
+          "category",
+          "original_id",
+          "prompt"
+        ]
+      },
+      {
+        "path": "data/reference/c-red/benchmark data/paper/CReD_paper_human.csv",
+        "sha256": "55e347b6d9e1e6df9dadaaf0c5c121052159da23b0d79c708fbdf2683b9d2918",
+        "bytes": 1811850,
+        "rows": 1000,
+        "columns": [
+          "id",
+          "text",
+          "label",
+          "type",
+          "length",
+          "attribution",
+          "extra_text",
+          "paper_title",
+          "keyword",
+          "category",
+          "year"
+        ]
+      },
+      {
+        "path": "data/reference/c-red/benchmark data/paper/CReD_paper_qwen-2.5.csv",
+        "sha256": "1b480ab161447ac806819a2e15ea033caaee9c5951b386e2dec0054eb6502bd8",
+        "bytes": 2667297,
+        "rows": 1000,
+        "columns": [
+          "id",
+          "text",
+          "label",
+          "type",
+          "length",
+          "attribution",
+          "extra_text",
+          "paper_title",
+          "keyword",
+          "category",
+          "original_id",
+          "prompt"
+        ]
+      },
+      {
+        "path": "data/reference/c-red/benchmark data/paper/CReD_paper_qwen-3.csv",
+        "sha256": "0a76d3e6ba56999338a09ae1ccb346021b0e1553620bdfdd1ce237596e01d0e4",
+        "bytes": 2968455,
+        "rows": 1000,
+        "columns": [
+          "id",
+          "text",
+          "label",
+          "type",
+          "length",
+          "attribution",
+          "extra_text",
+          "paper_title",
+          "keyword",
+          "category",
+          "original_id",
+          "prompt"
+        ]
+      },
+      {
+        "path": "data/reference/c-red/benchmark data/question answer/CReD_question_answer_claude-3.5-haiku.csv",
+        "sha256": "3ed65e168e78f571fb01dbb276bbfd2d3b2946debb69532c059256a78691af1b",
+        "bytes": 4425743,
+        "rows": 2954,
+        "columns": [
+          "id",
+          "text",
+          "label",
+          "type",
+          "length",
+          "attribution",
+          "question_title",
+          "original_id",
+          "prompt"
+        ]
+      },
+      {
+        "path": "data/reference/c-red/benchmark data/question answer/CReD_question_answer_deepseek-r1.csv",
+        "sha256": "0d30186822963a73426823a3ddb9583e6990ec8adff5f3a80ebcb3fe45650493",
+        "bytes": 5139659,
+        "rows": 2869,
+        "columns": [
+          "id",
+          "text",
+          "label",
+          "type",
+          "length",
+          "attribution",
+          "question_title",
+          "original_id",
+          "prompt"
+        ]
+      },
+      {
+        "path": "data/reference/c-red/benchmark data/question answer/CReD_question_answer_deepseek-v3.csv",
+        "sha256": "5d3023558e015b2753c26556115dcb6362179618ed83b58b604a0ec8060f29c8",
+        "bytes": 5217892,
+        "rows": 2943,
+        "columns": [
+          "id",
+          "text",
+          "label",
+          "type",
+          "length",
+          "attribution",
+          "question_title",
+          "original_id",
+          "prompt"
+        ]
+      },
+      {
+        "path": "data/reference/c-red/benchmark data/question answer/CReD_question_answer_doubao-1.5-pro.csv",
+        "sha256": "bb6124c9eb76dded9c1e12a6048970488be6b9752b61f39a89529d94d85a3a79",
+        "bytes": 5064359,
+        "rows": 2939,
+        "columns": [
+          "id",
+          "text",
+          "label",
+          "type",
+          "length",
+          "attribution",
+          "question_title",
+          "original_id",
+          "prompt"
+        ]
+      },
+      {
+        "path": "data/reference/c-red/benchmark data/question answer/CReD_question_answer_gemini-2.5-flash.csv",
+        "sha256": "8c3497689e4223479e8790f8359ac3551b54743dcad4f8ec5e6c01a9b7d37d0a",
+        "bytes": 7012147,
+        "rows": 2719,
+        "columns": [
+          "id",
+          "text",
+          "label",
+          "type",
+          "length",
+          "attribution",
+          "question_title",
+          "original_id",
+          "prompt"
+        ]
+      },
+      {
+        "path": "data/reference/c-red/benchmark data/question answer/CReD_question_answer_gpt-3.5-turbo.csv",
+        "sha256": "a8e9fd7c905add68164ad2e8793d955c45491594702021b00c3578de0734b2fc",
+        "bytes": 4638412,
+        "rows": 2933,
+        "columns": [
+          "id",
+          "text",
+          "label",
+          "type",
+          "length",
+          "attribution",
+          "question_title",
+          "original_id",
+          "prompt"
+        ]
+      },
+      {
+        "path": "data/reference/c-red/benchmark data/question answer/CReD_question_answer_gpt-4o.csv",
+        "sha256": "471c4eca8310aae50ed39ad60f6c45cf17e39d33fd456cff1310877f9328398c",
+        "bytes": 5875635,
+        "rows": 2864,
+        "columns": [
+          "id",
+          "text",
+          "label",
+          "type",
+          "length",
+          "attribution",
+          "question_title",
+          "original_id",
+          "prompt"
+        ]
+      },
+      {
+        "path": "data/reference/c-red/benchmark data/question answer/CReD_question_answer_human.csv",
+        "sha256": "e1373fc339e147821016f770780aaa1987f932487ab795a08f15549ef7a4edd9",
+        "bytes": 3986774,
+        "rows": 2956,
+        "columns": [
+          "id",
+          "text",
+          "label",
+          "type",
+          "length",
+          "attribution",
+          "question_title"
+        ]
+      },
+      {
+        "path": "data/reference/c-red/benchmark data/question answer/CReD_question_answer_qwen-2.5.csv",
+        "sha256": "5ce3dcfec64892c21ab2df2cdb3aec6437a909137cdc83397bd507ca410f6d8f",
+        "bytes": 4818821,
+        "rows": 2952,
+        "columns": [
+          "id",
+          "text",
+          "label",
+          "type",
+          "length",
+          "attribution",
+          "question_title",
+          "original_id",
+          "prompt"
+        ]
+      },
+      {
+        "path": "data/reference/c-red/benchmark data/question answer/CReD_question_answer_qwen-3.csv",
+        "sha256": "80636d515e20dbd90277b95fdfe3ac0818668060e4469176e75db1e2909d098e",
+        "bytes": 5187100,
+        "rows": 2942,
+        "columns": [
+          "id",
+          "text",
+          "label",
+          "type",
+          "length",
+          "attribution",
+          "question_title",
+          "original_id",
+          "prompt"
+        ]
+      }
+    ]
   },
   {
     "repo": "https://github.com/alchaincyf/tramstop-skill",
@@ -99,7 +989,7 @@
     "revision": "971b05202bac2bb504d60c0ac0812fea7a8f7c82",
     "license_api": "MIT",
     "role": "reference",
-    "decision": "仓库MIT代码许可已识别；原始实验数据来自多个第三方语料，未逐一确认数据再分发许可，仅登记raw_data路径，不复制数据正文。",
+    "decision": "用户明确授权复制到私有仓库；代码MIT与第三方数据权利分开记录；原始实验数据和参数完整收录，不计为中文改写验收例。",
     "available_data_files": [
       "exp_gpt3to4/data/pubmed_davinci.raw_data.json",
       "exp_gpt3to4/data/pubmed_gpt-3.5-turbo.raw_data.json",
@@ -126,7 +1016,502 @@
       "exp_main/data/xsum_gpt2-xl.raw_data.json",
       "exp_main/data/xsum_opt-2.7b.raw_data.json"
     ],
-    "imported_files": []
+    "imported_files": [
+      {
+        "path": "data/reference/fast-detect-gpt/LICENSE",
+        "sha256": "3f49eca8e2cff129eb14135d570f98466830fbb8377c18261d43e176084dba48",
+        "bytes": 1071,
+        "rows": null,
+        "columns": null
+      },
+      {
+        "path": "data/reference/fast-detect-gpt/README.md",
+        "sha256": "996ba5321fdf250dca37527386d69398f188c011608e4d3ad5ae00ccadea643a",
+        "bytes": 4082,
+        "rows": null,
+        "columns": null
+      },
+      {
+        "path": "data/reference/fast-detect-gpt/exp_gpt3to4/data/pubmed_davinci.args.json",
+        "sha256": "2531dc2daaeba688f52ac845d43bc53e35448e59a568b385b36d97d3c379ee6e",
+        "bytes": 342,
+        "rows": null,
+        "columns": null
+      },
+      {
+        "path": "data/reference/fast-detect-gpt/exp_gpt3to4/data/pubmed_davinci.raw_data.json",
+        "sha256": "272429b1bde246dadfc281e01ad58bfe0ad598d74e329f74d26b8bf1680547fc",
+        "bytes": 104728,
+        "rows": {
+          "original": 150,
+          "sampled": 150
+        },
+        "columns": [
+          "original",
+          "sampled"
+        ]
+      },
+      {
+        "path": "data/reference/fast-detect-gpt/exp_gpt3to4/data/pubmed_gpt-3.5-turbo.args.json",
+        "sha256": "7156bbd1406db53727bbe7055c4ef511c6df021ed5fac40d9f49658e1f2f5a77",
+        "bytes": 449,
+        "rows": null,
+        "columns": null
+      },
+      {
+        "path": "data/reference/fast-detect-gpt/exp_gpt3to4/data/pubmed_gpt-3.5-turbo.raw_data.json",
+        "sha256": "e01a12da90318c347b743eb3f4c175e99d57101c7052bab27335bf21b5a85d3d",
+        "bytes": 104883,
+        "rows": {
+          "original": 150,
+          "sampled": 150
+        },
+        "columns": [
+          "original",
+          "sampled"
+        ]
+      },
+      {
+        "path": "data/reference/fast-detect-gpt/exp_gpt3to4/data/pubmed_gpt-4.args.json",
+        "sha256": "350ced61041c3ae9eae8f5b9addc46247dc82a3722235ad638990f20bbd9fba2",
+        "bytes": 433,
+        "rows": null,
+        "columns": null
+      },
+      {
+        "path": "data/reference/fast-detect-gpt/exp_gpt3to4/data/pubmed_gpt-4.raw_data.json",
+        "sha256": "4bf0a4f7e641cb3a4fdf1f7911f981a5fa992a28bfff2ac9c454597ea5b661dd",
+        "bytes": 111147,
+        "rows": {
+          "original": 150,
+          "sampled": 150
+        },
+        "columns": [
+          "original",
+          "sampled"
+        ]
+      },
+      {
+        "path": "data/reference/fast-detect-gpt/exp_gpt3to4/data/writing_davinci.args.json",
+        "sha256": "8e7f20056e5c86537c7caca37783f862fdda359c1412635b8ffe6de6fae9d49e",
+        "bytes": 344,
+        "rows": null,
+        "columns": null
+      },
+      {
+        "path": "data/reference/fast-detect-gpt/exp_gpt3to4/data/writing_davinci.raw_data.json",
+        "sha256": "96106c046718dba2b9631f658717ef9192c347e4d28d7669eaa1c6b869166d32",
+        "bytes": 270494,
+        "rows": {
+          "original": 150,
+          "sampled": 150
+        },
+        "columns": [
+          "original",
+          "sampled"
+        ]
+      },
+      {
+        "path": "data/reference/fast-detect-gpt/exp_gpt3to4/data/writing_gpt-3.5-turbo.args.json",
+        "sha256": "c2d85c7e459722360e6adda74cd758a70836e38a59b7b8f631cd0261f2ccf8ff",
+        "bytes": 451,
+        "rows": null,
+        "columns": null
+      },
+      {
+        "path": "data/reference/fast-detect-gpt/exp_gpt3to4/data/writing_gpt-3.5-turbo.raw_data.json",
+        "sha256": "9822aa4df9450b6dac5763f3c2e7c322ee1908232b2dab41501a269455021522",
+        "bytes": 304818,
+        "rows": {
+          "original": 150,
+          "sampled": 150
+        },
+        "columns": [
+          "original",
+          "sampled"
+        ]
+      },
+      {
+        "path": "data/reference/fast-detect-gpt/exp_gpt3to4/data/writing_gpt-4.args.json",
+        "sha256": "f8db3289359e3ef26f4c2492d57d40471e501a58f4e22a7d4c259a560e4a8979",
+        "bytes": 435,
+        "rows": null,
+        "columns": null
+      },
+      {
+        "path": "data/reference/fast-detect-gpt/exp_gpt3to4/data/writing_gpt-4.raw_data.json",
+        "sha256": "e47c9e70f0a954b5d1b520faf4aee74b288fc67a10fbd5e5094d5a658febb660",
+        "bytes": 285008,
+        "rows": {
+          "original": 150,
+          "sampled": 150
+        },
+        "columns": [
+          "original",
+          "sampled"
+        ]
+      },
+      {
+        "path": "data/reference/fast-detect-gpt/exp_gpt3to4/data/xsum_davinci.args.json",
+        "sha256": "c08be2f211b76251d490e693d6742aff7e44a6915504f0f0895dbe9349d39293",
+        "bytes": 338,
+        "rows": null,
+        "columns": null
+      },
+      {
+        "path": "data/reference/fast-detect-gpt/exp_gpt3to4/data/xsum_davinci.raw_data.json",
+        "sha256": "11777968e7fbb7a40584b8f7cf357f35c1dd63f8b869795021db109bf417d1df",
+        "bytes": 282546,
+        "rows": {
+          "original": 150,
+          "sampled": 150
+        },
+        "columns": [
+          "original",
+          "sampled"
+        ]
+      },
+      {
+        "path": "data/reference/fast-detect-gpt/exp_gpt3to4/data/xsum_gpt-3.5-turbo.args.json",
+        "sha256": "a717e3c4b319492019c1a86ffb35ca9d830a6ab7042dd6f57e997b482ac9e4a8",
+        "bytes": 445,
+        "rows": null,
+        "columns": null
+      },
+      {
+        "path": "data/reference/fast-detect-gpt/exp_gpt3to4/data/xsum_gpt-3.5-turbo.raw_data.json",
+        "sha256": "4440425729c649f0f8077f17ab0203dc99221fcb05bded79b4e4fc8fedd80df4",
+        "bytes": 340139,
+        "rows": {
+          "original": 150,
+          "sampled": 150
+        },
+        "columns": [
+          "original",
+          "sampled"
+        ]
+      },
+      {
+        "path": "data/reference/fast-detect-gpt/exp_gpt3to4/data/xsum_gpt-4.args.json",
+        "sha256": "9cce30edfad0191bbc89f777271cac19a018d545ff8817ff76cab8608ebe12aa",
+        "bytes": 429,
+        "rows": null,
+        "columns": null
+      },
+      {
+        "path": "data/reference/fast-detect-gpt/exp_gpt3to4/data/xsum_gpt-4.raw_data.json",
+        "sha256": "b4275bb70331550699bc1867b2c3e244cee4a165cdb24f5eb7e9cef54f05be06",
+        "bytes": 321417,
+        "rows": {
+          "original": 150,
+          "sampled": 150
+        },
+        "columns": [
+          "original",
+          "sampled"
+        ]
+      },
+      {
+        "path": "data/reference/fast-detect-gpt/exp_main/data/squad_gpt-j-6B.args.json",
+        "sha256": "489ea6e54e07c0f9369c7547dd83e7f740bcbf26437a1c660f76ffd271b22d8e",
+        "bytes": 432,
+        "rows": null,
+        "columns": null
+      },
+      {
+        "path": "data/reference/fast-detect-gpt/exp_main/data/squad_gpt-j-6B.raw_data.json",
+        "sha256": "caaef4a7d3c5fa1cc7372872a3586bc9d3d91f21faa470777296bae2e32bd822",
+        "bytes": 573366,
+        "rows": {
+          "original": 300,
+          "sampled": 300
+        },
+        "columns": [
+          "original",
+          "sampled"
+        ]
+      },
+      {
+        "path": "data/reference/fast-detect-gpt/exp_main/data/squad_gpt-neo-2.7B.args.json",
+        "sha256": "8b7bc51ae4db84fe0a9b0234bca3e2b716cce00edac630e4d4544ebe50cbc19c",
+        "bytes": 440,
+        "rows": null,
+        "columns": null
+      },
+      {
+        "path": "data/reference/fast-detect-gpt/exp_main/data/squad_gpt-neo-2.7B.raw_data.json",
+        "sha256": "c4176983a278c382fa38673e78f315a8c7aba0bcdab10bb6422302b7c82ed8d1",
+        "bytes": 579483,
+        "rows": {
+          "original": 300,
+          "sampled": 300
+        },
+        "columns": [
+          "original",
+          "sampled"
+        ]
+      },
+      {
+        "path": "data/reference/fast-detect-gpt/exp_main/data/squad_gpt-neox-20b.args.json",
+        "sha256": "66b19a9861a3547b2e7fef2bf6543cbabf268f006b38c0a2c5c23e713eee43bc",
+        "bytes": 440,
+        "rows": null,
+        "columns": null
+      },
+      {
+        "path": "data/reference/fast-detect-gpt/exp_main/data/squad_gpt-neox-20b.raw_data.json",
+        "sha256": "d55a6d6cec28cad3142e8e6103b137f75b499238af80a0646a67a6dd8494a95c",
+        "bytes": 570254,
+        "rows": {
+          "original": 300,
+          "sampled": 300
+        },
+        "columns": [
+          "original",
+          "sampled"
+        ]
+      },
+      {
+        "path": "data/reference/fast-detect-gpt/exp_main/data/squad_gpt2-xl.args.json",
+        "sha256": "423b83579b8339c8c7d16c7fb965497cb33b0e7d75be5d1d6580bc879887e316",
+        "bytes": 430,
+        "rows": null,
+        "columns": null
+      },
+      {
+        "path": "data/reference/fast-detect-gpt/exp_main/data/squad_gpt2-xl.raw_data.json",
+        "sha256": "42074d84c78887ca7dbef7a837fd33ea86fae65aa388186dd20c83949dfe2f70",
+        "bytes": 583779,
+        "rows": {
+          "original": 300,
+          "sampled": 300
+        },
+        "columns": [
+          "original",
+          "sampled"
+        ]
+      },
+      {
+        "path": "data/reference/fast-detect-gpt/exp_main/data/squad_opt-2.7b.args.json",
+        "sha256": "089309da4c596c2190c535272ce61be1d6aee4f85c52b3b211d6826e5423aa9b",
+        "bytes": 432,
+        "rows": null,
+        "columns": null
+      },
+      {
+        "path": "data/reference/fast-detect-gpt/exp_main/data/squad_opt-2.7b.raw_data.json",
+        "sha256": "4e461c1c962903d0f4988e3280dca5fd55a9452060363f59195777cd84527782",
+        "bytes": 572187,
+        "rows": {
+          "original": 300,
+          "sampled": 300
+        },
+        "columns": [
+          "original",
+          "sampled"
+        ]
+      },
+      {
+        "path": "data/reference/fast-detect-gpt/exp_main/data/writing_gpt-j-6B.args.json",
+        "sha256": "cae0da6f101a43d08f8d4847ccc5bf21d127dfabef46b3830717a209f7cddf0c",
+        "bytes": 436,
+        "rows": null,
+        "columns": null
+      },
+      {
+        "path": "data/reference/fast-detect-gpt/exp_main/data/writing_gpt-j-6B.raw_data.json",
+        "sha256": "9197cef6dcd89a6994114361c31969363e8166c04cfb39dfd78ea97eeb07f1e5",
+        "bytes": 865140,
+        "rows": {
+          "original": 500,
+          "sampled": 500
+        },
+        "columns": [
+          "original",
+          "sampled"
+        ]
+      },
+      {
+        "path": "data/reference/fast-detect-gpt/exp_main/data/writing_gpt-neo-2.7B.args.json",
+        "sha256": "08f80a2d39f98c62230f2e891fd3e76d66c3adcdf04794277bd1de5c972fbf98",
+        "bytes": 444,
+        "rows": null,
+        "columns": null
+      },
+      {
+        "path": "data/reference/fast-detect-gpt/exp_main/data/writing_gpt-neo-2.7B.raw_data.json",
+        "sha256": "bb369cfba0872f83c5fde0a3df4175b1be9b23784fa9f3b31a817a38fb98a658",
+        "bytes": 876227,
+        "rows": {
+          "original": 500,
+          "sampled": 500
+        },
+        "columns": [
+          "original",
+          "sampled"
+        ]
+      },
+      {
+        "path": "data/reference/fast-detect-gpt/exp_main/data/writing_gpt-neox-20b.args.json",
+        "sha256": "3971dc6e4ed89d36003cb5c8c49f234eb82b50be88721c665e612210f4eada27",
+        "bytes": 444,
+        "rows": null,
+        "columns": null
+      },
+      {
+        "path": "data/reference/fast-detect-gpt/exp_main/data/writing_gpt-neox-20b.raw_data.json",
+        "sha256": "2b549db3b1a9b4bbb12dc6c0e473979968783f0c02e4cad35c1fb5633b2b5865",
+        "bytes": 855426,
+        "rows": {
+          "original": 500,
+          "sampled": 500
+        },
+        "columns": [
+          "original",
+          "sampled"
+        ]
+      },
+      {
+        "path": "data/reference/fast-detect-gpt/exp_main/data/writing_gpt2-xl.args.json",
+        "sha256": "06c526606efdb645c906033b0368189c4c63cbc5811423a67783c566995f2ff6",
+        "bytes": 434,
+        "rows": null,
+        "columns": null
+      },
+      {
+        "path": "data/reference/fast-detect-gpt/exp_main/data/writing_gpt2-xl.raw_data.json",
+        "sha256": "29cd8d89b13a5fcff9d0355c06eb4b5a466d2dd5da10db728244a581421a73ac",
+        "bytes": 873764,
+        "rows": {
+          "original": 500,
+          "sampled": 500
+        },
+        "columns": [
+          "original",
+          "sampled"
+        ]
+      },
+      {
+        "path": "data/reference/fast-detect-gpt/exp_main/data/writing_opt-2.7b.args.json",
+        "sha256": "7539136c109629574e2ee8ebd0bbef69537518a9480e8affc54786de1bfb90d6",
+        "bytes": 436,
+        "rows": null,
+        "columns": null
+      },
+      {
+        "path": "data/reference/fast-detect-gpt/exp_main/data/writing_opt-2.7b.raw_data.json",
+        "sha256": "7bd71219231856ee77e69906843353663c25c60fa11977103e0f7bbd286d3eee",
+        "bytes": 824742,
+        "rows": {
+          "original": 500,
+          "sampled": 500
+        },
+        "columns": [
+          "original",
+          "sampled"
+        ]
+      },
+      {
+        "path": "data/reference/fast-detect-gpt/exp_main/data/xsum_gpt-j-6B.args.json",
+        "sha256": "d28fbf2e7242e8f7086ca3f51cdb473fde13346ece361d57fee01e6bea1b29db",
+        "bytes": 430,
+        "rows": null,
+        "columns": null
+      },
+      {
+        "path": "data/reference/fast-detect-gpt/exp_main/data/xsum_gpt-j-6B.raw_data.json",
+        "sha256": "7ddb8fff0a10aa257a330c16047f141eb4975b9b8157a527619bad420a924ae4",
+        "bytes": 916579,
+        "rows": {
+          "original": 500,
+          "sampled": 500
+        },
+        "columns": [
+          "original",
+          "sampled"
+        ]
+      },
+      {
+        "path": "data/reference/fast-detect-gpt/exp_main/data/xsum_gpt-neo-2.7B.args.json",
+        "sha256": "029ff5a2134941c8b3a2bc00f10f71431cb25927fc5459ff597e9d6070738e89",
+        "bytes": 438,
+        "rows": null,
+        "columns": null
+      },
+      {
+        "path": "data/reference/fast-detect-gpt/exp_main/data/xsum_gpt-neo-2.7B.raw_data.json",
+        "sha256": "fc093d8004f64a690290ba13d3380b4ac1dbcc55509e1641f843b4635fc0a54a",
+        "bytes": 915379,
+        "rows": {
+          "original": 500,
+          "sampled": 500
+        },
+        "columns": [
+          "original",
+          "sampled"
+        ]
+      },
+      {
+        "path": "data/reference/fast-detect-gpt/exp_main/data/xsum_gpt-neox-20b.args.json",
+        "sha256": "3bd4b4857c50d9e8c81e090a6865efc0505af6b38094ec19a3023e2d3b707f96",
+        "bytes": 438,
+        "rows": null,
+        "columns": null
+      },
+      {
+        "path": "data/reference/fast-detect-gpt/exp_main/data/xsum_gpt-neox-20b.raw_data.json",
+        "sha256": "06feeae39252f81bb7cbcd569ca97e153ee99a08becf89a599d4218713cd2be3",
+        "bytes": 898917,
+        "rows": {
+          "original": 500,
+          "sampled": 500
+        },
+        "columns": [
+          "original",
+          "sampled"
+        ]
+      },
+      {
+        "path": "data/reference/fast-detect-gpt/exp_main/data/xsum_gpt2-xl.args.json",
+        "sha256": "cad58c767bf05189040ec50597fd8afd019a0ed0577558618cde99d6d188f915",
+        "bytes": 428,
+        "rows": null,
+        "columns": null
+      },
+      {
+        "path": "data/reference/fast-detect-gpt/exp_main/data/xsum_gpt2-xl.raw_data.json",
+        "sha256": "7446b8d8e35196bfa94b7b7ecaab44a36df7fa1bdb7e92603b5bc023b2cfe68a",
+        "bytes": 918952,
+        "rows": {
+          "original": 500,
+          "sampled": 500
+        },
+        "columns": [
+          "original",
+          "sampled"
+        ]
+      },
+      {
+        "path": "data/reference/fast-detect-gpt/exp_main/data/xsum_opt-2.7b.args.json",
+        "sha256": "37bec093b1a86c85089e6e9c13db8982123feeb157ce572099665daf320b20e0",
+        "bytes": 430,
+        "rows": null,
+        "columns": null
+      },
+      {
+        "path": "data/reference/fast-detect-gpt/exp_main/data/xsum_opt-2.7b.raw_data.json",
+        "sha256": "3fc7db932bf7ff6edd16152c95756101b768e9603e2b45dae184f4c73716ea06",
+        "bytes": 910392,
+        "rows": {
+          "original": 500,
+          "sampled": 500
+        },
+        "columns": [
+          "original",
+          "sampled"
+        ]
+      }
+    ]
   },
   {
     "repo": "https://github.com/blader/humanizer",
