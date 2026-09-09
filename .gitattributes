@@ -1,0 +1,3 @@
+# 原始归档保持原字节；不对CSV的CRLF或上游Markdown硬换行作自动修复。
+data/reference/** -text -diff -whitespace
+data/upstream/** -text -diff -whitespace

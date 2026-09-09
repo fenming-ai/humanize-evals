@@ -55,6 +55,9 @@ def validate(cases):
 def run(args):
     cases = rows(args.cases)
     validate(cases)
+    cases = [c for c in cases if c['split'] == args.split and (not args.language or c['language'] == args.language) and (not args.category or c['category'] == args.category)]
+    if not cases:
+        raise ValueError('筛选后无案例')
     if args.limit is not None:
         if args.limit < 1:
             raise ValueError('limit必须为正数')
@@ -125,6 +128,7 @@ def blind(args):
         label = 'V' + str(i + 1).zfill(5)
         key[label] = {k: r[k] for k in ['case_id', 'repeat', 'arm', 'model_requested']}
         key[label]['language'] = r['case']['language']
+        key[label]['split'] = r['case']['split']
         case = {k: v for k, v in r['case'].items() if k not in ['source', 'notes']}
         packet.append({'label': label, 'case': case, 'candidate': r['text']})
         ratings.append({'label': label, 'scores': {k: None for k in RUBRIC['weights']},
@@ -165,11 +169,11 @@ def aggregate(document, key):
             raise ValueError('严重错误必须有证据')
         info = key[label]
         total = sum(RUBRIC['weights'][d] * value / 4 for d, value in scores.items())
-        groups.setdefault((info['language'], info['arm']), []).append((total, bool(errors), scores))
+        groups.setdefault((info.get('split', 'development'), info['language'], info['arm']), []).append((total, bool(errors), scores))
     result = []
-    for (language, arm), items in sorted(groups.items()):
+    for (split, language, arm), items in sorted(groups.items()):
         totals = [v[0] for v in items]
-        result.append({'language': language, 'arm': arm, 'n': len(items),
+        result.append({'split': split, 'language': language, 'arm': arm, 'n': len(items),
                        'score': format(statistics.mean(totals), '.2f'),
                        'stddev': format(statistics.stdev(totals) if len(totals) > 1 else 0, '.2f'),
                        'hard_error_rate_pct': format(100 * sum(v[1] for v in items) / len(items), '.2f'),
@@ -184,6 +188,9 @@ def main():
     sub.add_parser('validate')
     p = sub.add_parser('run')
     p.add_argument('--cases', default=str(ROOT / 'data/cases.jsonl'))
+    p.add_argument('--split', choices=['development', 'holdout'], default='development')
+    p.add_argument('--language', choices=['zh', 'en'])
+    p.add_argument('--category')
     p.add_argument('--arm', required=True)
     p.add_argument('--model', required=True)
     p.add_argument('--skill')
