@@ -129,7 +129,7 @@ def blind(args):
         key[label] = {k: r[k] for k in ['case_id', 'repeat', 'arm', 'model_requested']}
         key[label]['language'] = r['case']['language']
         key[label]['split'] = r['case']['split']
-        case = {k: v for k, v in r['case'].items() if k not in ['source', 'notes']}
+        case = {k: v for k, v in r['case'].items() if k not in ['source', 'notes', 'provenance', 'review_provenance', 'review_status', 'group_id']}
         packet.append({'label': label, 'case': case, 'candidate': r['text']})
         ratings.append({'label': label, 'scores': {k: None for k in RUBRIC['weights']},
                         'evidence': {k: '' for k in RUBRIC['weights']}, 'hard_errors': [], 'hard_error_evidence': ''})

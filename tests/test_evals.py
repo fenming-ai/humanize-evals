@@ -67,7 +67,11 @@ class Pipeline(unittest.TestCase):
     def test_run_blind_score_and_no_overwrite(self):
         with tempfile.TemporaryDirectory() as t:
             base = Path(t) / 'base.jsonl'; blind = Path(t) / 'blind'
-            args = ['run', '--arm', 'baseline', '--model', 'smoke', '--limit', '2', '--repeats', '1', '--out', base, '--command', sys.executable, evals.ROOT / 'tests/echo_adapter.py']
+            case_file = Path(t) / 'cases.jsonl'
+            cases = evals.rows(evals.ROOT / 'data/cases.jsonl')[:2]
+            for case in cases: case['provenance'] = {'generator': 'hidden-origin-label'}
+            case_file.write_text(''.join(json.dumps(case) + '\n' for case in cases))
+            args = ['run', '--cases', case_file, '--arm', 'baseline', '--model', 'smoke', '--limit', '2', '--repeats', '1', '--out', base, '--command', sys.executable, evals.ROOT / 'tests/echo_adapter.py']
             self.assertEqual(self.call(*args).returncode, 0)
             self.assertNotEqual(self.call(*args).returncode, 0)
             self.assertEqual(self.call('blind', '--out', blind, base).returncode, 0)
@@ -81,6 +85,8 @@ class Pipeline(unittest.TestCase):
             self.assertEqual(json.loads(result.stdout)['results'][0]['score'], '75.00')
             packet = evals.read(blind / 'packet.json')
             self.assertNotIn('arm', packet[0]); self.assertNotIn('model_requested', packet[0])
+            self.assertNotIn('provenance', packet[0]['case'])
+            self.assertNotIn('hidden-origin-label', json.dumps(packet))
 
     def test_timeout_invalid_output_and_exit(self):
         for code, timeout in [('import time; time.sleep(2)', '.05'), ('print("invalid")', '2'), ('raise SystemExit(2)', '2')]:
