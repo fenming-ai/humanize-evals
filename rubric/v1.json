@@ -1,0 +1,48 @@
+{
+  "version": "1.0.0",
+  "scale": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "weights": {
+    "facts": 20,
+    "meaning": 15,
+    "coherence": 10,
+    "voice": 10,
+    "emotion": 10,
+    "authenticity": 10,
+    "naturalness": 10,
+    "punctuation": 5,
+    "clarity": 5,
+    "restraint": 5
+  },
+  "labels": {
+    "facts": "事实准确与完整",
+    "meaning": "原意与逻辑",
+    "coherence": "连贯性",
+    "voice": "作者声音",
+    "emotion": "情绪适配",
+    "authenticity": "真实感",
+    "naturalness": "活人感与自然度",
+    "punctuation": "符号与标点",
+    "clarity": "信息清晰与密度",
+    "restraint": "修改克制与任务遵循"
+  },
+  "anchors": {
+    "0": "严重失败，主要目标未达到",
+    "1": "明显问题，需要较大修改",
+    "2": "基本可用，仍需实质修改",
+    "3": "达到要求，没有明显问题",
+    "4": "充分达到要求，有具体证据；无需改的原文可得满分"
+  },
+  "formula": "sum(weight * rating / 4); aggregate before rounding; display two decimals",
+  "hard_errors": [
+    "fabrication",
+    "critical_omission",
+    "meaning_reversal"
+  ],
+  "ranking": "严重错误单列；按语言分榜；分差不等于显著差异"
+}

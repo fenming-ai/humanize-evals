@@ -1,0 +1,9 @@
+{
+  "repo": "https://github.com/ehmo/slopkit",
+  "revision": "b33718bb9283c11b09567dc714f92d90ffb7bd16",
+  "corpus_sha256": "24c999aa71a806a860c1279b18bb7460bb7828092a22a1a82969195fdd0355ba",
+  "total": 88,
+  "language": "English",
+  "path": "data/upstream/slopkit/benchmark-v2.jsonl",
+  "use": "全部88例收录；开发回归，不是留出集。原始output不作为唯一正确答案。"
+}
