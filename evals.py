@@ -52,6 +52,16 @@ def validate(cases):
         raise ValueError('权重必须合计100')
 
 
+def generation_payload(case, skill, contract_mode='explicit'):
+    if contract_mode not in ['explicit', 'legacy']:
+        raise ValueError('未知的输入可见性模式')
+    payload = {k: case.get(k, '') for k in ['id', 'text', 'task', 'material', 'voice', 'language']}
+    payload['skill'] = skill
+    if contract_mode == 'explicit':
+        payload['must_preserve'] = case['must_preserve']
+    return payload
+
+
 def run(args):
     cases = rows(args.cases)
     validate(cases)
@@ -75,10 +85,11 @@ def run(args):
     with out.open('x') as f:
         for c in cases:
             for repeat in range(1, args.repeats + 1):
-                payload = {k: c.get(k, '') for k in ['id', 'text', 'task', 'material', 'voice', 'language']}
-                payload['skill'] = skill
+                payload = generation_payload(c, skill, args.contract_mode)
                 record = {'case_id': c['id'], 'case': c, 'repeat': repeat, 'arm': args.arm,
-                          'model_requested': args.model, 'rubric_version': RUBRIC['version'],
+                          'model_requested': args.model, 'reasoning_effort_requested': args.reasoning_effort,
+                          'contract_mode': args.contract_mode, 'protocol_version': '1.1.0',
+                          'rubric_version': RUBRIC['version'],
                           'skill_sha256': digest(skill.encode()), 'input_sha256': digest(json.dumps(payload, sort_keys=True).encode()),
                           'command': args.command, 'original': args.original}
                 start = time.monotonic()
@@ -107,6 +118,9 @@ def blind(args):
     entries = [r for path in args.files for r in rows(path)]
     if not entries or any(r['status'] != 'ok' for r in entries):
         raise ValueError('记录为空或含失败；不可静默丢弃失败记录')
+    modes = {r.get('contract_mode', 'legacy') for r in entries}
+    if not modes <= {'explicit', 'legacy'} or len(modes) != 1:
+        raise ValueError('各条件输入要求的可见性不一致')
     signatures, seen, cases = {}, set(), {}
     for r in entries:
         token = (r['arm'], r['case_id'], r['repeat'])
@@ -130,7 +144,16 @@ def blind(args):
         key[label]['language'] = r['case']['language']
         key[label]['split'] = r['case']['split']
         case = {k: v for k, v in r['case'].items() if k not in ['source', 'notes', 'provenance', 'review_provenance', 'review_status', 'group_id']}
-        packet.append({'label': label, 'case': case, 'candidate': r['text']})
+        mode = r.get('contract_mode', 'legacy')
+        item = {'label': label, 'case': case, 'candidate': r['text'],
+                'requirements_visibility': 'generator_and_judge' if mode == 'explicit' else 'judge_only'}
+        hints = {k: case.pop(k) for k in ['literal_hints', 'term_hints'] if k in case}
+        if mode == 'legacy':
+            hints['must_preserve'] = case.pop('must_preserve', [])
+        item['review_reference'] = hints
+        key[label]['reasoning_effort_requested'] = r.get('reasoning_effort_requested')
+        key[label]['contract_mode'] = mode
+        packet.append(item)
         ratings.append({'label': label, 'scores': {k: None for k in RUBRIC['weights']},
                         'evidence': {k: '' for k in RUBRIC['weights']}, 'hard_errors': [], 'hard_error_evidence': ''})
     target = Path(args.out)
@@ -193,6 +216,8 @@ def main():
     p.add_argument('--category')
     p.add_argument('--arm', required=True)
     p.add_argument('--model', required=True)
+    p.add_argument('--reasoning-effort', help='记录请求的推理档位，不代表适配器已执行')
+    p.add_argument('--contract-mode', choices=['explicit', 'legacy'], default='explicit')
     p.add_argument('--skill')
     p.add_argument('--out', required=True)
     p.add_argument('--repeats', type=int, default=3)
