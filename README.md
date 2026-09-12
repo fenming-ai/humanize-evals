@@ -1,6 +1,6 @@
 # humanize-evals
 
-中文改写质量评测：比较去套话后是否保住事实、原意、声音，以及表达是否更自然。当前仓库保持私有；无新100分制实测排名，不将旧试验分数换算成新榜。
+中文改写质量评测：比较去套话后是否保住事实、原意、声音，以及表达是否更自然。本仓库公开发布，自有代码采用MIT许可证；无新100分制实测排名，不将旧试验分数换算成新榜。
 
 ## 当前内容
 
@@ -54,8 +54,8 @@ python3 evals.py score --ratings runs/smoke/blind/ratings.json --key runs/smoke/
 | [Tramstop](https://github.com/alchaincyf/tramstop-skill) | 素材与编辑流程参考 | 已收录Markdown规则与示例；版本2f7808859e260ac9eb79bb3836bce1cd3eb2ba2e |
 | [Humanizer](https://github.com/blader/humanizer) | 参赛规则与事实保留机制参考 | 已收录Markdown规则与示例；版本9862685f575c65a8247f90369951df1b3416e3d6 |
 | [kimhons/humanize](https://github.com/kimhons/humanize) | 英文文风规则扫描参考 | 已收录Markdown参考与许可，不作为评分依赖，不直接用于中文排名 |
-| [C-ReD](https://github.com/HeraldofLight/C-ReD) | 中文人类/机器来源检测语料参考 | 已私有归档50个CSV；来源识别不等于编辑质量 |
-| [Fast-DetectGPT](https://github.com/baoguangsheng/fast-detect-gpt) | 机器文本来源检测方法参考 | 已私有归档原始实验数据和参数，未部署模型；不作为唯一质量判据 |
+| [C-ReD](https://github.com/HeraldofLight/C-ReD) | 中文人类/机器来源检测语料参考 | 已收录50个CSV（复用许可未声明）；来源识别不等于编辑质量 |
+| [Fast-DetectGPT](https://github.com/baoguangsheng/fast-detect-gpt) | 机器文本来源检测方法参考 | 已收录原始实验数据和参数（第三方语料许可未逐项核实），未部署模型；不作为唯一质量判据 |
 
 初版仅复制Slopkit；本轮进一步复制公开规则与教学示例，最新明细以[data/sources.json](data/sources.json)为准，不暗示其作者认可本仓库。后续复制第三方文件必须逐项核对许可、保留署名与版本。Skill教学例已被规则使用，不能标为未见测试。自有参赛规则由本地private/加载，不上传内部快照。
 
@@ -71,7 +71,7 @@ python3 evals.py score --ratings runs/smoke/blind/ratings.json --key runs/smoke/
 
 ## 来源清点
 
-8个仓库的版本、可用数据路径、许可判断和152个实际复制文件见[data/sources.json](data/sources.json)。data/reference/保留上游原始字节与许可证；案例、供应方输出、评分历史不能混算数量。C-ReD缺少明确许可，Fast-DetectGPT第三方数据许可尚未逐项核对；用户明确要求复制后，已私有归档两者数据，权利状态继续保留标记。实际条数见[data/raw-inventory.json](data/raw-inventory.json)。
+8个仓库的版本、可用数据路径、许可判断和152个实际复制文件见[data/sources.json](data/sources.json)。data/reference/保留上游原始字节与许可证；案例、供应方输出、评分历史不能混算数量。C-ReD缺少明确许可，Fast-DetectGPT第三方数据许可尚未逐项核对；两者数据最初为私有归档，现随仓库公开保留，权利状态继续保留标记。实际条数见[data/raw-inventory.json](data/raw-inventory.json)。
 
 ## 当前数据规模与使用
 
@@ -87,3 +87,9 @@ python3 evals.py run --language zh --split development --arm baseline --model sm
 ```
 
 完整候选及淘汰记录都保留；超出配额的通过案例作为备用资料，未混进当前500条。旧94条集合保留作历史档案，不与新集合重复计数。
+
+## 许可证
+
+本仓库自有代码采用 [MIT License](LICENSE)。第三方代码、规则、示例、语料及其衍生内容不因本仓库公开而改用MIT许可；其原始许可、署名与版本记录继续保留，详见 [来源清单](data/sources.json)。来源清单与原始资料统计属于冻结数据快照，其中“私有归档”描述导入时的状态；当前公开状态以本节为准。
+
+C-ReD尚未找到明确的复用许可证，Fast-DetectGPT所含第三方语料的许可尚未逐项核实；此状态同样涉及由这些语料选取或衍生的评测案例。仓库公开不代表已取得这些材料的再许可或再分发授权。
